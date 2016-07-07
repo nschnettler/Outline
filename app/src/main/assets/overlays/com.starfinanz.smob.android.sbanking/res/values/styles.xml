@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.__AndroidDevelopers.Light" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@android:color/holo_red_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_red_light</item>
+        <item name="android:colorAccent">@android:color/holo_red_light</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>

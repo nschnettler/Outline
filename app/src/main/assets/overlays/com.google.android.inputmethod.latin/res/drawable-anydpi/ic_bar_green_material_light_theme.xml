@@ -1,0 +1,11 @@
+<!-- SHIFT LOCKED LIGHT -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="10.7dp"
+        android:height="1.7dp"
+        android:viewportWidth="10.7"
+        android:viewportHeight="1.7">
+    <path
+        android:strokeColor="@android:color/holo_blue_dark"
+        android:strokeWidth="0.6"
+        android:pathData="M0.1,0.8h10.5"/>
+</vector>

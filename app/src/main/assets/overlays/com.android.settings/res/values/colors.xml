@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_material_dark">@android:color/holo_green_dark</color>
+    <color name="primary_dark_material_dark">@android:color/holo_green_light</color>
+    <color name="accent_material_dark">@android:color/holo_orange_dark</color>
+
+    <color name="theme_accent">?android:colorAccent</color>
+    <color name="divider_color">#00000000</color>
+
+</resources>

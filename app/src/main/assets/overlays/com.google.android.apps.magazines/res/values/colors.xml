@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Dark -->
+    <color name="app_color_material_dark">@android:color/holo_purple</color>
+    <!-- Primary -->
+    <color name="app_color_material">@android:color/holo_purple</color>
+</resources>

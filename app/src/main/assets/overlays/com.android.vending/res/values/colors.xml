@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Apps / GRÜN -->
+        <!-- Primary -->
+        <color name="play_apps_primary">@android:color/holo_green_light</color>
+        <color name="play_apps_recents">@android:color/holo_green_light</color>
+        <!-- Primary Dark -->
+        <color name="play_apps_secondary">@android:color/holo_green_light</color>
+        <color name="play_apps_primary_disabled">@android:color/holo_green_light</color>
+        <color name="status_bar_apps">@android:color/holo_green_light</color>
+        <color name="status_bar_apps_ent">@android:color/holo_green_light</color>
+
+    <!-- Movies / ROT -->
+        <!-- Primary -->
+        <color name="play_movies_primary">@android:color/holo_red_light</color>
+        <color name="play_movies_recents">@android:color/holo_red_light</color>
+        <!-- Primary Dark -->
+        <color name="play_movies_secondary">@android:color/holo_red_light</color>
+        <color name="play_movies_primary_disabled">@android:color/holo_red_light</color>
+        <color name="status_bar_movies">@android:color/holo_red_light</color>
+
+    <!-- Books / BLAU -->
+        <!-- Primary -->
+        <color name="play_books_primary">@android:color/holo_blue_bright</color>
+        <color name="play_books_recents">@android:color/holo_blue_bright</color>
+        <!-- Primary Dark -->
+        <color name="play_books_secondary">@android:color/holo_blue_bright</color>
+        <color name="play_books_primary_disabled">@android:color/holo_blue_bright</color>
+        <color name="status_bar_books">@android:color/holo_blue_bright</color>
+
+    <!-- Newsstand / LILA-->
+        <!-- Primary -->
+        <color name="play_newsstand_primary">@android:color/holo_purple</color>
+        <color name="play_newsstand_recents">@android:color/holo_purple</color>
+        <!-- Primary Dark -->
+        <color name="play_newsstand_secondary">@android:color/holo_purple</color>
+        <color name="play_newsstand_primary_disabled">@android:color/holo_purple</color>
+        <color name="status_bar_newsstand">@android:color/holo_purple</color>
+
+    <!-- Music / ORANGE-->
+        <!-- Primary -->
+        <color name="play_music_primary">@android:color/holo_orange_light</color>
+        <color name="play_music_recents">@android:color/holo_orange_light</color>
+        <!-- Primary Dark -->
+        <color name="play_music_secondary">@android:color/holo_orange_light</color>
+        <color name="play_music_primary_disabled">@android:color/holo_orange_light</color>
+        <color name="status_bar_music">@android:color/holo_orange_light</color>
+
+    <!-- Start / GRAU -->
+        <!-- Primary -->
+        <color name="play_multi_primary">@android:color/darker_gray</color>
+        <color name="play_multi_recents">@android:color/darker_gray</color>
+        <!-- Primary Dark -->
+        <color name="play_multi_secondary">@android:color/darker_gray</color>
+        <color name="play_multi_primary_disabled">@android:color/darker_gray</color>
+        <color name="status_bar_multi">@android:color/darker_gray</color>
+
+        <!-- Accent -->
+        <color name="material_deep_teal_500">@android:color/darker_gray</color>
+
+        <color name="top_developer">@android:color/holo_green_light</color>
+
+        <color name="action_bar_overlay_end">#00000000</color>
+        <color name="action_bar_overlay_start">#00000000</color>
+        <color name="status_bar_overlay">#00000000</color>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Primary -->
+    <color name="theme_color">@android:color/holo_green_dark</color>
+    <color name="actionbar_background_color">@android:color/holo_green_dark</color>
+    <color name="primary">@android:color/holo_green_dark</color>
+    <color name="dialer_settings_actionbar_background_color">@android:color/holo_green_dark</color>
+
+
+    <!-- Primary dark -->
+    <color name="theme_color_dark">@android:color/holo_green_light</color>
+    <color name="dialer_settings_color_dark">@android:color/holo_green_light</color>
+    <color name="primary_dark">@android:color/holo_green_light</color>
+
+
+    <!-- Accent -->
+    <color name="accent">@android:color/holo_orange_dark</color>
+    <color name="floating_action_button_touch_tint">@android:color/holo_orange_dark</color>
+
+
+    <color name="setting_background_color">#fff8f8f8</color>
+    <color name="actionbar_icon_color">#ffffffff</color>
+    <color name="actionbar_text_color">#ffffffff</color>
+
+</resources>

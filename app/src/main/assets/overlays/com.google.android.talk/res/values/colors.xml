@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary">@android:color/holo_green_light</color>
+    <color name="hangouts_primary_color">@android:color/holo_green_light</color>
+    <color name="indicator_color">@android:color/holo_green_light</color>
+    <color name="quantum_googgreen500">@android:color/holo_green_light</color>
+    <color name="ongoing_hangout_background">@android:color/holo_green_light</color>
+    <color name="quantum_googgreen">@android:color/holo_green_light</color>
+    <color name="outgoing_conversation_bubble_background">@android:color/holo_green_light</color>
+    <color name="outgoing_conversation_bubble_background_otr">@android:color/holo_green_light</color>
+
+    <!-- Primary Dark -->
+    <color name="primary_dark">@android:color/holo_green_light</color>
+    <color name="quantum_googgreen700">@android:color/holo_green_light</color>
+    <color name="alert_dialog_hyperlink">@android:color/holo_green_light</color>
+
+
+    <!-- Accent -->
+    <color name="accent">@android:color/holo_green_light</color>
+    <color name="accent_dark">@android:color/holo_green_light</color>
+    <color name="fab_hangouts_primary_color">@android:color/holo_green_light</color>
+    <color name="accent_light">@android:color/holo_green_light</color>
+    <color name="accent_material_light">@android:color/holo_green_light</color>
+    <color name="accent_material_dark">@android:color/holo_green_light</color>
+    <color name="floating_action_button_unpressed_color">@android:color/holo_green_light</color>
+    <color name="floating_action_button_pressed_color">@android:color/holo_green_light</color>
+
+    <color name="realtimechat_message_text_outgoing">#FFFFFF</color>
+    <!--263238 -->
+</resources>

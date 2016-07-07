@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Dark -->
+    <color name="play_games_theme_status_bar">@android:color/holo_green_light</color>
+    <color name="material_blue_grey_950">@android:color/holo_green_light</color>
+
+    <!-- Primary -->
+    <color name="material_blue_grey_900">@android:color/holo_green_light</color>
+    <color name="play_games_theme_primary">@android:color/holo_green_light</color>
+    <color name="play_games_theme_secondary">@android:color/holo_green_light</color>
+
+
+</resources>

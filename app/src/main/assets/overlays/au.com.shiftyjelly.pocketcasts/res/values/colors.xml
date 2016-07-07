@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="darkColorPrimary">@android:color/holo_red_light</color>
+    <color name="lightColorPrimary">@android:color/holo_red_light</color>
+
+    <!-- Primary Dark -->
+    <color name="darkColorPrimaryDark">@android:color/holo_red_light</color>
+    <color name="lightColorPrimaryDark">@android:color/holo_red_light</color>
+
+    <!-- Accent -->
+    <color name="lightColorAccent">@android:color/holo_red_light</color>
+    <color name="darkColorAccent">@android:color/holo_red_light</color>
+
+
+    <color name="darkSettingsIconColor">@android:color/holo_red_light</color>
+    <color name="lightSettingsIconColor">@android:color/holo_red_light</color>
+
+    <color name="transparent_overlay">#00000000</color>
+</resources>

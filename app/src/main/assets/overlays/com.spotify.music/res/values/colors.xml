@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary -->
+    <color name="cat_grayscale_12">@android:color/holo_green_light</color>
+    <color name="cat_grayscale_15">@android:color/holo_green_light</color>
+
+
+    <!-- Accent -->
+    <color name="cat_dark_green">@android:color/holo_green_light</color>
+    <color name="cat_medium_green">@android:color/holo_green_light</color>
+    <color name="cat_light_green">@android:color/holo_green_light</color>
+    <color name="cat_dark_green_40">@android:color/holo_green_light</color>
+    <color name="cat_medium_green_40">@android:color/holo_green_light</color>
+    <color name="cat_light_green_40">@android:color/holo_green_light</color>
+    <color name="bg_button_light_normal">@android:color/holo_green_light</color>
+
+</resources>

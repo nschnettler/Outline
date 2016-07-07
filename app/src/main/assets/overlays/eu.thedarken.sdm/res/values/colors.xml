@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="primary_statusbar">@android:color/holo_green_light</color>
+    <color name="primary_default">@android:color/holo_green_dark</color>
+
+
+    <color name="primary_background">#ff000000</color> -->
+    <color name="accent_default">@android:color/holo_green_light</color>
+    <color name="red">@android:color/holo_red_light</color>
+</resources>

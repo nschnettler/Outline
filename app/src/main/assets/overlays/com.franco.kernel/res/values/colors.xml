@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="colorPrimary">@android:color/holo_blue_light</color>
+    <!-- Primary Dark -->
+    <color name="colorPrimaryDark">@android:color/holo_blue_light</color>
+    <!-- Accent -->
+    <color name="colorAccent">@android:color/holo_blue_light</color>
+
+    <color name="cardview_dark_background">#ff1a1a1a</color>
+    <color name="background_material_dark">#ff000000</color>
+    <color name="material_grey_850">#ff000000</color>
+</resources>

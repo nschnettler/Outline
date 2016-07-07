@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.CategoryTitle" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="TextAppearance.CategoryTitleText" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

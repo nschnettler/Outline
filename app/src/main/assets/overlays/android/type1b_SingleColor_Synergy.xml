@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AKZENT FARBEN: -->
+        <!-- ROT AKZENT: INDIGO -->
+        <color name="holo_red_dark">#0375a4</color>
+        <!-- INDIGO AKZENT: PINK -->
+        <color name="holo_blue_dark">#0375a4</color>
+        <!-- GRÜN AKZENT: BLAU -->
+        <color name="holo_green_dark">#0375a4</color>
+        <!-- Orange AKZENT: Indigo -->
+        <color name="holo_orange_dark">#0375a4</color>
+</resources>

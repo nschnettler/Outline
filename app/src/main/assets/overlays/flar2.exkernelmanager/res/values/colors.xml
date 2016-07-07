@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Dark -->
+    <color name="colorPrimaryLightDark">@android:color/holo_blue_light</color>
+    <!-- Primary -->
+    <color name="blueapptheme_color">@android:color/holo_blue_light</color>
+</resources>

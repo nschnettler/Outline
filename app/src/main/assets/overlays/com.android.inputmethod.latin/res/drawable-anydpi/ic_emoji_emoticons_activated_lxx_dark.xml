@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="24dp" android:height="24dp" android:gravity="center">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24.0"
+            android:viewportHeight="24.0">
+            <path
+                android:strokeColor="#FFFFFF"
+                android:strokeWidth="0.6"
+                android:pathData="M22,12c0,5.5-4.5,10-10,10S2,17.5,2,12S6.5,2,12,2
+	S22,6.5,22,12 M10,9.5c0,0.8-0.7,1.5-1.5,1.5S7,10.3,7,9.5S7.7,8,8.5,8S10,8.7,10,9.5 M17,9.5c0,0.8-0.7,1.5-1.5,1.5
+	c-0.8,0-1.5-0.7-1.5-1.5S14.7,8,15.5,8C16.3,8,17,8.7,17,9.5 M12,17.2c-1.8,0-3.3-0.7-4.2-1.8L9.2,14c0.5,0.7,1.5,1.2,2.8,1.2
+	s2.3-0.5,2.8-1.2l1.4,1.4C15.3,16.5,13.8,17.2,12,17.2z"/>
+        </vector>
+    </item>
+</layer-list>

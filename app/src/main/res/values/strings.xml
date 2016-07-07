@@ -1,0 +1,10 @@
+<resources>
+    <!-- Theme Name (has to be used for the naming of the apk´s and zips too-->
+    <string name="ThemeName">Outline</string>
+
+    <!-- Name of the theme author -->
+    <string name="ThemeAuthor">Niklas Schnettler (Sh4dowSoul)</string>
+
+    <string name="ThemeType">XML</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="voice_button_icon_tts_loading">@android:color/holo_blue_light</color>
+    <color name="voice_button_border_tts_active1">@android:color/holo_blue_light</color>
+    <color name="quantum_googblue500">@android:color/holo_blue_light</color>
+
+    <color name="voice_button_border_tts_active2">@android:color/holo_blue_light</color>
+    <color name="quantum_googblue700">@android:color/holo_blue_light</color>
+
+    <color name="icon_pressed_blue">@android:color/holo_blue_dark</color>
+    <color name="camera_info_text_dark">@android:color/holo_blue_dark</color>
+   
+    
+    <color name="input_method_color_red">@android:color/holo_blue_dark</color>
+    <color name="voice_timer_color">@android:color/holo_blue_dark</color>
+
+    <color name="quantum_googgreen500">@android:color/holo_blue_light</color>
+
+   
+    <color name="voice_error_color">@android:color/holo_blue_dark</color>
+    <color name="voice_button_back_active">@android:color/holo_blue_dark</color>
+
+    <color name="nav_drawer_header_bg">@android:color/holo_blue_light</color>
+</resources>

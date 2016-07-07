@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mm_dark_blue">@android:color/holo_blue_light</color>
+    <color name="quantum_googblue500">@android:color/holo_blue_light</color>
+    <color name="current_account_banner_bg">@android:color/holo_blue_light</color>
+    <color name="friend_locations_link">@android:color/holo_blue_light</color>
+</resources>
