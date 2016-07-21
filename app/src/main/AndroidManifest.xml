@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.schnettler.sketched"
+    package="com.schnettler.outline"
     android:versionCode="1"
     android:versionName="1.0">
 
-    <application android:label="Outline"
-        android:icon="@drawable/icon"
-        android:hasCode="false">
-        <service android:name="com.schnettler.sketched.Overlay"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.layers.plugins.PICK_OVERLAYS" />
-                <category android:name="Overlay" />
-            </intent-filter>
+    <application android:label="@string/ThemeName"
+        android:icon="@drawable/icon">
 
-        </service>
-
-        <meta-data android:name="Substratum_Enabled" android:value="@string/ThemeAuthor" />
         <meta-data android:name="Substratum_Theme" android:value="@string/ThemeName"/>
         <meta-data android:name="Substratum_Author" android:value="@string/ThemeAuthor"/>
-        <meta-data android:name="Substratum_Mode" android:value="@string/ThemeType"/>
-
-
-
+        <meta-data android:name="Substratum_Legacy" android:value="true" />
 
     </application>
 
