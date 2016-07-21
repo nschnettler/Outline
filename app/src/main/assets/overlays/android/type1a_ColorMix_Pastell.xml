@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PRIMÄR FARBEN: -->
+    <!-- ROT -->
+    <color name="holo_red_light">#d37a7a</color>
+
+    <!-- INDIGO -->
+    <color name="holo_blue_light">#7f97b6</color>
+
+    <!-- GRÜN -->
+    <color name="holo_green_light">#7db694</color>
+
+    <!-- ORANGE -->
+    <color name="holo_orange_light">#f2a56f</color>
+
+    <!-- HELL BLAU -->
+    <color name="holo_blue_bright">#7f97b6</color>
+
+    <!-- LILA -->
+    <color name="holo_purple">#8e8eb2</color>
+
+    <!-- GRAU -->
+    <color name="darker_gray">#69868d</color>
+</resources>
