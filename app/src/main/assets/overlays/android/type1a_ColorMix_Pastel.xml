@@ -5,7 +5,7 @@
     <color name="holo_red_light">#d37a7a</color>
 
     <!-- INDIGO -->
-    <color name="holo_blue_light">#7f97b6</color>
+    <color name="holo_blue_light">#7E8ACD</color>
 
     <!-- GRÜN -->
     <color name="holo_green_light">#7db694</color>
@@ -21,4 +21,7 @@
 
     <!-- GRAU -->
     <color name="darker_gray">#69868d</color>
+
+<!--
+    <color name="holo_blue_light">#7f97b6</color> -->
 </resources>
