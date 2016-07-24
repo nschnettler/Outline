@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DualToneLightTheme">
+        <item name="android:strokeColor">#FFFFFF</item>
+
+    </style>
+    <style name="DualToneDarkTheme">
+        <item name="android:strokeColor">#5a5d5a</item>
+    </style>
+</resources>

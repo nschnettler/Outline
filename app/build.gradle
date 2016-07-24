@@ -8,8 +8,8 @@ android {
         applicationId "com.schnettler.outline"
         minSdkVersion 23
         targetSdkVersion 24
-        versionCode 17
-        versionName "5.0.1 (Substratum Alpha)"
+        versionCode 18
+        versionName "5"
     }
     buildTypes {
         release {
