@@ -20,8 +20,9 @@
     <color name="holo_purple">#8e8eb2</color>
 
     <!-- GRAU -->
-    <color name="darker_gray">#69868d</color>
+    <color name="darker_gray">#8299A4</color>
 
 <!--
+#69868d
     <color name="holo_blue_light">#7f97b6</color> -->
 </resources>
