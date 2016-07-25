@@ -13,7 +13,7 @@
         android:strokeColor="?android:strokeColor"
         android:strokeWidth="0.6"
         android:fillAlpha="0.2"
-        android:fillColor="@android:color/holo_orange_dark"
+        android:fillColor="@android:color/darker_gray"
         android:strokeMiterLimit="10"
         android:pathData="M5,12.3l7,8.7h0l0,0l7-8.7c-0.4-0.3-3-2.4-7-2.4 S5.3,12,5,12.3z" />
 

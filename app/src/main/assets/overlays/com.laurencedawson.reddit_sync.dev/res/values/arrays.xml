@@ -29,6 +29,11 @@
         <item>\#EC407A</item>
         <item>\#AB47BC</item>
         <item>\#78909C</item>
+        <item>\#7E8ACD</item>
+        <item>\#7db694</item>
+        <item>\#f2a56f</item>
+        <item>\#d37a7a</item>
+        <item>\#8e8eb2</item>
 
 
     </string-array>
@@ -61,5 +66,10 @@
         <item>OUTLINE Pink</item>
         <item>OUTLINE Purple</item>
         <item>OUTLINE Blue Grey</item>
+        <item>OUTLINE Indigo (Pastel)</item>
+        <item>OUTLINE Green (Pastel)</item>
+        <item>OUTLINE Orange (Pastel)</item>
+        <item>OUTLINE Red (Pastel9</item>
+        <item>OUTLINE Purple (Pastel)</item>
     </string-array>
 </resources>

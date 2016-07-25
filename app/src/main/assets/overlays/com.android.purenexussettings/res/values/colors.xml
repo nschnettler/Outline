@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="accent_material_light">@android:color/holo_blue_dark</color>
-    <color name="accent_material_dark">@android:color/holo_blue_dark</color>
-    <color name="button_material_dark">@android:color/holo_blue_dark</color>
-    <color name="button_material_light">@android:color/holo_blue_dark</color>
-    <color name="col_accnt">@android:color/holo_blue_dark</color>
-    <color name="cardview_pref_title">@android:color/holo_blue_dark</color>
+    <color name="accent_material_light">@android:color/darker_gray</color>
+    <color name="accent_material_dark">@android:color/darker_gray</color>
+    <color name="button_material_dark">@android:color/darker_gray</color>
+    <color name="button_material_light">@android:color/darker_gray</color>
+    <color name="col_accnt">@android:color/darker_gray</color>
+    <color name="cardview_pref_title">@android:color/darker_gray</color>
 
 
-    <color name="material_deep_teal_200">@android:color/holo_blue_light</color>
-    <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
-    <color name="material_blue_grey_800">@android:color/holo_blue_light</color>
-    <color name="material_blue_grey_900">@android:color/holo_blue_light</color>
-    <color name="material_blue_grey_950">@android:color/holo_blue_light</color>
-    <color name="primary_dark_material_dark">@android:color/holo_blue_light</color>
-    <color name="primary_dark_material_light">@android:color/holo_blue_light</color>
-    <color name="primary_material_dark">@android:color/holo_blue_light</color>
-    <color name="ripple_material_dark">@android:color/holo_blue_light</color>
-    <color name="ripple_material_light">@android:color/holo_blue_light</color>
-    <color name="action_bar_color">@android:color/holo_blue_light</color>
-    <color name="statbar">@android:color/holo_blue_light</color>
-    <color name="buildprop_desc_color">@android:color/holo_blue_light</color>
-    <color name="fab_color">@android:color/holo_blue_light</color>
-    <color name="userpanel_default1">@android:color/holo_blue_light</color>
-    <color name="userpanel_default2">@android:color/holo_blue_light</color>
-    <color name="userpanel_default3">@android:color/holo_blue_light</color>
-    <color name="userpanel_default4">@android:color/holo_blue_light</color>
-    <color name="userpanel_default5">@android:color/holo_blue_light</color>
-    <color name="userpanel_default6">@android:color/holo_blue_light</color>
+    <color name="material_deep_teal_200">@android:color/holo_blue_bright</color>
+    <color name="material_deep_teal_500">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_800">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_900">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_950">@android:color/holo_blue_bright</color>
+    <color name="primary_dark_material_dark">@android:color/holo_blue_bright</color>
+    <color name="primary_dark_material_light">@android:color/holo_blue_bright</color>
+    <color name="primary_material_dark">@android:color/holo_blue_bright</color>
+    <color name="ripple_material_dark">@android:color/holo_blue_bright</color>
+    <color name="ripple_material_light">@android:color/holo_blue_bright</color>
+    <color name="action_bar_color">@android:color/holo_blue_bright</color>
+    <color name="statbar">@android:color/holo_blue_bright</color>
+    <color name="buildprop_desc_color">@android:color/holo_blue_bright</color>
+    <color name="fab_color">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default1">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default2">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default3">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default4">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default5">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default6">@android:color/holo_blue_bright</color>
     
     <color name="fab_ripple">@android:color/white</color>
     <color name="list_background">@android:color/white</color>

@@ -6,7 +6,7 @@
         <color name="material_deep_teal_500">@android:color/holo_red_light</color>
         <color name="quantum_bluegrey700">@android:color/holo_red_light</color>
         <!-- BLAU -->
-        <color name="quantum_lightblue500">@android:color/holo_blue_bright</color>
+        <color name="quantum_lightblue500">@android:color/holo_blue_light</color>
         <!-- GRÜN -->
         <color name="quantum_googgreen500">@android:color/holo_green_light</color>
 
@@ -14,7 +14,7 @@
         <!-- ROT -->
         <color name="status_bar_background">@android:color/holo_red_light</color>
         <!-- BLAU -->
-        <color name="quantum_lightblue700">@android:color/holo_blue_bright</color>
+        <color name="quantum_lightblue700">@android:color/holo_blue_light</color>
         <!-- GRÜN -->
         <color name="quantum_googgreen700">@android:color/holo_green_light</color>
 

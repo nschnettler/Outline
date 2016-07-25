@@ -13,12 +13,17 @@
     <!-- ORANGE -->
     <color name="holo_orange_light">#FFA000</color>
 
-    <!-- HELL BLAU -->
-    <color name="holo_blue_bright">#42A5F5</color>
-
     <!-- LILA -->
     <color name="holo_purple">#AB47BC</color>
 
-    <!-- GRAU -->
-    <color name="darker_gray">#78909C</color>
+
+    <!-- AKZENT FARBEN: -->
+    <!-- ROT AKZENT: INDIGO -->
+    <color name="holo_red_dark">#5C6BC0</color>
+    <!-- INDIGO AKZENT: PINK -->
+    <color name="holo_blue_dark">#EC407A</color>
+    <!-- GRÜN AKZENT: BLAU -->
+    <color name="holo_green_dark">#42A5F5</color>
+    <!-- Orange AKZENT: Indigo -->
+    <color name="holo_orange_dark">#7E8ACD</color>
 </resources>

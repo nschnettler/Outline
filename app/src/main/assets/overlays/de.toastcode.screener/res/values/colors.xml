@@ -8,7 +8,7 @@
     <color name="colorPrimaryDark">@android:color/holo_blue_light</color>
     <color name="primarydark">@android:color/holo_blue_light</color>
     <!-- Accent -->
-    <color name="colorAccent">@android:color/holo_blue_light</color>
+    <color name="colorAccent">@android:color/holo_blue_dark</color>
 
 
 </resources>

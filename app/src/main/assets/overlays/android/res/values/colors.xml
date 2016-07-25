@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary Light -->
-    <color name="primary_material_dark">@android:color/holo_blue_light</color>
-    <color name="notification_icon_bg_color">@android:color/holo_blue_light</color>
-    <color name="material_blue_grey_800">@android:color/holo_blue_light</color>
-    <color name="material_blue_grey_900">@android:color/holo_blue_light</color>
-    <color name="notification_action_color_filter">@android:color/holo_blue_light</color>
-    <color name="system_notification_accent_color">@android:color/holo_blue_light</color>
+    <color name="primary_material_dark">@android:color/holo_blue_bright</color>
+    <color name="notification_icon_bg_color">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_800">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_900">@android:color/holo_blue_bright</color>
+    <color name="notification_action_color_filter">@android:color/holo_blue_bright</color>
+    <color name="system_notification_accent_color">@android:color/holo_blue_bright</color>
 
     <!-- Primary Dark -->
-    <color name="primary_dark_material_dark">@android:color/holo_blue_light</color>
-    <color name="material_blue_grey_950">@android:color/holo_blue_light</color>
+    <color name="primary_dark_material_dark">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_950">@android:color/holo_blue_bright</color>
 
     <!-- Accent -->
-    <color name="accent_material_light">@android:color/holo_blue_dark</color>
-    <color name="accent_material_dark">@android:color/holo_blue_dark</color>
-    <color name="theme_accent">@android:color/holo_blue_dark</color>
-    <color name="material_deep_teal_200">@android:color/holo_blue_dark</color>
-    <color name="material_deep_teal_500">@android:color/holo_blue_dark</color>
-    <color name="battery_saver_mode_color">@android:color/holo_blue_dark</color>
+    <color name="accent_material_light">@android:color/darker_gray</color>
+    <color name="accent_material_dark">@android:color/darker_gray</color>
+    <color name="theme_accent">@android:color/darker_gray</color>
+    <color name="material_deep_teal_200">@android:color/darker_gray</color>
+    <color name="material_deep_teal_500">@android:color/darker_gray</color>
+    <color name="battery_saver_mode_color">@android:color/darker_gray</color>
 
 
 

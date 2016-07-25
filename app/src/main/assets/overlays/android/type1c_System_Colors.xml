@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PRIMÄR FARBEN: -->
+    <!-- ROT -->
+    <color name="holo_red_light">@android:color/holo_blue_bright</color>
+
+    <!-- INDIGO -->
+    <color name="holo_blue_light">@android:color/holo_blue_bright</color>
+
+    <!-- GRÜN -->
+    <color name="holo_green_light">@android:color/holo_blue_bright</color>
+
+    <!-- ORANGE -->
+    <color name="holo_orange_light">@android:color/holo_blue_bright</color>
+
+    <!-- LILA -->
+    <color name="holo_purple">@android:color/holo_blue_bright</color>
+
+
+    <!-- AKZENT FARBEN: -->
+    <!-- ROT AKZENT: INDIGO -->
+    <color name="holo_red_dark">@android:color/darker_gray</color>
+    <!-- INDIGO AKZENT: PINK -->
+    <color name="holo_blue_dark">@android:color/darker_gray</color>
+    <!-- GRÜN AKZENT: BLAU -->
+    <color name="holo_green_dark">@android:color/darker_gray</color>
+    <!-- Orange AKZENT: Indigo -->
+    <color name="holo_orange_dark">@android:color/darker_gray</color>
+</resources>

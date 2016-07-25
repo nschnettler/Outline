@@ -5,7 +5,7 @@
     <!-- Primary Dark -->
     <color name="colorPrimaryDark">@android:color/holo_blue_light</color>
     <!-- Accent -->
-    <color name="colorAccent">@android:color/holo_blue_light</color>
+    <color name="colorAccent">@android:color/holo_blue_dark</color>
 
     <color name="cardview_dark_background">#ff1a1a1a</color>
     <color name="background_material_dark">#ff000000</color>

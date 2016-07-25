@@ -7,7 +7,7 @@
 
 
     <path
-        android:strokeColor="@android:color/holo_blue_dark"
+        android:strokeColor="@android:color/darker_gray"
         android:strokeWidth="0.6"
         android:pathData="M13,1.0700000524520874 L13,9 L20,9
 C20,4.92000007629,16.9500007629,1.55999994278,13,1.07000005245 Z M4,15

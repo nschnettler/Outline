@@ -10,7 +10,7 @@
     <style name="Platform.ThemeOverlay.AppCompat" parent="@android:style/Theme.Material.Light.DarkActionBar" />
     <style name="Platform.ThemeOverlay.AppCompat.Dark" parent="@android:style/Theme.Material.Light.DarkActionBar" />
     <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@android:style/Theme.Material.Light.DarkActionBar">
-        <item name="android:colorForeground">@android:color/holo_blue_dark</item>
+        <item name="android:colorForeground">@android:color/darker_gray</item>
         <item name="android:colorBackground">#ffffffff</item>
         <item name="android:textColorPrimary">#ff1e1e1e</item>
         <item name="isLightTheme">true</item>
