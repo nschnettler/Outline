@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.schnettler.outline"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="substratum.theme.template">
 
-    <application android:label="@string/ThemeName"
-        android:icon="@drawable/icon">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/ThemeName"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
 
-        <meta-data android:name="Substratum_Theme" android:value="@string/ThemeName"/>
-        <meta-data android:name="Substratum_Author" android:value="@string/ThemeAuthor"/>
-        <meta-data android:name="Substratum_Legacy" android:value="true" />
+        <activity android:name=".LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubstratumLauncher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="Substratum_Legacy"
+            android:value="true"/>
+        <meta-data
+            android:name="Substratum_Theme"
+            android:value="@string/ThemeName"/>
+        <meta-data
+            android:name="Substratum_Author"
+            android:value="@string/ThemeAuthor"/>
+        <meta-data
+            android:name="Substratum_Plugin"
+            android:value="1.0.0"/>
 
     </application>
 
