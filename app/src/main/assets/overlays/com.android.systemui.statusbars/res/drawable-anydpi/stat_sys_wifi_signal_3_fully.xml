@@ -14,6 +14,8 @@
         android:strokeColor="?android:strokeColor"
         android:strokeWidth="0.6"
         android:strokeMiterLimit="10"
+        android:fillAlpha="0.2"
+        android:fillColor="?android:strokeColor"
         android:pathData="M3.8,10.7L12,21l0,0l0,0l8.2-10.3 c-0.4-0.3-3.6-2.9-8.2-2.9S4.2,10.4,3.8,10.7z" />
 
 </vector>
