@@ -12,7 +12,7 @@
         <!-- QS Main Background -->
         <color name="system_primary_color">#FFFFFF</color>
         <!-- QS Top Background -->
-        <color name="system_secondary_color">@android:color/holo_blue_light</color>
+        <color name="system_secondary_color">@android:color/holo_blue_bright</color>
         <!-- QS Text Color -->
         <color name="qs_text">#ff000000</color>
         <!-- QS Tile Text Color -->
