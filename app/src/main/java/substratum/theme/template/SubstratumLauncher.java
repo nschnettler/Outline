@@ -48,7 +48,7 @@ public class SubstratumLauncher extends Activity {
 
     private void startAntiPiracyCheck() {
         // TODO: Themers, this is your FOURTH step
-        Log.e("SubstratumAntiPiracyLog", PiracyCheckerUtils.getAPKSignature(this));
+        //Log.e("SubstratumAntiPiracyLog", PiracyCheckerUtils.getAPKSignature(this));
         // COMMENT OUT THE ABOVE LINE ONCE YOU OBTAINED YOUR APK SIGNATURE USING
         // TWO DASHES (LIKE THIS EXACT LINE)
 
