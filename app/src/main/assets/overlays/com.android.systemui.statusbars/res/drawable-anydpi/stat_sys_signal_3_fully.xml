@@ -5,14 +5,18 @@
     android:viewportHeight="24">
 
     <path
-        android:strokeColor="?android:strokeColor"
-        android:strokeWidth="0.6"
-        android:pathData="M3,21h18V3L3,21z" />
-
-    <path
+        android:name="Base"
         android:strokeColor="?android:strokeColor"
         android:strokeWidth="0.6"
         android:fillColor="?android:strokeColor"
         android:fillAlpha="0.2"
-        android:pathData="M16.5,7.5L3,21h13.5V7.5z" />
+        android:pathData="M3,21.2h18v-18L3,21.2z" />
+
+    <path
+        android:name="3Bar"
+        android:strokeColor="?android:strokeColor"
+        android:strokeWidth="0.6"
+        android:fillColor="?android:strokeColor"
+        android:fillAlpha="0.2"
+        android:pathData="M3,21.2h14v-14L3,21.2z" />
 </vector>

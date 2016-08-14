@@ -5,15 +5,18 @@
     android:viewportHeight="24">
 
     <path
+        android:name="Base"
         android:strokeColor="?android:strokeColor"
         android:strokeWidth="0.6"
-        android:pathData="M3,21h18V3L3,21z" />
+        android:fillColor="?android:strokeColor"
+        android:fillAlpha="0.2"
+        android:pathData="M3,21.2h18v-18L3,21.2z" />
 
     <path
+        android:name="1Bar"
         android:strokeColor="?android:strokeColor"
         android:strokeWidth="0.6"
-        android:fillColor="@android:color/darker_gray"
+        android:fillColor="@android:color/holo_red_light"
         android:fillAlpha="0.2"
-        android:pathData="M12,12l-9,9h9V12z" />
-
+        android:pathData="M3,21.2h6v-6L3,21.2z" />
 </vector>
