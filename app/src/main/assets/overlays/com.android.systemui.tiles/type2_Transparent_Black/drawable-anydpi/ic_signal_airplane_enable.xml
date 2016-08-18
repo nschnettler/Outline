@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48.0dip" android:width="48.0dip"
+    android:viewportWidth="48.0" android:viewportHeight="48.0"
+    android:alpha="0.4">
+    <group android:name="ic_signal_airplane"
+        android:translateX="21.9995" android:translateY="25.73401">
+        <group android:name="ic_signal_airplane_pivot"
+            android:translateX="-23.21545" android:translateY="-18.86649">
+            <group android:name="plane"
+                android:translateX="23.481" android:translateY="18.71151">
+                <path android:name="plane_1"
+                    android:strokeColor="#FFFFFF"
+                    android:strokeWidth="1.2"
+                    android:pathData="M 18.9439849854,7.98849487305 c 0.0,0.0 0.0,-4.0 0.0,-4.0 c 0.0,0.0 -16.0,-10.0 -16.0,-10.0 c 0.0,0.0 0.0,-11.0 0.0,-11.0 c 0.0,-1.70001220703 -1.30000305176,-3.0 -3.0,-3.0 c -1.69999694824,0.0 -3.0,1.29998779297 -3.0,3.0 c 0.0,0.0 0.0,11.0 0.0,11.0 c 0.0,0.0 -16.0,10.0 -16.0,10.0 c 0.0,0.0 0.0,4.0 0.0,4.0 c 0.0,0.0 16.0,-5.0 16.0,-5.0 c 0.0,0.0 0.0,11.0 0.0,11.0 c 0.0,0.0 -4.0,3.0 -4.0,3.0 c 0.0,0.0 0.0,3.0 0.0,3.0 c 0.0,0.0 7.0,-2.0 7.0,-2.0 c 0.0,0.0 7.0,2.0 7.0,2.0 c 0.0,0.0 0.0,-3.0 0.0,-3.0 c 0.0,0.0 -4.0,-3.0 -4.0,-3.0 c 0.0,0.0 0.0,-11.0 0.0,-11.0 c 0.0,0.0 16.0,5.0 16.0,5.0 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

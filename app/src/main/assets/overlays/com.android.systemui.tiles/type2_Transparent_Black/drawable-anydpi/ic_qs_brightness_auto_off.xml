@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48.0dip" android:width="48.0dip"
+    android:viewportWidth="24.0" android:viewportHeight="24.0"
+    android:alpha="1.0">
+
+    <path android:name="plane_1"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.6"
+        android:pathData="M9.4,12.5h5.3 M18.7,9.2V5.3h-3.9L12,2.5L9.2,5.3H5.3v3.9L2.5,12l2.8,2.8v3.9h3.9l2.8,2.8l2.8-2.8h3.9v-3.9
+	l2.8-2.8L18.7,9.2z M8.5,15.4l2.7-7.6h1.7l2.7,7.6" />
+
+</vector>

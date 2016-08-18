@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="system_accent_color">@android:color/darker_gray</color>
-    <color name="clear_recent_button_color">@android:color/darker_gray</color>
-    <color name="fab_color">@android:color/darker_gray</color>
-    <color name="clear_recent_button_ripple">@android:color/darker_gray</color>
-
-    <color name="segmented_button_text_inactive">@android:color/darker_gray</color>
-
-
     <!-- QUCIKSETTINGS -->
     <!-- QS Main Background -->
     <color name="system_primary_color">#FFFFFF</color>
-    <!-- QS Top Background -->
-    <color name="system_secondary_color">@android:color/holo_blue_bright</color>
     <!-- QS Text Color -->
     <color name="qs_text">#ff000000</color>
     <!-- QS Tile Text Color -->
     <color name="qs_tile_text">#757575</color>
 
-    <color name="segmented_button_selected">@android:color/darker_gray</color>
     <color name="segmented_button_unselected">#66757575</color>
     <color name="volume_slider_inactive">#757575</color>
     <color name="volume_settings_icon_color">#757575</color>
@@ -28,7 +17,6 @@
     <color name="qs_detail_button">#ff455a64</color>
     <color name="qs_detail_button_white">#8a000000</color>
     <color name="qs_detail_transition">#66000000</color>
-    <color name="qs_detail_progress_track">@android:color/darker_gray</color>
     <color name="data_usage_secondary">#99000000</color>
     <color name="data_usage_graph_track">#33000000</color>
     <color name="data_usage_graph_warning">#de000000</color>
