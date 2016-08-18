@@ -1,26 +1,27 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+    }
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
-
     defaultConfig {
         applicationId "com.schnettler.outline"
         minSdkVersion 23
         targetSdkVersion 24
-        versionCode 27
-        versionName "5 Update 3"
+        versionCode 28
+        versionName "5 Update 4"
     }
     buildTypes {
         def BOOLEAN = "boolean"
         def TRUE = "true"
         def FALSE = "false"
         def ANTI_PIRACY = "ENABLE_ANTI_PIRACY"
-
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
+            versionNameSuffix '-DEBUG'
         }
         release {
             minifyEnabled true
@@ -31,7 +32,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.github.javiersantos:PiracyChecker:0.0.2'
 }
