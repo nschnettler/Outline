@@ -52,4 +52,7 @@
 
 
     <color name="bt_empty_list_view_upcoming_text">#FFFFFF</color>
+
+    <color name="quantum_googred500">@android:color/holo_green_light</color>
+
 </resources>
