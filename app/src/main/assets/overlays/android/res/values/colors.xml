@@ -20,6 +20,8 @@
     <color name="material_deep_teal_500">@android:color/darker_gray</color>
     <color name="battery_saver_mode_color">@android:color/darker_gray</color>
 
+    <color name="switch_thumb_normal_material_light">#ff757575</color>
+
 
 
 </resources>
