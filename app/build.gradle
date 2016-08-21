@@ -21,7 +21,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
-            versionNameSuffix '-DEBUG'
+            versionNameSuffix ' DEBUG ('+ getDate()+')'
         }
         release {
             minifyEnabled true
@@ -35,4 +35,10 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.github.javiersantos:PiracyChecker:0.0.2'
+}
+
+def getDate() {
+    def date = new Date()
+    def formattedDate = date.format('dd.MM HH:mm')
+    return formattedDate
 }
