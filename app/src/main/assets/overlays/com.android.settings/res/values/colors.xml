@@ -5,6 +5,7 @@
     <color name="accent_material_dark">@android:color/darker_gray</color>
 
     <color name="theme_accent">@android:color/darker_gray</color>
+    <color name="switch_accent_color">@android:color/darker_gray</color>
     <color name="divider_color">#00000000</color>
     <color name="switchbar_background_color">@android:color/holo_blue_bright</color>
 
