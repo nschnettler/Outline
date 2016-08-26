@@ -22,6 +22,8 @@
 
     <color name="switch_thumb_normal_material_light">#ff757575</color>
 
+    <color name="system_bar_background_semi_transparent">#00000000</color>
+
 
 
 </resources>
