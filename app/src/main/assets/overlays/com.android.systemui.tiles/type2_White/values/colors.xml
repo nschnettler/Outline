@@ -2,7 +2,7 @@
 <resources>
     <!-- QUCIKSETTINGS -->
     <!-- QS Main Background -->
-    <color name="system_primary_color">#FFFFFF</color>
+    <color name="system_primary_color">#FAFAFA</color>
     <!-- QS Text Color -->
     <color name="qs_text">#ff000000</color>
     <!-- QS Tile Text Color -->
