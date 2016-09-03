@@ -24,4 +24,5 @@
 
     <!-- VOLUME PANEL -->
     <color name="volume_panel_background_color">#FFFFFF</color>
+    <color name="volume_slider_inactive">#FF757575</color><!-- blue grey 200 -->
 </resources>
