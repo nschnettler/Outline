@@ -9,4 +9,7 @@
     <color name="primary_color_dark">@android:color/holo_blue_light</color>
     <color name="dialer_theme_color_dark">@android:color/holo_blue_light</color>
     <color name="letter_tile_light_blue_color_dark">@android:color/holo_blue_light</color>
+
+    <color name="quickcontact_default_photo_tint_color">#757575</color>
+    <color name="quickcontact_default_photo_tint_color_dark">#757575</color>
 </resources>
