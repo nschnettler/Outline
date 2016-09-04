@@ -7,14 +7,9 @@
 
     <path
         android:strokeColor="#FFFFFF"
-        android:strokeWidth="1"
+        android:strokeWidth="1.2"
         android:strokeMiterLimit="10"
-        android:pathData="M10.5,6.1v9.7 M37.5,41.9v-9.7" />
-    <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="1"
-        android:strokeMiterLimit="10"
-        android:pathData="M13.9,6h20.2v36H13.9V6z"
+        android:pathData="M13.9,6h20.2v36H13.9V6z M7.9,5.4v9.7 M40.1,42.6v-9.7"
         android:fillAlpha="0.2"
         android:fillColor="#FFFFFF"/>
 
