@@ -9,12 +9,12 @@
     <dimen name="notification_material_rounded_rect_radius_negative">-2.0dip</dimen>
     <dimen name="notification_padding">4.0dip</dimen>
     <dimen name="notifications_top_padding">8.0dip</dimen>
-    <dimen name="notification_divider_height">2.0dip</dimen>
+    <dimen name="notification_divider_height">0.5dp</dimen>
     <dimen name="speed_bump_height">16.0dip</dimen>
    <dimen name="notification_children_divider_height">1.0dip</dimen>
-    <dimen name="notification_children_padding">2.0dip</dimen>
+    <dimen name="notification_children_padding">4dp</dimen>
     <dimen name="notification_padding_dimmed">0.0dip</dimen>
-    <dimen name="qs_peek_height">8.0dip</dimen>
+    <dimen name="qs_peek_height">0dip</dimen>
     <dimen name="qs_tile_divider_height">1.0dip</dimen>
     <dimen name="recents_task_bar_height">56.0dip</dimen>
 </resources>
