@@ -5,6 +5,6 @@
 
     </style>
     <style name="DualToneDarkTheme">
-        <item name="android:strokeColor">#5a5d5a</item>
+        <item name="android:strokeColor">#99000000</item>
     </style>
 </resources>
