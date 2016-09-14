@@ -10,8 +10,7 @@
         android:strokeColor="?android:strokeColor"
         android:strokeWidth="0.6"
         android:strokeMiterLimit="10"
-        android:pathData="M12,21L23.3,6.9
-	C22.9,6.6,18.5,3,12,3S1.1,6.6,0.7,6.9L12,21L12,21L12,21z" />
+        android:pathData="M12,20.8L23.2,6.9C22.8,6.6,18.4,3,12,3S1.2,6.6,0.8,6.9L12,20.8L12,20.8L12,20.8z" />
     <path
         android:name="3bars"
         android:strokeColor="?android:strokeColor"
@@ -19,7 +18,6 @@
         android:strokeMiterLimit="10"
         android:fillAlpha="0.2"
         android:fillColor="@android:color/holo_red_light"
-        android:pathData="M12,21l8.789-10.967
-	C20.478,9.8,17.056,7,12,7s-8.478,2.8-8.789,3.033L12,21L12,21L12,21z" />
+        android:pathData="M12,20.8l8.7-10.9C20.4,9.7,17,7,12,7s-8.4,2.8-8.7,3L12,20.8L12,20.8L12,20.8z" />
 
 </vector>

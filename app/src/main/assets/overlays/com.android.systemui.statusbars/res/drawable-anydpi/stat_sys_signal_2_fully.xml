@@ -8,7 +8,7 @@
         android:name="Base"
         android:strokeColor="?android:strokeColor"
         android:strokeWidth="0.6"
-        android:pathData="M3,21.2h18v-18L3,21.2z" />
+        android:pathData="M3.4,21H21V3.4L3.4,21z" />
 
     <path
         android:name="2Bar"
@@ -16,5 +16,5 @@
         android:strokeWidth="0.6"
         android:fillColor="?android:strokeColor"
         android:fillAlpha="0.2"
-        android:pathData="M3,21.2h10v-10L3,21.2z" />
+        android:pathData="M3.4,21h9.8v-9.8L3.4,21z" />
 </vector>
