@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="color_primary">@android:color/holo_blue_light</color>
-    <color name="color_primary_dark">@android:color/holo_blue_light</color>
-    <color name="color_primary_light">@android:color/holo_blue_light</color>
+    <color name="colorPrimary">@android:color/holo_blue_light</color>
+    <color name="colorPrimaryDark">@android:color/holo_blue_light</color>
 
+    <color name="green">@android:color/holo_green_light</color>
+    <color name="red">@android:color/holo_red_light</color>
 
-    <color name="fab_normal_pink">@android:color/holo_blue_dark</color>
-    <color name="fab_pressed_pink">@android:color/holo_blue_dark</color>
+    <color name="red_accent">@android:color/holo_red_light</color>
+    <color name="pink_accent">#ff80aa</color>
+    <color name="purple_accent">@android:color/holo_purple</color>
+    <color name="blue_accent">@android:color/holo_blue_light</color>
+    <color name="green_accent">@android:color/holo_green_light</color>
+    <color name="orange_accent">@android:color/holo_orange_light</color>
+    <color name="brown_accent">#8d6e63</color>
+    <color name="grey_accent">#757575</color>
+    <color name="blue_grey_accent">#78909c</color>
+    <color name="teal_accent">#26a69a</color>
 
 </resources>
