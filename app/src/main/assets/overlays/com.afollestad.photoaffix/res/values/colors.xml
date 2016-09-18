@@ -4,6 +4,6 @@
 
     <color name="colorAccent">@android:color/holo_orange_light</color>
     <color name="colorAccentPressed">@android:color/holo_orange_light</color>
-    <color name="colorPrimary">@android:color/holo_blue_bright</color>
-    <color name="colorPrimaryDark">@android:color/holo_blue_bright</color>
+    <color name="colorPrimary">@*android:color/primary_material_light</color>
+    <color name="colorPrimaryDark">@*android:color/primary_material_light</color>
 </resources>

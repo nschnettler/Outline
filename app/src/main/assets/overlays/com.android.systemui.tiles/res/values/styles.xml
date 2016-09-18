@@ -2,8 +2,8 @@
 <resources>
     <!-- QUICKSETTINGS -->
     <style name="systemui_theme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
-        <item name="android:colorForeground">@android:color/darker_gray</item>
-        <item name="android:colorForegroundInverse">@android:color/darker_gray</item>
+        <item name="android:colorForeground">@*android:color/accent_material_light</item>
+        <item name="android:colorForegroundInverse">@*android:color/accent_material_light</item>
         <item name="android:windowShowWallpaper">false</item>
         <item name="android:keySet">8.0dip</item>
     </style>
@@ -23,7 +23,7 @@
     <style name="TextAppearance.Volume.ZenSummary" parent="@style/TextAppearance">
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textColor">@*android:color/accent_material_light</item>
     </style>
 
     <!-- Volume Panel Do not disturb description -->

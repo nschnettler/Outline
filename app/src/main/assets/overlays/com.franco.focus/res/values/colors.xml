@@ -9,7 +9,7 @@
     <color name="accent">@android:color/holo_blue_dark</color>
     <color name="accentDark">@android:color/holo_blue_dark</color>
     <color name="artColor">@android:color/holo_orange_light</color>
-    <color name="awesomeColor">@android:color/holo_blue_bright</color>
+    <color name="awesomeColor">@*android:color/primary_material_light</color>
     <color name="familyColor">@android:color/holo_purple</color>
     <color name="foodColor">@android:color/holo_orange_light</color>
     <color name="funColor">@android:color/holo_orange_light</color>

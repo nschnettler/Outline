@@ -12,7 +12,7 @@
     <path
         android:strokeColor="#FFFFFF"
         android:strokeWidth="0.6"
-        android:fillColor="@android:color/darker_gray"
+        android:fillColor="@*android:color/accent_material_light"
         android:fillAlpha="0.2"
         android:pathData="M13.8,10.2L3,21h10.8V10.2z" />
 </vector>

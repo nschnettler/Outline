@@ -39,20 +39,20 @@
     <color name="red_primary_color_light">@android:color/holo_red_light</color>
 
     <!-- BLUE -->
-    <color name="blue_primary_color">@android:color/holo_blue_bright</color>
-    <color name="blue_primary_color_dark">@android:color/holo_blue_bright</color>
-    <color name="blue_primary_color_light">@android:color/holo_blue_bright</color>
-    <color name="blue">@android:color/holo_blue_bright</color>
-    <color name="blue_accent_color">@android:color/holo_blue_bright</color>
-    <color name="blue_accent_color_light">@android:color/holo_blue_bright</color>
-    <color name="blue_focused">@android:color/holo_blue_bright</color>
+    <color name="blue_primary_color">@*android:color/primary_material_light</color>
+    <color name="blue_primary_color_dark">@*android:color/primary_material_light</color>
+    <color name="blue_primary_color_light">@*android:color/primary_material_light</color>
+    <color name="blue">@*android:color/primary_material_light</color>
+    <color name="blue_accent_color">@*android:color/primary_material_light</color>
+    <color name="blue_accent_color_light">@*android:color/primary_material_light</color>
+    <color name="blue_focused">@*android:color/primary_material_light</color>
 
     <!-- BLUE GREY -->
-    <color name="blue_grey_accent_color">@android:color/darker_gray</color>
-    <color name="blue_grey_accent_color_light">@android:color/darker_gray</color>
-    <color name="blue_grey_primary_color">@android:color/darker_gray</color>
-    <color name="blue_grey_primary_color_dark">@android:color/darker_gray</color>
-    <color name="blue_grey_primary_color_light">@android:color/darker_gray</color>
+    <color name="blue_grey_accent_color">@*android:color/accent_material_light</color>
+    <color name="blue_grey_accent_color_light">@*android:color/accent_material_light</color>
+    <color name="blue_grey_primary_color">@*android:color/accent_material_light</color>
+    <color name="blue_grey_primary_color_dark">@*android:color/accent_material_light</color>
+    <color name="blue_grey_primary_color_light">@*android:color/accent_material_light</color>
 
     <color name="light_text_drawer">#757575</color>
     <color name="light_text">#757575</color>

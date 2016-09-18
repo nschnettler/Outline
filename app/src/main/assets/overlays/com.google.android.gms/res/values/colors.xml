@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary -->
-    <color name="material_blue_grey_800">@android:color/holo_blue_bright</color>
-    <color name="material_blue_grey_900">@android:color/holo_blue_bright</color>
-    <color name="places_ui_search_primary">@android:color/holo_blue_bright</color>
-    <color name="app_invite_window_background">@android:color/holo_blue_bright</color>
-    <color name="profile_header_about_background_color">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_800">@*android:color/primary_material_light</color>
+    <color name="material_blue_grey_900">@*android:color/primary_material_light</color>
+    <color name="places_ui_search_primary">@*android:color/primary_material_light</color>
+    <color name="app_invite_window_background">@*android:color/primary_material_light</color>
+    <color name="profile_header_about_background_color">@*android:color/primary_material_light</color>
     <!-- Primary Dark-->
-    <color name="material_blue_grey_950">@android:color/holo_blue_bright</color>
-    <color name="places_ui_search_primary_dark">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_950">@*android:color/primary_material_light</color>
+    <color name="places_ui_search_primary_dark">@*android:color/primary_material_light</color>
     <!-- Accent -->
-    <color name="material_deep_teal_200">@android:color/darker_gray</color>
-    <color name="material_deep_teal_500">@android:color/darker_gray</color>
+    <color name="material_deep_teal_200">@*android:color/accent_material_light</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
 </resources>

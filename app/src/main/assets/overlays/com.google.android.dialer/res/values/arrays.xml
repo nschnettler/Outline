@@ -8,8 +8,8 @@
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
-        <item>@android:color/darker_gray</item> <!-- Android Akzent -->
-        <item>@android:color/darker_gray</item> <!-- Android Akzent -->
+        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
+        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
@@ -24,8 +24,8 @@
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
-        <item>@android:color/darker_gray</item> <!-- Android Akzent -->
-        <item>@android:color/darker_gray</item> <!-- Android Akzent -->
+        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
+        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
@@ -34,7 +34,7 @@
     </array>
 
     <array name="background_colors">
-        <item>@android:color/darker_gray</item> <!-- Android Akzent -->
+        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_purple</item> <!-- LILA -->
@@ -42,7 +42,7 @@
         <item>@android:color/holo_red_light</item> <!-- ROT -->
     </array>
     <array name="background_colors_dark">
-        <item>@android:color/darker_gray</item> <!-- Android Akzent -->
+        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_purple</item> <!-- LILA -->

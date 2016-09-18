@@ -2,28 +2,28 @@
 <resources>
     <!-- PRIMÄR FARBEN: -->
     <!-- ROT -->
-    <color name="holo_red_light">@android:color/holo_blue_bright</color>
+    <color name="holo_red_light">@*android:color/primary_material_light</color>
 
     <!-- INDIGO -->
-    <color name="holo_blue_light">@android:color/holo_blue_bright</color>
+    <color name="holo_blue_light">@*android:color/primary_material_light</color>
 
     <!-- GRÜN -->
-    <color name="holo_green_light">@android:color/holo_blue_bright</color>
+    <color name="holo_green_light">@*android:color/primary_material_light</color>
 
     <!-- ORANGE -->
-    <color name="holo_orange_light">@android:color/holo_blue_bright</color>
+    <color name="holo_orange_light">@*android:color/primary_material_light</color>
 
     <!-- LILA -->
-    <color name="holo_purple">@android:color/holo_blue_bright</color>
+    <color name="holo_purple">@*android:color/primary_material_light</color>
 
 
     <!-- AKZENT FARBEN: -->
     <!-- ROT AKZENT: INDIGO -->
-    <color name="holo_red_dark">@android:color/darker_gray</color>
+    <color name="holo_red_dark">@*android:color/accent_material_light</color>
     <!-- INDIGO AKZENT: PINK -->
-    <color name="holo_blue_dark">@android:color/darker_gray</color>
+    <color name="holo_blue_dark">@*android:color/accent_material_light</color>
     <!-- GRÜN AKZENT: BLAU -->
-    <color name="holo_green_dark">@android:color/darker_gray</color>
+    <color name="holo_green_dark">@*android:color/accent_material_light</color>
     <!-- Orange AKZENT: Indigo -->
-    <color name="holo_orange_dark">@android:color/darker_gray</color>
+    <color name="holo_orange_dark">@*android:color/accent_material_light</color>
 </resources>

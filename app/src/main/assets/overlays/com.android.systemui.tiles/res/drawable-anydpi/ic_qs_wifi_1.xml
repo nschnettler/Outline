@@ -12,7 +12,7 @@
     <path
         android:strokeColor="#757575"
         android:strokeWidth="0.6"
-        android:fillColor="@android:color/darker_gray"
+        android:fillColor="@*android:color/accent_material_light"
         android:fillAlpha="0.2"
         android:strokeMiterLimit="10"
         android:pathData="M6.8,14.5L12,21v0l0,0l5.2-6.5 c-0.3-0.2-2.2-1.8-5.2-1.8S7.1,14.3,6.8,14.5z" />

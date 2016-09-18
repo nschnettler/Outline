@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- AKZENT FARBEN: -->
-    <color name="darker_gray">#d32f2f</color>
+    <color name="accent_material_light">#d32f2f</color>
 </resources>

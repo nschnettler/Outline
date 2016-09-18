@@ -21,12 +21,12 @@
 
     <!-- Books / BLAU -->
         <!-- Primary -->
-        <color name="play_books_primary">@android:color/holo_blue_bright</color>
-        <color name="play_books_recents">@android:color/holo_blue_bright</color>
+        <color name="play_books_primary">@*android:color/primary_material_light</color>
+        <color name="play_books_recents">@*android:color/primary_material_light</color>
         <!-- Primary Dark -->
-        <color name="play_books_secondary">@android:color/holo_blue_bright</color>
-        <color name="play_books_primary_disabled">@android:color/holo_blue_bright</color>
-        <color name="status_bar_books">@android:color/holo_blue_bright</color>
+        <color name="play_books_secondary">@*android:color/primary_material_light</color>
+        <color name="play_books_primary_disabled">@*android:color/primary_material_light</color>
+        <color name="status_bar_books">@*android:color/primary_material_light</color>
 
     <!-- Newsstand / LILA-->
         <!-- Primary -->
@@ -48,15 +48,15 @@
 
     <!-- Start / GRAU -->
         <!-- Primary -->
-        <color name="play_multi_primary">@android:color/darker_gray</color>
-        <color name="play_multi_recents">@android:color/darker_gray</color>
+        <color name="play_multi_primary">@*android:color/accent_material_light</color>
+        <color name="play_multi_recents">@*android:color/accent_material_light</color>
         <!-- Primary Dark -->
-        <color name="play_multi_secondary">@android:color/darker_gray</color>
-        <color name="play_multi_primary_disabled">@android:color/darker_gray</color>
-        <color name="status_bar_multi">@android:color/darker_gray</color>
+        <color name="play_multi_secondary">@*android:color/accent_material_light</color>
+        <color name="play_multi_primary_disabled">@*android:color/accent_material_light</color>
+        <color name="status_bar_multi">@*android:color/accent_material_light</color>
 
         <!-- Accent -->
-        <color name="material_deep_teal_500">@android:color/darker_gray</color>
+        <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
 
         <color name="top_developer">@android:color/holo_green_light</color>
 

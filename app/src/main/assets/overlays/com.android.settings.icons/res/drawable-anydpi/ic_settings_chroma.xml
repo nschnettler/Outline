@@ -5,7 +5,7 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-        android:strokeColor="@android:color/darker_gray"
+        android:strokeColor="@*android:color/accent_material_light"
         android:strokeWidth="0.6"
         android:pathData="M12,8.1c2.2,0,3.9,1.7,3.9,3.9
 	s-1.7,3.9-3.9,3.9S8.1,14.2,8.1,12S9.8,8.1,12,8.1z M16.5,19.8L21,12l-4.5-7.8h-9L3,12l4.5,7.8H16.5z"/>
