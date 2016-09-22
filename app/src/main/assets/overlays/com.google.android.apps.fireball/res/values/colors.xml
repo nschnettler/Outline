@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary -->
+    <color name="default_theme_action_bar_color">#ffffffff</color> <!-- Light -->
+    <color name="default_theme_status_bar_light_color">#FFFFFF</color> <!-- Dark -->
+    <color name="default_primary_color">@*android:color/holo_orange_light</color>
+
+    <!-- Actionbar text -->
+    <color name="default_theme_action_bar_text_color">#757575</color>
+    <!-- Smiley and mic color -->
+    <color name="default_theme_compose_buttons">#757575</color>
+   <!-- Message status:-->
+    <color name="default_theme_delivery_icon_sending">#757575</color>
+    <color name="default_theme_delivery_icon_sent">#757575</color>
+    <!-- Media picker icon -->
+    <color name="default_theme_media_picker">#757575</color>
+    <color name="gbot_theme_media_picker">#757575</color>
+
+    <!-- Accent color -->
+    <color name="default_theme_send_button">@*android:color/holo_orange_light</color>
+    <color name="default_theme_sticker_tab_active">@*android:color/holo_orange_light</color>
+    <color name="default_theme_delivery_icon_delivered">@*android:color/holo_orange_light</color> <!-- Message status: delivered -->
+    <color name="default_theme_accent_background">@*android:color/holo_orange_light</color>
+    <color name="fab_color">@*android:color/holo_orange_light</color> <!-- FAB Color -->
+
+    <color name="group_custom_avatar_overlay">@*android:color/holo_orange_light</color>
+    <color name="group_name_edittext">@*android:color/holo_orange_light</color>
+    <color name="quantum_cyan600">@*android:color/holo_orange_light</color>
+    <color name="suggested_action_background_startchat">@*android:color/holo_orange_light</color>
+    <color name="default_theme_media_confirmation">@*android:color/holo_orange_light</color>
+    <color name="quantum_cyan800">@*android:color/holo_orange_light</color>
+
+    <color name="quantum_googred500">@*android:color/holo_red_light</color>
+
+    <color name="emoji_category_icon_selected_tint">#757575</color>
+    <color name="emoji_category_icon_unselected_tint">#66757575</color>
+    <color name="emoji_category_page_indicator">@*android:color/holo_orange_light</color>
+    <color name="quantum_bluegrey600">#757575</color>
+    <color name="drawer_icon_tint_color">#757575</color>
+
+    <color name="quantum_googblue500">@*android:color/holo_blue_light</color>
+
+    <!--Message Bubbles -->
+        <!-- BOT CHAT -->
+            <!-- Incomming -->
+            <color name="gbot_theme_message_bubble_incoming">@*android:color/holo_blue_light</color>
+            <color name="gbot_theme_message_bubble_incoming_selected">#757575</color>
+            <color name="gbot_theme_message_bubble_incoming_tapped">@*android:color/holo_blue_light</color>
+            <!-- Outgoing -->
+            <color name="gbot_theme_message_bubble_outgoing">@*android:color/holo_orange_light</color>
+            <color name="gbot_theme_message_bubble_outgoing_selected">#757575</color>
+            <color name="gbot_theme_message_bubble_outgoing_tapped">@*android:color/holo_orange_light</color>
+        <!-- Normal Chat -->
+            <!-- Incomming -->
+            <color name="message_bubble_color_incoming">@*android:color/holo_purple</color>
+            <color name="message_bubble_color_incoming_selected">#757575</color>
+            <color name="message_bubble_color_incoming_tapped">@*android:color/holo_purple</color>
+            <!-- Outgoing -->
+            <color name="message_bubble_color_outgoing">@*android:color/holo_orange_light</color>
+            <color name="message_bubble_color_outgoing_selected">#757575</color>
+            <color name="message_bubble_color_outgoing_tapped">@*android:color/holo_orange_light</color>
+</resources>
