@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- ActionBar / Primary -->
-    <color name="play_music_primary">@android:color/holo_orange_light</color>
-    <color name="play_music_primary_disabled">@android:color/holo_orange_light</color>
-    <color name="tutorial_action_item">@android:color/holo_orange_light</color>
+    <color name="play_music_primary">@*android:color/holo_orange_light</color>
+    <color name="play_music_primary_disabled">@*android:color/holo_orange_light</color>
+    <color name="tutorial_action_item">@*android:color/holo_orange_light</color>
+    <color name="play_music_primary_v2">@*android:color/holo_orange_light</color>
+    <color name="app_color">@*android:color/holo_orange_light</color>
+    <color name="app_color_primary">@*android:color/holo_orange_light</color>
+    <color name="app_color_secondary">@*android:color/holo_orange_light</color>
 
     <!-- StatusBar / Primary Dark -->
     <color name="play_music_primary_dark">@android:color/holo_orange_light</color>
@@ -12,4 +16,7 @@
 
     <!-- Downloaded Only Banner -->
     <color name="music_banner_color">@android:color/holo_orange_light</color>
+
+
+    <color name="app_color_accented">@*android:color/holo_orange_dark</color>
 </resources>
