@@ -23,6 +23,7 @@
 
     <color name="system_bar_background_semi_transparent">#00000000</color>
 
+    <color name="lock_pattern_view_error_color">@*android:color/holo_red_light</color>
 
 
 </resources>
