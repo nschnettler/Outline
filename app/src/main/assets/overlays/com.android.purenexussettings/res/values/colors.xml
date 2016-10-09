@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="accent_material_light">@android:color/darker_gray</color>
+    <color name="accent_material_dark">@android:color/darker_gray</color>
+    <color name="button_material_dark">@android:color/darker_gray</color>
+    <color name="button_material_light">@android:color/darker_gray</color>
+    <color name="col_accnt">@android:color/darker_gray</color>
+    <color name="cardview_pref_title">@android:color/darker_gray</color>
+
+
+    <color name="material_deep_teal_200">@android:color/holo_blue_bright</color>
+    <color name="material_deep_teal_500">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_800">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_900">@android:color/holo_blue_bright</color>
+    <color name="material_blue_grey_950">@android:color/holo_blue_bright</color>
+    <color name="primary_dark_material_dark">@android:color/holo_blue_bright</color>
+    <color name="primary_dark_material_light">@android:color/holo_blue_bright</color>
+    <color name="primary_material_dark">@android:color/holo_blue_bright</color>
+    <color name="ripple_material_dark">@android:color/holo_blue_bright</color>
+    <color name="ripple_material_light">@android:color/holo_blue_bright</color>
+    <color name="action_bar_color">@android:color/holo_blue_bright</color>
+    <color name="statbar">@android:color/holo_blue_bright</color>
+    <color name="buildprop_desc_color">@android:color/holo_blue_bright</color>
+    <color name="fab_color">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default1">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default2">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default3">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default4">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default5">@android:color/holo_blue_bright</color>
+    <color name="userpanel_default6">@android:color/holo_blue_bright</color>
+    
+    <color name="fab_ripple">@android:color/white</color>
+    <color name="list_background">@android:color/white</color>
+    <color name="bg_mat_dark">@android:color/white</color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/white</color>
+    <color name="foreground_material_dark">@android:color/white</color>
+    <color name="background_material_dark">@android:color/white</color>
+    <color name="background_material_light">@android:color/white</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="alphawhite">@android:color/background_dark</color>
+    <color name="cardlayout_bg">#ffffffff</color>
+    <color name="material_grey_800">#757575</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_input_method_navigation_guard">@android:color/black</color>
+    <color name="foreground_material_light">@android:color/black</color>
+    <color name="switch_thumb_normal_material_dark">#ff797979</color>
+    <color name="switch_thumb_normal_material_light">#ff797979</color>
+    <color name="bright_foreground_disabled_material_dark">#80000000</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="primary_text_default_material_light">#ff1e1e1e</color>
+    <color name="secondary_text_default_material_light">#ff262626</color>
+    <color name="primary_text_default_material_dark">#ff1e1e1e</color>
+    <color name="secondary_text_default_material_dark">#ff262626</color>
+    <color name="primary_text_disabled_material_light">#24000000</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="primary_text_disabled_material_dark">#24000000</color>
+    <color name="secondary_text_disabled_material_dark">#24000000</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_50">#fffafafa</color>
+    <color name="list_background_pressed">#ff555555</color>
+    <color name="list_background_activated">#ff777777</color>
+    <color name="list_divider">#ffeeeeee</color>
+    <color name="widget_background">#80ffffff</color>
+    <color name="widget_title_background">#90ffffff</color>
+    <color name="widget_item_background">#80ffffff</color>
+    <color name="widget_title_text_color">#ff1e1e1e</color>
+    <color name="widget_divider">#a0eeeeee</color>
+    <color name="alphagray">#ffcbcbcb</color>
+    <color name="background_floating_material_dark">@android:color/white</color>
+    <color name="material_grey_900">@android:color/background_dark</color>
+    <color name="material_grey_850">@android:color/background_dark</color>
+    <color name="material_grey_600">@android:color/background_dark</color>
+    <color name="design_snackbar_background_color">@android:color/background_dark</color>
+    <color name="cardview_light_background">#ffeeeeee</color>
+    <color name="cardview_dark_background">#ffeeeeee</color>
+    <color name="highlighted_text_material_dark">#64000000</color>
+    <color name="highlighted_text_material_light">#64000000</color>
+    <color name="list_item_title">#ff1e1e1e</color>
+    
+    <color name="transcol">#00000000</color>
+    <color name="navdrawer_cat_text">#ff1e1e1e</color>
+    <color name="navdrawer_cat_border">#ffcccccc</color>
+    <color name="navdrawer_cat_bg">#ffffffff</color>
+    
+    <color name="userpanel_border">#ff888888</color>
+   
+</resources>
