@@ -1,9 +1,0 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
-/app/src/main/assets/overlays/com.laurencedawson.reddit_sync
-/app/src/main/assets/overlays/com.laurencedawson.reddit_sync.pro
