@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Platform.ThemeOverlay.AppCompat" parent="@android:style/Theme.Material.Light.DarkActionBar">
-        <item name="android:colorControlNormal">@android:color/holo_blue_dark</item>
-        <item name="android:colorControlActivated">@android:color/holo_orange_dark</item>
+        <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="android:colorControlActivated">?android:attr/textColorPrimary</item>
         <item name="android:colorButtonNormal">?android:colorButtonNormal</item>
         <item name="android:colorControlHighlight">#ffffffff</item>
-        <item name="android:colorPrimary">@android:color/holo_green_dark</item>
-        <item name="android:colorPrimaryDark">@android:color/holo_green_light</item>
-        <item name="android:colorAccent">@android:color/holo_orange_dark</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_material_light</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
     </style>
     <style name="Platform.ThemeOverlay.AppCompat.Dark" parent="@android:style/Theme.Material.Light.DarkActionBar" />
     <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@android:style/Theme.Material.Light.DarkActionBar">
-        <item name="android:colorForeground">@android:color/holo_blue_dark</item>
+        <item name="android:colorForeground">@*android:color/accent_material_light</item>
         <item name="android:colorBackground">#ffffffff</item>
         <item name="android:textColorPrimary">#ff1e1e1e</item>
         <item name="android:colorBackgroundCacheHint">#95ffffff</item>
-        <item name="android:colorControlNormal">@android:color/holo_blue_dark</item>
-        <item name="android:colorControlHighlight">@android:color/holo_orange_dark</item>
+        <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="android:colorControlHighlight">?android:attr/selectableItemBackground</item>
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@android:style/Theme.Material.Light.DarkActionBar">

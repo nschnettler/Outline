@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_fade_edge">0dp</dimen>
+    <dimen name="button_elevation_material">0dp</dimen>
+   
+</resources>
