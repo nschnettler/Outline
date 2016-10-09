@@ -22,5 +22,10 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+    </style>
 
 </resources>
