@@ -12,4 +12,11 @@
     <!-- Accent -->
     <color name="material_deep_teal_200">@*android:color/accent_material_light</color>
     <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
+
+
+
+    <color name="quantum_lightblue700">@*android:color/primary_material_light</color>
+    <color name="material_light_blue_700">@*android:color/primary_material_light</color>
+    <color name="material_light_blue_500">@*android:color/primary_material_light</color>
+    <color name="quantum_lightblue500">@*android:color/primary_material_light</color>
 </resources>
