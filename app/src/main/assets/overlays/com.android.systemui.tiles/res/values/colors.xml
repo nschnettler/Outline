@@ -1,43 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="system_accent_color">@*android:color/accent_material_light</color>
-    <color name="clear_recent_button_color">@*android:color/accent_material_light</color>
-    <color name="fab_color">@*android:color/accent_material_light</color>
-    <color name="clear_recent_button_ripple">@*android:color/accent_material_light</color>
 
-    <color name="segmented_button_text_inactive">@*android:color/accent_material_light</color>
+<!-- Für alle -->
+        <color name="system_accent_color">@*android:color/accent_material_light</color>
+        <color name="clear_recent_button_color">@*android:color/accent_material_light</color>
+        <color name="fab_color">@*android:color/accent_material_light</color>
+        <color name="clear_recent_button_ripple">@*android:color/accent_material_light</color>
 
-
-    <!-- QS Top Background -->
-    <color name="system_secondary_color">@*android:color/primary_material_light</color>
-
-    <color name="qs_detail_progress_track">@*android:color/accent_material_light</color>
-    <color name="segmented_button_selected">@*android:color/accent_material_light</color>
+        <color name="segmented_button_text_inactive">@*android:color/accent_material_light</color>
 
 
+        <!-- QS Top Background -->
+        <color name="system_secondary_color">@*android:color/primary_material_light</color>
 
-<!-- WHITE VERSION -->
-    <!-- QS Main Background -->
-    <color name="system_primary_color">#FAFAFA</color>
-    <!-- QS Text Color -->
-    <color name="qs_text">#ff000000</color>
-    <!-- QS Tile Text Color -->
-    <color name="qs_tile_text">#757575</color>
+        <color name="qs_detail_progress_track">@*android:color/accent_material_light</color>
+        <color name="segmented_button_selected">@*android:color/accent_material_light</color>
 
-    <color name="segmented_button_unselected">#66757575</color>
-    <color name="qs_subhead">#80000000</color>
-    <color name="qs_detail_empty">#24455a64</color>
-    <color name="qs_detail_button">#757575</color>
-    <color name="qs_detail_button_white">#8a000000</color>
-    <color name="qs_detail_transition">#66000000</color>
-    <color name="data_usage_secondary">#757575</color>
-    <color name="data_usage_graph_track">#33757575</color>
-    <color name="data_usage_graph_warning">#de000000</color>
-    <color name="qs_user_detail_icon_muted">#de000000</color>
 
-    <!-- VOLUME PANEL -->
-    <color name="volume_panel_background_color">#FFFFFF</color>
-    <color name="volume_slider_inactive">#FF757575</color><!-- blue grey 200 -->
-    <color name="volume_settings_icon_color">#757575</color>
-    <color name="volume_icon_color">#757575</color>
+
+<!-- Pixel Black Version -->
+        <!-- QS Main Background -->
+        <color name="system_primary_color">#ff2d2d2d</color>
+        <!-- VOLUME PANEL -->
+        <color name="volume_panel_background_color">#2d2d2d</color>
 </resources>
