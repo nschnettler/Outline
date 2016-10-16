@@ -5,12 +5,15 @@
 
     <color name="deep_gray">#b3757575</color>
 
-    <color name="twitter_blue">@android:color/holo_blue_light</color>
-    <color name="twitter_blue_50">@android:color/holo_blue_light</color>
-    <color name="twitter_blue_opacity_50">@android:color/holo_blue_light</color>
-    <color name="deep_transparent_twitter_blue">@android:color/holo_blue_light</color>
-    <color name="deep_blue">@android:color/holo_blue_light</color>
-    <color name="seamful_text_blue">@android:color/holo_blue_light</color>
+    <color name="twitter_blue">@*android:color/holo_blue_light</color>
+    <color name="twitter_blue_50">@*android:color/holo_blue_light</color>
+    <color name="twitter_blue_opacity_50">@*android:color/holo_blue_light</color>
+    <color name="deep_transparent_twitter_blue">@*android:color/holo_blue_light</color>
+    <color name="deep_blue">@*android:color/holo_blue_light</color>
+    <color name="seamful_text_blue">@*android:color/holo_blue_light</color>
+    <color name="link">@*android:color/holo_blue_light</color>
+    <color name="link_selected">@*android:color/holo_blue_light</color>
+    <color name="text_blue">@*android:color/holo_blue_light</color>
 
     <color name="switch_thumb_normal_material_light">#757575</color>
 </resources>
