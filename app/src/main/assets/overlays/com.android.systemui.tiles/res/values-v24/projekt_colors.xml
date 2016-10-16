@@ -17,22 +17,8 @@
 
 <resources>
 
-
-    <!-- QS alarm status text color -->
-    <color name="qs_alarm_status_text_color">#b2757575</color>
-
-    <!-- QS edit page toolbar text color -->
-    <color name="qs_edit_toolbar_text_color">#757575</color>
-
-    <!-- QS edit button text color -->
-    <color name="qs_edit_button_text_color">#757575</color>
-
-
     <!-- QS battery % text color -> Should be accent -->
     <color name="qs_battery_text_color">@*android:color/accent_material_light</color>
-
-    <!-- QS battery graph text color -> Text below battery Graph-->
-    <color name="qs_battery_graph_text_color">#66757575</color>
 
     <!-- QS battery accent color -> Should be accent -->
     <color name="qs_battery_accent">@*android:color/accent_material_light</color>
