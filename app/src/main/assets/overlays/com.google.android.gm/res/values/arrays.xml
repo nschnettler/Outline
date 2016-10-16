@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="letter_tile_colors">
+        <item>@*android:color/holo_red_light</item> <!-- ROT-->
+        <item>@*android:color/holo_red_light</item> <!-- ROT-->
+        <item>@*android:color/holo_purple</item> <!-- LILA-->
+        <item>@*android:color/holo_purple</item> <!-- LILA-->
+        <item>@*android:color/holo_purple</item> <!-- LILA-->
+        <item>@*android:color/holo_blue_light</item> <!-- INDIGO-->
+        <item>@*android:color/holo_blue_light</item> <!-- INDIGO-->
+        <item>@*android:color/holo_blue_light</item> <!-- INDIGO-->
+        <item>@*android:color/holo_blue_light</item> <!-- INDIGO-->
+        <item>@*android:color/accent_material_light</item> <!-- ACCENT-->
+        <item>@*android:color/accent_material_light</item> <!-- ACCENT-->
+        <item>@*android:color/holo_green_light</item> <!-- GRÜN-->
+        <item>@*android:color/holo_green_light</item> <!-- GRÜN-->
+        <item>@*android:color/holo_green_light</item> <!-- GRÜN-->
+        <item>@*android:color/holo_orange_light</item> <!-- ORANGE-->
+        <item>@*android:color/holo_orange_light</item> <!-- ORANGE-->
+        <item>@*android:color/holo_orange_light</item> <!-- ORANGE-->
+        <item>#757575</item>
+        <item>#757575</item>
+        <item>#757575</item>
+    </array>
+
+    <array name="domain_fallback_colors">
+        <item>@*android:color/holo_orange_light</item> <!-- ORANGE-->
+        <item>@*android:color/holo_orange_light</item> <!-- ORANGE-->
+        <item>@*android:color/holo_red_light</item> <!-- ROT-->
+        <item>@*android:color/holo_red_light</item> <!-- ROT-->
+        <item>#757575</item>
+        <item>@*android:color/holo_purple</item> <!-- LILA-->
+        <item>@*android:color/holo_purple</item> <!-- LILA-->
+        <item>@*android:color/holo_blue_light</item> <!-- INDIGO-->
+        <item>@*android:color/accent_material_light</item> <!-- ACCENT-->
+        <item>@*android:color/holo_green_light</item> <!-- GRÜN-->
+    </array>
+    <array name="google_account_letter_tile_colors">
+        <item>@*android:color/holo_orange_light</item> <!-- ORANGE-->
+        <item>@*android:color/holo_green_light</item> <!-- GRÜN-->
+        <item>@*android:color/holo_red_light</item> <!-- ROT-->
+        <item>@*android:color/holo_orange_light</item> <!-- ORANGE-->
+        <item>@*android:color/holo_blue_light</item> <!-- INDIGO-->
+    </array>
+
+</resources>
