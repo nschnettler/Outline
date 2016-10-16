@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#303030</color>
+    <color name="toolbar_bg_color">#212121</color>
+    <color name="status_bar_color">#212121</color>
+    <color name="border_color">#303030</color>
+    <color name="section_divider_color">#303030</color>
+    <color name="focused_bg">#212121</color>
+</resources>
