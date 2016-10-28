@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_primary">@android:color/holo_green_light</color>
+
+
+    <color name="theme_accent_1">@android:color/holo_blue_dark</color>
+    <color name="theme_accent_2">#757575</color>
+
+
+    <color name="gray_background">#FAFAFA</color>
+
+    <color name="theme_primary_light">@android:color/holo_blue_light</color>
+    <color name="theme_primary_dark">@android:color/holo_blue_light</color>
+    <color name="theme_accent_1_light">@android:color/holo_blue_dark</color>
+</resources>
