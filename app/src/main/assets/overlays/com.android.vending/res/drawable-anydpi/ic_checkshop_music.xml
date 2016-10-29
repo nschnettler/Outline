@@ -4,7 +4,9 @@
     android:width="16dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
-    <path android:strokeColor="#757575"
+    <path android:strokeColor="@android:color/holo_orange_light"
         android:strokeWidth="0.6"
-        android:pathData="M12,13A5,5 0 0,1 7,8H9A3,3 0 0,0 12,11A3,3 0 0,0 15,8H17A5,5 0 0,1 12,13M12,3A3,3 0 0,1 15,6H9A3,3 0 0,1 12,3M19,6H17A5,5 0 0,0 12,1A5,5 0 0,0 7,6H5C3.89,6 3,6.89 3,8V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V8C21,6.89 20.1,6 19,6Z" />
+        android:pathData="M16.5,8.8c0,2.5-2,4.5-4.5,4.5 M12,13.4
+	c-2.5,0-4.5-2-4.5-4.5 M16.5,7h-9 M18.3,7h-1.8c0-2.5-2-4.5-4.5-4.5S7.5,4.5,7.5,7H5.7c-1,0-1.8,0.8-1.8,1.8v10.9
+	c0,1,0.8,1.8,1.8,1.8h12.7c1,0,1.8-0.8,1.8-1.8V8.8C20.1,7.8,19.3,7,18.3,7z" />
 </vector>
