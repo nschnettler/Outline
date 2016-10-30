@@ -21,4 +21,5 @@
     <color name="cinnabar">@*android:color/holo_red_light</color> <!-- Crime Rot -->
     <color name="alto">#757575</color> <!-- Other Grau -->
 
+    <color name="agenda_highlighted_background">#E0E0E0</color>
 </resources>
