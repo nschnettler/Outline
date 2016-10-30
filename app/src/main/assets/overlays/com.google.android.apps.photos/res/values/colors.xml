@@ -4,4 +4,18 @@
     <color name="quantum_googblue500">@android:color/holo_blue_light</color>
     <color name="current_account_banner_bg">@android:color/holo_blue_light</color>
     <color name="friend_locations_link">@android:color/holo_blue_light</color>
+
+    <color name="cpe_top_marker">@android:color/holo_blue_light</color>
+    <color name="cpe_strength_trackbar_foreground_color">@android:color/holo_blue_light</color>
+    <color name="cpe_old_inset_thumb_color">@android:color/holo_blue_light</color>
+    <color name="cpe_look_list_item_selected">@android:color/holo_blue_light</color>
+    <color name="cpe_highlighted_tick_marks">@android:color/holo_blue_light</color>
+    <color name="quantum_googblue700">@android:color/holo_blue_light</color>
+
+
+    <color name="quantum_googredA200">@android:color/holo_red_light</color>
+    <color name="quantum_vanillaredA200">@android:color/holo_red_light</color>
+    <color name="quantum_deeppurple500">@android:color/holo_purple</color>
+    <color name="quantum_lightblueA200">@android:color/holo_blue_light</color>
+    <color name="quantum_lightgreen500">@android:color/holo_green_light</color>
 </resources>
