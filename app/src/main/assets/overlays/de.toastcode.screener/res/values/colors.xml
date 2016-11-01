@@ -3,12 +3,13 @@
     <!-- Primary -->
     <color name="primary">@android:color/holo_blue_light</color>
     <color name="colorPrimary">@android:color/holo_blue_light</color>
-    <!-- Primary Dark -->
-    <color name="primary_dark">@android:color/holo_blue_light</color>
-    <color name="colorPrimaryDark">@android:color/holo_blue_light</color>
+    <color name="colorPrimaryDark">@android:color/holo_blue_light</color> <!-- DARK -->
     <color name="primarydark">@android:color/holo_blue_light</color>
+    <color name="colorPrimaryLight">@android:color/holo_blue_light</color>
+
     <!-- Accent -->
     <color name="colorAccent">@android:color/holo_blue_dark</color>
+    <color name="accent">@android:color/holo_blue_dark</color>
 
-
+    <color name="material_deep_teal_200">@android:color/holo_blue_dark</color>
 </resources>

@@ -1,28 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="default_color_choice_values">
-        <item>\#5070af</item>
-        <item>\#2d3956</item>
-        <item>\#d8656e</item>
-        <item>\#673ab7</item>
-        <item>\#3f51b5</item>
-        <item>\#2196f3</item>
-        <item>\#03a9f4</item>
-        <item>\#00bcd4</item>
-        <item>\#009688</item>
-        <item>\#4caf50</item>
-        <item>\#8bc34a</item>
-        <item>\#cddc39</item>
-        <item>\#ffeb3b</item>
-        <item>\#ffc107</item>
-        <item>\#ff9800</item>
-        <item>\#ff5722</item>
-        <item>\#795548</item>
-        <item>\#9e9e9e</item>
-        <item>\#607d8b</item>
-        <item>\#ffffff</item>
-        <item>\#000000</item>
-        <item>\#00FFFFFF</item>
-        <item>\#eeeeee</item>
+
+        <item>\#d37a7a</item> <!-- Rot -->          <!--Pastel -->
+        <item>\#EF5350</item> <!-- Rot -->          <!--Outline -->
+        <item>\#d32f2f</item> <!-- Rot -->          <!--Material -->
+
+
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+
+
+        <item>\#3F51b5</item> <!-- Blau -->         <!--Material -->
+        <item>\#5C6BC0</item> <!-- Blau -->         <!--Outline -->
+        <item>\#7E8ACD</item> <!-- Blau -->         <!--Pastel -->
+
+
+        <item>\#7db694</item> <!-- Grün -->         <!--Pastel -->
+        <item>\#66BB6A</item> <!-- Grün -->         <!--Outline -->
+        <item>\#54b775</item> <!-- Grün -->         <!--Material -->
+
+
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+
+
+        <item>\#ff9800</item> <!-- Orange -->       <!--Material -->
+        <item>\#FFA000</item> <!-- Orange -->       <!--Outline -->
+        <item>\#f2a56f</item> <!-- Orange -->       <!--Pastel -->
+
+
+        <item>\#8e8eb2</item> <!-- Lila -->
+        <item>\#AB47BC</item> <!-- Lila -->
+        <item>\#9C27B0</item> <!-- Lila -->
+
+
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+
+
+        <item>\#E91E63</item> <!-- Pink -->         <!--Material -->
+        <item>\#EC407A</item> <!-- Pink -->         <!--Outline -->
+
+
+        <item>\#42A5F5</item> <!-- Blau Hell-->
+        <item>\#2196F3</item> <!-- Blau Hell-->
+
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+
+        <item>\#263238</item> <!-- Stock Nexus -->
+        <item>\#2D2D2D</item> <!-- Stock Pixel -->
+
+        <item>\#0375a4</item> <!-- Synergy -->          <!--User -->
+        <item>\#2D3956</item> <!-- Bluewood -->          <!--User -->
+
+        <item>\#FFFFFF</item> <!-- Weiß -->
+        <item>\#FFFFFF</item> <!-- Weiß -->
+
+        <item>\#eeeeee</item> <!-- Weiß 2 -->
+        <item>\#00FFFFFF</item> <!-- Transparent -->
+        <item>\#757575</item> <!-- Grau -->
+        <item>\#000000</item> <!-- Schwarz -->
+
     </string-array>
 </resources>
