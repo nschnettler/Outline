@@ -15,7 +15,7 @@
         <item>@android:color/holo_green_light</item> <!-- Grün Fugly-->
         <item>@android:color/holo_orange_light</item> <!-- Orange-->
         <item>@android:color/holo_orange_light</item> <!-- Orange Neon-->
-        <item>#ff757575</item> <!-- GRAU -->
+        <item>@android:color/darker_gray</item> <!-- GRAU -->
     </array>
     <array name="letter_tile_colors_dark">
         <item>@android:color/holo_red_light</item> <!-- Rot -->
@@ -31,7 +31,7 @@
         <item>@android:color/holo_green_light</item> <!-- Grün Fugly-->
         <item>@android:color/holo_orange_light</item> <!-- Orange-->
         <item>@android:color/holo_orange_light</item> <!-- Orange Neon-->
-        <item>#ff757575</item>
+        <item>@android:color/darker_gray</item> <!-- GRAU -->
     </array>
     <array name="customized_letter_tile_colors">
         <item>@android:color/holo_red_light</item> <!-- Rot -->
@@ -39,8 +39,7 @@
         <item>@android:color/holo_purple</item> <!-- Lila -->
         <item>@android:color/holo_blue_light</item> <!-- Indigo -->
         <item>@android:color/holo_green_light</item> <!-- Grün-->
-        <item>#000000</item>
-        <item>#757575</item>
+        <item>@android:color/darker_gray</item> <!-- GRAU -->
     </array>
     <array name="customized_letter_tile_colors_dark">
         <item>@android:color/holo_red_light</item> <!-- Rot -->
@@ -48,8 +47,7 @@
         <item>@android:color/holo_purple</item> <!-- Lila -->
         <item>@android:color/holo_blue_light</item> <!-- Indigo -->
         <item>@android:color/holo_green_light</item> <!-- Grün-->
-        <item>#000000</item>
-        <item>#757575</item>
+        <item>@android:color/darker_gray</item> <!-- GRAU -->
     </array>
 
 </resources>

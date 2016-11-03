@@ -16,6 +16,8 @@
     <!-- LILA -->
     <color name="holo_purple">#8e8eb2</color>
 
+    <!-- Grau -->
+    <color name="darker_gray">#757575</color>
 
     <!-- AKZENT FARBEN: -->
     <!-- ROT AKZENT: INDIGO -->

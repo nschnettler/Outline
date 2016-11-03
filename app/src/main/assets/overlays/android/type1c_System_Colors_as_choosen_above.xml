@@ -15,7 +15,8 @@
 
     <!-- LILA -->
     <color name="holo_purple">@*android:color/primary_material_light</color>
-
+    <!-- Grau -->
+    <color name="darker_gray">@*android:color/primary_material_light</color>
 
     <!-- AKZENT FARBEN: -->
     <!-- ROT AKZENT: INDIGO -->
