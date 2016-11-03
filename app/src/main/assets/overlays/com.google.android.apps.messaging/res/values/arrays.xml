@@ -39,7 +39,6 @@
         <item>@android:color/holo_purple</item> <!-- Lila -->
         <item>@android:color/holo_blue_light</item> <!-- Indigo -->
         <item>@android:color/holo_green_light</item> <!-- Grün-->
-        <item>@*android:color/primary_material_light</item> <!-- System-->
         <item>#000000</item>
         <item>#757575</item>
     </array>
@@ -49,7 +48,6 @@
         <item>@android:color/holo_purple</item> <!-- Lila -->
         <item>@android:color/holo_blue_light</item> <!-- Indigo -->
         <item>@android:color/holo_green_light</item> <!-- Grün-->
-        <item>@*android:color/primary_material_light</item> <!-- System-->
         <item>#000000</item>
         <item>#757575</item>
     </array>
