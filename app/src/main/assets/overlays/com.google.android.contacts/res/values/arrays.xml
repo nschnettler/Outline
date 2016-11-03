@@ -8,8 +8,6 @@
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
-        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
-        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
@@ -24,8 +22,6 @@
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
-        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
-        <item>@*android:color/accent_material_light</item> <!-- Android Akzent -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
