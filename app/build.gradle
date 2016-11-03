@@ -17,16 +17,20 @@ android {
         def TRUE = "true"
         def FALSE = "false"
         def ANTI_PIRACY = "ENABLE_ANTI_PIRACY"
+        def SUBSTRATE_MODULE = "SUBSTRATE_MODULE"
+
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
+            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, TRUE)
             versionNameSuffix ' ('+ getDate()+')'
         }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
+            buildConfigField(BOOLEAN, SUBSTRATE_MODULE, TRUE)
         }
     }
 }
@@ -35,6 +39,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.github.javiersantos:PiracyChecker:0.0.2'
+    compile project (':substrate')
 }
 
 def getDate() {
