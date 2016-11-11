@@ -9,12 +9,15 @@
     <color name="lightColorPrimaryDark">@android:color/holo_red_light</color>
 
     <!-- Accent -->
-    <color name="lightColorAccent">@android:color/holo_red_light</color>
-    <color name="darkColorAccent">@android:color/holo_red_light</color>
+    <color name="lightColorAccent">@android:color/holo_red_dark</color>
+    <color name="darkColorAccent">@android:color/holo_red_dark</color>
+    <color name="lightColorControlActivated">@android:color/holo_red_dark</color>
+    <color name="button_background">@android:color/holo_red_dark</color>
+    <color name="darkColorControlActivated">@android:color/holo_red_dark</color>
 
 
-    <color name="darkSettingsIconColor">@android:color/holo_red_light</color>
-    <color name="lightSettingsIconColor">@android:color/holo_red_light</color>
+    <color name="darkSettingsIconColor">@android:color/holo_red_dark</color>
+    <color name="lightSettingsIconColor">@android:color/holo_red_dark</color>
 
     <color name="transparent_overlay">#00000000</color>
 </resources>

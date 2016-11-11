@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ccl_prefs_caption_color_values">
+        <item>\#FFFFFF</item>
+        <item>\#000000</item>
+        <item>\#d37a7a</item>
+        <item>\#f2a56f</item>
+        <item>\#7db694</item>
+        <item>\#7E8ACD</item>
+        <item>\#7E8ACD</item>
+        <item>\#8e8eb2</item>
+    </string-array>
+</resources>
