@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance" />
+    <style name="TextAppearance.QS" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- QuickSettings Toolbar text -->
+    <style name="TextAppearance.QS.DetailHeader" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+
+    <!-- QuickSettings time & date text -->
+    <style name="TextAppearance.StatusBar.Expanded.Clock" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/holo_purple</item>
+    </style>
+
+
+</resources>

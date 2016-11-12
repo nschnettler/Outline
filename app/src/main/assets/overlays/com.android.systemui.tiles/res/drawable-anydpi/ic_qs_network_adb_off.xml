@@ -7,7 +7,7 @@
     android:alpha="0.4">
 
     <path
-       android:strokeColor="#FFFFFF"
+       android:strokeColor="@android:color/holo_blue_bright"
         android:strokeWidth="0.6"
         android:pathData="M20.5,9.1c0-3.1-2.5-5.6-5.6-5.6 M23.7,9.1
 	c0-4.8-3.9-8.7-8.7-8.7 M12,18c-3,0-4.6-0.8-5-1.1C6.7,16.6,6,15,6,12s0.8-4.6,1.1-4.9 M12,18c3,0,4.6-0.8,5-1.1

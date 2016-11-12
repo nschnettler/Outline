@@ -29,7 +29,7 @@
             android:name="dot_group" >
             <path
                 android:name="dot"
-                android:strokeColor="#FFFFFF"
+                android:strokeColor="@android:color/holo_blue_bright"
                 android:strokeWidth="0.4"
                 android:pathData="M 0.0,-2.75 l 0.0,0.0 c 1.51878306195,0.0 2.75,1.23121693805 2.75,2.75 l 0.0,0.0 c 0.0,1.51878306195 -1.23121693805,2.75 -2.75,2.75 l 0.0,0.0 c -1.51878306195,0.0 -2.75,-1.23121693805 -2.75,-2.75 l 0.0,0.0 c 0.0,-1.51878306195 1.23121693805,-2.75 2.75,-2.75 Z" />
         </group>
