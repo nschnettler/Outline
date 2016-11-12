@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Primary Dark -->
-    <color name="app_color_material_dark">@android:color/holo_purple</color>
+    <color name="app_color_material_dark">@android:color/darker_gray</color>
     <!-- Primary -->
-    <color name="app_color_material">@android:color/holo_purple</color>
+    <color name="app_color_material">@android:color/darker_gray</color>
 </resources>

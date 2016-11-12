@@ -13,5 +13,5 @@
     <color name="flag_yellow">@android:color/holo_orange_light</color>
     <color name="flag_green">@android:color/holo_green_light</color>
     <color name="flag_gray">#757575</color>
-    <color name="flag_purple">@android:color/holo_purple</color>
+    <color name="flag_purple">@android:color/holo_red_light</color>
 </resources>

@@ -9,7 +9,7 @@
     <color name="lime">#ffc0ca33</color>
     <color name="green">@android:color/holo_green_light</color>
     <color name="grey">#ff757575</color>
-    <color name="purple">@android:color/holo_purple</color>
+    <color name="purple">@android:color/holo_red_light</color>
     <color name="red">@android:color/holo_red_light</color>
     <color name="orange">@android:color/holo_orange_light</color>
     <color name="pink">@android:color/holo_blue_dark</color>

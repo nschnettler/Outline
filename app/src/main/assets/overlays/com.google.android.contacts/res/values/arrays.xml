@@ -3,8 +3,8 @@
     <array name="letter_tile_colors">
         <item>@android:color/holo_red_light</item> <!-- ROT -->
         <item>@android:color/holo_red_light</item> <!-- PINK -->
-        <item>@android:color/holo_purple</item> <!-- LILA -->
-        <item>@android:color/holo_purple</item> <!-- LILA -->
+        <item>@android:color/holo_red_light</item> <!-- LILA -->
+        <item>@android:color/holo_red_light</item> <!-- LILA -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
@@ -17,8 +17,8 @@
     <array name="letter_tile_colors_dark">
         <item>@android:color/holo_red_light</item> <!-- ROT -->Y
         <item>@android:color/holo_red_light</item> <!-- PINK -->
-        <item>@android:color/holo_purple</item> <!-- LILA -->
-        <item>@android:color/holo_purple</item> <!-- LILA -->
+        <item>@android:color/holo_red_light</item> <!-- LILA -->
+        <item>@android:color/holo_red_light</item> <!-- LILA -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
         <item>@android:color/holo_blue_light</item> <!-- Blau -->
