@@ -1,48 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
-    <color name="primary">@android:color/holo_orange_light</color>
-    <color name="material_drawer_dark_selected_text">@android:color/holo_orange_light</color>
     <!-- Primary Dark -->
-    <color name="primaryDark">@android:color/holo_orange_light</color>
+    <color name="primaryDark">#ff09314b</color>
     <!-- Accent -->
-    <color name="accent2">@android:color/holo_orange_dark</color>
-    <color name="mat_text_wall_detail_exclusive">@android:color/holo_orange_dark</color>
-    <color name="pull_refresh1">@android:color/holo_orange_dark</color>
-    <color name="pull_refresh2">@android:color/holo_orange_dark</color>
-    <color name="pull_refresh3">@android:color/holo_orange_dark</color>
-    <color name="pull_refresh4">@android:color/holo_orange_dark</color>
-    <color name="fab_social">@android:color/holo_orange_dark</color>
-
-    <!-- WHITE
-   Background
-    <color name="back_material_dark">#FAFAFA</color>
-
-    text
-    <color name="mat_text_dark">#ddFFFFFF</color>
-    <color name="mat_text_disabled_dark">#66FFFFFF</color>
-    <color name="mat_text_disabled_light">#4d000000</color>
-    <color name="mat_text_light">#ff000000</color>
-    <color name="mat_text_secondary_dark">#89FFFFFF</color>
-    <color name="mat_text_secondary_light">#b3000000</color>
-    <color name="mat_text_wall_detail">#e4FFFFFF</color>
-
-
-    <color name="navbar_bg">#ff000000</color>
-
-     Drawer
-    <color name="material_drawer_dark_background">#fafafa</color>
-    <color name="material_drawer_dark_divider">#1f000000</color>
-    <color name="material_drawer_dark_header_selection_text">#ffffffff</color>
-    <color name="material_drawer_dark_hint_icon">#61000000</color>
-    <color name="material_drawer_dark_hint_text">#61000000</color>
-    <color name="material_drawer_dark_primary_icon">#757575</color>
-    <color name="material_drawer_dark_primary_text">#de000000</color>
-    <color name="material_drawer_dark_secondary_icon">#66757575</color>
-    <color name="material_drawer_dark_secondary_text">#8a000000</color>
-    <color name="material_drawer_dark_selected">#ffe8e8e8</color>
-    -->
-
-
-
+    <color name="pull_refresh1">@android:color/holo_red_light</color>
+    <color name="pull_refresh2">@android:color/holo_blue_light</color>
+    <color name="pull_refresh3">@android:color/holo_green_light</color>
+    <color name="pull_refresh4">@android:color/holo_orange_light</color>
 </resources>
