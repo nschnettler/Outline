@@ -20,5 +20,7 @@ Copyright (C) 2014 The Android Open Source Project
         android:viewportHeight="24.0">
     <path
         android:fillColor="@android:color/holo_blue_bright"
-        android:pathData="M0,2.3h0.7v3.8h4.6V2.3H6v8.8H5.3V6.8H0.7v4.4H0V2.3z"/>
+        android:pathData="M0.2,2.4c0.6-0.1,1.4-0.2,2.2-0.2c1.2,0,2,0.2,2.5,0.7c0.4,0.4,0.7,1,0.7,1.7c0,1.2-0.7,1.9-1.6,2.2v0
+		C4.6,7.1,5,7.8,5.2,8.7c0.3,1.2,0.5,2.1,0.7,2.4H4.7c-0.1-0.2-0.3-1-0.6-2.1C3.9,7.8,3.4,7.3,2.4,7.3H1.3v3.8H0.2V2.4z M1.3,6.4
+		h1.2c1.2,0,2-0.7,2-1.7c0-1.1-0.8-1.6-2-1.6c-0.5,0-0.9,0.1-1.1,0.1V6.4z"/>
 </vector>
