@@ -23,12 +23,14 @@
 
 
 
+        <!-- QS TEXT Farben -->
+                <!-- QS Text Color -->
+                <color name="qs_text">@android:color/holo_blue_bright</color>
+                <!-- QS Tile Text Color -->
+                <color name="qs_tile_text">@android:color/holo_blue_bright</color>
 
 
-        <!-- QS Text Color -->
-        <color name="qs_text">@android:color/holo_blue_bright</color>
-        <!-- QS Tile Text Color -->
-        <color name="qs_tile_text">@android:color/holo_blue_bright</color>
+
 
         <color name="segmented_button_unselected">@android:color/holo_purple</color>
         <color name="qs_subhead">@android:color/holo_purple</color>
@@ -45,7 +47,7 @@
 
 
         <!-- VOLUME PANEL -->
-        <color name="volume_panel_background_color">#FFFFFF</color>
+        <color name="volume_panel_background_color">@*android:color/primary_material_dark</color>
         <color name="volume_slider_inactive">@android:color/holo_blue_bright</color><!-- blue grey 200 -->
         <color name="volume_settings_icon_color">@android:color/holo_blue_bright</color>
         <color name="volume_icon_color">@android:color/holo_blue_bright</color>
