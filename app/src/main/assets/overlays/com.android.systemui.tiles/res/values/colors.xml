@@ -6,7 +6,7 @@
                         <color name="system_secondary_color">@*android:color/primary_material_light</color>
                 <!-- N 7.0 & M-->
                         <!-- QS Main Hintergrund -->
-                        <color name="system_primary_color">#FAFAFA</color>
+                        <color name="system_primary_color">@*android:color/primary_material_dark</color>
                 <!-- N 7.1 -->
                         <!-- Definded in Framework -->
 
