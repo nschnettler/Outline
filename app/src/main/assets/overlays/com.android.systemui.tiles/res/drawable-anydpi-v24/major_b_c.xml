@@ -30,7 +30,7 @@
 
                 <path
                 android:name="dot"
-                android:strokeColor="#FFFFFF"
+                android:strokeColor="@android:color/holo_blue_bright"
                 android:strokeWidth="0.4"
                 android:fillColor="@android:color/holo_blue_bright"
                 android:fillAlpha="0.2"
