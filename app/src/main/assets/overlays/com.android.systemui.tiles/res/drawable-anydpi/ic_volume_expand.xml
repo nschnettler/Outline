@@ -41,7 +41,7 @@
 
                     <path
                         android:name="rectangle_path_3"
-                        android:strokeColor="#000000"
+                        android:strokeColor="@android:color/holo_blue_bright"
                         android:strokeWidth="0.6"
                         android:pathData="M0-4v8" />
                 </group>
@@ -61,7 +61,7 @@
 
                     <path
                         android:name="rectangle_path_4"
-                        android:strokeColor="#000000"
+                        android:strokeColor="@android:color/holo_blue_bright"
                         android:strokeWidth="0.6"
                         android:pathData="M0-4v8" />
                 </group>
