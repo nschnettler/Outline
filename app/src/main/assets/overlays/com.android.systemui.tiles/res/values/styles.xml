@@ -7,6 +7,7 @@
         <item name="android:windowShowWallpaper">false</item>
         <item name="android:keySet">8.0dip</item>
         <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
     </style>
     <style name="TextAppearance" />
     <style name="TextAppearance.QS" parent="@style/TextAppearance">
