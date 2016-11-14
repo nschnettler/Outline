@@ -21,14 +21,14 @@
 
     <!-- Books / BLAU -->
         <!-- Primary -->
-        <color name="play_books_primary">@*android:color/primary_material_light</color>
-        <color name="play_books_recents">@*android:color/primary_material_light</color>
+        <color name="play_books_primary">@android:color/holo_blue_light</color>
+        <color name="play_books_recents">@android:color/holo_blue_light</color>
         <!-- Primary Dark -->
-        <color name="play_books_secondary">@*android:color/primary_material_light</color>
-        <color name="play_books_primary_disabled">@*android:color/primary_material_light</color>
-        <color name="status_bar_books">@*android:color/primary_material_light</color>
+        <color name="play_books_secondary">@android:color/holo_blue_light</color>
+        <color name="play_books_primary_disabled">@android:color/holo_blue_light</color>
+        <color name="status_bar_books">@android:color/holo_blue_light</color>
 
-    <!-- Newsstand / LILA-->
+    <!-- Newsstand / LILA /GRAU NEU-->
         <!-- Primary -->
         <color name="play_newsstand_primary">@android:color/darker_gray</color>
         <color name="play_newsstand_recents">@android:color/darker_gray</color>
@@ -63,5 +63,39 @@
         <color name="action_bar_overlay_end">#00000000</color>
         <color name="action_bar_overlay_start">#00000000</color>
         <color name="status_bar_overlay">#00000000</color>
+
+
+
+    <!-- COLORS VERSION 2-->
+    <color name="play_apps_primary_v2">@android:color/holo_green_light</color>
+    <color name="play_apps_secondary_v2">@android:color/holo_green_light</color>
+    <color name="status_bar_apps_v2">@android:color/holo_green_light</color>
+
+    <color name="play_books_primary_v2">@android:color/holo_blue_light</color>
+    <color name="play_books_secondary_v2">@android:color/holo_blue_light</color>
+    <color name="status_bar_books_v2">@android:color/holo_blue_light</color>
+
+    <color name="play_developer_primary_v2">@android:color/darker_gray</color>
+    <color name="play_developer_secondary_v2">@android:color/darker_gray</color>
+
+    <color name="play_movies_primary_v2">@android:color/holo_red_light</color>
+    <color name="play_movies_secondary_v2">@android:color/holo_red_light</color>
+    <color name="status_bar_movies_v2">@android:color/holo_red_light</color>
+
+    <color name="play_music_primary_v2">@android:color/holo_orange_light</color>
+    <color name="play_music_secondary_v2">@android:color/holo_orange_light</color>
+    <color name="status_bar_music_v2">@android:color/holo_orange_light</color>
+
+    <color name="play_newsstand_primary_v2">@android:color/darker_gray</color>
+    <color name="play_newsstand_secondary_v2">@android:color/darker_gray</color>
+    <color name="status_bar_newsstand_v2">@android:color/darker_gray</color>
+
+    <color name="review_histogram_1_bar_v2">@android:color/holo_red_light</color>
+    <color name="review_histogram_2_bar_v2">@android:color/holo_red_light</color>
+    <color name="review_histogram_3_bar_v2">@android:color/holo_orange_light</color>
+    <color name="review_histogram_4_bar_v2">@android:color/holo_green_light</color>
+    <color name="review_histogram_5_bar_v2">@android:color/holo_green_light</color>
+
+
 
 </resources>
