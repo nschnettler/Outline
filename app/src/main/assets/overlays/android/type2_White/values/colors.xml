@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_material_dark">#FAFAFA</color>
     <color name="holo_blue_bright">#757575</color>
     <color name="holo_purple">#66757575</color>
 </resources>

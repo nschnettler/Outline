@@ -1,0 +1,4 @@
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:drawable/ic_menu_manage" /> <!--From -->
+    <item android:drawable="@android:drawable/ic_menu_mapmode" />  <!--To -->
+</transition>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary Light -->
-    <color name="primary_material_dark">#212121</color>
+    <color name="primary_material_dark">@*android:color/primary_material_light</color>
     <color name="notification_icon_bg_color">@*android:color/primary_material_light</color>
     <color name="material_blue_grey_800">@*android:color/primary_material_light</color>
     <color name="material_blue_grey_900">@*android:color/primary_material_light</color>
