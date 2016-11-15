@@ -9,4 +9,6 @@
     <color name="divider_color">#00000000</color>
     <color name="switchbar_background_color">@*android:color/primary_material_light</color>
 
+    <color name="material_deep_teal_500">@*android:color/primary_material_light</color>
+    <color name="icon_tint_color">@*android:color/primary_material_light</color>
 </resources>
