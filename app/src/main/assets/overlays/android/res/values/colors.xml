@@ -25,7 +25,10 @@
 
     <color name="lock_pattern_view_error_color">@*android:color/holo_red_light</color>
 
+
+    <!-- QS Text -->
     <color name="holo_blue_bright">#FFFFFF</color>
+    <!-- QS Text Secondary -->
     <color name="holo_purple">#66FFFFFF</color>
 
 </resources>

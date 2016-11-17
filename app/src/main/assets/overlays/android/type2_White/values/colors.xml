@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- QS Text -->
     <color name="holo_blue_bright">#757575</color>
+    <!-- QS Text Secondary -->
     <color name="holo_purple">#66757575</color>
 </resources>
