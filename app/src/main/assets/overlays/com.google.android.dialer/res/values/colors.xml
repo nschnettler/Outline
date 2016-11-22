@@ -17,9 +17,49 @@
     <color name="item_selected">@android:color/holo_blue_light</color>
 
 
-    <color name="remove_highlighted_text_color">@android:color/holo_blue_dark</color>
-    <color name="missed_call">@android:color/holo_blue_dark</color>
+
 
     <color name="accent_material_light">@android:color/holo_blue_dark</color>
 
+
+    <!--ROT -->
+    <color name="blocked_contact_background">@android:color/holo_red_light</color>
+    <color name="blocked_number_block_color">@android:color/holo_red_light</color>
+    <color name="call_hangup_background">@android:color/holo_red_light</color>
+    <color name="call_subject_limit_exceeded">@android:color/holo_red_light</color>
+    <color name="design_textinput_error_color_dark">@android:color/holo_red_light</color>
+    <color name="design_textinput_error_color_light">@android:color/holo_red_light</color>
+    <color name="dialer_red_highlight_color">@android:color/holo_red_light</color>
+    <color name="missed_call">@android:color/holo_red_light</color>
+    <color name="notification_action_dismiss">@android:color/holo_red_light</color>
+    <color name="remove_highlighted_text_color">@android:color/holo_red_light</color>
+    <!-- GRÜN -->
+    <color name="call_accept_background">@android:color/holo_green_light</color>
+    <color name="call_subject_button">@android:color/holo_green_light</color>
+    <color name="compose_and_call_background">@android:color/holo_green_light</color>
+    <color name="dialer_green_highlight_color">@android:color/holo_green_light</color>
+    <color name="incoming_answer_icon">@android:color/holo_green_light</color>
+    <color name="notification_action_accept">@android:color/holo_green_light</color>
+    <color name="notification_action_answer_video">@android:color/holo_green_light</color>
+    <color name="promo_card_background">@android:color/holo_green_light</color>
+    <color name="promo_card_divider">@android:color/holo_green_light</color>
+    <!-- PINK -->
+    <color name="dialer_secondary_color">@android:color/holo_blue_dark</color>
+    <!-- BLAU -->
+    <color name="dialer_snackbar_action_text_color">@android:color/holo_blue_light</color>
+    <color name="dialer_theme_color_20pct">@android:color/holo_blue_light</color>
+    <!-- ORANGE -->
+    <color name="unknown_number_color">@android:color/holo_orange_light</color>
+
+
+<!-- INCALL UI -->
+    <color name="incall_background_gradient_bottom">@android:color/holo_blue_light</color>
+    <color name="incall_background_gradient_middle">@android:color/holo_blue_light</color>
+    <color name="incall_background_gradient_top">@android:color/holo_blue_light</color>
+    <color name="incall_background_multiwindow">@android:color/holo_blue_light</color>
+
+    <color name="incall_background_gradient_spam_bottom">@android:color/holo_red_light</color>
+    <color name="incall_background_gradient_spam_middle">@android:color/holo_red_light</color>
+    <color name="incall_background_gradient_spam_top">@android:color/holo_red_light</color>
+    <color name="incall_background_multiwindow_spam">@android:color/holo_red_light</color>
 </resources>
