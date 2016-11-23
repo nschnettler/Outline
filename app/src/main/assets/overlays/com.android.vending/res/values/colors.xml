@@ -30,12 +30,12 @@
 
     <!-- Newsstand / LILA /GRAU NEU-->
         <!-- Primary -->
-        <color name="play_newsstand_primary">@*android:color/holo_gray_light</color>
-        <color name="play_newsstand_recents">@*android:color/holo_gray_light</color>
+        <color name="play_newsstand_primary">@android:color/holo_purple</color>
+        <color name="play_newsstand_recents">@android:color/holo_purple</color>
         <!-- Primary Dark -->
-        <color name="play_newsstand_secondary">@*android:color/holo_gray_light</color>
-        <color name="play_newsstand_primary_disabled">@*android:color/holo_gray_light</color>
-        <color name="status_bar_newsstand">@*android:color/holo_gray_light</color>
+        <color name="play_newsstand_secondary">@android:color/holo_purple</color>
+        <color name="play_newsstand_primary_disabled">@android:color/holo_purple</color>
+        <color name="status_bar_newsstand">@android:color/holo_purple</color>
 
     <!-- Music / ORANGE-->
         <!-- Primary -->

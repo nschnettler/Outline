@@ -53,9 +53,9 @@
             <color name="gbot_theme_message_bubble_outgoing_tapped">@*android:color/holo_orange_light</color>
         <!-- Normal Chat -->
             <!-- Incomming -->
-            <color name="message_bubble_color_incoming">@*android:color/holo_gray_light</color>
+            <color name="message_bubble_color_incoming">@android:color/holo_purple</color>
             <color name="message_bubble_color_incoming_selected">#757575</color>
-            <color name="message_bubble_color_incoming_tapped">@*android:color/holo_gray_light</color>
+            <color name="message_bubble_color_incoming_tapped">@android:color/holo_purple</color>
             <!-- Outgoing -->
             <color name="message_bubble_color_outgoing">@*android:color/holo_orange_light</color>
             <color name="message_bubble_color_outgoing_selected">#757575</color>

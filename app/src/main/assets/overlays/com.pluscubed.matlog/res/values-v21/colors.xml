@@ -16,7 +16,7 @@
     <color name="tag_color_03">@android:color/holo_orange_light</color>
     <color name="tag_color_04">@android:color/holo_red_light</color>
     <color name="tag_color_05">#757575</color>
-    <color name="tag_color_06">@android:color/holo_red_light</color>
+    <color name="tag_color_06">@android:color/holo_purple</color>
     <color name="tag_color_07">@android:color/holo_green_light</color>
     <color name="tag_color_08">@android:color/holo_blue_light</color>
     <color name="tag_color_09">@android:color/holo_green_light</color>

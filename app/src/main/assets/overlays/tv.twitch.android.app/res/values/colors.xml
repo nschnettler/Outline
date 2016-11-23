@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="twitch_purple">@android:color/holo_red_light</color>
-    <color name="twitch_purple_darker">@android:color/holo_red_light</color>
-    <color name="twitch_purple_midnight">@android:color/holo_red_light</color>
+    <color name="twitch_purple">@android:color/holo_purple</color>
+    <color name="twitch_purple_darker">@android:color/holo_purple</color>
+    <color name="twitch_purple_midnight">@android:color/holo_purple</color>
 
-    <color name="navigation_text_selected">@android:color/holo_red_light</color>
-    <color name="twitch_purple_light">@android:color/holo_red_light</color>
-    <color name="twitch_purple_light_1">@android:color/holo_red_light</color>
-    <color name="twitch_purple_light_3">@android:color/holo_red_light</color>
+    <color name="navigation_text_selected">@android:color/holo_purple</color>
+    <color name="twitch_purple_light">@android:color/holo_purple</color>
+    <color name="twitch_purple_light_1">@android:color/holo_purple</color>
+    <color name="twitch_purple_light_3">@android:color/holo_purple</color>
 
-    <color name="twitch_purple_highlight">@android:color/holo_red_light</color>
+    <color name="twitch_purple_highlight">@android:color/holo_purple</color>
 
     <color name="inactive_tab_text_color">#66FFFFFF</color>
 </resources>

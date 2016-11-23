@@ -23,11 +23,11 @@
     <color name="orange_primary_color_light">@android:color/holo_orange_light</color>
 
     <!-- PURPLE -->
-    <color name="purple_accent_color">@*android:color/holo_gray_light</color>
-    <color name="purple_accent_color_light">@*android:color/holo_gray_light</color>
-    <color name="purple_primary_color">@*android:color/holo_gray_light</color>
-    <color name="purple_primary_color_dark">@*android:color/holo_gray_light</color>
-    <color name="purple_primary_color_light">@*android:color/holo_gray_light</color>
+    <color name="purple_accent_color">@android:color/holo_purple</color>
+    <color name="purple_accent_color_light">@android:color/holo_purple</color>
+    <color name="purple_primary_color">@android:color/holo_purple</color>
+    <color name="purple_primary_color_dark">@android:color/holo_purple</color>
+    <color name="purple_primary_color_light">@android:color/holo_purple</color>
 
     <!-- RED -->
     <color name="red">@android:color/holo_red_light</color>
