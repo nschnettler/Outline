@@ -18,11 +18,11 @@
 
     <!-- AKZENT FARBEN: -->
     <!-- ROT AKZENT: INDIGO -->
-    <color name="holo_red_dark">#7f97b6</color>
+    <color name="holo_red_dark">#7E8ACD</color>
     <!-- INDIGO AKZENT: PINK -->
     <color name="holo_blue_dark">#d37a7a</color>
     <!-- GRÜN AKZENT: BLAU -->
-    <color name="holo_green_dark">#7f97b6</color>
+    <color name="holo_green_dark">#7E8ACD</color>
     <!-- Orange AKZENT: Indigo -->
-    <color name="holo_orange_dark">#7f97b6</color>
+    <color name="holo_orange_dark">#7E8ACD</color>
 </resources>
