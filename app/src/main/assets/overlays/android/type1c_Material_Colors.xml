@@ -13,6 +13,9 @@
     <!-- ORANGE -->
     <color name="holo_orange_light">#ff9800</color>
 
+    <!-- LILA -->
+    <color name="holo_purple">#9C27B0</color>
+
     <!-- Grau -->
     <color name="holo_gray_light">#757575</color>
 

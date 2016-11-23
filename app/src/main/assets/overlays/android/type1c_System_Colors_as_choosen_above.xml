@@ -13,6 +13,9 @@
     <!-- ORANGE -->
     <color name="holo_orange_light">@*android:color/primary_material_light</color>
 
+    <!-- LILA -->
+    <color name="holo_purple">@*android:color/primary_material_light</color>
+
     <!-- Grau -->
     <color name="holo_gray_light">@*android:color/primary_material_light</color>
 

@@ -86,9 +86,9 @@
     <color name="play_music_secondary_v2">@android:color/holo_orange_light</color>
     <color name="status_bar_music_v2">@android:color/holo_orange_light</color>
 
-    <color name="play_newsstand_primary_v2">@*android:color/holo_gray_light</color>
-    <color name="play_newsstand_secondary_v2">@*android:color/holo_gray_light</color>
-    <color name="status_bar_newsstand_v2">@*android:color/holo_gray_light</color>
+    <color name="play_newsstand_primary_v2">@android:color/holo_purple</color>
+    <color name="play_newsstand_secondary_v2">@android:color/holo_purple</color>
+    <color name="status_bar_newsstand_v2">@android:color/holo_purple</color>
 
     <color name="review_histogram_1_bar_v2">@android:color/holo_red_light</color>
     <color name="review_histogram_2_bar_v2">@android:color/holo_red_light</color>
