@@ -55,4 +55,6 @@
     <color name="loading_indicator_purple">@android:color/holo_red_light</color>
     <color name="loading_indicator_red">@android:color/holo_red_light</color>
     <color name="loading_indicator_yellow">@android:color/holo_orange_light</color>
+
+    <color name="quantum_googgreenA400">#FFFFFF</color>
 </resources>
