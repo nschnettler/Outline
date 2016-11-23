@@ -28,6 +28,7 @@
         <color name="quantum_googred700">@android:color/holo_red_light</color>
         <!-- BLAU -->
         <color name="quantum_googblue500">@android:color/holo_red_dark</color>
+        <color name="quantum_googblue600">@android:color/holo_red_dark</color>
         <color name="google_blue">@android:color/holo_red_dark</color>
         <color name="text_blue">@android:color/holo_red_dark</color>
         <color name="preset_list_item_selected">@android:color/holo_red_dark</color>
