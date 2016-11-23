@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="qs_tile_tint_unavailable">@android:color/holo_purple</color>
-    <color name="qs_tile_tint_inactive">@android:color/holo_purple</color>
+    <color name="qs_tile_tint_unavailable">@android:color/darker_gray</color>
+    <color name="qs_tile_tint_inactive">@android:color/darker_gray</color>
     <color name="qs_tile_tint_active">@android:color/holo_blue_bright</color>
 
     <!--<color name="qs_batterymeter_frame_color">@android:color/holo_blue_bright</color> -->

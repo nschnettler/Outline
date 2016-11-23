@@ -25,10 +25,10 @@
 
 
     <!-- QS battery graph text color -> Text below battery Graph-->
-    <color name="qs_battery_graph_text_color">@android:color/holo_purple</color>
+    <color name="qs_battery_graph_text_color">@android:color/darker_gray</color>
 
     <!-- QS alarm status text color -->
-    <color name="qs_alarm_status_text_color">@android:color/holo_purple</color>
+    <color name="qs_alarm_status_text_color">@android:color/darker_gray</color>
 
     <!-- QS edit page toolbar text color -->
     <color name="qs_edit_toolbar_text_color">@android:color/holo_blue_bright</color>

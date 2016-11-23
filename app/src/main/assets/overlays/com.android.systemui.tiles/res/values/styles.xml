@@ -13,7 +13,7 @@
     <style name="TextAppearance" />
     <style name="TextAppearance.QS" parent="@style/TextAppearance">
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@android:color/holo_purple</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.QS.DetailHeader" parent="@style/TextAppearance.QS">
@@ -39,7 +39,7 @@
     <style name="TextAppearance.Volume.ZenDetail" parent="@style/TextAppearance">
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">sans-serif</item>
-        <item name="android:textColor">@android:color/holo_purple</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
     </style>
 
     <style name="TextAppearance.QS.TileLabel">

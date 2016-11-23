@@ -29,6 +29,6 @@
     <!-- QS Text -->
     <color name="holo_blue_bright">#FFFFFF</color>
     <!-- QS Text Secondary -->
-    <color name="holo_purple">#66FFFFFF</color>
+    <color name="darker_gray">#66FFFFFF</color>
 
 </resources>
