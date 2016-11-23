@@ -58,4 +58,6 @@
     <color name="loading_indicator_yellow">@android:color/holo_orange_light</color>
 
     <color name="quantum_googgreenA400">#FFFFFF</color>
+
+    <color name="switch_thumb_normal_material_light">#757575</color>
 </resources>
