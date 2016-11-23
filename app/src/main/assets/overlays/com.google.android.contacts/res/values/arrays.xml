@@ -12,7 +12,7 @@
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
-        <item>@android:color/darker_gray</item> <!-- GRAU -->
+        <item>@*android:color/holo_gray_light</item> <!-- GRAU -->
     </array>
     <array name="letter_tile_colors_dark">
         <item>@android:color/holo_red_light</item> <!-- ROT -->Y
@@ -26,6 +26,6 @@
         <item>@android:color/holo_green_light</item> <!-- Grün -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
         <item>@android:color/holo_orange_light</item> <!-- Orange -->
-        <item>@android:color/darker_gray</item> <!-- GRAU -->
+        <item>@*android:color/holo_gray_light</item> <!-- GRAU -->
     </array>
 </resources>

@@ -30,12 +30,12 @@
 
     <!-- Newsstand / LILA /GRAU NEU-->
         <!-- Primary -->
-        <color name="play_newsstand_primary">@android:color/darker_gray</color>
-        <color name="play_newsstand_recents">@android:color/darker_gray</color>
+        <color name="play_newsstand_primary">@*android:color/holo_gray_light</color>
+        <color name="play_newsstand_recents">@*android:color/holo_gray_light</color>
         <!-- Primary Dark -->
-        <color name="play_newsstand_secondary">@android:color/darker_gray</color>
-        <color name="play_newsstand_primary_disabled">@android:color/darker_gray</color>
-        <color name="status_bar_newsstand">@android:color/darker_gray</color>
+        <color name="play_newsstand_secondary">@*android:color/holo_gray_light</color>
+        <color name="play_newsstand_primary_disabled">@*android:color/holo_gray_light</color>
+        <color name="status_bar_newsstand">@*android:color/holo_gray_light</color>
 
     <!-- Music / ORANGE-->
         <!-- Primary -->
@@ -75,8 +75,8 @@
     <color name="play_books_secondary_v2">@android:color/holo_blue_light</color>
     <color name="status_bar_books_v2">@android:color/holo_blue_light</color>
 
-    <color name="play_developer_primary_v2">@android:color/darker_gray</color>
-    <color name="play_developer_secondary_v2">@android:color/darker_gray</color>
+    <color name="play_developer_primary_v2">@*android:color/holo_gray_light</color>
+    <color name="play_developer_secondary_v2">@*android:color/holo_gray_light</color>
 
     <color name="play_movies_primary_v2">@android:color/holo_red_light</color>
     <color name="play_movies_secondary_v2">@android:color/holo_red_light</color>
@@ -86,9 +86,9 @@
     <color name="play_music_secondary_v2">@android:color/holo_orange_light</color>
     <color name="status_bar_music_v2">@android:color/holo_orange_light</color>
 
-    <color name="play_newsstand_primary_v2">@android:color/darker_gray</color>
-    <color name="play_newsstand_secondary_v2">@android:color/darker_gray</color>
-    <color name="status_bar_newsstand_v2">@android:color/darker_gray</color>
+    <color name="play_newsstand_primary_v2">@*android:color/holo_gray_light</color>
+    <color name="play_newsstand_secondary_v2">@*android:color/holo_gray_light</color>
+    <color name="status_bar_newsstand_v2">@*android:color/holo_gray_light</color>
 
     <color name="review_histogram_1_bar_v2">@android:color/holo_red_light</color>
     <color name="review_histogram_2_bar_v2">@android:color/holo_red_light</color>

@@ -14,7 +14,7 @@
     <color name="holo_orange_light">@*android:color/primary_material_light</color>
 
     <!-- Grau -->
-    <color name="darker_gray">@*android:color/primary_material_light</color>
+    <color name="holo_gray_light">@*android:color/primary_material_light</color>
 
     <!-- AKZENT FARBEN: -->
     <!-- ROT AKZENT: INDIGO -->

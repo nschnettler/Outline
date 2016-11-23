@@ -14,5 +14,4 @@
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowAnimationStyle">@android:style/Animation</item>
     </style>
-
 </resources>
