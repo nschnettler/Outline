@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Primary -->
-    <color name="cat_grayscale_12">@android:color/holo_green_light</color>
-    <color name="cat_grayscale_15">@android:color/holo_green_light</color>
+    <!-- Primary GRAU -->
+    <color name="cat_grayscale_15">#212121</color>
 
-
-    <!-- Accent -->
-    <color name="cat_dark_green">@android:color/holo_green_light</color>
-    <color name="cat_medium_green">@android:color/holo_green_light</color>
+    <!-- Akzent GRÜN -->
     <color name="cat_light_green">@android:color/holo_green_light</color>
-    <color name="cat_dark_green_40">@android:color/holo_green_light</color>
-    <color name="cat_medium_green_40">@android:color/holo_green_light</color>
+    <color name="cat_light_green_20">@android:color/holo_green_light</color>
     <color name="cat_light_green_40">@android:color/holo_green_light</color>
-    <color name="bg_button_light_normal">@android:color/holo_green_light</color>
+    <color name="cat_light_green_5">@android:color/holo_green_light</color>
+    <color name="cat_medium_green">@android:color/holo_green_light</color>
+    <color name="cat_medium_green_40">@android:color/holo_green_light</color>
+    <color name="collection_overlay_electric_seafoam">@android:color/holo_green_light</color>
+    <color name="glue_green">@android:color/holo_green_light</color>
+    <color name="glue_green_dark">@android:color/holo_green_light</color>
+    <color name="glue_green_light">@android:color/holo_green_light</color>
+    <color name="cat_dark_green">@android:color/holo_green_light</color>
+    <color name="cat_dark_green_40">@android:color/holo_green_light</color>
+
+
+    <color name="switch_thumb_normal_material_light">#757575</color>
 
 </resources>
