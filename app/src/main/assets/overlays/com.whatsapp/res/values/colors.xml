@@ -27,9 +27,11 @@
     <color name="background_tab_pressed">@android:color/holo_green_light</color>
 
     <!-- Accent / Primary -->
-    <color name="accent">@android:color/holo_green_light</color>
-    <color name="link_color_incoming">@android:color/holo_green_light</color>
-    <color name="link_color_outgoing">@android:color/holo_green_light</color>
+    <color name="accent">@android:color/holo_green_dark</color>
+    <color name="accent_light">@android:color/holo_green_dark</color>
+    <color name="link_color_incoming">@android:color/holo_green_dark</color>
+    <color name="link_color_outgoing">@android:color/holo_green_dark</color>
+    <color name="material_deep_teal_500">@android:color/holo_green_dark</color>
 
 
 
@@ -38,4 +40,7 @@
     <color name="call_decline">@android:color/holo_red_light</color>
     <color name="common_signin_btn_default_background">@android:color/holo_red_light</color>
     <color name="red">@android:color/holo_red_light</color>
+    <color name="red_button_text">@android:color/holo_red_light</color>
+
+    <color name="switch_thumb_normal_material_light">#757575</color>
 </resources>
