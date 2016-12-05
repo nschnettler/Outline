@@ -6,12 +6,12 @@
     <color name="trash_action_bar_background_color">@android:color/holo_orange_light</color>
     <color name="primary_material_dark">@android:color/holo_orange_light</color>
     <color name="primary_material_light">@android:color/holo_orange_light</color>
-    <color name="action_mode_background_color">@android:color/holo_orange_light</color>
+    <color name="action_mode_background_color">#FAFAFA</color>
 
 
     <!-- Primary Dark -->
     <color name="primary_color_dark">@android:color/holo_orange_light</color>
-    <color name="actionMode_status_bar_color">@android:color/holo_orange_light</color>
+    <color name="actionMode_status_bar_color">#C8C8C8</color>
     <color name="trash_status_bar_color">@android:color/holo_orange_light</color>
     <color name="browse_secondary_status_bar_color">@android:color/holo_orange_light</color>
     <color name="primary_dark_material_dark">@android:color/holo_orange_light</color>
@@ -20,8 +20,6 @@
     <!-- Accent -->
     <color name="accent_material_light">@android:color/holo_orange_light</color>
     <color name="accent_material_dark">@android:color/holo_orange_light</color>
-
-
 
 
 
