@@ -6,13 +6,11 @@
     <color name="black_2c2e">#ff000000</color>
     <color name="about_bg">#ff000000</color>
         <!-- Drawer -->
-        <color name="ics_menu_noselected_dark">#ff000000</color>
         <!-- Drawer Selected -->
         <color name="ics_menu_selected_dark">#ff1a1a1a</color>
         <!-- Cards -->
         <color name="background_gray_2c">#ff1a1a1a</color>
         <color name="background_black_2f3132">#ff1a1a1a</color>
-        <color name="black_3436">#ff1a1a1a</color>
 
 
     <!-- Primary Dark -->
@@ -22,7 +20,6 @@
 
     <!-- Primary Light -->
     <color name="orange_e064">@android:color/holo_orange_light</color>
-    <color name="tab_checked">@android:color/holo_orange_light</color>
     <color name="orange_f0642c">@android:color/holo_orange_light</color>
     <color name="primary_material_dark">@android:color/holo_orange_light</color>
     <color name="text_black">@android:color/holo_orange_light</color>
