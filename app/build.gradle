@@ -35,8 +35,6 @@ android {
 
         productFlavors {
             betaBuild {
-                applicationIdSuffix ".beta"
-                versionNameSuffix "-beta"
             }
             releaseBuild {
             }
