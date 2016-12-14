@@ -11,6 +11,6 @@
         android:strokeMiterLimit="10"
         android:fillColor="#FFFFFF"
         android:fillAlpha="0.2"
-        android:pathData="M19.5,20.5h-15c-0.55,0-1-0.45-1-1
-	v-15c0-0.55,0.45-1,1-1h15c0.55,0,1,0.45,1,1v15C20.5,20.05,20.05,20.5,19.5,20.5z" />
+        android:pathData="M19.2,20.2H4.8c-0.5,0-1-0.5-1-1V4.8c0-0.5,0.5-1,1-1h14.5c0.5,0,1,0.5,1,1v14.5
+	C20.2,19.7,19.7,20.2,19.2,20.2z" />
 </vector>
