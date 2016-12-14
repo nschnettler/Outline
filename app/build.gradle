@@ -32,6 +32,15 @@ android {
             buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
             buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
+
+        productFlavors {
+            betaBuild {
+                applicationIdSuffix ".beta"
+                versionNameSuffix "-beta"
+            }
+            releaseBuild {
+            }
+        }
     }
 }
 
