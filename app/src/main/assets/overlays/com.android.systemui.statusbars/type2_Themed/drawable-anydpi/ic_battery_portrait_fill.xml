@@ -7,14 +7,14 @@
 
     <clip-path
         android:name="mask"
-        android:pathData="M7.5,5.9v13.9c0,0.7,0.6,1.2,1.2,1.2h6.6c0.7,0,1.2-0.6,1.2-1.2V6
-	c0-0.7-0.6-1.2-1.1-1.2h-1.6V3h-3.5v1.8H8.7C8.1,4.7,7.5,5.3,7.5,5.9z" />
+        android:pathData="M15.3,5.1h-1.8V3.3h-2.9v1.8H8.7C8.2,5.1,7.8,5.5,7.8,6v13.8c0,0.5,0.4,0.9,0.9,0.9h6.6
+		c0.5,0,0.9-0.4,0.9-0.9V6C16.2,5.5,15.8,5.1,15.3,5.1z" />
     <path
         android:name="battery_level"
         android:fillColor="#ff000000"
         android:strokeColor="#FFFFFF"
         android:strokeWidth="0.6"
         android:fillAlpha="0.2"
-        android:pathData="M7.5,5.9v13.9c0,0.7,0.6,1.2,1.2,1.2h6.6c0.7,0,1.2-0.6,1.2-1.2V6
-	c0-0.7-0.6-1.2-1.1-1.2h-1.6V3h-3.5v1.8H8.7C8.1,4.7,7.5,5.3,7.5,5.9z" />
+        android:pathData="M15.3,5.1h-1.8V3.3h-2.9v1.8H8.7C8.2,5.1,7.8,5.5,7.8,6v13.8c0,0.5,0.4,0.9,0.9,0.9h6.6
+		c0.5,0,0.9-0.4,0.9-0.9V6C16.2,5.5,15.8,5.1,15.3,5.1z" />
 </vector>
