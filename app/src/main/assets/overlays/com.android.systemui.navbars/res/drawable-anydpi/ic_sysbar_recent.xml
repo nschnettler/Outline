@@ -5,19 +5,10 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
 
-   <!-- <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="0.6"
-        android:strokeMiterLimit="10"
-        android:pathData="M19.141,21H4.859
-c-1.034,0-1.875-0.841-1.875-1.875V4.875C2.984,3.841,3.826,3,4.859,3h14.281c1.034,0,1.875,0.841,1.875,1.875v14.25
-C21.016,20.159,20.174,21,19.141,21z M5.234,18.75h13.531V5.25H5.234V18.75z" /> -->
+   <path
+       android:strokeColor="#FFFFFF"
+       android:strokeWidth="0.6"
+       android:pathData="M19.8,21H4c-0.5,0-1.1-0.5-1.1-1.1V4.1C2.9,3.5,3.5,3,4,3H20c0.5,0,1.1,0.5,1.1,1.1V20
+	C20.9,20.5,20.4,21,19.8,21z" />
 
-    <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="0.6"
-        android:strokeMiterLimit="10"
-        android:pathData="M19.141,21H4.859
-	c-1.034,0-1.875-0.841-1.875-1.875V4.875C2.984,3.841,3.826,3,4.859,3h14.281c1.034,0,1.875,0.841,1.875,1.875v14.25
-	C21.016,20.159,20.174,21,19.141,21z" />
 </vector>
