@@ -9,8 +9,8 @@ android {
         applicationId "com.schnettler.outline"
         minSdkVersion 24
         targetSdkVersion 25
-        versionCode 43
-        versionName "7.2"
+        versionCode 44
+        versionName "8"
     }
     buildTypes {
         def BOOLEAN = "boolean"
@@ -46,7 +46,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.github.javiersantos:PiracyChecker:0.0.2'
-    compile project (':substrate')
+    compile project(':substrate')
 }
 
 def getDate() {
