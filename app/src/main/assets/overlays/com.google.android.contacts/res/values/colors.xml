@@ -9,7 +9,16 @@
     <color name="primary_color_dark">@android:color/holo_blue_light</color>
     <color name="dialer_theme_color_dark">@android:color/holo_blue_light</color>
     <color name="letter_tile_light_blue_color_dark">@android:color/holo_blue_light</color>
+    <!-- Accent -->
+    <color name="material_star_pink">@android:color/holo_blue_dark</color>
+    <color name="quantum_pinkA400">@android:color/holo_blue_dark</color>
 
     <color name="quickcontact_default_photo_tint_color">#757575</color>
     <color name="quickcontact_default_photo_tint_color_dark">#757575</color>
+
+
+    <color name="swipe_refresh_color1">@android:color/holo_green_light</color>
+    <color name="swipe_refresh_color2">@android:color/holo_red_light</color>
+    <color name="swipe_refresh_color3">@android:color/holo_blue_light</color>
+    <color name="swipe_refresh_color4">@android:color/holo_orange_light</color>
 </resources>
