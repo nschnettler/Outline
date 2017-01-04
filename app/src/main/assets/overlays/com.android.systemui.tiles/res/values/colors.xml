@@ -53,4 +53,12 @@
         <color name="volume_icon_color">@android:color/holo_blue_bright</color>
 
 
+        <!-- QS battery % text color -->
+        <color name="qs_battery_text_color">@android:color/holo_blue_bright</color>
+        <!-- QS battery graph text color -->
+        <color name="qs_battery_graph_text_color">@android:color/holo_blue_bright</color>
+        <!-- QS battery accent color -->
+        <color name="qs_battery_accent">@*android:color/accent_material_light</color>
+
+
 </resources>
