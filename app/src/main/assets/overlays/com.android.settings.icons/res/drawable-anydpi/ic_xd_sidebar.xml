@@ -6,5 +6,5 @@
     <path
         android:strokeColor="@*android:color/accent_material_light"
         android:strokeWidth="0.6"
-        android:pathData="M6.4,20.4h11.3V3.6H6.4V20.4z M3,18.2V5.8 M21,18.2V5.8"/>
+        android:pathData="M6.1,20.9H18V3.1H6.1V20.9z M2.5,18.5V5.5 M21.5,18.5V5.5"/>
 </vector>
