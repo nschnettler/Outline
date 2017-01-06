@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="chips_dropdown_background_activated">@android:color/holo_blue_light</color>
+    <color name="chips_dropdown_permission_text">@android:color/holo_blue_light</color>
+    <color name="m_app_primary_docs">@android:color/holo_blue_light</color>
+    <color name="projector_accent_color">@android:color/holo_blue_light</color>
+
+
+    <color name="quantum_googblue500">@android:color/holo_blue_light</color> <!-- Primary -->
+    <color name="quantum_googblue600">@android:color/holo_blue_light</color> <!-- Primary Dark -->
+    <color name="quantum_googblueA400">@android:color/holo_blue_dark</color> <!-- Accent -->
+
+    <color name="quantum_googred500">@android:color/holo_red_light</color> <!-- Primary -->
+    <color name="quantum_googred600">@android:color/holo_red_light</color> <!-- Primary Dark -->
+    <color name="quantum_googredA700">@android:color/holo_red_dark</color> <!-- Accent -->
+
+    <color name="quantum_purple400">@android:color/holo_purple</color> <!-- Primary -->
+    <color name="quantum_purple500">@android:color/holo_purple</color> <!-- Primary Dark -->
+    <color name="quantum_purpleA700">@android:color/holo_purple</color> <!-- Accent-->
+
+    <color name="quantum_googgreen500">@android:color/holo_green_light</color> <!-- Primary -->
+    <color name="quantum_googgreen600">@android:color/holo_green_light</color>  <!-- Primary Dark -->
+    <color name="quantum_googgreenA700">@android:color/holo_green_dark</color> <!-- Accent -->
+
+    <color name="quantum_orange400">@android:color/holo_orange_light</color>  <!-- Primary -->
+    <color name="quantum_orange500">@android:color/holo_orange_light</color> <!-- Primary Dark -->
+    <color name="quantum_orangeA400">@android:color/holo_orange_dark</color> <!-- Accent -->
+
+
+
+    <color name="chip_background_invalid">@android:color/holo_red_light</color>
+    <color name="switch_thumb_normal_material_light">#757575</color>
+</resources>
