@@ -6,7 +6,7 @@
     android:alpha="0.4">
 
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="1.2"
         android:pathData="M25.9,3.3l7.8,19.1c0.4,1,0.4,2.2,0,3.3l-7.8,19.1c-0.7,1.7-3.1,1.7-3.8,0l-7.8-19.1c-0.4-1-0.4-2.2,0-3.3
 l7.8-19.1C22.8,1.6,25.2,1.6,25.9,3.3Z

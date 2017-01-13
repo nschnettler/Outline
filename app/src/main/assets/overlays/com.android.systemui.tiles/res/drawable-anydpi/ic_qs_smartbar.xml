@@ -5,6 +5,6 @@
         android:viewportHeight="24.0">
     <path
         android:strokeWidth="0.6"
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:pathData="M21.5,10.4v7.8h-19v-7.8L12,5.9L21.5,10.4z"/>
 </vector>

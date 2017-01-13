@@ -20,7 +20,7 @@ Copyright (C) 2014 The Android Open Source Project
         android:viewportHeight="48.0">
 
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="1.2"
         android:pathData="M13.9,6h20.2v36H13.9V6z M7.9,5.4v9.7 M40.1,42.6v-9.7"/>
 </vector>

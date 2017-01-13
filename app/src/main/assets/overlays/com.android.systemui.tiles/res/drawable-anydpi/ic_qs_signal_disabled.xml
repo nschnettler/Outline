@@ -7,7 +7,7 @@
 
 
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="0.6"
         android:pathData="M3,21h18V3L3,21z" />
 </vector>

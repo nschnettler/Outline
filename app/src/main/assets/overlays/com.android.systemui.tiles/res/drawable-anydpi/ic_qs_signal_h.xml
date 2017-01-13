@@ -19,6 +19,6 @@ Copyright (C) 2014 The Android Open Source Project
         android:viewportWidth="6.0"
         android:viewportHeight="24.0">
     <path
-        android:fillColor="@android:color/holo_blue_bright"
+        android:fillColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:pathData="M0,2.3h0.7v3.8h4.6V2.3H6v8.8H5.3V6.8H0.7v4.4H0V2.3z"/>
 </vector>

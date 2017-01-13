@@ -2,7 +2,7 @@
 <vector android:height="64.0dip" android:width="64.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="0.6"
         android:pathData="M9.4,22.5h5.3v-21H9.4V22.5z M1.5,22.5h5.3V12H1.5
 	V22.5z M17.3,8.1v14.4h5.3V8.1H17.3z"/>

@@ -10,7 +10,7 @@
             <group android:name="location"
                 android:translateX="23.481" android:translateY="18.71151">
                 <path android:name="pin"
-                    android:strokeColor="@android:color/holo_blue_bright"
+                    android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
                     android:strokeWidth="1.2"
                     android:pathData="M 1.76899719238,-20.011505127 c -7.69999694824,0.0 -14.0,6.30000305176 -14.0,14.0 c 0.0,10.5 14.0,26.0 14.0,26.0 c 0.0,0.0 14.0,-15.5 14.0,-26.0 c 0.0,-7.69999694824 -6.30000305176,-14.0 -14.0,-14.0 Z M 1.76899719238,-1.01150512695 c -2.80000305176,0.0 -5.0,-2.19999694824 -5.0,-5.0 c 0.0,-2.80000305176 2.19999694824,-5.0 5.0,-5.0 c 2.80000305176,0.0 5.0,2.19999694824 5.0,5.0 c 0.0,2.80000305176 -2.19999694824,5.0 -5.0,5.0 Z" android:fillAlpha="1.0" />
             </group>

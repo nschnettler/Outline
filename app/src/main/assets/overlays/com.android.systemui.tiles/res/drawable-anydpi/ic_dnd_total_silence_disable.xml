@@ -3,16 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:alpha="0.4">
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="0.6"
         android:strokeMiterLimit="10"
         android:pathData="M18.5,18.5l-13-13" />
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="0.6"
         android:pathData="M18.5,5.5l-13,13" />
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="0.6"
         android:pathData="M 12 2.5 C 17.2467051234 2.5 21.5 6.75329487661 21.5 12 C 21.5 17.2467051234 17.2467051234 21.5 12 21.5 C 6.75329487661 21.5 2.5 17.2467051234 2.5 12 C 2.5 6.75329487661 6.75329487661 2.5 12 2.5 Z" />
 </vector>

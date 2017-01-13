@@ -2,12 +2,12 @@
 <vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="0.6"
         android:strokeMiterLimit="10"
         android:pathData="M18.7,18.7c1.7-1.7,2.8-4.1,2.8-6.7 s-1.1-5-2.8-6.7S14.6,2.5,12,2.5S7,3.6,5.3,5.3" />
     <path
-        android:strokeColor="@android:color/holo_blue_bright"
+        android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeWidth="0.6"
         android:strokeMiterLimit="10"
         android:pathData="M5.3,5.3C3.6,7,2.5,9.4,2.5,12s1.1,5,2.8,6.7

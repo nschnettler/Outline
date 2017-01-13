@@ -8,7 +8,7 @@
     <group
        >
         <path
-            android:strokeColor="@android:color/holo_blue_bright"
+            android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
             android:strokeWidth="0.6"
             android:pathData="M17,1L7,1C5.9,1,5,1.9,5,3v18c0,1.1,0.9,2,2,2h10
 	c1.1,0,2-0.9,2-2V3C19,1.9,18.1,1,17,1z M12,16.4c0.5,0,0.8-0.4,0.8-0.8h-1.6C11.2,16,11.5,16.4,12,16.4z M14.5,13.5v-2.1
