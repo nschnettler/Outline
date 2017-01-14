@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- QUICKSETTINGS -->
+    <style name="systemui_theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorForeground">@*android:color/accent_material_light</item>
+        <item name="android:colorForegroundInverse">@*android:color/accent_material_light</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:keySet">8.0dip</item>
+        <item name="android:textColorPrimary">#757575</item>
+        <item name="android:colorControlNormal">#757575</item>
+        <item name="android:progressBackgroundTint">#757575</item>
+    </style>
+
+    <style name="TextAppearance.QS" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_inactive</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.QS.TileLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.QS" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_active</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- QuickSettings Toolbar text -->
+    <style name="TextAppearance.QS.DetailHeader" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_active</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+
+    <!-- QuickSettings time & date text -->
+    <style name="TextAppearance.StatusBar.Expanded.Clock" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_active</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_inactive</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.AboveDateTime" parent="@style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_inactive</item>
+    </style>
+</resources>
