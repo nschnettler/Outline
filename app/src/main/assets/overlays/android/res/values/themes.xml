@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.DeviceDefault.Settings.Dark" parent="@android:style/Theme.Material.Light.DialogWhenLarge"><!-- SystemUI QS-->
-        <item name="android:colorAccent">@*android:color/accent_material_light</item>
-    </style>
-</resources>
