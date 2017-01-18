@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="volume_settings_icon_color">@*android:color/primary_material_light</color>
+</resources>

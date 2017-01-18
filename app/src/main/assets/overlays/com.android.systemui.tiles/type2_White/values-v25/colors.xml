@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="qs_detail_transition">#66757575</color>
-    <color name="system_primary_color">#FAFAFA</color>
+    <color name="volume_settings_icon_color">#FAFAFA</color>
 
     <color name="qs_tile_tint_unavailable">#66757575</color>
     <color name="qs_tile_tint_inactive">#66757575</color>
@@ -28,7 +28,7 @@
     <color name="qs_battery_accent">@*android:color/accent_material_light</color>
 
 
-    <color name="volume_settings_icon_color">@*com.android.systemui:color/qs_tile_tint_active</color>
+    <!--<color name="volume_settings_icon_color">@*com.android.systemui:color/qs_tile_tint_active</color> -->
     <color name="volume_icon_color">@*com.android.systemui:color/qs_tile_tint_active</color>
 
     <!-- QS battery graph text color -> Text below battery Graph-->

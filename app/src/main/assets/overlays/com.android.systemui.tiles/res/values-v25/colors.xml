@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
         <!-- QuickSettings -->
-        <color name="system_primary_color">#212121</color>                                          <!-- Hintergrund -->
-        <color name="qs_edit_item_decoration_bg">@*com.android.systemui:color/system_primary_color</color> <!-- Edit Hintergrund -->
+        <color name="volume_settings_icon_color">#212121</color>                                          <!-- Hintergrund -->
+        <color name="qs_edit_item_decoration_bg">@*com.android.systemui:color/volume_settings_icon_color</color> <!-- Edit Hintergrund -->
                 <!-- Accent Farben -->
                 <color name="system_accent_color">@*android:color/accent_material_light</color>
                 <color name="fab_color">@*android:color/accent_material_light</color>
@@ -11,6 +11,6 @@
                 <color name="data_usage_graph_warning">@*android:color/accent_material_light</color>
 
         <!-- VOLUME PANEL -->
-        <color name="volume_panel_background_color">@*com.android.systemui:color/system_primary_color</color>
+        <color name="volume_panel_background_color">@*com.android.systemui:color/volume_settings_icon_color</color>
         <color name="volume_slider_inactive">@*com.android.systemui:color/qs_tile_tint_active</color>
 </resources>
