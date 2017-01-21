@@ -9,8 +9,8 @@ android {
         applicationId "com.schnettler.outline"
         minSdkVersion 24
         targetSdkVersion 25
-        versionCode 49
-        versionName "8.4B"
+        versionCode 50
+        versionName "8.4.1B"
     }
     buildTypes {
         def BOOLEAN = "boolean"
