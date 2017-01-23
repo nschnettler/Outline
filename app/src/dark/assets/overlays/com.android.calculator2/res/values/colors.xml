@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="display_formula_text_color">#ffffff</color>
+    <color name="display_result_text_color">#ffffff</color>
+    <color name="pad_button_advanced_text_color">#ffffff</color>
+    <color name="pad_button_text_color">#ffffff</color>
+
+    <color name="pad_numeric_background_color">@*android:color/background_dark</color>
+    <color name="pad_operator_background_color">@*android:color/background_dark</color>
+    <color name="display_background_color">@*android:color/background_dark</color>
+
+    <!-- Toolbar & Clear -->
+    <color name="calculator_accent_color">@*android:color/background_dark</color>
+    <!-- Error -->
+    <color name="calculator_error_color">@android:color/holo_red_light</color>
+    <!-- SwipeIn-Tab Color -->
+    <color name="pad_advanced_background_color">@*android:color/accent_material_dark</color>
+</resources>

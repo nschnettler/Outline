@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.NotificationGuts" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Header" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:alpha">1.0</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Secondary" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:alpha">0.8</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Primary" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:alpha">1.0</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Radio" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:alpha">1.0</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Button" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>
+        <item name="android:statusBarColor">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+</resources>

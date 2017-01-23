@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="main_background">@*android:color/background_dark</color>
+    <color name="compose_item_bg">@*android:color/background_dark</color>                           <!-- Drawer -->
+    <color name="host_background">#171717</color>                                                   <!-- Main Background / Behind HomeScreen Cards -->
+    <color name="quantum_grey100">@*android:color/background_dark</color>                           <!-- Notification Section Background -->
+    <color name="quantum_grey200">#171717</color>                                                   <!-- Main Background + Background behind +1, share, comment-->
+        <!-- Create Post Top -->
+        <color name="quantum_white_100">@*android:color/background_dark</color>
+        <color name="quantum_grey300">@*android:color/background_dark</color>
+    <color name="default_bg">@*android:color/background_dark</color>                                <!-- Post opened Background -->
+    <color name="quantum_grey50">@*android:color/background_dark</color>                            <!-- Comments Background -->
+    <color name="material_grey_900">@*android:color/background_dark</color>                         <!-- Bottom Nav Bar -->
+    <color name="large_image_embed_border">#00000000</color>                                        <!-- Link Preview umrandung -->
+    <color name="album_footer_background_color">@*android:color/background_dark</color>             <!-- Album Footer -->
+    <color name="navigation_selected_background">@*android:color/background_dark</color>
+    <color name="quantum_grey500">@*android:color/background_dark</color>                           <!-- Statusbar background Search, Settings, Splash -->
+    <color name="background_material_light">@*android:color/background_dark</color>                 <!-- Overflow Background -->
+    <color name="background_floating_material_light">@*android:color/background_dark</color>        <!-- Dialog Background (cancel create post) -->
+
+    <!-- Text -->
+    <color name="quantum_grey700">#ffdddddd</color>                                                 <!-- Notification card subtitle -->
+    <color name="quantum_black_text">#ffffffff</color>                                              <!-- Aktivitäten Dialog Title Text Color -->
+    <color name="quantum_black_secondary_text">#ffffff</color>                                      <!-- u.a Bottom Sheet Share TitleText Color -->
+    <color name="bright_foreground_material_light">#ffffffff</color>                                <!-- u.a Sharebox Username Text Color -->
+    <color name="quantum_grey900">#ffffffff</color>                                                 <!-- u.a Community Card Title Color -->
+    <color name="quantum_black_hint_text">#ffbbbbbb</color>                                         <!-- u.a edit profil community list subtitle text color | Search hint text-->
+    <color name="sharekit_text_normal">#ffffffff</color>                                            <!-- Communities Einladung Title Color -->
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="primary_text_disabled_material_dark">#ffdddddd</color>
+    <color name="primary_text_disabled_material_light">#ffdddddd</color>
+    <color name="text_black_26_percent">#ffbbbbbb</color>
+    <color name="text_black_54_percent">#ffcccccc</color>
+    <color name="text_black_87_percent">#ffdddddd</color>
+    <color name="text_gray">#ffdddddd</color>
+    <color name="text_gray_accessible_on_grey200">#ffdddddd</color>
+    <color name="text_grey_accessible_on_grey200">#ffdddddd</color>
+    <color name="text_hint">#ffbbbbbb</color>
+    <color name="text_normal">#ffffffff</color>
+    <color name="text_red">#ffd32f2f</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="text_white_26_percent">#ffbbbbbb</color>
+    <color name="text_white_40_percent">#ffcccccc</color>
+
+
+    <color name="card_background_selected">#171717</color>
+    <color name="quantum_grey">@android:color/background_dark</color>
+    <color name="quantum_grey400">@android:color/background_dark</color>
+    <color name="tool_item_title_font_dark">#E91E63</color>
+    <color name="notification_item_background_read">#E91E63</color>
+    <color name="cardview_light_background">#E91E63</color>
+    <color name="guns_notification_item_background_unread">#E91E63</color>
+    <color name="navigation_background">#E91E63</color>
+    <color name="ripple_material_light">#42ffffff</color>
+    <color name="ripple_material_dark">#42ffffff</color>
+    <color name="one_up_divider">#00d8d8d8</color>
+    <color name="story_empty_state_divider">#171717</color>
+
+    <color name="darker_white">@android:color/background_dark</color>
+    <color name="search_opaque_bg_color">@android:color/background_dark</color>
+    <color name="material_grey_50">@*android:color/background_dark</color>
+    <color name="material_grey_600">@*android:color/background_dark</color>
+    <color name="material_grey_800">@*android:color/background_dark</color>
+    <color name="material_grey_850">@*android:color/background_dark</color>
+<!--
+
+
+
+
+
+    <color name="album_container_background_color">@*android:color/background_dark</color>
+
+    <color name="background_material_dark">@*android:color/background_dark</color>
+
+    <color name="bar_graph_border">@*android:color/background_dark</color>
+    <color name="compose_location_list_item_bg">@*android:color/background_dark</color>
+
+
+    <color name="contacts_sync_background_color">@*android:color/background_dark</color>
+
+
+    <color name="dim_overlay_color">@*android:color/background_dark</color>
+    <color name="filter_parameter_panel_background">@*android:color/background_dark</color>
+    <color name="friend_locations_location_background">@*android:color/background_dark</color>
+    <color name="histogram_brightness_fill">@*android:color/background_dark</color>
+    <color name="locations_widget_item_background">@*android:color/background_dark</color>
+    <color name="large_image_text_background_color">@*android:color/background_dark</color>
+    <color name="local_business_review_embed_background">@*android:color/background_dark</color>
+
+
+    <color name="material_grey_900">@*android:color/background_dark</color>
+    <color name="material_blue_grey_900">@*android:color/background_dark</color>
+    <color name="material_blue_grey_950">@*android:color/background_dark</color>
+    <color name="no_notifications_view_background">@*android:color/background_dark</color>
+    <color name="notification_bar_background">@*android:color/background_dark</color>
+    <color name="notification_count_background">@*android:color/background_dark</color>
+
+
+
+
+
+
+    <color name="abc_search_url_text_pressed">#ffffffff</color>
+    <color name="abc_search_url_text_selected">#ffffffff</color>
+    <color name="acl_chip_view_collexion_text_color">#ffffffff</color>
+    <color name="acl_circle_chip_color">@*android:color/background_floating_material_dark</color>
+    <color name="acl_header_view_background">#ff111111</color>
+    <color name="acl_list_background">#ff000000</color>
+    <color name="acl_person_color">@*android:color/background_floating_material_dark</color>
+    <color name="acl_picker_actionbar_background">#ff111111</color>
+    <color name="acl_picker_search_text">#ffffffff</color>
+    <color name="acl_picker_section_divider">#ffaaaaaa</color>
+    <color name="acl_picker_shareousel_dot_map_dot_color">#ffffffff</color>
+    <color name="action_parameter_preview_background">#af111111</color>
+    <color name="action_parameter_preview_title">#ffffffff</color>
+    <color name="actionbar_gradient_text_shadow">#26000000</color>
+    <color name="actionbar_gradient_top_color">#99000000</color>
+    <color name="actionbar_translucent_black_background">#80000000</color>
+    <color name="advanced_parameter_selector_active_item_text">#ffffffff</color>
+    <color name="advanced_parameter_selector_background">#8a000000</color>
+    <color name="advanced_parameter_selector_inactive_item_text">#7fffffff</color>
+    <color name="album_background">@*android:color/transparent</color>
+    <color name="album_cover_gradient_bottom">#80000000</color>
+    <color name="album_disabled_color">#aa000000</color>
+    <color name="album_image_more_background_color">#99111111</color>
+    <color name="album_info_background_color">#cc000000</color>
+    <color name="album_more_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="album_visibility_grey">@*android:color/background_floating_material_dark</color>
+    <color name="avatar_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="avatar_selected_stroke">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+
+    <color name="bar_graph_label">#ffdddddd</color>
+    <color name="bar_graph_value">#ffbbbbbb</color>
+    <color name="best_photos_folders_tile_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="black_12">#1faaaaaa</color>
+    <color name="blue_button_ripple">#4dffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
+    <color name="bright_foreground_material_dark">#ffffffff</color>
+
+    <color name="bt_stroke_grey">@*android:color/background_floating_material_dark</color>
+    <color name="bt_toastbar_button">@*android:color/button_material_dark</color>
+    <color name="button_bar_divider">#ffaaaaaa</color>
+    <color name="button_material_dark">@*android:color/button_material_dark</color>
+    <color name="button_material_light">@*android:color/button_material_dark</color>
+
+    <color name="card_event_divider">#ffaaaaaa</color>
+    <color name="card_gray_spam_background">@*android:color/background_floating_material_dark</color>
+    <color name="card_separator">#ffaaaaaa</color>
+    <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
+    <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
+    <color name="collexion_learn_more_button_bg">@*android:color/button_material_dark</color>
+    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_default">#ffffffff</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_focused">#ffffffff</color>
+    <color name="common_signin_btn_dark_text_pressed">#ffffffff</color>
+    <color name="common_signin_btn_light_text_default">#ffffffff</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ffffffff</color>
+    <color name="common_signin_btn_light_text_pressed">#ffffffff</color>
+    <color name="compose_empty_fg">#ffffffff</color>
+    <color name="composebar_background_alpha">#7f000000</color>
+    <color name="contacts_sync_button_pressed_color">#ff555555</color>
+    <color name="contacts_sync_button_stroke">@*android:color/background_floating_material_dark</color>
+    <color name="container_header_background_color">#ff000000</color>
+    <color name="controls_pressed_bg">#44555555</color>
+    <color name="default_experiment_title">#ffffffff</color>
+    <color name="design_snackbar_background_color">#ff111111</color>
+    <color name="dialog_background_transparent_0x33">#33000000</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80bebebe</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ffbebebe</color>
+    <color name="draft_icon_dark_foreground_color">#ffffffff</color>
+    <color name="event_card_details_rsvp_background">@*android:color/background_floating_material_dark</color>
+    <color name="event_card_photo_pending_background_color">#ff555555</color>
+    <color name="event_info_background_color">#88000000</color>
+    <color name="fo_item_title_disabled">#6effffff</color>
+    <color name="fo_item_title_normal">#ffffffff</color>
+    <color name="foreground_material_dark">#ffffffff</color>
+    <color name="foreground_material_light">#ffffffff</color>
+    <color name="friend_locations_actions_background">#aa000000</color>
+    <color name="friend_locations_dark_text">#ffffffff</color>
+    <color name="friend_locations_dialog_text">#ffffffff</color>
+    <color name="friend_locations_divider">#ffaaaaaa</color>
+    <color name="friend_locations_grey_text">#ffbbbbbb</color>
+    <color name="gray_button_ripple">#4dffffff</color>
+    <color name="grey_button_pressed">#ff555555</color>
+    <color name="guns_notification_item_background_unread">@*android:color/background_floating_material_dark</color>
+    <color name="highlighted_text_material_dark">#66787878</color>
+    <color name="highlighted_text_material_light">#66787878</color>
+    <color name="histogram_brightness_stroke">@*android:color/background_floating_material_dark</color>
+    <color name="in_app_override_value">#227b1fa2</color>
+
+    <color name="light_slate_gray">@*android:color/background_floating_material_dark</color>
+    <color name="location_settings_disabled_color">#aa000000</color>
+    <color name="locations_widget_empty_view_background">#88000000</color>
+    <color name="material_blue_grey_800">@*android:color/background_floating_material_dark</color>
+
+    <color name="navigation_selected_background">#ff555555</color>
+    <color name="non_white_button_ripple">#4dffffff</color>
+    <color name="notification_divider">#ffaaaaaa</color>
+    <color name="notification_item_background_unread">@*android:color/background_floating_material_dark</color>
+    <color name="notification_item_background_unseen">@*android:color/background_floating_material_dark</color>
+    <color name="notification_more_actors_dots">#ffbbbbbb</color>
+    <color name="one_up_divider">#ffaaaaaa</color>
+    <color name="oob_button_divider">#ffaaaaaa</color>
+    <color name="overridden_experiment_title">#ffffffff</color>
+    <color name="page_indicator_default">#40ffffff</color>
+    <color name="page_indicator_default_active">#80ffffff</color>
+    <color name="parameter_indicator_text">#ffdddddd</color>
+    <color name="parameter_readout_scale_major_index">#ffffffff</color>
+    <color name="parameter_readout_scale_minor_index">#ffffffff</color>
+    <color name="parameter_readout_text_color">#ffffffff</color>
+    <color name="parameter_selector_active_item_text">#ffffffff</color>
+    <color name="parameter_selector_background">#5a000000</color>
+    <color name="parameter_selector_inactive_item_text">#7fffffff</color>
+    <color name="parameter_value_action_view_background">#af111111</color>
+    <color name="parameter_value_action_view_text">#ffffffff</color>
+    <color name="photo_action_bar_background">#ff000000</color>
+    <color name="photo_action_bar_layout_divider_background">#ff111111</color>
+    <color name="photo_loading_backgrond">@*android:color/background_dark</color>
+    <color name="photo_loading_background">@*android:color/background_dark</color>
+    <color name="photo_processing_background_color">#ff555555</color>
+    <color name="photo_selected_background_color">#66000000</color>
+    <color name="photo_tile_loading_backgrond">@*android:color/background_dark</color>
+    <color name="photos_app_promo_neg_btn_text_color">#ffffffff</color>
+    <color name="photos_app_promo_pos_btn_text_color">#ffffffff</color>
+    <color name="photos_grid_background_color">@*android:color/background_dark</color>
+    <color name="photos_home_background_color">@*android:color/background_dark</color>
+    <color name="photos_home_tab_text_non_selected_color">#ffffffff</color>
+    <color name="photos_host_background">@*android:color/background_dark</color>
+    <color name="play_fg_tabs">#ffffffff</color>
+    <color name="poll_divider">#ffaaaaaa</color>
+    <color name="poll_option_image_separator_background_color">@*android:color/background_dark</color>
+    <color name="poll_option_stacked_image_background_color">@*android:color/background_dark</color>
+    <color name="poll_option_title_black_background_color">@*android:color/background_dark</color>
+    <color name="poll_vote_count_text_color">#ffffffff</color>
+    <color name="preview_stroke">@*android:color/background_floating_material_dark</color>
+    <color name="primary_dark_material_dark">#ff000000</color>
+    <color name="primary_dark_material_light">#ff000000</color>
+    <color name="primary_material_dark">#ff111111</color>
+    <color name="primary_material_light">#ff111111</color>
+    <color name="profile_about_color_hours_highlighted_background">@*android:color/background_dark</color>
+    <color name="profile_cover_photo_bg">@*android:color/background_dark</color>
+    <color name="profile_edit_bg">@*android:color/background_dark</color>
+    <color name="profile_follow_button_blocked_color">#12000000</color>
+    <color name="profile_follow_button_ripple_color">#4dffffff</color>
+    <color name="profile_follow_button_selected_color">#12000000</color>
+    <color name="profile_local_zagat_explanation_background_bottom">#83000000</color>
+    <color name="profile_local_zagat_explanation_background_top">@*android:color/background_dark</color>
+    <color name="profile_local_zagat_explanation_circle">@*android:color/button_material_dark</color>
+    <color name="promo_auto_backup_button_background">#00000000</color>
+    <color name="promo_auto_backup_button_background_pressed">#20000000</color>
+    <color name="promo_divider_color">#ffaaaaaa</color>
+    <color name="promo_survey_answer_bg">@*android:color/background_dark</color>
+    <color name="quantum_black_divider">#ffaaaaaa</color>
+
+
+
+    <color name="quantum_grey">@*android:color/background_dark</color>
+    <color name="quantum_grey100">@*android:color/background_dark</color>
+    <color name="quantum_grey200">@*android:color/background_floating_material_dark</color>
+
+    <color name="quantum_grey400">#ffaaaaaa</color>
+
+    <color name="quantum_grey600">#ffffffff</color>
+
+    <color name="quantum_grey800">#ffdddddd</color>
+
+    <color name="quantum_greyblack1000">#ffffffff</color>
+    <color name="quantum_white_100_alpha_95">#f2222222</color>
+    <color name="quantum_white_divider">#ffaaaaaa</color>
+    <color name="red_button_ripple">#42ffffff</color>
+
+
+    <color name="riviera_comment_background">@*android:color/background_dark</color>
+    <color name="search_grey_dark">@*android:color/background_floating_material_dark</color>
+    <color name="search_grey_light">@*android:color/background_floating_material_dark</color>
+    <color name="search_opaque_bg_color">@*android:color/background_floating_material_dark</color>
+    <color name="secondary_text_default_material_dark">#ffdddddd</color>
+    <color name="secondary_text_default_material_light">#ffdddddd</color>
+    <color name="secondary_text_disabled_material_dark">#ffaaaaaa</color>
+    <color name="secondary_text_disabled_material_light">#ffaaaaaa</color>
+    <color name="section_header_color">#ffaaaaaa</color>
+    <color name="send_content_divider">#ffaaaaaa</color>
+    <color name="separator">@*android:color/background_floating_material_dark</color>
+    <color name="sharekit_light_background">@*android:color/background_dark</color>
+
+    <color name="square_blocking_explanation_background">@*android:color/background_dark</color>
+    <color name="square_card_divider">#ffaaaaaa</color>
+    <color name="story_caption_placeholder_border_color">#99111111</color>
+    <color name="story_card_subtitle_text_color">#ffdddddd</color>
+    <color name="story_card_title_text_color">#ffffffff</color>
+    <color name="story_edit_location_bottom_bar_background">@*android:color/background_dark</color>
+    <color name="story_edit_location_item_place_tag_address_color">#ffdddddd</color>
+    <color name="story_edit_location_item_place_tag_text_color">#ffffffff</color>
+    <color name="story_edit_location_pressed_color">#ff555555</color>
+    <color name="story_edit_location_separator">#ffaaaaaa</color>
+    <color name="story_edit_text_bg">@*android:color/background_dark</color>
+    <color name="story_empty_state_background">@*android:color/background_dark</color>
+    <color name="story_empty_state_body">#ffdddddd</color>
+    <color name="story_empty_state_divider">#ffaaaaaa</color>
+    <color name="story_empty_state_title">#ffffffff</color>
+    <color name="story_hero_view_overlay_secondary_text_color">#ffdddddd</color>
+    <color name="story_hero_view_overlay_text_color">#ffffffff</color>
+    <color name="story_social_controls_background">#99000000</color>
+    <color name="stream_location_off_text_color">#ffffffff</color>
+    <color name="stream_one_up_comment_flagged_avatar_background">#ff555555</color>
+    <color name="stream_one_up_stage_skyjam_preview_background">@*android:color/background_dark</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ff616161</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switcher_background">@*android:color/background_floating_material_dark</color>
+    <color name="tab_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="tb_item_title_disabled">#ffaaaaaa</color>
+    <color name="tb_item_title_normal">#ffffffff</color>
+    <color name="tile_background">@*android:color/background_floating_material_dark</color>
+    <color name="tile_background_selected">#ff555555</color>
+    <color name="tile_photo_one_up_list_background">@*android:color/background_dark</color>
+    <color name="tile_photo_one_up_notice_background">#aa000000</color>
+    <color name="tile_photo_one_up_notice_foreground">#ffffffff</color>
+    <color name="title_background">@*android:color/background_dark</color>
+
+    <color name="transparent_follow_button_ripple_color">#44ffffff</color>
+    <color name="warm_welcome_background_color">@*android:color/background_dark</color>
+    <color name="warm_welcome_button_pressed_color">#ff555555</color>
+    <color name="warm_welcome_button_stroke">@*android:color/background_floating_material_dark</color>
+    <color name="white_alpha20">#33ffffff</color>
+    <color name="white_alpha30">#4dffffff</color>
+    <color name="white_alpha54">#89ffffff</color>
+    <color name="white_alpha80">#ccffffff</color>
+    <color name="white_button_ripple">#4dffffff</color>
+    <color name="write_place_review_bg">@*android:color/background_dark</color>
+    <color name="year_row_divider">#ffaaaaaa</color>
+    <color name="youtube_settings_prompt_bg">@*android:color/background_dark</color>
+     -->
+</resources>

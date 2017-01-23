@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkPrimary">@*android:color/background_dark</color>                               <!-- Background -->
+    <color name="darkPrimaryDark">@*android:color/background_dark</color>                           <!-- Dialog Background -->
+    <color name="cardview_dark_background">@*android:color/background_dark</color>
+    <color name="cardviewDarkBackground">@*android:color/background_dark</color>                    <!-- Tag bottom bar background -->
+    <color name="searchBarBgColorDark">#171717</color>
+    <color name="transparentStatusBar">#00000000</color>                                            <!-- Statusbar Overlay -->
+    <color name="material_grey_800">@*android:color/background_dark</color>                         <!-- Dialog Background -->
+</resources>

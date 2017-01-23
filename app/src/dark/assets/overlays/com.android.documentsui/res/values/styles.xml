@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="DialogWhenReallyLarge" parent="@android:style/Theme.Material">
+    <item name="android:textColorPrimary">#ffffff</item>
+    <item name="android:textColorSecondary">@*android:color/accent_material_dark</item>
+</style>
+<style name="ActionBarPopupTheme" parent="@android:style/ThemeOverlay.Material" />
+<style name="ActionBarTheme" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar" />
+<style name="AlertDialog.AppCompat.Light" parent="@android:style/Theme.Material.Dialog" />
+</resources>

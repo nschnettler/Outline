@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="directory_background">@*android:color/background_dark</color>                      <!-- Main -->
+    <color name="drawer_background">@*android:color/background_dark</color>                         <!-- Drawer -->
+    <color name="item_doc_background">@*android:color/background_dark</color>                       <!-- Cards -->
+    <color name="window_background">@*android:color/background_dark</color>                         <!-- Behind everything, flashes when opening a folder -->
+    <color name="item_doc_background_selected">#171717</color>                                      <!-- Card selected -->
+    <color name="item_doc_background_disabled">#171717</color>                                      <!-- Card disabled -->
+</resources>
+

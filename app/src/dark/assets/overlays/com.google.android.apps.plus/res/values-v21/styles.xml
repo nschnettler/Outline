@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomBarItemVertical">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">-5.0dip</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>
+    </style>
+</resources>

@@ -6,11 +6,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25"
     defaultConfig {
-        applicationId "com.schnettler.outline"
-        minSdkVersion 24
         targetSdkVersion 25
         versionCode 50
-        versionName "8.4.1B"
     }
     buildTypes {
         def BOOLEAN = "boolean"
@@ -34,9 +31,15 @@ android {
         }
 
         productFlavors {
-            betaBuild {
+            dark{
+                applicationId "com.schnettler.outline.dark"
+                minSdkVersion 25
+                versionName "0A"
             }
-            releaseBuild {
+            light{
+                applicationId "com.schnettler.outline"
+                minSdkVersion 24
+                versionName "8.4.1B"
             }
         }
     }

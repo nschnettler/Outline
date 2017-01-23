@@ -38,7 +38,7 @@
 
         <meta-data
             android:name="Substratum_ThemeReady"
-            android:value="stock"/>
+            android:value="@string/ThemeType"/>
 
         <meta-data
             android:name="Substratum_Email"

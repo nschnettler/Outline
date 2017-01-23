@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+    <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material">
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+        <item name="android:colorSecondary">@*android:color/background_dark</item>                  <!-- Switchbar Background Color -->
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColorPrimaryInverse">#ffffffff</item>
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>              <!-- Navbar color -->
+    </style>
+</resources>

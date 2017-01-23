@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard -->
+    <color name="dashboard_category_title_background">@*android:color/background_dark</color>       <!-- Category Title Background -->
+    <color name="selectable_card_background">@*android:color/background_dark</color>                <!-- Category/Card Background -->
+    <color name="material_grey_300">@*android:color/background_dark</color>                         <!-- Background behind everything (for example search view) -->
+
+    <!-- Security / Fingerprint Stuff -->
+    <color name="fingerprint_indicator_background_resting">#66ffffff</color>                        <!-- Add fingerprint default fingerprint Icon color (#12000000) -->
+    <color name="fingerprint_progress_ring_bg">#66FFFFFF</color>                                    <!-- Add fingerprint ring color (#20000000) -->
+    <color name="fingerprint_progress_ring">@*android:color/accent_material_dark</color>            <!-- Add fingerprint ring progress color -->
+    <!-- Security / Pattern -->
+    <color name="lock_pattern_view_error_color">@*android:color/accent_material_dark</color>        <!-- Pattern Error color -->
+    <color name="lock_pattern_view_regular_color">#FFFFFF</color>                                   <!-- Pattern Dot color -->
+
+    <!-- Battery -->
+    <color name="usage_graph_dots">#66FFFFFF</color>                                                <!-- Graph dot color -->
+
+    <!-- Gestures -->
+    <color name="gestures_setting_background_color">@*android:color/background_dark</color>         <!-- Background -->
+    <color name="gestures_switchbar_color">@*android:color/background_dark</color>                  <!-- Switchbar Background -->
+
+    <color name="divider_color">#00ffffff</color>
+    <color name="wifi_divider">#00aaaaaa</color>
+
+    <color name="switchbar_background_color">@*android:color/button_material_dark</color>
+
+<!--
+    <color name="lock_pattern_background">#4caf50</color>
+
+    <color name="material_empty_color_light">#FF1744</color>
+    <color name="storage_summary_title_color">#D500F9</color>
+    <color name="wifi_divider">#651FFF</color>
+    <color name="card_background_grey">#00E5FF</color>
+    <color name="fingerprint_title_area_bg">#00E5FF</color>
+
+    <color name="suw_color_accent_light">@*android:color/accent_material_dark</color>
+    <color name="suw_navbar_bg_dark">@*android:color/background_dark</color>
+    <color name="suw_navbar_bg_light">#f0f0f0</color>
+    <color name="suw_color_accent_glif_light">@*android:color/accent_material_dark</color>
+
+    <color name="linear_color_bar_left">@*android:color/accent_material_dark</color>
+    <color name="linear_color_bar_middle">@*android:color/accent_material_dark</color>
+    <color name="linear_color_bar_right">@*android:color/holo_gray_light</color>
+
+    <color name="unlock_pattern_view_error_color">@*android:color/accent_material_dark</color>
+    <color name="unlock_pattern_view_regular_color">@*android:color/background_dark</color>
+    <color name="condition_card_background_color">@*android:color/background_dark</color>
+    <color name="condition_card_divider_color">#00000000</color>
+    <color name="condition_card_expander_color">@*android:color/holo_orange_light</color>
+    <color name="condition_card_first_button_text_color">#ffffff</color>
+    <color name="condition_card_icon_color">@*android:color/holo_orange_light</color>
+    <color name="condition_card_second_button_text_color">#ffffff</color>
+    <color name="condition_card_summary_text_color">#ffffff</color>
+    <color name="condition_card_title_text_color">#ffffff</color>
+
+    <color name="card_background">#4caf50</color>   DEFAULT fffafafa -->
+</resources>

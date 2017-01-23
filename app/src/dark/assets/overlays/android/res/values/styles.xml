@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification.Emphasis">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Line2" parent="@android:style/TextAppearance.Material.Notification.Line2">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="Theme.Material.Settings" parent="@*android:style/Theme.Material">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+        <item name="colorSecondary">@*android:color/button_material_dark</item>
+    </style>
+    <style name="Theme.Material.Settings.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Material.BaseDialog">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Dialog.BaseAlert">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+
+    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@*android:style/Theme.Material.Dialog.Presentation">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.Material.Settings.SearchBar" parent="@*android:style/Theme.Material.SearchBar">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Material.CompactMenu">
+        <item name="colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material">
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+</resources>
