@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">@*android:color/background_dark</color>                                <!-- Main Background -->
+    <color name="card_background">@*android:color/background_dark</color>                           <!-- Card Background -->
+
+    <color name="actionbar">#171717</color>                                                         <!-- Primary -->
+    <color name="actionbar_dark">#171717</color>                                                    <!-- Primary Dark-->
+</resources>
