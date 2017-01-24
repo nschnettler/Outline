@@ -4,4 +4,8 @@
     <color name="colorPrimaryLightDark">@android:color/holo_blue_light</color>
     <!-- Primary -->
     <color name="blueapptheme_color">@android:color/holo_blue_light</color>
+
+    <color name="dashboard_green">@android:color/holo_green_light</color>
+    <color name="dashboard_red">@android:color/holo_red_light</color>
+    <color name="dashboard_yellow">@android:color/holo_orange_light</color>
 </resources>
