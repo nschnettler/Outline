@@ -10,6 +10,7 @@
     <!-- Notifications -->
     <color name="notification_text_default_color">@*android:color/accent_material_dark</color>      <!-- Title Color -->
     <color name="notification_action_list">@*android:color/background_dark</color>                  <!-- Button Bar Background -->
+    <color name="notification_action_list_dark">@*android:color/background_dark</color>             <!-- Notification Button Dark Background (for example Clock notification) -->
     <color name="notification_default_color">@*android:color/accent_material_dark</color>           <!-- Button Text Color -->
     <color name="sender_text_color">#FFFFFF</color>                                                 <!-- Sender Text color (when expanded) | ONLY CUSTOM ROMS -->
 
