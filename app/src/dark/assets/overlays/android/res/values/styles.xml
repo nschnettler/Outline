@@ -78,4 +78,11 @@
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="android:colorAccent">@*android:color/accent_material_dark</item>
     </style>
+
+    <style name="Theme.Material.Light.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.BaseAlert" /><!-- Various white dialogs, for example Substratum Creating Cache Dialog-->
+
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.Material" /> <!-- Themes PowerMenu -->
+
+
+
 </resources>
