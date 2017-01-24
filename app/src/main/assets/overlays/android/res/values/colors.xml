@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Light -->
+    <color name="primary_material_dark">@*android:color/primary_material_light</color>
+    <color name="notification_icon_bg_color">@*android:color/primary_material_light</color>
+    <color name="notification_action_color_filter">@*android:color/primary_material_light</color>
+    <color name="system_notification_accent_color">@*android:color/primary_material_light</color>
+
+    <!-- Primary Dark -->
+    <color name="primary_dark_material_dark">@*android:color/primary_material_light</color>
+
+    <!-- Accent -->
+    <color name="accent_material_dark">@*android:color/accent_material_light</color>
+    <color name="theme_accent">@*android:color/accent_material_light</color>
+    <color name="material_deep_teal_200">@*android:color/accent_material_light</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
+    <color name="battery_saver_mode_color">@*android:color/accent_material_light</color>
+
+    <color name="switch_thumb_normal_material_light">#ff757575</color>
+
+    <color name="system_bar_background_semi_transparent">#00000000</color>
+
+    <color name="lock_pattern_view_error_color">@*android:color/holo_red_light</color>
+</resources>
