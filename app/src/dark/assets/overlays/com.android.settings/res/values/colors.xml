@@ -25,6 +25,8 @@
 
     <color name="switchbar_background_color">@*android:color/button_material_dark</color>
 
+    <!-- Suggestion Card -->
+    <color name="card_background_grey">@*android:color/background_dark</color>
 <!--
     <color name="lock_pattern_background">#4caf50</color>
 
