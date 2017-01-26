@@ -19,7 +19,7 @@
     <color name="background_material_light">@*android:color/background_dark</color>                 <!-- Overflow Background -->
     <color name="background_floating_material_light">@*android:color/background_dark</color>        <!-- Dialog Background (cancel create post) -->
     <color name="profile_edit_bg">@*android:color/background_dark</color>                           <!-- Search Suggestions/Recents Background -->
-
+    <color name="album_more_background_color">#171717</color>                                       <!-- Notification mark as read background -->
 
 
     <!-- Text -->
