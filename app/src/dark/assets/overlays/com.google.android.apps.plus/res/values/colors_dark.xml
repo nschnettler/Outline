@@ -20,7 +20,8 @@
     <color name="background_floating_material_light">@*android:color/background_dark</color>        <!-- Dialog Background (cancel create post) -->
     <color name="profile_edit_bg">@*android:color/background_dark</color>                           <!-- Search Suggestions/Recents Background -->
     <color name="album_more_background_color">#171717</color>                                       <!-- Notification mark as read background -->
-
+    <color name="quantum_lightblue900">#171717</color>                                              <!-- Poll active bar -->
+    <color name="poll_option_title_black_background_color">@*android:color/background_dark</color>  <!-- Poll bar background -->
 
     <!-- Text -->
     <color name="quantum_grey700">#ffdddddd</color>                                                 <!-- Notification card subtitle -->
