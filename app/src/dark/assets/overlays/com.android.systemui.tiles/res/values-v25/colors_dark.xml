@@ -2,8 +2,7 @@
 <resources>
 
         <!-- QuickSettings -->
-                <color name="system_primary_color">#1F1F1F</color>                                          <!-- Hintergrund -->
-
+        <color name="volume_settings_icon_color">@*android:color/background_dark</color>          <!-- Hintergrund -->
 
         <!-- Notifications -->
                 <color name="notification_gear_color">#ffffff</color>                               <!-- Color of the GEar -->
