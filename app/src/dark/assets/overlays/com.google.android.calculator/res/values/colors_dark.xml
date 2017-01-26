@@ -11,8 +11,12 @@
 
     <!-- Toolbar & Clear -->
     <color name="calculator_accent_color">@*android:color/background_dark</color>
+    <color name="calculator_statusbar_color">@*android:color/accent_material_dark</color>
+    <color name="calculator_primary_color">@*android:color/accent_material_dark</color>
     <!-- Error -->
     <color name="calculator_error_color">@android:color/holo_red_light</color>
     <!-- SwipeIn-Tab Color -->
     <color name="pad_advanced_background_color">@*android:color/accent_material_dark</color>
+
+    <color name="empty_history_color">@*android:color/background_dark</color>
 </resources>
