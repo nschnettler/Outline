@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nameLabelsGroup">
+        <font color="#acffffff">Nome</font>
+    </string>
+    <string name="phoneLabelsGroup">
+        <font color="#acffffff">Telefono</font>
+    </string>
+    <string name="emailLabelsGroup">
+        <font color="#acffffff">Email</font>
+    </string>
+    <string name="postalLabelsGroup">
+        <font color="#acffffff">Indirizzo</font>
+    </string>
+    <string name="postal_address">
+        <font color="#acffffff">Indirizzo</font>
+    </string>
+    <string name="full_name">
+        <font color="#acffffff">Nome</font>
+    </string>
+    <string name="event_edit_field_hint_text">
+        <font color="#acffffff">Data</font>
+    </string>
+    <string name="group_edit_field_hint_text">
+        <font color="#acffffff">Nome del gruppo</font>
+    </string>
+    <string name="ghostData_company">
+        <font color="#acffffff">Società</font>
+    </string>
+    <string name="ghostData_title">
+        <font color="#acffffff">Titolo</font>
+    </string>
+    <string name="imLabelsGroup">
+        <font color="#acffffff">Chat</font>
+    </string>
+    <string name="relationLabelsGroup">
+        <font color="#acffffff">Relazione</font>
+    </string>
+    <string name="label_notes">
+        <font color="#acffffff">Note</font>
+    </string>
+    <string name="label_sip_address">
+        <font color="#acffffff">SIP</font>
+    </string>
+    <string name="websiteLabelsGroup">
+        <font color="#acffffff">Sito web</font>
+    </string>
+    <string name="nicknameLabelsGroup">
+        <font color="#acffffff">Nickname</font>
+    </string>
+    <string name="name_phonetic">
+        <font color="#acffffff">Nome fonetico</font>
+    </string>
+    <string name="name_phonetic_given">
+        <font color="#acffffff">Nome fonetico</font>
+    </string>
+    <string name="name_phonetic_middle">
+        <font color="#acffffff">Secondo nome fonetico</font>
+    </string>
+    <string name="name_phonetic_family">
+        <font color="#acffffff">Cognome fonetico</font>
+    </string>
+    <string name="name_given">
+        <font color="#acffffff">Nome</font>
+    </string>
+    <string name="name_family">
+        <font color="#acffffff">Cognome</font>
+    </string>
+    <string name="name_prefix">
+        <font color="#acffffff">Prefisso nome</font>
+    </string>
+    <string name="name_middle">
+        <font color="#acffffff">Secondo nome</font>
+    </string>
+    <string name="name_suffix">
+        <font color="#acffffff">Suffisso nome</font>
+    </string>
+</resources>

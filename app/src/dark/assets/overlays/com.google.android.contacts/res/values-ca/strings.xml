@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nameLabelsGroup">
+        <font color="#acffffff">Nom</font>
+    </string>
+    <string name="phoneLabelsGroup">
+        <font color="#acffffff">Telèfon</font>
+    </string>
+    <string name="emailLabelsGroup">
+        <font color="#acffffff">Adreça electrònica</font>
+    </string>
+    <string name="postalLabelsGroup">
+        <font color="#acffffff">Adreça</font>
+    </string>
+    <string name="postal_address">
+        <font color="#acffffff">Adreça</font>
+    </string>
+    <string name="full_name">
+        <font color="#acffffff">Nom</font>
+    </string>
+    <string name="event_edit_field_hint_text">
+        <font color="#acffffff">Data</font>
+    </string>
+    <string name="group_edit_field_hint_text">
+        <font color="#acffffff">Nom del grup</font>
+    </string>
+    <string name="ghostData_company">
+        <font color="#acffffff">Empresa</font>
+    </string>
+    <string name="ghostData_title">
+        <font color="#acffffff">Títol</font>
+    </string>
+    <string name="imLabelsGroup">
+        <font color="#acffffff">Xat</font>
+    </string>
+    <string name="relationLabelsGroup">
+        <font color="#acffffff">Relació</font>
+    </string>
+    <string name="label_notes">
+        <font color="#acffffff">Notes</font>
+    </string>
+    <string name="label_sip_address">
+        <font color="#acffffff">SIP</font>
+    </string>
+    <string name="websiteLabelsGroup">
+        <font color="#acffffff">Lloc web</font>
+    </string>
+    <string name="nicknameLabelsGroup">
+        <font color="#acffffff">Àlies</font>
+    </string>
+    <string name="name_phonetic">
+        <font color="#acffffff">Nom fonètic</font>
+    </string>
+    <string name="name_phonetic_given">
+        <font color="#acffffff">Nom fonètic</font>
+    </string>
+    <string name="name_phonetic_middle">
+        <font color="#acffffff">Segon nom fonètic</font>
+    </string>
+    <string name="name_phonetic_family">
+        <font color="#acffffff">Cognoms fonètics</font>
+    </string>
+    <string name="name_given">
+        <font color="#acffffff">Nom</font>
+    </string>
+    <string name="name_family">
+        <font color="#acffffff">Cognoms</font>
+    </string>
+    <string name="name_prefix">
+        <font color="#acffffff">Prefix del nom</font>
+    </string>
+    <string name="name_middle">
+        <font color="#acffffff">Segon nom</font>
+    </string>
+    <string name="name_suffix">
+        <font color="#acffffff">Sufix del nom</font>
+    </string>
+</resources>

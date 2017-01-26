@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nameLabelsGroup">
+        <font color="#acffffff">Name</font>
+    </string>
+    <string name="phoneLabelsGroup">
+        <font color="#acffffff">Phone</font>
+    </string>
+    <string name="emailLabelsGroup">
+        <font color="#acffffff">Email</font>
+    </string>
+    <string name="postalLabelsGroup">
+        <font color="#acffffff">Address</font>
+    </string>
+    <string name="postal_address">
+        <font color="#acffffff">Address</font>
+    </string>
+    <string name="full_name">
+        <font color="#acffffff">Name</font>
+    </string>
+    <string name="event_edit_field_hint_text">
+        <font color="#acffffff">Date</font>
+    </string>
+    <string name="group_edit_field_hint_text">
+        <font color="#acffffff">Group name</font>
+    </string>
+    <string name="ghostData_company">
+        <font color="#acffffff">Company</font>
+    </string>
+    <string name="ghostData_title">
+        <font color="#acffffff">Title</font>
+    </string>
+    <string name="imLabelsGroup">
+        <font color="#acffffff">IM</font>
+    </string>
+    <string name="relationLabelsGroup">
+        <font color="#acffffff">Relationship</font>
+    </string>
+    <string name="label_notes">
+        <font color="#acffffff">Notes</font>
+    </string>
+    <string name="label_sip_address">
+        <font color="#acffffff">SIP</font>
+    </string>
+    <string name="websiteLabelsGroup">
+        <font color="#acffffff">Website</font>
+    </string>
+    <string name="nicknameLabelsGroup">
+        <font color="#acffffff">Nickname</font>
+    </string>
+    <string name="name_phonetic">
+        <font color="#acffffff">Phonetic name</font>
+    </string>
+    <string name="name_phonetic_given">
+        <font color="#acffffff">Phonetic first name</font>
+    </string>
+    <string name="name_phonetic_middle">
+        <font color="#acffffff">Phonetic middle name</font>
+    </string>
+    <string name="name_phonetic_family">
+        <font color="#acffffff">Phonetic last name</font>
+    </string>
+    <string name="name_given">
+        <font color="#acffffff">First name</font>
+    </string>
+    <string name="name_family">
+        <font color="#acffffff">Last name</font>
+    </string>
+    <string name="name_prefix">
+        <font color="#acffffff">Name prefix</font>
+    </string>
+    <string name="name_middle">
+        <font color="#acffffff">Middle name</font>
+    </string>
+    <string name="name_suffix">
+        <font color="#acffffff">Name suffix</font>
+    </string>
+</resources>

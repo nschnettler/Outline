@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nameLabelsGroup">
+        <font color="#acffffff">Όνομα</font>
+    </string>
+    <string name="phoneLabelsGroup">
+        <font color="#acffffff">Τηλέφωνο</font>
+    </string>
+    <string name="emailLabelsGroup">
+        <font color="#acffffff">Ηλεκτρονικό ταχυδρομείο</font>
+    </string>
+    <string name="postalLabelsGroup">
+        <font color="#acffffff">Διεύθυνση</font>
+    </string>
+    <string name="postal_address">
+        <font color="#acffffff">Διεύθυνση</font>
+    </string>
+    <string name="full_name">
+        <font color="#acffffff">Όνομα</font>
+    </string>
+    <string name="event_edit_field_hint_text">
+        <font color="#acffffff">Ημερομηνία</font>
+    </string>
+    <string name="group_edit_field_hint_text">
+        <font color="#acffffff">Όν. ομάδ.</font>
+    </string>
+    <string name="ghostData_company">
+        <font color="#acffffff">Εταιρεία</font>
+    </string>
+    <string name="ghostData_title">
+        <font color="#acffffff">Τίτλος</font>
+    </string>
+    <string name="imLabelsGroup">
+        <font color="#acffffff">IM</font>
+    </string>
+    <string name="relationLabelsGroup">
+        <font color="#acffffff">Σχέση</font>
+    </string>
+    <string name="label_notes">
+        <font color="#acffffff">Σημειώσεις</font>
+    </string>
+    <string name="label_sip_address">
+        <font color="#acffffff">SIP</font>
+    </string>
+    <string name="websiteLabelsGroup">
+        <font color="#acffffff">Ιστότοπος</font>
+    </string>
+    <string name="nicknameLabelsGroup">
+        <font color="#acffffff">Ψευδώνυμο</font>
+    </string>
+    <string name="name_phonetic">
+        <font color="#acffffff">Φωνητική μορφή ονόματος</font>
+    </string>
+    <string name="name_phonetic_given">
+        <font color="#acffffff">Φωνητικό όνομα</font>
+    </string>
+    <string name="name_phonetic_middle">
+        <font color="#acffffff">Φωνητική μορφή πατρώνυμου</font>
+    </string>
+    <string name="name_phonetic_family">
+        <font color="#acffffff">Φωνητικό επώνυμο</font>
+    </string>
+    <string name="name_given">
+        <font color="#acffffff">Όνομα</font>
+    </string>
+    <string name="name_family">
+        <font color="#acffffff">Επώνυμο</font>
+    </string>
+    <string name="name_prefix">
+        <font color="#acffffff">Πρόθεμα ονόματος</font>
+    </string>
+    <string name="name_middle">
+        <font color="#acffffff">Πατρώνυμο</font>
+    </string>
+    <string name="name_suffix">
+        <font color="#acffffff">Επίθημα ονόματος</font>
+    </string>
+</resources>
