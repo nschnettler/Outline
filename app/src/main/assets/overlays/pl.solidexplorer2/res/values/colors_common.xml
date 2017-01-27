@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="indigo">@android:color/holo_blue_light</color>
+    <color name="light_blue">@*android:color/primary_material_light</color>
+    <color name="light_green">#ff7cb342</color>
+    <color name="light_grey">#ffeeeeee</color>
+    <color name="lime">#ffc0ca33</color>
+    <color name="green">@android:color/holo_green_light</color>
+    <color name="grey">#ff757575</color>
+    <color name="purple">@android:color/holo_purple</color>
+    <color name="red">@android:color/holo_red_light</color>
+    <color name="orange">@android:color/holo_orange_light</color>
+    <color name="pink">@android:color/holo_blue_dark</color>
+    <color name="cyan">#ff00acc1</color>
+    <color name="deep_orange">#fff4511e</color>
+    <color name="deep_purple">#ff673ab7</color>
+    <color name="blue">#ff1e88e5</color>
+    <color name="teal">#ff009688</color>
+    <color name="yellow">#fffdd835</color>
+    <color name="amber">#ffffb300</color>
+    <color name="brown">#ff795548</color>
+    <color name="blue_grey">@*android:color/accent_material_light</color>
+
+    <color name="subcolor_light">#00000000</color>
+</resources>
