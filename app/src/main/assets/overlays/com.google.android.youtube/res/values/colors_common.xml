@@ -24,13 +24,16 @@
     <color name="theme_main_color_primary">@android:color/holo_red_light</color>
     <color name="quantum_googred500">@android:color/holo_red_light</color>
     <color name="share_panel_progress_color">@android:color/holo_red_light</color>
-    <color name="theme_main_color_accent">@android:color/holo_red_light</color>
     <color name="ics_blue_glow">@android:color/holo_red_light</color>
     <color name="playlist_thumbnail_inner_border_color">@android:color/holo_red_light</color>
     <color name="corrected_query_link_color">@android:color/holo_red_light</color>
     <color name="preview_image_error_background">@android:color/holo_red_light</color>
     <color name="quantum_blue">@android:color/holo_red_light</color>
     <color name="callout_drawable_background_color">@android:color/holo_red_light</color>
+
+    <color name="youtube_blue">@android:color/holo_red_dark</color>
+    <color name="theme_main_color_accent">@android:color/holo_red_dark</color>
+    <color name="quantum_googblue500">@android:color/holo_red_dark</color>
 
     <!-- Primary Dark -->
 
