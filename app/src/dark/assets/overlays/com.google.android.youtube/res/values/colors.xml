@@ -36,6 +36,8 @@
     <color name="mdx_statusbar_background">@android:color/holo_red_light</color>                    <!-- Statusbar Color -->
     <color name="mdx_actionbar_background">@android:color/holo_red_light</color>                    <!-- Toolbar Color -->
 
+    <color name="subscribe_button_subscribed_font_color">#FFFFFF</color>
+
 
     <color name="video_dismissal_card_background">@*android:color/background_floating_material_dark</color>
     <color name="video_dismissal_card_border_color">#ff555555</color>
@@ -212,7 +214,6 @@
     <color name="dialog_font">#ffffffff</color>
     <color name="text_color_primary_default_dark">#ffffffff</color>
     <color name="text_color_secondary_default_dark">#ffdddddd</color>
-    <color name="color_brand_primary">@*android:color/material_grey_800</color>
     <color name="account_switcher_color_secondary">#ffdddddd</color>
     <color name="account_switcher_background_pressed">#ff555555</color>
     <color name="sign_in_promo_text_color">#ffdddddd</color>
@@ -270,7 +271,6 @@
     <color name="upload_activity_privacy_separator_color">#ffaaaaaa</color>
     <color name="feed_item_separator_color">#ffaaaaaa</color>
     <color name="music_badge_text_color">#ffdddddd</color>
-    <color name="subscribe_button_subscribed_font_color">#ffdddddd</color>
     <color name="theme_tab_fallback_text_color_activated_dark">#ffffffff</color>
     <color name="theme_tab_fallback_text_color_normal_dark">#99ffffff</color>
     <color name="search_suggestion_entry_text_color">#ffdddddd</color>
