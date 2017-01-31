@@ -79,6 +79,22 @@
     <color name="av_phone_entry_screen_background">@*android:color/background_material_dark</color>
     <color name="image_filter_list_background_color">@*android:color/background_material_dark</color>
     <color name="ticket_shelf_more_background">@*android:color/background_material_dark</color>
+    <color name="share_panel_overflow_status_bar_background">@*android:color/background_material_dark</color>
+    <color name="share_panel_identity_confirmation_bg_color">@*android:color/background_material_dark</color>
+    <color name="share_panel_identity_confirmation_user_bg">@*android:color/background_material_dark</color>
+    <color name="share_panel_overflow_toolbar_background">@*android:color/background_material_dark</color>
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
+    <color name="background_material_light">@*android:color/background_material_dark</color>
+    <color name="theme_watch_color_primary_dark">@*android:color/background_material_dark</color>
+    <color name="theme_main_window_background">@*android:color/background_material_dark</color>
+    <color name="theme_native_color_primary_dark">@*android:color/background_material_dark</color>
+    <color name="theme_channel_color_primary_dark">@*android:color/background_material_dark</color>
+    <color name="live_chat_background_color">@*android:color/background_material_dark</color>
+    <color name="live_chat_header_color">@*android:color/background_material_dark</color>
+    <color name="live_chat_light_overlay_background">@*android:color/background_material_dark</color>
+    <color name="live_chat_dark_metadata_background">@*android:color/background_material_dark</color>
+    <color name="live_chat_light_metadata_background">@*android:color/background_material_dark</color>
+    <color name="new_version_available_activity_background_color">@*android:color/background_material_dark</color>
 
 
     <color name="comment_bg_style_grey">@*android:color/background_floating_material_dark</color>
@@ -252,16 +268,6 @@
     <color name="expand_button_separator_color">#ffaaaaaa</color>
     <color name="theme_native_actionbar_text_color_primary">#ffffffff</color>
     <color name="theme_native_actionbar_text_color_secondary">#ffdddddd</color>
-    <color name="theme_watch_color_primary_dark">@*android:color/background_material_dark</color>
-    <color name="theme_main_window_background">@*android:color/background_material_dark</color>
-    <color name="theme_native_color_primary_dark">@*android:color/background_material_dark</color>
-    <color name="theme_channel_color_primary_dark">@*android:color/background_material_dark</color>
-    <color name="live_chat_background_color">@*android:color/background_material_dark</color>
-    <color name="live_chat_header_color">@*android:color/background_material_dark</color>
-    <color name="live_chat_light_overlay_background">@*android:color/background_material_dark</color>
-    <color name="live_chat_dark_metadata_background">@*android:color/background_material_dark</color>
-    <color name="live_chat_light_metadata_background">@*android:color/background_material_dark</color>
-    <color name="new_version_available_activity_background_color">@*android:color/background_material_dark</color>
     <color name="theme_watch_actionbar_text_color_primary">#ffffffff</color>
     <color name="theme_watch_actionbar_text_color_secondary">#ffdddddd</color>
     <color name="theme_channel_actionbar_text_color_primary">#ffffffff</color>
