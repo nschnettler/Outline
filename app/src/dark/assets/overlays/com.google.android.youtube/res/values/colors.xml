@@ -32,8 +32,9 @@
     <color name="mdx_prefs_subtitle">#89FFFFFF</color>
     <color name="mdx_prefs_title">#deFFFFFF</color>
     <color name="mdx_header_background_error">@android:color/holo_red_light</color>                 <!-- Header Background Normal -->
-    <color name="mdx_header_background_normal">@android:color/holo_blue_light</color>               <!-- Header Background Error -->
-    <color name="mdx_statusbar_background">@*android:color/background_dark</color>                  <!-- Statusbar Color -->
+    <color name="mdx_header_background_normal">@*android:color/background_dark</color>              <!-- Header Background Error -->
+    <color name="mdx_statusbar_background">@android:color/holo_red_light</color>                    <!-- Statusbar Color -->
+    <color name="mdx_actionbar_background">@android:color/holo_red_light</color>                    <!-- Toolbar Color -->
 
 
     <color name="video_dismissal_card_background">@*android:color/background_floating_material_dark</color>

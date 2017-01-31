@@ -14,12 +14,6 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-    <style name="QuantumFloatingActionButton">
-        <item name="android:elevation">4.0dip</item>
-        <item name="quantumFabColor">#ffd32f2f</item>
-        <item name="quantumFabRippleColor">#9e9e9e</item>
-        <item name="quantumSize">normal</item>
-    </style>
     <style name="CardboardDialogTheme" parent="@android:style/Theme.Material.Dialog" />
     <style name="youtube_wallet_custom_theme">
         <item name="android:colorPrimary">@android:color/holo_purple</item>
