@@ -27,6 +27,14 @@
     <color name="theme_search_actionbar_text_color_primary">#ffffffff</color>                       <!-- Searched Text Color -->
     <color name="simplebox_text_color">#ffffff</color>                                              <!-- Create Comment Text Color -->
 
+    <!-- MDX Settings -->
+    <color name="mdx_prefs_header">#FFFFFF</color>                                                  <!-- Text Colors -->
+    <color name="mdx_prefs_subtitle">#89FFFFFF</color>
+    <color name="mdx_prefs_title">#deFFFFFF</color>
+    <color name="mdx_header_background_error">@android:color/holo_red_light</color>                 <!-- Header Background Normal -->
+    <color name="mdx_header_background_normal">@android:color/holo_blue_light</color>               <!-- Header Background Error -->
+    <color name="mdx_statusbar_background">@*android:color/background_dark</color>                  <!-- Statusbar Color -->
+
 
     <color name="video_dismissal_card_background">@*android:color/background_floating_material_dark</color>
     <color name="video_dismissal_card_border_color">#ff555555</color>
@@ -171,7 +179,7 @@
     <color name="gallery_thumb_background">#00000000</color>
     <color name="gallery_thumb_background_no_thumb">#ffeeeeee</color>
     <color name="gallery_thumb_duration_font_color">#ffffffff</color>
-    <color name="gallery_thumb_zero_state_grid_divider_color">#ffdddddd</color>
+    <color name="gallery_thumb_zero_state_grid_divider_color">#4caf50</color>
     <color name="gallery_thumb_zero_state_grid_background">#00000000</color>
     <color name="gallery_thumb_zero_state_text_color_primary">#ffffffff</color>
     <color name="gallery_thumb_zero_state_text_color_secondary">#ffdddddd</color>

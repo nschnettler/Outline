@@ -304,4 +304,13 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
+
+    <!-- MDX Settings: Divider Style -->
+    <style name="Mdx" />
+    <style name="Mdx.PrefsSeparator" parent="@style/Mdx">
+        <item name="android:background">#00dddddd</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
 </resources>
