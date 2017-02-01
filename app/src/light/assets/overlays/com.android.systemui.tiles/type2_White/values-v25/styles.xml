@@ -11,23 +11,6 @@
         <item name="android:progressBackgroundTint">#757575</item>
     </style>
 
-    <style name="TextAppearance.QS" parent="@style/TextAppearance">
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_inactive</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-
-    <style name="TextAppearance.QS.TileLabel">
-        <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-
-    <style name="TextAppearance.QS" parent="@style/TextAppearance">
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_active</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-
     <!-- QuickSettings Toolbar text -->
     <style name="TextAppearance.QS.DetailHeader" parent="@style/TextAppearance.QS">
         <item name="android:textSize">20.0sp</item>
