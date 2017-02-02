@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg"
     width="24" height="24"
     viewBox="0 0 24 24">
-    <path fill="none"
-        stroke="#757575"
+    <path
+        fill="none"
+        stroke="#FFFFFF"
         stroke-width="0.6"
         stroke-miterlimit="10"
-        d="M5,12h14.4 M12,4.8L4.8,12c0,0,7.3,7.3,7.3,7.3"/>
+        d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/>
 </svg>

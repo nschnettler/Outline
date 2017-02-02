@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="24" height="24"
+    viewBox="0 0 24 24">
+    <path fill="none"
+        stroke="#FFFFFF"
+        stroke-width="0.6"
+        stroke-miterlimit="10"
+        d="M19.5,4.5h-15c-1,0-1.9,0.8-1.9,1.9l0,11.3c0,1,0.8,1.9,1.9,1.9h15c1,0,1.9-0.8,1.9-1.9V6.4
+	C21.4,5.3,20.6,4.5,19.5,4.5z M2.5,10h19 M2.5,7.1h19"/>
+</svg>

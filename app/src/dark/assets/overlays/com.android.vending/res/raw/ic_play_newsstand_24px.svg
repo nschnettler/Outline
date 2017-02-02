@@ -2,8 +2,8 @@
     width="24" height="24"
     viewBox="0 0 24 24">
     <path fill="none"
-        stroke="#757575"
+        stroke="#FFFFFF"
         stroke-width="0.6"
         stroke-miterlimit="10"
-        d="M5.5,18.5l13-13 M5.5,5.5l13,13"/>
+        d="M2,4v14c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4H2L2,4z M9,13H5V7h4V13L9,13z M19,14 M11,12h9 M20,8h-1h-8"/>
 </svg>
