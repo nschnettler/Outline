@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Background -->
-    <color name="background_gray_d">#ff000000</color>
-    <color name="background_white_d">#ff000000</color>
-    <color name="black_2c2e">#ff000000</color>
-    <color name="about_bg">#ff000000</color>
-        <!-- Drawer -->
-        <!-- Drawer Selected -->
-        <color name="ics_menu_selected_dark">#ff1a1a1a</color>
-        <!-- Cards -->
-        <color name="background_gray_2c">#ff1a1a1a</color>
-        <color name="background_black_2f3132">#ff1a1a1a</color>
-
-
     <!-- Primary Dark -->
     <color name="orange_b35">@android:color/holo_orange_light</color>
     <color name="primary_dark_material_dark">@android:color/holo_orange_light</color>
@@ -23,6 +10,7 @@
     <color name="orange_f0642c">@android:color/holo_orange_light</color>
     <color name="primary_material_dark">@android:color/holo_orange_light</color>
     <color name="text_black">@android:color/holo_orange_light</color>
+    <color name="color_b1481c">@android:color/holo_orange_light</color>
 
     <!-- Accent -->
     <color name="accent">@android:color/holo_orange_light</color>
@@ -35,8 +23,4 @@
     <color name="red_16b6da">@android:color/holo_orange_light</color>
     <color name="text_blue_14B6DA">@android:color/holo_orange_light</color>
     <color name="trendingtopic_logocolor_blue">@android:color/holo_orange_light</color>
-
-    <color name="content_text_unread">#3b3b3b</color>
-
-
 </resources>
