@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="base_material_dark_theme">@*android:color/background_dark</color>
-    <color name="popup_background_material_dark_theme">@*android:color/background_dark</color>
-    <color name="emoji_tab_page_indicator_background_lxx_dark">@*android:color/background_dark</color>
-    <color name="setup_background">@*android:color/background_dark</color>
-    <color name="setup_step_background">@*android:color/background_dark</color>
-    <color name="background_material_dark">@*android:color/background_dark</color>
-    <color name="candidate_material_dark_theme">@*android:color/background_dark</color>
+    <color name="base_material_dark_theme">@*android:color/background_material_dark</color>
+    <color name="popup_background_material_dark_theme">@*android:color/background_material_dark</color>
+    <color name="emoji_tab_page_indicator_background_lxx_dark">@*android:color/background_material_dark</color>
+    <color name="setup_background">@*android:color/background_material_dark</color>
+    <color name="setup_step_background">@*android:color/background_material_dark</color>
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
+    <color name="candidate_material_dark_theme">@*android:color/background_material_dark</color>
 </resources>

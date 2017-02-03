@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="cardDarkBg">@*android:color/background_dark</color>                                <!-- Card -->
-    <color name="background_material_dark">@*android:color/background_dark</color>                  <!-- Overflow -->
+    <color name="cardDarkBg">@*android:color/background_material_dark</color>                       <!-- Card -->
+    <color name="background_material_dark">@*android:color/background_material_dark</color>         <!-- Overflow -->
 
-    <color name="background_floating_material_dark">@*android:color/background_dark</color>         <!-- Settings Dialog -->
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color><!-- Settings Dialog -->
 </resources>

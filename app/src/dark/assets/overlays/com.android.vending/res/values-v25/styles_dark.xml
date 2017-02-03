@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
-        <item name="android:navigationBarColor">@*android:color/background_dark</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
 
     <!-- Drawer item selected -->
@@ -10,7 +10,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ffffffff</item>
         <item name="android:ellipsize">marquee</item>
-        <item name="android:background">#171717</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:paddingRight">16.0dip</item>
         <item name="android:layout_width">fill_parent</item>

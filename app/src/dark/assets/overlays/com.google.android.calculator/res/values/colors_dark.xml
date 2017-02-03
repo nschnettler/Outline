@@ -5,12 +5,12 @@
     <color name="pad_button_advanced_text_color">#ffffff</color>
     <color name="pad_button_text_color">#ffffff</color>
 
-    <color name="pad_numeric_background_color">@*android:color/background_dark</color>
-    <color name="pad_operator_background_color">@*android:color/background_dark</color>
-    <color name="display_background_color">@*android:color/background_dark</color>
+    <color name="pad_numeric_background_color">@*android:color/background_material_dark</color>
+    <color name="pad_operator_background_color">@*android:color/background_material_dark</color>
+    <color name="display_background_color">@*android:color/background_material_dark</color>
 
     <!-- Toolbar & Clear -->
-    <color name="calculator_accent_color">@*android:color/background_dark</color>
+    <color name="calculator_accent_color">@*android:color/background_material_dark</color>
     <color name="calculator_statusbar_color">@*android:color/accent_material_dark</color>
     <color name="calculator_primary_color">@*android:color/accent_material_dark</color>
     <!-- Error -->
@@ -18,5 +18,5 @@
     <!-- SwipeIn-Tab Color -->
     <color name="pad_advanced_background_color">@*android:color/accent_material_dark</color>
 
-    <color name="empty_history_color">@*android:color/background_dark</color>
+    <color name="empty_history_color">@*android:color/background_material_dark</color>
 </resources>

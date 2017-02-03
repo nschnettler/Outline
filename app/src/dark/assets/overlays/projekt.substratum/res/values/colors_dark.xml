@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-        <color name="navigationBarColor">@*android:color/background_dark</color>                    <!-- Navigationbar Color -->
+        <color name="navigationBarColor">@*android:color/background_material_dark</color>           <!-- Navigationbar Color -->
         <!-- Cards Main Screen -->
-        <color name="main_screen_card_background">@*android:color/background_dark</color>           <!-- Cards -->
+        <color name="main_screen_card_background">@*android:color/background_material_dark</color>  <!-- Cards -->
         <!-- Theme Screen -->
-        <color name="theme_information_background">@*android:color/background_dark</color>          <!-- Background -->
-        <color name="theme_information_card_background">@*android:color/background_dark</color>     <!-- Cards -->
+        <color name="theme_information_background">@*android:color/background_material_dark</color> <!-- Background -->
+        <color name="theme_information_card_background">@*android:color/background_material_dark</color><!-- Cards -->
         <!-- FAB Menu -->
-        <color name="fab_menu_background_card">@*android:color/background_dark</color>              <!-- Background -->
-        <color name="fab_menu_divider">@*android:color/background_dark</color>                      <!-- Divider -->
+        <color name="fab_menu_background_card">@*android:color/background_material_dark</color>     <!-- Background -->
+        <color name="fab_menu_divider">@*android:color/background_material_dark</color>             <!-- Divider -->
         <!-- About Libraries -->
-        <color name="about_libraries_card">@*android:color/background_dark</color>                  <!-- Cards -->
+        <color name="about_libraries_card">@*android:color/background_material_dark</color>         <!-- Cards -->
         <color name="about_libraries_dividerLight_openSource">#004caf50</color>                     <!-- Divider -->
         <!-- Drawer -->
-        <color name="material_drawer_background">@*android:color/background_dark</color>            <!-- Background -->
-        <color name="material_drawer_selected">#171717</color>                                      <!-- Selected Background -->
+        <color name="material_drawer_background">@*android:color/background_material_dark</color>   <!-- Background -->
+        <color name="material_drawer_selected">@*android:color/background_dark</color>                                      <!-- Selected Background -->
         <!-- Profiles -->
-        <color name="backup_button">#171717</color>                                                 <!-- Button Background -->
-        <color name="restore_button">#171717</color>                                                <!-- Button Background -->
+        <color name="backup_button">@*android:color/background_dark</color>                                                 <!-- Button Background -->
+        <color name="restore_button">@*android:color/background_dark</color>                                                <!-- Button Background -->
         <!-- Splashscreen -->
-        <color name="splashscreen_background">@*android:color/background_dark</color>
+        <color name="splashscreen_background">@*android:color/background_material_dark</color>
         <!-- Fonts -->
-        <color name="font_window_background">@*android:color/background_dark</color>                <!-- Font preview Background -->
+        <color name="font_window_background">@*android:color/background_material_dark</color>       <!-- Font preview Background -->
         <!-- Bootanimations -->
-        <color name="bootanimation_window_background">@*android:color/background_dark</color>       <!-- Bootanimation preview Background -->
+        <color name="bootanimation_window_background">@*android:color/background_material_dark</color>       <!-- Bootanimation preview Background -->
         <!-- Sounds -->
-        <color name="sounds_window_background">@*android:color/background_dark</color>              <!-- Sounds preview Background -->
+        <color name="sounds_window_background">@*android:color/background_material_dark</color>     <!-- Sounds preview Background -->
         <!-- Dialogs -->
-        <color name="background_floating_material_light">@*android:color/background_dark</color>    <!-- Background -->
+        <color name="background_floating_material_light">@*android:color/background_material_dark</color>    <!-- Background -->
         <!-- Overflow -->
-        <color name="background_material_light">@*android:color/background_dark</color>             <!-- Background -->
+        <color name="background_material_light">@*android:color/background_material_dark</color>             <!-- Background -->
         <!-- Snackbar -->
-        <color name="design_snackbar_background_color">@*android:color/background_dark</color>      <!-- Background -->
+        <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>      <!-- Background -->
         <!-- LogChar -->
-        <color name="logcat_dialog_background">@*android:color/background_dark</color>
-        <color name="logcat_dialog_buttons">@*android:color/background_dark</color>
+        <color name="logcat_dialog_background">@*android:color/background_material_dark</color>
+        <color name="logcat_dialog_buttons">@*android:color/background_material_dark</color>
 
 
     <!-- Text Colors -->

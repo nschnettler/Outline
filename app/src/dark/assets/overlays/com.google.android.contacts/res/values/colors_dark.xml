@@ -2,23 +2,23 @@
 <resources>
 
     <!-- Background -->
-    <color name="background_primary">@*android:color/background_dark</color>                        <!-- Main Contacts Background + Drawer -->
-    <color name="empty_state_background">@*android:color/background_dark</color>                    <!-- "Vorschläge" Background -->
-    <color name="card_margin_color">@*android:color/background_dark</color>                         <!-- Edit contact background above card -->
+    <color name="background_primary">@*android:color/background_material_dark</color>               <!-- Main Contacts Background + Drawer -->
+    <color name="empty_state_background">@*android:color/background_material_dark</color>           <!-- "Vorschläge" Background -->
+    <color name="card_margin_color">@*android:color/background_material_dark</color>                <!-- Edit contact background above card -->
     <color name="divider_line_color_light">#00aaaaaa</color>                                        <!-- Contact divider color -->
-    <color name="nav_item_selected_background">#171717</color>                                      <!-- Drawer Selected -->
-    <color name="contacts_accent_color">@*android:color/background_dark</color>                     <!-- Drawer behind Statusbar -->
-    <color name="cardview_dark_background">@*android:color/background_dark</color>                  <!-- Cards -->
-    <color name="design_snackbar_background_color">@*android:color/background_dark</color>          <!-- Snackbar -->
+    <color name="nav_item_selected_background">@*android:color/background_dark</color>                                      <!-- Drawer Selected -->
+    <color name="contacts_accent_color">@*android:color/background_material_dark</color>            <!-- Drawer behind Statusbar -->
+    <color name="cardview_dark_background">@*android:color/background_material_dark</color>         <!-- Cards -->
+    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color> <!-- Snackbar -->
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>  <!-- Dialogs / u.a. "create Label" -->
 
 
 
     <!-- Status / Toolbar -->
-    <color name="searchbox_background_color">@*android:color/background_dark</color>                <!-- Searchbox -->
+    <color name="searchbox_background_color">@*android:color/background_material_dark</color>       <!-- Searchbox -->
         <!-- Contacts selected -->
-        <color name="contextual_selection_bar_color">@*android:color/background_dark</color>
-        <color name="contextual_selection_bar_status_bar_color">@*android:color/background_dark</color>
+        <color name="contextual_selection_bar_color">@*android:color/background_material_dark</color>
+        <color name="contextual_selection_bar_status_bar_color">@*android:color/background_material_dark</color>
         <!-- Group -->
         <color name="group_primary_color_dark">@android:color/holo_blue_light</color>
         <color name="group_primary_color">@android:color/holo_blue_light</color>
@@ -51,20 +51,20 @@
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
 
 
-    <color name="holo_list_background_color">@*android:color/background_dark</color>
-    <color name="contact_all_list_background_color">@*android:color/background_dark</color>
-    <color name="call_subject_history_background">@*android:color/background_dark</color>
-    <color name="background_social_updates">@*android:color/background_dark</color>
-    <color name="expanding_entry_card_background_color">@*android:color/background_dark</color>
-    <color name="list_item_pinned_header_color">@*android:color/background_dark</color>
-    <color name="background_material_dark">@*android:color/background_dark</color>
-    <color name="material_grey_850">@*android:color/background_dark</color>
-    <color name="material_grey_600">@*android:color/background_dark</color>
-    <color name="material_grey_50">@*android:color/background_dark</color>
-    <color name="material_blue_grey_950">@*android:color/background_dark</color>
-    <color name="quantum_grey400">@*android:color/background_dark</color>
-    <color name="background_dialpad">@*android:color/background_dark</color>
-    <color name="background_material_light">@*android:color/background_dark</color>
+    <color name="holo_list_background_color">@*android:color/background_material_dark</color>
+    <color name="contact_all_list_background_color">@*android:color/background_material_dark</color>
+    <color name="call_subject_history_background">@*android:color/background_material_dark</color>
+    <color name="background_social_updates">@*android:color/background_material_dark</color>
+    <color name="expanding_entry_card_background_color">@*android:color/background_material_dark</color>
+    <color name="list_item_pinned_header_color">@*android:color/background_material_dark</color>
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
+    <color name="material_grey_850">@*android:color/background_material_dark</color>
+    <color name="material_grey_600">@*android:color/background_material_dark</color>
+    <color name="material_grey_50">@*android:color/background_material_dark</color>
+    <color name="material_blue_grey_950">@*android:color/background_material_dark</color>
+    <color name="quantum_grey400">@*android:color/background_material_dark</color>
+    <color name="background_dialpad">@*android:color/background_material_dark</color>
+    <color name="background_material_light">@*android:color/background_material_dark</color>
 
 
 

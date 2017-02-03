@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-    <color name="background_gray_d">@*android:color/background_dark</color>                         <!-- Main -->
-    <color name="background_gray_2c">@*android:color/background_dark</color>                        <!-- Cards -->
-    <color name="black_2c2e">@*android:color/background_dark</color>                                <!-- List Background (for example Forum List) -->
-    <color name="background_black_2f3132">@*android:color/background_dark</color>                   <!-- Thread Post Background -->
-    <color name="background_black_21">@*android:color/background_dark</color>                       <!-- Overflow -->
+    <color name="background_gray_d">@*android:color/background_material_dark</color>                <!-- Main -->
+    <color name="background_gray_2c">@*android:color/background_material_dark</color>               <!-- Cards -->
+    <color name="black_2c2e">@*android:color/background_material_dark</color>                       <!-- List Background (for example Forum List) -->
+    <color name="background_black_2f3132">@*android:color/background_material_dark</color>          <!-- Thread Post Background -->
+    <color name="background_black_21">@*android:color/background_material_dark</color>              <!-- Overflow -->
     <color name="background_black_3e">#004caf50</color>                                             <!-- Divider -->
-    <color name="background_white_d">@*android:color/background_dark</color>                        <!-- Profile Background behind Cards -->
-    <color name="color_282828">@*android:color/background_dark</color>                              <!-- Searchbar background -->
+    <color name="background_white_d">@*android:color/background_material_dark</color>               <!-- Profile Background behind Cards -->
+    <color name="color_282828">@*android:color/background_material_dark</color>                     <!-- Searchbar background -->
     <!--
     <color name="grey_hex_1a">#4caf50</color>
     <color name="grey_percent_10">#F44336</color> -->

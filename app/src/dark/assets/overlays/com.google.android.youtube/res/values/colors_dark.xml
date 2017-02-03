@@ -2,12 +2,12 @@
 <resources>
 
     <!-- Share Panel -->
-    <color name="share_panel_background_color">@*android:color/background_dark</color>              <!-- Loading Background -->
-    <color name="share_panel_list_background_color">@*android:color/background_dark</color>         <!-- Share Panel Main Background -->
+    <color name="share_panel_background_color">@*android:color/background_material_dark</color>     <!-- Loading Background -->
+    <color name="share_panel_list_background_color">@*android:color/background_material_dark</color><!-- Share Panel Main Background -->
 
     <!-- Background -->
-    <color name="background_primary_light">@*android:color/background_dark</color>                  <!-- Background Primary -->
-    <color name="primary_background">@*android:color/background_dark</color>
+    <color name="background_primary_light">@*android:color/background_material_dark</color>         <!-- Background Primary -->
+    <color name="primary_background">@*android:color/background_material_dark</color>
     <color name="theme_search_color_primary">@*android:color/background_material_dark</color>       <!-- search Toolbar Color -->
     <color name="theme_search_color_primary_dark">@*android:color/background_material_dark</color>  <!-- Search Statusbar Color -->
     <!-- Divider -->
@@ -18,8 +18,8 @@
     <color name="material_grey_600">@android:color/holo_red_light</color>                           <!-- Settings Statusbar & current resulution text color -->
     <color name="material_grey_300">@android:color/holo_red_light</color>                           <!-- Settings Toolbar -->
     <color name="theme_search_actionbar_controls_color">#ffffff</color>                             <!-- Searched Icon color -->
-    <color name="comment_bg_style_default">@*android:color/background_dark</color>                  <!-- Comment Background -->
-    <color name="comments_background">@*android:color/background_dark</color>                       <!-- Comment enter Background -->
+    <color name="comment_bg_style_default">@*android:color/background_material_dark</color>         <!-- Comment Background -->
+    <color name="comments_background">@*android:color/background_material_dark</color>              <!-- Comment enter Background -->
 
     <!-- Text Color -->
     <color name="text_color_primary_default_light">#ffffffff</color>                                <!-- u.a. Share Dialog Title, Names -->
@@ -32,7 +32,7 @@
     <color name="mdx_prefs_subtitle">#89FFFFFF</color>
     <color name="mdx_prefs_title">#deFFFFFF</color>
     <color name="mdx_header_background_error">@android:color/holo_red_light</color>                 <!-- Header Background Normal -->
-    <color name="mdx_header_background_normal">@*android:color/background_dark</color>              <!-- Header Background Error -->
+    <color name="mdx_header_background_normal">@*android:color/background_material_dark</color>              <!-- Header Background Error -->
     <color name="mdx_statusbar_background">@android:color/holo_red_light</color>                    <!-- Statusbar Color -->
     <color name="mdx_actionbar_background">@android:color/holo_red_light</color>                    <!-- Toolbar Color -->
 

@@ -2,15 +2,15 @@
 <resources>
 
     <style name="SettingsTheme" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowBackground">@*android:color/background_dark</item>                <!-- Background -->
-        <item name="android:colorBackground">@*android:color/background_dark</item>                 <!-- Background -->
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>                <!-- Background -->
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>                 <!-- Background -->
     </style>
 
 
     <!-- Based on the work by David Wilson -->
     <style name="AppThemeSelector" parent="@*android:style/Theme">
-        <item name="android:windowBackground">@*android:color/background_dark</item>                <!-- Background -->
-        <item name="android:colorBackground">@*android:color/background_dark</item>                 <!-- Background -->
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>                <!-- Background -->
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>                 <!-- Background -->
     </style>
 
     <style name="FeaturePageAutoDictionaryRemoveDescription">
@@ -48,7 +48,7 @@
     <style name="FirstRunPageFooter">
         <item name="android:layout_gravity">bottom</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">48.0dip</item>
     </style>
@@ -77,7 +77,7 @@
         <item name="android:layout_marginTop">8.0dip</item>
     </style>
     <style name="FirstRunViewPager">
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
         <item name="android:paddingBottom">48.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
@@ -129,7 +129,7 @@
         <item name="android:paddingTop">1.0dip</item>
     </style>
     <style name="BasePrivacyNotice">
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
         <item name="android:paddingLeft">24.0dip</item>
         <item name="android:paddingTop">@*com.google.android.inputmethod.latin:dimen/privacy_notice_padding_top</item>
         <item name="android:paddingRight">24.0dip</item>

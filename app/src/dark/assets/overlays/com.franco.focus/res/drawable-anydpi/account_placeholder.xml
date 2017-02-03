@@ -6,7 +6,7 @@
 
 
     <path
-        android:fillColor="@*android:color/background_dark"
+        android:fillColor="@*android:color/background_material_dark"
         android:pathData="M24,12.9H0V0h24V12.9z"/>
 
     <path
