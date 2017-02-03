@@ -20,10 +20,8 @@
     <color name="gestures_setting_background_color">@*android:color/background_material_dark</color><!-- Background -->
     <color name="gestures_switchbar_color">@*android:color/background_material_dark</color>         <!-- Switchbar Background -->
 
-    <color name="divider_color">#00ffffff</color>
     <color name="wifi_divider">#00aaaaaa</color>
 
-    <color name="switchbar_background_color">@*android:color/button_material_dark</color>
 
     <!-- Suggestion Card -->
     <color name="card_background_grey">@*android:color/background_material_dark</color>
