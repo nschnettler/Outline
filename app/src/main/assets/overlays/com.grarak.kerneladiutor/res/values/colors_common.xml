@@ -13,4 +13,5 @@
     <color name="green_accent">@android:color/holo_green_light</color>
     <color name="orange_accent">@android:color/holo_orange_light</color>
 
+    <color name="switch_thumb_normal_material_light">#757575</color>
 </resources>
