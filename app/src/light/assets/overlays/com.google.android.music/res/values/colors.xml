@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- ActionBar / Primary -->
+    <!-- Primary -->
     <color name="play_music_primary">@*android:color/holo_orange_light</color>
-    <color name="play_music_primary_disabled">@*android:color/holo_orange_light</color>
-    <color name="tutorial_action_item">@*android:color/holo_orange_light</color>
-    <color name="play_music_primary_v2">@*android:color/holo_orange_light</color>
-    <color name="app_color">@*android:color/holo_orange_light</color>
-    <color name="app_color_primary">@*android:color/holo_orange_light</color>
-    <color name="app_color_secondary">@*android:color/holo_orange_light</color>
 
-    <!-- StatusBar / Primary Dark -->
-    <color name="play_music_primary_dark">@android:color/holo_orange_light</color>
-    <color name="play_music_secondary">@android:color/holo_orange_light</color>
-    <color name="overlay_status_bar_color">#00000000</color>
-
-    <!-- Downloaded Only Banner -->
-    <color name="music_banner_color">@android:color/holo_orange_light</color>
-
-
+    <!-- Accent -->
     <color name="app_color_accented">@*android:color/holo_orange_dark</color>
 
-    <color name="upsell_background">@*android:color/holo_orange_dark</color>
+
+
+
+    <!-- Primary -->
+    <color name="play_music_primary_disabled">@*com.google.android.music:color/play_music_primary</color>
+    <color name="tutorial_action_item">@*com.google.android.music:color/play_music_primary</color>
+    <color name="play_music_primary_v2">@*com.google.android.music:color/play_music_primary</color>
+    <color name="app_color">@*com.google.android.music:color/play_music_primary</color>
+    <color name="app_color_primary">@*com.google.android.music:color/play_music_primary</color>
+    <color name="app_color_secondary">@*com.google.android.music:color/play_music_primary</color>
+    <color name="music_banner_color">@*com.google.android.music:color/play_music_primary</color>    <!-- Downloaded Only Banner -->
+    <!-- Primary Dark -->
+    <color name="play_music_primary_dark">@*com.google.android.music:color/play_music_primary</color>
+    <color name="play_music_secondary">@*com.google.android.music:color/play_music_primary</color>
+    <color name="overlay_status_bar_color">#00000000</color>
+    <!-- Accent -->
+    <color name="upsell_background">@*com.google.android.music:color/app_color_accented</color>
 </resources>
