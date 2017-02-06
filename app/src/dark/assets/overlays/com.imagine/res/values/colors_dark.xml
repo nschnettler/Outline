@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_background_dark">@*android:color/background_material_dark</color>             <!-- Card Bg -->
+    <color name="window_background_dark">@*android:color/background_material_dark</color>           <!-- Main Bg -->
+    <color name="grey">#FFFFFF</color>                                                              <!-- Drawer Text Color -->
+    <color name="background">@*android:color/background_material_dark</color>                       <!-- LoginPage Background -->
+    <color name="image_background_dark">@*android:color/background_dark</color>                                             <!-- Drawer Selected and Image Loading Background -->
+</resources>
