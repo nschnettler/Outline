@@ -43,6 +43,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/darkdebug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/darkdebug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/darkdebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/dark/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/dark/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/dark/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/dark/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/dark/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/dark/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/dark/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDarkDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDarkDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDarkDebug/assets" type="java-test-resource" />
@@ -51,13 +58,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDarkDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDarkDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDarkDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/dark/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/dark/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/dark/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/dark/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/dark/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/dark/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/dark/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/dark/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/dark/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/dark/assets" type="java-resource" />
