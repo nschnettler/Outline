@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+        <!-- Main -->
+        <color name="desertStorm">@*android:color/background_material_dark</color>                  <!-- Main Background -->
+        <color name="white_background">@*android:color/background_material_dark</color>             <!-- Main Bg 2 -->
+        <color name="item_background">@*android:color/background_material_dark</color>                  <!-- Item Background, Bottom BAr Back -->
+        <!-- Agenda -->
+        <color name="agenda_background">@*android:color/background_material_dark</color>            <!-- Agenda Unseen episode Background -->
+        <color name="agenda_highlighted_background">@*android:color/background_material_dark</color><!-- Agenda Seen episode Background -->
+        <color name="alto1">@*android:color/background_dark</color>                                 <!-- Category /"Day" Background -->
+        <!-- Explore -->
+        <color name="mineShaft1">@*android:color/background_material_dark</color>                   <!-- Explore Background -->
+        <color name="dark_fragment_background">@*android:color/background_material_dark</color>
+        <!-- Show Details -->
+        <color name="show_trend_background">@*android:color/background_dark</color>                 <!-- Rating image border -->
+        <!-- Profile -->
+        <color name="champagne">@*android:color/background_material_dark</color>                    <!-- Background for example Number of episode watched -->
+        <!-- Dialog -->
+        <color name="md_grey_50">@*android:color/background_material_dark</color>                   <!-- Dialog -->
+        <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Settings Dialog -->
+        <!-- Notification Area -->
+        <color name="notification_item_background">@*android:color/background_material_dark</color> <!-- Notification Item Background -->
+
+    <!-- Text -->
+    <color name="mineShaft">#FFFFFF</color>                                                         <!-- Primary Text -->
+    <color name="gray">#FFFFFF</color>                                                              <!--Pink Secondary Text -->
+
+    <!-- Other Stuff -->
+    <color name="black">#FFFFFF</color>                                                             <!-- ViewpageIndicator Selected -->
+    <color name="black_tr_50">#80FFFFFF</color>                                                     <!-- ViewpageIndicator UnSelected -->
+    <color name="divider_black">#00000000</color>                                                   <!-- Divider -->
+
+
+
+    <color name="kumera">#FFFFFF</color>
+
+    <color name="material_grey_50">#000000</color>
+
+
+</resources>
