@@ -11,4 +11,5 @@
     <color name="accent_blue_4">@android:color/holo_blue_dark</color>
     <color name="accent_blue_3">@android:color/holo_blue_dark</color>
     <color name="button_text_color">@android:color/holo_blue_light</color>
+    <color name="blue_5">@android:color/holo_blue_light</color>
 </resources>
