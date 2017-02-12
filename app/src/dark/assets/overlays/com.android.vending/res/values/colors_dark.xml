@@ -20,6 +20,8 @@
     <color name="play_search_suggestion_divider_background">@*android:color/background_material_dark</color> <!-- Search Divider -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color>        <!-- Dialog -->
     <color name="detailed_permissions_footer_bg">@*android:color/background_material_dark</color>            <!-- Permission Footer -->
+
+    <color name="play_drawer_separator">@*android:color/background_dark</color>
     <color name="reviews_filtering_color">#FFFFFF</color>
 
     <color name="play_installed_apps_toggle_switch_track_off">#757575</color>                     <!-- Switch Track -->
@@ -87,7 +89,6 @@
     <color name="now_playing_widget_hotseat_bg">@*android:color/background_material_dark</color>
     <color name="play_action_button_pressed_grey">#80555555</color>
     <color name="play_dismissed_overlay">#d0222222</color>
-    <color name="play_drawer_separator">@*android:color/background_material_dark</color>
     <color name="play_fg_button_secondary">#ffcdcdcd</color>
     <color name="play_fg_secondary_half_transparent">#70dddddd</color>
     <color name="play_fg_tertiary">#ffbbbbbb</color>
