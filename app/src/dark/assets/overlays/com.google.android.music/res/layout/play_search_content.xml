@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Searchbar -->
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:playcommon="http://schemas.android.com/apk/com.google.android.music">
+    <View
+        android:id="@*com.google.android.music:id/play_search_overlay"
+        android:background="#004caf50"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.google.android.play.layout.CardLinearLayout
+        android:orientation="vertical"
+        android:id="@*com.google.android.music:id/play_search_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        playcommon:playCardBackgroundColor="@*com.google.android.music:color/play_white"
+        style="@*com.google.android.music:style/PlayCardViewGroup">
+        <include
+            android:id="@*com.google.android.music:id/play_search_plate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@*com.google.android.music:layout/play_search_plate" />
+        <include
+            android:id="@*com.google.android.music:id/play_search_suggestions_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@*com.google.android.music:layout/play_search_suggestions_list" />
+    </com.google.android.play.layout.CardLinearLayout>
+</merge>

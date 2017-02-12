@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material" />
+    <style name="PlayDrawerProfileNameText" parent="@*com.google.android.music:style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:background">@*android:color/background_material_dark</item>
+    </style>
+    <style name="Thriller.RecentsButton" parent="@*com.google.android.music:style/Thriller">
+        <item name="android:textSize">@*com.google.android.music:dimen/thriller_home_button_text_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+</resources>

@@ -17,6 +17,7 @@
     <color name="app_color_primary">@*com.google.android.music:color/play_music_primary</color>
     <color name="app_color_secondary">@*com.google.android.music:color/play_music_primary</color>
     <color name="music_banner_color">@*com.google.android.music:color/play_music_primary</color>    <!-- Downloaded Only Banner -->
+    <color name="app_taskswitcher_color">@*com.google.android.music:color/play_music_primary</color>
     <!-- Primary Dark -->
     <color name="play_music_primary_dark">@*com.google.android.music:color/play_music_primary</color>
     <color name="play_music_secondary">@*com.google.android.music:color/play_music_primary</color>
