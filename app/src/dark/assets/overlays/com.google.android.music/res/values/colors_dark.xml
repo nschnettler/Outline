@@ -9,6 +9,8 @@
     <color name="material_container_bg">@*android:color/background_material_dark</color>            <!-- Now Playing Queue, Album Card Background -->
     <color name="white">@*android:color/background_material_dark</color>                            <!-- Various Backgrounds: Cards, Select Account -->
 
+    <!-- Dialog -->
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog Background | Example: Switch Account warning -->
 
     <!-- Drawer -->
     <color name="play_drawer_separator">@android:color/background_dark</color>                      <!-- Divider -->
@@ -145,7 +147,6 @@
     <color name="material_blue_grey_900">@android:color/background_dark</color>
     <color name="material_blue_grey_950">@android:color/background_dark</color>
     <color name="black_transparent_57">#ffdddddd</color>
-    <color name="black_transparent_87">#ffffffff</color>
     <color name="action_bar_selected_bg">@android:color/holo_blue_light</color>
     <color name="unavailable_artwork_overlay">#80000000</color>
     <color name="dim_foreground_dark">#ffbebebe</color>
@@ -210,7 +211,7 @@
     <color name="play_music_light">#ffaaaaaa</color>
     <color name="play_music_recents">@android:color/background_dark</color>
     <color name="current_text">@*android:color/Teal_700</color>
-    <color name="background_floating_material_light">@android:color/holo_purple</color>
+
     <color name="material_blue_grey_800">#ff777777</color>
     <color name="play_fg_tertiary">#ffbdbdbd</color>
     <color name="material_fab_tint">#cc777777</color>
