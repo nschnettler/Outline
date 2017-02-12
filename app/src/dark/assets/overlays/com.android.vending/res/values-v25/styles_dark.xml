@@ -19,4 +19,13 @@
         <item name="android:singleLine">true</item>
         <item name="android:drawablePadding">32.0dip</item>
     </style>
+
+    <style name="PlayDrawerProfileNameText" parent="@*com.android.vending:style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="PlayDrawerProfileEmailText" parent="@*com.android.vending:style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
 </resources>
