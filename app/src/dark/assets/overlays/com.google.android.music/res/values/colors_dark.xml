@@ -8,6 +8,7 @@
     <color name="app_background_light_transparent">@*android:color/background_material_dark</color> <!-- Now Playing Bottom -->
     <color name="material_container_bg">@*android:color/background_material_dark</color>            <!-- Now Playing Queue, Album Card Background -->
     <color name="white">@*android:color/background_material_dark</color>                            <!-- Various Backgrounds: Cards, Select Account -->
+    <color name="nowplaying_art_bg">@*android:color/background_material_dark</color>
 
     <!-- Dialog -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog Background | Example: Switch Account warning -->
@@ -256,7 +257,6 @@
     <color name="lb_browse_header_color">@android:color/holo_blue_light</color>
     <color name="lb_playback_secondary_progress_color">#ffaaaaaa</color>
     <color name="lb_playback_background_progress_color">@android:color/holo_blue_bright</color>
-    <color name="nowplaying_art_bg">@android:color/background_dark</color>
     <color name="side_drawer_item_current_screen_color">#80aaaaaa</color>
     <color name="tutorial_body">#ffaaaaaa</color>
     <color name="tutorial_bullet_item">#ffaaaaaa</color>
