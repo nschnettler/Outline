@@ -26,6 +26,7 @@
     <color name="text_color_secondary_default_light">#ffdddddd</color>
     <color name="theme_search_actionbar_text_color_primary">#ffffffff</color>                       <!-- Searched Text Color -->
     <color name="simplebox_text_color">#ffffff</color>                                              <!-- Create Comment Text Color -->
+    <color name="slim_metadata_main_color">#FFFFFF</color>                                          <!-- New Description Thingy Title Text Color -->
 
     <!-- MDX Settings -->
     <color name="mdx_prefs_header">#FFFFFF</color>                                                  <!-- Text Colors -->

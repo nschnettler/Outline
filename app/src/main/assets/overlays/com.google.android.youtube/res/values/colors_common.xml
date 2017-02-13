@@ -40,9 +40,9 @@
     <color name="theme_main_color_accent">@android:color/holo_red_dark</color>
     <color name="quantum_googblue500">@android:color/holo_red_dark</color>
     <color name="material_deep_teal_500">@android:color/holo_red_dark</color>
+    <color name="promoted_native_ad_cta_blue">@android:color/holo_red_dark</color>
 
     <!-- Primary Dark -->
-
     <color name="theme_main_color_primary_dark">@android:color/holo_red_light</color>
 
 </resources>
