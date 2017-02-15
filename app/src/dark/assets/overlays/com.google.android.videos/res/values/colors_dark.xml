@@ -5,4 +5,7 @@
     <color name="play_movies_main_background">@*android:color/background_material_dark</color>      <!-- Main -->
 
     <color name="play_movies_drawer_selected_text_background">@*android:color/background_dark</color>   <!-- Drwer Selected -->
+    <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialogs -->
+    <color name="material_grey_850">@*android:color/background_material_dark</color>                <!-- Overflow -->
+
 </resources>
