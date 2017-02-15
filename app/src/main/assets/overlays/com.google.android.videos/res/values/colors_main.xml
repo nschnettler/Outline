@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="play_movies_primary_v2">@android:color/holo_red_light</color>                      <!-- PRIMARY -->
+
+    <color name="play_movies_action_bar_background">@*com.google.android.videos:color/play_movies_primary</color>   <!-- Actionbar -->
+    <color name="play_movies_system_bar_background">@*com.google.android.videos:color/play_movies_primary</color>   <!-- Toolbar -->
+    <color name="play_movies_secondary_v2">@*com.google.android.videos:color/play_movies_primary</color>
+    <color name="play_movies_recents_v2">@*com.google.android.videos:color/play_movies_primary</color>  <!-- Overscroll Indicator Color -->
+</resources>
