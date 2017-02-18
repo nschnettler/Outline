@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TMessages" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:editTextStyle">@*org.telegram.messenger.beta:style/Theme.TMessages.EditText</item>
+        <item name="android:listViewStyle">@*org.telegram.messenger.beta:style/Theme.TMessages.ListView</item>
+        <item name="android:itemTextAppearance">@*org.telegram.messenger.beta:style/ActionBar.Transparent.TMessages.Item</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:listChoiceBackgroundIndicator">@*org.telegram.messenger.beta:drawable/list_selector_ex</item>
+        <item name="android:alertDialogTheme">@*org.telegram.messenger.beta:style/Theme.TMessages.Dialog.Alert</item>
+        <item name="android:datePickerStyle">@*org.telegram.messenger.beta:style/Theme.TMessages.DatePicker</item>
+        <item name="android:calendarViewStyle">@*org.telegram.messenger.beta:style/Theme.TMessages.CalendarView</item>
+        <item name="android:actionBarItemBackground">@*org.telegram.messenger.beta:drawable/bar_selector_style</item>
+        <item name="android:colorControlActivated">#ff4991cc</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:datePickerDialogTheme">@*org.telegram.messenger.beta:style/Theme.TMessages.Dialog.Alert</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="Theme.TMessages.Start" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@*org.telegram.messenger.beta:style/ActionBar.Transparent.TMessages.Start</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_light</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="ActionBar.Transparent.TMessages.Start" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@android:color/holo_blue_light</item>
+        <item name="android:title"></item>
+        <item name="android:logo">@*org.telegram.messenger.beta:drawable/transparent</item>
+    </style>
+</resources>
