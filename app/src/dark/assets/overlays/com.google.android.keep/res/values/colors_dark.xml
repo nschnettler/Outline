@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_background_color">@*android:color/background_material_dark</color>         <!-- Main | Settings, Behind Cards,... -->
+    <!-- Drawer -->
+        <color name="sliding_drawer_background_color">@*android:color/background_material_dark</color>  <!-- Normal -->
+        <color name="drawer_selected_color">@*android:color/background_dark</color>                     <!-- Selected -->
+        <color name="drawer_divider_color">@*android:color/background_dark</color>                      <!-- Divider -->
+    <!-- Label Editor -->
+        <color name="label_editor_fragment_background">@*android:color/background_material_dark</color> <!-- Main -->
+        <color name="label_editor_rename_mode_color">@*android:color/background_material_dark</color>   <!-- Editing -->
+    <!-- ActionMode -->
+        <color name="actionMode_status_bar_color">@*android:color/background_material_dark</color>  <!-- Statusbar -->
+        <color name="action_mode_background_color">@*android:color/background_material_dark</color> <!-- Toolbar -->
+    <!-- Search -->
+        <color name="zero_search_background_color">@*android:color/background_material_dark</color> <!-- Results Background -->
+        <color name="filter_background_color">@*android:color/background_material_dark</color>      <!-- Toolbar Background -->
+        <color name="zero_search_light_background_color">@*android:color/background_dark</color>
+
+    <!-- Text -->
+        <!-- Drawer -->
+        <color name="drawer_label_edit_text_color">#FFFFFF</color>                                  <!-- "EDIT" -->
+        <color name="primary_text_color">#ffffffff</color>                                          <!-- Primary Text | Drawer Item Text -->
+        <color name="material_gray">#ffffffff</color>                                               <!-- Drawer Header -->
+        <color name="manage_accounts_text_color">#ffffffff</color>
+    <color name="hint_text_color">#ffffff</color>                                                   <!-- "Take a Note" Bottom Bar -->
+    <color name="metadata_text_color">#ffffff</color>                                               <!-- Meta Data | Last Edited -->
+    <color name="zero_search_header_text_color">#ffffffff</color>                                   <!-- Search Results Header -->
+
+    <color name="checked_list_item_color">#4dffffff</color>                                         <!-- Checkbox Selected Color -->
+
+    <!-- Notes Background Options -->
+        <color name="keep_default_color">@*android:color/background_material_dark</color>
+        <color name="secondary_default_color">@*android:color/background_material_dark</color>
+        <color name="primary_dark_default_color">@*android:color/background_material_dark</color>
+
+    <!-- Spinner -->
+    <color name="reminder_spinner_custom_dropdown_background">@*android:color/background_material_dark</color>
+
+
+    <color name="background_floating_material_light">@*android:color/background_dark</color>
+
+    <color name="quantum_grey50">#4caf50</color>
+
+    <!--
+    <color name="reminder_dialog_custom_item_bg">@*android:color/background_material_dark</color>
+    <color name="widget_background_color">@*android:color/background_dark</color>
+    <color name="bottom_sheet_background">@*android:color/background_material_dark</color>
+    <color name="place_autocomplete_search_text">#ffdddddd</color>
+    <color name="place_autocomplete_search_hint">#ffbbbbbb</color>
+    <color name="place_autocomplete_prediction_primary_text">#ffffffff</color>
+    <color name="place_autocomplete_prediction_primary_text_highlight">#ffffffff</color>
+    <color name="place_autocomplete_prediction_secondary_text">#ffdddddd</color>
+    <color name="place_autocomplete_separator">#ffaaaaaa</color>
+    <color name="common_plus_signin_btn_text_dark_default">#ffffffff</color>
+    <color name="common_plus_signin_btn_text_dark_pressed">#ffffffff</color>
+    <color name="common_plus_signin_btn_text_dark_disabled">#ffaaaaaa</color>
+    <color name="common_plus_signin_btn_text_dark_focused">#ffffffff</color>
+    <color name="common_plus_signin_btn_text_light_default">#ffffffff</color>
+    <color name="common_plus_signin_btn_text_light_pressed">#ffffffff</color>
+    <color name="common_plus_signin_btn_text_light_disabled">#ffaaaaaa</color>
+    <color name="common_plus_signin_btn_text_light_focused">#ffffffff</color>
+    <color name="common_action_bar_splitter">#ffaaaaaa</color>
+    <color name="common_google_signin_btn_text_dark_default">#ffffffff</color>
+    <color name="common_google_signin_btn_text_dark_pressed">#ffffffff</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#ffaaaaaa</color>
+    <color name="common_google_signin_btn_text_dark_focused">#ffffffff</color>
+    <color name="common_google_signin_btn_text_light_default">#ffffffff</color>
+    <color name="common_google_signin_btn_text_light_pressed">#ffffffff</color>
+    <color name="common_google_signin_btn_text_light_disabled">#ffaaaaaa</color>
+    <color name="common_google_signin_btn_text_light_focused">#ffffffff</color>
+    <color name="ink_menu_bg">@*android:color/background_dark</color>
+    <color name="ink_sheet_bg">@*android:color/background_floating_material_dark</color>
+    <color name="ink_accent">#ff1976d2</color>
+    <color name="ink_font_color_disabled_button">#ff777777</color>
+    <color name="ink_tabbar_active">#ff1976d2</color>
+
+
+    <color name="design_textinput_error_color_light">#ffd32f2f</color>
+    <color name="design_textinput_error_color_dark">#ffd32f2f</color>
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
+    <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
+
+    <color name="abc_search_url_text_normal">#ffffffff</color>
+    <color name="abc_search_url_text_selected">#ffffffff</color>
+    <color name="abc_search_url_text_pressed">#ffffffff</color>
+    <color name="foreground_material_dark">#ffffffff</color>
+    <color name="foreground_material_light">#ffffffff</color>
+    <color name="background_material_dark">@*android:color/background_dark</color>
+    <color name="background_material_light">@*android:color/background_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_dark</color>
+
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
+    <color name="ripple_material_dark">#33ffffff</color>
+    <color name="ripple_material_light">#33ffffff</color>
+    <color name="accent_material_light">@*android:color/accent_material_dark</color>
+    <color name="accent_material_dark">@*android:color/accent_material_dark</color>
+    <color name="button_material_dark">@*android:color/button_material_dark</color>
+    <color name="button_material_light">@*android:color/button_material_dark</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ff616161</color>
+    <color name="bright_foreground_material_dark">#ffffffff</color>
+    <color name="bright_foreground_material_light">#ffffffff</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ffbebebe</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80bebebe</color>
+    <color name="highlighted_text_material_dark">#66787878</color>
+    <color name="highlighted_text_material_light">#66787878</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="primary_text_disabled_material_light">#4dffffff</color>
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="material_grey_900">@*android:color/background_floating_material_dark</color>
+    <color name="material_grey_850">@*android:color/background_dark</color>
+    <color name="material_grey_800">@*android:color/background_dark</color>
+    <color name="material_grey_600">@*android:color/background_dark</color>
+    <color name="material_grey_100">@*android:color/background_floating_material_dark</color>
+    <color name="material_grey_50">@*android:color/background_dark</color>
+    <color name="material_deep_teal_200">@*android:color/accent_material_dark</color>
+    <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
+    <color name="material_blue_grey_800">@*android:color/button_material_dark</color>
+    <color name="material_blue_grey_900">@*android:color/background_floating_material_dark</color>
+    <color name="material_blue_grey_950">@*android:color/background_dark</color>
+    <color name="chips_dropdown_background_activated">#ff1976d2</color>
+    <color name="chips_dropdown_background_pressed">#ff555555</color>
+    <color name="autocomplete_divider_color">#ffaaaaaa</color>
+    <color name="chip_background">#ff555555</color>
+    <color name="chip_background_invalid">#ffd32f2f</color>
+    <color name="chips_dropdown_text_default">#b3ffffff</color>
+    <color name="chips_dropdown_text_activated">#ffffffff</color>
+    <color name="chips_dropdown_text_highlighted">#ffffffff</color>
+    <color name="chips_dropdown_permission_text">#ff1976d2</color>
+    <color name="default_account_details_color">#ffffffff</color>
+
+
+    <color name="recurrence_picker_background">@*android:color/button_material_dark</color>
+    <color name="recurrence_bubble_text_normal">#ffffffff</color>
+    <color name="recurrence_edit_event_text">#ffdddddd</color>
+    <color name="recurrence_edit_event_text_hint">#ffbbbbbb</color>
+    <color name="recurrence_edit_event_text_highlight">#66787878</color>
+    <color name="recurrence_edit_event_text_link">#ff1976d2</color>
+    <color name="recurrence_pressed">#331976d2</color>
+    <color name="circle_background">@*android:color/button_material_dark</color>
+    <color name="line_background">#ffaaaaaa</color>
+    <color name="ampm_text_color">#ffdddddd</color>
+    <color name="done_text_color_normal">#ffffffff</color>
+    <color name="done_text_color_disabled">#ffaaaaaa</color>
+    <color name="numbers_text_color">#ffdddddd</color>
+    <color name="blue">#ff1976d2</color>
+    <color name="blue_focused">#ff03a9f4</color>
+    <color name="neutral_pressed">#33555555</color>
+    <color name="darker_blue">#ff0d47a1</color>
+    <color name="date_picker_text_normal">#ffffffff</color>
+    <color name="date_picker_text_disabled">#ffaaaaaa</color>
+    <color name="calendar_header">@*android:color/primary_material_dark</color>
+    <color name="date_picker_view_animator">@*android:color/button_material_dark</color>
+    <color name="calendar_selected_date_text">#ff777777</color>
+    <color name="red">#ffd32f2f</color>
+    <color name="red_focused">#fff44336</color>
+    <color name="light_gray">@*android:color/background_floating_material_dark</color>
+    <color name="dark_gray">@*android:color/background_floating_material_dark</color>
+    <color name="line_dark">#ffaaaaaa</color>
+    <color name="done_text_color_dark_normal">#ffffffff</color>
+    <color name="done_text_color_dark_disabled">#ffaaaaaa</color>
+    <color name="done_disabled_dark">#ffdddddd</color>
+    <color name="primary_color">#fffbc02d</color>
+    <color name="primary_color_dark">#fff9a825</color>
+    <color name="accent_color">#ff787878</color>
+    <color name="overscroll_color">#ffdddddd</color>
+
+    <color name="control_highlight_color">#b3ffffff</color>
+
+    <color name="toast_bar_action_text_color">#fffbc02d</color>
+
+    <color name="cursor_color">#ffffffff</color>
+
+
+    <color name="default_divider_color">#ffaaaaaa</color>
+
+
+
+    <color name="widget_message_text_color">#ffdddddd</color>
+    <color name="widget_header_account_background_color">@*android:color/primary_material_dark</color>
+    <color name="image_placeholder_background">@*android:color/background_floating_material_dark</color>
+
+    <color name="sliding_drawer_landing_page_background_color">@*android:color/background_floating_material_dark</color>
+
+    <color name="child_fragment_status_bar_color">#fff9a825</color>
+    <color name="actionMode_status_bar_color">#fff9a825</color>
+    <color name="browse_secondary_status_bar_color">#fff9a825</color>
+    <color name="trash_status_bar_color">#fff9a825</color>
+    <color name="editor_photo_note_status_bar_color">@*android:color/primary_dark_material_dark</color>
+    <color name="scrimmed_browse_status_bar_color">#ff3e2723</color>
+    <color name="scrimmed_secondary_status_bar_color">@*android:color/primary_dark_material_dark</color>
+    <color name="share_activity_action_bar_background_color">@*android:color/background_floating_material_dark</color>
+
+    <color name="filter_selected_background_color">#ff555555</color>
+    <color name="filter_white_swatch_color">#80ffffff</color>
+    <color name="action_mode_background_color">#fffbc02d</color>
+    <color name="action_bar_background_color">#fffbc02d</color>
+    <color name="trash_action_bar_background_color">#fffbc02d</color>
+    <color name="conflict_editor_action_bar_background_color">@*android:color/primary_material_dark</color>
+    <color name="conflict_editor_action_bar_title_color">#ffffffff</color>
+    <color name="pressed_state_color">#33555555</color>
+    <color name="note_pressed_state_color">#33555555</color>
+    <color name="reminder_spinner_custom_dropdown_background">#99111111</color>
+    <color name="reminder_disabled_text_color">#ffaaaaaa</color>
+
+    <color name="sharee_avatar_border_color">@*android:color/background_floating_material_dark</color>
+    <color name="add_sharee_icon_border_color">@*android:color/background_floating_material_dark</color>
+    <color name="browse_sharee_avatar_border_color">@*android:color/background_floating_material_dark</color>
+    <color name="share_activity_save_text_color_enabled">#ffdddddd</color>
+    <color name="share_activity_save_text_color_disabled">#80dddddd</color>
+    <color name="share_activity_title_text_color">#ffffffff</color>
+    <color name="rename_dialog_button_color">#ff1976d2</color>
+    <color name="rename_dialog_divider">#ffaaaaaa</color>
+    <color name="error_message_color">#ffe64a19</color>
+    <color name="share_activity_background">@*android:color/background_dark</color>
+    <color name="share_activity_email_edit_hint_text">#66dddddd</color>
+    <color name="notification_background_color">#fffbc02d</color>
+    <color name="snack_bar_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="input_bar_underline_black_color">#deffffff</color>
+    <color name="swipe_refresh_color1">#ff388e3c</color>
+    <color name="swipe_refresh_color2">#ffd32f2f</color>
+    <color name="swipe_refresh_color3">#ff1976d2</color>
+    <color name="swipe_refresh_color4">#ffe64a19</color>
+    <color name="image_placeholder_color">@*android:color/background_floating_material_dark</color>
+    <color name="label_editor_fragment_header_divider">#ffaaaaaa</color>
+
+    <color name="label_editor_checkbox_color">#ff1976d2</color>
+    <color name="label_editor_rename_mode_color">@*android:color/background_floating_material_dark</color>
+    <color name="default_color">@*android:color/background_floating_material_dark</color>
+    <color name="orange">#ffe64a19</color>
+    <color name="yellow">#fffbc02d</color>
+    <color name="green">#ff388e3c</color>
+    <color name="teal">#ff00796b</color>
+    <color name="gray">#ff787878</color>
+    <color name="secondary_default_color">@*android:color/background_dark</color>
+    <color name="secondary_red">#ffff8a80</color>
+    <color name="secondary_orange">#ffffd180</color>
+    <color name="secondary_yellow">#ffffff8d</color>
+    <color name="secondary_green">#ffccff90</color>
+    <color name="secondary_teal">#ffa7ffeb</color>
+    <color name="secondary_blue">#ff80d8ff</color>
+    <color name="secondary_gray">#ffcfd8dc</color>
+    <color name="primary_dark_default_color">@*android:color/background_dark</color>
+    <color name="primary_dark_red">#ffb71c1c</color>
+    <color name="primary_dark_orange">#ffbf360c</color>
+    <color name="primary_dark_yellow">#fff9a825</color>
+    <color name="primary_dark_green">#ff1b5e20</color>
+    <color name="primary_dark_teal">#ff004d40</color>
+    <color name="primary_dark_blue">#ff0d47a1</color>
+    <color name="primary_dark_gray">@*android:color/primary_material_dark</color>
+    <color name="drawing_brush_size_icon_color">#ffffffff</color>
+    <color name="drawing_brush_options_selection">#ff555555</color>
+    <color name="drawing_stroke_color_for_off_white_swatch">#ff555555</color>
+    <color name="drawing_placeholder">@*android:color/background_dark</color>
+    <color name="upgrade_mandatory_background_color">#ffd32f2f</color>
+    <color name="sync_off_banner_action_button_color">#ff1976d2</color>
+    <color name="user_annotation_done_color">#ff00796b</color>
+    <color name="user_annoation_hint_color">#ffbbbbbb</color>
+    <color name="user_annotation_title_color">#ffffffff</color>
+    <color name="user_annotation_time_color">#ffdddddd</color>
+    <color name="annotation_background_color">@*android:color/background_dark</color>
+    <color name="annotation_background_color_translucent">#cc000000</color>
+    <color name="annotation_title_color">#ffffffff</color>
+    <color name="annotation_url_color">#ffdddddd</color>
+    <color name="annotation_placeholder_background">@*android:color/background_floating_material_dark</color>
+
+    <color name="zero_search_dark_background_color">#ff1976d2</color>
+    <color name="zero_search_light_background_color">@*android:color/background_dark</color>
+
+    <color name="bottom_sheet_hightlight_grey">#ff555555</color>
+
+    <color name="reminder_dialog_divider_stroke_grey">#ff555555</color>
+    <color name="quantum_googblue">#ff1976d2</color>
+
+    <color name="default_keep_divider">#ffaaaaaa</color>
+    <color name="share_handler_account_selector">@*android:color/background_floating_material_dark</color>
+    <color name="share_handler_divider_color">#ffaaaaaa</color>
+    <color name="hashtag_highlight_blue">#ff0d47a1</color>
+    <color name="note_default_color">@*android:color/background_floating_material_dark</color>
+    <color name="color_picker_swatch_default_color">@*android:color/background_floating_material_dark</color>
+    <color name="color_picker_swatch_border_color">#ff555555</color>
+    <color name="keep_default_color">@*android:color/background_floating_material_dark</color> -->
+</resources>
