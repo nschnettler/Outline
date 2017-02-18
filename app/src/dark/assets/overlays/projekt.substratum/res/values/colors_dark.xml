@@ -15,10 +15,11 @@
         <color name="about_libraries_dividerLight_openSource">#004caf50</color>                     <!-- Divider -->
         <!-- Drawer -->
         <color name="material_drawer_background">@*android:color/background_material_dark</color>   <!-- Background -->
-        <color name="material_drawer_selected">@*android:color/background_dark</color>                                      <!-- Selected Background -->
+        <color name="material_drawer_selected">@*android:color/background_dark</color>              <!-- Selected Background -->
+        <color name="material_drawer_icon_color">#FFFFFF</color>                                    <!-- Icon Color -->
         <!-- Profiles -->
-        <color name="backup_button">@*android:color/background_dark</color>                                                 <!-- Button Background -->
-        <color name="restore_button">@*android:color/background_dark</color>                                                <!-- Button Background -->
+        <color name="backup_button">@*android:color/background_dark</color>                         <!-- Button Background -->
+        <color name="restore_button">@*android:color/background_dark</color>                        <!-- Button Background -->
         <!-- Splashscreen -->
         <color name="splashscreen_background">@*android:color/background_material_dark</color>
         <!-- Fonts -->
@@ -36,6 +37,10 @@
         <!-- LogChar -->
         <color name="logcat_dialog_background">@*android:color/background_material_dark</color>
         <color name="logcat_dialog_buttons">@*android:color/background_material_dark</color>
+        <!-- Defaults Manager -->
+        <color name="quick_apply_icon_tint">#FFFFFF</color>                                         <!--  Icon Color -->
+        <!-- Priorities -->
+        <color name="priorities_drag_handle">#FFFFFF</color>                                        <!--  HandleIcon Color -->
 
 
     <!-- Text Colors -->
