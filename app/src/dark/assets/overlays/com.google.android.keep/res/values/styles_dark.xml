@@ -4,6 +4,11 @@
     <style name="LabelEditorEntryIcon" parent="@*com.google.android.keep:style/LabelEditorEntryOpaqueIcon">
         <item name="android:alpha">1</item>
     </style>
+    <style name="DrawerLandingPageItemTextActiveStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
     <style name="DrawerItemIconStyle">
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
@@ -15,13 +20,22 @@
 
     <style name="QebButtonStyle">
         <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:background">#004caf50</item>
         <item name="android:layout_width">48.0dip</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:scaleType">center</item>
         <item name="android:alpha">1</item>
     </style>
 
+    <style name="ShareActivityInvalidShareeEmail">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
 
 
     <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@*android:style/Widget.AutoCompleteTextView">
@@ -38,10 +52,6 @@
         <item name="android:background">@*com.google.android.keep:drawable/abc_edit_text_material</item>
     </style>
 
-    <style name="DrawerLandingPageItemTextActiveStyle">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ffffffff</item>
-    </style>
 
     <!--
     <style name="Base.TextAppearance.AppCompat" parent="@*android:style/TextAppearance">
