@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="collapsing_toolbar_layout_background_color">@android:color/holo_red_light</color>
+    <color name="statusbar_color">@android:color/holo_red_light</color>                             <!-- Dark -->
+
+    <!-- Accent -->
+    <color name="accent_color">@android:color/holo_red_dark</color>
+    <color name="settings_theme_options_category_title_color">@android:color/holo_red_dark</color>
+
+    <!-- Navbar -->
+    <color name="navigation_bar_color_tint_enabled">@android:color/holo_red_light</color>
+</resources>
