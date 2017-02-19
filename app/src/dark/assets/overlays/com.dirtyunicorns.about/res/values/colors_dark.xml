@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="background">@*android:color/background_material_dark</color>                       <!-- Main -->
+    <color name="general_info_background">@*android:color/background_material_dark</color>
+    <color name="developer_card_background">@*android:color/background_material_dark</color>        <!-- Card -->
+    <color name="device_card_background">@*android:color/background_material_dark</color>
+    <color name="general_info_divider">#00000000</color>
+        <!-- Drawer -->
+        <color name="nav_drawer_background">@*android:color/background_material_dark</color>        <!-- Drawer Main-->
+        <color name="nav_drawer_divider">@*android:color/background_dark</color>                    <!-- Drawer Divider-->
+        <color name="nav_drawer_selector">@*android:color/background_dark</color>                   <!-- Drawer Selected -->
+
+    <!-- Text -->
+    <color name="developer_card_text">#ffffff</color>
+    <color name="device_card_text">#ffffff</color>
+    <color name="general_info_text">#ffffff</color>
+        <!-- Drawer -->
+        <color name="nav_drawer_header_text">#ffffff</color>
+        <color name="nav_drawer_text">#FFFFFF</color>
+        <color name="toolbar_subtitle_color">#FFFFFF</color>
+        <color name="toolbar_title_color">#ffffff</color>
+
+    <!--Icons -->
+    <color name="nav_drawer_icon_color">#FFFFFF</color>
+</resources>

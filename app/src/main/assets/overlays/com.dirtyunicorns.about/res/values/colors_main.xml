@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="colorPrimary">@android:color/holo_red_light</color>
+    <color name="colorPrimaryDark">@android:color/holo_red_light</color>                            <!-- Dark -->
+    <!-- Accent -->
+    <color name="colorAccent">@android:color/holo_red_dark</color>
+
+    <color name="nav_drawer_selected_text">@*com.dirtyunicorns.about:color/colorPrimary</color>
+    <color name="nav_drawer_icon_tint_color">@*com.dirtyunicorns.about:color/colorPrimary</color>
+</resources>
