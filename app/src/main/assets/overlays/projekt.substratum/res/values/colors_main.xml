@@ -3,7 +3,6 @@
     <color name="colorAccent">@android:color/holo_blue_dark</color>
     <color name="colorPrimary">@android:color/holo_blue_light</color>
     <color name="colorPrimaryDark">@android:color/holo_blue_light</color>
-    <color name="colorPrimaryLight">@android:color/holo_blue_light</color>
 
     <color name="logcat_dialog_text">@android:color/holo_red_light</color>
 </resources>
