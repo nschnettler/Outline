@@ -4,8 +4,8 @@
     <!-- App Theme: Primary -->
     <!-- ROT -->
     <color name="action_bar_background">@android:color/holo_red_light</color>
-    <color name="material_deep_teal_500">@android:color/holo_red_light</color>
-    <color name="quantum_bluegrey700">@android:color/holo_red_light</color>
+    <color name="material_deep_teal_500">@*com.google.android.apps.plus:color/action_bar_background</color>
+    <color name="quantum_bluegrey700">@*com.google.android.apps.plus:color/action_bar_background</color>
     <!-- BLAU -->
     <color name="quantum_lightblue500">@android:color/holo_blue_light</color>
     <!-- GRÜN -->
@@ -13,19 +13,20 @@
 
     <!-- App Theme: Primary Dark -->
     <!-- ROT -->
-    <color name="status_bar_background">@android:color/holo_red_light</color>
+    <color name="status_bar_background">@*com.google.android.apps.plus:color/action_bar_background</color>
     <!-- BLAU -->
     <color name="quantum_lightblue700">@android:color/holo_blue_light</color>
+    <color name="quantum_googblue700">@android:color/holo_blue_light</color>                            <!-- Report Abuse Screen -->
     <!-- GRÜN -->
     <color name="quantum_googgreen700">@android:color/holo_green_light</color>
 
 
     <!-- App Theme: Accent -->
         <!-- ROT -->
-        <color name="quantum_googred500">@android:color/holo_red_light</color>
-        <color name="quantum_vanillared700">@android:color/holo_red_light</color>
-        <color name="quantum_googred800">@android:color/holo_red_light</color>
-        <color name="quantum_googred700">@android:color/holo_red_light</color>
+        <color name="quantum_googred500">@*com.google.android.apps.plus:color/action_bar_background</color>
+        <color name="quantum_vanillared700">@*com.google.android.apps.plus:color/action_bar_background</color>
+        <color name="quantum_googred800">@*com.google.android.apps.plus:color/action_bar_background</color>
+        <color name="quantum_googred700">@*com.google.android.apps.plus:color/action_bar_background</color>
         <!-- BLAU -->
         <color name="quantum_googblue500">@android:color/holo_red_dark</color>
         <color name="quantum_googblue600">@android:color/holo_red_dark</color>
