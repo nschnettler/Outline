@@ -17,4 +17,10 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
+
+    <!-- Report Abuse Activity Theme -->
+    <style name="UrawTheme" parent="@*android:style/Theme.Material">
+        <item name="android:colorControlActivated">@*com.google.android.apps.plus:color/quantum_googblue500</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
 </resources>

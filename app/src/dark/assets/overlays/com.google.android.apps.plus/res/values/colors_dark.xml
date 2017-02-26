@@ -52,17 +52,11 @@
     <color name="card_background_selected">@*android:color/background_dark</color>
     <color name="quantum_grey">@android:color/background_dark</color>
     <color name="quantum_grey400">@android:color/background_dark</color>
-    <color name="tool_item_title_font_dark">#E91E63</color>
-    <color name="notification_item_background_read">#E91E63</color>
-    <color name="cardview_light_background">#E91E63</color>
-    <color name="guns_notification_item_background_unread">#E91E63</color>
-    <color name="navigation_background">#E91E63</color>
     <color name="ripple_material_light">#42ffffff</color>
     <color name="ripple_material_dark">#42ffffff</color>
     <color name="one_up_divider">#00d8d8d8</color>
     <color name="story_empty_state_divider">@*android:color/background_dark</color>
 
-    <color name="darker_white">@android:color/background_dark</color>
     <color name="search_opaque_bg_color">@android:color/background_dark</color>
     <color name="material_grey_50">@*android:color/background_material_dark</color>
     <color name="material_grey_600">@*android:color/background_material_dark</color>
