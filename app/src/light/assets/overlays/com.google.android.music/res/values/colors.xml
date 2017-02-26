@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer -->
+    <color name="side_drawer_icon_color">#757575</color>                                            <!-- Icons -->
+</resources>

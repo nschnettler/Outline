@@ -15,6 +15,7 @@
 
     <!-- Drawer -->
     <color name="play_drawer_separator">@android:color/background_dark</color>                      <!-- Divider -->
+    <color name="side_drawer_icon_color">#FFFFFF</color>                                            <!-- Icons -->
 
     <!-- Search Plate -->
     <color name="play_search_plate_navigation_button_color">#FFFFFF</color>
