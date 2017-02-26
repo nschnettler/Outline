@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="key_background_pressed_lxx_dark">#19282828</color>
+    <color name="gesture_floating_preview_color_lxx_dark">#e61c1818</color>
+
+    <!-- Background: Dark -->
+    <color name="key_background_lxx_dark">#ff000000</color>
+    <color name="emoji_tab_page_indicator_background_lxx_dark">#ff000000</color>
+    <!-- Background Light -->
+    <color name="key_background_lxx_light">#ffffffff</color>
+    <color name="emoji_tab_page_indicator_background_lxx_light">#ffffffff</color>
+    <!-- Accent -->
+    <color name="highlight_color_lxx_dark">@android:color/holo_green_light</color>
+    <color name="gesture_trail_color_lxx_dark">@android:color/holo_green_light</color>
+    <color name="sliding_key_input_preview_color_lxx_dark">@android:color/holo_green_light</color>
+    <color name="highlight_color_lxx_light">@android:color/holo_green_light</color>
+    <color name="gesture_trail_color_lxx_light">@android:color/holo_green_light</color>
+    <color name="sliding_key_input_preview_color_lxx_light">@android:color/holo_green_light</color>
+</resources>

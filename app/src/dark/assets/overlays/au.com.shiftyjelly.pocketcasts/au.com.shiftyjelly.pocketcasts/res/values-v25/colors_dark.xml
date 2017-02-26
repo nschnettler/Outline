@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="darkWindowBackground">@*android:color/background_dark</color>                      <!-- Main Page -->
+    <color name="material_grey_850">#4ca50</color>
+    <color name="darkListBackground">@*android:color/background_dark</color>
+    <color name="darkPlaylistsBackground">#4caf50</color>
+    <color name="background_material_dark">#4caf50</color>
+</resources>
