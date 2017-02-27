@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Dark -->
+    <color name="primaryDark">@*android:color/background_material_dark</color>
+    <color name="primary">@*android:color/background_material_dark</color>
+    <color name="fab_social">@*android:color/accent_material_dark</color>
+    <color name="spinner">@*android:color/accent_material_dark</color>
+
+
+    <!-- Drawer -->
+    <color name="material_drawer_dark_background">@*android:color/background_material_dark</color>
+    <color name="material_drawer_dark_divider">@*android:color/background_dark</color>
+    <color name="material_drawer_dark_selected">@*android:color/background_dark</color>
+    <color name="material_drawer_dark_secondary_icon">#FFFFFF</color>                               <!-- Icons at the bottom -->
+    <color name="accent2">#FFFFFF</color>
+
+    <!-- Other Backgrounds -->
+    <color name="navbar_bg">@*android:color/background_material_dark</color>                        <!-- Navbar -->
+    <color name="back_material_dark">@*android:color/background_material_dark</color>               <!-- Main -->
+    <color name="dialog_background_dark">@*android:color/background_material_dark</color>           <!-- Dialog -->
+    <color name="preference_divider">#0009314b</color>                                              <!-- Settings Divider -->
+    <color name="snackbar_background_dark">@*android:color/background_dark</color>                  <!-- Snackbar -->
+    <color name="button_tag_dark">@*android:color/background_dark</color>
+</resources>
