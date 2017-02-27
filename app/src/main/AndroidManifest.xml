@@ -41,6 +41,8 @@
             android:name="Substratum_ThemeReady"
             android:value="@string/ThemeType"/>
 
+        <meta-data android:name="Substratum_Wallpapers" android:value="https://raw.githubusercontent.com/Sh4dowSoul/OutlineWalls/master/Links.xml"/>
+
         <meta-data
             android:name="Substratum_Email"
             android:value="service.niklasschnettler@gmail.com"/> <!-- Insert your email for bug reports -->
