@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="ThemeChangelog">
+        <item>Theme PA Battery</item>
+        <item>New Overlays (DU About)</item>
+        <item>Settings Icons (DU Root, HeadsUp, Lock)</item>
+        <item>Quicksettings Icons (ABC Memory, High Brightness, Screenshot, Partial Screenshot)</item>
+        <item>Volume Panel Icons (Notification Volume)</item>
+        <item>Updates (DU Updater, Play Music, Substratum, Backdrops, AOSP Contacts)</item>
+        <item>Improvements (Play Music, Backdrops, AOSP Contacts, Focus, Telegram, Flamingo)</item>
+        <item>Add option to fix white battery on white qs (workaround)</item>
+    </string-array>
+</resources>
