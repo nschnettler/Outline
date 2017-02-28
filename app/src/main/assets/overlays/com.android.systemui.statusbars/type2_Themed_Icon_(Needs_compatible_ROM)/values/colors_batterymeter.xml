@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="batterymeter_frame_color">@*com.android.systemui:color/qs_tile_tint_active</color><!-- 30% white -->
+</resources>

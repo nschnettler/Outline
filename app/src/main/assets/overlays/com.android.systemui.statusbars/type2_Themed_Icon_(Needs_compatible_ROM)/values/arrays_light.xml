@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="batterymeter_color_values">
+        <item>#FFE53935</item>
+        <item>@*com.android.systemui:color/qs_tile_tint_active</item>
+    </array>
+</resources>
