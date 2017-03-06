@@ -7,7 +7,7 @@ android {
     buildToolsVersion "25"
     defaultConfig {
         targetSdkVersion 25
-        versionCode 52
+        versionCode 53
     }
     buildTypes {
         debug {
