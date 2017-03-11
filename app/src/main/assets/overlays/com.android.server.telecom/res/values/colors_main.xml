@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Primary -->
+    <color name="theme_color">@*android:color/primary_material_light</color>
+    <!-- Primary dark -->
+    <color name="dialer_settings_color_dark">@*android:color/primary_material_light</color>
+</resources>
