@@ -34,6 +34,7 @@
     <color name="contacts_text_color">#FFFFFF</color>                                               <!-- Standardkonto dialog Title Text -->
     <color name="dialtacts_secondary_text_color">#FFFFFF</color>                                    <!-- u.a. Drawer Header text color + Drawer Icon color -->
     <color name="actionbar_text_color_black">#FFFFFF</color>                                        <!-- Actionbar text color (when selecting contacts) -->
+    <color name="editor_disabled_text_color">#8cffffff</color>                                      <!-- Edit Contact disabled Color -->
 
     <color name="dialpad_secondary_text_color">#FFFFFF</color>
 
