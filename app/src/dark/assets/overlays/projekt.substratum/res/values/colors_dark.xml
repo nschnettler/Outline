@@ -63,6 +63,7 @@
         <color name="material_drawer_selected_text">#FFFFFF</color>                                 <!-- Text Color Selected -->
         <color name="material_drawer_primary_text">#FFFFFF</color>                                  <!-- Normal Text Color -->
         <color name="material_drawer_secondary_text">#FFFFFF</color>                                <!-- Section Header & Sub Test Color -->
+        <color name="md_light_secondary">#FFFFFF</color>
         <!-- Profiles -->
         <color name="backup_button_text_color">#ffffff</color>
         <color name="restore_button_text_color">#ffffff</color>
