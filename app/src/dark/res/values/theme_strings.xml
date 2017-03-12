@@ -1,8 +1,4 @@
 <resources>
     <string name="ThemeName">Outline • Dark</string>
     <string name="ThemeType">ready</string>
-    <string-array name="ThemeChangelog">
-        <item>!!! Welcome to the dark Side !!!</item>
-        <item>Initial Release</item>
-    </string-array>
 </resources>
