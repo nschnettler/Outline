@@ -50,16 +50,4 @@
     <color name="dialer_theme_color_20pct">@android:color/holo_blue_light</color>
     <!-- ORANGE -->
     <color name="unknown_number_color">@android:color/holo_orange_light</color>
-
-
-<!-- INCALL UI -->
-    <color name="incall_background_gradient_bottom">@android:color/holo_blue_light</color>
-    <color name="incall_background_gradient_middle">@android:color/holo_blue_light</color>
-    <color name="incall_background_gradient_top">@android:color/holo_blue_light</color>
-    <color name="incall_background_multiwindow">@android:color/holo_blue_light</color>
-
-    <color name="incall_background_gradient_spam_bottom">@android:color/holo_red_light</color>
-    <color name="incall_background_gradient_spam_middle">@android:color/holo_red_light</color>
-    <color name="incall_background_gradient_spam_top">@android:color/holo_red_light</color>
-    <color name="incall_background_multiwindow_spam">@android:color/holo_red_light</color>
 </resources>
