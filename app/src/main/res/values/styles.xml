@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.Expanded.Weather.Detailed" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorSecondary">#757575</item>
+        <item name="android:titleTextColor">#757575</item>
+        <item name="android:textColorPrimary">#757575</item>
+    </style>
+</resources>
