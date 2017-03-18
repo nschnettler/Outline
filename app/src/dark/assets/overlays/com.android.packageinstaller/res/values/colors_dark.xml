@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grant_permissions_app_color">@*android:color/accent_material_dark</color>
+    <color name="grant_permissions_progress_color">#FFFFFF</color>
+
+    <color name="header_background_color">@*android:color/background_material_dark</color>
+    <color name="switchbar_background_color">@*android:color/background_material_dark</color>
+</resources>

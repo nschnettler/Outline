@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportHeight="24"
+        android:viewportWidth="24">
+    <path
+        android:strokeColor="@*projekt.substratum:color/material_drawer_icon_color"
+        android:strokeWidth="0.6"
+        android:pathData="M1.5,17.7H14 M22.1,5.6H6c-1,0-1.8,0.8-1.8,1.8v10.3 M21.7,9H17c-0.4,0-0.8,0.4-0.8,0.8v7.8
+	c0,0.4,0.4,0.8,0.8,0.8h4.7c0.4,0,0.8-0.4,0.8-0.8V9.8C22.5,9.3,22.1,9,21.7,9z"/>
+</vector>
