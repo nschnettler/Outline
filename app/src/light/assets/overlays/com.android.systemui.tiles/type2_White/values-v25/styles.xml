@@ -35,4 +35,20 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_inactive</item>
     </style>
+
+
+    <!-- OmniJaws -->
+    <style name="TextAppearance.StatusBar.Expanded.Weather" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_active</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Weather.Detailed" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_active</item>
+        <item name="android:textColorSecondary">#757575</item>
+        <item name="android:titleTextColor">#757575</item>
+        <item name="android:textColorPrimary">#757575</item>
+    </style>
 </resources>

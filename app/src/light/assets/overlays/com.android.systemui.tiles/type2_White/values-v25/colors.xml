@@ -34,6 +34,8 @@
     <!-- QS battery graph text color -> Text below battery Graph-->
     <color name="qs_battery_graph_text_color">@android:color/darker_gray</color>
 
+    <!-- Omni Jaws -->
+    <color name="omni_jaws_detailed_temperature_color">@*com.android.systemui:color/qs_tile_tint_active</color>
 
     <declare-styleable name="DateView">
         <attr name="datePattern" format="string" />
