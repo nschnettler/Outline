@@ -8,6 +8,7 @@
     <color name="background_dialer_call_log">@*android:color/background_material_dark</color>       <!-- Call Log -->
     <color name="background_dialer_call_log_list_item">@*android:color/background_material_dark</color>
     <color name="setting_background_color">@*android:color/background_material_dark</color>         <!-- Settings -->
+    <color name="material_grey_50">@*android:color/background_material_dark</color>                 <!-- Call List Overflow -->
 
     <!-- Dialpad -->
     <color name="background_dialpad">@*android:color/background_material_dark</color>               <!-- Background -->
@@ -70,4 +71,9 @@
     <color name="section_header_text_color">#ffffffff</color>
     <color name="secondary_header_separator_color">#ffaaaaaa</color>
 
+    <!-- AOSP -->
+    <!--  Primary text color in the Dialer -->
+    <color name="dialtacts_primary_text_color">#FFFFFF</color>
+    <!-- Secondary text color in the Dialer -->
+    <color name="dialtacts_secondary_text_color">#ffdddddd</color>
 </resources>
