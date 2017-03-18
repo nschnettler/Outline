@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!-- Primary -->
+    <color name="primary_color">@android:color/holo_blue_light</color>
     <color name="action_bar_background_color">@android:color/holo_blue_light</color>
-    <color name="contextual_action_bar_background_color">@android:color/holo_blue_light</color>
+    <color name="contextual_action_bar_background_color">@android:color/holo_blue_light</color>     <!-- Action Mode -->
     <color name="archived_conversation_action_bar_background_color">@android:color/holo_blue_light</color>
+    <color name="default_conversation_theme_color">@android:color/holo_blue_light</color>
+
+    <!-- Primary Dark -->
+    <color name="action_bar_background_color_dark">@android:color/holo_blue_light</color>
     <color name="archived_conversation_action_bar_background_color_dark">@android:color/holo_blue_light</color>
-    <color name="switch_thumb_normal_material_dark">@android:color/holo_blue_light</color>
-    <color name="switch_thumb_normal_material_light">@android:color/holo_blue_light</color>
+    <color name="conversation_color_primary_dark">@android:color/holo_blue_light</color>
+
+    <!-- Accent -->
+    <color name="fab_color">@android:color/holo_blue_dark</color>
+    <color name="fab_pressed_color">@android:color/holo_blue_dark</color>
+    <color name="switch_thumb_normal_material_dark">@android:color/holo_blue_dark</color>
+    <color name="switch_thumb_normal_material_light">@android:color/holo_blue_dark</color>
+    <color name="accent_material_light">@android:color/holo_blue_dark</color>
+    <color name="accent_material_dark">@android:color/holo_blue_dark</color>
+    <color name="letter_tile_default_primary_color">@android:color/holo_blue_dark</color>
+    <color name="notification_accent_color">@android:color/holo_blue_dark</color>
+
+
+    <!-- Error -->
+    <color name="conversation_list_error">@android:color/holo_red_light</color>
+    <color name="message_failed_timestamp_text">@android:color/holo_red_light</color>
+
+
     <color name="material_deep_teal_200">@android:color/holo_blue_light</color>
     <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
     <color name="material_blue_grey_800">@android:color/holo_blue_light</color>
     <color name="material_blue_grey_900">@android:color/holo_blue_light</color>
     <color name="material_blue_grey_950">@android:color/holo_blue_light</color>
-    <color name="accent_material_light">@android:color/holo_blue_light</color>
-    <color name="accent_material_dark">@android:color/holo_blue_light</color>
     <color name="place_picker_center_bar_title">@android:color/holo_blue_light</color>
     <color name="place_picker_center_bar_hint">@android:color/holo_blue_light</color>
     <color name="dark_blue">@android:color/holo_blue_light</color>
     <color name="material_google_blue_500">@android:color/holo_blue_light</color>
-    <color name="primary_color">@android:color/holo_blue_light</color>
-    <color name="conversation_color_primary_dark">@android:color/holo_blue_light</color>
-    <color name="default_conversation_theme_color">@android:color/holo_blue_light</color>
-    <color name="letter_tile_default_primary_color">@android:color/holo_blue_light</color>
     <color name="chips_dropdown_background_activated">@android:color/holo_blue_light</color>
     <color name="mms_indicator_color">@android:color/holo_blue_light</color>
-    <color name="fab_pressed_color">@android:color/holo_blue_light</color>
     <color name="message_bubble_color_selected">@android:color/holo_blue_light</color>
     <color name="compose_message_send_color">@android:color/holo_blue_light</color>
     <color name="contact_list_alphabet_header">@android:color/holo_blue_light</color>
     <color name="audio_progress_bar_color">@android:color/holo_blue_light</color>
-    <color name="notification_accent_color">@android:color/holo_blue_light</color>
     <color name="compose_notification_bar_background">@android:color/holo_blue_light</color>
-
-
-    <color name="action_bar_background_color_dark">@android:color/holo_blue_light</color>
-
-    <color name="fab_color">@android:color/holo_blue_light</color>
-    <color name="conversation_list_error">@android:color/holo_blue_light</color>
-    <color name="message_failed_timestamp_text">@android:color/holo_blue_light</color>
-
-
 </resources>
