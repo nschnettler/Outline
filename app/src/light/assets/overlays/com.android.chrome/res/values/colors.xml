@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_primary_color">#ffffff</color>
+
+    <color name="google_green_700">@*android:color/holo_green_light</color>
+
+    <color name="light_active_color">@*android:color/holo_blue_light</color>
+    <color name="infobar_accent_blue">@*android:color/holo_blue_light</color>
+    <color name="website_settings_popup_text_link">@*android:color/holo_blue_light</color>
+    <color name="most_visited_offline_badge_tint">@*android:color/holo_blue_light</color>
+
+</resources>
