@@ -1,12 +1,14 @@
 <resources>
     <string-array name="ThemeChangelog">
-        <item>Theme PA Battery</item>
-        <item>New Overlays (DU About)</item>
-        <item>Settings Icons (DU Root, HeadsUp, Lock)</item>
-        <item>Quicksettings Icons (ABC Memory, High Brightness, Screenshot, Partial Screenshot)</item>
-        <item>Volume Panel Icons (Notification Volume)</item>
-        <item>Updates (DU Updater, Play Music, Substratum, Backdrops, AOSP Contacts)</item>
-        <item>Improvements (Play Music, Backdrops, AOSP Contacts, Focus, Telegram, Flamingo)</item>
-        <item>Add option to fix white battery on white qs (workaround)</item>
+        <item>Settings: Theme Carbon, Magisk, Notification Sound Icons</item>
+        <item>Substratum: Theme new Icons</item>
+        <item>AOSP Contacts: Various fixes + improvements</item>
+        <item>Telecom: Various Improvements</item>
+        <item>TV Showtime: Update</item>
+        <item>SyncForReddit: Theme new Icons, various improvements</item>
+        <item>QuickSettings: Theme Omnijaws Text Colors (Icons not yet), fix DND priority Iccon</item>
+        <item>Android Messenger: Fix coloring + theme new Icons + improvements</item>
+        <item>Whatsapp: Update + various improvements</item>
+        <item>Google Keyboard: Bring back working dark theme</item>
     </string-array>
 </resources>
