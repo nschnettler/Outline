@@ -5,7 +5,7 @@
     android:shape="oval">
 
     <solid
-        android:color="#66EC407A"
+        android:color="#66757575"
         android:width="0.6dp"
         />
 
@@ -13,9 +13,6 @@
         android:color="#EC407A"
         android:width="0.6dp"/>
 
-    <size
-        android:width="16dp"
-        android:height="16dp"/>
 </shape> -->
 
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
@@ -24,13 +21,11 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-        android:fillColor="#FAFAFA"
+        android:fillColor="#1F1F1F"
         android:pathData="M23.5,12c0,6.4-5.1,11.5-11.5,11.5
 	S0.5,18.4,0.5,12S5.6,0.5,12,0.5S23.5,5.6,23.5,12z"/>
     <path
         android:strokeColor="@*android:color/accent_material_light"
-        android:fillColor="@*android:color/accent_material_light"
-        android:fillAlpha="0.2"
         android:strokeWidth="0.6"
         android:pathData="M23.5,12c0,6.4-5.1,11.5-11.5,11.5
 	S0.5,18.4,0.5,12S5.6,0.5,12,0.5S23.5,5.6,23.5,12z"/>
