@@ -1,14 +1,24 @@
 <resources>
     <string-array name="ThemeChangelog">
-        <item>Settings: Theme Carbon, Magisk, Notification Sound Icons</item>
-        <item>Substratum: Theme new Icons</item>
-        <item>AOSP Contacts: Various fixes + improvements</item>
-        <item>Telecom: Various Improvements</item>
-        <item>TV Showtime: Update</item>
-        <item>SyncForReddit: Theme new Icons, various improvements</item>
-        <item>QuickSettings: Theme Omnijaws Text Colors (Icons not yet), fix DND priority Iccon</item>
-        <item>Android Messenger: Fix coloring + theme new Icons + improvements</item>
-        <item>Whatsapp: Update + various improvements</item>
-        <item>Google Keyboard: Bring back working dark theme</item>
+        <item>New Overlays:</item>
+        <item>Magisk Manager</item>
+        <item>∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙</item>
+        <item>Bugfixes:</item>
+        <item>Emergency Info not compiling</item>
+        <item>TV Showtime Force Close</item>
+        <item>∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙</item>
+        <item>Updates &amp; Improvements:</item>
+        <item>Settings Icons | New Icons</item>
+        <item>Substratum | New Icons</item>
+        <item>SyncForReddit | New Icons</item>
+        <item>QuickSettings | Omnijaws Text Colors, DND priority</item>
+        <item>Android Messenger | Fix coloring, new Icons</item>
+        <item>Google Keyboard | Dark Theme</item>
+        <item>Statusbar | Wifi in/out indicators</item>
+        <item>AOSP Contacts</item>
+        <item>Telecom</item>
+        <item>Whatsapp</item>
+        <item>EX Kernel Manager</item>
+        <item>Google Books</item>
     </string-array>
 </resources>
