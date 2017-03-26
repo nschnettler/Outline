@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Dark | Tasten Background -->
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
             <corners android:radius="2.0dip" />
-            <stroke android:color="#1a000000" android:width="1dp" />
-            <solid android:color="#1a000000" />
+            <stroke android:color="#171717" android:width="1dp" />
+            <solid android:color="#33000000" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="2.0dip" />
-            <stroke android:color="#0d000000" android:width="1dp" />
+            <stroke android:color="#171717" android:width="1dp" />
 
         </shape>
     </item>
