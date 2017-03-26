@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- INCALL UI -->
-    <color name="incall_background_gradient_bottom">@android:color/holo_blue_light</color>
-    <color name="incall_background_gradient_middle">@android:color/holo_blue_light</color>
-    <color name="incall_background_gradient_top">@android:color/holo_blue_light</color>
-    <color name="incall_background_multiwindow">@android:color/holo_blue_light</color>
-
-    <color name="incall_background_gradient_spam_bottom">@android:color/holo_red_light</color>
-    <color name="incall_background_gradient_spam_middle">@android:color/holo_red_light</color>
-    <color name="incall_background_gradient_spam_top">@android:color/holo_red_light</color>
-    <color name="incall_background_multiwindow_spam">@android:color/holo_red_light</color>
+    <color name="incall_background_gradient_top">#e91F1F1F</color>
+    <color name="incall_background_gradient_bottom">#cc1F1F1F</color>
+    <color name="incall_background_gradient_middle">#e91F1F1F</color>
+    <color name="incall_background_multiwindow">#e91F1F1F</color>
 </resources>
