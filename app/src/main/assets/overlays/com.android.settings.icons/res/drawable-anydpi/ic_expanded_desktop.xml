@@ -2,7 +2,7 @@
 <vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:strokeColor="@*android:color/accent_material_light"
+        android:strokeColor="@*com.android.settings:color/icon_accent"
         android:strokeWidth="0.6"
         android:pathData="M15.2,21.5h6.3v-6.3 M2.5,15.2v6.3h6.3 M21.5,8.8V2.5h-6.3 M8.8,2.5H2.5v6.3" />
 </vector>

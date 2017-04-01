@@ -4,7 +4,7 @@
         android:viewportWidth="24.0"
         android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*android:color/accent_material_light"
+        android:strokeColor="@*com.android.settings:color/icon_accent"
         android:strokeWidth="0.6"
         android:pathData="M6.3,11c2.1,0,3.8,1.7,3.8,3.8s-1.7,3.8-3.8,3.8s-3.8-1.7-3.8-3.8S4.2,11,6.3,11z M15.4,16.7
 		c1.3,0,2.3,1,2.3,2.4s-1,2.4-2.3,2.4s-2.4-1-2.4-2.4C12.9,17.7,14,16.7,15.4,16.7z M15.8,2.5c3.1,0,5.7,2.5,5.7,5.7

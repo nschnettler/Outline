@@ -6,7 +6,7 @@
     android:viewportHeight="50">
 
     <path
-        android:fillColor="@*android:color/accent_material_light"
+        android:fillColor="@*com.android.settings:color/icon_accent"
         android:strokeMiterLimit="10"
         android:pathData="M2.3,3.5v43.1H0.5V3.5H2.3z M27.6,3.5L7,24l22.7,22.5H27L4.3,24L25,3.5H27.6z M40.6,44.7h17l-7.4-20.4l3.4-2
 	c2.8-1.6,4.2-4,4.2-7.4c0-6.4-4.8-9.5-14.5-9.5h-5.7v41.2h-1.8V3.5h7.5c5.4,0,9.5,1,12.2,3s4.1,4.8,4.1,8.4c0,4.1-1.7,7.1-5.2,9

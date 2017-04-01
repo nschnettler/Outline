@@ -6,15 +6,15 @@
     android:viewportHeight="24">
 
     <path
-        android:strokeColor="@*android:color/accent_material_light"
+        android:strokeColor="@*com.android.settings:color/icon_accent"
         android:strokeWidth="0.6"
         android:strokeMiterLimit="10"
         android:pathData="M12,21L23.3,6.9C22.9,6.6,18.5,3,12,3 C5.5,3,1.1,6.6,0.7,6.9L12,21L12,21L12,21z" />
     <path
-        android:strokeColor="@*android:color/accent_material_light"
+        android:strokeColor="@*com.android.settings:color/icon_accent"
         android:strokeWidth="0.6"
         android:strokeMiterLimit="10"
-        android:fillColor="@*android:color/accent_material_light"
+        android:fillColor="@*com.android.settings:color/icon_accent"
         android:fillAlpha="0.2"
         android:pathData="M3.8,10.7L12,21l0,0l0,0l8.2-10.3 c-0.4-0.3-3.6-2.9-8.2-2.9S4.2,10.4,3.8,10.7z" />
 </vector>

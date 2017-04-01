@@ -7,7 +7,7 @@
 
 
     <path
-        android:strokeColor="@*android:color/accent_material_light"
+        android:strokeColor="@*com.android.settings:color/icon_accent"
         android:strokeWidth="0.6"
         android:pathData="M15,7.5 L15,2 L9,2 L9,7.5 L12,10.5 L15,7.5 Z M7.5,9 L2,9 L2,15 L7.5,15 L10.5,12
 L7.5,9 Z M9,16.5 L9,22 L15,22 L15,16.5 L12,13.5 L9,16.5 Z M16.5,9 L13.5,12

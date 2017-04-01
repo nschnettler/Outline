@@ -7,7 +7,7 @@
 
 
     <path
-        android:strokeColor="@*android:color/accent_material_light"
+        android:strokeColor="@*com.android.settings:color/icon_accent"
         android:strokeWidth="0.6"
         android:pathData="M20,18 C21.1000003815,18,22,17.1000003815,22,16 L22,6
 C22,4.90000009537,21.1000003815,4,20,4 L4,4 C2.90000009537,4,2,4.90000009537,2,6

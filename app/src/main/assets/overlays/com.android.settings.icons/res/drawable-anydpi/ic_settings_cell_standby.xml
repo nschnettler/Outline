@@ -4,7 +4,7 @@
         android:viewportWidth="24.0"
         android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*android:color/accent_material_light"
+        android:strokeColor="@*com.android.settings:color/icon_accent"
         android:strokeWidth="0.6"
         android:pathData="M2.5,21.5h10.6V10.9L2.5,21.5z M2.5,21.5h19v-19L2.5,21.5z" />
 </vector>
