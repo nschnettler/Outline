@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#00000000" />
+            <size android:height="@*com.android.dialer:dimen/incoming_call_widget_circle_size" android:width="@*com.android.dialer:dimen/incoming_call_widget_circle_size" />
+        </shape>
+    </item>
+    <item android:drawable="@*com.android.dialer:drawable/fab_ic_end_call"  android:gravity="center"/>
+</layer-list>

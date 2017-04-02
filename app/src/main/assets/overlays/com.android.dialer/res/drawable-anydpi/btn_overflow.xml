@@ -21,7 +21,5 @@
     <item android:id="@*com.android.dialer:id/backgroundItem"
         android:drawable="@*com.android.dialer:drawable/btn_background" />
 
-    <item android:drawable="@*com.android.dialer:drawable/ic_overflow_menu">
-    </item>
-
+    <item android:drawable="@*com.android.dialer:drawable/ic_overflow_menu"/>
 </layer-list>
