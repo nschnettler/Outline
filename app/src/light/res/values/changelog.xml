@@ -1,24 +1,16 @@
 <resources>
     <string-array name="ThemeChangelog">
-        <item>New Overlays:</item>
-        <item>Magisk Manager</item>
-        <item>∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙</item>
         <item>Bugfixes:</item>
-        <item>Emergency Info not compiling</item>
-        <item>TV Showtime Force Close</item>
-        <item>∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙</item>
+        <item>AOSP Dialer | FC when getting called</item>
+        <item>Chrome | Custom Tabs Close Icon</item>
+        <item></item>
         <item>Updates &amp; Improvements:</item>
-        <item>Settings Icons | New Icons</item>
-        <item>Substratum | New Icons</item>
-        <item>SyncForReddit | New Icons</item>
-        <item>QuickSettings | Omnijaws Text Colors, DND priority</item>
-        <item>Android Messenger | Fix coloring, new Icons</item>
-        <item>Google Keyboard | Dark Theme</item>
-        <item>Statusbar | Wifi in/out indicators</item>
-        <item>AOSP Contacts</item>
-        <item>Telecom</item>
-        <item>Whatsapp</item>
-        <item>EX Kernel Manager</item>
-        <item>Google Books</item>
+        <item>Sync For Reddit | Bottom Tab Icons</item>
+        <item>GBoard | Send Icon</item>
+        <item>Chrome | New Icons</item>
+        <item>Google+ | Improve Icons</item>
+        <item>Whatsapp | Improve Icons (Message Status)</item>
+        <item>Settings | Icons (HalogenOS)</item>
+        <item>QuickSettings | Icons (Tesla, Weather)</item>
     </string-array>
 </resources>
