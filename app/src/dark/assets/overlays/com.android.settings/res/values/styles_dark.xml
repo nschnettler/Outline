@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">          <!-- Toolbar color when opening the app -->
-        <item name="android:background">@*android:color/primary_material_light</item>
+        <item name="android:background">@*com.android.settings:drawable/ic_tab_selected_sdcard</item>
+        <item name="android:elevation">0.0dip</item>
     </style>
 
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">                        <!-- MAIN theme -->
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>                <!-- Accent Color -->
-        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>     <!-- Navbar color -->
-        <item name="android:textColorPrimaryInverse">#ffffff</item>                                 <!-- Condition card text -->
-        <item name="android:windowBackground">@*android:color/background_material_dark</item>       <!-- Background -->
-        <item name="android:colorBackground">@*android:color/background_material_dark</item>         <!-- Background -->
-    </style>
+
 
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
-        <item name="android:colorPrimary">@*android:color/primary_material_light</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_material_light</item>
+        <item name="android:colorPrimary">#00000000</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
+
         <item name="android:colorAccent">@*android:color/accent_material_light</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
         <item name="android:windowBackground">@*android:color/background_material_dark</item>

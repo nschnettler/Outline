@@ -7,11 +7,20 @@
         <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
         <item name="android:windowBackground">@*android:color/background_material_dark</item>
     </style>
-    <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material">
-        <item name="android:colorBackground">@*android:color/background_material_dark</item>
-        <item name="android:colorSecondary">@*android:color/background_material_dark</item>         <!-- Switchbar Background Color -->
-        <item name="android:windowBackground">@*android:color/background_material_dark</item>
-        <item name="android:textColorPrimaryInverse">#ffffffff</item>
+
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">                        <!-- MAIN theme -->
+
+        <item name="android:colorPrimary">#00FAFAFA</item>
+        <item name="android:colorPrimaryDark">@*android:color/background_material_dark</item>
+        <item name="android:statusBarColor">@*android:color/background_material_dark</item>
+        <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
+
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>                <!-- Accent Color -->
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>     <!-- Navbar color -->
+        <item name="android:textColorPrimaryInverse">#ffffff</item>                                 <!-- Condition card text -->
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>       <!-- Background -->
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>         <!-- Background -->
+
+        <item name="android:colorSecondary">@*android:color/background_material_dark</item>         <!-- Switchbar Background Color -->
     </style>
 </resources>
