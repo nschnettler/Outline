@@ -33,10 +33,4 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:textColorSecondary">@*com.topjohnwu.magisk:color/dark_secondary_text</item>
     </style>
-
-    <style name="SuRequest" parent="@*com.topjohnwu.magisk:style/Theme.AppCompat.Light.Dialog">
-        <item name="android:windowCloseOnTouchOutside">false</item>
-        <item name="android:colorBackground">@*com.topjohnwu.magisk:color/su_request_background</item>
-        <item name="colorAccent">@*com.topjohnwu.magisk:color/accent</item>#
-    </style>
 </resources>

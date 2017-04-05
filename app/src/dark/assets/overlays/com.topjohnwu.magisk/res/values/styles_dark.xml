@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardViewStyle.Dark" parent="@*com.topjohnwu.magisk:style/CardView">
+        <item name="cardBackgroundColor">@*android:color/background_material_dark</item>
+    </style>
+    <style name="SuRequest" parent="@*com.topjohnwu.magisk:style/Theme.AppCompat.Dialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="colorAccent">@*com.topjohnwu.magisk:color/accent</item>
+    </style>
+</resources>

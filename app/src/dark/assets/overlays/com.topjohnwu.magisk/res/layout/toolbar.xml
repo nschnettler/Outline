@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:id="@*com.topjohnwu.magisk:id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    app:theme="@*com.topjohnwu.magisk:style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:elevation="0dp"
+    android:background="@*android:drawable/ic_menu_emoticons"/>
