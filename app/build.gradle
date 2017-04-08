@@ -46,6 +46,19 @@ android {
             }
         }
     }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            if (variant.flavorName == "dark"){
+                output.outputFile = new File(
+                        output.outputFile.parent, "Ethereal_Alpha-" + getHash()+ "-"+variant.buildType.name+".apk")
+            }
+            if (variant.flavorName == "light"){
+                output.outputFile = new File(
+                        output.outputFile.parent, "Outline_" + variant.versionName+ "-"+variant.buildType.name+".apk")
+            }
+
+        }
+    }
 }
 
 dependencies {
@@ -62,6 +75,6 @@ def getDate() {
 
 def getTimeOnly() {
     def date = new Date()
-    def formattedDate = date.format('HH:mm')
+    def formattedDate = date.format('HH.mm')
     return formattedDate
 }
