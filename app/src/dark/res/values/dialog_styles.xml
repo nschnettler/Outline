@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="DialogStyle" parent="@style/Theme.AppCompat.Dialog.Alert"/>
+    <style name="DialogStyle" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">#1F1F1F</item>
+    </style>
 </resources>
