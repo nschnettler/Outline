@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar
+        android:id="@*com.android.chrome:id/search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.android.chrome:dimen/abc_action_bar_default_height_material">
+        <EditText
+            android:textSize="20.0sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            android:id="@*com.android.chrome:id/bookmark_search_text"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="@*com.android.chrome:string/bookmark_action_bar_search"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionSearch|flagNoExtractUi" />
+    </android.support.v7.widget.Toolbar>
+    <View
+        android:background="#ffe1e1e1"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <view
+        android:id="@*com.android.chrome:id/history_result_switcher"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inAnimation="@android:anim/fade_in"
+        android:outAnimation="@android:anim/fade_out"
+        class="org.chromium.chrome.browser.bookmarks.BookmarkSearchView$HistoryResultSwitcher">
+        <ListView
+            android:id="@*com.android.chrome:id/bookmark_history_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="0.0dip" />
+        <ViewSwitcher
+            android:id="@*com.android.chrome:id/result_empty_switcher"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inAnimation="@android:anim/fade_in"
+            android:outAnimation="@android:anim/fade_out">
+            <ListView
+                android:id="@*com.android.chrome:id/bookmark_result_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null"
+                android:dividerHeight="0.0dip" />
+            <TextView
+                android:textSize="16.0sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@*com.android.chrome:id/bookmark_search_empty_view"
+                android:padding="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@*com.android.chrome:string/bookmark_no_result"
+                android:drawableTop="@*com.android.chrome:drawable/bookmark_logo_large"
+                android:drawablePadding="3.0dip" />
+        </ViewSwitcher>
+    </view>
+</merge>

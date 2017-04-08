@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary -->
+    <color name="dark_action_bar_color">@*android:color/background_material_dark</color>            <!-- Settings -->
+    <color name="primary_material_dark">@*android:color/background_material_dark</color>
+    <color name="primary_material_light">@*android:color/background_material_dark</color>           <!-- Recents -->
+
+    <!-- Background -->
+    <color name="default_primary_color">@*android:color/background_material_dark</color>            <!-- Toolbar -->
+    <color name="incognito_primary_color">@*android:color/background_material_dark</color>
+    <color name="tab_switcher_background">@*android:color/background_material_dark</color>          <!-- Tab Switcher -->
+    <color name="ntp_bg">@*android:color/background_material_dark</color>                           <!-- Start Page -->
+    <color name="snippets_thumbnail_placeholder_bg">@*android:color/background_dark</color>         <!-- Snippets Image -->
+    <color name="bookmark_drawer_selected_background_color">@*android:color/background_dark</color> <!-- Bookmarks Drawer Selected -->
+
+    <!-- Text -->
+    <color name="ntp_search_box_hint">#FFFFFF</color>
+
+
+
+    <color name="bookmark_detail_text">#ffdddddd</color>
+    <color name="bookmark_detail_section">#ff111111</color>
+
+    <!-- Omnibox Text -->
+    <color name="locationbar_light_hint_text">#80ffffff</color>
+    <color name="locationbar_status_separator_color">#3dffffff</color>
+    <color name="locationbar_status_separator_color_light">#3dffffff</color>
+
+
+
+
+    <color name="cast_media_controller_text">#ffdddddd</color>
+    <color name="default_text_color">#ffffffff</color>
+    <color name="light_normal_color">#ffdddddd</color>
+    <color name="input_underline_color">#ffffffff</color>
+    <color name="explanation_text_color">#ffdddddd</color>
+    <color name="descriptive_text_color">#ffdddddd</color>
+    <color name="infobar_descriptive_text_color">#ffdddddd</color>
+    <color name="snackbar_background_color">#ff111111</color>
+
+	<color name="background_material_dark">@*android:color/background_material_dark</color>
+    <color name="background_material_light">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color>
+
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
+
+    <color name="material_grey_600">#ff000000</color>
+    <color name="material_grey_300">#ff000000</color>
+    <color name="material_grey_50">#ff000000</color>
+    <color name="material_deep_teal_200">#ff787878</color>
+    <color name="material_deep_teal_500">#ff787878</color>
+    <color name="material_blue_grey_800">@*android:color/background_material_dark</color>
+    <color name="material_blue_grey_950">#ff000000</color>
+
+    <color name="primary_dark_material_dark">#ff000000</color>
+    <color name="primary_dark_material_light">#ff000000</color>
+
+	<color name="highlighted_text_material_dark">#66787878</color>
+    <color name="highlighted_text_material_light">#66787878</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="secondary_text_default_material_light">#ffdddddd</color>
+   
+    <color name="secondary_text_default_material_dark">#ffdddddd</color>
+    <color name="primary_text_disabled_material_light">#4dffffff</color>
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ffbebebe</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80bebebe</color>
+
+    <color name="accessibility_tab_switcher_list_item">#ff787878</color>
+    <color name="tab_back">#ff111111</color>
+    <color name="tab_back_incognito">#ff111111</color>
+    <color name="app_banner_install_button_bg">#ff388e3c</color>
+    <color name="connection_info_popup_text">#ffdddddd</color>
+    <color name="website_settings_popup_text">#ffdddddd</color>
+	
+    <color name="url_emphasis_start_scheme_security_warning">#fffbc02d</color>
+    <color name="url_emphasis_start_scheme_security_error">#ffd32f2f</color>
+    <color name="url_emphasis_start_scheme_ev_secure">#ff388e3c</color>
+    <color name="url_emphasis_start_scheme_secure">#ff388e3c</color>
+    <color name="url_emphasis_non_emphasized_text">#80dddddd</color>
+    <color name="url_emphasis_light_non_emphasized_text">#80ffffff</color>
+    <color name="url_emphasis_domain_and_registry">#ffdddddd</color>
+    <color name="url_emphasis_light_domain_and_registry">#ffffffff</color>
+    <color name="url_emphasis_default_text">#ffdddddd</color>
+    <color name="url_emphasis_light_default_text">#ffffffff</color>
+	
+    <color name="distilled_page_prefs_selected">#ff555555</color>
+    <color name="distilled_page_prefs_unselected">@*android:color/button_material_dark</color>
+    <color name="password_generation_divider_color">#ffaaaaaa</color>
+    <color name="expandable_group_dark_gray">#ff000000</color>
+    <color name="data_reduction_original_color">#ff787878</color>
+    <color name="data_reduction_chart_background_color">@*android:color/background_material_dark</color>
+    <color name="compositor_tab_title_bar_text">#ffffffff</color>
+    <color name="compositor_tab_title_bar_text_incognito">#ffffffff</color>
+    <color name="fre_text_color">#ffdddddd</color>
+    <color name="fre_title_color">#ffffffff</color>
+    <color name="signin_light_text_color">#ffdddddd</color>
+    <color name="sad_tab_header_text_color">#ffffffff</color>
+    <color name="sad_tab_body_text_color">#ffdddddd</color>
+	
+  
+    <color name="ntp_list_item_text">#ffdddddd</color>
+    <color name="ntp_list_header_text">#ffffffff</color>
+    <color name="ntp_list_header_subtext">#ffdddddd</color>
+	
+    <color name="snippets_publisher_name_color">#ffeaeaea</color>
+    <color name="snippets_text_color">#ffdddddd</color>
+    <color name="snippets_list_header_text_color">#ffeaeaea</color>
+    <color name="snippets_headline_text_color">#ffeaeaea</color>
+
+    <color name="progress_bar_foreground_white">#ffffffff</color>
+    <color name="progress_bar_background_white">#4d000000</color>
+
+    <color name="find_result_bar_background_color">#bf000000</color>
+    <color name="find_result_bar_background_border_color">#bf555555</color>
+    <color name="find_result_bar_result_color">#fffbc02d</color>
+    <color name="find_result_bar_result_border_color">#fffbc02d</color>
+    <color name="find_result_bar_active_color">#ffe64a19</color>
+    <color name="find_result_bar_active_border_color">#ffbf360c</color>
+    <color name="find_in_page_query_color">#ffdddddd</color>
+    <color name="find_in_page_results_status_color">#ffdddddd</color>
+    <color name="find_in_page_results_status_white_color">#ffdddddd</color>
+    <color name="find_in_page_failed_results_status_color">#ffd32f2f</color>
+
+    <color name="reader_mode_header_bg">#ff111111</color>
+	
+    <color name="webapp_default_bg">@*android:color/background_material_dark</color>
+    <color name="webapp_url_bar_bg">#ff111111</color>
+    <color name="webapp_url_bar_separator">#ffaaaaaa</color>
+	
+    <color name="opt_out_text_color">#ffdddddd</color>
+    <color name="media_session_icon_color">#ffffffff</color>
+
+    <color name="physical_web_url_color">#ffdddddd</color>
+    <color name="physical_web_url_description_color">#ffdddddd</color>
+    <color name="physical_web_logo_gray_tint">#ffffffff</color>
+    <color name="physical_web_diags_success_color">#ff388e3c</color>
+    <color name="physical_web_diags_failure_color">#ffd32f2f</color>
+    <color name="physical_web_diags_indeterminate_color">#fffbc02d</color>
+
+</resources>

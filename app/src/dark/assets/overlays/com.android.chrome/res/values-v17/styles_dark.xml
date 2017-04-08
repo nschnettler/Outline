@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonBar" parent="@android:style/Holo.ButtonBar.AlertDialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0.0dip</item>
+    </style>
+
+    <style name="ButtonBarButton" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@*com.android.chrome:drawable/abc_item_background_holo_dark</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingStart">4.0dip</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+</resources>

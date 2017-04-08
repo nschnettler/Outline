@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.widget.selection.SelectableListLayout
+        android:id="@*com.android.chrome:id/selectable_list"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:id="@*com.android.chrome:id/drawer_layout"
+        android:background="@*android:color/background_material_dark"
+        android:clickable="true"
+        android:layout_width="@*com.android.chrome:dimen/drawer_width"
+        android:layout_height="fill_parent">
+        <include
+            layout="@*com.android.chrome:layout/download_manager_ui_space_widget" />
+        <ListView
+            android:id="@*com.android.chrome:id/section_list"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

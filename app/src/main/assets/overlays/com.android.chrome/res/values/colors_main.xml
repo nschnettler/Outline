@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <color name="default_primary_color">#ffffff</color>
-
     <color name="google_green_700">@*android:color/holo_green_light</color>
     <color name="http_bad_warning_message_text">@*android:color/holo_red_light</color>
     <color name="error_text_color">@*android:color/holo_red_light</color>
@@ -13,4 +10,5 @@
     <color name="website_settings_popup_text_link">@*android:color/holo_blue_light</color>
     <color name="most_visited_offline_badge_tint">@*android:color/holo_blue_light</color>
     <color name="google_blue_700">@*android:color/holo_blue_light</color>
+    <color name="text_highlight_color">@android:color/holo_blue_light</color>                       <!-- Searchbar Text Selected -->
 </resources>

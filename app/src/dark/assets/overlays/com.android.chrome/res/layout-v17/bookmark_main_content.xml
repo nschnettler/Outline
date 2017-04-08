@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.bookmarks.BookmarkContentView
+    android:id="@*com.android.chrome:id/bookmark_content_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.bookmarks.BookmarkRecyclerView
+        android:scrollbarStyle="outsideOverlay"
+        android:id="@*com.android.chrome:id/bookmark_items_container"
+        android:background="@*android:color/background_material_dark"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:scrollbars="vertical"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@*com.android.chrome:id/bookmark_action_bar"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="#ff5b5b5b"
+        android:gravity="center"
+        android:id="@*com.android.chrome:id/bookmark_empty_view"
+        android:padding="16.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@*com.android.chrome:drawable/bookmark_logo_large"
+        android:drawablePadding="3.0dip"
+        android:layout_centerInParent="true" />
+    <org.chromium.chrome.browser.widget.LoadingView
+        android:id="@*com.android.chrome:id/bookmark_initial_loading_view"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <org.chromium.chrome.browser.bookmarks.BookmarkActionBar
+        android:id="@*com.android.chrome:id/bookmark_action_bar"
+        android:background="@*com.android.chrome:color/appbar_background"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.android.chrome:dimen/abc_action_bar_default_height_material"
+        android:layout_alignParentTop="true">
+        <include layout="@*com.android.chrome:layout/number_roll_view" />
+    </org.chromium.chrome.browser.bookmarks.BookmarkActionBar>
+    <org.chromium.chrome.browser.widget.FadingShadowView
+        android:id="@*com.android.chrome:id/shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.android.chrome:dimen/action_bar_shadow_height"
+        android:layout_below="@*com.android.chrome:id/bookmark_action_bar" />
+</org.chromium.chrome.browser.bookmarks.BookmarkContentView>
