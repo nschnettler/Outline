@@ -11,7 +11,7 @@ def getHash = { ->
         commandLine 'git', 'rev-list', '--count', 'lightdark'
         standardOutput = stdout
     }
-    return (Integer.parseInt(stdout.toString().trim())-781)
+    return (Integer.parseInt(stdout.toString().trim())-783)
 }
 
 android {
@@ -75,6 +75,6 @@ def getDate() {
 
 def getTimeOnly() {
     def date = new Date()
-    def formattedDate = date.format('HH.mm')
+    def formattedDate = date.format('HH:mm')
     return formattedDate
 }
