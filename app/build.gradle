@@ -19,6 +19,7 @@ android {
     buildToolsVersion "25"
     defaultConfig {
         targetSdkVersion 25
+        minSdkVersion 25
         versionCode 57
     }
     buildTypes {
@@ -35,12 +36,10 @@ android {
         productFlavors {
             dark{
                 applicationId "com.schnettler.outline.dark"
-                minSdkVersion 25
                 versionName "Alpha"
             }
             light{
                 applicationId "com.schnettler.outline"
-                minSdkVersion 24
                 versionName "8.8.1"
             }
         }
