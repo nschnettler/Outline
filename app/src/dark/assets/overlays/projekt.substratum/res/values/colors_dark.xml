@@ -69,4 +69,8 @@
         <color name="restore_button_text_color">#ffffff</color>
         <!-- Overflow -->
         <color name="primary_text_default_material_light">#ffffffff</color>                         <!-- Text Color -->
+
+
+    <!-- Divider -->
+    <color name="theme_information_card_divider">#00ffffff</color>                         <!-- Text Color -->
 </resources>
