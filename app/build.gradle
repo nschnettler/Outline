@@ -46,19 +46,6 @@ android {
             }
         }
     }
-    applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            if (variant.flavorName == "dark"){
-                output.outputFile = new File(
-                        output.outputFile.parent, "Ethereal_Alpha-" + getHash()+ "-"+variant.buildType.name+".apk")
-            }
-            if (variant.flavorName == "light"){
-                output.outputFile = new File(
-                        output.outputFile.parent, "Outline_" + getHash()+ "-"+variant.buildType.name+".apk")
-            }
-
-        }
-    }
 }
 
 dependencies {
