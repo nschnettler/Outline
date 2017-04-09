@@ -54,7 +54,7 @@ android {
             }
             if (variant.flavorName == "light"){
                 output.outputFile = new File(
-                        output.outputFile.parent, "Outline_" + variant.versionName+ "-"+variant.buildType.name+".apk")
+                        output.outputFile.parent, "Outline_" + getHash()+ "-"+variant.buildType.name+".apk")
             }
 
         }
