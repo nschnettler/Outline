@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="lowlight">@*android:color/accent_material_light</color>
+    <color name="disabled_knob">@*android:color/holo_gray_light</color>
+</resources>

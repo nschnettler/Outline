@@ -5,7 +5,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 	<item>
 		<shape>
-			<solid android:color="@*android:color/background_material_dark"/>
+			<solid android:color="#FAFAFA"/>
 		</shape>
 	</item>
 	<item android:height="1dp" android:gravity="bottom">

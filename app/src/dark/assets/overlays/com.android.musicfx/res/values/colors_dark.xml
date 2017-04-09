@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="highlight">@*android:color/accent_material_dark</color>
+    <color name="PrimaryDark">@*android:color/background_material_dark</color>   <!-- Dark -->
+
+    <color name="spinner_back_color">@*android:color/background_material_dark</color>
+    <color name="spinner_detail_back">@*android:color/background_material_dark</color>
+    <color name="spinner_detail_text">#FFFFFF</color>
+
+
+    <color name="disabled_gallery">#66FFFFFF</color>                                                <!-- Equalizer Disabled Strip Text Color -->
+    <color name="grey">#FFFFFF</color>                                                              <!-- Strip Text Color -->
+    <color name="disabled">#FFFFFF</color>
+</resources>
