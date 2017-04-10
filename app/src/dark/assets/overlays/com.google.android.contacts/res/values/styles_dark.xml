@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Suggestions Card Overflow Background -->
+    <style name="PopupMenuStyleAppCompat" parent="@*com.android.contacts:style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
+    </style>
+
     <style name="TextAppearanceMedium" parent="@*android:style/TextAppearance.Medium">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">#ffffffff</item>
