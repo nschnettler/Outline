@@ -4,6 +4,8 @@
     <color name="dashboard_category_title_background">@*android:color/background_material_dark</color>       <!-- Category Title Background -->
     <color name="selectable_card_background">@*android:color/background_material_dark</color>       <!-- Category/Card Background -->
     <color name="material_grey_300">@*android:color/background_material_dark</color>                <!-- Background behind everything (for example search view) -->
+    <color name="dashboard_background_color">@*android:color/background_material_dark</color>
+    <color name="card_background">@*android:color/background_material_dark</color>
 
     <!-- Security / Fingerprint Stuff -->
     <color name="fingerprint_indicator_background_resting">#66ffffff</color>                        <!-- Add fingerprint default fingerprint Icon color (#12000000) -->
