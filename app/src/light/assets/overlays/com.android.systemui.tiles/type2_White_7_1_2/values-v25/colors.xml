@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qs_detail_transition">#66757575</color>
+    <color name="volume_settings_icon_color">#FAFAFA</color>
+
+    <color name="qs_tile_tint_unavailable">#66757575</color>
+    <color name="qs_tile_tint_inactive">#66757575</color>
+    <color name="qs_tile_tint_active">#757575</color>
+
+    <!-- QS TEXT Farben -->
+    <color name="qs_text">@*com.android.systemui:color/qs_tile_tint_active</color>                  <!-- Text Color -->
+    <color name="qs_tile_text">@*com.android.systemui:color/qs_tile_tint_active</color>             <!-- Tile Text Color -->
+    <color name="qs_subhead">@*com.android.systemui:color/qs_tile_tint_inactive</color>
+    <color name="qs_detail_empty">@*com.android.systemui:color/qs_tile_tint_inactive</color>
+    <color name="qs_detail_button">@*com.android.systemui:color/qs_tile_tint_active</color>
+    <color name="qs_detail_button_white">@*com.android.systemui:color/qs_tile_tint_inactive</color>
+
+    <color name="data_usage_secondary">@*com.android.systemui:color/qs_tile_tint_active</color>
+    <color name="data_usage_graph_track">@*com.android.systemui:color/qs_tile_tint_inactive</color>
+    <color name="segmented_button_unselected">@*com.android.systemui:color/qs_tile_tint_inactive</color>
+    <color name="qs_user_detail_icon_muted">@*com.android.systemui:color/qs_tile_tint_inactive</color>
+
+    <!-- QS battery % text color -->
+    <color name="qs_battery_text_color">@*com.android.systemui:color/qs_tile_tint_active</color>
+    <!-- QS battery graph text color -->
+    <color name="qs_battery_graph_text_color">@*com.android.systemui:color/qs_tile_tint_active</color>
+    <!-- QS battery accent color -->
+    <color name="qs_battery_accent">@*android:color/accent_material_light</color>
+
+
+    <!--<color name="volume_settings_icon_color">@*com.android.systemui:color/qs_tile_tint_active</color> -->
+    <color name="volume_icon_color">@*com.android.systemui:color/qs_tile_tint_active</color>
+
+    <!-- QS battery graph text color -> Text below battery Graph-->
+    <color name="qs_battery_graph_text_color">@android:color/darker_gray</color>
+
+    <!-- Omni Jaws -->
+    <color name="omni_jaws_detailed_temperature_color">@*com.android.systemui:color/qs_tile_tint_active</color>
+
+    <declare-styleable name="DateView">
+        <attr name="datePattern" format="string" />
+    </declare-styleable>
+</resources>
