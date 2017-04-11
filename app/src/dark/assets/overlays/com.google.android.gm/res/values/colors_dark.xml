@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Primary Dark -->
+    <color name="primary_dark_color">@*android:color/background_material_dark</color>
+
     <!-- Toolbar / Statusbar -->
     <color name="action_mode_background">@*android:color/background_material_dark</color>
     <color name="action_mode_statusbar_color">@*android:color/background_material_dark</color>
