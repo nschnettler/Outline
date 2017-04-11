@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/projekt.substratum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@*projekt.substratum:id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@*android:color/background_material_dark"
+        android:elevation="0dp"
+        android:theme="@*projekt.substratum:style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@*projekt.substratum:style/ThemeOverlay.AppCompat.Light"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@*projekt.substratum:id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="@*android:drawable/ic_menu_forward"
+        android:elevation="0dp"
+        app:layout_anchor="@*projekt.substratum:id/appbar"
+        app:layout_anchorGravity="bottom"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/white"
+        app:tabIndicatorHeight="1dp"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@*projekt.substratum:id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@*projekt.substratum:id/no_network"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="57dp">
+
+                <ImageView
+                    android:id="@*projekt.substratum:id/image_placeholder2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@*projekt.substratum:drawable/no_network_showcase"/>
+
+                <TextView
+                    android:id="@*projekt.substratum:id/placeholder_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@*projekt.substratum:id/image_placeholder2"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="@*projekt.substratum:string/showcase_no_connection"
+                    android:textColor="@*projekt.substratum:color/main_screen_card_theme_title"
+                    android:textSize="20sp"
+                    android:textStyle="italic"/>
+
+            </RelativeLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@*projekt.substratum:id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@*projekt.substratum:string/appbar_scrolling_view_behavior"/>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

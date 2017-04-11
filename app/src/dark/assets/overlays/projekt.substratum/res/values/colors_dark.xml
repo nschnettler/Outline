@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimaryDark">@*android:color/background_material_dark</color>
+
     <!-- Background -->
         <color name="navigationBarColor">@*android:color/background_material_dark</color>           <!-- Navigationbar Color -->
         <!-- Cards Main Screen -->
