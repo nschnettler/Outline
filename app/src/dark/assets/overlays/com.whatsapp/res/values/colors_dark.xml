@@ -26,33 +26,30 @@
 
 
     <!-- Text -->
+    <color name="list_item_title">#FFFFFF</color>                                                   <!-- Chat List: Name -->
+    <color name="list_item_sub_title">#b3FFFFFF</color>                                             <!-- Chat List: Message, Date -->
+    <color name="list_item_info">#FFFFFF</color>
     <color name="body_gray">#FFFFFF</color>
     <color name="conversation_row_date">#FFFFFF</color>
     <color name="black">#FFFFFF</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="primary_text_disabled_material_light">#4dffffff</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
+    <color name="contact_phone_type">#80ffffff</color>
+    <color name="description_gray">#ffbbbbbb</color>                                                <!-- Invite Friends, Contacts Help -->
+    <color name="dark_gray">#ffaaaaaa</color>
 
     <!-- Statusbar -->
      <color name="about_statusbar">@*android:color/background_material_dark</color>
 
 
-    <color name="material_grey_850">#4caf50</color>
-    <color name="material_grey_300">#4caf50</color>
     <color name="material_grey_50">#4caf50</color>
 
 
 
     <!-- OTHER -->
-    <color name="conversations_text_gray">#ffdddddd</color>
-    <color name="archived">#ffdddddd</color>
-    <color name="avatar_broadcast_large">#ff555555</color>
-    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
-    <color name="bright_foreground_material_light">#ffffffff</color>
-    <color name="contact_phone_type">#80ffffff</color>
-    <color name="dark_gray">#ffaaaaaa</color>
-    <color name="description_gray">#ffbbbbbb</color>
-    <color name="disabled_text_color_darker">#66ffffff</color>
-    <color name="disabled_text_color_lighter">#4bffffff</color>
-    <color name="edit_text_counter">#ffdddddd</color>
-    <color name="foreground_material_light">#ffffffff</color>
     <color name="gallery_separator">#00000000</color>
     <color name="gdrive_restore_anim_gray_dot">#ffaaaaaa</color>
     <color name="gdrive_setup_disabled_button_color">#4a777777</color>
@@ -60,18 +57,11 @@
     <color name="highlighted_text_material_light">#66787878</color>
     <color name="home_row_selection">#0d555555</color>
     <color name="light_gray">@*android:color/button_material_dark</color>
-    <color name="list_item_info">#ffdddddd</color>
-    <color name="list_item_sub_title">#ffdddddd</color>
-    <color name="list_item_title">#ffffffff</color>
     <color name="material_blue_grey_800">@*android:color/button_material_dark</color>
     <color name="material_blue_grey_950">@*android:color/primary_dark_material_dark</color>
     <color name="media_message_progress_indeterminate">#ffffffff</color>
     <color name="mention_annotation_on_dark">#7fffffff</color>
     <color name="mention_preview_dark">#ffdddddd</color>
-    <color name="primary_text_default_material_light">#ffffffff</color>
-    <color name="primary_text_disabled_material_light">#4dffffff</color>
-    <color name="secondary_text_default_material_light">#b3ffffff</color>
-    <color name="secondary_text_disabled_material_light">#36ffffff</color>
     <color name="voice_note_scrubber_grey">#ff555555</color>
     <color name="body_light_gray">#ffdddddd</color>
 </resources>
