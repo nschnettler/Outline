@@ -4,7 +4,7 @@
     android:viewportWidth="15"
     android:viewportHeight="9.66">
     <path
-        android:strokeColor="#757575"
+        android:strokeColor="@*com.whatsapp:color/material_grey_600"
         android:strokeWidth="0.375"
         android:pathData="M2.7,9.5h9.6 M11.7,0.5L5.9,6.3L3.3,3.7"/>
 
