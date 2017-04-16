@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@*com.whatsapp:dimen/conversation_divider_row_tv" android:textColor="#ffdddddd" android:gravity="center" android:id="@*com.whatsapp:id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" />
+</merge>

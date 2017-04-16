@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    Profile Info (Contact)
+    Info Und TelefonNummer Hintergrund
+
+-->
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<View android:id="@*com.whatsapp:id/header_placeholder" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_header" />
+<include layout="@*com.whatsapp:layout/media_card" />
+<include layout="@*com.whatsapp:layout/actions_card" />
+<LinearLayout android:orientation="vertical" android:id="@*com.whatsapp:id/status_card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <View android:background="@*com.whatsapp:drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+    <LinearLayout android:orientation="vertical" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout style="@*com.whatsapp:style/FlatCardHeader">
+            <TextView android:id="@*com.whatsapp:id/status_and_phone_title" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:text="@*com.whatsapp:string/contact_info_and_phone" style="@*com.whatsapp:style/FlatCardTitle" />
+        </FrameLayout>
+        <com.whatsapp.TextEmojiLabel android:ellipsize="none" android:layout_gravity="left" android:id="@*com.whatsapp:id/status" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" style="@*com.whatsapp:style/ListItemTitle" />
+        <TextView android:layout_gravity="left" android:id="@*com.whatsapp:id/status_info" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*com.whatsapp:style/ListItemSubtitleSmall" />
+        <View android:id="@*com.whatsapp:id/status_separator" style="@*com.whatsapp:style/FlatCardSeparator" />
+        <include layout="@*com.whatsapp:layout/contact_info_phone" />
+    </LinearLayout>
+    <View android:background="@*com.whatsapp:drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:id="@*com.whatsapp:id/groups_card" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <View android:background="@*com.whatsapp:drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+    <FrameLayout android:background="@*android:color/background_material_dark" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" style="@*com.whatsapp:style/FlatCardHeader">
+        <TextView android:ellipsize="end" android:paddingRight="32.0dip" android:text="@*com.whatsapp:string/groups_in_common" android:singleLine="true" style="@*com.whatsapp:style/FlatCardTitle" />
+        <TextView android:id="@*com.whatsapp:id/groups_info" style="@*com.whatsapp:style/FlatCardInfo" />
+    </FrameLayout>
+</LinearLayout>
+</LinearLayout>

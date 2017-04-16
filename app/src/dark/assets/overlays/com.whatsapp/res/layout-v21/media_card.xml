@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    All Media (ing Group / normal Chat
+
+-->
+<LinearLayout android:orientation="vertical" android:id="@*com.whatsapp:id/media_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" style="@*com.whatsapp:style/FlatCardHeader">
+            <TextView android:id="@*com.whatsapp:id/media_title" android:text="@*com.whatsapp:string/view_conversation_media" style="@*com.whatsapp:style/FlatCardTitle" />
+            <TextView android:id="@*com.whatsapp:id/media_info" android:includeFontPadding="false" style="@*com.whatsapp:style/FlatCardInfo" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:gravity="center_vertical" android:id="@*com.whatsapp:id/media_scroller" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:overScrollMode="never" android:layerType="software" android:layoutDirection="ltr">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.whatsapp:id/media_thumbs" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="@*com.whatsapp:dimen/medium_thumbnail_size" android:layoutDirection="locale" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@*com.whatsapp:drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+</LinearLayout>
