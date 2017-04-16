@@ -81,8 +81,16 @@
 
     <style name="Theme.Material.Light.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.BaseAlert" /><!-- Various white dialogs, for example Substratum Creating Cache Dialog-->
 
-    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.Material" /> <!-- Themes PowerMenu -->
+    <!-- Power Menu -->
+    <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.DeviceDefault.Settings.Dark">
+        <item name="android:alertDialogTheme">@*android:style/Theme.DeviceDefault.Dialog.Alert</item>
+    </style>
 
+    <!-- Power Menu Gay/Night-->
+    <style name="Theme.Material.DayNight.DarkActionBar" parent="@android:style/Theme.Material" />
+    <style name="Theme.Material.DayNight.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog.Alert" />
+
+    <!-- USB Dialog -->
     <style name="Theme.Material.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
