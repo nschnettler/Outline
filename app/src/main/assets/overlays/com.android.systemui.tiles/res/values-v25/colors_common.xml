@@ -12,8 +12,6 @@
                 <!-- Background -->
                 <color name="system_primary_color">@*com.android.systemui:color/volume_settings_icon_color</color>                      <!-- CM based ROMs -->
                 <color name="volume_panel_background_color">@*com.android.systemui:color/volume_settings_icon_color</color>             <!-- Pre N Roms -->
-                <!-- Slider -->
-                <color name="volume_slider_inactive">@*com.android.systemui:color/qs_tile_tint_active</color>                           <!-- Inactive -->
 
         <!-- QS Edit -->
         <color name="qs_edit_item_decoration_bg">@*com.android.systemui:color/volume_settings_icon_color</color>                        <!-- Edit Hintergrund -->

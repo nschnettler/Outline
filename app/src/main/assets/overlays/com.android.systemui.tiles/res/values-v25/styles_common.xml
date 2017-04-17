@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- QUICKSETTINGS -->
+    <!-- QUICKSETTINGS
     <style name="systemui_theme" parent="@android:style/Theme.DeviceDefault">
         <item name="android:colorForeground">@*android:color/accent_material_light</item>
         <item name="android:colorForegroundInverse">@*android:color/accent_material_light</item>
@@ -10,6 +10,7 @@
         <item name="android:colorControlNormal">#FFFFFF</item>
         <item name="android:progressBackgroundTint">#FFFFFF</item>
     </style>
+-->
 
     <!-- Volume Panel -->
         <style name="TextAppearance.Volume.ZenSummary" parent="@style/TextAppearance">              <!--DND title -->
@@ -17,11 +18,6 @@
             <item name="android:fontFamily">sans-serif-medium</item>
             <item name="android:textColor">@*android:color/accent_material_light</item>
         </style>
-    <style name="TextAppearance.Volume.ZenDetail" parent="@style/TextAppearance">                   <!-- DND description -->
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">sans-serif</item>
-        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_inactive</item>
-    </style>
 
     <style name="TextAppearance" />
 
@@ -30,9 +26,4 @@
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
-    <style name="TextAppearance.QS" parent="@style/TextAppearance">
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@*com.android.systemui:color/qs_tile_tint_active</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style> 
 </resources>
