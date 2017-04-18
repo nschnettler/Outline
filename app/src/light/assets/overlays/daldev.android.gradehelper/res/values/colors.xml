@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Categories -->
+    <color name="homework">@android:color/holo_red_light</color>
+    <color name="tests">@android:color/holo_orange_light</color>
+    <color name="events">@android:color/holo_green_light</color>
+    <color name="grades">@android:color/holo_blue_light</color>
+
+
+    <!-- Marks -->
+    <color name="excellent">@android:color/holo_green_light</color>
+    <color name="sufficient">@android:color/holo_green_light</color>
+    <color name="bad">@android:color/holo_orange_light</color>
+    <color name="verybad">@android:color/holo_red_light</color>
+
+
+    <!-- Themes -->
+        <color name="var1_colorAccent">@android:color/holo_blue_dark</color>
+        <color name="var1_colorAccentLight">@android:color/holo_blue_dark</color>
+        <color name="var1_colorPrimary">@android:color/holo_blue_light</color>
+        <color name="var1_colorPrimaryDark">@android:color/holo_blue_light</color>
+
+        <color name="var2_colorAccent">@android:color/holo_red_dark</color>
+        <color name="var2_colorAccentLight">@android:color/holo_red_dark</color>
+        <color name="var2_colorPrimary">@android:color/holo_red_light</color>
+        <color name="var2_colorPrimaryDark">@android:color/holo_red_light</color>
+
+        <color name="var3_colorAccent">@android:color/holo_orange_dark</color>
+        <color name="var3_colorAccentLight">@android:color/holo_orange_dark</color>
+        <color name="var3_colorPrimary">@android:color/holo_orange_light</color>
+        <color name="var3_colorPrimaryDark">@android:color/holo_orange_light</color>
+
+</resources>
