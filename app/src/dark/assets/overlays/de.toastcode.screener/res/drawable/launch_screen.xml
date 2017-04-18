@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@*android:color/background_material_dark" />
+    <item android:bottom="@*de.toastcode.screener:dimen/product_logo_bottom">
+        <bitmap android:gravity="center" android:src="@*de.toastcode.screener:drawable/web_hi_res_144" />
+    </item>
+    <item android:bottom="@*de.toastcode.screener:dimen/product_brand_bottom">
+        <bitmap android:gravity="bottom|center" android:src="@*de.toastcode.screener:drawable/brand" />
+    </item>
+</layer-list>
