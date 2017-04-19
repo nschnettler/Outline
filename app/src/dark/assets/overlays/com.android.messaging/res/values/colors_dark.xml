@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="conversation_background">@*android:color/background_material_dark</color>          <!-- Chat BG -->
+    <color name="contact_picker_background">@*android:color/background_material_dark</color>
+        <!-- Message Bubble -->
+        <color name="message_bubble_color_outgoing">@*android:color/background_dark</color>
+
+
+    <!-- Text -->
+        <!-- Chats List -->
+        <color name="conversation_list_item_read">#b3FFFFFF</color>
+        <color name="conversation_list_item_unread">#FFFFFF</color>
+        <color name="conversation_list_name">#FFFFFF</color>
+        <!-- Search Contact -->
+        <color name="contact_list_text_primary">#FFFFFF</color>
+        <color name="contact_list_text_secondary">#FFFFFF</color>
+        <!-- People and Options -->
+        <color name="people_and_options_header_text">@*android:color/accent_material_dark</color>
+        <color name="participant_list_text_primary">#FFFFFF</color>
+        <color name="participant_list_text_secondary">#b3FFFFFF</color>
+        <!-- Message Bubble -->
+        <color name="message_action_timestamp_text">#b3FFFFFF</color>
+        <color name="message_text_color_incoming">#ffffffff</color>
+        <color name="message_text_color_outgoing">#ffffffff</color>
+        <color name="timestamp_text_outgoing">#b3FFFFFF</color>
+    <color name="compose_send_text_color">#FFFFFF</color>                                           <!-- Compose Message Text -->
+
+
+
+
+
+    <!-- Voice Message -->
+    <color name="audio_picker_hint_text_color">#b3FFFFFF</color>
+    <color name="audio_picker_timer_text_color">#FFFFFF</color>
+    <color name="audio_attachment_timer_text_color">#FFFFFF</color>
+</resources>
