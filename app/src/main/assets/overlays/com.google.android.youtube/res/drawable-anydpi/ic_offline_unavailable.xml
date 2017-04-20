@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0"
+        android:alpha="0.4">
+        <path
+            android:strokeColor="@*com.google.android.youtube:color/info_card_video_item_light_font"
+            android:strokeWidth="0.6"
+            android:pathData="M12,2.5c-5.2,0-9.5,4.3-9.5,9.5s4.3,9.5,9.5,9.5s9.5-4.2,9.5-9.5S17.3,2.5,12,2.5z M10.3,10.9H8.1l3.9,3.9
+	l3.9-3.9h-2.2V7.5h-3.4V10.9z M7.3,16.4h9.5"/>
+</vector>
