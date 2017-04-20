@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0">
+    <path
+        android:strokeColor="@*com.google.android.youtube:color/info_card_video_item_light_font"
+        android:strokeWidth="0.6"
+        android:pathData="M2.4,14H6L8.6,3.8L12.5,20l2.3-11l2.3,4.4h4.1"/>
+</vector>

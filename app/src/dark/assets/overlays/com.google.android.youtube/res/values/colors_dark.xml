@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Icons (Custom) -->
+    <color name="info_card_video_item_light_font">#FFFFFF</color>
+
     <!-- Share Panel -->
     <color name="share_panel_background_color">@*android:color/background_material_dark</color>     <!-- Loading Background -->
     <color name="share_panel_list_background_color">@*android:color/background_material_dark</color><!-- Share Panel Main Background -->
