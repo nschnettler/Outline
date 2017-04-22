@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary -->
-    <color name="highlight">@*android:color/accent_material_light</color>
-    <color name="PrimaryDark">#FAFAFA</color>   <!-- Dark -->
+    <color name="primaryColor">@*android:color/primary_material_light</color>
+    <color name="primaryColorDark">@*android:color/primary_material_light</color>
+    <color name="accentColor">@*android:color/accent_material_light</color>
 
     <color name="spinner_back_color">#FAFAFA</color>
 </resources>
