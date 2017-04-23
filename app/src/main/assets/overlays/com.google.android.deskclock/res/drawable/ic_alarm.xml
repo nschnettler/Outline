@@ -4,11 +4,11 @@
     <group android:name="button"  android:pivotY="12" android:pivotX="12">
         <group android:name="button_pivot">
             <group android:name="right_button">
-                <path android:name="path_1" android:strokeColor="#FFFFFF" android:strokeWidth="0.6" android:pathData="M16.2,3l4.7,4"  />
+                <path android:name="path_1" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M16.2,3l4.7,4"  />
             </group>
 
             <group android:name="left_button" android:pivotX="12" android:pivotY="12">
-                <path android:name="left_button_path" android:strokeColor="#ffffffff" android:strokeWidth="0.6" android:pathData="M3.1,6.9L7.8,3" />
+                <path android:name="left_button_path" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M3.1,6.9L7.8,3" />
             </group>
         </group>
     </group>
@@ -18,7 +18,7 @@
                 <path android:name="alarm_hands_path" android:fillColor="#00000000" android:pathData="M -1.25,-4.42700195312 c 0.0,0.0 -1.5,0.0 -1.5,0.0 c 0.0,0.0 0.0,6.0 0.0,6.0 c 0.0,0.0 4.74699401855,2.85400390625 4.74699401855,2.85400390625 c 0.0,0.0 0.753005981445,-1.23199462891 0.753005981445,-1.23199462891 c 0.0,0.0 -4.0,-2.37200927734 -4.0,-2.37200927734 c 0.0,0.0 0.0,-5.25 0.0,-5.25 Z" android:fillAlpha="1.0" />
             </group>
             <group android:name="alarm_body" >
-                <path android:name="alarm_outline_path" android:strokeColor="#FFFFFF" android:strokeWidth="0.6" android:pathData="M12,4.6c-4.5,0-8.2,3.7-8.2,8.2S7.5,21,12,21s8.2-3.7,8.2-8.2S16.5,4.6,12,4.6z M16.1,16l-4.5-2.7v-5"  />
+                <path android:name="alarm_outline_path" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M12,4.6c-4.5,0-8.2,3.7-8.2,8.2S7.5,21,12,21s8.2-3.7,8.2-8.2S16.5,4.6,12,4.6z M16.1,16l-4.5-2.7v-5"  />
             </group>
         </group>
     </group>
