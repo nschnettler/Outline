@@ -1,65 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.DeskClock" parent="@*com.google.android.deskclock:style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.DeskClock" parent="*com.google.android.deskclock:style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@*com.google.android.deskclock:color/default_background</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:navigationBarColor">#00000000</item>
         <item name="android:timePickerStyle">@*com.google.android.deskclock:style/Widget.TimePicker</item>
         <item name="*com.google.android.deskclock:popupTheme">@*com.google.android.deskclock:style/ThemeOverlay.Popup</item>
         <item name="*com.google.android.deskclock:imageButtonStyle">@*com.google.android.deskclock:style/Widget.ImageButton</item>
-        <item name="*com.google.android.deskclock:colorPrimaryDark">#C8C8C8</item>
+        <item name="*com.google.android.deskclock:colorPrimaryDark">#00000000</item>
         <item name="*com.google.android.deskclock:colorAccent">@*android:color/accent_material_light</item>
-        <item name="*com.google.android.deskclock:colorControlNormal">#000000</item>
-        <item name="*com.google.android.deskclock:colorControlActivated">@*android:color/accent_material_light</item>
-        <item name="*com.google.android.deskclock:colorBackgroundFloating">@*com.google.android.deskclock:color/default_background</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="*com.google.android.deskclock:colorControlNormal">@*android:color/white</item>
+        <item name="*com.google.android.deskclock:colorControlActivated">@android:color/white</item>
+        <item name="*com.google.android.deskclock:colorBackgroundFloating">#ff303030</item>
+
     </style>
 
-    <style name="ThemeOverlay.Popup" parent="@*com.google.android.deskclock:style/ThemeOverlay.AppCompat.Light">
-        <item name="android:colorBackground">@*com.google.android.deskclock:color/default_background</item>
-    </style>
-
-    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:windowLightStatusBar">true</item>
-    </style>
-
-
-
-
-    <style name="PrimaryLabelTextParentAppearance">
-        <item name="android:textSize">@*com.google.android.deskclock:dimen/label_text_size</item>
-        <item name="android:textColor">#000000</item>
-    </style>
-
-    <style name="body">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#000000</item>
-    </style>
-
-    <style name="SecondaryLabelTextParentAppearance">
-        <item name="android:textSize">@*com.google.android.deskclock:dimen/label_text_size</item>
-        <item name="android:textColor">#a0000000</item>
-    </style>
-
-    <style name="display_time">
-        <item name="android:textSize">56.0sp</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:fontFamily">sans-serif-light</item>
-    </style>
-
-    <style name="label">
-        <item name="android:textSize">@*com.google.android.deskclock:dimen/label_font_size</item>
-        <item name="android:textColor">#4caf50</item>
-    </style>
-
-    <style name="no_alarms">
-        <item name="android:textSize">@*com.google.android.deskclock:dimen/no_alarm_font_size</item>
-        <item name="android:textColor">#a0000000</item>
-    </style>
-
-    <style name="world_clock_time">
-        <item name="android:textSize">48.0sp</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:fontFamily">sans-serif-light</item>
-    </style>
 </resources>

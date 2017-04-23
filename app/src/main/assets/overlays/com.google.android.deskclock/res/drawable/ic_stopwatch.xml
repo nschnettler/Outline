@@ -4,18 +4,18 @@
     <group android:name="timer">
         <group android:name="timer_pivot" >
             <group android:name="timer_body">
-                <path android:name="timer_interior_path" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M12,4c-4.4,0-8,3.6-8,8s3.6,8,8,8s8-3.6,8-8S16.4,4,12,4z M19.8,4l-2.1,2.1" />
+                <path android:name="timer_interior_path" android:strokeColor="#FFFFFF" android:strokeWidth="0.6" android:pathData="M12,4c-4.4,0-8,3.6-8,8s3.6,8,8,8s8-3.6,8-8S16.4,4,12,4z M19.8,4l-2.1,2.1" />
             </group>
         </group>
     </group>
     <group android:name="hand" android:pivotX="12" android:pivotY="12">
         <group android:name="hand_pivot" >
-            <path android:name="hand_path" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6"  android:pathData="M12,12V6" />
+            <path android:name="hand_path" android:strokeColor="#ffffffff" android:strokeWidth="0.6"  android:pathData="M12,12V6" />
         </group>
     </group>
     <group android:name="button">
         <group android:name="button_pivot">
-            <path android:name="button_path" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M9,1.5h6" />
+            <path android:name="button_path" android:strokeColor="#ffffffff" android:strokeWidth="0.6" android:pathData="M9,1.5h6" />
         </group>
     </group>
 </vector>

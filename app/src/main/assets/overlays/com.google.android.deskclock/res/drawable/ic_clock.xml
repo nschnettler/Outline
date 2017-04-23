@@ -4,21 +4,21 @@
     <group android:name="clock_frame" >
         <group android:name="clock_frame_pivot">
             <group android:name="clock_frame_0">
-                <path android:name="clock_ouline_path_merged" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M12,3c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S17,3,12,3z" />
+                <path android:name="clock_ouline_path_merged" android:strokeColor="#ffffffff" android:strokeWidth="0.6" android:pathData="M12,3c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S17,3,12,3z" />
             </group>
         </group>
     </group>
     <group android:name="hour_hand" android:pivotX="12" android:pivotY="12" >
         <group android:name="hour_hand_pivot" >
             <group android:name="hour_hand_0" >
-                <path android:name="hour_hand_path" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M12,12V6" />
+                <path android:name="hour_hand_path" android:strokeColor="#FFFFFF" android:strokeWidth="0.6" android:pathData="M12,12V6" />
             </group>
         </group>
     </group>
     <group android:name="minute_hand" android:rotation="120.0" android:pivotX="12" android:pivotY="12">
         <group android:name="minute_hand_pivot" >
             <group android:name="minute_hand_0">
-                <path android:name="minute_hand_path" android:strokeColor="@*com.google.android.deskclock:color/white" android:strokeWidth="0.6" android:pathData="M12,12V6" />
+                <path android:name="minute_hand_path" android:strokeColor="#FFFFFF" android:strokeWidth="0.6" android:pathData="M12,12V6" />
             </group>
         </group>
     </group>
