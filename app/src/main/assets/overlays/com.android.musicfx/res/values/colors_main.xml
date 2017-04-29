@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
-    <color name="lowlight">@*android:color/accent_material_light</color>
-    <color name="disabled_knob">@*android:color/holo_gray_light</color>
+    <!-- Primary & Accent -->
+    <color name="primaryColor">@*android:color/primary_material_light</color>                       <!-- Primary        | material_grey_900-->
+    <color name="primaryColorDark">@*android:color/primary_material_light</color>                   <!-- Primary Dark   | dark grey-->
+    <color name="accentColor">@*android:color/accent_material_light</color>                         <!-- Accent         | material teal-->
 </resources>

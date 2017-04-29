@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
-    <color name="primaryColor">@*android:color/primary_material_light</color>
-    <color name="primaryColorDark">@*android:color/primary_material_light</color>
-    <color name="accentColor">@*android:color/accent_material_light</color>
+    <color name="current_out_source">#FFFFFF</color>                                                <!-- the bar with the current active out source icon and name -->
+    <color name="current_out_source_color">#000000</color>                                          <!-- icon and text showing the current active out source -->
 
-    <color name="spinner_back_color">#FAFAFA</color>
+    <color name="visualizer_highlight">#757575</color>                                              <!-- equalizer active level bar top element  -->
+
+    <color name="highlight_gallery_text">#757575</color>                                            <!-- eq presets text color when musicfx is on for the current selected preset -->
+    <color name="lowlight_gallery_text">#99757575</color> <!-- eq presets text color when musicfx is on for other available presets -->
 </resources>
