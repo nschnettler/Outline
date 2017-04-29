@@ -24,6 +24,7 @@
         <color name="message_header_background_color">@*android:color/background_material_dark</color>              <!-- Header (Expanded) -->
         <!-- Conversation List -->
         <color name="conversation_list_background_color">@*android:color/background_material_dark</color>           <!-- Background -->
+        <color name="loading_messages_background_color">@*android:color/background_material_dark</color>            <!-- Background Loading Messages -->
         <color name="conversation_item_grey_background_color">@*android:color/background_dark</color>               <!-- Item Selected -->
         <color name="default_folder_background_color">@*android:color/background_dark</color>                       <!-- Item Category default (=Posteingang) -->
         <color name="checkmark_tile_background_color">@*android:color/background_material_dark</color>
@@ -99,7 +100,6 @@
     <color name="text_color_hint_grey">#ffbbbbbb</color>
     <color name="conv_header_add_label_text">#4caf50</color>
     <color name="conv_header_add_label_background">#757575</color>
-    <color name="loading_messages_background_color">#4caf50</color>
     <color name="promo_action_positive_text">#4caf50</color>
     <color name="ad_undo_description_text_color">#4caf50</color>
     <color name="ad_app_install_text_color">#4caf50</color>
