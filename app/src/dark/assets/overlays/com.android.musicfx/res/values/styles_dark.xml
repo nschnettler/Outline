@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- ActionBar styles -->
-    <style name="CustomActionBar" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">@*android:drawable/ic_menu_end_conversation</item>
-        <item name="android:elevation">5dp</item>
-        <item name="android:titleTextStyle">@*com.android.musicfx:style/EqTheme.CustomActionBar.Text</item>
-    </style>
 
-    <style name="EqTheme"
-        parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">@*com.android.musicfx:color/highlight</item>
-        <item name="android:colorPrimaryDark">@*com.android.musicfx:color/PrimaryDark</item>
-        <item name="android:colorAccent">@*com.android.musicfx:color/lowlight</item>
-        <item name="android:actionBarStyle">@*com.android.musicfx:style/CustomActionBar</item>
+    <style name="AppTheme" parent="@*com.android.musicfx:Theme.AppCompat.NoActionBar">
+        <item name="*com.android.musicfx:colorPrimary">@*android:color/background_material_dark</item>
+        <item name="*com.android.musicfx:colorPrimaryDark">@*android:color/background_material_dark</item>
+        <item name="*com.android.musicfx:colorAccent">@*com.android.musicfx:color/accentColor</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
 </resources>
