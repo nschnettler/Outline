@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary -->
-    <color name="darkColorPrimary">@android:color/holo_red_light</color>
-    <color name="lightColorPrimary">@android:color/holo_red_light</color>
+    <color name="darkColorPrimary">@*au.com.shiftyjelly.pocketcasts:color/lightColorPrimaryDark</color>
 
     <!-- Primary Dark -->
-    <color name="darkColorPrimaryDark">@android:color/holo_red_light</color>
-    <color name="lightColorPrimaryDark">@android:color/holo_red_light</color>
+    <color name="darkColorPrimaryDark">@*au.com.shiftyjelly.pocketcasts:color/lightColorPrimaryDark</color>
 
     <!-- Accent -->
-    <color name="lightColorAccent">@android:color/holo_red_dark</color>
-    <color name="darkColorAccent">@android:color/holo_red_dark</color>
-    <color name="lightColorControlActivated">@android:color/holo_red_dark</color>
-    <color name="button_background">@android:color/holo_red_dark</color>
-    <color name="darkColorControlActivated">@android:color/holo_red_dark</color>
-
-
-    <color name="darkSettingsIconColor">@android:color/holo_red_dark</color>
-    <color name="lightSettingsIconColor">@android:color/holo_red_dark</color>
+    <color name="darkColorAccent">@*au.com.shiftyjelly.pocketcasts:color/lightColorAccent</color>
+    <color name="lightColorControlActivated">@*au.com.shiftyjelly.pocketcasts:color/lightColorAccent</color>
+    <color name="button_background">@*au.com.shiftyjelly.pocketcasts:color/lightColorAccent</color>
+    <color name="darkColorControlActivated">@*au.com.shiftyjelly.pocketcasts:color/lightColorAccent</color>
+    <color name="darkSettingsIconColor">@*au.com.shiftyjelly.pocketcasts:color/lightColorAccent</color>
+    <color name="lightSettingsIconColor">@*au.com.shiftyjelly.pocketcasts:color/lightColorAccent</color>
 
     <color name="transparent_overlay">#00000000</color>
 </resources>
