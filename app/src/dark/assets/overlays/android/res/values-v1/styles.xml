@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material.Notification">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#ffffff</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification.Emphasis">
-        <item name="android:textColor">#ffffff</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffffff</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Line2" parent="@android:style/TextAppearance.Material.Notification.Line2">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffffff</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffffff</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#ffffff</item>
-    </style>
-
-
     <style name="Theme.Material.Settings" parent="@*android:style/Theme.Material">
         <item name="colorPrimary">@*android:color/primary_material_dark</item>
         <item name="colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
@@ -78,22 +52,4 @@
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="android:colorAccent">@*android:color/accent_material_dark</item>
     </style>
-
-    <style name="Theme.Material.Light.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.BaseAlert" /><!-- Various white dialogs, for example Substratum Creating Cache Dialog-->
-
-    <!-- Power Menu -->
-    <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.DeviceDefault.Settings.Dark">
-        <item name="android:alertDialogTheme">@*android:style/Theme.DeviceDefault.Dialog.Alert</item>
-    </style>
-
-    <!-- Power Menu Gay/Night-->
-    <style name="Theme.Material.DayNight.DarkActionBar" parent="@android:style/Theme.Material" />
-    <style name="Theme.Material.DayNight.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog.Alert" />
-
-    <!-- USB Dialog -->
-    <style name="Theme.Material.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
 </resources>

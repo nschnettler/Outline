@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    App specific Brand Colors - Could be changed to be all the same!
+-->
+
+    <!-- Primary -->
+    <color name="holo_blue_light">#5C6BC0</color>                                                   <!-- INDIGO -->
+    <color name="holo_red_light">#EF5350</color>                                                    <!-- ROT -->
+    <color name="holo_green_light">#66BB6A</color>                                                  <!-- GRÜN -->
+    <color name="holo_orange_light">#FFA000</color>                                                 <!-- ORANGE -->
+    <color name="holo_purple">#AB47BC</color>                                                       <!-- LILA -->
+    <color name="holo_gray_light">#757575</color>                                                   <!-- Grau -->
+
+
+
+    <!--
+        Function specific Colors - Can´t be the same!
+    -->
+    <!-- Primary -->
+    <color name="holo_blue_dark">@*android:color/holo_blue_light</color>                            <!-- Indigo -->
+    <color name="holo_red_dark">@*android:color/holo_red_light</color>                              <!-- Red -->
+    <color name="holo_green_dark">@*android:color/holo_green_light</color>                          <!-- GRÜN -->
+    <color name="holo_orange_dark">@*android:color/holo_orange_light</color>                        <!-- Orange -->
+    <color name="holo_blue_bright">@*android:color/holo_purple</color>                              <!-- Purple -->
+</resources>

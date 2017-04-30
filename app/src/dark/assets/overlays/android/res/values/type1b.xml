@@ -3,4 +3,7 @@
     <!-- Backgrounds -->
     <color name="background_material_dark">#1F1F1F</color>                                          <!-- Primary Background -->
     <color name="background_dark">#171717</color>                                                   <!--  Background Darker -->
+    <!-- Primary -->
+    <color name="primary_material_dark">#1F1F1F</color>
+    <color name="primary_dark_material_dark">#171717</color>
 </resources>
