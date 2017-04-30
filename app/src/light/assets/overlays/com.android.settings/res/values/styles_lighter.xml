@@ -26,13 +26,13 @@
     <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/Theme.Material.Light.LightStatusBar">
         <item name="@*com.android.settings:switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
         <item name="@*com.android.settings:switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
-        <item name="switchBarBackgroundColor">@null</item>
+        <item name="@*com.android.settings:switchBarBackgroundColor">@null</item>
         <item name="android:colorControlNormal">#757575</item>
     </style>
     <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/Theme.Material.Light.LightStatusBar">
         <item name="@*com.android.settings:switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
         <item name="@*com.android.settings:switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
-        <item name="switchBarBackgroundColor">@null</item>
+        <item name="@*com.android.settings:switchBarBackgroundColor">@null</item>
         <item name="android:colorControlNormal">#757575</item>
     </style>
 </resources>
