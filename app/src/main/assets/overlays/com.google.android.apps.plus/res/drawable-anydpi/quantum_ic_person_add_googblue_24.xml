@@ -4,7 +4,7 @@
         android:viewportWidth="24.0"
         android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*android:color/primary_material_light"
+        android:strokeColor="@*android:color/holo_blue_light"
         android:strokeWidth="0.6"
         android:pathData="M15,12c2.2,0,4-1.8,4-4s-1.8-4-4-4s-4,1.8-4,4
 	S12.8,12,15,12z M15,14c-2.7,0-8,1.3-8,4v2h16v-2C23,15.3,17.7,14,15,14z M1,11h8 M5,7v8"/></vector>
