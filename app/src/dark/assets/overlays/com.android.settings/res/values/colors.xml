@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="icon_accent">#FFFFFF</color>
-    <color name="switchbar_background_color">@*android:color/background_material_dark</color>
-</resources>
