@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Accent -->
+    <color name="colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/primary_dark_material_dark</color>
+    <color name="colorAccent">@android:color/holo_blue_light</color>
+
+    <!-- (Drawer) Icon Color -->
+    <color name="material_drawer_icon_color">#FFFFFF</color>
+</resources>

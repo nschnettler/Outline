@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">@*android:color/background_material_dark</color>
-    <color name="colorPrimaryDark">@*android:color/background_material_dark</color>
-
     <!-- Background -->
         <color name="navigationBarColor">@*android:color/background_material_dark</color>           <!-- Navigationbar Color -->
         <!-- Cards Main Screen -->
@@ -19,7 +16,7 @@
         <!-- Drawer -->
         <color name="material_drawer_background">@*android:color/background_material_dark</color>   <!-- Background -->
         <color name="material_drawer_selected">@*android:color/background_dark</color>              <!-- Selected Background -->
-        <color name="material_drawer_icon_color">#FFFFFF</color>                                    <!-- Icon Color -->
+
         <!-- Profiles -->
         <color name="backup_button">@*android:color/background_dark</color>                         <!-- Button Background -->
         <color name="restore_button">@*android:color/background_dark</color>                        <!-- Button Background -->
