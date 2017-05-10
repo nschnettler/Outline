@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Icons (Custom) -->
+    <color name="material_grey_600">#FFFFFF</color>
+
     <!-- Background -->
     <color name="main_background">@*android:color/background_material_dark</color>
     <color name="compose_item_bg">@*android:color/background_material_dark</color>                  <!-- Drawer -->
@@ -59,7 +62,6 @@
 
     <color name="search_opaque_bg_color">@android:color/background_dark</color>
     <color name="material_grey_50">@*android:color/background_material_dark</color>
-    <color name="material_grey_600">@*android:color/background_material_dark</color>
     <color name="material_grey_800">@*android:color/background_material_dark</color>
     <color name="material_grey_850">@*android:color/background_material_dark</color>
 
