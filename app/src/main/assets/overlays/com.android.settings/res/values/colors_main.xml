@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings Icons Accent Color -->
+    <color name="icon_accent">@*android:color/accent_material_light</color>                         <!-- Normal Icons -->
+    <color name="external_tile_icon_tint_color">@*com.android.settings:color/icon_accent</color>    <!-- External Icons (Custom ROM) -->
+
+    <!-- Divider -->
+    <color name="divider_color">#00000000</color>
+</resources>
