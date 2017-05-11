@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Accent-->
+    <color name="toolbar_background">@*android:color/holo_orange_light</color>                      <!-- Toolbar -->
+    <color name="medium_black">@*android:color/holo_orange_light</color>                            <!-- Statusbar -->
+    <color name="material_deep_teal_500">@*android:color/holo_blue_light</color>                    <!-- Accent -->
+
+    <!-- Other -->
+    <color name="agenda_highlighted_background">#E0E0E0</color>
+</resources>

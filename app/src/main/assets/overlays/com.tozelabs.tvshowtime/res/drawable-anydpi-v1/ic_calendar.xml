@@ -4,7 +4,7 @@
         android:viewportWidth="24.0"
         android:viewportHeight="24.0">
     <path
-        android:strokeColor="#FFFFFF"
+        android:strokeColor="@*com.tozelabs.tvshowtime:color/md_grey_600"
         android:strokeWidth="0.6"
         android:pathData="M17.9,13.1H12v5.8h5.8v-5.8H17.9z M16.6,0.5v2.3H7.4V0.5H5.1v2.3H4C2.7,2.8,1.7,4,1.7,5.1v16.1
 	c0,1.1,1,2.3,2.3,2.3H20c1.1,0,2.3-1.1,2.3-2.3V5.1c0-1.2-1.1-2.3-2.3-2.3h-1.1V0.5H16.6z"/>
