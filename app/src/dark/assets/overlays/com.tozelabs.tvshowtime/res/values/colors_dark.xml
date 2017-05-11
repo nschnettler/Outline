@@ -4,7 +4,7 @@
         <!-- Main -->
         <color name="desertStorm">@*android:color/background_material_dark</color>                  <!-- Main Background -->
         <color name="white_background">@*android:color/background_material_dark</color>             <!-- Main Bg 2 -->
-        <color name="item_background">@*android:color/background_material_dark</color>                  <!-- Item Background, Bottom BAr Back -->
+        <color name="item_background">@*android:color/background_material_dark</color>              <!-- Item Background, Bottom BAr Back -->
         <!-- Agenda -->
         <color name="agenda_background">@*android:color/background_material_dark</color>            <!-- Agenda Unseen episode Background -->
         <color name="agenda_highlighted_background">@*android:color/background_material_dark</color><!-- Agenda Seen episode Background -->
@@ -21,6 +21,8 @@
         <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Settings Dialog -->
         <!-- Notification Area -->
         <color name="notification_item_background">@*android:color/background_material_dark</color> <!-- Notification Item Background -->
+        <!-- Comments -->
+        <color name="reply_background">@*android:color/background_material_dark</color>
 
     <!-- Text -->
     <color name="mineShaft">#FFFFFF</color>                                                         <!-- Primary Text -->
