@@ -8,7 +8,7 @@ apply plugin: 'com.android.application'
 def getHash = { ->
     def stdout = new ByteArrayOutputStream()
     exec {
-        commandLine 'git', 'rev-list', '--count', 'lightdark'
+        commandLine 'git', 'rev-list', '--count', 'NewStructure'
         standardOutput = stdout
     }
     return (Integer.parseInt(stdout.toString().trim())-783)
