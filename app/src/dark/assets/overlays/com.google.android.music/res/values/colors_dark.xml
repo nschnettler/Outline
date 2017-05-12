@@ -8,6 +8,7 @@
     <color name="material_container_bg">@*android:color/background_material_dark</color>            <!-- Now Playing Queue, Album Card Background -->
     <color name="white">@*android:color/background_material_dark</color>                            <!-- Various Backgrounds: Cards, Select Account -->
     <color name="nowplaying_art_bg">@*android:color/background_material_dark</color>
+    <color name="music_play_card_small_number_bg">@*android:color/background_material_dark</color>
 
     <!-- Dialog -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog Background | Example: Switch Account warning -->
