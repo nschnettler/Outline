@@ -5,7 +5,7 @@
 
     <item>
         <shape>
-            <solid android:color="@*android:color/background_material_dark" />
+            <solid android:color="@*com.google.android.youtube:color/background_primary_light" />
         </shape>
     </item>
     <item android:gravity="center|center_vertical">
