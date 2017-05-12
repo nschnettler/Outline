@@ -4,6 +4,7 @@
     <color name="saffron_translucent">@*android:color/holo_orange_light</color>                     <!-- Gelb -->
     <color name="luxorGold">@*android:color/holo_green_light</color>                                <!-- Grün -->
     <color name="bostonBlue">@*android:color/holo_blue_light</color>                                <!-- Blau -->
+    <color name="scarlet">@*android:color/holo_red_light</color>
 
 
     <!-- GENRE Colors-->

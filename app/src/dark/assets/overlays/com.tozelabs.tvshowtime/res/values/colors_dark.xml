@@ -22,6 +22,7 @@
         <color name="notification_item_background">@*android:color/background_material_dark</color> <!-- Notification Item Background -->
         <!-- Comments -->
         <color name="reply_background">@*android:color/background_material_dark</color>
+        <color name="alabaster">@*android:color/background_dark</color>
 
     <!-- Text -->
     <color name="mineShaft">#FFFFFF</color>                                                         <!-- Primary Text -->
@@ -33,4 +34,8 @@
     <color name="divider_black">#00000000</color>                                                   <!-- Divider -->
     <color name="kumera">#FFFFFF</color>
     <color name="material_grey_50">#000000</color>
+
+    <array name="placeholer_colors">
+        <item>@*android:color/background_dark</item>
+    </array>
 </resources>
