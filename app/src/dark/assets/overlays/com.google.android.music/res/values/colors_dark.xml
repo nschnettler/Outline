@@ -18,6 +18,7 @@
     <!-- Search Plate -->
     <color name="play_search_plate_navigation_button_color">#FFFFFF</color>
     <color name="play_search_suggestion_divider_background">#00aaaaaa</color>                       <!-- Divider -->
+    <color name="gray_88">@android:color/background_dark</color>
 
     <!-- Divider -->
     <color name="divider_color">#004caf50</color>
