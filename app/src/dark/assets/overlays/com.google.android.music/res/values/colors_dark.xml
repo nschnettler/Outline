@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!-- Background-->
     <color name="app_background">@*android:color/background_material_dark</color>                   <!-- Main -->
     <color name="play_card_light_background">@*android:color/background_material_dark</color>
@@ -15,17 +14,10 @@
 
     <!-- Drawer -->
     <color name="play_drawer_separator">@android:color/background_dark</color>                      <!-- Divider -->
-    <color name="side_drawer_icon_color">#FFFFFF</color>                                            <!-- Icons -->
 
     <!-- Search Plate -->
     <color name="play_search_plate_navigation_button_color">#FFFFFF</color>
     <color name="play_search_suggestion_divider_background">#00aaaaaa</color>                       <!-- Divider -->
-
-
-
-    <color name="play_main_background">#F44336</color>
-    <color name="background_material_light">#FF5722</color>
-    <color name="play_white">#FFFFFF</color>
 
     <!-- Divider -->
     <color name="divider_color">#004caf50</color>
@@ -37,7 +29,7 @@
     <color name="signup_link_button_text">@*com.google.android.music:color/play_music_primary</color>
     <color name="black">#ffffffff</color>                                                           <!-- u.a. Manage Downloads: Volume used Text color -->
 
-    <color name="primary_material_light">#4caf50</color>
+    <color name="play_white">#FFFFFF</color>
 
 <!--
 

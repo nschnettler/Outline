@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme">
+        <item name="android:textColor">@*android:color/Teal_700</item>
+        <item name="android:textColorPrimary">@*android:color/Teal_700</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="BaseMusicActivityTheme" parent="@android:style/Theme.Material" />
+
+    <style name="PlayCardTitle" parent="@*com.google.android.music:style/PlayPlainText">
+        <item name="android:textSize">@*com.google.android.music:dimen/play_title_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lineSpacingExtra">0.0sp</item>
+        <item name="*com.google.android.music:allowsCompactLineSpacing">true</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="PlayDrawerList">
+        <item name="android:background">@*android:color/background_material_dark</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:cacheColorHint">@*android:color/background_material_dark</item>
+        <item name="android:divider">@null</item>
+        <item name="android:choiceMode">none</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="PlayDrawerProfileEmailText" parent="@*com.google.android.music:style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="MusicCardNumber.Dark" parent="@*com.google.android.music:style/PlayCardTitle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@*com.google.android.music:color/music_play_card_small_number_bg</item>
+    </style>
+
+    <!-- Settings Toolbar Text Color -->
+    <style name="MusicSettingsActionBar.TitleTextStyle" parent="@*com.google.android.music:style/MusicActionBar.TitleTextStyle">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Chromecast Dialog -->
+    <!-- Device  list -->
+    <style name="Widget.MediaRouter.ChooserText" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary" parent="@style/Widget.MediaRouter.ChooserText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@style/Widget.MediaRouter.ChooserText.Primary">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <!-- Device  connected -->
+    <style name="Widget.MediaRouter.ControllerText" parent="@style/Widget.MediaRouter.ChooserText" />
+    <style name="Widget.MediaRouter.ControllerText.Title" parent="@style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title.Light" parent="@style/Widget.MediaRouter.ControllerText.Title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">20.0sp</item>
+    </style>
+</resources>
