@@ -7,7 +7,6 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-    <style name="BaseMusicActivityTheme" parent="@android:style/Theme.Material" />
 
     <style name="PlayCardTitle" parent="@*com.google.android.music:style/PlayPlainText">
         <item name="android:textSize">@*com.google.android.music:dimen/play_title_size</item>
@@ -17,11 +16,6 @@
         <item name="android:singleLine">false</item>
         <item name="android:lineSpacingExtra">0.0sp</item>
         <item name="*com.google.android.music:allowsCompactLineSpacing">true</item>
-    </style>
-
-    <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
     </style>
 
     <style name="PlayDrawerList">
@@ -49,21 +43,6 @@
     <style name="MusicSettingsActionBar.TitleTextStyle" parent="@*com.google.android.music:style/MusicActionBar.TitleTextStyle">
         <item name="android:textColor">#FFFFFF</item>
     </style>
-<!--
-    <style name="TrackSeekBar">
-        <item name="android:paddingTop">@*com.google.android.music:dimen/seek_bar_top_bottom_padding</item>
-        <item name="android:paddingBottom">@*com.google.android.music:dimen/seek_bar_top_bottom_padding</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">@*com.google.android.music:dimen/nowplaying_screen_progress_left_right_margin</item>
-        <item name="android:layout_marginRight">@*com.google.android.music:dimen/nowplaying_screen_progress_left_right_margin</item>
-        <item name="android:layout_marginBottom">@*com.google.android.music:dimen/nowplaying_screen_progress_bottom_margin</item>
-        <item name="android:progressDrawable">@*com.google.android.music:drawable/progress_horizontal</item>
-        <item name="android:thumbTint">@*com.google.android.music:color/app_color_accented</item>
-    </style>
-
--->
-
 
     <!-- Chromecast Dialog -->
     <!-- Device  list -->
