@@ -28,6 +28,8 @@
     <color name="play_fg_secondary">#ffeeeeee</color>
     <color name="signup_link_button_text">@*com.google.android.music:color/play_music_primary</color>
     <color name="black">#ffffffff</color>                                                           <!-- u.a. Manage Downloads: Volume used Text color -->
+    <color name="default_primary_text_color">#FFFFFF</color>                                        <!-- Search Suggestion Primary -->
+    <color name="default_secondary_text_color">#b3FFFFFF</color>                                    <!-- Search Suggestion Secondary -->
 
     <color name="play_white">#FFFFFF</color>
 
