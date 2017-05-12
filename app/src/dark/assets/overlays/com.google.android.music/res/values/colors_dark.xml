@@ -32,5 +32,7 @@
     <color name="default_primary_text_color">#FFFFFF</color>                                        <!-- Search Suggestion Primary -->
     <color name="default_secondary_text_color">#b3FFFFFF</color>                                    <!-- Search Suggestion Secondary -->
 
+    <!-- Other -->
     <color name="play_white">#FFFFFF</color>
+    <color name="nowplaying_progressbar_progress">@*com.google.android.music:color/app_color_accented</color>
 </resources>
