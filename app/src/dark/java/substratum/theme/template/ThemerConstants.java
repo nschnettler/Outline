@@ -1,21 +1,33 @@
 package substratum.theme.template;
 
-public class ThemerConstants {
+class ThemerConstants {
     // Simple AntiPiracy Configuration
-    public static final Boolean PIRACY_CHECK = false;
+    static final Boolean PIRACY_CHECK = false;
 
     // Miscellaneous Checks
-    public static final Boolean ALLOW_DEBUG_SUBSTRATUM_BUILDS = PIRACY_CHECK;
-    public static final Boolean ALLOW_OTHER_THEME_SYSTEMS = false;
-    public static final Boolean ENFORCE_MINIMUM_SUBSTRATUM_VERSION = true;
-    public static final int MINIMUM_SUBSTRATUM_VERSION = 712;                                       // 510 is the final MM build
+    static final Boolean THEME_READY_GOOGLE_APPS = true;
+    static final Boolean ENFORCE_MINIMUM_SUBSTRATUM_VERSION = true;
+    static final int MINIMUM_SUBSTRATUM_VERSION = 560; // 510 is the final MM build
+
+    // Dynamic filter that only works on Substratum 627+
+    // WARNING: Only enable if you are sure you want certification status to pass on Substratum
+    //          before launching the theme, or else it will throw an unauthorized toast!
+    static final Boolean SUBSTRATUM_FILTER_CHECK = false;
+
+    // Play Store AntiPiracy LVL configurations (Relies on PIRACY_CHECK)
+    static final String BASE_64_LICENSE_KEY = "***REMOVED***";
+    static final String APK_SIGNATURE_PRODUCTION = "***REMOVED***";
+
+    // AntiPiracy Library Configurations (Relies on PIRACY_CHECK)
+    static final Boolean ENFORCE_INTERNET_CHECK = true;
+    static final Boolean ENFORCE_GOOGLE_PLAY_INSTALL = true;
+    static final Boolean ENFORCE_AMAZON_APP_STORE_INSTALL = false;
+
     // Blacklisted APKs to prevent theme launching
-    public static final Boolean ENABLE_BLACKLISTED_APPLICATIONS = false;
-    public static final String[] BLACKLISTED_APPLICATIONS = new String[]{
+    static final Boolean ENABLE_BLACKLISTED_APPLICATIONS = false;
+    static final String[] BLACKLISTED_APPLICATIONS = new String[]{
             "com.android.vending.billing.InAppBillingService.LOCK",
             "com.android.vending.billing.InAppBillingService.LACK",
-            "cc.madkite.freedom",
-            "zone.jasi2169.uretpatcher",
             "uret.jasi2169.patcher",
             "com.dimonvideo.luckypatcher",
             "com.chelpus.lackypatch",
@@ -23,19 +35,4 @@ public class ThemerConstants {
             "com.android.vending.billing.InAppBillingService.LUCK",
             "com.android.protips",
     };
-    public static final String[] OTHER_THEME_SYSTEMS = new String[]{
-            "com.slimroms.thememanager"
-    };
-    static final Boolean THEME_READY_GOOGLE_APPS = true;
-    // Dynamic filter that only works on Substratum 627+
-    // WARNING: Only enable if you are sure you want certification status to pass on Substratum
-    //          before launching the theme, or else it will throw an unauthorized toast!
-    static final Boolean SUBSTRATUM_FILTER_CHECK = false;
-    // Play Store AntiPiracy LVL configurations (Relies on PIRACY_CHECK)
-    static final String BASE_64_LICENSE_KEY = "***REMOVED***";
-    static final String APK_SIGNATURE_PRODUCTION = "***REMOVED***";
-    // AntiPiracy Library Configurations (Relies on PIRACY_CHECK)
-    static final Boolean ENFORCE_INTERNET_CHECK = false;
-    static final Boolean ENFORCE_GOOGLE_PLAY_INSTALL = true;
-    static final Boolean ENFORCE_AMAZON_APP_STORE_INSTALL = false;
 }
