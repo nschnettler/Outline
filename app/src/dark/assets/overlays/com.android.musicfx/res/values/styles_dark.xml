@@ -2,8 +2,8 @@
 <resources>
 
     <style name="AppTheme" parent="@*com.android.musicfx:Theme.AppCompat.NoActionBar">
-        <item name="*com.android.musicfx:colorPrimary">@*android:color/background_material_dark</item>
-        <item name="*com.android.musicfx:colorPrimaryDark">@*android:color/background_material_dark</item>
+        <item name="*com.android.musicfx:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="*com.android.musicfx:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="*com.android.musicfx:colorAccent">@*com.android.musicfx:color/accentColor</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowSharedElementsUseOverlay">false</item>
