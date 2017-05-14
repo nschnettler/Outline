@@ -7,6 +7,7 @@
     <color name="mainBackgroundColor">@*android:color/background_material_dark</color>              <!-- Main           |horizontal empty space between the bar showing the current active out source and the eq levels area -->
     <color name="drawer_background_color">@*android:color/background_material_dark</color>          <!-- Drawer         | left drawer menu background color-->
     <color name="spinner_bg_color">@*android:color/background_floating_material_dark</color>        <!-- Spinner        | spinner box -->
+    <color name="spinner_reverb_list">@*android:color/background_material_dark</color>     <!-- Spinner New    | Available "reverb" effects list background color-->
     <color name="gallery_bg_color">@*android:color/background_material_dark</color>                 <!--                | horizontal bar where you can scroll the eq presets (after the eq and before the knobs -->
     <color name="knobs_area_background">@*android:color/background_material_dark</color>            <!--                | area around knobs also at right of the eq area -->
     <color name="eq_area_background">@*android:color/background_material_dark</color>               <!--                | eq levels area -->
