@@ -25,6 +25,7 @@
     <color name="album_more_background_color">@*android:color/background_dark</color>               <!-- Notification mark as read background -->
     <color name="quantum_lightblue900">@*android:color/background_dark</color>                      <!-- Poll active bar -->
     <color name="poll_option_title_black_background_color">@*android:color/background_material_dark</color>  <!-- Poll bar background -->
+    <color name="quantum_grey">@*android:color/background_material_dark</color>                      <!-- Splash screen Statusbar -->
 
     <!-- Text -->
     <color name="quantum_grey700">#ffdddddd</color>                                                 <!-- Notification card subtitle -->
@@ -53,7 +54,6 @@
 
 
     <color name="card_background_selected">@*android:color/background_dark</color>
-    <color name="quantum_grey">@android:color/background_dark</color>
     <color name="quantum_grey400">@android:color/background_dark</color>
     <color name="ripple_material_light">#42ffffff</color>
     <color name="ripple_material_dark">#42ffffff</color>
