@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Accent -->
+        <!-- Red -->
+        <color name="action_bar_background">@android:color/holo_red_light</color>                       <!-- Primary | action_bar_background -->
+        <color name="status_bar_background">@android:color/holo_red_light</color>                       <!-- Primary Dark | status_bar_background-->
+        <!-- Blue -->
+        <color name="quantum_lightblue500">@android:color/holo_blue_light</color>                   <!-- Primary -->
+        <color name="quantum_lightblue700">@android:color/holo_blue_light</color>                   <!-- Primary Dark -->
+        <!-- Green -->
+        <color name="quantum_googgreen500">@android:color/holo_green_light</color>
+        <color name="quantum_googgreen700">@android:color/holo_green_light</color>
+</resources>
