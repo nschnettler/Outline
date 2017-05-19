@@ -7,7 +7,9 @@
         <color name="material_deep_teal_500">@android:color/holo_blue_light</color>                 <!--Accent | accent_material_light -->
         <!-- Blue -->
         <color name="quantum_googblue700">@android:color/holo_blue_light</color>                    <!-- Report Abuse Screen -->
-
+        <!-- Green -->
+        <color name="quantum_googgreen500">@android:color/holo_green_light</color>
+        <color name="quantum_googgreen700">@android:color/holo_green_light</color>
 
         <!-- Accent - Blue -->
         <color name="quantum_googblue500">@android:color/holo_blue_light</color>

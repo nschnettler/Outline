@@ -7,6 +7,6 @@
     <color name="quantum_lightblue500">@*android:color/primary_material_dark</color>                   <!-- Primary -->
     <color name="quantum_lightblue700">@*android:color/primary_dark_material_dark</color>                   <!-- Primary Dark -->
     <!-- Green -->
-    <color name="quantum_googgreen500">@*android:color/primary_material_dark</color>
-    <color name="quantum_googgreen700">@*android:color/primary_dark_material_dark</color>
+    <color name="square_green_light">@*android:color/primary_material_dark</color>
+    <color name="square_green_dark">@*android:color/primary_dark_material_dark</color>
 </resources>
