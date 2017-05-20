@@ -32,4 +32,8 @@
     <drawable name="expanded_item_bg_activated">@*android:color/background_material_dark</drawable>
     <drawable name="expanded_item_bg">@*android:color/background_material_dark</drawable>
     <color name="expanded_item_app_title">#FFFFFF</color>
+
+    <!-- Dirty Tweaks -->
+    <color name="dt_tab_text_color">#FFFFFF</color>
+    <color name="dt_tab_inactive_text_color">#b3FFFFFF</color>
 </resources>
