@@ -5,7 +5,7 @@ android:viewportWidth="24.0"
 android:viewportHeight="24.0">
 <path
     android:strokeColor="@*com.android.settings:color/icon_accent"
-    android:strokeWidth="0.6"
+    android:strokeWidth="0.8"
     android:pathData="M12,2.5c-5.3,0-9.5,4.2-9.5,9.5
 	s4.2,9.5,9.5,9.5s9.5-4.2,9.5-9.5S17.3,2.5,12,2.5z M12,16.5v0.9 M9.2,9.4c0-1.7,1.1-2.8,2.8-2.8c1.7,0,2.8,1.2,2.8,2.8
 	c0,0.8-0.3,1.6-0.8,2.1l-0.8,0.8c-0.7,0.7-1.2,1.4-1.2,2.7" />

@@ -40,7 +40,7 @@
 	s0.7,3.2,1.8,4.2 M18.4,18.8c1.6-1.6,2.6-3.9,2.6-6.4s-1-4.7-2.6-6.4c-1.6-1.6-3.9-2.6-6.4-2.6s-4.7,1-6.4,2.6S3,10,3,12.4
 	s1,4.7,2.6,6.4"
                         android:strokeColor="#FFFFFF"
-                        android:strokeWidth="0.6"
+                        android:strokeWidth="0.8"
                         android:fillAlpha="1" />
                 </group>
             </group>

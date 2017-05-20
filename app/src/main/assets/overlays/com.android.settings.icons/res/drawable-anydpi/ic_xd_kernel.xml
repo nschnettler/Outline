@@ -8,5 +8,5 @@
 	h-2.1v2.1H11V2.5H8.8v2.1H6.7c-1.2,0-2.1,1-2.1,2.1v2.1H2.5v2.1h2.1V13H2.5v2.1h2.1v2.1c0,1.2,1,2.1,2.1,2.1h2.1v2.1h2.1v-2.1H13
 	v2.1h2.1v-2.1h2.1c1.2,0,2.1-1,2.1-2.1v-2.1h2.1V13h-2.1v-2.1H21.5z"
         android:strokeColor="@*com.android.settings:color/icon_accent"
-        android:strokeWidth="0.6"/>
+        android:strokeWidth="0.8"/>
 </vector>

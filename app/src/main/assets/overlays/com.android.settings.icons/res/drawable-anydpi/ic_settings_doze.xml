@@ -18,7 +18,7 @@ Copyright (C) 2014 The Android Open Source Project
 
         <path
             android:strokeColor="@*com.android.settings:color/icon_accent"
-            android:strokeWidth="0.6"
+            android:strokeWidth="0.8"
             android:pathData="M11.3,14.9c0,0.2,0.1,0.4,0.2,0.5c0.1,0.2,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2
 	c0.1-0.1,0.2-0.3,0.2-0.5 M14.2,13.4v-1.9c0-1.2-0.6-2-1.7-2.3V9c0-0.3-0.3-0.6-0.6-0.6S11.4,8.7,11.4,9v0.3
 	c-1.1,0.2-1.7,1.2-1.7,2.3v1.9L9,14.1v0.4h5.8v-0.4L14.2,13.4z M16.2,2.5H7.6c-0.9,0-1.7,0.7-1.7,1.7v15.6c0,1,0.8,1.8,1.8,1.8h8.7

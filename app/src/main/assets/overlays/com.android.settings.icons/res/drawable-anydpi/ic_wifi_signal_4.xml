@@ -7,7 +7,7 @@
 
     <path
         android:strokeColor="@*com.android.settings:color/icon_accent"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:fillAlpha="0.2"
         android:fillColor="@*com.android.settings:color/icon_accent"
         android:strokeMiterLimit="10"

@@ -21,11 +21,11 @@ Copyright (C) 2014 The Android Open Source Project
         android:viewportHeight="24.0">
     <path
         android:strokeColor="#FFFFFF"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:pathData="M2.5,3L9.5,10 M9.5,3L2.5,10" />
     <path
         android:strokeColor="#FFFFFF"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:fillColor="#FFFFFF"
         android:fillAlpha="0.4"
         android:pathData="M3,21.2h18v-18L3,21.2z" />
