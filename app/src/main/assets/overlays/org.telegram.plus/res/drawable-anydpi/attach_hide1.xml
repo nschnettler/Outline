@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="64dp"
+        android:height="64dp"
+        android:viewportWidth="64.0"
+        android:viewportHeight="64.0">
+    <path
+        android:strokeColor="@*org.telegram.plus:color/common_google_signin_btn_text_dark_disabled"
+        android:strokeWidth="1.6"
+        android:pathData="M58,32c0,14.4-11.6,26-26,26S6,46.4,6,32
+	S17.6,6,32,6S58,17.6,58,32z"/>
+
+</vector>

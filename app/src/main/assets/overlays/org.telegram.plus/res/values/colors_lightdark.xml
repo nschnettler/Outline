@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary_dark">@android:color/holo_blue_light</color>
+    <color name="primary_light">@android:color/holo_blue_light</color>
+    <color name="header">@android:color/holo_blue_light</color>
+    <!-- Icons -->
+    <color name="common_google_signin_btn_text_dark_disabled">#757575</color>
+</resources>
