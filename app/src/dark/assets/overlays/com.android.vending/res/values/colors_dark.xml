@@ -15,7 +15,8 @@
         <color name="whatsnew_movies_v2">@*android:color/background_dark</color>
         <color name="whatsnew_music_v2">@*android:color/background_dark</color>
         <color name="whatsnew_newsstand_v2">@*android:color/background_dark</color>
-    <color name="review_question_bg">@*android:color/background_dark</color>                                                <!-- Create Review Background -->
+    <color name="flat_card_cluster_light_background">@*android:color/background_material_dark</color>        <!-- New Flat Cards -->
+    <color name="review_question_bg">@*android:color/background_dark</color>                                 <!-- Create Review Background -->
     <color name="play_card_light_background">@*android:color/background_material_dark</color>                <!-- Card -->
     <color name="material_grey_50">@*android:color/background_material_dark</color>                          <!-- Drawer Background (item) -->
     <color name="play_main_background">@*android:color/background_material_dark</color>                      <!-- Main -->
@@ -29,6 +30,9 @@
 
     <color name="play_installed_apps_toggle_switch_track_off">#757575</color>                     <!-- Switch Track -->
 
+    <!-- Cards Overflow -->
+    <color name="flat_overflow_menu_fill_color">#FFFFFF</color>
+    <color name="flat_overflow_menu_fill_color_dark">#FFFFFF</color>
 
     <color name="secondary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
