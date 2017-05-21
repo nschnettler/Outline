@@ -113,14 +113,6 @@
 
     <color name="family_sharing_switch_thumb_disabled">#ff757575</color>
 
-
-    <color name="whatsnew_apps">#ffe2f3eb</color>
-    <color name="whatsnew_books">#ffd6effa</color>
-    <color name="whatsnew_movies">#fffcdfdf</color>
-    <color name="whatsnew_music">#fffce7d6</color>
-    <color name="whatsnew_newsstand">#ffe3e7fe</color>
-
-
     <color name="payment_methods_icon">@android:color/holo_green_light</color>
     <color name="family_icon">@android:color/holo_red_light</color>
     <color name="subscriptions_icon">@android:color/holo_orange_light</color>
