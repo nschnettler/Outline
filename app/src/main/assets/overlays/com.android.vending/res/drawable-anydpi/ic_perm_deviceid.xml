@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0">
+    <path
+        android:strokeColor="@*com.android.vending:color/play_icon_default"
+        android:strokeWidth="0.6"
+        android:pathData="M12,9.3V7.6 M12,16.4v-5.3 M16.4,2.3H7.5C6.6,2.3,5.8,3,5.8,4v16c0,1,0.8,1.8,1.8,1.8h8.9
+	c1,0,1.8-0.8,1.8-1.8V4C18.2,3,17.4,2.3,16.4,2.3z"/>
+</vector>

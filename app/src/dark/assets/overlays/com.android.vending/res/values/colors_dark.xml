@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Icons (custom) -->
+    <color name="play_icon_default">#FFFFFF</color>
+
     <!-- Text -->
     <color name="play_fg_primary">#FFFFFF</color>                                                   <!-- Primary Text Color, for example  Drawer unselected-->
     <color name="play_fg_secondary">#FFFFFF</color>                                                 <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
