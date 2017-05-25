@@ -63,15 +63,23 @@ object SystemInformation {
 
     fun getSelfVerifiedPirateTools(context: Context): Boolean {
         if (ENABLE_BLACKLISTED_APPLICATIONS) {
-            BLACKLISTED_APPLICATIONS
-                    .filter { isPackageInstalled(context, it) }
-                    .forEach { return false }
+            for (BLACKLISTED_APPLICATION in BLACKLISTED_APPLICATIONS) {
+                if (isPackageInstalled(context, BLACKLISTED_APPLICATION)) {
+                    return false
+                }
+            }
         }
         return true
     }
 
     fun getSelfVerifiedThemeEngines(context: Context): Boolean? {
-        val isPermitted: Boolean? = OTHER_THEME_SYSTEMS.any { isPackageInstalled(context, it) }
+        var isPermitted: Boolean? = false
+        for (OTHER_THEME_SYSTEM in OTHER_THEME_SYSTEMS) {
+            if (isPackageInstalled(context, OTHER_THEME_SYSTEM)) {
+                isPermitted = true
+                break
+            }
+        }
         if (ALLOW_OTHER_THEME_SYSTEMS) {
             return isPermitted
         } else if (isPackageInstalled(context, SUBSTRATUM_PACKAGE_NAME)) {
