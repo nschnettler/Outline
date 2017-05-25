@@ -42,7 +42,7 @@ class SubstratumLauncher : Activity() {
 
     private var mVerified: Boolean? = false
     private var piracyChecker: PiracyChecker? = null
-    private var mModeLaunch: String? = ""
+    private var mModeLaunch = ""
 
     private fun calibrateSystem() {
         if (PIRACY_CHECK && !BuildConfig.DEBUG) {
