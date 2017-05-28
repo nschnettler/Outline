@@ -6,7 +6,6 @@ import javax.crypto.spec.IvParameterSpec
 import javax.crypto.spec.SecretKeySpec
 
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 
 ext {
     byte[] key = new byte[16]
@@ -25,8 +24,8 @@ android {
         applicationId "substratum.theme.template"
         minSdkVersion 24
         targetSdkVersion 25
-        versionCode 3
-        versionName "3.0"
+        versionCode 2
+        versionName "2.0"
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
@@ -51,7 +50,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.github.javiersantos:PiracyChecker:1.1'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 }
 
 task encryptAssets {
@@ -104,7 +102,4 @@ task encryptAssets {
 
 project.afterEvaluate {
     preBuild.dependsOn encryptAssets
-}
-repositories {
-    mavenCentral()
 }
