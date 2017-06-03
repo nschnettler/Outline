@@ -52,13 +52,13 @@
 
     <!-- Start / GRAU -->
         <!-- Primary -->
-        <color name="play_multi_primary">@*android:color/holo_gray_light</color>
-        <color name="play_multi_recents">@*android:color/holo_gray_light</color>
-        <color name="play_multi_light">@*android:color/holo_gray_light</color>
+        <color name="play_multi_primary">@android:color/holo_green_light</color>
+        <color name="play_multi_recents">@android:color/holo_green_light</color>
+        <color name="play_multi_light">@android:color/holo_green_light</color>
         <!-- Primary Dark -->
-        <color name="play_multi_secondary">@*android:color/holo_gray_light</color>
-        <color name="play_multi_primary_disabled">@*android:color/holo_gray_light</color>
-        <color name="status_bar_multi">@*android:color/holo_gray_light</color>
+        <color name="play_multi_secondary">@android:color/holo_green_light</color>
+        <color name="play_multi_primary_disabled">@android:color/holo_green_light</color>
+        <color name="status_bar_multi">@android:color/holo_green_light</color>
 
         <!-- Accent -->
         <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
@@ -78,7 +78,7 @@
     <color name="play_books_secondary_v2">@android:color/holo_blue_light</color>
     <color name="status_bar_books_v2">@android:color/holo_blue_light</color>
 
-    <color name="play_developer_primary_v2">@*android:color/holo_gray_light</color>
+    <color name="play_developer_primary_v2">@android:color/holo_green_light</color>
     <color name="play_developer_secondary_v2">@*android:color/holo_gray_light</color>
 
     <color name="play_movies_primary_v2">@android:color/holo_red_light</color>
