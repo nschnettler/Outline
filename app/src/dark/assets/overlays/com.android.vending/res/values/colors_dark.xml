@@ -8,6 +8,7 @@
     <color name="play_fg_secondary">#FFFFFF</color>                                                 <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
     <color name="primary_text_default_material_light">#deFFFFFF</color>
     <color name="detailed_permissions_footer_text">#b3FFFFFF</color>
+    <color name="play_icon_selected">#FFFFFF</color>                                                <!-- Drawer Selected -->
         <!-- New Flat Cards -->
         <color name="flat_card_cluster_header_title_text_color">#FFFFFF</color>
         <color name="flat_card_cluster_header_title_text_color_black">#FFFFFF</color>
