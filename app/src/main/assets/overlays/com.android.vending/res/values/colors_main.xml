@@ -65,8 +65,6 @@
 
         <color name="top_developer">@android:color/holo_green_light</color>
 
-        <color name="action_bar_overlay_end">#00000000</color>
-        <color name="action_bar_overlay_start">#00000000</color>
         <color name="status_bar_overlay">#00000000</color>
 
 
@@ -95,11 +93,7 @@
     <color name="play_newsstand_secondary_v2">@android:color/holo_purple</color>
     <color name="status_bar_newsstand_v2">@android:color/holo_purple</color>
 
-    <color name="review_histogram_1_bar_v2">@android:color/holo_red_light</color>
-    <color name="review_histogram_2_bar_v2">@android:color/holo_red_light</color>
-    <color name="review_histogram_3_bar_v2">@android:color/holo_orange_light</color>
-    <color name="review_histogram_4_bar_v2">@android:color/holo_green_light</color>
-    <color name="review_histogram_5_bar_v2">@android:color/holo_green_light</color>
+
     <color name="review_histogram_1_bar">@android:color/holo_red_light</color>
     <color name="review_histogram_2_bar">@android:color/holo_red_light</color>
     <color name="review_histogram_3_bar">@android:color/holo_orange_light</color>
