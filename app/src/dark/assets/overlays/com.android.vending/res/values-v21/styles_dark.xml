@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer Item selected -->
+    <style name="PlayDrawerSelectedText" parent="@*com.android.vending:style/PlayDrawerBaseText">
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+
+    <!-- Drawer Name Text -->
+    <style name="PlayDrawerProfileNameText" parent="@*com.android.vending:style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Drawer Email Text -->
+    <style name="PlayDrawerProfileEmailText" parent="@*com.android.vending:style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+</resources>
