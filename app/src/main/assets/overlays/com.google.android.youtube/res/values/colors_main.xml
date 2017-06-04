@@ -21,6 +21,8 @@
     <color name="small_icon_background">@android:color/holo_red_light</color>
     <color name="upload_color_primary">@android:color/holo_red_light</color>
     <color name="color_primary">@android:color/holo_red_light</color>
+    <color name="bright_red">@android:color/holo_red_light</color>
+    <color name="bright_red_dark">@android:color/holo_red_light</color>
     <!-- Accent -->
     <color name="youtube_blue">@android:color/holo_blue_light</color>
     <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
