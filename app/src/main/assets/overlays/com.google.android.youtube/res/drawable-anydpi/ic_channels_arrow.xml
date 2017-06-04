@@ -5,6 +5,6 @@
         android:viewportHeight="24.0">
     <path
         android:strokeColor="@*com.google.android.youtube:color/info_card_video_item_light_font"
-        android:strokeWidth="0.6"
-        android:pathData="M4.7,11.9h14.4 M12,19.3l7.3-7.3l-7.2-7.2"/>
+        android:strokeWidth="0.8"
+        android:pathData="M11.5,4l8,8l-8,8 M3.5,12h16"/>
 </vector>
