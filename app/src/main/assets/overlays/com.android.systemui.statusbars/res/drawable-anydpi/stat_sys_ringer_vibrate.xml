@@ -4,11 +4,11 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
 
+
     <path
         android:strokeColor="#ffffff"
-        android:strokeWidth="0.8"
-        android:pathData="M7.9,3.1h8c0.5,0,1,0.4,1,1v15.8c0,0.5-0.4,1-1,1h-8c-0.5,0-1-0.4-1-1V4.1C7,3.5,7.4,3.1,7.9,3.1z
-	 M4.1,2.8v4.8 M19.9,21.2v-4.8"
+        android:strokeWidth="0.56"
+        android:pathData="M6.9,3H17v18H6.9V3z M4,2.7v4.9 M20,21.3v-4.9"
         android:fillAlpha="0.2"
         android:fillColor="#ffffff"/>
 
