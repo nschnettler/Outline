@@ -5,7 +5,7 @@
         android:viewportWidth="24">
     <path
         android:strokeColor="@*projekt.substratum:color/material_drawer_icon_color"
-        android:strokeWidth="0.6"
-        android:pathData="M20.2,3.3H3.8C2.8,3.3,2,4.2,2,5.2v10.9c0,1,0.8,1.8,1.8,1.8h4.5l-1.9,2.8h11.1l-1.9-2.8h4.5
-	c1,0,1.8-0.8,1.8-1.8V5.2C22,4.2,21.2,3.3,20.2,3.3z M8.4,17.9h7.3 M6,8.6h12 M6,12.6h12"/>
+        android:strokeWidth="0.8"
+        android:pathData="M6.6,17.4l-2.2,3.2 M19.5,20.6l-2.2-3.2 M22,15.4v-10c0-1.1-0.9-2-2-2H4c-1.1,0-2,0.9-2,2v10c0,1.1,0.9,2,2,2
+	h16C21.1,17.4,22,16.5,22,15.4z M6,8.4h12 M6,12.4h12"/>
 </vector>
