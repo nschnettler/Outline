@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Toolbar Icons -->
-    <color name="theme_main_tab_text_color_activated">#ffffffff</color>                             <!-- Selected-->
-    <color name="theme_main_tab_text_color_normal">#b3ffffff</color>                                <!-- Not Selected -->
-
     <!-- Primary -->
     <color name="color_brand_primary">@android:color/holo_red_light</color>                         <!-- Primary -->
     <color name="theme_main_color_primary_dark">@android:color/holo_red_light</color>               <!-- Primary Dark -->
@@ -23,6 +19,7 @@
     <color name="color_primary">@android:color/holo_red_light</color>
     <color name="bright_red">@android:color/holo_red_light</color>
     <color name="bright_red_dark">@android:color/holo_red_light</color>
+    <color name="youtube_red">@android:color/holo_red_light</color>
     <!-- Accent -->
     <color name="youtube_blue">@android:color/holo_blue_light</color>
     <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
