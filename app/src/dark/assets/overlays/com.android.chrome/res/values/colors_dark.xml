@@ -27,6 +27,7 @@
     <color name="locationbar_status_separator_color">#3dffffff</color>
     <color name="locationbar_status_separator_color_light">#3dffffff</color>
 
+	<color name="text_highlight_color">@android:color/holo_blue_light</color>                       <!-- Searchbar Text Selected -->
 
 
 

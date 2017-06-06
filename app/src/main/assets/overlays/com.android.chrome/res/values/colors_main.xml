@@ -14,5 +14,4 @@
     <color name="website_settings_popup_text_link">@*android:color/holo_blue_light</color>
     <color name="most_visited_offline_badge_tint">@*android:color/holo_blue_light</color>
     <color name="google_blue_700">@*android:color/holo_blue_light</color>
-    <color name="text_highlight_color">@android:color/holo_blue_light</color>                       <!-- Searchbar Text Selected -->
 </resources>
