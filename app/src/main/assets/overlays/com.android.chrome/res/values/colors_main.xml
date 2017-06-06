@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Green -->
-    <color name="google_green_700">@*android:color/holo_green_dark</color>
+    <color name="google_green_700">@*android:color/holo_green_light</color>
 
     <!-- Error: Red -->
-    <color name="http_bad_warning_message_text">@*android:color/holo_red_dark</color>
-    <color name="error_text_color">@*android:color/holo_red_dark</color>
-    <color name="google_red_700">@*android:color/holo_red_dark</color>
+    <color name="http_bad_warning_message_text">@*android:color/holo_red_light</color>
+    <color name="error_text_color">@*android:color/holo_red_light</color>
+    <color name="google_red_700">@*android:color/holo_red_light</color>
 
     <!-- Accent -->
     <color name="light_active_color">@*android:color/holo_blue_light</color>
