@@ -22,7 +22,7 @@ android {
     defaultConfig {
         targetSdkVersion 25
         minSdkVersion 25
-        versionCode 60
+        versionCode 61
     }
     buildTypes {
         debug {
@@ -42,7 +42,7 @@ android {
             }
             light{
                 applicationId "com.schnettler.outline"
-                versionName "9.1"
+                versionName "9.2"
             }
         }
     }
