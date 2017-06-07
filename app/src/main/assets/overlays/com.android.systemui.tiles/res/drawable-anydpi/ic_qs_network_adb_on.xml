@@ -7,7 +7,7 @@
 
     <path
         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:pathData="M20.5,9.1c0-3.1-2.5-5.6-5.6-5.6 M23.7,9.1
 	c0-4.8-3.9-8.7-8.7-8.7 M12,18c-3,0-4.6-0.8-5-1.1C6.7,16.6,6,15,6,12s0.8-4.6,1.1-4.9 M12,18c3,0,4.6-0.8,5-1.1
 	c0.3-0.4,1.1-2,1.1-5s-0.8-4.6-1.1-4.9 M9.7,12c0-0.5-0.3-0.8-0.8-0.8S8.2,11.6,8.2,12s0.3,0.8,0.8,0.8S9.7,12.5,9.7,12z M15.8,12

@@ -30,7 +30,7 @@
            <path
                 android:name="dot"
                 android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-                android:strokeWidth="0.4"
+                android:strokeWidth="0.8"
                 android:fillColor="@*com.android.systemui:color/qs_tile_tint_active"
                 android:fillAlpha="0.2"
 

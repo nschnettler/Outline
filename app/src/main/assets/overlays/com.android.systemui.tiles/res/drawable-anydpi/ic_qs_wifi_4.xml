@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <path
         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:fillAlpha="0.2"
         android:fillColor="@*android:color/accent_material_light"
         android:strokeMiterLimit="10"

@@ -6,12 +6,12 @@
 
     <path
         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:pathData="M3,21h18V3L3,21z" />
 
     <path
         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:fillColor="@*android:color/accent_material_light"
         android:fillAlpha="0.2"
         android:pathData="M16.5,7.5L3,21h13.5V7.5z" />

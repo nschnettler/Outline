@@ -9,5 +9,5 @@
 	H8.2 M15.8,12.5h-1.9 M13.9,8.7h1.9 M18.6,12.5h-1.9 M16.8,8.7h1.9"
         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeAlpha="0.4"
-        android:strokeWidth="0.6"/>
+        android:strokeWidth="0.8"/>
 </vector>

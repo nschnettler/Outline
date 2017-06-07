@@ -7,7 +7,7 @@
 
     <path
         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:fillAlpha="0.2"
         android:fillColor="@*com.android.systemui:color/qs_tile_tint_active"
         android:strokeMiterLimit="10"

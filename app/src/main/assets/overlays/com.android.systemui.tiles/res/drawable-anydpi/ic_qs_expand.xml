@@ -39,7 +39,7 @@
                     <path
                         android:name="rectangle_path_2"
                         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-                        android:strokeWidth="0.6"
+                        android:strokeWidth="0.8"
                         android:pathData="M0-4v8" />
                 </group>
             </group>
@@ -57,7 +57,7 @@
                     <path
                         android:name="rectangle_path_1"
                         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-                        android:strokeWidth="0.6"
+                        android:strokeWidth="0.8"
                         android:pathData="M0-4v8" />
                 </group>
             </group>

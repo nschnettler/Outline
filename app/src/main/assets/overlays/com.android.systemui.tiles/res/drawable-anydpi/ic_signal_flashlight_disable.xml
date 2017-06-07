@@ -7,7 +7,7 @@
             <group android:name="flashlight">
                 <path android:name="light"
                     android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-                    android:strokeWidth="0.6"
+                    android:strokeWidth="0.8"
                     android:pathData="M6.6,11.5l2.8,2.8v7.4h5.4v-7.4l2.7-2.8V7H6.6V11.5z M12,0.7v2.7 M7.2,5.2L5.3,3.3 M18.7,3.3l-1.9,1.9"/>
             </group>
         </group>

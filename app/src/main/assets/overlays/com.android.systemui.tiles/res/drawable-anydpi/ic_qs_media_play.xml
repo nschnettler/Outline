@@ -23,6 +23,6 @@
 
     <path
         android:strokeColor="@*com.android.systemui:color/qs_tile_tint_active"
-        android:strokeWidth="0.6"
+        android:strokeWidth="0.8"
         android:pathData="M8,5.14V19.14L19,12.14L8,5.14Z" />
 </vector>
