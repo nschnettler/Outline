@@ -1,4 +1,0 @@
-<transition xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@*com.android.systemui:color/qs_detail_transition" /> <!--From -->
-    <item android:drawable="@*com.android.systemui:color/volume_settings_icon_color" />  <!--To -->
-</transition>

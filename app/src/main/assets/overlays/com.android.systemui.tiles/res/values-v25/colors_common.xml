@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
         <!-- Accent Farben -->
         <color name="system_accent_color">@*android:color/accent_material_light</color>
         <color name="fab_color">@*android:color/accent_material_light</color>
         <color name="qs_detail_progress_track">@*android:color/accent_material_light</color>
         <color name="segmented_button_selected">@*android:color/accent_material_light</color>
         <color name="data_usage_graph_warning">@*android:color/accent_material_light</color>
-
-        <!-- VOLUME PANEL -->
-                <!-- Background -->
-                <color name="system_primary_color">@*com.android.systemui:color/volume_settings_icon_color</color>                      <!-- CM based ROMs -->
-                <color name="volume_panel_background_color">@*com.android.systemui:color/volume_settings_icon_color</color>             <!-- Pre N Roms -->
-
-        <!-- QS Edit -->
-        <color name="qs_edit_item_decoration_bg">@*com.android.systemui:color/volume_settings_icon_color</color>                        <!-- Edit Hintergrund -->
 </resources>
