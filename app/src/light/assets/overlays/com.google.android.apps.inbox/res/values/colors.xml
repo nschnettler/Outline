@@ -3,10 +3,8 @@
     <!-- Primary -->
     <color name="bt_container_blue">@android:color/holo_blue_light</color>
     <color name="chips_dropdown_background_activated">@android:color/holo_blue_light</color>
-    <color name="chip_background_selected">@android:color/holo_blue_light</color>
     <color name="bt_blue">@android:color/holo_blue_light</color>
     <color name="bt_cluster_name_forums">@android:color/holo_blue_light</color>
-    <color name="bt_toastbar_button_background">@android:color/holo_blue_light</color>
     <color name="bt_tutorial_blue_background">@android:color/holo_blue_light</color>
         <!-- Toolbar Colors -->
         <color name="bt_action_bar_background_blue">@android:color/holo_blue_light</color>
@@ -22,7 +20,6 @@
 
 
     <!-- Primary Dark -->
-    <color name="bt_smartmail_attachment_color_text">@android:color/holo_blue_light</color>
         <!-- StatusBar Colors -->
         <color name="bt_status_bar_blue">@android:color/holo_blue_light</color>
         <color name="bt_status_bar_brick">@*android:color/primary_material_light</color>
