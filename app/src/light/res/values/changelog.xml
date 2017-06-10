@@ -1,11 +1,9 @@
 <resources>
     <string-array name="ThemeChangelog">
-        <item>Bugfixes:</item>
-        <item>Volume Panel | Background Color on Lineage based ROMs</item>
-        <item>QuickSettings | VPN connected text and Icon</item>
-        <item></item>
-        <item>Updates &amp; Improvements:</item>
-        <item>Telegram | Calls Drawer Icon</item>
-        <item>Keep | Search Toolbar Icon</item>
+        <item>Improved Paranoid Android Support</item>
+        <item>Google Dialer 10 and 9 Support</item>
+        <item>QuickSettings improvements</item>
+        <item>Settings Improvements</item>
+        <item>Google photos improvements</item>
     </string-array>
 </resources>
