@@ -1,26 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="72.0" android:viewportHeight="72.0">
-            <path android:fillColor="@android:color/holo_blue_light" android:pathData="M 36 0 C 55.8822509939 0 72 16.1177490061 72 36 C 72 55.8822509939 55.8822509939 72 36 72 C 16.1177490061 72 0 55.8822509939 0 36 C 0 16.1177490061 16.1177490061 0 36 0 Z" />
-        </vector>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="oval" >
+            <solid android:color="@*android:color/holo_gray_light"/>
+            <size android:height="40dp" android:width="40dp"/>
+        </shape>
     </item>
-    <item>
+    <item android:width="24dp" android:height="24dp" android:gravity="center">
         <vector xmlns:android="http://schemas.android.com/apk/res/android"
-            android:width="24dp"
-            android:height="24dp"
+            android:width="32dp"
+            android:height="32dp"
             android:viewportWidth="24.0"
             android:viewportHeight="24.0">
-
-        </vector>
-        <vector android:height="64.0dip" android:width="64.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
-            <group android:scaleX="1.25" android:scaleY="1.25" android:translateX="21.0" android:translateY="21.0">
-                <path
-                    android:strokeColor="#FFffffff"
-                    android:strokeWidth="1"
-                    android:pathData="M11,7H7c-2.8,0-5,2.2-5,5s2.2,5,5,5h4 M16,12H8 M13,17h4c2.8,0,5-2.2,5-5s-2.2-5-5-5h-4"/>
-            </group>
+            <path
+                android:strokeColor="#FFFFFF"
+                android:strokeWidth="0.8"
+                android:pathData="M8.2,19.8l2.1-2.1l-2.1-2.1V19.8z M13.2,6.3h8.3 M13.2,12h8.3 M13.2,17.7h8.3 M8.2,17.7c-3.1,0-5.7-2.5-5.7-5.7
+        S5,6.3,8.2,6.3h2.7"/>
         </vector>
     </item>
 </layer-list>
