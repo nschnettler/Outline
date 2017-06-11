@@ -4,7 +4,6 @@
     <color name="bt_container_blue">@android:color/holo_blue_light</color>
     <color name="chips_dropdown_background_activated">@android:color/holo_blue_light</color>
     <color name="bt_blue">@android:color/holo_blue_light</color>
-    <color name="bt_cluster_name_forums">@android:color/holo_blue_light</color>
     <color name="bt_tutorial_blue_background">@android:color/holo_blue_light</color>
         <!-- Toolbar Colors -->
         <color name="bt_action_bar_background_blue">@android:color/holo_blue_light</color>
@@ -40,13 +39,24 @@
         <color name="bt_pull_to_refresh_4_green">@android:color/holo_green_light</color>
         <!-- Label Text Color -->
         <color name="bt_cluster_name_finance">@android:color/holo_green_light</color>
+        <color name="bt_cluster_name_forums">@android:color/holo_blue_light</color>
         <color name="bt_cluster_name_notifications">@android:color/holo_orange_light</color>
-        <color name="bt_cluster_name_promos">@*android:color/primary_material_light</color>
-        <color name="bt_cluster_name_shopping">@*android:color/primary_material_light</color>
+        <color name="bt_cluster_name_promos">@*android:color/holo_gray_light</color>
+        <color name="bt_cluster_name_shopping">@android:color/holo_blue_light</color>
         <color name="bt_cluster_name_social">@android:color/holo_red_light</color>
         <color name="bt_cluster_name_travel">@android:color/holo_purple</color>
-
-
+        <color name="bt_cluster_name_custom">@*android:color/holo_gray_light</color>
+        <color name="bt_cluster_name_unimportant">@*android:color/holo_gray_light</color>
+        <color name="bt_cluster_name_saved">@android:color/holo_red_light</color>
+        <!-- Smart Reply -->
+        <color name="bt_smartreply_suggestion_border">@android:color/holo_red_light</color>
+        <color name="bt_smartreply_suggestion_text">@android:color/holo_red_light</color>
+        <!-- Red -->
+        <color name="bt_red">@android:color/holo_red_light</color>
+        <!-- Blue -->
+        <color name="bt_item_list_blue_text">@android:color/holo_blue_light</color>
+        <!-- Green -->
+        <color name="bt_onboarding_message_done_background">@android:color/holo_green_light</color>
 
     <color name="bt_empty_list_view_upcoming_text">#FFFFFF</color>
 
