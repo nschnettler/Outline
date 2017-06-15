@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="ThemeChangelog">
+        <item>Closed Alpha</item>
+        <item>Not meant to be seen in public ;)</item>
+    </string-array>
+</resources>

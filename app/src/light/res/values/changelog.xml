@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="ThemeChangelog">
+        <item>New: Code Aurora Gallery</item>
+        <item>Remastered: Google Inbox</item>
+        <item>Google Photos: Improvements</item>
+        <item>Google Dialer: Improvements</item>
+    </string-array>
+</resources>

@@ -2,7 +2,7 @@ package substratum.theme.template
 
 object ThemerConstants {
     // Simple AntiPiracy Configuration
-    val PIRACY_CHECK = false
+    val PIRACY_CHECK = true
 
     // Miscellaneous Checks
     val ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS = BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
@@ -25,14 +25,14 @@ object ThemerConstants {
     val OTHER_THEME_SYSTEMS = arrayOf(
             "com.slimroms.thememanager"
     )
-    internal val THEME_READY_GOOGLE_APPS = false
+    internal val THEME_READY_GOOGLE_APPS = BuildConfig.NEEDS_THEME_READY_GAPPS
     // Dynamic filter that only works on Substratum 627+
     // WARNING: Only enable if you are sure you want certification status to pass on Substratum
     //          before launching the theme, or else it will throw an unauthorized toast!
     internal val SUBSTRATUM_FILTER_CHECK = false
     // Play Store AntiPiracy LVL configurations (Relies on PIRACY_CHECK)
-    internal val BASE_64_LICENSE_KEY = ""
-    internal val APK_SIGNATURE_PRODUCTION = ""
+    internal val BASE_64_LICENSE_KEY = BuildConfig.LICENSE
+    internal val APK_SIGNATURE_PRODUCTION = BuildConfig.SIGNATURE
     // AntiPiracy Library Configurations (Relies on PIRACY_CHECK)
     internal val ENFORCE_INTERNET_CHECK = false
     internal val ENFORCE_GOOGLE_PLAY_INSTALL = true
