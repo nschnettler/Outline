@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="accent_material_light">#7E8ACD</color>
+    <color name="accent_material_dark">#7E8ACD</color>
+</resources>

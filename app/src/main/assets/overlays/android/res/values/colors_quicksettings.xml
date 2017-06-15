@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="placeholder">#FAFAFA</color>
+    <!-- QuickSettings | O -->
+    <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="@*android:colorControlNormal">#000000</item>
+        <item name="@*android:colorPrimary">#FAFAFA</item>                                          <!-- Volume Panel, QS - Detail, Brightness -->
+        <item name="@*android:colorPrimaryDark">#FAFAFA</item>                                      <!-- QS - Main -->
+        <item name="@*android:colorAccent">@*android:color/accent_material_light</item>
+        <item name="@*android:colorSecondary">#FAFAFA</item>                                        <!-- QS Edit - Bottom -->
+    </style>
+
+
+    <!-- Volume Panel BG: primary_device_default_dark bzw. primary_device_default_light</color>-->
+    <color name="primary_device_default_light">#FAFAFA</color>
+    <color name="primary_dark_device_default_light">#EEEEEE</color>
+</resources>
