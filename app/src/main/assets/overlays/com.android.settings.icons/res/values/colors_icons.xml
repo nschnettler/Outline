@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings Icons Accent Color -->
+    <color name="icon_accent">#757575</color>                         <!-- Normal Icons -->
+</resources>
