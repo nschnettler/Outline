@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="color_brand_primary">@android:color/holo_red_light</color>                         <!-- Primary -->
+    <color name="theme_main_color_primary_dark">@android:color/holo_red_light</color>               <!-- Primary Dark -->
+    <!-- Accent -->
+    <color name="quantum_googblue500">@android:color/holo_red_dark</color>
+
+
+
+    <!-- Primary -->
+    <color name="app_bar_primary_background">@android:color/holo_red_light</color>
+    <color name="red">@android:color/holo_red_light</color>
+    <color name="quantum_googred500">@android:color/holo_red_light</color>
+    <color name="preview_image_error_background">@android:color/holo_red_light</color>
+    <color name="subscribe_button_subscribe_font_color">@android:color/holo_red_light</color>
+    <color name="small_icon_background">@android:color/holo_red_light</color>
+    <color name="upload_color_primary">@android:color/holo_red_light</color>
+    <color name="color_primary">@android:color/holo_red_light</color>
+    <color name="bright_red">@android:color/holo_red_light</color>
+    <color name="bright_red_dark">@android:color/holo_red_light</color>
+    <color name="youtube_red">@android:color/holo_red_light</color>
+    <!-- Accent -->
+    <color name="youtube_blue">@android:color/holo_blue_light</color>
+    <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
+    <color name="promoted_native_ad_cta_blue">@android:color/holo_blue_light</color>
+    <color name="corrected_query_link_color">@android:color/holo_blue_light</color>
+    <color name="quantum_blue">@android:color/holo_blue_light</color>
+    <color name="callout_drawable_background_color">@android:color/holo_blue_light</color>
+</resources>
