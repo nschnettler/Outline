@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="systemui_theme_remote_input" parent="@*android:style/Theme.DeviceDefault">         <!-- Quick Reply Background -->
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+
+    <!-- Notification Details -->
+        <style name="TextAppearance.NotificationInfo" parent="@*com.android.systemui:style/TextAppearance">
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:fontFamily">sans-serif</item>
+        </style>
+        <!-- Channel Name -->
+        <style name="TextAppearance.NotificationInfo.Primary" parent="@style/TextAppearance.NotificationInfo">
+            <item name="android:textSize">16.0sp</item>
+            <item name="android:textColor">#FFFFFF</item>
+        </style>
+        <!-- Channel Description -->
+        <style name="TextAppearance.NotificationInfo.Secondary" parent="@style/TextAppearance.NotificationInfo">
+            <item name="android:textSize">14.0sp</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:alpha">0.7</item>
+        </style>
+        <!-- Channel Disabled -->
+        <style name="TextAppearance.NotificationInfo.Secondary.Warning" parent="@style/TextAppearance.NotificationInfo.Secondary">
+            <item name="android:textColor">@*android:color/accent_material_dark</item>
+        </style>
+</resources>
