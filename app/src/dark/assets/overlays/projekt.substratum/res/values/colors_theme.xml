@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Overlay Status (2) -->
+    <color name="overlay_not_enabled_list_entry">#FFFFFF</color>                                    <!-- Installed -->
+    <color name="overlay_not_installed_list_entry">#66FFFFFF</color>                                <!-- Not Installed -->
+</resources>
