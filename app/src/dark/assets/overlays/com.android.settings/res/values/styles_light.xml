@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings Theme -->
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>     <!-- Navbar color -->
+        <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:background">@*android:drawable/ic_menu_end_conversation</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+</resources>
