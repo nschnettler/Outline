@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.bigtop.compose.WebViewDraftEditor android:background="@*android:color/background_material_dark" android:paddingLeft="@*com.google.android.apps.inbox:dimen/bt_compose_message_fields_horizontal_margin" android:paddingTop="@*com.google.android.apps.inbox:dimen/bt_compose_message_body_margin" android:paddingRight="@*com.google.android.apps.inbox:dimen/bt_compose_message_fields_horizontal_margin" android:paddingBottom="@*com.google.android.apps.inbox:dimen/bt_compose_message_body_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
