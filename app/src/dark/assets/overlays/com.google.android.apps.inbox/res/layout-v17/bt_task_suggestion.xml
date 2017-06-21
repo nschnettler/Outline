@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_row_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.bitmap.view.BitmapDrawableImageView
+        android:id="@*com.google.android.apps.inbox:id/task_suggestion_icon"
+        android:layout_width="@*com.google.android.apps.inbox:dimen/bt_item_list_icon_side"
+        android:layout_height="@*com.google.android.apps.inbox:dimen/bt_item_list_icon_side"
+        android:layout_marginLeft="@*com.google.android.apps.inbox:dimen/bt_item_list_padding"
+        android:layout_marginRight="@*com.google.android.apps.inbox:dimen/bt_item_list_padding"
+        android:scaleType="center"
+        android:contentDescription="@null"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_row_height"
+        android:lineSpacingMultiplier="@*com.google.android.apps.inbox:dimen/bt_text_line_spacing">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.apps.bigtop.widgets.MegalistTextView
+                android:textSize="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_text_size"
+                android:textColor="#FFFFFF"
+                android:ellipsize="end"
+                android:id="@*com.google.android.apps.inbox:id/task_suggestion_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_padding"
+                android:maxLines="1"
+                android:fontFamily="sans-serif"
+                android:layout_marginEnd="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_padding" />
+            <com.google.android.apps.bigtop.widgets.MegalistTextView
+                android:textSize="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_text_size"
+                android:textColor="@*com.google.android.apps.inbox:color/bt_faint_text"
+                android:ellipsize="end"
+                android:id="@*com.google.android.apps.inbox:id/task_suggestion_help_text"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+        <com.google.android.apps.bigtop.widgets.MegalistTextView
+            android:textSize="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_subtext_text_size"
+            android:textColor="@*com.google.android.apps.inbox:color/bt_light_text"
+            android:ellipsize="end"
+            android:id="@*com.google.android.apps.inbox:id/task_suggestion_subtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_padding"
+            android:maxLines="1"
+            android:fontFamily="sans-serif"
+            android:layout_marginEnd="@*com.google.android.apps.inbox:dimen/bt_task_suggestion_padding" />
+    </LinearLayout>
+</LinearLayout>
+
+
+<!-- Create Task Suggestion Text Color -->

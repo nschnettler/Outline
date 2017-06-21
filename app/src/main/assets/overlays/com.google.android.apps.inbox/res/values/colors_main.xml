@@ -11,12 +11,6 @@
         <color name="bt_action_bar_background_grey">@*android:color/holo_blue_light</color>
         <color name="bt_action_bar_background_inbox">@android:color/holo_blue_light</color>
         <color name="bt_action_bar_background_upcoming">@android:color/holo_orange_light</color>
-        <!-- Empty Background -->
-        <color name="bt_empty_list_view_background_default">@android:color/holo_blue_light</color>
-        <color name="bt_empty_list_view_done_background">@android:color/holo_green_light</color>
-        <color name="bt_empty_list_view_inbox_background">@android:color/holo_blue_light</color>
-        <color name="bt_empty_list_view_upcoming_background">@android:color/holo_orange_light</color>
-
 
     <!-- Primary Dark -->
         <!-- StatusBar Colors -->

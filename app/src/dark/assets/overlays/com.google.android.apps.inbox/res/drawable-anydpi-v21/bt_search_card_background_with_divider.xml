@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@*com.google.android.apps.inbox:dimen/bt_search_card_divider_height" android:color="@*android:color/background_dark" />
+        </shape>
+    </item>
+    <item android:bottom="@*com.google.android.apps.inbox:dimen/bt_search_card_divider_height">
+        <shape android:shape="rectangle">
+            <solid android:color="@*android:color/background_material_dark" />
+        </shape>
+    </item>
+</layer-list>

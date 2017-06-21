@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@*com.google.android.apps.inbox:dimen/bt_nav_title_text_size" android:textColor="@*com.google.android.apps.inbox:color/bt_nav_item_section_title_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@*com.google.android.apps.inbox:id/nav_title_entry_text" android:background="@*android:color/background_material_dark" android:paddingLeft="@*com.google.android.apps.inbox:dimen/bt_nav_icon_left_side_margin" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@*com.google.android.apps.inbox:dimen/bt_nav_title_entry_height" android:singleLine="true" android:fontFamily="sans-serif-medium" android:textAlignment="viewStart" android:paddingStart="@*com.google.android.apps.inbox:dimen/bt_nav_icon_left_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
+
+<!-- Drawer Subtitle Backgrounds -->
