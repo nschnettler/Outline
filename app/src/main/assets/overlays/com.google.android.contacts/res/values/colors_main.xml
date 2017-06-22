@@ -13,8 +13,8 @@
     <color name="material_star_pink">@android:color/holo_blue_dark</color>
     <color name="quantum_pinkA400">@android:color/holo_blue_dark</color>
 
-    <color name="quickcontact_default_photo_tint_color">#757575</color>
-    <color name="quickcontact_default_photo_tint_color_dark">#757575</color>
+    <color name="quickcontact_default_photo_tint_color">@android:color/holo_blue_dark</color>
+    <color name="quickcontact_default_photo_tint_color_dark">@android:color/holo_blue_dark</color>
 
     <color name="swipe_refresh_color1">@android:color/holo_green_light</color>
     <color name="swipe_refresh_color2">@android:color/holo_red_light</color>
