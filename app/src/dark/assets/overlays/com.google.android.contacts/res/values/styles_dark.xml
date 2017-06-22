@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Contact -->
+    <style name="PeopleTheme" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+
+    <!-- Suggestions Card Overflow Background -->
+    <style name="PopupMenuStyleAppCompat" parent="@*com.google.android.contacts:style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
+    </style>
+
+    <!-- Splashscreen -->
+    <style name="LaunchScreenTheme" parent="@*com.google.android.contacts:style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@*com.google.android.contacts:drawable/quantum_launchscreen_contacts</item>
+        <item name="android:colorPrimaryDark">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="EmptyStateTextStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <!-- Dialogs -->
+    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@*com.google.android.contacts:style/Base.Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="@*com.google.android.contacts:style/Base.Theme.AppCompat.Dialog.MinWidth" />
+
+    <style name="BaseTextStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
