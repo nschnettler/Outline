@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="batterymeter_charge_color">#FFFFFF</color>
-    <color name="batterymeter_bolt_color">#FFFFFFFF</color>
-    <color name="light_mode_icon_color_dual_tone_background">#FFFFFFFF</color>
-    <color name="dark_mode_icon_color_dual_tone_background">#000000</color>
-    <color name="dark_mode_icon_color_single_tone">#000000</color>
-</resources>
