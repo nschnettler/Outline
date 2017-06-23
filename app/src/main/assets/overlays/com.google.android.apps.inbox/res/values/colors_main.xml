@@ -35,12 +35,9 @@
         <color name="bt_cluster_name_finance">@android:color/holo_green_light</color>
         <color name="bt_cluster_name_forums">@android:color/holo_blue_light</color>
         <color name="bt_cluster_name_notifications">@android:color/holo_orange_light</color>
-        <color name="bt_cluster_name_promos">@*android:color/holo_gray_light</color>
         <color name="bt_cluster_name_shopping">@android:color/holo_blue_light</color>
         <color name="bt_cluster_name_social">@android:color/holo_red_light</color>
         <color name="bt_cluster_name_travel">@android:color/holo_purple</color>
-        <color name="bt_cluster_name_custom">@*android:color/holo_gray_light</color>
-        <color name="bt_cluster_name_unimportant">@*android:color/holo_gray_light</color>
         <color name="bt_cluster_name_saved">@android:color/holo_red_light</color>
         <!-- Smart Reply -->
         <color name="bt_smartreply_suggestion_border">@android:color/holo_red_light</color>

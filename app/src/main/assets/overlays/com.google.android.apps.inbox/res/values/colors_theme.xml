@@ -5,4 +5,9 @@
     <color name="bt_empty_list_view_done_background">@android:color/holo_green_light</color>
     <color name="bt_empty_list_view_inbox_background">@android:color/holo_blue_light</color>
     <color name="bt_empty_list_view_upcoming_background">@android:color/holo_orange_light</color>
+
+    <!-- Unimportant Cluster -->
+    <color name="bt_cluster_name_custom">@*android:color/holo_gray_light</color>
+    <color name="bt_cluster_name_promos">@*android:color/holo_gray_light</color>
+    <color name="bt_cluster_name_unimportant">@*android:color/holo_gray_light</color>
 </resources>
