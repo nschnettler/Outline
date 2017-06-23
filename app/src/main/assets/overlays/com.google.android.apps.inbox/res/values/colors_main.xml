@@ -53,4 +53,32 @@
 
     <color name="quantum_googred500">@android:color/holo_green_light</color>
 
+    <!-- Letter Tiles -->
+    <color name="bt_letter_tile_default">@android:color/holo_blue_light</color>
+    <color name="bt_letter_tile_a">@android:color/holo_red_light</color>
+    <color name="bt_letter_tile_b">@android:color/holo_green_light</color>
+    <color name="bt_letter_tile_c">@android:color/holo_orange_light</color>
+    <color name="bt_letter_tile_d">@android:color/holo_purple</color>
+    <color name="bt_letter_tile_e">@android:color/holo_blue_light</color>
+    <color name="bt_letter_tile_f">@android:color/holo_red_light</color>
+    <color name="bt_letter_tile_g">@android:color/holo_green_light</color>
+    <color name="bt_letter_tile_h">@android:color/holo_orange_light</color>
+    <color name="bt_letter_tile_i">@android:color/holo_purple</color>
+    <color name="bt_letter_tile_j">@android:color/holo_blue_light</color>
+    <color name="bt_letter_tile_k">@android:color/holo_red_light</color>
+    <color name="bt_letter_tile_l">@android:color/holo_green_light</color>
+    <color name="bt_letter_tile_m">@android:color/holo_orange_light</color>
+    <color name="bt_letter_tile_n">@android:color/holo_blue_light</color>
+    <color name="bt_letter_tile_o">@android:color/holo_blue_light</color>
+    <color name="bt_letter_tile_p">@android:color/holo_red_light</color>
+    <color name="bt_letter_tile_q">@android:color/holo_green_light</color>
+    <color name="bt_letter_tile_r">@android:color/holo_orange_light</color>
+    <color name="bt_letter_tile_s">@android:color/holo_purple</color>
+    <color name="bt_letter_tile_t">@android:color/holo_blue_light</color>
+    <color name="bt_letter_tile_u">@android:color/holo_red_light</color>
+    <color name="bt_letter_tile_v">@android:color/holo_green_light</color>
+    <color name="bt_letter_tile_w">@android:color/holo_orange_light</color>
+    <color name="bt_letter_tile_x">@android:color/holo_purple</color>
+    <color name="bt_letter_tile_y">@android:color/holo_purple</color>
+    <color name="bt_letter_tile_z">@android:color/holo_red_light</color>
 </resources>
