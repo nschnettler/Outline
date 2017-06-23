@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+		<item name="android:windowBackground">@*android:color/background_material_dark</item>
+		<item name="android:textColorPrimaryInverse">#ffffffff</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowActionBar">false</item>
+	</style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">@android:color/background_dark</item>
+    </style>
+
+    <style name="TextAppearanceMedium" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <!-- Call details Text Colors -->
+    <style name="PrimaryText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="SecondaryText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#b3FFFFFF</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- Call deatials Text next to Icons -->
+    <style name="CallDetailsActionItemStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:drawablePadding">28.0dip</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+
+    <!-- Bottom Bar -->
+    <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
+        <item name="android:background">@*android:color/background_material_dark</item>
+        <item name="android:elevation">16dp</item>
+        <item name="*com.google.android.dialer:behavior_peekHeight">auto</item>
+        <item name="*com.google.android.dialer:behavior_hideable">true</item>
+        <item name="*com.google.android.dialer:behavior_skipCollapsed">false</item>
+    </style>
+</resources>
