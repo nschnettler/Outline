@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_light</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_light</item>
+    </style>
+</resources>
