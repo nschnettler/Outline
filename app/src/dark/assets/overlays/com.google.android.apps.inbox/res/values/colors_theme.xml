@@ -5,4 +5,9 @@
     <color name="bt_empty_list_view_done_background">@*android:color/primary_material_dark</color>
     <color name="bt_empty_list_view_inbox_background">@*android:color/primary_material_dark</color>
     <color name="bt_empty_list_view_upcoming_background">@*android:color/primary_material_dark</color>
+
+    <!-- Grey Cluster -->
+    <color name="bt_cluster_name_custom">#FFFFFF</color>
+    <color name="bt_cluster_name_promos">#FFFFFF</color>
+    <color name="bt_cluster_name_unimportant">#FFFFFF</color>
 </resources>

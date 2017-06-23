@@ -77,6 +77,18 @@
 
   <color name="bt_light_text">#ffffffff</color>                                                     <!-- Ex. FAB Label Text -->
 
+  <!-- Unseen Count-->
+  <color name="bt_unseen_count_background_custom">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_finance">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_forums">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_notifications">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_other">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_promos">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_shopping">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_social">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_travel">@*android:color/background_dark</color>
+  <color name="bt_unseen_count_background_unimportant">@*android:color/background_dark</color>
+
   <!-- Other -->
   <color name="bt_message_warning_banner_background">#ff151515</color>
   <color name="chips_dropdown_text_activated">#ffffffff</color>
