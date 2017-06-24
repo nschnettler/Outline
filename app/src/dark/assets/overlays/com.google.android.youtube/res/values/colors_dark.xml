@@ -8,6 +8,7 @@
         <!-- Main -->
         <color name="background_primary_light">@*android:color/background_material_dark</color>                 <!-- Background Primary -->
         <color name="primary_background">@*android:color/background_material_dark</color>
+        <color name="design_snackbar_background_color">#4caf50</color>
         <!-- Toolbar / Statusbar -->
             <!-- Search -->
             <color name="theme_search_color_primary">@*android:color/background_material_dark</color>           <!-- search Toolbar Color -->
@@ -34,8 +35,10 @@
         <color name="mdx_header_background_error">@android:color/holo_red_light</color>                                 <!-- Header Normal -->
         <color name="mdx_header_background_normal">@*android:color/background_material_dark</color>                     <!-- Header Error -->
         <!-- Share Panel -->
-        <color name="share_panel_background_color">@*android:color/background_material_dark</color>     <!-- Loading Background -->
-        <color name="share_panel_list_background_color">@*android:color/background_material_dark</color><!-- Share Panel Main Background -->
+        <color name="share_panel_background_color">@*android:color/background_material_dark</color>                     <!-- Loading Background -->
+        <color name="share_panel_list_background_color">@*android:color/background_material_dark</color>                <!-- Share Panel Main Background -->
+        <!-- Ad -->
+        <color name="muted_native_ad_background_color">@*android:color/background_dark</color>                          <!-- Muted -->
 
     <!-- Divider -->
     <color name="comment_divider_color">#00000000</color>
@@ -57,15 +60,22 @@
         <!-- Video Item -->
         <color name="video_item_uploader_font">#b3FFFFFF</color>
         <color name="video_item_title_font">#FFFFFF</color>
+        <color name="video_item_description_font">#b3FFFFFF</color>
         <!-- Cast to TV -->
         <color name="mdx_prefs_header">#FFFFFF</color>                                                  <!-- Text Colors -->
         <color name="mdx_prefs_subtitle">#89FFFFFF</color>
         <color name="mdx_prefs_title">#deFFFFFF</color>
+        <!-- Live Chat -->
+        <color name="live_chat_light_author_name">#FFFFFF</color>
+        <color name="live_chat_input_text_color">#b3FFFFFF</color>
+        <color name="live_chat_input_text_color_hint">#b3FFFFFF</color>
+        <color name="live_chat_light_metadata_subtitle">#b3FFFFFF</color>
+        <color name="live_chat_light_overlay_author_name">#FFFFFF</color>
+        <color name="live_chat_button_subtext_light_color">#FFFFFF</color>
         <!-- Various -->
         <color name="simplebox_text_color">#FFFFFF</color>                                              <!-- Create Comment Text Color -->
         <color name="slim_metadata_main_color">#FFFFFF</color>                                          <!-- New Description Thingy Title Text Color -->
         <color name="subscribe_button_subscribed_font_color">#FFFFFF</color>
-
 
 
     <!-- Other -->
@@ -115,11 +125,6 @@
     <color name="secondary_text_default_material_light">#ffdddddd</color>
     <color name="secondary_text_disabled_material_light">#36ffffff</color>
     <color name="info_card_secondary_dark">#ffdddddd</color>
-    <color name="live_chat_input_text_color">#8affffff</color>
-    <color name="live_chat_input_text_color_hint">#8affffff</color>
-    <color name="live_chat_light_metadata_subtitle">#8affffff</color>
-    <color name="live_chat_light_overlay_author_name">#8affffff</color>
-    <color name="live_chat_button_subtext_light_color">#80ffffff</color>
     <color name="mdx_status_bar_color">#00000000</color>
     <color name="info_card_teaser_foreground">#ffffffff</color>
     <color name="video_dismissal_card_background">@*android:color/background_floating_material_dark</color>
