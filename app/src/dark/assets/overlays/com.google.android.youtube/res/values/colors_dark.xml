@@ -33,6 +33,9 @@
         <!-- Cast to TV -->
         <color name="mdx_header_background_error">@android:color/holo_red_light</color>                                 <!-- Header Normal -->
         <color name="mdx_header_background_normal">@*android:color/background_material_dark</color>                     <!-- Header Error -->
+        <!-- Share Panel -->
+        <color name="share_panel_background_color">@*android:color/background_material_dark</color>     <!-- Loading Background -->
+        <color name="share_panel_list_background_color">@*android:color/background_material_dark</color><!-- Share Panel Main Background -->
 
     <!-- Divider -->
     <color name="comment_divider_color">#00000000</color>
