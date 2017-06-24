@@ -28,4 +28,6 @@
     <color name="quantum_blue">@android:color/holo_red_dark</color>
     <color name="callout_drawable_background_color">@android:color/holo_red_dark</color>
     <color name="info_card_youtube_blue">@android:color/holo_red_dark</color>                       <!-- Poll Result -->
+    <color name="muted_native_ad_text_color">@android:color/holo_red_dark</color>
+    <color name="phonebook_snackbar_action_text_color">@android:color/holo_red_dark</color>
 </resources>
