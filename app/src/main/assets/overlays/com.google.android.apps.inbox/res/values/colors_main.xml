@@ -23,6 +23,7 @@
 
 
     <!-- Accent -->
+    <color name="toastbar_button_background">@android:color/holo_blue_dark</color>
         <!-- Swipe to ... -->
         <color name="bt_done_green">@android:color/holo_green_light</color>
         <color name="bt_snooze_yellow">@android:color/holo_orange_light</color>
@@ -46,6 +47,7 @@
         <color name="bt_red">@android:color/holo_red_light</color>
         <!-- Blue -->
         <color name="bt_item_list_blue_text">@android:color/holo_blue_light</color>
+        <color name="bt_google_blue">@android:color/holo_blue_light</color>
         <!-- Green -->
         <color name="bt_onboarding_message_done_background">@android:color/holo_green_light</color>
 
