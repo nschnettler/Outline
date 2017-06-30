@@ -107,13 +107,5 @@
 
     <color name="family_sharing_switch_thumb_disabled">#ff757575</color>
 
-    <!-- Account categories -->
-    <color name="payment_methods_icon">#eeeeee</color>
-    <color name="family_icon">#eeeeee</color>
-    <color name="subscriptions_icon">#eeeeee</color>
-    <color name="rewards_icon">#eeeeee</color>
-    <color name="order_history_icon">#eeeeee</color>
-
-
     <color name="account_error_byline">@android:color/holo_red_light</color>
 </resources>
