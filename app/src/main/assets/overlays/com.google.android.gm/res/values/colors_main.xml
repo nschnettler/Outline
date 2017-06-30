@@ -20,6 +20,7 @@
     <color name="chips_dropdown_background_activated">@android:color/holo_blue_light</color>
     <color name="chips_dropdown_permission_text">@android:color/holo_blue_light</color>
     <color name="quantum_googblue500">@android:color/holo_blue_light</color>
+    <color name="smart_reply_button_border">@android:color/holo_blue_light</color>                  <!-- Smart Reply Border -->
 
     <!-- Refresh -->
     <color name="swipe_refresh_color1">@android:color/holo_red_light</color>
