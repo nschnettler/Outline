@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+        <color name="background_material_light">@*android:color/background_floating_material_dark</color>           <!-- Overflow -->
+        <!-- Drawer -->
+        <color name="drawer_item_activated_background_color">@*android:color/background_dark</color>                <!-- Selected -->
+        <color name="mini_drawer_activated_background_color">@*android:color/background_dark</color>
+        <color name="list_background_color">@*android:color/background_material_dark</color>                        <!-- Normal -->
+        <color name="gray_75">#FFFFFF</color>                                                                       <!-- Icons (Custom assigned Color, not used in original Gmail) -->
+        <color name="quantum_black_100">#FFFFFF</color>                                                             <!-- Icon Selected-->
+        <!-- Mail Conversation -->
+        <color name="conversation_view_overlay_background_color">@*android:color/background_material_dark</color>
+        <color name="conversation_view_border_color">@*android:color/background_dark</color>                        <!-- Divider -->
+        <color name="attachment_bg_color">@*android:color/background_dark</color>                                   <!-- Attachement Card -->
+        <color name="message_header_background_color">@*android:color/background_material_dark</color>              <!-- Header (Expanded) -->
+        <!-- Conversation List -->
+        <color name="conversation_list_background_color">@*android:color/background_material_dark</color>           <!-- Background -->
+        <color name="loading_messages_background_color">@*android:color/background_material_dark</color>            <!-- Background Loading Messages -->
+        <color name="conversation_item_grey_background_color">@*android:color/background_dark</color>               <!-- Item Selected -->
+        <color name="default_folder_background_color">@*android:color/background_dark</color>                       <!-- Item Category default (=Posteingang) -->
+        <color name="checkmark_tile_background_color">@*android:color/background_material_dark</color>
+        <!-- Search -->
+        <color name="search_banner_bg">@*android:color/background_material_dark</color>                             <!-- Results Banner -->
+        <!-- Ad -->
+        <color name="list_ad_background_color">@*android:color/background_dark</color>                              <!-- List Item Background -->
+        <!-- Smart Reply -->
+        <color name="smart_reply_background_with_normal_state">@*android:color/background_material_dark</color>
+        <color name="smart_reply_background_with_pressed_state">@*android:color/background_dark</color>
+
+    <!-- Text -->
+        <!-- Mail -->
+        <color name="conversation_view_text_color_light">#FFFFFF</color>                            <!-- Details: To, From, Date -->
+        <color name="conversation_view_text_color_dark">#FFFFFF</color>                             <!-- Header (Subject), Sender -->
+        <color name="conversation_view_footer_text_color">#FFFFFF</color>                           <!-- Bottombar -->
+        <color name="conversation_view_text_color_link_blue">@*android:color/holo_blue_light</color><!-- Links / Load More -->
+        <!-- Compose -->
+        <color name="compose_label_text">#FFFFFF</color>
+        <color name="compose_user_text">#FFFFFF</color>
+        <color name="compose_label_hint">#ffbbbbbb</color>
+        <color name="chips_dropdown_text_default">#FFFFFF</color>                                   <!-- Email Adresse Sugestion Rest -->
+        <color name="chips_dropdown_text_highlighted">@*android:color/holo_blue_light</color>       <!-- Email Adresse Sugestion Übereinstimmung -->
+        <!-- Overflow -->
+        <color name="primary_text_default_material_light">#FFFFFF</color>
+        <!-- Drawer, Settings -->
+        <color name="text_color_black">#FFFFFF</color>
+        <!-- List Item / Mail -->
+        <color name="senders_text_color">#FFFFFF</color>                                            <!-- Sender -->
+        <color name="subject_text_color_read">#b3FFFFFF</color>                                     <!-- Subject (Read) -->
+        <color name="subject_text_color_unread">#FFFFFF</color>                                     <!-- Subject (Unread) -->
+        <color name="snippet_text_color">#FFFFFF</color>                                            <!-- Message Snippet -->
+        <color name="date_text_color_read">#FFFFFF</color>                                          <!-- Date (Read) -->
+        <!-- Drawer Manage Accounts -->
+        <color name="manage_accounts_text_color">#FFFFFF</color>                                    <!-- Add, Manage -->
+        <color name="default_account_details_color">#FFFFFF</color>                                 <!-- Account Names -->
+        <!-- Search -->
+        <color name="search_query_hint_text">#b3FFFFFF</color>                                      <!-- Hint -->
+        <color name="search_query_text">#FFFFFF</color>                                             <!-- Search -->
+        <color name="search_suggestion_item_text">#ffffffff</color>                                 <!-- Suggestion -->
+        <color name="search_banner_text">#ffffffff</color>                                          <!-- Results Banner -->
+        <!-- Other-->
+        <color name="text_color_disabled">#b3FFFFFF</color>                                         <!-- Example: Add Account Manuel Button Disabled-->
+        <color name="srs_button_text_disabled_color">#FFFFFF</color>                                <!-- Example: Add Account Next Button Disabled -->
+        <color name="quantum_black_secondary_text">#FFFFFF</color>                                  <!-- Example: Add Account Zertificate, Drawer Category-->
+
+
+    <!-- Divider -->
+    <color name="divider_color">#00000000</color>                                                   <!-- Email List, Create Mail -->
+    <color name="autocomplete_divider_color">@*android:color/background_dark</color>                <!-- Email Adress Autocomplete List -->
+    <color name="folder_list_divider_color">@*android:color/background_dark</color>                 <!-- Drawer -->
+    <color name="widget_conversation_list_divider_color">#4caf50</color>
+    <color name="account_setup_divider_color">#4caf50</color>
+    <color name="quantum_black_divider">#4caf50</color>
+
+
+    <!-- Button -->
+    <color name="srs_button_disabled_color">@*android:color/background_dark</color>                 <!-- Add Account Next Button -->
+
+
+<!-- Other -->
+    <color name="carousel_ads_background">#4caf50</color>
+    <color name="conversation_view_footer_load_more_text_color">#4caf50</color>
+    <color name="conversation_item_grey_pressed_color">#ff555555</color>
+    <color name="material_grey_850">#4caf50</color>
+    <color name="material_grey_800">#4caf50</color>
+    <color name="material_grey_600">#4caf50</color>
+    <color name="background_material_dark">#4caf50</color>
+    <color name="conversation_view_background_color">#4caf50</color>
+    <color name="account_text_color">#4caf50</color>
+    <color name="primary_text_disabled_material_light">#4dffffff</color>
+    <color name="secondary_text_disabled_material_light">#36ffffff</color>
+    <color name="text_color_grey">#ffffffff</color>
+    <color name="text_color_hint_grey">#ffbbbbbb</color>
+    <color name="conv_header_add_label_text">#4caf50</color>
+    <color name="conv_header_add_label_background">#757575</color>
+    <color name="promo_action_positive_text">#4caf50</color>
+    <color name="ad_undo_description_text_color">#4caf50</color>
+    <color name="ad_app_install_text_color">#4caf50</color>
+    <color name="promo_card">#4caf50</color>
+    <color name="promo_background">#4caf50</color>
+
+
+
+    <color name="line_background">@*android:color/background_dark</color>
+    <color name="line_dark">@*android:color/background_dark</color>
+    <color name="suw_navbar_bg_dark">@*android:color/background_dark</color>
+    <color name="suw_navbar_bg_light">@*android:color/background_dark</color>
+    <color name="material_blue_grey_900">@*android:color/background_dark</color>
+    <color name="material_blue_grey_950">@*android:color/background_dark</color>
+    <color name="material_grey_50">@*android:color/background_dark</color>
+    <color name="conversation_calendar_promotion_background_color">@*android:color/background_dark</color>
+    <color name="folder_teaser_icon_background">@*android:color/background_dark</color>
+    <color name="rte_text_default">#ffffffff</color>
+    <color name="circle_background">#ff333333</color>
+    <color name="ampm_text_color">#ffffffff</color>
+    <color name="done_text_color_normal">#ffffffff</color>
+    <color name="done_text_color_disabled">#ffaaaaaa</color>
+    <color name="numbers_text_color">#ffffffff</color>
+    <color name="transparent_black">#7f000000</color>
+    <color name="neutral_pressed">#33999999</color>
+    <color name="date_picker_text_normal">#ffffffff</color>
+    <color name="date_picker_text_disabled">#ffaaaaaa</color>
+    <color name="calendar_header">@*android:color/primary_material_dark</color>
+    <color name="date_picker_view_animator">@*android:color/button_material_dark</color>
+    <color name="calendar_selected_date_text">#ffffffff</color>
+    <color name="light_gray">@*android:color/background_floating_material_dark</color>
+    <color name="dark_gray">@*android:color/background_floating_material_dark</color>
+    <color name="chips_dropdown_background_pressed">#ff555555</color>
+    <color name="chip_background">@*android:color/background_floating_material_dark</color>
+    <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
+    <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
+    <color name="foreground_material_dark">#ffffffff</color>
+    <color name="foreground_material_light">#ffffffff</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
+    <color name="ripple_material_light">#4dffffff</color>
+    <color name="button_material_dark">#ff333333</color>
+    <color name="button_material_light">#ff333333</color>
+    <color name="bright_foreground_material_dark">#ffffffff</color>
+    <color name="bright_foreground_material_light">#ffffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
+    <color name="dim_foreground_material_light">#ffbebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80bebebe</color>
+    <color name="highlighted_text_material_dark">#66787878</color>
+    <color name="highlighted_text_material_light">#66787878</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
+    <color name="material_grey_900">@*android:color/background_floating_material_dark</color>
+    <color name="material_grey_100">@*android:color/background_floating_material_dark</color>
+    <color name="material_blue_grey_800">@*android:color/background_floating_material_dark</color>
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="default_folder_foreground_color">#ffffffff</color>
+    <color name="folder_list_heading_text_color">#ffffffff</color>
+    <color name="hierarchical_folder_parent_color">@*android:color/background_floating_material_dark</color>
+    <color name="letter_tile_default_color">@*android:color/button_material_dark</color>
+    <color name="letter_tile_font_color">#ffffffff</color>
+    <color name="teaser_main_text">#ffffffff</color>
+    <color name="tip_teaser_bg">@*android:color/background_floating_material_dark</color>
+    <color name="tip_teaser_text">#ffffffff</color>
+    <color name="folder_teaser_main_text">#ffffffff</color>
+    <color name="folder_teaser_sub_text">#ffdddddd</color>
+    <color name="snack_bar_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="viewpager_indicator_current">#ffffffff</color>
+    <color name="viewpager_indicator_other">#ffffffff</color>
+    <color name="quantum_black_hint_text">#ffbbbbbb</color>
+    <color name="quantum_grey50">@*android:color/background_floating_material_dark</color>
+    <color name="quantum_grey200">@*android:color/background_floating_material_dark</color>
+    <color name="duffy_survey_border_color">#ff555555</color>
+    <color name="duffy_survey_calm_font_color">#ffdddddd</color>
+    <color name="duffy_survey_calm_background_color">@*android:color/background_dark</color>
+    <color name="duffy_survey_white_background_color">@*android:color/background_dark</color>
+    <color name="spam_warning_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="quantum_black_text">#ffffffff</color>
+</resources>
