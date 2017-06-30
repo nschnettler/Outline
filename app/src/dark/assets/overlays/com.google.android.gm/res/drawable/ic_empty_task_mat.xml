@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="200.0dip" android:width="200.0dip" android:viewportWidth="200.0" android:viewportHeight="200.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/background_dark" android:pathData="M 100 0 C 155.228474983 0 200 44.7715250169 200 100 C 200 155.228474983 155.228474983 200 100 200 C 44.7715250169 200 0 155.228474983 0 100 C 0 44.7715250169 44.7715250169 0 100 0 Z" />
+    <path android:fillColor="#ffd7d7d6" android:pathData="M140.764,154.327H59.855c-1.6,0-2.945-1.309-2.945-2.945V57.091 c0-1.6,1.309-2.945,2.945-2.945h80.909c1.6,0,2.945,1.309,2.945,2.945v94.327C143.673,153.018,142.364,154.327,140.764,154.327z" />
+    <path android:fillColor="#ffffffff" android:pathData="M 120.618 147.345 L 64.909 147.418 L 64.836 54.182 L 137.382 54.109 L 137.455 130.509 Z" />
+    <path android:fillColor="#fff5f6f6" android:pathData="M 75.455 100.982 H 126.837 V 103.746 H 75.455 V 100.982 Z" />
+    <path android:fillColor="#fff5f6f6" android:pathData="M 75.455 108.946 H 126.837 V 111.71 H 75.455 V 108.946 Z" />
+    <path android:fillColor="#fff5f6f6" android:pathData="M 75.418 85.018 H 126.8 V 87.782 H 75.418 V 85.018 Z" />
+    <path android:fillColor="#fff5f6f6" android:pathData="M 75.418 77.055 H 126.8 V 79.819 H 75.418 V 77.055 Z" />
+    <path android:fillColor="#fff5f6f6" android:pathData="M 75.455 92.982 H 126.837 V 95.746 H 75.455 V 92.982 Z" />
+    <path android:fillColor="#fff5f6f6" android:pathData="M 75.454 116.909 H 112.399 V 119.673 H 75.454 V 116.909 Z" />
+    <path android:fillColor="#fff3f3f3" android:pathData="M 120.618 147.345 L 137.455 130.509 L 120.618 130.509 Z" />
+    <path android:fillColor="@android:color/holo_red_light" android:pathData="M123.018,49.236h-11.2c0-6.366-5.161-11.527-11.527-11.527 c-6.366,0-11.527,5.161-11.527,11.527H77.6c-1.636,0-2.982,1.345-2.982,2.982v10.764H126V52.218 C126,50.582,124.655,49.236,123.018,49.236z M100.291,45.309c2.169,0,3.927,1.758,3.927,3.927c0,2.169-1.758,3.927-3.927,3.927 s-3.927-1.758-3.927-3.927C96.364,47.067,98.122,45.309,100.291,45.309z" />
+</vector>
