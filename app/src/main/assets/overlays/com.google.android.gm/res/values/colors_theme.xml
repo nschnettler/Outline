@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Action Mode -->
+    <color name="action_mode_background">@*android:color/holo_gray_light</color>
+    <color name="action_mode_statusbar_color">@*android:color/holo_gray_light</color>
+</resources>
