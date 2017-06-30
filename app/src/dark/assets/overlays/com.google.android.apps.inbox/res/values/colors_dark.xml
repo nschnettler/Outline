@@ -14,6 +14,9 @@
   <color name="toastbar_background">@*android:color/background_material_dark</color>                <!-- Snackbar -->
   <color name="bt_speed_dial_background">#e6212121</color>                                          <!-- Overlay when FAB opened -->
 
+  <!-- Smartmail -->
+  <color name="bt_generic_smartmail_cv_card_background">@*android:color/background_material_dark</color><!-- Card bg -->
+
   <!-- Label -->
   <color name="bt_item_list_cluster_background">@*android:color/background_material_dark</color>    <!-- Label Opened Bg -->
   <color name="bt_item_list_authors">#FFFFFF</color>                                                <!-- Authors of Messages -->
@@ -70,10 +73,11 @@
   <color name="bt_dark_text">#FFFFFF</color>                                                        <!-- Ex. From Text, Answer Message Input Text -->
   <!-- Compose -->
   <color name="bt_compose_from_font">#ffffffff</color>
-
   <!-- Attachement -->
   <color name="bt_smartmail_attachment_body_text">#FFFFFF</color>
   <color name="bt_smartmail_attachment_file_type_text">#FFFFFF</color>                              <!-- Attachement Picker Title -->
+  <!-- Smartmail -->
+  <color name="bt_generic_smartmail_cv_icon_and_columns_label">#FFFFFF</color>                      <!-- Title -->
 
   <color name="bt_light_text">#ffffffff</color>                                                     <!-- Ex. FAB Label Text -->
 
@@ -105,7 +109,6 @@
   <color name="bt_fact_one_box_summary_font">#ffdddddd</color>
   <color name="bt_generic_smartmail_cv_font_light">#ffffffff</color>
   <color name="bt_generic_smartmail_cv_font_white">#ffffffff</color>
-  <color name="bt_generic_smartmail_cv_icon_and_columns_label">#ffdddddd</color>
   <color name="bt_icon_grey">#ffffffff</color>
   <color name="bt_inline_image_placeholder_background">@*android:color/background_dark</color>
   <color name="bt_item_list_cluster_title">#ffffffff</color>
