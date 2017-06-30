@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Account categories -->
+    <color name="payment_methods_icon">@android:color/holo_green_light</color>
+    <color name="family_icon">@android:color/holo_red_light</color>
+    <color name="subscriptions_icon">@android:color/holo_orange_light</color>
+    <color name="rewards_icon">@android:color/holo_blue_light</color>
+    <color name="order_history_icon">@*android:color/holo_purple</color>
+</resources>

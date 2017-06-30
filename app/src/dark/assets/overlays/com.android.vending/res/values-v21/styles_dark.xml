@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer Item selected -->
+    <style name="PlayDrawerSelectedText" parent="@*com.android.vending:style/PlayDrawerBaseText">
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+
+    <!-- Drawer Name Text -->
+    <style name="PlayDrawerProfileNameText" parent="@*com.android.vending:style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Drawer Email Text -->
+    <style name="PlayDrawerProfileEmailText" parent="@*com.android.vending:style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+
+    <!-- Ad Banner Text -->
+    <style name="HighlightBannerOverlayTitle" parent="@*com.android.vending:style/PlayMediumPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_cluster_header_title_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@*com.android.vending:color/highlight_banner_overlay_title_shadow</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+    <style name="HighlightBannerOverlaySubtitle" parent="@*com.android.vending:style/PlayPlainText">
+        <item name="android:textSize">@*com.android.vending:dimen/play_cluster_header_subtitle_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:paddingBottom">@*com.android.vending:dimen/highlight_banner_vpadding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@*com.android.vending:color/highlight_banner_overlay_title_shadow</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+</resources>
