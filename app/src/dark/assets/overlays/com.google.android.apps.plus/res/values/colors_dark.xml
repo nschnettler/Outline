@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Icons (Custom) -->
+    <color name="material_grey_600">#FFFFFF</color>
+
+    <!-- Background -->
+    <color name="main_background">@*android:color/background_material_dark</color>
+    <color name="compose_item_bg">@*android:color/background_material_dark</color>                  <!-- Drawer -->
+    <color name="host_background">@*android:color/background_dark</color>                           <!-- Main Background / Behind HomeScreen Cards -->
+    <color name="quantum_grey100">@*android:color/background_material_dark</color>                  <!-- Notification Section Background -->
+    <color name="quantum_grey200">@*android:color/background_dark</color>                           <!-- Main Background + Background behind +1, share, comment-->
+        <!-- Create Post Top -->
+        <color name="quantum_white_100">@*android:color/background_material_dark</color>
+        <color name="quantum_grey300">@*android:color/background_material_dark</color>
+    <color name="default_bg">@*android:color/background_material_dark</color>                       <!-- Post opened Background -->
+    <color name="quantum_grey50">@*android:color/background_material_dark</color>                   <!-- Comments Background -->
+    <color name="material_grey_900">@*android:color/background_material_dark</color>                <!-- Bottom Nav Bar -->
+    <color name="large_image_embed_border">#00000000</color>                                        <!-- Link Preview umrandung -->
+    <color name="album_footer_background_color">@*android:color/background_material_dark</color>    <!-- Album Footer -->
+    <color name="navigation_selected_background">@*android:color/background_material_dark</color>
+    <color name="quantum_grey500">@*android:color/background_material_dark</color>                  <!-- Statusbar background Search, Settings, Splash -->
+    <color name="background_material_light">@*android:color/background_material_dark</color>        <!-- Overflow Background -->
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog Background (cancel create post) -->
+    <color name="profile_edit_bg">@*android:color/background_material_dark</color>                  <!-- Search Suggestions/Recents Background -->
+    <color name="album_more_background_color">@*android:color/background_dark</color>               <!-- Notification mark as read background -->
+    <color name="quantum_lightblue900">@*android:color/background_dark</color>                      <!-- Poll active bar -->
+    <color name="poll_option_title_black_background_color">@*android:color/background_material_dark</color>  <!-- Poll bar background -->
+    <color name="quantum_grey">@*android:color/background_material_dark</color>                      <!-- Splash screen Statusbar -->
+
+    <!-- Text -->
+    <color name="quantum_grey700">#b3FFFFFF</color>                                                 <!-- Notification card subtitle -->
+    <color name="quantum_black_text">#ffffffff</color>                                              <!-- Aktivitäten Dialog Title Text Color -->
+    <color name="quantum_black_secondary_text">#ffffff</color>                                      <!-- u.a Bottom Sheet Share TitleText Color -->
+    <color name="bright_foreground_material_light">#ffffffff</color>                                <!-- u.a Sharebox Username Text Color -->
+    <color name="quantum_grey900">#ffffffff</color>                                                 <!-- u.a Community Card Title Color -->
+    <color name="quantum_black_hint_text">#b3FFFFFF</color>                                         <!-- u.a edit profil community list subtitle text color | Search hint text-->
+    <color name="sharekit_text_normal">#ffffffff</color>                                            <!-- Communities Einladung Title Color -->
+    <color name="quantum_grey600">#FFFFFF</color>                                                   <!-- u.a. Community Ban Text -->
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="primary_text_disabled_material_dark">#b3FFFFFF</color>
+    <color name="primary_text_disabled_material_light">#b3FFFFFF</color>
+    <color name="text_black_26_percent">#b3FFFFFF</color>
+    <color name="text_black_54_percent">#b3FFFFFF</color>
+    <color name="text_black_87_percent">#b3FFFFFF</color>
+    <color name="text_gray">#ffdddddd</color>
+    <color name="text_gray_accessible_on_grey200">#b3FFFFFF</color>
+    <color name="text_grey_accessible_on_grey200">#b3FFFFFF</color>
+    <color name="text_hint">#b3FFFFFF</color>
+    <color name="text_normal">#ffffffff</color>
+    <color name="text_red">#b3FFFFFF</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="text_white_26_percent">#b3FFFFFF</color>
+    <color name="text_white_40_percent">#b3FFFFFF</color>
+
+
+    <color name="card_background_selected">@*android:color/background_dark</color>
+    <color name="quantum_grey400">@android:color/background_dark</color>
+    <color name="ripple_material_light">#42ffffff</color>
+    <color name="ripple_material_dark">#42ffffff</color>
+    <color name="one_up_divider">#00d8d8d8</color>
+    <color name="story_empty_state_divider">@*android:color/background_dark</color>
+
+    <color name="search_opaque_bg_color">@android:color/background_dark</color>
+    <color name="material_grey_50">@*android:color/background_material_dark</color>
+    <color name="material_grey_800">@*android:color/background_material_dark</color>
+    <color name="material_grey_850">@*android:color/background_material_dark</color>
+
+</resources>
