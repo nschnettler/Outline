@@ -4,9 +4,7 @@
     <color name="material_grey_600">#FFFFFF</color>
 
     <!-- Background -->
-    <color name="main_background">@*android:color/background_material_dark</color>
     <color name="compose_item_bg">@*android:color/background_material_dark</color>                  <!-- Drawer -->
-    <color name="host_background">@*android:color/background_dark</color>                           <!-- Main Background / Behind HomeScreen Cards -->
     <color name="quantum_grey100">@*android:color/background_material_dark</color>                  <!-- Notification Section Background -->
     <color name="quantum_grey200">@*android:color/background_dark</color>                           <!-- Main Background + Background behind +1, share, comment-->
         <!-- Create Post Top -->
@@ -17,7 +15,6 @@
     <color name="material_grey_900">@*android:color/background_material_dark</color>                <!-- Bottom Nav Bar -->
     <color name="large_image_embed_border">#00000000</color>                                        <!-- Link Preview umrandung -->
     <color name="album_footer_background_color">@*android:color/background_material_dark</color>    <!-- Album Footer -->
-    <color name="navigation_selected_background">@*android:color/background_material_dark</color>
     <color name="quantum_grey500">@*android:color/background_material_dark</color>                  <!-- Statusbar background Search, Settings, Splash -->
     <color name="background_material_light">@*android:color/background_material_dark</color>        <!-- Overflow Background -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog Background (cancel create post) -->
