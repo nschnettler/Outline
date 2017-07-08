@@ -13,4 +13,9 @@
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
         <item name="android:actionBarStyle">@*com.android.packageinstaller:style/ActionBar</item>
     </style>
+
+    <!-- Uninstall Dialog -->
+    <style name="AlertDialogActivity" parent="@android:style/Theme.DeviceDefault.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
 </resources>
