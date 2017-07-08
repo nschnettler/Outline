@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Install App Activity -->
+    <style name="DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:textAppearanceMedium">@*com.android.packageinstaller:style/MediumText</item>
+        <item name="android:textAppearanceSmall">@*com.android.packageinstaller:style/SmallText</item>
+        <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+
+    <!-- Settings: Permissions -->
+    <style name="Settings" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:actionBarStyle">@*com.android.packageinstaller:style/ActionBar</item>
+    </style>
+</resources>
