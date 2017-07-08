@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="background_color_dark">@*android:color/background_material_dark</color>
+    <color name="cardview_dark_background">@*android:color/background_material_dark</color>
+    <color name="foreground_color_dark">@*android:color/background_material_dark</color>
+
+    <!-- Primary -->
+    <color name="primary_dark_color_dark">@*android:color/primary_dark_material_dark</color>        <!-- Dark -->
+
+    <!-- Notification -->
+    <color name="notification_story_title_color">#FFFFFF</color>
+    <color name="notification_source_color">#b3FFFFFF</color>
+</resources>
