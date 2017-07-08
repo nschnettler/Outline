@@ -9,4 +9,9 @@
     <!-- Link -->
     <color name="text_color_link_light">@android:color/holo_blue_light</color>
     <color name="text_color_link_dark">@android:color/holo_blue_light</color>
+    <!-- Refresh -->
+    <color name="swipe_refresh_color1">@android:color/holo_blue_light</color>
+    <color name="swipe_refresh_color2">@android:color/holo_blue_light</color>
+    <color name="swipe_refresh_color3">@android:color/holo_blue_light</color>
+    <color name="swipe_refresh_color4">@android:color/holo_blue_light</color>
 </resources>
