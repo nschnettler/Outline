@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background-->
+    <color name="app_background">@*android:color/background_material_dark</color>                   <!-- Main -->
+    <color name="play_card_light_background">@*android:color/background_material_dark</color>
+    <color name="app_background_light">@*android:color/background_material_dark</color>
+    <color name="app_background_light_transparent">@*android:color/background_material_dark</color> <!-- Now Playing Bottom -->
+    <color name="white">@*android:color/background_material_dark</color>                            <!-- Various Backgrounds: Cards, Select Account, Now Playing Queue, Album Card Background -->
+    <color name="nowplaying_art_bg">@*android:color/background_material_dark</color>
+    <color name="music_play_card_small_number_bg">@*android:color/background_material_dark</color>
+    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color> <!-- Snackbar -->
+
+    <!-- Dialog -->
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color><!-- Dialog Background | Example: Switch Account warning -->
+
+    <!-- Drawer -->
+    <color name="play_drawer_separator">@android:color/background_dark</color>                      <!-- Divider -->
+
+    <!-- Search Plate -->
+    <color name="play_search_plate_navigation_button_color">#FFFFFF</color>
+    <color name="play_search_suggestion_divider_background">#00aaaaaa</color>                       <!-- Divider -->
+    <color name="gray_88">@android:color/background_dark</color>
+
+    <!-- Divider -->
+    <color name="divider_color">#004caf50</color>
+
+    <!-- Text -->
+    <color name="play_fg_primary">#FFFFFF</color>                                                   <!-- Text Color Primary; Example: Drawer, search, Album Name -->
+    <color name="play_fg_secondary">#ffeeeeee</color>
+    <color name="black">#ffffffff</color>                                                           <!-- u.a. Manage Downloads: Volume used Text color -->
+    <color name="default_primary_text_color">#FFFFFF</color>                                        <!-- Search Suggestion Primary -->
+    <color name="default_secondary_text_color">#b3FFFFFF</color>                                    <!-- Search Suggestion Secondary -->
+    <color name="disabled_grey">#b3FFFFFF</color>
+</resources>

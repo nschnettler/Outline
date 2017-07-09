@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.music.ui.art.SimpleArtView
+        android:id="@*com.google.android.music:id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitEnd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <View
+        android:id="@*com.google.android.music:id/overlay"
+        android:background="#00000000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@*com.google.android.music:id/playing_from_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@*com.google.android.music:dimen/queue_playing_from_margin"
+        android:layout_toLeftOf="@*com.google.android.music:id/refresh_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@*com.google.android.music:id/refresh_button"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@*com.google.android.music:color/white_transparent_80"
+            android:id="@*com.google.android.music:id/playing_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@*com.google.android.music:string/playing_from" />
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="#FFFFFF"
+            android:ellipsize="marquee"
+            android:id="@*com.google.android.music:id/container_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:drawablePadding="@*com.google.android.music:dimen/default_padding_small" />
+    </LinearLayout>
+    <ImageView
+        android:id="@*com.google.android.music:id/refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@*com.google.android.music:dimen/queue_playing_from_margin"
+        android:layout_alignTop="@*com.google.android.music:id/playing_from_header_text"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@*com.google.android.music:string/refresh_station"
+        android:layout_marginEnd="@*com.google.android.music:dimen/queue_playing_from_margin"
+        android:layout_alignParentEnd="true" />
+</merge>
