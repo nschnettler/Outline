@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+        <!-- Primary -->
+        <color name="play_music_primary_v2">@android:color/holo_orange_light</color>
+        <color name="app_taskswitcher_color">@android:color/holo_orange_light</color>               <!-- App in Recents -->
+        <color name="music_banner_color">@android:color/holo_orange_light</color>
+        <!-- Primary Dark -->
+        <color name="play_music_secondary_v2">@android:color/holo_orange_light</color>
+
+    <!-- Drawer Selected -->
+    <color name="play_music_secondary">@android:color/holo_orange_light</color>              <!-- Text -->
+
+    <!-- Other -->
+    <color name="overlay_status_bar_color">#00000000</color>                                        <!-- Statusbar Overlay -->
+</resources>

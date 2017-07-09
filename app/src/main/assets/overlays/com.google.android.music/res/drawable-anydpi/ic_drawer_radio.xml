@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0">
+    <path
+        android:strokeColor="@*com.google.android.music:color/side_drawer_icon_color"
+        android:strokeWidth="0.8"
+        android:pathData="M20,21.5H4c-1.1,0-2-0.9-2-2v-12c0-1.1,0.9-2,2-2h16c1.1,0,2,0.9,2,2v12C22,20.6,21.1,21.5,20,21.5z M6.8,14.6
+	c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S7.9,14.6,6.8,14.6z M2,9.5h20 M3.2,5.7L16,1.5"/>
+</vector>
