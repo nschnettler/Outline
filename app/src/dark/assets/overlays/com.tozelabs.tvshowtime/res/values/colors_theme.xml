@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Other -->
+    <color name="agenda_highlighted_background">@*android:color/background_material_dark</color>    <!-- Agenda Seen episode Background -->
+    <color name="secondary_text_white">#b3FFFFFF</color>
+</resources>
