@@ -5,4 +5,5 @@
     <color name="primary_dark">@android:color/holo_blue_light</color>
     <!-- Accent -->
     <color name="root_activated_color">@android:color/holo_blue_dark</color>
+    <color name="accent">@android:color/holo_blue_dark</color>
 </resources>
