@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialog -->
+    <style name="MD_Light" parent="@*de.toastcode.screener:style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">@*de.toastcode.screener:dimen/abc_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@*de.toastcode.screener:dimen/abc_dialog_min_width_minor</item>
+        <item name="*de.toastcode.screener:md_btn_negative_selector">@*de.toastcode.screener:drawable/md_btn_selector_ripple_dark</item>
+        <item name="*de.toastcode.screener:md_btn_neutral_selector">@*de.toastcode.screener:drawable/md_btn_selector_ripple_dark</item>
+        <item name="*de.toastcode.screener:md_btn_positive_selector">@*de.toastcode.screener:drawable/md_btn_selector_ripple_dark</item>
+        <item name="*de.toastcode.screener:md_btn_stacked_selector">?android:selectableItemBackground</item>
+        <item name="*de.toastcode.screener:md_divider">@*de.toastcode.screener:color/md_divider_white</item>
+        <item name="*de.toastcode.screener:md_list_selector">?android:selectableItemBackground</item>
+    </style>
+</resources>
