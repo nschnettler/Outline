@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Photos.Splash" parent="@*com.google.android.apps.photos:style/Theme.Photos.Fullscreen">
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:windowBackground">@*com.google.android.apps.photos:drawable/quantum_launchscreen_photos</item>
+        <item name="*com.google.android.apps.photos:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+    </style>
+    <style name="circle_button">
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:layout_width">@*com.google.android.apps.photos:dimen/photos_assistant_create_circle_diameter</item>
+        <item name="android:layout_height">@*com.google.android.apps.photos:dimen/photos_assistant_create_circle_diameter</item>
+    </style>
+</resources>

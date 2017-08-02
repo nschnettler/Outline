@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+
+    <!-- Background -->
+    <color name="default_bg">@*android:color/background_material_dark</color>
+    <color name="photos_photoadapteritem_photo_background">@*android:color/background_material_dark</color>         <!-- When photo Selected -->
+    <color name="photos_page_recycler_blank_square_backgroud">@*android:color/background_material_dark</color>
+    <color name="photos_photoadapteritem_photo_placeholder">@*android:color/background_dark</color>                 <!-- Photo Placeholder -->
+    <color name="sendkit_ui_autocomplete_chip_background">@*android:color/background_dark</color>                   <!-- Share user selected -->
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>      <!-- Dialog -->
+    <color name="quantum_grey200">@*android:color/background_dark</color>                                           <!-- Search Divider -->
+
+    <!-- Text -->
+    <color name="quantum_black_text">#FFFFFF</color>
+    <color name="quantum_black_secondary_text">#b3FFFFFF</color>                                    <!-- | Photo Details Subtitle, Album List Header -->
+    <color name="quantum_grey600">#FFFFFF</color>                                                   <!-- | Photo Details Header -->
+    <color name="photos_assistant_cardui_header_dark_title">#FFFFFF</color>                         <!-- Assistant Card: Header -->
+    <color name="quantum_black_100">#FFFFFF</color>                                                 <!-- | Button -->
+    <color name="text_black_87_percent">#FFFFFF</color>                                             <!-- | Album Name -->
+    <color name="text_black_54_percent">#89ffffff</color>                                           <!-- | Album Date -->
+    <color name="quantum_grey900">#ffdddddd</color>
+    <color name="sendkit_ui_default_primary_color">#ffffffff</color>                                <!-- Share: Name -->
+    <color name="sendkit_ui_default_secondary_color">#ccffffff</color>                              <!-- Share: Description/Mail -->
+
+    <!-- Button -->
+    <color name="photos_theme_button_light_color">@*android:color/background_dark</color>
+    <color name="photos_theme_button_light_disabled">@*android:color/background_dark</color>
+    <color name="photos_theme_button_light_disabled_text_color">#b3FFFFFF</color>
+    <color name="photos_theme_button_light_focused">@*android:color/background_dark</color>
+    <color name="photos_theme_button_light_pressed">@*android:color/background_dark</color>
+</resources>
