@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@*com.backdrops.wallpapers:dimen/button_inset_horizontal_material" android:insetRight="@*com.backdrops.wallpapers:dimen/button_inset_horizontal_material" android:insetTop="@*com.backdrops.wallpapers:dimen/button_inset_vertical_material" android:insetBottom="@*com.backdrops.wallpapers:dimen/button_inset_vertical_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@*com.backdrops.wallpapers:dimen/control_corner_material" />
+        <solid android:color="@*com.backdrops.wallpapers:color/button_tag_dark" />
+        <padding android:left="@*com.backdrops.wallpapers:dimen/button_padding_horizontal_material" android:top="@*com.backdrops.wallpapers:dimen/button_padding_vertical_material" android:right="@*com.backdrops.wallpapers:dimen/button_padding_horizontal_material" android:bottom="@*com.backdrops.wallpapers:dimen/button_padding_vertical_material" />
+    </shape>
+</inset>
