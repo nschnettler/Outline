@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Photos.ActionBar" parent="@*com.google.android.apps.photos:style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+        <item name="android:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:displayOptions">showHome|showTitle</item>
+        <item name="*com.google.android.apps.photos:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:background">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.photos:contentInsetStart">@*com.google.android.apps.photos:dimen/photos_theme_actionbar_title_padding</item>
+        <item name="*com.google.android.apps.photos:elevation">2.0dip</item>
+    </style>
+    <style name="Widget.Photos.Backup.Settings.ActionBar" parent="@*com.google.android.apps.photos:style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:displayOptions">showHome|showTitle</item>
+        <item name="android:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.Backup.Settings.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:displayOptions">showHome|showTitle</item>
+        <item name="*com.google.android.apps.photos:titleTextStyle">@*com.google.android.apps.photos:style/Widget.Photos.Backup.Settings.ActionBar.Black.TextStyle</item>
+        <item name="*com.google.android.apps.photos:background">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.photos:contentInsetStart">@*com.google.android.apps.photos:dimen/photos_backup_settings_title_padding</item>
+        <item name="*com.google.android.apps.photos:elevation">2.0dip</item>
+    </style>
+</resources>
