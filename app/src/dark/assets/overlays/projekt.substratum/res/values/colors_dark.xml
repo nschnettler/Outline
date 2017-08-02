@@ -47,16 +47,16 @@
 
     <!-- Text Colors -->
         <!-- Main Screen -->
-        <color name="main_screen_card_theme_author">#66ffffff</color>
+        <color name="main_screen_card_theme_author">#b3FFFFFF</color>
         <color name="main_screen_card_theme_title">#ffffffff</color>
         <!-- Theme Screen -->
-        <color name="theme_information_card_subtext">#66ffffff</color>
+        <color name="theme_information_card_subtext">#b3FFFFFF</color>
         <color name="theme_information_card_text">#ffffffff</color>
         <!-- FAB Menu -->
         <color name="fab_menu_icon_color">#ffffffff</color>
         <color name="fab_menu_text_color">#ffffffff</color>
         <!-- About Libraries -->
-        <color name="about_libraries_text_openSource">#66ffffff</color>
+        <color name="about_libraries_text_openSource">#b3FFFFFF</color>
         <color name="about_libraries_title_openSource">#ffffffff</color>
         <!-- Drawer -->
         <color name="material_drawer_selected_text">#FFFFFF</color>                                 <!-- Text Color Selected -->
