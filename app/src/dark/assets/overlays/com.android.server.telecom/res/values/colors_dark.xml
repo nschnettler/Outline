@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blocked_numbers_title_text_color">#FFFFFF</color>
+    <color name="blocked_numbers_secondary_text_color">#b3FFFFFF</color>
+</resources>
