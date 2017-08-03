@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- Background -->
+    <color name="material_grey_50">@*android:color/background_floating_material_dark</color>        <!-- Overflow -->
+
+    <!-- Text -->
+    <color name="primary_text_default_material_light">#FFFFFF</color>                               <!-- Primary | Overflow Text -->
+    <color name="hint_text_color">#b3FFFFFF</color>                                                 <!-- Dialog Text Entry Hint -->
+</resources>
