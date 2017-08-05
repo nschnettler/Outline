@@ -5,9 +5,24 @@
         <item name="android:windowBackground">@*com.google.android.apps.photos:drawable/quantum_launchscreen_photos</item>
         <item name="*com.google.android.apps.photos:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
     </style>
-    <style name="circle_button">
-        <item name="android:backgroundTint">@null</item>
-        <item name="android:layout_width">@*com.google.android.apps.photos:dimen/photos_assistant_create_circle_diameter</item>
-        <item name="android:layout_height">@*com.google.android.apps.photos:dimen/photos_assistant_create_circle_diameter</item>
+    <style name="Theme.Photos.Base" parent="@*com.google.android.apps.photos:style/Theme.AppCompat">
+        <item name="android:icon">@*android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:logo">@*android:color/transparent</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar</item>
+        <item name="android:actionModeCloseDrawable">@*com.google.android.apps.photos:drawable/quantum_ic_clear_white_24</item>
+        <item name="android:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Overflow</item>
+        <item name="android:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_arrow_back_grey600_24</item>
+        <item name="android:actionModeStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionModeActionBar</item>
+        <item name="*com.google.android.apps.photos:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Overflow</item>
+        <item name="*com.google.android.apps.photos:actionBarStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar</item>
+        <item name="*com.google.android.apps.photos:actionBarSize">@*com.google.android.apps.photos:dimen/photos_theme_actionbar_menuitem_height</item>
+        <item name="*com.google.android.apps.photos:actionMenuTextColor">?android:textColorPrimary</item>
+        <item name="*com.google.android.apps.photos:actionModeStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionModeActionBar</item>
+        <item name="*com.google.android.apps.photos:actionModeCloseDrawable">@*com.google.android.apps.photos:drawable/quantum_ic_clear_white_24</item>
+        <item name="*com.google.android.apps.photos:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_arrow_back_grey600_24</item>
+        <item name="*com.google.android.apps.photos:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.photos:colorAccent">@*com.google.android.apps.photos:color/quantum_googblue500</item>
     </style>
 </resources>

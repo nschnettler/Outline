@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/com.google.android.apps.photos">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@*com.google.android.apps.photos:id/close_button"
+            android:paddingLeft="16.0dip"
+            android:paddingTop="16.0dip"
+            android:paddingRight="16.0dip"
+            android:paddingBottom="12.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*com.google.android.apps.photos:drawable/quantum_ic_close_grey600_24"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@*com.google.android.apps.photos:string/photos_strings_dismiss_button"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:textColor="@*com.google.android.apps.photos:color/quantum_googblue500"
+            android:id="@*com.google.android.apps.photos:id/bad_suggestion"
+            android:padding="16.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@*com.google.android.apps.photos:string/photos_sharingtab_picker_impl_button_bad_suggestion"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        card_view:cardBackgroundColor="@*android:color/background_material_dark"
+        card_view:cardCornerRadius="2.0dip">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0">
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@*com.google.android.apps.photos:color/quantum_grey600"
+                    android:id="@*com.google.android.apps.photos:id/to_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16.0dip"
+                    android:text="@*com.google.android.apps.photos:string/photos_sharingtab_picker_impl_to_field_label"
+                    android:layout_weight="0.0"
+                    android:layout_marginStart="16.0dip"
+                    style="@*com.google.android.apps.photos:style/quantum_text_body_1_black" />
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@*com.google.android.apps.photos:color/quantum_grey600"
+                    android:id="@*com.google.android.apps.photos:id/add_to_album_description"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16.0dip"
+                    android:layout_marginTop="16.0dip"
+                    android:layout_marginBottom="12.0dip"
+                    android:text="@*com.google.android.apps.photos:string/photos_sharingtab_picker_impl_add_to_existing_album"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="16.0dip"
+                    style="@*com.google.android.apps.photos:style/quantum_text_body_1_black" />
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@*com.google.android.apps.photos:color/quantum_black_text"
+                    android:id="@*com.google.android.apps.photos:id/recipients_list"
+                    android:paddingTop="18.0dip"
+                    android:paddingBottom="18.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9.0dip"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="9.0dip"
+                    style="@*com.google.android.apps.photos:style/quantum_text_display_1_black" />
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@*com.google.android.apps.photos:id/overflow"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_width="40.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@*com.google.android.apps.photos:drawable/quantum_ic_more_vert_grey600_24"
+                    android:scaleType="center"
+                    android:layout_weight="0.0"
+                    android:contentDescription="@*com.google.android.apps.photos:string/photos_sharingtab_picker_impl_overflow_desc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@*com.google.android.apps.photos:id/destination_album"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@*com.google.android.apps.photos:id/album_cover"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="16.0dip"
+                    android:layout_marginBottom="16.0dip"
+                    android:layout_weight="0.0"
+                    android:contentDescription="@null"
+                    android:layout_marginStart="16.0dip" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="12.0dip">
+
+                    <TextView
+                        android:textColor="@*com.google.android.apps.photos:color/quantum_grey900"
+                        android:ellipsize="end"
+                        android:id="@*com.google.android.apps.photos:id/album_title_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        style="@*com.google.android.apps.photos:style/quantum_text_subhead_black" />
+
+                    <TextView
+                        android:textColor="@*com.google.android.apps.photos:color/quantum_grey600"
+                        android:id="@*com.google.android.apps.photos:id/album_subtitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        style="@*com.google.android.apps.photos:style/quantum_text_caption_black" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:background="@*android:color/background_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+
+                <FrameLayout
+                    android:id="@*com.google.android.apps.photos:id/photo_grid_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:src="@*com.google.android.apps.photos:drawable/photos_theme_fake_shadow_top_edge"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@null" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0">
+
+                <EditText
+                    android:id="@*com.google.android.apps.photos:id/share_message_text"
+                    android:background="@*com.google.android.apps.photos:color/transparent_bg"
+                    android:paddingLeft="16.0dip"
+                    android:paddingTop="8.0dip"
+                    android:paddingBottom="8.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:hint="@*com.google.android.apps.photos:string/photos_sharingtab_picker_impl_message_hint_text"
+                    android:layout_toLeftOf="@*com.google.android.apps.photos:id/finish_button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:inputType="textAutoCorrect|textCapSentences"
+                    android:paddingStart="16.0dip"
+                    android:layout_toStartOf="@*com.google.android.apps.photos:id/finish_button"
+                    android:layout_alignParentStart="true"
+                    style="@*com.google.android.apps.photos:style/quantum_text_subhead_black" />
+
+                <Button
+                    android:id="@*com.google.android.apps.photos:id/finish_button"
+                    android:background="@*com.google.android.apps.photos:drawable/photos_theme_material_button_dark"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:layout_marginRight="12.0dip"
+                    android:layout_marginBottom="8.0dip"
+                    android:text="@*com.google.android.apps.photos:string/photos_sharingtab_picker_impl_send_button"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8.0dip"
+                    android:layout_marginEnd="12.0dip"
+                    android:layout_alignParentEnd="true"
+                    style="@*com.google.android.apps.photos:style/Theme.Photos.Button.Dark" />
+            </RelativeLayout>
+
+            <TextView
+                android:textColor="@*com.google.android.apps.photos:color/quantum_grey500"
+                android:id="@*com.google.android.apps.photos:id/account_email"
+                android:background="@*com.google.android.apps.photos:color/quantum_grey100"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0"
+                android:paddingStart="16.0dip" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

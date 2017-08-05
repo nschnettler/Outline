@@ -5,13 +5,22 @@
     <color name="primary_material_light">@*android:color/primary_material_dark</color>
 
     <!-- Background -->
-    <color name="default_bg">@*android:color/background_material_dark</color>
+    <color name="default_bg">@*android:color/background_material_dark</color>                                       <!-- Main Bg 1 -->
+    <color name="quantum_white_100">@*android:color/background_material_dark</color>                                <!-- Main Bg 2 -->
     <color name="photos_photoadapteritem_photo_background">@*android:color/background_material_dark</color>         <!-- When photo Selected -->
     <color name="photos_page_recycler_blank_square_backgroud">@*android:color/background_material_dark</color>
     <color name="photos_photoadapteritem_photo_placeholder">@*android:color/background_dark</color>                 <!-- Photo Placeholder -->
-    <color name="sendkit_ui_autocomplete_chip_background">@*android:color/background_dark</color>                   <!-- Share user selected -->
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>      <!-- Dialog -->
     <color name="quantum_grey200">@*android:color/background_dark</color>                                           <!-- Search Divider -->
+    <color name="quantum_grey300">@*android:color/background_dark</color>                                           <!-- Divider: Drawer, Overflow Uploaded Bubble -->
+    <color name="quantum_grey100">@*android:color/background_material_dark</color>                                  <!-- Device Folder Switchbar -->
+    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
+    <!-- Share -->
+    <color name="sendkit_ui_default_background_color">@*android:color/background_material_dark</color>
+    <color name="sendkit_ui_list_background_color">@*android:color/background_material_dark</color>
+    <color name="sendkit_ui_autocomplete_background_color">@*android:color/background_material_dark</color>
+    <color name="sendkit_ui_autocomplete_row_background_color">@*android:color/background_material_dark</color>
+    <color name="sendkit_ui_autocomplete_chip_background">@*android:color/background_dark</color>                   <!-- Share user selected -->
 
     <!-- Text -->
     <color name="quantum_black_text">#FFFFFF</color>
@@ -21,9 +30,12 @@
     <color name="quantum_black_100">#FFFFFF</color>                                                 <!-- | Button -->
     <color name="text_black_87_percent">#FFFFFF</color>                                             <!-- | Album Name -->
     <color name="text_black_54_percent">#89ffffff</color>                                           <!-- | Album Date -->
-    <color name="quantum_grey900">#ffdddddd</color>
+    <color name="quantum_grey900">#b3FFFFFF</color>
     <color name="sendkit_ui_default_primary_color">#ffffffff</color>                                <!-- Share: Name -->
     <color name="sendkit_ui_default_secondary_color">#ccffffff</color>                              <!-- Share: Description/Mail -->
+    <color name="sendkit_ui_autocomplete_text_color">#b3FFFFFF</color>
+    <color name="quantum_grey500">#b3FFFFFF</color>
+
 
     <!-- Button -->
     <color name="photos_theme_button_light_color">@*android:color/background_dark</color>
@@ -31,4 +43,6 @@
     <color name="photos_theme_button_light_disabled_text_color">#b3FFFFFF</color>
     <color name="photos_theme_button_light_focused">@*android:color/background_dark</color>
     <color name="photos_theme_button_light_pressed">@*android:color/background_dark</color>
+
+    <color name="material_grey_300">@*android:color/background_dark</color>
 </resources>
