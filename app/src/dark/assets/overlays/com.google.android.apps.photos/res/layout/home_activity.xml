@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.touchcapture.TouchCaptureView
+    android:id="@*com.google.android.apps.photos:id/touch_capture_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@*com.google.android.apps.photos:id/drawer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:id="@*com.google.android.apps.photos:id/main_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@*android:color/background_material_dark" />
+
+        <FrameLayout
+            android:layout_gravity="start"
+            android:id="@*com.google.android.apps.photos:id/drawer_container"
+            android:layout_width="@*com.google.android.apps.photos:dimen/drawer_width"
+            android:layout_height="fill_parent" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@*com.google.android.apps.photos:id/photo_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</com.google.android.apps.photos.touchcapture.TouchCaptureView>

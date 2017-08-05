@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.photos.touchcapture.TouchCaptureView android:id="@*com.google.android.apps.photos:id/touch_capture_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:id="@*com.google.android.apps.photos:id/time_machine_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@*android:color/background_material_dark"
+        class="com.google.android.apps.photos.timemachine.TimeMachineFragment" />
+
+    <FrameLayout
+        android:id="@*com.google.android.apps.photos:id/photo_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</com.google.android.apps.photos.touchcapture.TouchCaptureView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:focusable="true"
+    card_view:cardBackgroundColor="@*android:color/background_material_dark"
+    card_view:cardCornerRadius="@*com.google.android.apps.photos:dimen/photos_assistant_cardui_corner_radius"
+    style="@*com.google.android.apps.photos:style/AssistantCardBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/com.google.android.apps.photos">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@*com.google.android.apps.photos:id/media_preview_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@*com.google.android.apps.photos:id/header_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center" />
+            </LinearLayout>
+
+            <include layout="@*com.google.android.apps.photos:layout/assistant_card_overflow_button_white" />
+        </RelativeLayout>
+
+        <include layout="@*com.google.android.apps.photos:layout/assistant_card_text_layout" />
+
+        <include layout="@*com.google.android.apps.photos:layout/assistant_card_buttons_bar" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
