@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Focus" parent="@*com.franco.focus:style/BaseThemeDark">
+        <item name="*com.franco.focus:dividerColor">#22ffffff</item>
+        <item name="*com.franco.focus:ic_add">@*com.franco.focus:drawable/ic_add_white_24dp</item>
+        <item name="*com.franco.focus:ic_all_photos">@*com.franco.focus:drawable/ic_drawer_allphotos</item>
+        <item name="*com.franco.focus:ic_camera">@*com.franco.focus:drawable/ic_camera_white_24dp</item>
+        <item name="*com.franco.focus:ic_collections">@*com.franco.focus:drawable/ic_action_collection_white</item>
+        <item name="*com.franco.focus:ic_edit">@*com.franco.focus:drawable/ic_edit_white_24dp</item>
+        <item name="*com.franco.focus:ic_expand_drawer">@*com.franco.focus:drawable/ic_expand_less_white_18dp</item>
+        <item name="*com.franco.focus:ic_hide_show_collections">@*com.franco.focus:drawable/ic_photo_album_white_24dp</item>
+        <item name="*com.franco.focus:ic_manage_tags_drawer">@*com.franco.focus:drawable/ic_style_white_24dp</item>
+        <item name="*com.franco.focus:ic_muzei_off">@*com.franco.focus:drawable/ic_action_muzei_off_white</item>
+        <item name="*com.franco.focus:ic_muzei_on">@*com.franco.focus:drawable/ic_action_muzei_on_white</item>
+        <item name="*com.franco.focus:ic_premium_drawer">@*com.franco.focus:drawable/ic_vpn_key_white_24dp</item>
+        <item name="*com.franco.focus:ic_search">@*com.franco.focus:drawable/ic_search_white_24dp</item>
+        <item name="*com.franco.focus:ic_settings_drawer">@*com.franco.focus:drawable/ic_settings_white_24dp</item>
+        <item name="*com.franco.focus:ic_support_drawer">@*com.franco.focus:drawable/ic_help_outline_white_24dp</item>
+        <item name="*com.franco.focus:ic_tags_drawer">@*com.franco.focus:drawable/tag_large_generic_gray_white</item>
+        <item name="*com.franco.focus:ic_tags_manager">@*com.franco.focus:drawable/ic_manage_white</item>
+        <item name="*com.franco.focus:ic_vault">@*com.franco.focus:drawable/ic_drawer_vault</item>
+        <item name="*com.franco.focus:mainBgColor">@*com.franco.focus:color/darkPrimary</item>
+        <item name="*com.franco.focus:picture_thumb_background">@*com.franco.focus:color/darkPrimaryDark</item>
+        <item name="*com.franco.focus:search_bar_background">@*com.franco.focus:color/searchBarBgColorDark</item>
+        <item name="*com.franco.focus:toolbar_theme">@*com.franco.focus:style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="*com.franco.focus:preferenceTheme">@*com.franco.focus:style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+</resources>
