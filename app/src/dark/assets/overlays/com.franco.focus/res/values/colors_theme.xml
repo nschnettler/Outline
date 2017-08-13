@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tags -->
+    <color name="folderTagColor">@*android:color/background_dark</color>                        <!-- Blau Grau -->
+    <color name="nightColor">@*android:color/background_dark</color>                            <!-- Schwarz -->
+</resources>
