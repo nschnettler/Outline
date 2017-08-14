@@ -3,6 +3,11 @@
     <!--Icons (Custom) -->
     <color name="material_grey_600">#FFFFFF</color>
 
+    <!-- Primary -->
+        <!-- Photo Activity -->
+        <color name="photo_action_bar_background">@*android:color/background_material_dark</color>
+        <color name="quantum_black_100">@*android:color/background_material_dark</color>
+
     <!-- Background -->
     <color name="compose_item_bg">@*android:color/background_material_dark</color>                  <!-- Drawer -->
     <color name="quantum_grey100">@*android:color/background_material_dark</color>                  <!-- Notification Section Background -->
@@ -23,6 +28,10 @@
     <color name="quantum_lightblue900">@*android:color/background_dark</color>                      <!-- Poll active bar -->
     <color name="poll_option_title_black_background_color">@*android:color/background_material_dark</color>  <!-- Poll bar background -->
     <color name="quantum_grey">@*android:color/background_material_dark</color>                      <!-- Splash screen Statusbar -->
+        <!-- Pick Photo Activity -->
+        <color name="photos_host_background">@*android:color/background_material_dark</color>       <!-- Photo Strip Bg -->
+        <color name="host_background">@*android:color/background_material_dark</color>              <!-- Main bg -->
+        <color name="quantum_greyblack1000">@*android:color/background_dark</color>                 <!-- Album Name Bg -->
 
     <!-- Text -->
     <color name="quantum_grey700">#b3FFFFFF</color>                                                 <!-- Notification card subtitle -->
