@@ -12,9 +12,13 @@
         <color name="drawer_divider_color">@*android:color/background_dark</color>
         <color name="contacts_accent_color">@*android:color/background_material_dark</color>            <!-- Drawer behind Statusbar -->
     <color name="cardview_dark_background">@*android:color/background_material_dark</color>         <!-- Cards -->
-    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color> <!-- Snackbar -->
+    <color name="snackbar_background">@*android:color/background_material_dark</color>              <!-- Snackbar -->
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>  <!-- Dialogs / u.a. "create Label" -->
     <color name="material_grey_800">@*android:color/background_floating_material_dark</color>       <!-- Dialog -->
+        <!-- QuickContact -->
+        <color name="quickcontact_header_background">@*android:color/background_material_dark</color>
+        <color name="quickcontact_header_avatar_border_color">@*android:color/background_dark</color>
+    <color name="account_switcher_tooltip_bg">@*android:color/background_material_dark</color>
 
     <!-- Status / Toolbar -->
     <color name="searchbox_background_color">@*android:color/background_material_dark</color>       <!-- Searchbox -->
@@ -39,11 +43,13 @@
     <color name="dialpad_secondary_text_color">#FFFFFF</color>
     <color name="quantum_black_secondary_text">#FFFFFF</color>                                      <!-- Drawer Header -->
     <color name="quantum_black_text">#FFFFFF</color>                                                <!-- Drawer Item -->
+    <color name="manage_accounts_text_color">#FFFFFF</color>
 
     <!-- Icon -->
     <color name="floating_action_button_icon_color">#FFFFFF</color>                                 <!-- FAB Icon -->
     <color name="actionbar_color_grey_solid">#FFFFFF</color>                                        <!-- Assistant Card Icon -->
     <color name="editor_icon_color">#FFFFFF</color>                                                 <!-- Edit Contact Icons -->
+    <color name="quickcontact_icon_color">#FFFFFF</color>
 
     <color name="expanding_entry_card_background_color">@*android:color/background_material_dark</color>
     <color name="list_item_pinned_header_color">@*android:color/background_material_dark</color>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.widget.MultiShrinkScroller android:orientation="vertical"
+    android:id="@*com.google.android.contacts:id/multiscroller"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <View
+            android:id="@*com.google.android.contacts:id/transparent_view"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.google.android.contacts:dimen/quickcontact_starting_empty_height"
+            android:contentDescription="@*com.google.android.contacts:string/quickcontact_transparent_view_description" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@*com.google.android.contacts:id/toolbar_parent"
+                android:background="@*com.google.android.contacts:color/quickcontact_header_background"
+                android:paddingBottom="?android:actionBarSize"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <android.support.v7.widget.Toolbar
+                    android:layout_gravity="end|center|top"
+                    android:id="@*com.google.android.contacts:id/toolbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?android:actionBarSize" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <include layout="@*com.google.android.contacts:layout/quickcontact_header" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.android.contacts.widget.TouchlessScrollView
+                android:id="@*com.google.android.contacts:id/content_scroller"
+                android:background="@*android:color/background_material_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@*com.google.android.contacts:id/card_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <include layout="@*com.google.android.contacts:layout/quickcontact_content" />
+                </LinearLayout>
+            </com.android.contacts.widget.TouchlessScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@*com.google.android.contacts:layout/quick_contact_floating_action_button" />
+</com.android.contacts.widget.MultiShrinkScroller>
