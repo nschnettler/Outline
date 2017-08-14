@@ -5,6 +5,7 @@
     <color name="dialtacts_theme_color">@android:color/holo_blue_light</color>
     <color name="action_bar_background">@android:color/holo_blue_light</color>
     <color name="primary_color">@android:color/holo_blue_light</color>
+    <color name="material_grey_900">@android:color/holo_blue_light</color>
     <!-- Primary Dark -->
     <color name="primary_color_dark">@android:color/holo_blue_light</color>
     <color name="dialer_theme_color_dark">@android:color/holo_blue_light</color>
