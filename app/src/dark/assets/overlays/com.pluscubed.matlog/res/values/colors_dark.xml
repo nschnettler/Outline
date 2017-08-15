@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+        <!-- Main -->
+        <color name="main_background_dark">@*android:color/background_material_dark</color>         <!-- Main Background -->
+        <!-- Floating / Dialogs -->
+        <color name="material_grey_850">@*android:color/background_material_dark</color>            <!-- Overflow Background -->
+        <color name="material_grey_800">@*android:color/background_material_dark</color>            <!-- Dialog Background -->
+</resources>
