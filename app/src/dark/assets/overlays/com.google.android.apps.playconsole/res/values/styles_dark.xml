@@ -38,4 +38,10 @@
         <item name="*com.google.android.apps.playconsole:textColorAlertDialogListItem">@*android:color/white</item>
         <item name="android:background">@*android:color/background_dark</item>
     </style>
+    <style name="RxCardStyle">
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
