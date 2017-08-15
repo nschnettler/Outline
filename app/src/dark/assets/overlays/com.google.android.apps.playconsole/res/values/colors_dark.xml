@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="welcome_screen_background">@*android:color/background_material_dark</color>
+    <color name="chart_area">@*android:color/background_material_dark</color>
+    <color name="list_background">@*android:color/background_material_dark</color>
+    <color name="quantum_white_100">@*android:color/background_material_dark</color>                            <!-- | Drawer -->
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>  <!-- Dialog -->
+    <color name="drawer_selected_background">@*android:color/background_dark</color>                            <!-- Drawer Selected -->
+    <color name="chart_tick_mark">@*android:color/background_dark</color>                                       <!-- Chart Dividers -->
+    <color name="screen_dark_background">@*android:color/background_material_dark</color>                       <!-- Reviews main Bg -->
+        <!-- Cards -->
+        <color name="screen_background">@*android:color/background_material_dark</color>                        <!-- Promo Card, Review Card -->
+        <color name="cardview_light_background">@*android:color/background_material_dark</color>                <!-- Category Cards -->
+
+
+    <!-- Icon -->
+    <color name="drawer_icon_tint">#FFFFFF</color>                                                              <!-- Drawer Icons -->
+
+
+    <!-- Text -->
+    <color name="quantum_black_text">#FFFFFF</color>                                                            <!-- Main -->
+    <color name="primary_black_54">#b3FFFFFF</color>                                                            <!-- Subtitle -->
+    <color name="secondary_text">#b3FFFFFF</color>                                                              <!-- Secondary -->
+    <color name="primary_black_87">#FFFFFF</color>                                                              <!-- Chart key -->
+    <color name="drawer_text_color">#FFFFFF</color>                                                             <!-- Drawer -->
+    <color name="primary_text_default_material_light">#FFFFFF</color>
+        <!-- Account Switcher -->
+        <color name="manage_accounts_text_color">#FFFFFF</color>                                                <!-- Manage/Add Accounts -->
+        <color name="default_account_details_color">#FFFFFF</color>                                             <!-- Account List-->
+</resources>

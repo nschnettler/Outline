@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppCardStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginTop">@*com.google.android.apps.playconsole:dimen/card_gap_half</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">@*com.google.android.apps.playconsole:dimen/card_gap_half</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="*com.google.android.apps.playconsole:cardBackgroundColor">@*com.google.android.apps.playconsole:color/cardview_light_background</item>
+        <item name="*com.google.android.apps.playconsole:cardCornerRadius">@*com.google.android.apps.playconsole:dimen/material_card_corner_radius</item>
+    </style>
+
+    <style name="ReviewFilterSpinnerStyle">
+        <item name="android:background">@*com.google.android.apps.playconsole:drawable/spinner_bg</item>
+        <item name="android:popupBackground">@*android:color/background_material_dark</item>
+    </style>
+</resources>

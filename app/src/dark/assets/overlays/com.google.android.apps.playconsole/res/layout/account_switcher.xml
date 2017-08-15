@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@*com.google.android.apps.playconsole:id/host"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@*com.google.android.apps.playconsole:id/nav_container"
+        android:paddingTop="8.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <include
+            android:visibility="gone"
+            layout="@*com.google.android.apps.playconsole:layout/sign_in" />
+
+        <com.google.android.gms.people.accountswitcherview.SelectedAccountNavigationView
+            android:id="@*com.google.android.apps.playconsole:id/selected_account_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.gms.people.accountswitcherview.ShrinkingItem
+                android:id="@*com.google.android.apps.playconsole:id/accounts_wrapper"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ListView
+                    android:id="@*com.google.android.apps.playconsole:id/accounts_list"
+                    android:background="@*android:color/background_floating_material_dark"
+                    android:paddingTop="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:dividerHeight="0.0dip"
+                    android:contentDescription="@*com.google.android.apps.playconsole:string/account_list" />
+            </com.google.android.gms.people.accountswitcherview.ShrinkingItem>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.AppTheme" parent="@*com.google.android.apps.playconsole:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionModeBackground">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.playconsole:windowActionModeOverlay">true</item>
+        <item name="*com.google.android.apps.playconsole:colorPrimary">@*com.google.android.apps.playconsole:color/primary</item>
+        <item name="*com.google.android.apps.playconsole:colorPrimaryDark">@*com.google.android.apps.playconsole:color/primary_dark</item>
+        <item name="*com.google.android.apps.playconsole:colorAccent">@*com.google.android.apps.playconsole:color/accent</item>
+        <item name="*com.google.android.apps.playconsole:colorControlActivated">@*com.google.android.apps.playconsole:color/primary</item>
+        <item name="*com.google.android.apps.playconsole:colorButtonNormal">@*com.google.android.apps.playconsole:color/primary</item>
+        <item name="*com.google.android.apps.playconsole:buttonStyle">@*com.google.android.apps.playconsole:style/AppButtonStyle</item>
+        <item name="*com.google.android.apps.playconsole:labeledInfoStyle">@*com.google.android.apps.playconsole:style/Widget.LabeledInfo</item>
+        <item name="*com.google.android.apps.playconsole:statusBarStyle">@*com.google.android.apps.playconsole:style/Widget.StatusBar</item>
+        <item name="*com.google.android.apps.playconsole:actionModeStatusBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.google.android.apps.playconsole:actionModeLightStatusBar">false</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+
+    <style name="ReviewFilterDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">100.0%</item>
+        <item name="android:windowMinWidthMinor">100.0%</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="DatePickerDialogTheme" parent="@*com.google.android.apps.playconsole:style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:windowMinWidthMajor">79.99999%</item>
+        <item name="android:windowMinWidthMinor">79.99999%</item>
+        <item name="*com.google.android.apps.playconsole:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.apps.playconsole:colorControlNormal">@*android:color/white</item>
+        <item name="*com.google.android.apps.playconsole:colorControlActivated">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.apps.playconsole:textColorAlertDialogListItem">@*android:color/white</item>
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+</resources>
