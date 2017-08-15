@@ -9,6 +9,7 @@
     <color name="drawer_selected_background">@*android:color/background_dark</color>                            <!-- Drawer Selected -->
     <color name="chart_tick_mark">@*android:color/background_dark</color>                                       <!-- Chart Dividers -->
     <color name="screen_dark_background">@*android:color/background_material_dark</color>                       <!-- Reviews main Bg -->
+    <color name="info_background">@*android:color/background_dark</color>
         <!-- Cards -->
         <color name="screen_background">@*android:color/background_material_dark</color>                        <!-- Promo Card, Review Card -->
         <color name="cardview_light_background">@*android:color/background_material_dark</color>                <!-- Category Cards -->
