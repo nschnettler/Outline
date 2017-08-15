@@ -44,6 +44,7 @@
     <color name="quantum_black_secondary_text">#FFFFFF</color>                                      <!-- Drawer Header -->
     <color name="quantum_black_text">#FFFFFF</color>                                                <!-- Drawer Item -->
     <color name="manage_accounts_text_color">#FFFFFF</color>
+    <color name="default_account_details_color">#FFFFFF</color>                                     <!-- Other Accounts Text -->
 
     <!-- Icon -->
     <color name="floating_action_button_icon_color">#FFFFFF</color>                                 <!-- FAB Icon -->
