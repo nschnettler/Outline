@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@*com.google.android.apps.playconsole:id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:contentDescription="@null"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.apps.playconsole.widgets.bars.StatusBarFrameLayout
+        android:id="@*com.google.android.apps.playconsole:id/screen_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@null" />
+
+    <com.google.android.apps.playconsole.drawer.NavigationDrawerAndroidView
+        android:layout_gravity="start"
+        android:id="@*com.google.android.apps.playconsole:id/left_drawer"
+        android:background="@*android:color/background_material_dark"
+        android:fitsSystemWindows="true"
+        android:layout_width="300.0dip"
+        android:layout_height="fill_parent"
+        android:contentDescription="@null" />
+</android.support.v4.widget.DrawerLayout>
