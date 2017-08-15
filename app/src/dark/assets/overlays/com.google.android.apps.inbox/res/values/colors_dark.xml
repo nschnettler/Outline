@@ -54,6 +54,7 @@
     <color name="bt_light_text">#ffffffff</color>                                                     <!-- Ex. FAB Label Text -->
         <!-- Account Switcher -->
         <color name="manage_accounts_text_color">#FFFFFF</color>                                    <!-- Accounts: Add, manage -->
+        <color name="default_account_details_color">#FFFFFF</color>                                 <!-- Other Accounts Text -->
         <!-- Message in List -->
         <color name="bt_item_list_read">#FFFFFF</color>                                             <!-- From -->
         <color name="bt_item_list_snippet">#b3FFFFFF</color>                                        <!-- Content -->
