@@ -11,6 +11,7 @@
     <color name="bostonBlue">@*android:color/holo_blue_light</color>                                <!-- Blau -->
     <color name="scarlet">@*android:color/holo_red_light</color>
     <color name="chambray">@*android:color/holo_blue_light</color>                                  <!-- Blau -->
+    <color name="tallPoppy">@*android:color/holo_red_light</color>                                  <!-- Rot -->
 
 
     <!-- GENRE Colors-->
