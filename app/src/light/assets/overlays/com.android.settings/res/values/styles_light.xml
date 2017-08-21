@@ -3,6 +3,7 @@
     <!-- Settings Theme -->
     <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="android:colorPrimaryDark">#FAFAFA</item>
+        <item name="*android:colorSecondary">#FAFAFA</item>
         <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
     </style>
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
