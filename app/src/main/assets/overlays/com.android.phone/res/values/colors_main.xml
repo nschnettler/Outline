@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialer: Anrufeinstellungen -->
+    <color name="dialer_theme_color">@android:color/holo_blue_light</color>
+    <color name="dialer_theme_color_dark">@android:color/holo_blue_light</color>
+</resources>
