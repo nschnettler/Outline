@@ -32,7 +32,7 @@ android {
         targetSdkVersion 26
 
 
-        versionCode 71
+        versionCode 72
 
 
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
