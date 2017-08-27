@@ -32,7 +32,7 @@ android {
         targetSdkVersion 26
 
 
-        versionCode 72
+        versionCode 73
 
 
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
@@ -73,7 +73,7 @@ android {
                 buildConfigField "String", "LICENSE", '"***REMOVED***"'
                 buildConfigField "String", "SIGNATURE", '"***REMOVED***"'
 
-                versionName "10"
+                versionName "10 - 2"
 
             }
         }
