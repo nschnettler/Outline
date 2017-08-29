@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Apps / GRÜN -->
+        <!-- Primary -->
+        <color name="play_apps_primary">@android:color/holo_green_light</color>
+        <color name="play_apps_recents">@android:color/holo_green_light</color>
+        <color name="play_apps_light">@android:color/holo_green_light</color>
+        <!-- Primary Dark -->
+        <color name="play_apps_secondary">@android:color/holo_green_light</color>
+        <color name="play_apps_primary_disabled">@android:color/holo_green_light</color>
+        <color name="status_bar_apps">@android:color/holo_green_light</color>
+        <color name="status_bar_apps_ent">@android:color/holo_green_light</color>
+
+    <!-- Movies / ROT -->
+        <!-- Primary -->
+        <color name="play_movies_primary">@android:color/holo_red_light</color>
+        <color name="play_movies_recents">@android:color/holo_red_light</color>
+        <color name="play_movies_light">@android:color/holo_red_light</color>
+        <!-- Primary Dark -->
+        <color name="play_movies_secondary">@android:color/holo_red_light</color>
+        <color name="play_movies_primary_disabled">@android:color/holo_red_light</color>
+        <color name="status_bar_movies">@android:color/holo_red_light</color>
+
+    <!-- Books / BLAU -->
+        <!-- Primary -->
+        <color name="play_books_primary">@android:color/holo_blue_light</color>
+        <color name="play_books_recents">@android:color/holo_blue_light</color>
+        <!-- Primary Dark -->
+        <color name="play_books_secondary">@android:color/holo_blue_light</color>
+        <color name="play_books_primary_disabled">@android:color/holo_blue_light</color>
+        <color name="status_bar_books">@android:color/holo_blue_light</color>
+
+    <!-- Newsstand / LILA /GRAU NEU-->
+        <!-- Primary -->
+        <color name="play_newsstand_primary">@android:color/holo_purple</color>
+        <color name="play_newsstand_recents">@android:color/holo_purple</color>
+        <color name="play_newsstand_light">@android:color/holo_purple</color>
+        <!-- Primary Dark -->
+        <color name="play_newsstand_secondary">@android:color/holo_purple</color>
+        <color name="play_newsstand_primary_disabled">@android:color/holo_purple</color>
+        <color name="status_bar_newsstand">@android:color/holo_purple</color>
+
+    <!-- Music / ORANGE-->
+        <!-- Primary -->
+        <color name="play_music_primary">@android:color/holo_orange_light</color>
+        <color name="play_music_recents">@android:color/holo_orange_light</color>
+        <color name="play_music_light">@android:color/holo_orange_light</color>
+        <!-- Primary Dark -->
+        <color name="play_music_secondary">@android:color/holo_orange_light</color>
+        <color name="play_music_primary_disabled">@android:color/holo_orange_light</color>
+        <color name="status_bar_music">@android:color/holo_orange_light</color>
+
+    <!-- Start / GRAU -->
+        <!-- Primary -->
+        <color name="play_multi_primary">@android:color/holo_green_light</color>
+        <color name="play_multi_recents">@android:color/holo_green_light</color>
+        <color name="play_multi_light">@android:color/holo_green_light</color>
+        <!-- Primary Dark -->
+        <color name="play_multi_secondary">@android:color/holo_green_light</color>
+        <color name="play_multi_primary_disabled">@android:color/holo_green_light</color>
+        <color name="status_bar_multi">@android:color/holo_green_light</color>
+
+        <!-- Accent -->
+        <color name="material_deep_teal_500">@*android:color/accent_material_light</color>
+
+        <color name="top_developer">@android:color/holo_green_light</color>
+
+        <color name="status_bar_overlay">#00000000</color>
+
+
+
+    <!-- COLORS VERSION 2-->
+    <color name="play_apps_primary_v2">@android:color/holo_green_light</color>
+    <color name="play_apps_secondary_v2">@android:color/holo_green_light</color>
+    <color name="status_bar_apps_v2">@android:color/holo_green_light</color>
+
+    <color name="play_books_primary_v2">@android:color/holo_blue_light</color>
+    <color name="play_books_secondary_v2">@android:color/holo_blue_light</color>
+    <color name="status_bar_books_v2">@android:color/holo_blue_light</color>
+
+    <color name="play_developer_primary_v2">@android:color/holo_green_light</color>
+    <color name="play_developer_secondary_v2">@*android:color/holo_gray_light</color>
+
+    <color name="play_movies_primary_v2">@android:color/holo_red_light</color>
+    <color name="play_movies_secondary_v2">@android:color/holo_red_light</color>
+    <color name="status_bar_movies_v2">@android:color/holo_red_light</color>
+
+    <color name="play_music_primary_v2">@android:color/holo_orange_light</color>
+    <color name="play_music_secondary_v2">@android:color/holo_orange_light</color>
+    <color name="status_bar_music_v2">@android:color/holo_orange_light</color>
+
+    <color name="play_newsstand_primary_v2">@android:color/holo_purple</color>
+    <color name="play_newsstand_secondary_v2">@android:color/holo_purple</color>
+    <color name="status_bar_newsstand_v2">@android:color/holo_purple</color>
+
+
+    <color name="review_histogram_1_bar">@android:color/holo_red_light</color>
+    <color name="review_histogram_2_bar">@android:color/holo_red_light</color>
+    <color name="review_histogram_3_bar">@android:color/holo_orange_light</color>
+    <color name="review_histogram_4_bar">@android:color/holo_green_light</color>
+    <color name="review_histogram_5_bar">@android:color/holo_green_light</color>
+
+    <color name="switch_thumb_normal_material_light">#757575</color>
+    <color name="testing_program_cap_reached_message_fg">@android:color/holo_red_light</color>
+    <color name="testing_program_learn_more_button_text">@android:color/holo_green_light</color>
+    <color name="testing_program_opt_in_button_bg">@android:color/holo_green_light</color>
+
+    <color name="family_sharing_switch_thumb_disabled">#ff757575</color>
+
+    <color name="account_error_byline">@android:color/holo_red_light</color>
+</resources>
