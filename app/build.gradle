@@ -9,6 +9,7 @@ android {
     defaultConfig {
         targetSdkVersion 25
         minSdkVersion 25
+        maxSdkVersion 25
         versionCode 25068
     }
     buildTypes {
