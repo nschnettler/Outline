@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="primary">@*android:color/primary_material_light</color>
-    <color name="accent">@*android:color/accent_material_light</color>
-
-    <color name="green500">@android:color/holo_green_light</color>
-    <color name="red500">@android:color/holo_red_light</color>
-    <color name="grey500">@*android:color/holo_gray_light</color>
-</resources>
