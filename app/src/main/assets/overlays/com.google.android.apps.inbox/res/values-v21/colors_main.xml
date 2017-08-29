@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bt_floating_action_button_center">@android:color/holo_blue_dark</color>
+    <color name="bt_floating_action_button_bevel_bottom">@android:color/holo_blue_dark</color>
+    <color name="bt_floating_action_button_bevel_top">@android:color/holo_blue_dark</color>
+</resources>
