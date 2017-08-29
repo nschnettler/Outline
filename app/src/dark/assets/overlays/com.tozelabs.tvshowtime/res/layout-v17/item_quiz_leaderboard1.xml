@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@*com.tozelabs.tvshowtime:id/layout"
+    android:background="@*com.tozelabs.tvshowtime:drawable/tz_item_background"
+    android:paddingLeft="@*com.tozelabs.tvshowtime:dimen/quiz_leaderboard_item_padding"
+    android:paddingRight="@*com.tozelabs.tvshowtime:dimen/quiz_leaderboard_item_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.tozelabs.tvshowtime">
+
+    <RelativeLayout
+        android:layout_gravity="bottom"
+        android:id="@*com.tozelabs.tvshowtime:id/noFriendsMessage"
+        android:background="@*android:color/background_material_dark"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="22.0dip"
+        app:layout_behavior="@*com.tozelabs.tvshowtime:string/appbar_scrolling_view_behavior">
+
+        <ImageView
+            android:id="@*com.tozelabs.tvshowtime:id/noFriendsImage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22.0dip"
+            android:layout_marginBottom="@*com.tozelabs.tvshowtime:dimen/quiz_padding"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@*com.tozelabs.tvshowtime:drawable/ic_emptystate_nofriendsplayed_img" />
+
+        <TextView
+            android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_button"
+            android:textColor="@*com.tozelabs.tvshowtime:color/quiz_leaderboard_no_friends_message"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@*com.tozelabs.tvshowtime:string/QuizLeaderboardNoFriendsPlayed"
+            android:layout_below="@*com.tozelabs.tvshowtime:id/noFriendsImage"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@*com.tozelabs.tvshowtime:id/userLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.tozelabs.tvshowtime.widget.TZTextView
+            android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_subhead"
+            android:textColor="@*com.tozelabs.tvshowtime:color/primary_text_black"
+            android:gravity="center"
+            android:id="@*com.tozelabs.tvshowtime:id/rank"
+            android:layout_width="@*com.tozelabs.tvshowtime:dimen/extra_big_item_spacing"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/semi_big_item_spacing"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            app:textFont="ProximaNova-Bold" />
+
+        <include
+            android:layout_width="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_width"
+            android:layout_height="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_height"
+            android:layout_marginTop="@*com.tozelabs.tvshowtime:dimen/quiz_leaderboard_profile_padding"
+            android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+            android:layout_marginBottom="@*com.tozelabs.tvshowtime:dimen/quiz_leaderboard_profile_padding"
+            android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/rank"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/rank"
+            layout="@*com.tozelabs.tvshowtime:layout/layout_user_pic" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@*com.tozelabs.tvshowtime:id/details"
+            android:padding="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@*com.tozelabs.tvshowtime:id/points"
+            android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/userImage"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@*com.tozelabs.tvshowtime:id/points"
+            android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/userImage">
+
+            <com.tozelabs.tvshowtime.widget.TZTextView
+                android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_subhead"
+                android:textColor="@*com.tozelabs.tvshowtime:color/primary_text_black"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:id="@*com.tozelabs.tvshowtime:id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                app:textFont="ProximaNova-Bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@*com.tozelabs.tvshowtime:id/quizResults"
+                android:layout_width="fill_parent"
+                android:layout_height="@*com.tozelabs.tvshowtime:dimen/big_item_spacing" />
+        </LinearLayout>
+
+        <com.tozelabs.tvshowtime.widget.TZTextView
+            android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_subhead"
+            android:textColor="@*com.tozelabs.tvshowtime:color/primary_text_black"
+            android:layout_gravity="center"
+            android:id="@*com.tozelabs.tvshowtime:id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            app:textFont="ProximaNova-Bold" />
+    </RelativeLayout>
+</RelativeLayout>
