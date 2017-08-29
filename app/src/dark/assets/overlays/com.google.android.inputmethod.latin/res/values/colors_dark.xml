@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="setup_background">@*android:color/background_material_dark</color>
-    <color name="setup_step_background">@*android:color/background_material_dark</color>
-    <color name="background_material_dark">@*android:color/background_material_dark</color>
-</resources>

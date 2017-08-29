@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Primary & Accent -->
-    <color name="lightColorPrimary">@*android:color/primary_material_dark</color>                   <!-- Primary -->
-    <color name="lightColorPrimaryDark">@*android:color/primary_material_dark</color>               <!-- Primary Dark -->
-    <color name="lightColorAccent">@android:color/holo_red_light</color>                            <!-- Accent -->
-</resources>

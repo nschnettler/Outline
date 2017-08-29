@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr name="actionBarWidgetTheme" format="reference" />
-    <attr name="actionBarTheme" format="reference" />
-    <attr name="actionBarPopupTheme" format="reference" />
-    <attr name="colorActionMode" format="color" />
-</resources>

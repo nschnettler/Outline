@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Settings Icons Accent Color -->
-    <color name="icon_accent">#FFFFFF</color>                                                       <!-- Normal Icons -->
-    <!-- Switchbar -->
-    <color name="switchbar_background_color">@*android:color/background_material_dark</color>
-</resources>

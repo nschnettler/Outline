@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog Background -->
-    <color name="primary_text_default_material_light">#FFFFFF</color>                               <!-- Dialog Text -->
-    <color name="grey600">#FFFFFF</color>                                                           <!-- Notification Action Text/Icon -->
-
-</resources>

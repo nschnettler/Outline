@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="drawable" name="notification_template_divider">@android:color/transparent</item>
-    <item type="drawable" name="notification_template_divider_media">@android:color/transparent</item>
-</resources>

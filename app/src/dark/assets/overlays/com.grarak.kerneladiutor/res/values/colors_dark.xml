@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialog Background -->
-</resources>

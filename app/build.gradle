@@ -22,11 +22,6 @@ android {
         }
         flavorDimensions "theme"
         productFlavors {
-            dark{
-                dimension "theme"
-                applicationId "com.schnettler.outline.dark"
-                versionName "Alpha"
-            }
             light{
                 dimension "theme"
                 applicationId "com.schnettler.outline"

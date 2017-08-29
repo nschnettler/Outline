@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Background -->
-    <color name="default_background">@*android:color/background_material_dark</color>               <!-- Main -->
-    <color name="hairline">@*android:color/background_dark</color>                                  <!-- Divider -->
-    <color name="design_snackbar_background_color">@*android:color/background_dark</color>          <!-- Snackbar -->
-</resources>
