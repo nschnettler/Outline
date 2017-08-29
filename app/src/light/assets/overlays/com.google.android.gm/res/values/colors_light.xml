@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Primary Dark -->
-    <color name="primary_dark_color">@android:color/holo_red_light</color>
-</resources>
