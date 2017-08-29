@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <path
-        android:strokeColor="@*projekt.substratum:color/fab_menu_icon_color"
-        android:strokeWidth="0.6"
-        android:pathData="M13.9,21h-11 M21.1,19.9l-13-13 M17.2,8.2L12,3 M4.2,10.8L9.4,16" />
-</vector>
