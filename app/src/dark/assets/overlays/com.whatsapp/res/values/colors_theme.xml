@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="accent">@android:color/holo_green_light</color>
+
+
+    <!-- Other -->
+        <!-- Link -->
+        <color name="link_color_incoming">@android:color/holo_green_dark</color>
+        <color name="link_color_outgoing">#FFFFFF</color>
+</resources>

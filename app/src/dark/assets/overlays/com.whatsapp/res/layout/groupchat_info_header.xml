@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Group Info: Add Member
+
+-->
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@*com.whatsapp:id/header_placeholder"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.whatsapp:dimen/info_screen_header" />
+
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:id="@*com.whatsapp:id/no_participant"
+        android:paddingLeft="@*com.whatsapp:dimen/card_h_padding"
+        android:paddingTop="@*com.whatsapp:dimen/card_v_padding"
+        android:paddingRight="@*com.whatsapp:dimen/card_h_padding"
+        android:paddingBottom="2.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@*com.whatsapp:string/not_a_group_participant" />
+
+    <include layout="@*com.whatsapp:layout/media_card" />
+
+    <include layout="@*com.whatsapp:layout/description_card" />
+
+    <include layout="@*com.whatsapp:layout/live_location_card" />
+
+    <include layout="@*com.whatsapp:layout/actions_card" />
+
+    <include layout="@*com.whatsapp:layout/locations_card" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@*com.whatsapp:id/participants_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="@*com.whatsapp:drawable/list_separator_bot"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+
+        <FrameLayout
+            android:background="@*android:color/background_material_dark"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            style="@*com.whatsapp:style/FlatCardHeader">
+
+            <TextView
+                android:id="@*com.whatsapp:id/participants_title"
+                style="@*com.whatsapp:style/FlatCardTitle" />
+
+            <TextView
+                android:id="@*com.whatsapp:id/participants_info"
+                style="@*com.whatsapp:style/FlatCardInfo" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@*com.whatsapp:id/add_participant_layout"
+        android:background="@*android:color/background_material_dark"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:layout_width="fill_parent"
+            android:layout_height="56.0dip">
+
+            <ImageView
+                android:id="@*com.whatsapp:id/add_participant_icon"
+                android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
+                android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"
+                android:layout_marginLeft="@*com.whatsapp:dimen/small_list_avatar_padding"
+                android:layout_marginRight="@*com.whatsapp:dimen/small_list_avatar_padding"
+                android:src="@*com.whatsapp:drawable/add_person_gray"
+                android:scaleType="center"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@*com.whatsapp:id/add_participant_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@*com.whatsapp:string/add_group_participant"
+                android:layout_toRightOf="@*com.whatsapp:id/add_participant_icon"
+                android:layout_centerVertical="true"
+                style="@*com.whatsapp:style/ListItemTitle" />
+        </RelativeLayout>
+
+        <View
+            android:background="@*com.whatsapp:color/divider_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="@*com.whatsapp:dimen/info_screen_padding" />
+    </LinearLayout>
+</LinearLayout>

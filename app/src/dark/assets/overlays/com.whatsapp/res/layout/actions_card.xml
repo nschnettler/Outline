@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Profile Info: Mute, Notifications, Encryption Bg
+
+ -->
+<LinearLayout android:orientation="vertical"
+    android:id="@*com.whatsapp:id/actions_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:background="@*com.whatsapp:drawable/list_separator_bot"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@*com.whatsapp:id/mute_layout"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            android:paddingRight="12.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@*com.whatsapp:dimen/info_screen_row">
+
+            <LinearLayout
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.whatsapp:string/menuitem_mute"
+                    style="@*com.whatsapp:style/ListItemTitle" />
+
+                <TextView
+                    android:id="@*com.whatsapp:id/mute_info"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@*com.whatsapp:style/ListItemSubtitleSmall" />
+            </LinearLayout>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@*com.whatsapp:id/mute_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:id="@*com.whatsapp:id/notifications_separator"
+            style="@*com.whatsapp:style/FlatCardSeparator" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@*com.whatsapp:id/notifications_layout"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/info_screen_row">
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@*com.whatsapp:string/custom_notifications"
+                style="@*com.whatsapp:style/ListItemTitle" />
+
+            <TextView
+                android:id="@*com.whatsapp:id/notifications_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@*com.whatsapp:string/custom_notifications_enabled"
+                style="@*com.whatsapp:style/ListItemSubtitleSmall" />
+        </LinearLayout>
+
+        <View
+            android:id="@*com.whatsapp:id/starred_messages_separator"
+            android:visibility="gone"
+            style="@*com.whatsapp:style/FlatCardSeparator" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@*com.whatsapp:id/starred_messages_layout"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/info_screen_row">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@*com.whatsapp:string/starred_messages"
+                android:layout_weight="1.0"
+                style="@*com.whatsapp:style/ListItemTitle" />
+
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="#ff91a7a7"
+                android:layout_gravity="center_vertical"
+                android:id="@*com.whatsapp:id/starred_messages_count"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <View
+            android:id="@*com.whatsapp:id/encryption_separator"
+            style="@*com.whatsapp:style/FlatCardSeparator" />
+
+        <LinearLayout
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:id="@*com.whatsapp:id/encryption_layout"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:gravity="center|left"
+                android:layout_gravity="center|left"
+                android:orientation="vertical"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="12.0dip"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+
+                <TextView
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.whatsapp:string/contact_encryption"
+                    style="@*com.whatsapp:style/ListItemTitle" />
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@*com.whatsapp:color/list_item_info"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:id="@*com.whatsapp:id/encryption_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@*com.whatsapp:id/encryption_indicator"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="12.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@*com.whatsapp:drawable/ic_ee_indicator_yes" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:background="@*com.whatsapp:drawable/list_separator_top"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+</LinearLayout>

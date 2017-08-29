@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.EmojiPopupLayout android:id="@*com.whatsapp:id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_gravity="center"
+            android:paddingTop="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@*com.whatsapp:string/register_name_profile"
+            style="@*com.whatsapp:style/RegistrationTitle" />
+
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="@*com.whatsapp:color/body_light_gray"
+            android:gravity="center"
+            android:paddingLeft="16.0dip"
+            android:paddingTop="24.0dip"
+            android:paddingRight="16.0dip"
+            android:paddingBottom="24.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@*com.whatsapp:string/register_name_info" />
+
+        <LinearLayout
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/change_photo_btn"
+                    android:layout_width="@*com.whatsapp:dimen/registration_profile_photo_size"
+                    android:layout_height="@*com.whatsapp:dimen/registration_profile_photo_size"
+                    android:src="@*com.whatsapp:drawable/ic_addphoto"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@*com.whatsapp:string/profile_photo"
+                    whatsapp:tbtnRadius="-1.0dip" />
+
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:id="@*com.whatsapp:id/change_photo_progress"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/progressBarStyleInverse" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8.0dip"
+                android:layout_weight="1.0">
+
+                <EditText
+                    android:textSize="16.0dip"
+                    android:textColor="#ff000000"
+                    android:textColorHint="@*com.whatsapp:color/edit_text_counter"
+                    android:ellipsize="end"
+                    android:id="@*com.whatsapp:id/registration_name"
+                    android:paddingRight="@*com.whatsapp:dimen/counter_text_padding"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@*com.whatsapp:string/register_name_hint"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:inputType="textCapWords"
+                    android:imeOptions="actionDone"
+                    android:backgroundTint="@*com.whatsapp:color/accent" />
+
+                <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="@*com.whatsapp:color/edit_text_counter"
+                    android:id="@*com.whatsapp:id/name_counter_tv"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_alignBaseline="@*com.whatsapp:id/registration_name"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:layout_gravity="center|right"
+                android:id="@*com.whatsapp:id/emoji_btn"
+                android:background="@android:color/transparent"
+                android:paddingLeft="0.0dip"
+                android:paddingRight="0.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="48.0dip"
+                android:src="@*com.whatsapp:drawable/input_emoji"
+                android:tint="@*com.whatsapp:color/body_gray"
+                android:minWidth="0.0dip"
+                android:minHeight="0.0dip" />
+        </LinearLayout>
+
+        <View
+            android:id="@*com.whatsapp:id/spacer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:id="@*com.whatsapp:id/register_name_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="36.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="24.0dip"
+            android:text="@*com.whatsapp:string/next"
+            style="@*com.whatsapp:style/RegistrationButton" />
+
+        <LinearLayout
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:id="@*com.whatsapp:id/checkbox_linear_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_gravity="bottom"
+                android:id="@*com.whatsapp:id/shortcut_layout"
+                android:background="@*android:color/background_material_dark"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="56.0dip"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:textSize="14.0dip"
+                    android:textColor="@*com.whatsapp:color/body_gray"
+                    android:gravity="center|left"
+                    android:paddingRight="14.0dip"
+                    android:layout_width="wrap_content"
+                    android:text="@*com.whatsapp:string/install_app_shortcut"
+                    android:layout_toLeftOf="@*com.whatsapp:id/cbx_app_shortcut"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    style="@*com.whatsapp:style/Text.Description" />
+
+                <CheckBox
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:id="@*com.whatsapp:id/cbx_app_shortcut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.EmojiPopupLayout>
