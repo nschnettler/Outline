@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@*com.samruston.twitter:color/boot" />
+    <item android:drawable="@*com.samruston.twitter:drawable/splash_logo" android:height="144dp" android:width="144dp" android:gravity="center"/>
+</layer-list>
