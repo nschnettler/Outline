@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary">@android:color/holo_blue_light</color>
+    <color name="primary_dark">@android:color/holo_blue_light</color>
+
+    <!-- Accent -->
+    <color name="accent">@android:color/holo_blue_dark</color>
+    <color name="info_messages_title_color">@android:color/holo_blue_dark</color>
+    <color name="material_deep_teal_500">@android:color/holo_blue_dark</color>
+    <color name="app_pinned_button_icon">@android:color/holo_blue_dark</color>
+
+    <!-- Release Categories -->
+    <color name="release_track_icon_alpha">@android:color/holo_blue_light</color>
+    <color name="release_track_icon_beta">@android:color/holo_orange_light</color>
+    <color name="release_track_icon_halted">@android:color/holo_red_light</color>
+    <color name="release_track_icon_historic">@*android:color/holo_gray_light</color>
+    <color name="release_track_icon_prod">@android:color/holo_green_light</color>
+
+    <!-- Other -->
+    <color name="tab_indicator_color">#FFFFFF</color>
+</resources>
