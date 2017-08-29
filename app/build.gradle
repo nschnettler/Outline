@@ -31,10 +31,6 @@ android {
         minSdkVersion 26
         targetSdkVersion 26
 
-
-        versionCode 73
-
-
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
@@ -62,8 +58,8 @@ android {
                 buildConfigField "String", "LICENSE", '"***REMOVED***"'
                 buildConfigField "String", "SIGNATURE", '"***REMOVED***"'
 
+                versionCode 73
                 versionName "Alpha"
-
             }
 
             light{
@@ -73,8 +69,8 @@ android {
                 buildConfigField "String", "LICENSE", '"***REMOVED***"'
                 buildConfigField "String", "SIGNATURE", '"***REMOVED***"'
 
+                versionCode 73
                 versionName "10 - 2"
-
             }
         }
     }
