@@ -10,7 +10,7 @@ android {
         targetSdkVersion 25
         minSdkVersion 25
         maxSdkVersion 25
-        versionCode 25068
+        versionCode 2568
     }
     buildTypes {
         debug {
