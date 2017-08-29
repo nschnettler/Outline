@@ -3,6 +3,10 @@
     <!-- Accent -->
     <color name="accent">@android:color/holo_green_light</color>
 
+    <!-- Action Mode -->
+    <color name="action_mode_dark">@android:color/holo_green_light</color>
+    <color name="action_mode">@android:color/holo_green_light</color>
+
 
     <!-- Other -->
         <!-- Link -->
