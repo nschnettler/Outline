@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/conversations_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+    <FrameLayout android:id="@*com.whatsapp:id/contact_selector" android:layout_width="@*com.whatsapp:dimen/contact_selector_width" android:layout_height="@*com.whatsapp:dimen/conversations_row_height" android:layout_alignParentLeft="true">
+        <com.whatsapp.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@*com.whatsapp:id/contact_photo" android:layout_width="@*com.whatsapp:dimen/small_avatar_size" android:layout_height="@*com.whatsapp:dimen/small_avatar_size" android:scaleType="fitCenter" whatsapp:tbtnRadius="@*com.whatsapp:dimen/small_avatar_radius" whatsapp:tbtnForegroundOnly="false" />
+        <com.whatsapp.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@*com.whatsapp:id/selection_check" android:layout_width="@*com.whatsapp:dimen/selection_check_image_size" android:layout_height="@*com.whatsapp:dimen/selection_check_image_size" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@*com.whatsapp:dimen/list_row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@*com.whatsapp:id/contact_selector" android:layout_centerVertical="true">
+        <com.whatsapp.TextEmojiLabel android:layout_gravity="left" android:id="@*com.whatsapp:id/chat_able_contacts_row_name" android:shadowColor="#ffffff" android:shadowDx="3" android:shadowDy="3" android:shadowRadius="1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*com.whatsapp:style/ListItemTitle" />
+        <com.whatsapp.TextEmojiLabel android:layout_gravity="left" android:id="@*com.whatsapp:id/chat_able_contacts_row_status"   android:textColor="#b3FFFFFF" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*com.whatsapp:style/ListItemSubtitle" />
+    </LinearLayout>
+</RelativeLayout>
