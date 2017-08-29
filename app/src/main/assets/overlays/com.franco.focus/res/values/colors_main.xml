@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="drawerItemSelected">@android:color/holo_blue_dark</color>
+    <color name="accent">@android:color/holo_blue_dark</color>
+    <color name="accentDark">@android:color/holo_blue_dark</color>
+    <color name="material_deep_teal_200">@android:color/holo_blue_dark</color>
+    <!-- Primary -->
+    <color name="actionModeBg">@android:color/holo_blue_light</color>
+    <color name="actionModeStatusBar">@android:color/holo_blue_light</color>
+    <color name="tutorialButtonColor">@android:color/holo_blue_light</color>
+
+    <!-- Tags -->
+    <color name="friendsColor">@android:color/holo_blue_light</color>                               <!-- Blau -->
+    <color name="artColor">@android:color/holo_purple</color>                                       <!-- Gelb -->
+    <color name="awesomeColor">@android:color/holo_red_light</color>                                <!-- Android Accent -->
+    <color name="familyColor">@android:color/holo_red_light</color>                                 <!-- Pink -->
+    <color name="foodColor">@android:color/holo_orange_light</color>                                <!-- Orange -->
+    <color name="funColor">@android:color/holo_orange_light</color>                                 <!-- Orange -->
+    <color name="meColor">@android:color/holo_blue_light</color>                                    <!-- Blau -->
+    <color name="natureColor">@android:color/holo_green_light</color>                               <!-- Grün -->
+    <color name="petsColor">@android:color/holo_purple</color>                                      <!-- Lila -->
+    <color name="travelColor">@android:color/holo_orange_light</color>                              <!-- Orange -->
+</resources>
