@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="settings_color_primary">@android:color/holo_red_light</color>
-    <color name="settings_color_primary_dark">@android:color/holo_red_light</color>
-    <color name="material_green">@android:color/holo_red_light</color>
-</resources>

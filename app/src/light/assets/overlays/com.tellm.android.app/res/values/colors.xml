@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="redAlert">@android:color/holo_red_light</color>
-    <color name="sortSeparator">#00aaaaaa</color>
-    <color name="tangerine">@android:color/holo_orange_light</color>
-    <color name="orange">@android:color/holo_orange_light</color>
-    <color name="orange_30_transparent">@android:color/holo_orange_light</color>
-</resources>

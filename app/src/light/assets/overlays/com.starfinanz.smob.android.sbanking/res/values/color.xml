@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="actionbar_background">@android:color/holo_red_light</color>
-    <color name="actionbar_background_darker">@android:color/holo_red_light</color>
-
-    <color name="umsatz_new_indicator">@android:color/holo_red_light</color>
-    <color name="green">@android:color/holo_green_light</color>
-    <color name="positiv">@android:color/holo_green_light</color>
-</resources>
