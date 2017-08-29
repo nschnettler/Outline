@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MD_Light" parent="@*com.samruston.twitter:style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@*com.samruston.twitter:style/MD_WindowAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="*com.samruston.twitter:md_btn_negative_selector">@*com.samruston.twitter:drawable/md_btn_selector_dark</item>
+        <item name="*com.samruston.twitter:md_btn_neutral_selector">@*com.samruston.twitter:drawable/md_btn_selector_dark</item>
+        <item name="*com.samruston.twitter:md_btn_positive_selector">@*com.samruston.twitter:drawable/md_btn_selector_dark</item>
+        <item name="*com.samruston.twitter:md_btn_stacked_selector">@*com.samruston.twitter:drawable/md_selector_dark</item>
+        <item name="*com.samruston.twitter:md_divider">@*com.samruston.twitter:color/md_divider_white</item>
+        <item name="*com.samruston.twitter:md_list_selector">@*com.samruston.twitter:drawable/md_selector_dark</item>
+        <item name="*com.samruston.twitter:md_dark_theme">true</item>
+        <item name="*com.samruston.twitter:md_widget_color">#4caf50</item>
+    </style>
+    <style name="LightDialogTheme" parent="@*com.samruston.twitter:style/Theme.AppCompat.Dialog.Alert">
+        <item name="*com.samruston.twitter:colorAccent">@android:color/holo_blue_dark</item>
+    </style>
+</resources>
