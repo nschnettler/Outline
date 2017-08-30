@@ -11,5 +11,4 @@
     <!-- Other -->
         <!-- Link -->
         <color name="link_color_incoming">@android:color/holo_green_dark</color>
-        <color name="link_color_outgoing">#FFFFFF</color>
 </resources>
