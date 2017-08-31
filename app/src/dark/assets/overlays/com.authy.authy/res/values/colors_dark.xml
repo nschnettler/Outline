@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="activity_background">@*android:color/background_material_dark</color>              <!-- Main -->
+    <color name="gray_lighter">@*android:color/background_material_dark</color>                     <!-- Toke Grid -->
+    <color name="white">@*android:color/background_material_dark</color>                            <!-- Main 2 -->
+    <color name="button_dark">@*android:color/holo_red_dark</color>
+
+
+    <!-- Text -->
+    <color name="settings_title">#FFFFFF</color>
+    <color name="gray_light">#b3FFFFFF</color>
+    <color name="gray_dark">#b3FFFFFF</color>
+    <color name="settings_not_clickable">#FFFFFF</color>
+    <color name="black">#FFFFFF</color>
+    <color name="form_label_color">#b3FFFFFF</color>
+    <color name="token_labels">#FFFFFF</color>
+    <color name="light_black_text">#FFFFFF</color>
+    <color name="ga_black">#FFFFFF</color>
+
+
+    <!-- Divider -->
+    <color name="grey_line">@*android:color/background_dark</color>
+</resources>

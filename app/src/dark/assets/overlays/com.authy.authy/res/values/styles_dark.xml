@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseAuthyTheme" parent="@*com.authy.authy:style/Theme.AppCompat">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorPrimaryInverse">#000000</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:editTextStyle">@*com.authy.authy:style/EditTextStyle</item>
+        <item name="*com.authy.authy:floatingActionButtonStyle">@*com.authy.authy:style/Fab</item>
+        <item name="*com.authy.authy:colorPrimary">@*com.authy.authy:color/primary</item>
+        <item name="*com.authy.authy:colorPrimaryDark">@*com.authy.authy:color/primary_dark</item>
+        <item name="*com.authy.authy:colorAccent">@*com.authy.authy:color/accent</item>
+        <item name="*com.authy.authy:colorControlActivated">@*com.authy.authy:color/control_colors</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="button.dark" parent="@*com.authy.authy:style/button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@*com.authy.authy:drawable/btn_dark</item>
+    </style>
+    <style name="button.negative" parent="@*com.authy.authy:style/button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@*com.authy.authy:drawable/btn_negative</item>
+    </style>
+    <style name="button.primary" parent="@*com.authy.authy:style/button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@*com.authy.authy:drawable/btn_primary</item>
+    </style>
+    <style name="button.scan_qr_code" parent="@*com.authy.authy:style/button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@*com.authy.authy:drawable/btn_dark</item>
+    </style>
+    <style name="button.secondary" parent="@*com.authy.authy:style/button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@*com.authy.authy:drawable/btn_secondary</item>
+    </style>
+    <style name="button.tertiary" parent="@*com.authy.authy:style/button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@*com.authy.authy:drawable/btn_tertiary</item>
+    </style>
+</resources>

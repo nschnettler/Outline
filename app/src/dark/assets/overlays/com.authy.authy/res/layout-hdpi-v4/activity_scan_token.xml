@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@*com.authy.authy:color/activity_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.authy.authy.ui.textviews.RobotoTextView
+                android:textSize="18.0dip"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@*com.authy.authy:id/add_authenticator_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:text="@*com.authy.authy:string/google_auth_scan_auth_account"
+                android:lines="1"
+                android:textAlignment="center" />
+
+            <com.authy.authy.ui.textviews.RobotoTextView
+                android:textSize="13.0dip"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="@*com.authy.authy:string/label_add_google_auth_account_long_parragraph2" />
+
+            <com.authy.authy.ui.textviews.RobotoTextView
+                android:textSize="13.0dip"
+                android:textColor="@*com.authy.authy:color/ga_link"
+                android:id="@*com.authy.authy:id/learn_how_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="@*com.authy.authy:string/learn_how_link" />
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@*com.authy.authy:id/qr_code_image"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:src="@*com.authy.authy:drawable/qr_code_image" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@*com.authy.authy:id/btnOpenCamera"
+                android:paddingTop="15.0dip"
+                android:paddingBottom="15.0dip"
+                android:clickable="true"
+                android:longClickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@*com.authy.authy:style/button.scan_qr_code">
+
+                <com.authy.authy.ui.textviews.RobotoTextView
+                    android:textSize="15.0dip"
+                    android:textColor="@*com.authy.authy:color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.authy.authy:string/scan_qr_scan_button"
+                    android:drawableLeft="@*com.authy.authy:drawable/camera_icon"
+                    android:drawablePadding="10.0dip"
+                    android:textAllCaps="true"
+                    android:drawableStart="@*com.authy.authy:drawable/camera_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@*com.authy.authy:id/enter_code_section"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_below="@*com.authy.authy:id/btnOpenCamera">
+
+                <com.authy.authy.ui.textviews.RobotoTextView
+                    android:textSize="15.0dip"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center"
+                    android:id="@*com.authy.authy:id/no_qr_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.authy.authy:string/scan_qr_no_qr_question" />
+
+                <Button
+                    android:textSize="15.0dip"
+                    android:textColor="@*com.authy.authy:color/ga_link"
+                    android:layout_gravity="center"
+                    android:id="@*com.authy.authy:id/enter_qr_code_manually"
+                    android:background="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="@*com.authy.authy:string/enter_qr_code_manually"
+                    android:onClick="showEnterKeyManuallyPopup"
+                    style="@*com.authy.authy:style/text_link" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@*com.authy.authy:id/use_zxing_section"
+                android:padding="15.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_below="@*com.authy.authy:id/enter_code_section">
+
+                <com.authy.authy.ui.textviews.RobotoTextView
+                    android:textSize="15.0dip"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.authy.authy:string/google_auth_scan_auth_scanner_not_working" />
+
+                <com.authy.authy.ui.textviews.RobotoTextView
+                    android:textSize="14.0dip"
+                    android:textColor="@*com.authy.authy:color/ga_link"
+                    android:gravity="center"
+                    android:id="@*com.authy.authy:id/btnUseZxing"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.authy.authy:string/launch_zxing" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
