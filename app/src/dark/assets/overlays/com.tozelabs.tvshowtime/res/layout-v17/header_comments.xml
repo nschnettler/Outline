@@ -1,30 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:background="@*com.tozelabs.tvshowtime:color/desertStorm" android:paddingTop="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.tozelabs.tvshowtime">
-    <LinearLayout android:orientation="vertical" android:id="@*com.tozelabs.tvshowtime:id/composeSection" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@*com.tozelabs.tvshowtime:dimen/super_big_item_spacing" android:divider="@*com.tozelabs.tvshowtime:drawable/horizontal_divider" android:showDividers="middle" style="@*com.tozelabs.tvshowtime:style/CommentStyle">
-        <LinearLayout android:id="@*com.tozelabs.tvshowtime:id/reactTo" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <com.tozelabs.tvshowtime.widget.ForegroundRoundedImageView android:id="@*com.tozelabs.tvshowtime:id/profileImage" android:layout_width="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_width" android:layout_height="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_height" android:layout_margin="@*com.tozelabs.tvshowtime:dimen/big_item_spacing" android:src="@*com.tozelabs.tvshowtime:drawable/default_user" android:scaleType="fitCenter" android:adjustViewBounds="true" app:riv_border_width="1.0dip" app:riv_border_color="@*com.tozelabs.tvshowtime:color/white" app:riv_mutate_background="true" app:riv_oval="true" />
-            <com.tozelabs.tvshowtime.widget.TZTextView android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_body_1" android:textColorHint="@*com.tozelabs.tvshowtime:color/hint_text_black" android:layout_gravity="center_vertical" android:id="@*com.tozelabs.tvshowtime:id/commentText" android:padding="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/big_item_spacing" android:layout_weight="1.0" android:layout_marginEnd="@*com.tozelabs.tvshowtime:dimen/big_item_spacing" />
+<RelativeLayout android:gravity="center_vertical"
+    android:background="@*com.tozelabs.tvshowtime:color/desertStorm"
+    android:paddingTop="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.tozelabs.tvshowtime">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@*com.tozelabs.tvshowtime:id/composeSection"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@*com.tozelabs.tvshowtime:dimen/super_big_item_spacing"
+        android:divider="@*com.tozelabs.tvshowtime:drawable/horizontal_divider"
+        android:showDividers="middle"
+        style="@*com.tozelabs.tvshowtime:style/CommentStyle">
+
+        <LinearLayout
+            android:id="@*com.tozelabs.tvshowtime:id/reactTo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.tozelabs.tvshowtime.widget.ForegroundRoundedImageView
+                android:id="@*com.tozelabs.tvshowtime:id/profileImage"
+                android:layout_width="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_width"
+                android:layout_height="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_height"
+                android:layout_margin="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:src="@*com.tozelabs.tvshowtime:drawable/default_user"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:riv_border_width="1.0dip"
+                app:riv_border_color="@*com.tozelabs.tvshowtime:color/white"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+            <com.tozelabs.tvshowtime.widget.TZTextView
+                android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_body_1"
+                android:textColorHint="@*com.tozelabs.tvshowtime:color/hint_text_black"
+                android:layout_gravity="center_vertical"
+                android:id="@*com.tozelabs.tvshowtime:id/commentText"
+                android:padding="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:layout_weight="1.0"
+                android:layout_marginEnd="@*com.tozelabs.tvshowtime:dimen/big_item_spacing" />
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@*com.tozelabs.tvshowtime:id/composeButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@*com.tozelabs.tvshowtime:drawable/vertical_divider_inset" android:showDividers="middle">
-            <RelativeLayout android:id="@*com.tozelabs.tvshowtime:id/createMeme" style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
-                <com.tozelabs.tvshowtime.widget.TZImageView android:id="@*com.tozelabs.tvshowtime:id/memeIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:src="@*com.tozelabs.tvshowtime:drawable/meme_postcomposer_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerVertical="true" />
-                <com.tozelabs.tvshowtime.widget.TZTextView android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.tozelabs.tvshowtime:string/Meme" android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/memeIcon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/memeIcon" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@*com.tozelabs.tvshowtime:id/composeButtons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@*com.tozelabs.tvshowtime:drawable/vertical_divider_inset"
+            android:showDividers="middle">
+
+            <RelativeLayout
+                android:id="@*com.tozelabs.tvshowtime:id/createMeme"
+                style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
+
+                <com.tozelabs.tvshowtime.widget.TZImageView
+                    android:id="@*com.tozelabs.tvshowtime:id/memeIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                    android:src="@*com.tozelabs.tvshowtime:drawable/meme_postcomposer_icon"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_centerVertical="true" />
+
+                <com.tozelabs.tvshowtime.widget.TZTextView
+                    android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.tozelabs.tvshowtime:string/Meme"
+                    android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/memeIcon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/memeIcon" />
             </RelativeLayout>
-            <RelativeLayout android:id="@*com.tozelabs.tvshowtime:id/createGif" style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
-                <com.tozelabs.tvshowtime.widget.TZImageView android:id="@*com.tozelabs.tvshowtime:id/gifIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:src="@*com.tozelabs.tvshowtime:drawable/gif_postcomposer_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerVertical="true" />
-                <com.tozelabs.tvshowtime.widget.TZTextView android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.tozelabs.tvshowtime:string/Gif" android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/gifIcon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/gifIcon" />
+
+            <RelativeLayout
+                android:id="@*com.tozelabs.tvshowtime:id/createGif"
+                style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
+
+                <com.tozelabs.tvshowtime.widget.TZImageView
+                    android:id="@*com.tozelabs.tvshowtime:id/gifIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                    android:src="@*com.tozelabs.tvshowtime:drawable/gif_postcomposer_icon"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_centerVertical="true" />
+
+                <com.tozelabs.tvshowtime.widget.TZTextView
+                    android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.tozelabs.tvshowtime:string/Gif"
+                    android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/gifIcon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/gifIcon" />
             </RelativeLayout>
-            <RelativeLayout android:id="@*com.tozelabs.tvshowtime:id/createVideo" style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
-                <com.tozelabs.tvshowtime.widget.TZImageView android:id="@*com.tozelabs.tvshowtime:id/videoIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:src="@*com.tozelabs.tvshowtime:drawable/video_postcomposer_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerVertical="true" />
-                <com.tozelabs.tvshowtime.widget.TZTextView android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.tozelabs.tvshowtime:string/Video" android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/videoIcon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/videoIcon" />
+
+            <RelativeLayout
+                android:id="@*com.tozelabs.tvshowtime:id/createVideo"
+                style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
+
+                <com.tozelabs.tvshowtime.widget.TZImageView
+                    android:id="@*com.tozelabs.tvshowtime:id/videoIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                    android:src="@*com.tozelabs.tvshowtime:drawable/video_postcomposer_icon"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_centerVertical="true" />
+
+                <com.tozelabs.tvshowtime.widget.TZTextView
+                    android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.tozelabs.tvshowtime:string/Video"
+                    android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/videoIcon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/videoIcon" />
             </RelativeLayout>
-            <RelativeLayout android:id="@*com.tozelabs.tvshowtime:id/createPhoto" style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
-                <com.tozelabs.tvshowtime.widget.TZImageView android:id="@*com.tozelabs.tvshowtime:id/photoIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:src="@*com.tozelabs.tvshowtime:drawable/photo_postcomposer_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerVertical="true" />
-                <com.tozelabs.tvshowtime.widget.TZTextView android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.tozelabs.tvshowtime:string/Photo" android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/photoIcon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/photoIcon" />
+
+            <RelativeLayout
+                android:id="@*com.tozelabs.tvshowtime:id/createPhoto"
+                style="@*com.tozelabs.tvshowtime:style/ComposeButtonStyle">
+
+                <com.tozelabs.tvshowtime.widget.TZImageView
+                    android:id="@*com.tozelabs.tvshowtime:id/photoIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                    android:src="@*com.tozelabs.tvshowtime:drawable/photo_postcomposer_icon"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_centerVertical="true" />
+
+                <com.tozelabs.tvshowtime.widget.TZTextView
+                    android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.tozelabs.tvshowtime:string/Photo"
+                    android:layout_toRightOf="@*com.tozelabs.tvshowtime:id/photoIcon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@*com.tozelabs.tvshowtime:id/photoIcon" />
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
-    <com.tozelabs.tvshowtime.widget.TZTextView android:ellipsize="start" android:gravity="start|center" android:layout_gravity="start|center" android:id="@*com.tozelabs.tvshowtime:id/aboutText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:singleLine="true" android:layout_toLeftOf="@*com.tozelabs.tvshowtime:id/filterText" android:layout_below="@*com.tozelabs.tvshowtime:id/composeSection" android:layout_alignParentLeft="true" android:layout_marginStart="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:layout_toStartOf="@*com.tozelabs.tvshowtime:id/filterText" android:layout_alignParentStart="true" style="@*com.tozelabs.tvshowtime:style/FilterHeaderSectionText" />
-    <com.tozelabs.tvshowtime.widget.TZTextView android:gravity="end|center" android:layout_gravity="end|center" android:id="@*com.tozelabs.tvshowtime:id/filterText" android:background="@*com.tozelabs.tvshowtime:drawable/filter_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:drawableRight="@*com.tozelabs.tvshowtime:drawable/sort" android:drawablePadding="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:layout_below="@*com.tozelabs.tvshowtime:id/composeSection" android:layout_alignParentRight="true" android:drawableEnd="@*com.tozelabs.tvshowtime:drawable/sort" android:layout_marginEnd="@*com.tozelabs.tvshowtime:dimen/item_spacing" android:layout_alignParentEnd="true" style="@*com.tozelabs.tvshowtime:style/FilterHeaderSectionText" />
+
+    <com.tozelabs.tvshowtime.widget.TZTextView
+        android:ellipsize="start"
+        android:gravity="start|center"
+        android:layout_gravity="start|center"
+        android:id="@*com.tozelabs.tvshowtime:id/aboutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+        android:singleLine="true"
+        android:layout_toLeftOf="@*com.tozelabs.tvshowtime:id/filterText"
+        android:layout_below="@*com.tozelabs.tvshowtime:id/composeSection"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+        android:layout_toStartOf="@*com.tozelabs.tvshowtime:id/filterText"
+        android:layout_alignParentStart="true"
+        style="@*com.tozelabs.tvshowtime:style/FilterHeaderSectionText" />
+
+    <com.tozelabs.tvshowtime.widget.TZTextView
+        android:gravity="end|center"
+        android:layout_gravity="end|center"
+        android:id="@*com.tozelabs.tvshowtime:id/filterText"
+        android:background="@*com.tozelabs.tvshowtime:drawable/filter_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+        android:drawableRight="@*com.tozelabs.tvshowtime:drawable/sort"
+        android:drawablePadding="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+        android:layout_below="@*com.tozelabs.tvshowtime:id/composeSection"
+        android:layout_alignParentRight="true"
+        android:drawableEnd="@*com.tozelabs.tvshowtime:drawable/sort"
+        android:layout_marginEnd="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+        android:layout_alignParentEnd="true"
+        style="@*com.tozelabs.tvshowtime:style/FilterHeaderSectionText" />
 </RelativeLayout>

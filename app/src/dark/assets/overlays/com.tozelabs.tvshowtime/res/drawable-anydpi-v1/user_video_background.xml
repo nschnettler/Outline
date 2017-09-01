@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@*com.tozelabs.tvshowtime:dimen/episode_card_radius" />
+            <solid android:color="@*android:color/background_dark" />
+        </shape>
+    </item>
+</selector>

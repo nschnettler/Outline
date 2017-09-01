@@ -5,7 +5,6 @@
         <color name="desertStorm">@*android:color/background_material_dark</color>                  <!-- Main Background -->
         <color name="white_background">@*android:color/background_material_dark</color>             <!-- Main Bg 2 -->
         <color name="item_background">@*android:color/background_material_dark</color>              <!-- Item Background, Bottom Bar Back -->
-        <color name="gray">@*android:color/background_dark</color>
         <!-- Agenda -->
         <color name="agenda_background">@*android:color/background_material_dark</color>            <!-- Agenda Unseen episode Background -->
         <color name="alto1">@*android:color/background_dark</color>                                 <!-- Category /"Day" Background -->
@@ -37,6 +36,7 @@
     <color name="hint_text_white">#b3FFFFFF</color>
     <color name="secondary_text_black">#b3FFFFFF</color>
     <color name="text_grey">#b3FFFFFF</color>
+    <color name="gray">#b3FFFFFF</color>
     <!-- Quiz -->
     <color name="quiz_leaderboard_text">#FFFFFF</color>                                             <!-- Points -->
     <color name="quiz_leaderboard_no_friends_message">#FFFFFF</color>
@@ -44,6 +44,7 @@
     <!-- Other Stuff -->
     <color name="black">#FFFFFF</color>                                                             <!-- ViewpageIndicator Selected -->
     <color name="black_tr_50">#80FFFFFF</color>                                                     <!-- ViewpageIndicator UnSelected -->
+    <color name="divider_white">@*android:color/background_dark</color>
     <color name="divider_black">#00000000</color>                                                   <!-- Divider -->
     <color name="kumera">#FFFFFF</color>
     <color name="material_grey_50">#000000</color>
