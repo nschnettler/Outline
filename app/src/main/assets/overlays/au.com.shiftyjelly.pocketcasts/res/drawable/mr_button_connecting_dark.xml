@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@*au.com.shiftyjelly.pocketcasts:drawable/ic_mr_button_connecting_00_dark" />
+    <item android:duration="200" android:drawable="@*au.com.shiftyjelly.pocketcasts:drawable/ic_mr_button_connecting_01_dark" />
+    <item android:duration="200" android:drawable="@*au.com.shiftyjelly.pocketcasts:drawable/ic_mr_button_connecting_02_dark" />
+    <item android:duration="200" android:drawable="@*au.com.shiftyjelly.pocketcasts:drawable/ic_mr_button_connecting_03_dark" />
+    <item android:duration="200" android:drawable="@*au.com.shiftyjelly.pocketcasts:drawable/ic_mr_button_connecting_02_dark" />
+    <item android:duration="200" android:drawable="@*au.com.shiftyjelly.pocketcasts:drawable/ic_mr_button_connecting_01_dark" />
+    <item android:duration="200" android:drawable="@*au.com.shiftyjelly.pocketcasts:drawable/ic_mr_button_connecting_00_dark" />
+</animation-list>
