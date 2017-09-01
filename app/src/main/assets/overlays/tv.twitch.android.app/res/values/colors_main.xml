@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Accent -->
+    <color name="purple_7">@android:color/holo_purple</color>                                       <!-- Primary -->
+    <color name="purple_6">@android:color/holo_purple</color>                                       <!-- Primary Dark-->
+    <color name="purple_8">@android:color/holo_purple</color>                                       <!-- Primary Dark-->
+    <!-- More -->
+    <color name="purple_9">@android:color/holo_purple</color>
+    <color name="twitch_purple">@android:color/holo_purple</color>
+    <color name="purple_4">@android:color/holo_purple</color>
+
+    <!-- Texts -->
+    <color name="purple_10">#b3FFFFFF</color>
+    <color name="grey_9">#b3FFFFFF</color>
+
+    <!-- Stream Status -->
+    <color name="host_color">@android:color/holo_orange_light</color>
+    <color name="live_color">@android:color/holo_red_light</color>
+</resources>
