@@ -4,4 +4,8 @@
         <item name="android:background">@*android:drawable/ic_menu_end_conversation</item>
         <item name="android:elevation">0.0dip</item>
     </style>
+
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="*android:listDivider">@*com.android.settings:drawable/preference_list_divider_material</item>
+    </style>
 </resources>
