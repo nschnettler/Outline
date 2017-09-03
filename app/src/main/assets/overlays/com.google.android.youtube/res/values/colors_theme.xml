@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- All white Youtube -->
+    <!-- Home Primary -->
+    <color name="white_header_actionbar_color">@*android:color/primary_material_light</color>
+    <color name="white_header_statusbar_color">@*android:color/primary_material_light</color>
+    <!-- Search Primary -->
+    <color name="theme_search_color_primary">@*android:color/primary_material_light</color>
+    <color name="theme_search_color_primary_dark">@*android:color/primary_material_light</color>
+    <!-- Video Primary -->
+    <color name="theme_watch_color_primary_dark">@*android:color/primary_material_light</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <ripple android:color="@*com.google.android.apps.inbox:color/bt_default_ripple">
+        <item android:drawable="@*com.google.android.apps.inbox:drawable/bt_fab_offwhite" />
+    </ripple>
+</item>
+<item android:drawable="@*com.google.android.apps.inbox:drawable/bt_ic_replyall_g50_24dp" android:gravity="center"/>
+</layer-list>

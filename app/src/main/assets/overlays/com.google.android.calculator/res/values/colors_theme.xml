@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="calculator_primary_color">@*android:color/accent_material_light</color>            <!-- Primary -->
+    <color name="calculator_statusbar_color">#33000000</color>                                      <!-- Statusbar Overlay -->
+</resources>

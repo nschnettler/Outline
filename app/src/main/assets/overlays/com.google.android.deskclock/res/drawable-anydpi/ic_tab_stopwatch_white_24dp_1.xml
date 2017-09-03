@@ -1,0 +1,26 @@
+<vector android:height="24.0dip"
+    android:width="24.0dip"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M12,5.3c-4.4,0-8,3.6-8,8s3.6,8,8,8s8-3.6,8-8S16.4,5.3,12,5.3z M19.8,5.4l-2.1,2.1" />
+    <group
+        android:name="stopwatch_hand"
+        android:pivotX="12"
+        android:pivotY="13.3">
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="0.8"
+            android:pathData="M12,13.3v-5" />
+    </group>
+    <group
+        android:name="stopwatch_button">
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="0.8"
+            android:pathData="M9,2.8h6" />
+    </group>
+</vector>

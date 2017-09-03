@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary">@android:color/holo_green_light</color>
+    <color name="primary_dark">@android:color/holo_green_light</color>
+
+    <!-- Accent -->
+    <color name="accent_light">@*com.whatsapp:color/accent</color>
+    <color name="material_deep_teal_500">@*com.whatsapp:color/accent</color>
+    <color name="accent_dark">@*com.whatsapp:color/accent</color>
+    <color name="accent_dark_30">@*com.whatsapp:color/accent</color>
+    <color name="composing">@*com.whatsapp:color/accent</color>
+    <color name="avatar_contact_large">@*com.whatsapp:color/accent</color>
+    <color name="avatar_group_large">@*com.whatsapp:color/accent</color>
+    <color name="group_admin">@*com.whatsapp:color/accent</color>
+    <color name="voice_note_scrubber_green">@*com.whatsapp:color/accent</color>
+    <color name="voice_note_scrubber_blue">@*com.whatsapp:color/accent</color>
+    <color name="gdrive_restore_anim_green_dot">@*com.whatsapp:color/accent</color>
+    <color name="media_message_progress_determinate">@*com.whatsapp:color/accent</color>
+    <color name="btn_green_pressed">@*com.whatsapp:color/accent</color>
+    <color name="btn_green_registration">@*com.whatsapp:color/accent</color>
+    <color name="search_text_highlight">@*com.whatsapp:color/accent</color>
+    <color name="section_text">@*com.whatsapp:color/accent</color>
+    <color name="btn_green_normal">@*com.whatsapp:color/accent</color>                              <!-- FAB -->
+    <color name="list_item_verified_title">@*com.whatsapp:color/accent</color>
+    <color name="selection_check_background">@*com.whatsapp:color/accent</color>
+    <color name="status_unseen">@*com.whatsapp:color/accent</color>
+
+
+    <!-- Primary - geerbt -->
+    <color name="primary_dark_voip">@*com.whatsapp:color/primary</color>
+    <color name="primary_voip">@*com.whatsapp:color/primary</color>
+    <color name="status_read_more">@*com.whatsapp:color/primary</color>
+
+
+    <!-- Other -->
+    <color name="switch_thumb_normal_material_light">#757575</color>
+    <color name="divider_gray">#00ffffff</color>                                                    <!-- Hide Divider -->
+    <color name="link_color_outgoing">#FFFFFF</color>
+        <!-- Call -->
+        <color name="call_answer">@android:color/holo_green_light</color>
+        <color name="call_decline">@android:color/holo_red_light</color>
+        <!-- Red -->
+        <color name="red_button_text">@android:color/holo_red_light</color>
+        <color name="status_error">@android:color/holo_red_light</color>
+</resources>
