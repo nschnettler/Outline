@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="play_movies_card_background">@*android:color/background_material_dark</color>                                      <!-- Cards, Dialogs, Drawer -->
+    <color name="play_movies_main_background">@*android:color/background_material_dark</color>                                      <!-- Main -->
+    <color name="play_movies_drawer_selected_text_background">@*android:color/background_dark</color>                               <!-- Drawer Selected -->
+    <color name="material_grey_800">@*android:color/background_material_dark</color>                                                <!-- Dialogs -->
+    <color name="material_grey_850">@*android:color/background_material_dark</color>                                                <!-- Overflow -->
+    <!-- Details -->
+    <color name="play_movies_details_card_background">@*android:color/background_material_dark</color>
+    <color name="play_movies_details_background">@*android:color/background_material_dark</color>
+    <color name="play_movies_thumbnail_placeholder">@*android:color/background_material_dark</color>
+
+    <color name="play_card_light_background">@*android:color/background_material_dark</color>
+    <color name="play_search_suggestion_divider_background">@*android:color/background_dark</color>
+</resources>

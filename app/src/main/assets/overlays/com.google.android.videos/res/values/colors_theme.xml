@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="play_movies_card_background">#2a2b32</color>                                       <!-- Cards, Dialogs, Drawer -->
+    <color name="play_movies_main_background">#2a2b32</color>                                       <!-- Main -->
+    <color name="play_movies_drawer_selected_text_background">#25262D</color>                       <!-- Drawer Selected -->
+    <color name="material_grey_800">#2a2b32</color>                                                 <!-- Dialogs -->
+    <color name="material_grey_850">#2a2b32</color>                                                 <!-- Overflow -->
+    <!-- Details -->
+    <color name="play_movies_details_card_background">#2a2b32</color>
+    <color name="play_movies_details_background">#2a2b32</color>
+
+    <color name="play_card_light_background">#2a2b32</color>
+    <color name="play_search_suggestion_divider_background">#25262D</color>
+</resources>
