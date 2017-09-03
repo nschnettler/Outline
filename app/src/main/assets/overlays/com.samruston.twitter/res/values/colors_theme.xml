@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Splashscreen -->
-    <color name="boot">@*android:color/background_material_light</color>
-    <!-- Settings Background -->
-    <color name="settings_light_background">@*android:color/background_material_light</color>
-    <color name="settings_item_background_light">@*android:color/background_material_light</color>
-</resources>

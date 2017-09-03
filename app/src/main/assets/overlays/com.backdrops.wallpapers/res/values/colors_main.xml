@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Accent -->
-    <color name="pull_refresh1">@android:color/holo_red_light</color>
-    <color name="pull_refresh2">@android:color/holo_blue_light</color>
-    <color name="pull_refresh3">@android:color/holo_green_light</color>
-    <color name="pull_refresh4">@android:color/holo_orange_light</color>
-</resources>

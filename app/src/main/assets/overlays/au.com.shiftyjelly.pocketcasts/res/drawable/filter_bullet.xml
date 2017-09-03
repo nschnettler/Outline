@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0" auto:height="24.0dip" auto:width="24.0dip" auto:viewportWidth="24.0" auto:viewportHeight="24.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/au.com.shiftyjelly.pocketcasts">
-    <path   android:strokeColor="#FFffffff"
-        android:strokeWidth="0.6"
-        android:pathData="M7,8h14 M7,12h14 M7,16h14 M3,16h2 M3,12h2 M3,8h2" auto:fillColor="#ffffffff" auto:pathData="M4 10.5c-0.83 0-1.5 0.67-1.5 1.5s0.67 1.5 1.5 1.5 1.5-0.67 1.5-1.5-0.67-1.5-1.5-1.5Zm0-6c-0.83 0-1.5 0.67-1.5 1.5s0.67 1.5 1.5 1.5 1.5-0.67  1.5-1.5-0.67-1.5-1.5-1.5zm0 12.17c-0.74 0-1.33 0.6-1.33 1.33s0.6 1.33 1.33 1.33  1.33-0.6 1.33-1.33-0.59-1.33-1.33-1.33zm3  2.33h14v-2h-14v2zm0-6h14v-2h-14v2zm0-8v2h14v-2h-14z" />
-</vector>
