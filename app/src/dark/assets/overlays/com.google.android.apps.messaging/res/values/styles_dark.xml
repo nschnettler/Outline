@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BugleBaseTheme" parent="@*com.google.android.apps.messaging:style/Theme.AppCompat">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="BugleTheme.ConversationListActivity" parent="@*com.google.android.apps.messaging:style/BugleTheme">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+    </style>
+
+    <style name="BugleTheme.ArchivedConversationListActivity" parent="@*com.google.android.apps.messaging:style/BugleTheme">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.apps.messaging:colorPrimary">@*com.google.android.apps.messaging:color/archived_conversation_action_bar_background_color</item>
+        <item name="*com.google.android.apps.messaging:colorPrimaryDark">@*com.google.android.apps.messaging:color/archived_conversation_action_bar_background_color_dark</item>
+    </style>
+</resources>

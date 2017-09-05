@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="conversation_background">@*android:color/background_material_dark</color>                          <!-- Chat BG -->
+    <color name="contact_picker_background">@*android:color/background_material_dark</color>
+    <color name="sticker_set_overview_detail_background_color">@*android:color/background_material_dark</color>     <!-- Sticker Set Details -->
+    <color name="sticker_grid_item_view_background_color">@*android:color/background_material_dark</color>     <!-- Sticker Set Details -->
+    <color name="sticker_grid_view_holder_credit_artist_view_background_color">@*android:color/background_material_dark</color>
+    <color name="message_bubble_color_outgoing">@*android:color/background_dark</color>                             <!-- Message Bubble -->
+    <!-- GOOGLE MESSENGER SPECIFIC -->
+    <color name="contact_picker_search_background">@*android:color/background_material_dark</color>
+    <color name="compose_message_background_color">@*android:color/background_material_dark</color>
+    <color name="compose_message_top_border_color">@*android:color/background_dark</color>
+
+
+    <!-- Divider -->
+    <color name="conversation_settings_list_divider">@*android:color/background_dark</color>
+    <color name="sticker_set_overview_divider">@*android:color/background_dark</color>
+
+
+    <!-- Text -->
+        <!-- Chats List -->
+        <color name="conversation_list_item_read">#b3FFFFFF</color>
+        <color name="conversation_list_item_unread">#FFFFFF</color>
+        <color name="conversation_list_name">#FFFFFF</color>
+        <!-- Search Contact -->
+        <color name="google_blue_grey_800">#ff37474f</color>
+        <color name="contact_list_text_primary">#FFFFFF</color>
+        <color name="contact_list_text_secondary">#FFFFFF</color>
+        <color name="contact_picker_group_create_label_text">#FFFFFF</color>
+        <!-- People and Options -->
+        <color name="participant_list_add_people">#FFFFFF</color>
+        <color name="participant_list_text_primary">#FFFFFF</color>
+        <color name="participant_list_text_secondary">#b3FFFFFF</color>
+        <color name="conversation_settings_header_text">@android:color/holo_blue_dark</color>
+        <!-- Message Bubble -->
+        <color name="message_text_color_incoming">#ffffffff</color>
+        <color name="message_text_color_outgoing">#ffffffff</color>
+        <color name="timestamp_text_outgoing">#b3FFFFFF</color>
+        <!-- Sticker -->
+        <color name="sticker_set_list_item_view_sticker_creator_text_color">#FFFFFF</color>
+        <color name="sticker_set_list_item_view_sticker_name_text_color">#b3FFFFFF</color>
+        <color name="sticker_set_overview_download_status_color">#b3FFFFFF</color>
+        <!-- Voice Message -->
+        <color name="audio_picker_hint_text_color">#b3FFFFFF</color>
+        <color name="audio_picker_timer_text_color">#FFFFFF</color>
+        <color name="audio_attachment_timer_text_color">#FFFFFF</color>
+        <!-- Other -->
+        <color name="compose_send_text_color">#FFFFFF</color>                                                       <!-- Compose Message Text -->
+        <color name="chips_dropdown_text_highlighted">@android:color/holo_blue_dark</color>
+        <color name="google_blue_grey_400">#b3FFFFFF</color>                                                          <!-- Send -->
+        <!-- GOOGLE MESSENGER SPECIFIC -->
+        <color name="google_blue_grey_600">#b3FFFFFF</color>                                                        <!-- Hint -->
+        <color name="top_contact_list_text_primary">#FFFFFF</color>
+        <color name="compose_contact_text">#FFFFFF</color>
+</resources>
