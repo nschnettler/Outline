@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="letter_tile_colors">
+        <item>@android:color/holo_red_light</item> <!-- Rot -->
+        <item>@android:color/holo_purple</item> <!-- Lila -->
+        <item>@android:color/holo_blue_light</item> <!-- Indigo-->
+        <item>@android:color/holo_green_light</item> <!-- Grün-->
+        <item>@android:color/holo_orange_light</item> <!-- Orange-->
+        <item>@*android:color/holo_gray_light</item> <!-- GRAU -->
+    </array>
+    <array name="letter_tile_colors_dark">
+        <item>@android:color/holo_red_light</item> <!-- Rot -->
+        <item>@android:color/holo_purple</item> <!-- Lila -->
+        <item>@android:color/holo_blue_light</item> <!-- Indigo -->
+        <item>@android:color/holo_green_light</item> <!-- Grün-->
+        <item>@android:color/holo_orange_light</item> <!-- Orange-->
+        <item>@*android:color/holo_gray_light</item> <!-- GRAU -->
+    </array>
+    <array name="customized_letter_tile_colors">
+        <item>@android:color/holo_red_light</item> <!-- Rot -->
+        <item>@android:color/holo_orange_light</item> <!-- Orange-->
+        <item>@android:color/holo_purple</item> <!-- Lila -->
+        <item>@android:color/holo_blue_light</item> <!-- Indigo -->
+        <item>@android:color/holo_green_light</item> <!-- Grün-->
+        <item>@*android:color/holo_gray_light</item> <!-- GRAU -->
+    </array>
+    <array name="customized_letter_tile_colors_dark">
+        <item>@android:color/holo_red_light</item> <!-- Rot -->
+        <item>@android:color/holo_orange_light</item> <!-- Orange-->
+        <item>@android:color/holo_purple</item> <!-- Lila -->
+        <item>@android:color/holo_blue_light</item> <!-- Indigo -->
+        <item>@android:color/holo_green_light</item> <!-- Grün-->
+        <item>@*android:color/holo_gray_light</item> <!-- GRAU -->
+    </array>
+</resources>
