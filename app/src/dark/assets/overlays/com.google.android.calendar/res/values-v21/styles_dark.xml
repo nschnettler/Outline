@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PreferencesThemeBase" parent="@android:style/Theme.Material" />
+
+    <style name="SearchToolbar" parent="@*com.google.android.calendar:style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@*android:color/background_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">4.0dip</item>
+        <item name="*com.google.android.calendar:actionBarSize">@*com.google.android.calendar:dimen/action_bar_height</item>
+        <item name="*com.google.android.calendar:titleTextAppearance">@*com.google.android.calendar:style/TextAppearance.Toolbar.White</item>
+        <item name="*com.google.android.calendar:navigationIcon">@*com.google.android.calendar:drawable/quantum_ic_arrow_back_grey600_24</item>
+        <item name="*com.google.android.calendar:navigationContentDescription">@*com.google.android.calendar:string/accessibility_navigation_icon</item>
+    </style>
+</resources>

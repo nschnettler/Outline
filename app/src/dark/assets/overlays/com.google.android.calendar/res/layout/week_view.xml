@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/com.google.android.calendar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.google.android.calendar.timely.gridviews.WeekHeaderLabelsView
+            android:id="@*com.google.android.calendar:id/week_header_labels"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.google.android.calendar:dimen/week_day_header_height" />
+
+        <com.google.android.calendar.timely.AllDayScrollView
+            android:id="@*com.google.android.calendar:id/week_all_day_scroll"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <com.google.android.calendar.timely.gridviews.AllDayHeaderView android:id="@*com.google.android.calendar:id/week_all_day_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                custom:count_days="7"
+                xmlns:custom="http://schemas.android.com/apk/com.google.android.calendar" />
+        </com.google.android.calendar.timely.AllDayScrollView>
+
+        <include layout="@*com.google.android.calendar:layout/line_separator_horizontal" />
+
+        <com.google.android.calendar.timely.PagedScrollView
+            android:id="@*com.google.android.calendar:id/week_days_scroll"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <com.google.android.calendar.timely.gridviews.GridViewFrame
+                android:orientation="horizontal"
+                android:id="@*com.google.android.calendar:id/week_days_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                custom:draw_hours="false" />
+        </com.google.android.calendar.timely.PagedScrollView>
+    </LinearLayout>
+
+    <View
+        android:layout_gravity="end"
+        android:background="@*com.google.android.calendar:drawable/week_separator"
+        android:layout_width="@*com.google.android.calendar:dimen/list_week_separator_width"
+        android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.calendar.newapi.commandbar.CommandBar android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:id="@*com.google.android.calendar:id/command_bar"
+    android:background="@*android:color/background_material_dark"
+    android:focusableInTouchMode="false"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.google.android.calendar:dimen/info_segment_single_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:background="@*com.google.android.calendar:color/event_info_action_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@*com.google.android.calendar:id/action_container"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.calendar:dimen/info_segment_single_height">
+
+        <TextView
+            android:id="@*com.google.android.calendar:id/command_bar_description"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:importantForAccessibility="yes"
+            style="@*com.google.android.calendar:style/ProposeTimeResponsePrompt" />
+
+        <Button
+            android:textColor="@*com.google.android.calendar:color/info_segment_text_dark"
+            android:id="@*com.google.android.calendar:id/left_action"
+            android:visibility="gone"
+            style="@*com.google.android.calendar:style/FlatMaterialButton" />
+
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@*com.google.android.calendar:id/action_follow_up"
+            android:visibility="gone"
+            style="@*com.google.android.calendar:style/FlatMaterialButton.FollowUp" />
+    </LinearLayout>
+</com.google.android.calendar.newapi.commandbar.CommandBar>
