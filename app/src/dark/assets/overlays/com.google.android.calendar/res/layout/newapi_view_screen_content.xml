@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@*com.google.android.calendar:id/event_info_progress_bar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@*com.google.android.calendar:id/event_info_progress_bar"
+            android:layout_width="@*com.google.android.calendar:dimen/info_segment_single_height"
+            android:layout_height="@*com.google.android.calendar:dimen/info_segment_single_height"
+            android:layout_marginTop="24.0dip"
+            android:indeterminate="true" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@*com.google.android.calendar:id/event_info"
+        android:backgroundTint="@*android:color/background_material_dark"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:descendantFocusability="afterDescendants"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <FrameLayout
+                android:id="@*com.google.android.calendar:id/view_screen_header"
+                android:background="@*com.google.android.calendar:color/no_color_found_color"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@*com.google.android.calendar:id/segment_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:id="@*com.google.android.calendar:id/header_action_bar"
+                    android:background="@android:color/transparent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <com.google.android.calendar.common.view.ClickTargetFrameLayout
+                        android:id="@*com.google.android.calendar:id/cancel"
+                        android:contentDescription="@*com.google.android.calendar:string/close_label"
+                        style="@*com.google.android.calendar:style/HeadlineButtonContainer">
+
+                        <ImageView style="@*com.google.android.calendar:style/HeadlineCloseButton" />
+                    </com.google.android.calendar.common.view.ClickTargetFrameLayout>
+                </FrameLayout>
+            </FrameLayout>
+
+            <com.google.android.calendar.swipeclosing.DraggableScrollView
+                android:id="@*com.google.android.calendar:id/segments_scroll"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0"
+                android:importantForAccessibility="yes">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@*com.google.android.calendar:id/segments"
+                    android:paddingTop="@*com.google.android.calendar:dimen/info_scroll_padding_top"
+                    android:paddingBottom="@*com.google.android.calendar:dimen/info_scroll_padding_bottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.calendar.swipeclosing.DraggableScrollView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@*com.google.android.calendar:id/info_action_edit"
+            android:padding="@*com.google.android.calendar:dimen/info_edit_fill_padding"
+            android:clipToPadding="false"
+            android:descendantFocusability="afterDescendants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.google.android.calendar:dimen/info_rich_headline_edit_button_margin_top"
+            android:layout_marginStart="@*com.google.android.calendar:dimen/view_screen_edit_fab_start_margin">
+
+            <com.google.android.calendar.common.view.ClickTargetFrameLayout
+                android:id="@*com.google.android.calendar:id/info_action_edit_hit"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:contentDescription="@*com.google.android.calendar:string/edit_label"
+                android:elevation="@*com.google.android.calendar:dimen/info_edit_elevation">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:focusable="true"
+                    android:layout_width="@*com.google.android.calendar:dimen/info_icon_size"
+                    android:layout_height="@*com.google.android.calendar:dimen/info_icon_size"
+                    android:src="@*com.google.android.calendar:drawable/ic_edit_white"
+                    android:contentDescription="@*com.google.android.calendar:string/empty_description"
+                    style="@*com.google.android.calendar:style/NotImportantForAccessibility" />
+            </com.google.android.calendar.common.view.ClickTargetFrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:id="@*com.google.android.calendar:id/command_bar_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>
