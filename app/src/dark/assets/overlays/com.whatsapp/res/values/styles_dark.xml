@@ -15,17 +15,17 @@
         <item name="*com.whatsapp:colorPrimary">@*com.whatsapp:color/primary</item>
         <item name="*com.whatsapp:colorPrimaryDark">@*com.whatsapp:color/primary_dark</item>
         <item name="*com.whatsapp:colorAccent">@*com.whatsapp:color/accent</item>
-        <item name="*com.whatsapp:textColorError">@*com.whatsapp:color/design_textinput_error_color_light</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
 
     <style name="Theme.App.Home" parent="@*com.whatsapp:style/Theme.App">
-    <item name="android:windowBackground">@*android:color/background_material_dark</item>
-    <item name="android:fastScrollThumbDrawable">@*com.whatsapp:drawable/fastscroll_thumb_home</item>
-    <item name="android:fastScrollTrackDrawable">@*com.whatsapp:drawable/fastscroll_track</item>
-    <item name="*com.whatsapp:windowActionBar">false</item>
-    <item name="*com.whatsapp:windowNoTitle">true</item>
-</style>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:fastScrollThumbDrawable">@*com.whatsapp:drawable/fastscroll_thumb_home</item>
+        <item name="android:fastScrollTrackDrawable">@*com.whatsapp:drawable/fastscroll_track</item>
+        <item name="*com.whatsapp:windowActionBar">false</item>
+        <item name="*com.whatsapp:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
 
     <!-- Gallery -->
     <style name="Theme.App.GalleryPicker" parent="@*com.whatsapp:style/Theme.App">
