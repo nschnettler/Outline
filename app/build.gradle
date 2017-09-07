@@ -69,8 +69,8 @@ android {
                 buildConfigField "String", "LICENSE", '"***REMOVED***"'
                 buildConfigField "String", "SIGNATURE", '"***REMOVED***"'
 
-                versionCode 2601
-                versionName "Oreo - 1"
+                versionCode 2602
+                versionName "Oreo - 2"
             }
         }
     }
