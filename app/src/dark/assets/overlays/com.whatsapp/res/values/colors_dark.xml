@@ -13,7 +13,7 @@
     <color name="background_material_dark">@*android:color/background_material_dark</color>         <!-- Messages Selected Overflow -->
     <color name="emoji_popup_body">@*android:color/background_material_dark</color>
     <color name="emoji_popup_header">@*android:color/background_material_dark</color>
-
+    <color name="material_grey_800">@*android:color/background_material_dark</color>
 
     <!-- Butoons -->
     <color name="btn_gray_pressed">@*android:color/background_dark</color>
@@ -40,6 +40,8 @@
     <color name="contact_phone_type">#80ffffff</color>
     <color name="description_gray">#ffbbbbbb</color>                                                <!-- Invite Friends, Contacts Help -->
     <color name="dark_gray">#ffaaaaaa</color>
+    <color name="status_normal">#FFFFFF</color>
+    <color name="conversations_text_gray">#b3FFFFFF</color>
 
     <!-- Statusbar -->
      <color name="about_statusbar">@*android:color/background_material_dark</color>
