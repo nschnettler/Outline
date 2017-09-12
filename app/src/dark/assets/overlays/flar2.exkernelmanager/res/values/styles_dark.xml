@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialogs -->
+    <style name="MyDialogStyle" parent="@*flar2.exkernelmanager:style/Theme.AppCompat.Dialog">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="*flar2.exkernelmanager:colorAccent">@*flar2.exkernelmanager:color/blueapptheme_color</item>
+    </style>
+</resources>
