@@ -10,7 +10,7 @@ android {
         targetSdkVersion 25
         minSdkVersion 25
         maxSdkVersion 25
-        versionCode 2568
+        versionCode 2569
     }
     buildTypes {
         debug {
@@ -26,7 +26,7 @@ android {
             light{
                 dimension "theme"
                 applicationId "com.schnettler.outline"
-                versionName "Nougat - Final (9.4)"
+                versionName "Nougat - Final (9.4.1)"
             }
         }
     }
