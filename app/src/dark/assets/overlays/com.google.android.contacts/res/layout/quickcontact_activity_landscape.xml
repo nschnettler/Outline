@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.contacts.widget.MultiShrinkScroller android:orientation="vertical"
-    android:id="@*com.google.android.contacts:id/multiscroller"
+<android.support.design.widget.CoordinatorLayout android:orientation="horizontal"
+    android:id="@*com.google.android.contacts:id/root"
     android:focusable="true"
     android:focusableInTouchMode="true"
     android:descendantFocusability="afterDescendants"
@@ -9,61 +9,33 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:weightSum="7.0">
 
-        <View
-            android:id="@*com.google.android.contacts:id/transparent_view"
-            android:layout_width="fill_parent"
-            android:layout_height="@*com.google.android.contacts:dimen/quickcontact_starting_empty_height"
-            android:contentDescription="@*com.google.android.contacts:string/quickcontact_transparent_view_description" />
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@*com.google.android.contacts:id/collapsing_toolbar"
+            android:background="@*com.google.android.contacts:color/quickcontact_header_background"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0">
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            <include layout="@*com.google.android.contacts:layout/quickcontact_header" />
+        </android.support.design.widget.CollapsingToolbarLayout>
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:id="@*com.google.android.contacts:id/toolbar_parent"
-                android:background="@*com.google.android.contacts:color/quickcontact_header_background"
-                android:paddingBottom="?android:actionBarSize"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+        <android.support.v4.widget.NestedScrollView
+            android:id="@*com.google.android.contacts:id/content_scroll_view"
+            android:background="@*android:color/background_material_dark"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:layout_weight="4.0">
 
-                <android.support.v7.widget.Toolbar
-                    android:layout_gravity="end|center|top"
-                    android:id="@*com.google.android.contacts:id/toolbar"
-                    android:layout_width="fill_parent"
-                    android:layout_height="?android:actionBarSize" />
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
-
-                    <include layout="@*com.google.android.contacts:layout/quickcontact_header" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <com.android.contacts.widget.TouchlessScrollView
-                android:id="@*com.google.android.contacts:id/content_scroller"
-                android:background="@*android:color/background_material_dark"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:fillViewport="true">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:id="@*com.google.android.contacts:id/card_container"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content">
-
-                    <include layout="@*com.google.android.contacts:layout/quickcontact_content" />
-                </LinearLayout>
-            </com.android.contacts.widget.TouchlessScrollView>
-        </LinearLayout>
+            <include layout="@*com.google.android.contacts:layout/quickcontact_content" />
+        </android.support.v4.widget.NestedScrollView>
     </LinearLayout>
 
     <include layout="@*com.google.android.contacts:layout/quick_contact_floating_action_button" />
-</com.android.contacts.widget.MultiShrinkScroller>
+</android.support.design.widget.CoordinatorLayout>

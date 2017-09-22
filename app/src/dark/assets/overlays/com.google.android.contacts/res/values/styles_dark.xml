@@ -21,10 +21,6 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
 
-    <!-- Dialogs -->
-    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@*com.google.android.contacts:style/Base.Theme.AppCompat.Dialog.Alert" />
-    <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="@*com.google.android.contacts:style/Base.Theme.AppCompat.Dialog.MinWidth" />
-
     <style name="BaseTextStyle">
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:fontFamily">sans-serif</item>
