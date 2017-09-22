@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Icons -->
+    <color name="md_grey_600">#FFFFFF</color>
+
     <!-- Background -->
         <!-- Main -->
         <color name="desertStorm">@*android:color/background_material_dark</color>                  <!-- Main Background -->
@@ -31,15 +34,19 @@
         <color name="quiz_leaderboard_header_bg">@*android:color/background_material_dark</color>
 
     <!-- Text -->
-    <color name="mineShaft">#FFFFFF</color>                                                         <!-- Primary Text -->
-    <!-- Secondary Text -->
-    <color name="hint_text_white">#b3FFFFFF</color>
-    <color name="secondary_text_black">#b3FFFFFF</color>
-    <color name="text_grey">#b3FFFFFF</color>
-    <color name="gray">#b3FFFFFF</color>
-    <!-- Quiz -->
-    <color name="quiz_leaderboard_text">#FFFFFF</color>                                             <!-- Points -->
-    <color name="quiz_leaderboard_no_friends_message">#FFFFFF</color>
+        <color name="mineShaft">#FFFFFF</color>                                                         <!-- Primary Text -->
+        <!-- Secondary Text -->
+        <color name="hint_text_white">#b3FFFFFF</color>
+        <color name="secondary_text_black">#b3FFFFFF</color>
+        <color name="text_grey">#b3FFFFFF</color>
+        <color name="gray">#b3FFFFFF</color>
+        <!-- Quiz -->
+        <color name="quiz_leaderboard_text">#FFFFFF</color>                                             <!-- Points -->
+        <color name="quiz_leaderboard_no_friends_message">#FFFFFF</color>
+        <color name="quiz_results_dark_gray">#FFFFFF</color>
+        <color name="quiz_results_black">#FFFFFF</color>
+        <!-- Other -->
+        <color name="text_gray">#FFFFFF</color>
 
     <!-- Other Stuff -->
     <color name="black">#FFFFFF</color>                                                             <!-- ViewpageIndicator Selected -->

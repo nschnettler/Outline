@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@*com.tozelabs.tvshowtime:id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@*com.tozelabs.tvshowtime:style/CommentStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.tozelabs.tvshowtime">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.tozelabs.tvshowtime.widget.ForegroundRelativeLayout
+            android:id="@*com.tozelabs.tvshowtime:id/quizLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.tozelabs.tvshowtime:dimen/quiz_item_height"
+            android:foreground="@*com.tozelabs.tvshowtime:drawable/selectable_item_foreground">
+
+            <com.tozelabs.tvshowtime.widget.TZImageView
+                android:id="@*com.tozelabs.tvshowtime:id/coverImage"
+                android:background="@*com.tozelabs.tvshowtime:color/quiz_bg_black"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true" />
+
+            <View
+                android:id="@*com.tozelabs.tvshowtime:id/coverOverlay"
+                android:background="@*com.tozelabs.tvshowtime:color/quiz_bg_black"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@*com.tozelabs.tvshowtime:id/triviaIcons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.tozelabs.tvshowtime:dimen/very_big_item_spacing"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@*com.tozelabs.tvshowtime:drawable/ic_trivia_icons" />
+
+            <com.tozelabs.tvshowtime.widget.TZTextView
+                android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_large"
+                android:textColor="@*com.tozelabs.tvshowtime:color/primary_text_white"
+                android:gravity="center_horizontal"
+                android:id="@*com.tozelabs.tvshowtime:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@*com.tozelabs.tvshowtime:dimen/very_big_item_spacing"
+                android:layout_marginTop="@*com.tozelabs.tvshowtime:dimen/item_spacing8"
+                android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/very_big_item_spacing"
+                android:layout_below="@*com.tozelabs.tvshowtime:id/triviaIcons"
+                android:layout_centerHorizontal="true"
+                app:textFont="@*com.tozelabs.tvshowtime:string/semi_bold_font" />
+
+            <RelativeLayout
+                android:paddingLeft="@*com.tozelabs.tvshowtime:dimen/very_big_item_spacing"
+                android:paddingRight="@*com.tozelabs.tvshowtime:dimen/very_big_item_spacing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <com.tozelabs.tvshowtime.widget.TZTextView
+                    android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_display_0"
+                    android:textColor="@*com.tozelabs.tvshowtime:color/primary_text_white"
+                    android:layout_gravity="center"
+                    android:id="@*com.tozelabs.tvshowtime:id/userScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    app:textFont="@*com.tozelabs.tvshowtime:string/semi_bold_font" />
+
+                <com.tozelabs.tvshowtime.widget.TZTextView
+                    android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_large"
+                    android:textColor="@*com.tozelabs.tvshowtime:color/primary_text_white"
+                    android:gravity="center_horizontal"
+                    android:id="@*com.tozelabs.tvshowtime:id/userText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@*com.tozelabs.tvshowtime:dimen/item_spacing8"
+                    android:layout_below="@*com.tozelabs.tvshowtime:id/userScore"
+                    android:layout_centerHorizontal="true"
+                    app:textFont="@*com.tozelabs.tvshowtime:string/semi_bold_font" />
+            </RelativeLayout>
+
+            <com.tozelabs.tvshowtime.view.UsersMedalsView_
+                android:gravity="end"
+                android:id="@*com.tozelabs.tvshowtime:id/friendsImages"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:layout_marginBottom="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:layout_alignParentEnd="true" />
+
+            <com.tozelabs.tvshowtime.widget.TZTextView
+                android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_small"
+                android:textColor="@*com.tozelabs.tvshowtime:color/kumera"
+                android:layout_gravity="center_horizontal"
+                android:id="@*com.tozelabs.tvshowtime:id/quizBadge"
+                android:background="@*com.tozelabs.tvshowtime:drawable/button_quiz_badge_background"
+                android:paddingLeft="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                android:paddingTop="@*com.tozelabs.tvshowtime:dimen/half_item_spacing"
+                android:paddingRight="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                android:paddingBottom="@*com.tozelabs.tvshowtime:dimen/half_item_spacing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:layout_marginTop="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:layout_marginBottom="@*com.tozelabs.tvshowtime:dimen/item_spacing"
+                android:text="@*com.tozelabs.tvshowtime:string/Quiz"
+                android:textAllCaps="true"
+                android:layout_marginStart="@*com.tozelabs.tvshowtime:dimen/big_item_spacing" />
+        </com.tozelabs.tvshowtime.widget.ForegroundRelativeLayout>
+
+        <RelativeLayout
+            android:background="@*android:color/background_material_dark"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.tozelabs.tvshowtime:dimen/quiz_item_footer_height"
+            android:layout_below="@*com.tozelabs.tvshowtime:id/quizLayout">
+
+            <com.tozelabs.tvshowtime.widget.TZButton
+                android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_caption"
+                android:textColor="@*com.tozelabs.tvshowtime:color/primary_text_white"
+                android:id="@*com.tozelabs.tvshowtime:id/btLaunchQuiz"
+                android:paddingLeft="@*com.tozelabs.tvshowtime:dimen/super_big_item_spacing"
+                android:paddingRight="@*com.tozelabs.tvshowtime:dimen/super_big_item_spacing"
+                android:layout_width="wrap_content"
+                android:layout_height="@*com.tozelabs.tvshowtime:dimen/quiz_item_launch_button_height"
+                android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:text="@*com.tozelabs.tvshowtime:string/LaunchQuiz"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textAllCaps="false"
+                android:layout_marginEnd="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
+                android:layout_alignParentEnd="true"
+                app:textFont="@*com.tozelabs.tvshowtime:string/semi_bold_font"
+                style="@*com.tozelabs.tvshowtime:style/ButtonQuizStyle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
