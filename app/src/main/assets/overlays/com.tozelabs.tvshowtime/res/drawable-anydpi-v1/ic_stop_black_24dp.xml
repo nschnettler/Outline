@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24.0dip"
+    android:width="24.0dip"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:strokeColor="@*com.tozelabs.tvshowtime:color/md_grey_600"
+        android:strokeWidth="0.8"
+        android:pathData="M18,18.5H6c-0.3,0-0.5-0.2-0.5-0.5V6c0-0.3,0.2-0.5,0.5-0.5h12c0.3,0,0.5,0.2,0.5,0.5v12
+	C18.5,18.3,18.3,18.5,18,18.5z" />
+</vector>
