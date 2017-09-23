@@ -1,0 +1,12 @@
+<resources>
+    <!-- Icon -->
+    <color name="icon_accent">#7E8ACD</color>
+    <color name="icon_background">#FAFAFA</color>
+    <color name="icon_foreground_drop">#757575</color>
+
+    <!-- HeroImage -->
+    <color name="hero_background">#DCDEE0</color>
+    <color name="hero_foreground">#FAFAFA</color>
+    <color name="hero_accent">@color/icon_accent</color>
+    <color name="hero_icon">@color/icon_foreground_drop</color>
+</resources>

@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="108dp"
+    android:viewportHeight="108"
+    android:viewportWidth="108"
+    android:width="108dp">
+    <path
+        android:name="Circle"
+        android:fillColor="@color/icon_background"
+        android:pathData="M80,54c0,14.4-11.6,26-26,26S28,68.4,28,54s11.6-26,26-26S80,39.6,80,54z"/>
+
+    <path
+        android:name="Tinted"
+        android:fillAlpha="0.2"
+        android:fillColor="#000000"
+        android:pathData="M80.2,54.1C79.9,68.3,68.3,79.7,54,79.7c-14.3,0-25.9-11.4-26.2-25.6c0-0.1,0-0.3,0-0.4
+    c0,0,0,0.1,0,0.1c0,0.2,0,0.4,0,0.6C28.1,68.6,39.7,80,54,80c14.3,0,25.9-11.4,26.2-25.6c0-0.2,0-0.4,0-0.6c0,0,0-0.1,0-0.1
+    C80.2,53.8,80.2,54,80.2,54.1z"/>
+
+    <path
+        android:name="Shaded"
+        android:fillAlpha="0.2"
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28.3c14.2,0,25.7,11.3,26,25.4c0,0.1,0,0.3,0,0.4c0,0,0-0.1,0-0.1c0-0.2,0-0.4,0-0.6
+			C79.7,39.3,68.2,28,54,28c-14.2,0-25.7,11.3-26,25.4c0,0.2,0,0.4,0,0.6c0,0,0,0.1,0,0.1c0-0.1,0-0.3,0-0.4
+			C28.4,39.6,39.9,28.3,54,28.3z"/>
+
+
+
+    <path
+        android:name="Shadow"
+        android:fillColor="@color/ic_launcher_shadow"
+        android:pathData="M59.5,79.4c-5.7-5.7-14.1-14.1-14.1-14.1c2.4,2.4,5.5,3.6,8.6,3.6c3.2,0,6.3-1.2,8.7-3.6
+			c2.4-2.4,3.6-5.6,3.6-8.7c0-3.1-1.2-6.3-3.6-8.7l0.1,0.1c0,0,0,0,0,0l15.4,15.4C75.2,71.4,68.1,77.6,59.5,79.4z"/>
+
+    <path
+        android:name="Drop"
+        android:fillColor="@color/icon_foreground_drop"
+        android:fillAlpha="0.6"
+        android:strokeColor="@color/icon_foreground_drop"
+        android:strokeWidth="1.6"
+        android:pathData="M66,56.5c0-3-1.2-6.1-3.5-8.5L54,39.5L45.5,48c-2.3,2.3-3.5,5.5-3.5,8.5 M42,56.5
+    c0,3,1.2,6.2,3.5,8.5c2.3,2.3,5.4,3.5,8.5,3.5s6.2-1.2,8.5-3.5c2.3-2.3,3.5-5.5,3.5-8.5"/>
+</vector>
