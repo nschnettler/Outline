@@ -8,4 +8,11 @@
     <color name="theme_dark_color_accent">@android:color/holo_orange_dark</color>
     <color name="theme_dark_color_primary">@android:color/holo_orange_light</color>
     <color name="theme_dark_color_primary_dark">@android:color/holo_orange_light</color>
+
+
+    <!-- Other -->
+    <color name="prime_text_color">@android:color/holo_orange_dark</color>
+    <color name="delete_target_hover_tint">@android:color/holo_red_light</color>
+    <color name="edit_target_hover_tint">@android:color/holo_orange_light</color>
+    <color name="info_target_hover_tint">@android:color/holo_blue_light</color>
 </resources>
