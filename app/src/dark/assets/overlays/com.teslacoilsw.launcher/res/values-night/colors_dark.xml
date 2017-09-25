@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="switcher_bar_background_color">@*android:color/background_material_dark</color>
+    <color name="cardIdleBackground">@*android:color/background_material_dark</color>
+
+    <!-- App Shortcuts -->
+    <color name="pill_menu_bg">@*android:color/background_material_dark</color>
+    <color name="pill_menu_bg_pressed">@*android:color/background_dark</color>
+</resources>
