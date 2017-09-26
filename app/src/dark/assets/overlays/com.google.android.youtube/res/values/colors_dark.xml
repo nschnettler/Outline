@@ -56,6 +56,7 @@
     <color name="comment_divider_color">#00000000</color>
     <color name="line_separator">#00000000</color>
     <color name="line_separator_color">#00000000</color>
+    <color name="quantum_grey300">@*android:color/background_dark</color><!--Search Filter Dialog -->
 
 
     <!-- Text Color -->
@@ -78,8 +79,8 @@
         <color name="mdx_prefs_subtitle">#89FFFFFF</color>
         <color name="mdx_prefs_title">#deFFFFFF</color>
         <!-- Live Chat -->
-        <color name="live_chat_light_author_name">#FFFFFF</color>
-        <color name="live_chat_input_text_color">#b3FFFFFF</color>
+        <color name="live_chat_light_author_name">#b3FFFFFF</color>
+        <color name="live_chat_input_text_color">#FFFFFF</color>
         <color name="live_chat_input_text_color_hint">#b3FFFFFF</color>
         <color name="live_chat_light_metadata_subtitle">#b3FFFFFF</color>
         <color name="live_chat_light_overlay_author_name">#FFFFFF</color>
