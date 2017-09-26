@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Account Page -->
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/res-auto"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@*com.google.android.youtube:id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        style="@*com.google.android.youtube:style/CompatElevationZ4" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@*com.google.android.youtube:id/list"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:overScrollMode="never" />
+
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/extra_small_font_size"
+        android:textColor="#b3FFFFFF"
+        android:gravity="center_horizontal"
+        android:id="@*com.google.android.youtube:id/footer"
+        android:background="@*android:color/background_material_dark"
+        android:padding="10.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        res-auto:robotoFont="regular"
+        xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

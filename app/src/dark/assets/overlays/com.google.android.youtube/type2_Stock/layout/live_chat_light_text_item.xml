@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Live Chat Message -->
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.libraries.youtube.common.ui.CircularImageView
+        android:id="@*com.google.android.youtube:id/avatar"
+        android:background="?selectableItemBackground"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:contentDescription="@*com.google.android.youtube:string/live_chat_item_context_menu_cd"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="8.0dip" />
+
+    <TextView
+        android:textSize="12.0sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:id="@*com.google.android.youtube:id/chat_message"
+        android:paddingBottom="2.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56.0dip"
+        android:layout_marginRight="16.0dip"
+        android:minHeight="36.0dip"
+        android:layout_centerVertical="true"
+        android:lineSpacingExtra="2.0sp"
+        android:layout_marginStart="56.0dip"
+        android:layout_marginEnd="16.0dip" />
+
+    <View
+        android:id="@*com.google.android.youtube:id/highlight_bar"
+        android:background="@*com.google.android.youtube:drawable/live_chat_auto_mod_highlight_bar_light"
+        android:visibility="gone"
+        android:layout_width="@*com.google.android.youtube:dimen/live_chat_highlight_bar_size"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5.0dip"
+        android:layout_alignTop="@*com.google.android.youtube:id/avatar"
+        android:layout_alignBottom="@*com.google.android.youtube:id/chat_message"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5.0dip"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
