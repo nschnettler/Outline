@@ -4,6 +4,18 @@
     <color name="info_card_video_item_light_font">#FFFFFF</color>                                               <!-- Custom -->
     <color name="theme_search_actionbar_controls_color">#ffffff</color>                                         <!-- Searched Icon color -->
 
+    <!-- Home Primary -->
+    <color name="white_header_actionbar_color">@*android:color/primary_material_dark</color>
+    <color name="white_header_statusbar_color">@*android:color/primary_material_dark</color>
+   
+
+    <color name="white_header_controls_color">#ffdddddd</color>
+    <color name="white_header_text_color">#ffffffff</color>
+
+    <color name="slim_status_bar_active_background_color">#4caf50</color>
+    <color name="slim_status_bar_inactive_background_color">@*android:color/button_material_dark</color>
+    <color name="slim_status_bar_text_color">#757</color>
+
     <!-- Backgrounds -->
         <!-- Main -->
         <color name="background_primary_light">@*android:color/background_material_dark</color>                 <!-- Background Primary -->
@@ -72,10 +84,16 @@
         <color name="live_chat_light_metadata_subtitle">#b3FFFFFF</color>
         <color name="live_chat_light_overlay_author_name">#FFFFFF</color>
         <color name="live_chat_button_subtext_light_color">#FFFFFF</color>
+        <!-- PlayList Video Item -->
+        <color name="video_item_dark_font">#FFFFFF</color>                                          <!-- Video Title -->
+        <color name="video_item_light_font">#b3FFFFFF</color>                                       <!-- Video Author -->
+        <!-- Conversation -->
+        <color name="conversation_tertiary_text_color">#b3FFFFFF</color>
         <!-- Various -->
         <color name="simplebox_text_color">#FFFFFF</color>                                              <!-- Create Comment Text Color -->
         <color name="slim_metadata_main_color">#FFFFFF</color>                                          <!-- New Description Thingy Title Text Color -->
         <color name="subscribe_button_subscribed_font_color">#FFFFFF</color>
+        <color name="account_switcher_color_secondary">#FFFFFF</color>
 
 
     <!-- Other -->
@@ -112,7 +130,6 @@
     <color name="ripple_material_light">#33ffffff</color>
     <color name="snackbar_action_button_ripple">#2fffffff</color>
     <color name="conversation_primary_text_color">#ffffffff</color>
-    <color name="video_item_dark_font">#ffbbbbbb</color>
     <color name="sign_in_promo_text_color">#ffdddddd</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_text">#ffffffff</color>

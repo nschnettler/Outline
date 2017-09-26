@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Channel: Header -->
+<GridLayout android:id="@*com.google.android.youtube:id/channel_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:rowCount="5"
+    android:columnCount="1"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/res-auto"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@*com.google.android.youtube:id/skinny_channel_banner"
+        android:background="@*com.google.android.youtube:color/theme_channel_color_primary"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="64.0dip"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_rowSpan="2" />
+
+    <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@*com.google.android.youtube:id/channel_banner_container"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        res-auto:aspectRatio="@*com.google.android.youtube:fraction/channel_layer_banner_aspect_ratio"
+        xmlns:res-auto="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@*com.google.android.youtube:id/channel_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@null" />
+    </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+
+    <ViewStub
+        android:id="@*com.google.android.youtube:id/channel_info_stub"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_rowSpan="2" />
+
+    <ViewStub
+        android:id="@*com.google.android.youtube:id/channel_info_stub_with_sponsorship"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_rowSpan="2" />
+
+    <View
+        android:id="@*com.google.android.youtube:id/avatar_bottom_pivot"
+        android:visibility="invisible"
+        android:layout_width="0.0dip"
+        android:layout_height="32.0dip"
+        android:layout_column="0"
+        android:layout_row="2" />
+
+    <com.google.android.libraries.youtube.common.ui.CircularImageView
+        android:id="@*com.google.android.youtube:id/channel_avatar"
+        android:background="@*android:color/background_dark"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:src="@*com.google.android.youtube:drawable/missing_avatar"
+        android:scaleType="centerCrop"
+        android:layout_column="0"
+        android:contentDescription="@null"
+        android:layout_row="1"
+        android:layout_rowSpan="2"
+        android:layout_marginStart="16.0dip" />
+
+    <GridLayout
+        android:background="@*android:color/background_dark"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:rowCount="6"
+        android:columnCount="1"
+        android:layout_row="4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@*com.google.android.youtube:id/links"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <View
+            android:layout_gravity="fill_horizontal"
+            android:id="@*com.google.android.youtube:id/separator"
+            android:background="@*android:color/background_dark"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <ViewStub
+            android:layout_gravity="fill_horizontal"
+            android:id="@*com.google.android.youtube:id/channel_offer_card_stub"
+            android:layout="@*com.google.android.youtube:layout/channel_offer_card"
+            android:inflatedId="@*com.google.android.youtube:id/channel_offer_card"
+            android:layout_width="0.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_column="0"
+            android:layout_row="3" />
+
+        <View
+            android:layout_gravity="fill_horizontal"
+            android:id="@*com.google.android.youtube:id/description_separator"
+            android:background="@*android:color/background_dark"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_column="0"
+            android:layout_row="4" />
+
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/small_font_size"
+            android:textColor="#FFFFFF"
+            android:ellipsize="end"
+            android:layout_gravity="fill_horizontal"
+            android:id="@*com.google.android.youtube:id/channel_description"
+            android:layout_width="0.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_column="0"
+            android:maxLines="2"
+            android:layout_row="5"
+            res-auto:robotoFont="regular"
+            xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
+    </GridLayout>
+</GridLayout>

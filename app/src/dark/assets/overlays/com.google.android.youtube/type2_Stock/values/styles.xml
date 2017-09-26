@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@*com.google.android.youtube:style/Platform.ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorForeground">@*android:color/white</item>
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+        <item name="android:textColorPrimary">@*com.google.android.youtube:color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@*com.google.android.youtube:color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@*com.google.android.youtube:color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@*com.google.android.youtube:color/abc_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@*com.google.android.youtube:color/abc_secondary_text_material_light</item>
+        <item name="android:textColorHintInverse">@*com.google.android.youtube:color/abc_hint_foreground_material_light</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColorHighlight">@*com.google.android.youtube:color/highlighted_text_material_dark</item>
+        <item name="android:textColorHint">@*com.google.android.youtube:color/abc_hint_foreground_material_dark</item>
+        <item name="android:colorForegroundInverse">@*com.google.android.youtube:color/foreground_material_light</item>
+        <item name="android:textColorTertiary">@*com.google.android.youtube:color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@*com.google.android.youtube:color/abc_secondary_text_material_light</item>
+        <item name="android:colorBackgroundCacheHint">@*com.google.android.youtube:color/abc_background_cache_hint_selector_material_dark</item>
+        <item name="*com.google.android.youtube:isLightTheme">false</item>
+        <item name="*com.google.android.youtube:colorControlNormal">@*android:color/white</item>
+        <item name="*com.google.android.youtube:colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="*com.google.android.youtube:colorButtonNormal">@*android:color/white</item>
+        <item name="*com.google.android.youtube:colorSwitchThumbNormal">@*com.google.android.youtube:color/switch_thumb_material_dark</item>
+        <item name="*com.google.android.youtube:colorBackgroundFloating">@*android:color/background_floating_material_dark</item>
+    </style>
+
+    <color name="pivot_bar_content_tab_dark">#b3FFFFFF</color>
+</resources>
