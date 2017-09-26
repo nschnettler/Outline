@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Search Suggestion -->
+<LinearLayout android:background="@*com.google.android.youtube:drawable/abc_item_background_holo_dark"
+    android:paddingTop="4.0dip"
+    android:paddingBottom="4.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48.0dip"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/com.google.android.youtube"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@*com.google.android.youtube:id/search_type_icon"
+        android:visibility="invisible"
+        android:layout_width="48.0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="4.0dip"
+        android:src="@*com.google.android.youtube:drawable/ic_query_suggestion"
+        android:scaleType="centerInside"
+        android:layout_marginStart="4.0dip" />
+
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/medium_font_size"
+        android:textColor="#ffdddddd"
+        android:background="@*android:color/holo_red_light"
+        android:textAllCaps="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@*com.google.android.youtube:id/text"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="56.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:maxLines="2"
+        android:layout_weight="1.0"
+        android:textIsSelectable="false"
+        android:textAlignment="viewStart"
+        android:paddingStart="20.0dip"
+        android:paddingEnd="56.0dip"
+        res-auto:robotoFont="regular"
+        xmlns:res-auto="http://schemas.android.com/apk/com.google.android.youtube" />
+
+    <ImageView
+        android:layout_gravity="end|center"
+        android:id="@*com.google.android.youtube:id/edit_suggestion"
+        android:layout_width="48.0dip"
+        android:layout_height="fill_parent"
+        android:src="@*com.google.android.youtube:drawable/ic_edit_suggestion"
+        android:scaleType="centerInside"
+        android:contentDescription="@*com.google.android.youtube:string/accessibility_search_edit_suggestion" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.LoadingFrameLayout android:background="@*android:color/background_material_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/res-auto"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.RecyclerView
+        android:backgroundTint="@*android:color/background_material_dark"
+        android:id="@*com.google.android.youtube:id/set_list"
+        android:paddingBottom="10.0dip"
+        android:focusable="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</com.google.android.libraries.youtube.common.ui.LoadingFrameLayout>
