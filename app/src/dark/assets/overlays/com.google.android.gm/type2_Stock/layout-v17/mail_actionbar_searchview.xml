@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.ui.search.MaterialSearchActionView android:id="@*com.google.android.gm:id/search_actionbar_view"
+    android:backgroundTint="@*android:color/background_material_dark"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="0.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@*com.google.android.gm:id/search_actionbar_back_button"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_width="@*com.google.android.gm:dimen/search_leading_button_width"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:contentDescription="@*com.google.android.gm:string/search_back_desc"
+        app:srcCompat="?actionModeCloseDrawable" />
+
+    <EditText
+        android:textSize="16.0sp"
+        android:textColor="@*com.google.android.gm:color/search_query_text"
+        android:textColorHint="@*com.google.android.gm:color/search_query_hint_text"
+        android:gravity="center_vertical"
+        android:id="@*com.google.android.gm:id/search_actionbar_query_text"
+        android:background="@android:color/transparent"
+        android:paddingLeft="@*com.google.android.gm:dimen/search_main_text_padding"
+        android:paddingRight="@*com.google.android.gm:dimen/search_main_text_padding"
+        android:nextFocusDown="@*com.google.android.gm:id/search_overlay_suggestion_list"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:hint="@*com.google.android.gm:string/search_hint"
+        android:singleLine="true"
+        android:layout_weight="1.0"
+        android:inputType="textNoSuggestions"
+        android:imeOptions="actionSearch|flagNoExtractUi"
+        android:textAlignment="viewStart" />
+
+    <ImageView
+        android:id="@*com.google.android.gm:id/search_actionbar_ending_button"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_width="@*com.google.android.gm:dimen/search_ending_button_width"
+        android:layout_height="fill_parent"
+        android:scaleType="center" />
+</com.android.mail.ui.search.MaterialSearchActionView>
