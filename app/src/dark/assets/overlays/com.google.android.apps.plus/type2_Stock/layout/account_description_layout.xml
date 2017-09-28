@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Select Account -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="72.0dip">
+
+        <RelativeLayout
+            android:id="@*com.google.android.apps.plus:id/account_layout"
+            android:background="@*com.google.android.apps.plus:drawable/list_selector"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <View
+                android:id="@*com.google.android.apps.plus:id/selected_account_bar"
+                android:background="#ff4285f4"
+                android:visibility="invisible"
+                android:layout_width="3.0dip"
+                android:layout_height="fill_parent" />
+
+            <com.google.android.libraries.social.avatars.ui.AvatarView
+                android:id="@*com.google.android.apps.plus:id/account_avatar"
+                android:layout_width="36.0dip"
+                android:layout_height="36.0dip"
+                android:layout_marginLeft="24.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="24.0dip"
+                android:layout_marginEnd="16.0dip"
+                shape="round"
+                size="small" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24.0dip"
+                android:layout_toRightOf="@*com.google.android.apps.plus:id/account_avatar"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="24.0dip"
+                android:layout_toEndOf="@*com.google.android.apps.plus:id/account_avatar">
+
+                <TextView
+                    android:textSize="@*com.google.android.apps.plus:dimen/text_size_16"
+                    android:textColor="@*com.google.android.apps.plus:color/text_normal"
+                    android:ellipsize="end"
+                    android:id="@*com.google.android.apps.plus:id/display_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:textSize="@*com.google.android.apps.plus:dimen/text_size_14"
+                    android:textColor="@*com.google.android.apps.plus:color/text_gray"
+                    android:ellipsize="end"
+                    android:id="@*com.google.android.apps.plus:id/account_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</merge>
