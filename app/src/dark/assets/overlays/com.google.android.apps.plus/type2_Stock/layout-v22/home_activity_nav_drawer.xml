@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.plus.phone.HostLayout android:id="@*com.google.android.apps.plus:id/host"
+    android:background="@null"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.apps.plus.views.EsDrawerLayout
+        android:id="@*com.google.android.apps.plus:id/drawer"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@*com.google.android.apps.plus:id/coordinator"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <android.support.design.widget.AppBarLayout
+                    android:id="@*com.google.android.apps.plus:id/appbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@*com.google.android.apps.plus:id/toolbar"
+                        android:background="?colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="?actionBarSize"
+                        android:minHeight="?actionBarSize"
+                        app:popupTheme="@*com.google.android.apps.plus:style/Theme.ArkhamLight"
+                        app:layout_scrollFlags="enterAlways|scroll"
+                        app:titleTextAppearance="@*com.google.android.apps.plus:style/Theme.Arkham.ActionBar.Text"
+                        app:theme="@*com.google.android.apps.plus:style/Theme.ArkhamDark" />
+
+                    <com.google.android.libraries.social.ui.views.slidingtab.SlidingTabLayout
+                        android:id="@*com.google.android.apps.plus:id/sliding_tabs"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.AppBarLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@*com.google.android.apps.plus:id/fragment_container_parent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:accessibilityTraversalAfter="@*com.google.android.apps.plus:id/toolbar"
+                    app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior">
+
+                    <FrameLayout
+                        android:id="@*com.google.android.apps.plus:id/fragment_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="1.0" />
+
+                    <include layout="@*com.google.android.apps.plus:layout/bottom_navigation_spacer" />
+                </LinearLayout>
+            </android.support.design.widget.CoordinatorLayout>
+
+            <FrameLayout
+                android:layout_gravity="bottom"
+                android:id="@*com.google.android.apps.plus:id/bottom_navigation_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <android.support.design.widget.NavigationView
+            android:layout_gravity="start"
+            android:id="@*com.google.android.apps.plus:id/navigation_drawer"
+            android:background="@*android:color/background_material_dark"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+    </com.google.android.apps.plus.views.EsDrawerLayout>
+</com.google.android.apps.plus.phone.HostLayout>
