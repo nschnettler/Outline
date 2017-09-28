@@ -23,9 +23,8 @@
         android:layout_marginStart="4.0dip" />
 
     <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/medium_font_size"
-        android:textColor="#ffdddddd"
+        android:textColor="#FFFFFF"
         android:background="@*android:color/holo_red_light"
-        android:textAllCaps="true"
         android:ellipsize="end"
         android:gravity="center_vertical"
         android:id="@*com.google.android.youtube:id/text"
