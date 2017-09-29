@@ -42,8 +42,8 @@
     <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
         <item name="android:background">@*android:color/background_material_dark</item>
         <item name="android:elevation">16dp</item>
-        <item name="*com.google.android.dialer:behavior_peekHeight">auto</item>
-        <item name="*com.google.android.dialer:behavior_hideable">true</item>
-        <item name="*com.google.android.dialer:behavior_skipCollapsed">false</item>
+        <item name="behavior_peekHeight">auto</item>
+        <item name="behavior_hideable">true</item>
+        <item name="behavior_skipCollapsed">false</item>
     </style>
 </resources>
