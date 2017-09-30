@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="highlight_color_lxx_light">@*android:color/accent_material_light</color>
+    <color name="gesture_trail_color_lxx_light">@*android:color/accent_material_light</color>
+    <color name="sliding_key_input_preview_color_lxx_light">#B34285F4</color>
+
+    <color name="highlight_color_lxx_dark">@*android:color/accent_material_light</color>
+    <color name="gesture_trail_color_lxx_dark">@*android:color/accent_material_light</color>
+    <color name="sliding_key_input_preview_color_lxx_dark">@*android:color/accent_material_light</color>
+</resources>
