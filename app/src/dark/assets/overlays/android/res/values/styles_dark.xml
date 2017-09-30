@@ -5,6 +5,10 @@
         <item name="@*android:windowActionBar">false</item>
         <item name="@*android:windowNoTitle">true</item>
     </style>
+    <!-- Power Menu: Rebooting -->
+    <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.DeviceDefault.Settings">
+        <item name="android:alertDialogTheme">@*android:style/Theme.DeviceDefault.Dialog.Alert</item>
+    </style>
 
 
     <!-- Settings -->
