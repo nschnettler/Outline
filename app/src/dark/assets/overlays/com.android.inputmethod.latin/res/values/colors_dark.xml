@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="key_background_lxx_dark">@*android:color/background_material_dark</color>                          <!-- Keys bg -->
+    <color name="emoji_tab_page_indicator_background_lxx_dark">@*android:color/background_material_dark</color>     <!-- Emoji Strip bg -->
+    <color name="gesture_floating_preview_color_lxx_dark">#33000000</color>                                         <!-- Gesture Typed -->
+</resources>
