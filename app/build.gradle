@@ -175,7 +175,7 @@ gradle.buildFinished {
 
 boolean shouldEncrypt() {
     ArrayList<String> tasks = project.gradle.startParameter.taskNames
-    return SHOULD_ENCRYPT_ASSETS && !Arrays.toString(tasks).toLowerCase().contains("debug")
+    return SHOULD_ENCRYPT_ASSETS && Arrays.toString(tasks).toLowerCase().contains("release")
 }
 
 def getDate() {
