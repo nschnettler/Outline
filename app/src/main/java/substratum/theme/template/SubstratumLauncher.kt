@@ -36,7 +36,6 @@ import substratum.theme.template.internal.SystemInformation.getSubstratumUpdated
 import substratum.theme.template.internal.SystemInformation.hasOtherThemeSystem
 import substratum.theme.template.internal.SystemInformation.isCallingPackageAllowed
 import substratum.theme.template.internal.SystemInformation.isPackageInstalled
-import substratum.theme.template.internal.TBOConstants.EXTRA_PACKAGE_NAMES
 import substratum.theme.template.internal.TBOConstants.THEME_READY_PACKAGES
 import java.io.File
 import java.util.*
@@ -59,7 +58,7 @@ class SubstratumLauncher : Activity() {
         if (piracyChecker != null) {
             piracyChecker!!.start()
         } else {
-            if (PIRACY_CHECK && APK_SIGNATURE_PRODUCTION.isEmpty() && BuildConfig.DEBUG) {
+            if (PIRACY_CHECK && APK_SIGNATURE_PRODUCTION.isEmpty() && !BuildConfig.DEBUG) {
                 Log.e("SubstratumAntiPiracyLog", PiracyCheckerUtils.getAPKSignature(this))
             }
 
@@ -140,12 +139,6 @@ class SubstratumLauncher : Activity() {
 
         val theme_hash = getSelfSignature(applicationContext)
         val theme_launch_type = getSelfVerifiedThemeEngines(applicationContext)
-        val theme_debug = BuildConfig.DEBUG
-        if (!theme_debug && PIRACY_CHECK) {
-            Toast.makeText(this, R.string.unauthorized_debug, Toast.LENGTH_LONG).show()
-            finish()
-            return false
-        }
         val theme_piracy_check = getSelfVerifiedPirateTools(applicationContext)
         if (!theme_piracy_check || SUBSTRATUM_FILTER_CHECK && (!mVerified!!)) {
             Toast.makeText(this, R.string.unauthorized, Toast.LENGTH_LONG).show()
@@ -154,7 +147,7 @@ class SubstratumLauncher : Activity() {
         }
         returnIntent.putExtra("theme_hash", theme_hash)
         returnIntent.putExtra("theme_launch_type", theme_launch_type)
-        returnIntent.putExtra("theme_debug", theme_debug)
+        returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
         returnIntent.putExtra("theme_piracy_check", theme_piracy_check)
         returnIntent.putExtra("encryption_key", BuildConfig.DECRYPTION_KEY)
         returnIntent.putExtra("iv_encrypt_key", BuildConfig.IV_KEY)
@@ -226,19 +219,6 @@ class SubstratumLauncher : Activity() {
             val packageManager = this.packageManager
             val app_name = StringBuilder()
 
-            for (packageName in EXTRA_PACKAGE_NAMES) {
-                try {
-                    val appInfo = packageManager.getApplicationInfo(packageName, 0)
-                    if (appInfo.flags and ApplicationInfo.FLAG_SYSTEM == 0) {
-                        incomplete = true
-                        apps.add(packageManager.getApplicationLabel(appInfo).toString())
-                    }
-                } catch (e: Exception) {
-                    // Package not found
-                }
-
-            }
-
             if (!incomplete) {
                 for (packageName in THEME_READY_PACKAGES) {
                     try {
@@ -250,19 +230,6 @@ class SubstratumLauncher : Activity() {
                     } catch (e: Exception) {
                         // Package not found
                     }
-
-                }
-                for (packageName in EXTRA_PACKAGE_NAMES) {
-                    try {
-                        val appInfo = packageManager.getApplicationInfo(packageName, 0)
-                        if (appInfo.flags and ApplicationInfo.FLAG_UPDATED_SYSTEM_APP != 0) {
-                            updated = true
-                            apps.add(packageManager.getApplicationLabel(appInfo).toString())
-                        }
-                    } catch (e: Exception) {
-                        // Package not found
-                    }
-
                 }
             }
 
