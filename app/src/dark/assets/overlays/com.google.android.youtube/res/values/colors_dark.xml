@@ -51,6 +51,7 @@
         <color name="share_panel_list_background_color">@*android:color/background_material_dark</color>                <!-- Share Panel Main Background -->
         <!-- Ad -->
         <color name="muted_native_ad_background_color">@*android:color/background_dark</color>                          <!-- Muted -->
+        <color name="companion_background_color_dark">@*android:color/background_dark</color>
 
     <!-- Divider -->
     <color name="comment_divider_color">#00000000</color>
