@@ -58,8 +58,8 @@ android {
                 buildConfigField "String", "LICENSE", '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArTRaZnE2hkleiuajs6R41Fpf8f+em2T4cogtzPQ6O7r4DqBnUtc48KiZE408o0gGQoB3hr9vwoNKblxxSWxowcF9crDagEcWE6sfzHdEx/tM3nrVvq8jJPYPbUOfRPsxrPV0DqLGMU2DlxCeOhMWCRGK0IEMjQSBXXo33fie0g8sQrx7PGiaR9E0rbjO2eK5l7TsU7o1AhpONl4ODMcxLEupUEk3P8NxohafPSdLv/hFAJHDxzkJZCpvaxETcCAz8VatODZIKylHiYQsd0aEeYvfOmfpvG7PMz4o7H5riv1XE30qFFH0NVKXlYtgbewmhbmw5sRIcxuHmVQXTkIzWwIDAQAB"'
                 buildConfigField "String", "SIGNATURE", '"tGQYWSO6wsgTs90QJwLNH6vSwbA="'
 
-                versionCode 2601
-                versionName "Oreo - Alpha"
+                versionCode 2600
+                versionName "Oreo - RC"
             }
 
             light{
