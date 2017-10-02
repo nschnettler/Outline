@@ -21,6 +21,24 @@ Profile Info: Mute, Notifications, Encryption Bg
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@*com.whatsapp:id/vcards_layout"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            android:paddingRight="@*com.whatsapp:dimen/info_screen_padding"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/info_screen_row"
+            android:text="@*com.whatsapp:string/vcards_view_all"
+            style="@*com.whatsapp:style/ListItemTitle" />
+
+        <View
+            android:id="@*com.whatsapp:id/mute_separator"
+            android:visibility="gone"
+            style="@*com.whatsapp:style/FlatCardSeparator" />
+
         <LinearLayout
             android:gravity="center_vertical"
             android:orientation="horizontal"
@@ -42,7 +60,7 @@ Profile Info: Mute, Notifications, Encryption Bg
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@*com.whatsapp:string/menuitem_mute"
+                    android:text="@*com.whatsapp:string/menuitem_mute_notifications"
                     style="@*com.whatsapp:style/ListItemTitle" />
 
                 <TextView

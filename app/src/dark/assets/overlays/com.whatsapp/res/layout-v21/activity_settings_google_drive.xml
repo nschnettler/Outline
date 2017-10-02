@@ -49,7 +49,7 @@ Chat Backup Settings
 
             <TextView
                 android:textSize="14.0sp"
-                android:textColor="#ffdddddd"
+                android:textColor="#b3FFFFFF"
                 android:id="@*com.whatsapp:id/gdrive_new_user_setup_message"
                 android:paddingTop="0.0dip"
                 android:paddingRight="@*com.whatsapp:dimen/card_h_padding2"
@@ -64,7 +64,7 @@ Chat Backup Settings
 
             <TextView
                 android:textSize="14.0sp"
-                android:textColor="#ffdddddd"
+                android:textColor="#b3FFFFFF"
                 android:id="@*com.whatsapp:id/gdrive_new_user_setup_select_frequency_message"
                 android:paddingTop="0.0dip"
                 android:paddingRight="@*com.whatsapp:dimen/card_h_padding2"
@@ -139,7 +139,7 @@ Chat Backup Settings
                 </LinearLayout>
 
                 <TextView
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="center|left"
                     android:id="@*com.whatsapp:id/gdrive_backup_general_info"
                     android:paddingRight="@*com.whatsapp:dimen/card_h_padding2"
@@ -193,7 +193,7 @@ Chat Backup Settings
                         <ImageView
                             android:layout_gravity="center_horizontal"
                             android:id="@*com.whatsapp:id/cancel_download"
-                            android:background="@*com.whatsapp:drawable/abc_item_background_holo_dark"
+                            android:background="?selectableItemBackgroundBorderless"
                             android:visibility="gone"
                             android:layout_width="48.0dip"
                             android:layout_height="48.0dip"
@@ -203,7 +203,7 @@ Chat Backup Settings
                         <ImageView
                             android:layout_gravity="center_horizontal"
                             android:id="@*com.whatsapp:id/resume_download"
-                            android:background="@*com.whatsapp:drawable/abc_item_background_holo_dark"
+                            android:background="?selectableItemBackgroundBorderless"
                             android:paddingLeft="12.0dip"
                             android:paddingTop="12.0dip"
                             android:paddingRight="12.0dip"
@@ -253,7 +253,7 @@ Chat Backup Settings
                     android:gravity="center_vertical"
                     android:orientation="vertical"
                     android:id="@*com.whatsapp:id/settings_gdrive_change_frequency_view"
-                    android:background="@*com.whatsapp:drawable/abc_item_background_holo_dark"
+                    android:background="?selectableItemBackground"
                     android:paddingRight="@*com.whatsapp:dimen/card_h_padding2"
                     android:focusable="true"
                     android:clickable="true"
@@ -280,7 +280,7 @@ Chat Backup Settings
                 <LinearLayout
                     android:orientation="horizontal"
                     android:id="@*com.whatsapp:id/settings_gdrive_change_account_view"
-                    android:background="@*com.whatsapp:drawable/abc_item_background_holo_dark"
+                    android:background="?selectableItemBackground"
                     android:paddingRight="@*com.whatsapp:dimen/card_h_padding2"
                     android:focusable="true"
                     android:clickable="true"
@@ -330,7 +330,7 @@ Chat Backup Settings
                     android:gravity="center_vertical"
                     android:orientation="vertical"
                     android:id="@*com.whatsapp:id/settings_gdrive_network_settings_view"
-                    android:background="@*com.whatsapp:drawable/abc_item_background_holo_dark"
+                    android:background="?selectableItemBackground"
                     android:paddingRight="@*com.whatsapp:dimen/card_h_padding2"
                     android:focusable="true"
                     android:clickable="true"
@@ -358,7 +358,7 @@ Chat Backup Settings
                 <LinearLayout
                     android:orientation="horizontal"
                     android:id="@*com.whatsapp:id/settings_gdrive_backup_optional_media"
-                    android:background="@*com.whatsapp:drawable/abc_item_background_holo_dark"
+                    android:background="?selectableItemBackground"
                     android:paddingRight="26.0dip"
                     android:focusable="true"
                     android:clickable="true"
@@ -395,7 +395,7 @@ Chat Backup Settings
                     <CheckBox
                         android:layout_gravity="center"
                         android:id="@*com.whatsapp:id/include_video_setting"
-                        android:background="@*com.whatsapp:drawable/abc_item_background_holo_dark"
+                        android:background="?selectableItemBackground"
                         android:clickable="false"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -404,7 +404,7 @@ Chat Backup Settings
 
                 <TextView
                     android:textSize="13.0sp"
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="center_vertical"
                     android:id="@*com.whatsapp:id/gdrive_new_user_setup_footer_info"
                     android:paddingRight="@*com.whatsapp:dimen/card_h_padding2"

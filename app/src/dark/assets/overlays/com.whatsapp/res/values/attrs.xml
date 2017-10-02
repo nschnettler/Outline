@@ -237,6 +237,14 @@
     <attr name="behavior_hideable" format="boolean" />
     <attr name="behavior_skipCollapsed" format="boolean" />
     <attr name="bpfvImage" format="reference" />
+    <attr name="bpfvSingleLine" format="boolean" />
+    <attr name="bpfvEllipsize">
+        <enum name="none" value="0" />
+        <enum name="end" value="3" />
+        <enum name="marquee" value="4" />
+        <enum name="middle" value="2" />
+        <enum name="start" value="1" />
+    </attr>
     <attr name="allowStacking" format="boolean" />
     <attr name="cpbColor" format="color" />
     <attr name="cpbBackground" format="color" />
@@ -257,27 +265,27 @@
     <attr name="scrimVisibleHeightTrigger" format="dimension" />
     <attr name="scrimAnimationDuration" format="integer" />
     <attr name="collapsedTitleGravity">
+        <flag name="end" value="0x00800005" />
+        <flag name="start" value="0x00800003" />
         <flag name="bottom" value="0x00000050" />
         <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
-        <flag name="end" value="0x00800005" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
-        <flag name="start" value="0x00800003" />
         <flag name="top" value="0x00000030" />
     </attr>
     <attr name="expandedTitleGravity">
+        <flag name="end" value="0x00800005" />
+        <flag name="start" value="0x00800003" />
         <flag name="bottom" value="0x00000050" />
         <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
-        <flag name="end" value="0x00800005" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
-        <flag name="start" value="0x00800003" />
         <flag name="top" value="0x00000030" />
     </attr>
     <attr name="titleEnabled" format="boolean" />
@@ -312,15 +320,15 @@
     <attr name="layout_keyline" format="integer" />
     <attr name="layout_anchorGravity">
         <flag name="fill" value="0x00000077" />
+        <flag name="end" value="0x00800005" />
+        <flag name="start" value="0x00800003" />
         <flag name="bottom" value="0x00000050" />
         <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
-        <flag name="end" value="0x00800005" />
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
-        <flag name="start" value="0x00800003" />
         <flag name="top" value="0x00000030" />
         <flag name="clip_horizontal" value="0x00000008" />
         <flag name="clip_vertical" value="0x00000080" />
@@ -328,21 +336,21 @@
     </attr>
     <attr name="layout_insetEdge">
         <enum name="none" value="0" />
-        <enum name="bottom" value="80" />
         <enum name="end" value="8388613" />
+        <enum name="start" value="8388611" />
+        <enum name="bottom" value="80" />
         <enum name="left" value="3" />
         <enum name="right" value="3" />
-        <enum name="start" value="8388611" />
         <enum name="top" value="48" />
     </attr>
     <attr name="layout_dodgeInsetEdges">
         <flag name="all" value="0x00000077" />
         <flag name="none" value="0x00000000" />
-        <flag name="bottom" value="0x00000050" />
         <flag name="end" value="0x00800005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="bottom" value="0x00000050" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000003" />
-        <flag name="start" value="0x00800003" />
         <flag name="top" value="0x00000030" />
     </attr>
     <attr name="bar_height" format="dimension" />
@@ -403,8 +411,8 @@
     <attr name="showDividers">
         <flag name="none" value="0x00000000" />
         <flag name="end" value="0x00000004" />
-        <flag name="beginning" value="0x00000001" />
         <flag name="middle" value="0x00000002" />
+        <flag name="beginning" value="0x00000001" />
     </attr>
     <attr name="dividerPadding" format="dimension" />
     <attr name="imageAspectRatioAdjust">
@@ -537,6 +545,10 @@
     <attr name="scvBorderColor" format="color" />
     <attr name="scvIcon" format="reference" />
     <attr name="scvIconContentDescription" format="string" />
+    <attr name="shadowRadius" format="dimension" />
+    <attr name="shadowDx" format="dimension" />
+    <attr name="shadowDy" format="dimension" />
+    <attr name="shadowColor" format="color" />
     <attr name="buttonSize" format="reference">
         <enum name="icon_only" value="2" />
         <enum name="standard" value="0" />

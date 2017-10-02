@@ -24,7 +24,7 @@
                 android:layout_marginTop="6.0dip">
 
                 <TextView
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:paddingLeft="16.0dip"
                     android:paddingTop="12.0dip"
                     android:paddingRight="16.0dip"
@@ -45,7 +45,7 @@
 
                     <TextView
                         android:textSize="20.0sp"
-                        android:textColor="#ffdddddd"
+                        android:textColor="#b3FFFFFF"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="+" />
@@ -60,8 +60,8 @@
                         android:inputType="phone" />
 
                     <EditText
-                        android:textColor="#ffffffff"
-                        android:textColorHint="#ffdddddd"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#b3FFFFFF"
                         android:ellipsize="end"
                         android:id="@*com.whatsapp:id/registration_phone"
                         android:layout_width="0.0dip"
@@ -75,7 +75,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:paddingLeft="16.0dip"
                     android:paddingTop="32.0dip"
                     android:paddingRight="16.0dip"
@@ -97,7 +97,7 @@
 
                     <TextView
                         android:textSize="20.0sp"
-                        android:textColor="#ffdddddd"
+                        android:textColor="#b3FFFFFF"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="+" />
@@ -112,8 +112,8 @@
                         android:inputType="phone" />
 
                     <EditText
-                        android:textColor="#ffffffff"
-                        android:textColorHint="#ffdddddd"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#b3FFFFFF"
                         android:ellipsize="end"
                         android:id="@*com.whatsapp:id/registration_new_phone"
                         android:layout_width="0.0dip"

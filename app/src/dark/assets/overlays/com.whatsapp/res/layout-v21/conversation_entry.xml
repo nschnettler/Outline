@@ -8,7 +8,6 @@
         android:id="@*com.whatsapp:id/footer"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="1.0dip"
         android:layout_alignParentBottom="true">
 
         <TextView

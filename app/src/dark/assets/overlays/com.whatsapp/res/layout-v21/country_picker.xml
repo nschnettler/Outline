@@ -3,14 +3,13 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/com.whatsapp">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.v7.widget.Toolbar
+    <com.whatsapp.util.MarqueeToolbar
         android:id="@*com.whatsapp:id/title_toolbar"
-        android:background="@*android:drawable/ic_menu_friendslist"
-        android:elevation="0dp"
+        android:background="@*android:color/background_material_dark"
         android:layout_width="fill_parent"
-        android:layout_height="56dp"
+        android:layout_height="?actionBarSize"
         app:theme="@*com.whatsapp:style/Widget.Styled.ActionBar.Registration.White">
 
         <TextView
@@ -18,17 +17,16 @@
             android:layout_gravity="center|left"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="#FFFFFF"
             android:text="@*com.whatsapp:string/pick_a_country"
             style="@*com.whatsapp:style/RegistrationTitle" />
-    </android.support.v7.widget.Toolbar>
+    </com.whatsapp.util.MarqueeToolbar>
 
     <FrameLayout
         android:id="@*com.whatsapp:id/search_holder"
         android:visibility="gone"
         android:layout_width="fill_parent"
-        android:layout_height="56dp"
-        android:elevation="0dp" />
+        android:layout_height="?actionBarSize"
+        android:elevation="@*com.whatsapp:dimen/actionbar_elevation" />
 
     <LinearLayout
         android:background="#ff000000"
