@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@*android:color/background_material_dark"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@*com.whatsapp:dimen/small_list_avatar_padding" android:paddingRight="@*com.whatsapp:dimen/list_row_padding" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/small_list_row_height">
-        <ImageView android:id="@*com.whatsapp:id/avatar" android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size" android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size" android:layout_marginRight="@*com.whatsapp:dimen/small_list_avatar_padding" android:src="@*com.whatsapp:drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@*com.whatsapp:string/contact_profile_photo" />
-        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-            <com.whatsapp.TextEmojiLabel android:layout_gravity="left" android:id="@*com.whatsapp:id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*com.whatsapp:style/ListItemTitle" />
-            <com.whatsapp.TextEmojiLabel android:layout_gravity="left" android:id="@*com.whatsapp:id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*com.whatsapp:style/ListItemSubtitleSmall" />
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@*android:color/background_material_dark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@*com.whatsapp:dimen/small_list_avatar_padding"
+        android:paddingRight="@*com.whatsapp:dimen/list_row_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.whatsapp:dimen/small_list_row_height">
+
+        <ImageView
+            android:id="@*com.whatsapp:id/avatar"
+            android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
+            android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"
+            android:layout_marginRight="@*com.whatsapp:dimen/small_list_avatar_padding"
+            android:src="@*com.whatsapp:drawable/avatar_contact"
+            android:scaleType="fitCenter"
+            android:contentDescription="@*com.whatsapp:string/contact_profile_photo" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <com.whatsapp.TextEmojiLabel
+                android:layout_gravity="left"
+                android:id="@*com.whatsapp:id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@*com.whatsapp:style/ListItemTitle" />
+
+            <com.whatsapp.TextEmojiLabel
+                android:layout_gravity="left"
+                android:id="@*com.whatsapp:id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@*com.whatsapp:style/ListItemSubtitleSmall" />
         </LinearLayout>
     </LinearLayout>
-    <View android:id="@*com.whatsapp:id/divider" android:background="@*com.whatsapp:drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+
+    <View
+        android:id="@*com.whatsapp:id/divider"
+        android:background="@*com.whatsapp:drawable/divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip" />
 </LinearLayout>
