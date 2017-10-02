@@ -10,7 +10,7 @@
     android:layout_height="wrap_content"
     android:elevation="1.5dip"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:gravity="center"
@@ -24,7 +24,8 @@
         <LinearLayout
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingTop="25.0dip"
+            android:id="@*com.whatsapp:id/attach_picker_first_row"
+            android:paddingTop="@*com.whatsapp:dimen/attach_popup_vertical_padding"
             android:paddingBottom="8.0dip"
             android:clipChildren="false"
             android:layout_width="wrap_content"
@@ -85,7 +86,8 @@
         <LinearLayout
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingBottom="25.0dip"
+            android:id="@*com.whatsapp:id/attach_picker_second_row"
+            android:paddingBottom="@*com.whatsapp:dimen/attach_popup_vertical_padding"
             android:clipChildren="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">

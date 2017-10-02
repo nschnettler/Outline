@@ -34,7 +34,7 @@
 
                 <com.whatsapp.TextEmojiLabel
                     android:textSize="@*com.whatsapp:dimen/conversation_participant_name_tv"
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:id="@*com.whatsapp:id/pushname_in_group_tv"
                     android:paddingLeft="12.0sp"
                     android:layout_width="wrap_content"
@@ -142,7 +142,7 @@
 
                 <com.whatsapp.TextEmojiLabel
                     android:textSize="@*com.whatsapp:dimen/conversation_text_row_tv"
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="left"
                     android:id="@*com.whatsapp:id/caption"
                     android:paddingLeft="8.0dip"

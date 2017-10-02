@@ -12,7 +12,8 @@ New Group: Select (multiple) contacts
     <FrameLayout
         android:background="@*android:color/background_material_dark"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:elevation="@*com.whatsapp:dimen/actionbar_elevation">
 
         <include layout="@*com.whatsapp:layout/toolbar" />
 
@@ -39,7 +40,7 @@ New Group: Select (multiple) contacts
                 android:layout_height="@*com.whatsapp:dimen/selected_contacts_height">
 
                 <TextView
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="center"
                     android:id="@*com.whatsapp:id/warning_text"
                     android:padding="@*com.whatsapp:dimen/conversation_row_padding"
@@ -106,7 +107,8 @@ New Group: Select (multiple) contacts
             android:layout_marginBottom="16.0dip"
             android:src="@*com.whatsapp:drawable/ic_fab_next"
             android:scaleType="center"
-            android:contentDescription="@*com.whatsapp:string/next" />
+            android:contentDescription="@*com.whatsapp:string/next"
+            android:elevation="4.0dip" />
     </FrameLayout>
 
     <include

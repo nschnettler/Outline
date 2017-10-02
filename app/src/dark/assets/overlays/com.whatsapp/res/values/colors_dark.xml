@@ -42,6 +42,7 @@
     <color name="dark_gray">#ffaaaaaa</color>
     <color name="status_normal">#FFFFFF</color>
     <color name="conversations_text_gray">#b3FFFFFF</color>
+    <color name="edit_text_counter">#b3FFFFFF</color>                                               <!-- Rename counter -->
 
     <!-- Statusbar -->
      <color name="about_statusbar">@*android:color/background_material_dark</color>
