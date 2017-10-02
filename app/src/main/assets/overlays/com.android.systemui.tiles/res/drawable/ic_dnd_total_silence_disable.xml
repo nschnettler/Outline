@@ -8,4 +8,9 @@
         android:strokeWidth="0.8"
         android:pathData="M21.6,12c0,5.3-4.3,9.6-9.6,9.6S2.4,17.3,2.4,12S6.7,2.4,12,2.4S21.6,6.7,21.6,12z M5.2,5.2l13.6,13.6
 	 M5.2,18.8L18.8,5.2" />
+
+    <path
+        android:name="outer_ring_merged"/>
+    <path
+        android:name="mask_1"/>
 </vector>
