@@ -54,7 +54,7 @@ android {
             dark{
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
-                buildConfigField "boolean", "NEEDS_THEME_READY_GAPPS", "true"
+                buildConfigField "boolean", "NEEDS_THEME_READY_GAPPS", "false"
                 buildConfigField "String", "LICENSE", '"***REMOVED***"'
                 buildConfigField "String", "SIGNATURE", '"***REMOVED***"'
 
