@@ -3,11 +3,12 @@
     <!-- Background -->
     <color name="directory_background">@*android:color/background_material_dark</color>             <!-- Main -->
     <color name="drawer_background">@*android:color/background_material_dark</color>                <!-- Drawer -->
-    <color name="drawer_border">@*android:color/background_material_dark</color>                <!-- Drawer -->
+    <color name="drawer_border">@*android:color/background_material_dark</color>                    <!-- Drawer -->
     <color name="item_doc_background">@*android:color/background_material_dark</color>              <!-- Cards -->
     <color name="window_background">@*android:color/background_material_dark</color>                <!-- Behind everything, flashes when opening a folder -->
-    <color name="item_doc_background_selected">@*android:color/background_dark</color>                                      <!-- Card selected -->
-    <color name="item_doc_background_disabled">@*android:color/background_dark</color>                                      <!-- Card disabled -->
+    <color name="item_doc_background_selected">@*android:color/background_dark</color>              <!-- Card selected -->
+    <color name="item_doc_background_disabled">@*android:color/background_dark</color>              <!-- Card disabled -->
+    <color name="material_grey_50">@*android:color/background_material_dark</color>                 <!-- Save as Background -->
 
     <!-- Text -->
         <!-- Dialog -->
