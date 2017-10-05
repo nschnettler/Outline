@@ -6,18 +6,18 @@
 
     <!-- Notification Details -->
         <style name="TextAppearance.NotificationInfo" parent="@*com.android.systemui:style/TextAppearance">
-            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:textColor">@*android:color/notification_primary_text_color_light</item>
             <item name="android:fontFamily">sans-serif</item>
         </style>
         <!-- Channel Name -->
         <style name="TextAppearance.NotificationInfo.Primary" parent="@style/TextAppearance.NotificationInfo">
             <item name="android:textSize">16.0sp</item>
-            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:textColor">@*android:color/notification_primary_text_color_light</item>
         </style>
         <!-- Channel Description -->
         <style name="TextAppearance.NotificationInfo.Secondary" parent="@style/TextAppearance.NotificationInfo">
             <item name="android:textSize">14.0sp</item>
-            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:textColor">@*android:color/notification_secondary_text_color_light</item>
             <item name="android:alpha">0.7</item>
         </style>
         <!-- Channel Disabled -->
