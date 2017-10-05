@@ -2,5 +2,4 @@
 <resources>
     <!-- Accent -->
     <color name="accent_material_light">#f2a56f</color>
-    <color name="accent_material_dark">#f2a56f</color>
 </resources>
