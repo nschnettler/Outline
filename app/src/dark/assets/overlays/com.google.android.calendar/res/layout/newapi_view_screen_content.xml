@@ -33,7 +33,6 @@
 
             <FrameLayout
                 android:id="@*com.google.android.calendar:id/view_screen_header"
-                android:background="@*com.google.android.calendar:color/no_color_found_color"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
@@ -90,8 +89,7 @@
                 android:id="@*com.google.android.calendar:id/info_action_edit_hit"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:contentDescription="@*com.google.android.calendar:string/edit_label"
-                android:elevation="@*com.google.android.calendar:dimen/info_edit_elevation">
+                android:contentDescription="@*com.google.android.calendar:string/edit_label">
 
                 <ImageView
                     android:layout_gravity="center"

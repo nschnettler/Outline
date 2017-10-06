@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.calendar.tiles.view.TextTileView android:id="@*com.google.android.calendar:id/slab_can_add_guests"
     android:background="@*android:color/background_material_dark"
+    android:elevation="@*com.google.android.calendar:dimen/slab_guests_can_add_guests_elevation"
     app:tile_treat_as_button="true"
     app:tile_right_action_layout="@*com.google.android.calendar:layout/newapi_tile_right_action_ninja_switch"
     app:tile_primary_text="@*com.google.android.calendar:string/guests_can_invite_switch_label"
