@@ -7,5 +7,6 @@
 
     <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="*android:listDivider">@*com.android.settings:drawable/preference_list_divider_material</item>
+        <item name="*android:colorControlNormal">?android:textColorPrimary</item>
     </style>
 </resources>
