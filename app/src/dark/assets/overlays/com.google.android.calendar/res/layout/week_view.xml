@@ -2,7 +2,7 @@
 <FrameLayout android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:custom="http://schemas.android.com/apk/com.google.android.calendar">
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:orientation="vertical"
@@ -26,7 +26,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 custom:count_days="7"
-                xmlns:custom="http://schemas.android.com/apk/com.google.android.calendar" />
+                xmlns:custom="http://schemas.android.com/apk/res-auto" />
         </com.google.android.calendar.timely.AllDayScrollView>
 
         <include layout="@*com.google.android.calendar:layout/line_separator_horizontal" />

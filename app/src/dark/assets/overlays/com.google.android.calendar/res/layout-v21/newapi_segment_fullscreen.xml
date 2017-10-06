@@ -33,6 +33,13 @@
                     android:id="@*com.google.android.calendar:id/clear"
                     android:layout_weight="0.0"
                     style="@*com.google.android.calendar:style/ToolbarClearSearchIcon" />
+
+                <Button
+                    android:id="@*com.google.android.calendar:id/done_button"
+                    android:visibility="gone"
+                    android:text="@*com.google.android.calendar:string/action_done"
+                    android:layout_weight="0.0"
+                    style="@*com.google.android.calendar:style/EditTextToolbarToolbarRightButton" />
             </LinearLayout>
         </android.support.v7.widget.Toolbar>
 
