@@ -17,6 +17,11 @@
     <color name="release_track_icon_historic">@*android:color/holo_gray_light</color>
     <color name="release_track_icon_prod">@android:color/holo_green_light</color>
 
+    <color name="message_alert">@android:color/holo_red_light</color>
+    <color name="message_confirmation">@android:color/holo_green_light</color>
+    <color name="message_info">@android:color/holo_blue_light</color>
+    <color name="message_warning">@android:color/holo_orange_light</color>
+
     <!-- Other -->
     <color name="tab_indicator_color">#FFFFFF</color>
 </resources>
