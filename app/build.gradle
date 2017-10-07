@@ -69,8 +69,8 @@ android {
                 buildConfigField "String", "LICENSE", '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimxk6Y2nBBXgMVa3a4VlSfHGHka0FK9tHfNoBhKq25xEyjNtesQAp1d9e/XZ2lgthuXG2hnjmeIwBAVpD7C/DbRcThKhmYpQtJxf/8e5euMP2UIBy3J/g+ZyDOgrqhNzyrUjMiJ90qMuppHm1LRknHJfcgAIGsVB7c665BhzWSHRpzWYSTBbcuIM++PUcWjeiR5ktD0xliJDC+PUT0x/AZecVYzXfaG10vczwxGafYUwvT7nJF4+/7bJUUxkh9Bobt/zv1dqYBFqSe/XmRhMbj9AU8AXqJAvvsuGGAJOEVVQXQTc33GAhGmiDjZh4JewzHAqKThIZGRZP2DoHvkOZQIDAQAB"'
                 buildConfigField "String", "SIGNATURE", '"4HCxqmQusuzbTuviIAOxy2sLSBA="'
 
-                versionCode 2606
-                versionName "Oreo - 5.1"
+                versionCode 2607
+                versionName "Oreo - 6"
             }
         }
     }
