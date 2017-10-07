@@ -54,12 +54,11 @@
             android:background="@*android:color/background_material_dark"
             android:layout_width="fill_parent"
             android:layout_height="?actionBarSize"
-            res-auto:tab_white_header_highlight_color="@*com.google.android.youtube:color/bright_red"
-            res-auto:tab_white_header_text_highlight_color="@*com.google.android.youtube:color/bright_red_dark"
+            res-auto:text_highlight_color="@*com.google.android.youtube:color/bright_red_dark"
             res-auto:background_dark="@*com.google.android.youtube:color/almost_black_color"
             res-auto:tab_content_color="@*com.google.android.youtube:color/white_header_controls_color"
             res-auto:tab_content_color_dark="@*com.google.android.youtube:color/pivot_bar_content_tab_dark"
-            res-auto:tab_highlight_color="@*com.google.android.youtube:color/youtube_red"
+            res-auto:tab_highlight_color="@*com.google.android.youtube:color/bright_red"
             res-auto:tab_highlight_color_dark="@*com.google.android.youtube:color/white" />
     </LinearLayout>
 

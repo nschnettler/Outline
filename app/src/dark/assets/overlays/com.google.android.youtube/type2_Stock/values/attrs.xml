@@ -507,7 +507,7 @@
     <attr name="lineColor" format="color" />
     <attr name="sharpCorners" format="dimension" />
     <attr name="keylines" format="reference" />
-    <attr name="statusBarBackground" format="reference" />
+    <attr name="statusBarBackground" format="reference|color" />
     <attr name="layout_behavior" format="string" />
     <attr name="layout_anchor" format="reference" />
     <attr name="layout_keyline" format="integer" />
@@ -599,14 +599,17 @@
     <attr name="paramName" format="string" />
     <attr name="paramValue" format="string" />
     <attr name="rippleColor" format="color" />
+    <attr name="rippleAlpha" format="color" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
         <enum name="mini" value="1" />
     </attr>
+    <attr name="hoveredFocusedTranslationZ" format="dimension" />
     <attr name="pressedTranslationZ" format="dimension" />
     <attr name="borderWidth" format="dimension" />
     <attr name="useCompatPadding" format="boolean" />
+    <attr name="maxImageSize" format="dimension" />
     <attr name="behavior_autoHide" format="boolean" />
     <attr name="fontProviderAuthority" format="string" />
     <attr name="fontProviderPackage" format="string" />
@@ -717,8 +720,7 @@
     <attr name="colorSecondaryDark" format="color" />
     <attr name="colorPalettePrimary" format="reference" />
     <attr name="colorPaletteSecondary" format="reference" />
-    <attr name="colorMaterialControl" format="color" />
-    <attr name="colorMaterialControlHighlight" format="color" />
+    <attr name="scrimBackground" format="reference|color" />
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
@@ -772,11 +774,12 @@
     <attr name="itemBackground" format="reference" />
     <attr name="itemTextAppearance" format="reference" />
     <attr name="headerLayout" format="reference" />
+    <attr name="scrimViewId" format="reference" />
+    <attr name="watchLayoutViewId" format="reference" />
     <attr name="playerViewId" format="reference" />
     <attr name="playerControlsViewId" format="reference" />
     <attr name="playerControlsTimeBarId" format="reference" />
     <attr name="metadataViewId" format="reference" />
-    <attr name="scrimViewId" format="reference" />
     <attr name="defaultDrawable" format="reference" />
     <attr name="startDrawable" format="reference" />
     <attr name="addingDrawable" format="reference" />
@@ -964,8 +967,7 @@
     <attr name="tabPaddingEnd" format="dimension" />
     <attr name="tabPaddingBottom" format="dimension" />
     <attr name="tabPadding" format="dimension" />
-    <attr name="tab_white_header_highlight_color" format="color" />
-    <attr name="tab_white_header_text_highlight_color" format="color" />
+    <attr name="text_highlight_color" format="color" />
     <attr name="background_dark" format="color" />
     <attr name="tab_scroll_margin" format="dimension" />
     <attr name="tab_highlight_height" format="dimension" />
@@ -1007,6 +1009,11 @@
         <enum name="filled" value="1" />
         <enum name="outline" value="2" />
     </attr>
+    <attr name="boxPaddingLeft" format="dimension" />
+    <attr name="boxPaddingTop" format="dimension" />
+    <attr name="boxPaddingRight" format="dimension" />
+    <attr name="boxPaddingBottom" format="dimension" />
+    <attr name="boxStrokeColor" format="color" />
     <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
     <attr name="titleMargin" format="dimension" />
