@@ -68,8 +68,6 @@
             android:layout_toStartOf="@*com.google.android.youtube:id/action_button"
             android:layout_toEndOf="@*com.google.android.youtube:id/app_thumbnail">
 
-            <include layout="@*com.google.android.youtube:layout/standalone_ad_badge_extra_extra_small" />
-
             <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/small_font_size"
                 android:textColor="#FFFFFF"
                 android:ellipsize="end"
@@ -77,9 +75,7 @@
                 android:id="@*com.google.android.youtube:id/app_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8.0dip"
                 android:maxLines="1"
-                android:layout_marginStart="8.0dip"
                 res-auto:robotoFont="light"
                 xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
         </LinearLayout>
@@ -93,6 +89,13 @@
             android:layout_below="@*com.google.android.youtube:id/title_row"
             android:layout_toStartOf="@*com.google.android.youtube:id/action_button"
             android:layout_toEndOf="@*com.google.android.youtube:id/app_thumbnail">
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8.0dip"
+                android:layout_marginEnd="8.0dip"
+                layout="@*com.google.android.youtube:layout/standalone_ad_badge_extra_extra_small" />
 
             <RatingBar
                 android:layout_gravity="center_vertical"
