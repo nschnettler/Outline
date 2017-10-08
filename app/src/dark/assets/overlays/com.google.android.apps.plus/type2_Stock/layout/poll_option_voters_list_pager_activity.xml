@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@*android:color/background_material_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.view.ViewPager
+        android:id="@*com.google.android.apps.plus:id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:textSize="@*com.google.android.apps.plus:dimen/text_size_14"
+        android:textColor="@*com.google.android.apps.plus:color/quantum_grey900"
+        android:gravity="start|center"
+        android:layout_gravity="bottom"
+        android:id="@*com.google.android.apps.plus:id/page_footer"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.apps.plus:dimen/poll_option_voter_page_footer_height"
+        android:layout_marginLeft="16.0dip"
+        android:text="@*com.google.android.apps.plus:string/voter_page_footer"
+        android:layout_marginStart="16.0dip" />
+</LinearLayout>
