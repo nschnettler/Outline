@@ -44,7 +44,6 @@
 
         <Button
             android:id="@*com.google.android.apps.photos:id/tab_sharing"
-            android:visibility="gone"
             android:layout_width="@*com.google.android.apps.photos:dimen/photos_tabbar_button_width"
             android:text="@*com.google.android.apps.photos:string/photos_tabbar_sharing_label"
             android:layout_weight="@*com.google.android.apps.photos:integer/photos_tabbar_button_weight"
