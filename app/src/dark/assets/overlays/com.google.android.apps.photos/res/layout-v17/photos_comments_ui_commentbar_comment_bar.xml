@@ -43,7 +43,7 @@
             android:visibility="gone"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
-            android:hint="@*com.google.android.apps.photos:string/photos_comments_ui_commentbar_add_comment_hint_text"
+            android:hint="@*com.google.android.apps.photos:string/photos_comments_ui_commentbar_say_something_hint_text"
             android:layout_weight="1.0"
             android:inputType="textAutoCorrect|textCapSentences"
             android:imeOptions="flagNoExtractUi"
