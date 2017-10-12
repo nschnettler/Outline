@@ -10,7 +10,7 @@
     <!-- Background -->
         <!-- Main -->
         <color name="bt_megalist_background">@*android:color/background_material_dark</color>             <!-- Main bg -->
-        <color name="bt_speed_dial_background">#e6212121</color>                                          <!-- Overlay when FAB opened -->
+        <color name="bt_speed_dial_background">#33000000</color>                                          <!-- Overlay when FAB opened -->
             <!-- Card -->
             <color name="bt_megalist_item_background">@*android:color/background_material_dark</color>        <!-- Item/Card bg-->
             <color name="bt_megalist_item_background_selected">@*android:color/background_dark</color>        <!-- Item/Card selected bg-->
