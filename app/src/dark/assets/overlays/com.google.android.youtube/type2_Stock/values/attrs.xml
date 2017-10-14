@@ -610,6 +610,8 @@
     <attr name="borderWidth" format="dimension" />
     <attr name="useCompatPadding" format="boolean" />
     <attr name="maxImageSize" format="dimension" />
+    <attr name="showMotionSpec" format="reference" />
+    <attr name="hideMotionSpec" format="reference" />
     <attr name="behavior_autoHide" format="boolean" />
     <attr name="fontProviderAuthority" format="string" />
     <attr name="fontProviderPackage" format="string" />
