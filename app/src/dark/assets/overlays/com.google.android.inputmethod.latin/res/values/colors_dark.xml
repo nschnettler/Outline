@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="popup_background_material_dark_theme">@*android:color/background_dark</color>              <!-- Dark | Key Popup -->
+    <color name="label_popup_pressed_material_dark_theme">@*android:color/accent_material_light</color>     <!-- Dark | Key Popup Selected -->
+</resources>
