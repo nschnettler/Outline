@@ -58,8 +58,8 @@ android {
                 buildConfigField "String", "LICENSE", '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArTRaZnE2hkleiuajs6R41Fpf8f+em2T4cogtzPQ6O7r4DqBnUtc48KiZE408o0gGQoB3hr9vwoNKblxxSWxowcF9crDagEcWE6sfzHdEx/tM3nrVvq8jJPYPbUOfRPsxrPV0DqLGMU2DlxCeOhMWCRGK0IEMjQSBXXo33fie0g8sQrx7PGiaR9E0rbjO2eK5l7TsU7o1AhpONl4ODMcxLEupUEk3P8NxohafPSdLv/hFAJHDxzkJZCpvaxETcCAz8VatODZIKylHiYQsd0aEeYvfOmfpvG7PMz4o7H5riv1XE30qFFH0NVKXlYtgbewmhbmw5sRIcxuHmVQXTkIzWwIDAQAB"'
                 buildConfigField "String", "SIGNATURE", '"tGQYWSO6wsgTs90QJwLNH6vSwbA="'
 
-                versionCode 2607
-                versionName "Oreo - 3"
+                versionCode 2608
+                versionName "Oreo - 3.0.1"
             }
 
             light{
@@ -69,8 +69,8 @@ android {
                 buildConfigField "String", "LICENSE", '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimxk6Y2nBBXgMVa3a4VlSfHGHka0FK9tHfNoBhKq25xEyjNtesQAp1d9e/XZ2lgthuXG2hnjmeIwBAVpD7C/DbRcThKhmYpQtJxf/8e5euMP2UIBy3J/g+ZyDOgrqhNzyrUjMiJ90qMuppHm1LRknHJfcgAIGsVB7c665BhzWSHRpzWYSTBbcuIM++PUcWjeiR5ktD0xliJDC+PUT0x/AZecVYzXfaG10vczwxGafYUwvT7nJF4+/7bJUUxkh9Bobt/zv1dqYBFqSe/XmRhMbj9AU8AXqJAvvsuGGAJOEVVQXQTc33GAhGmiDjZh4JewzHAqKThIZGRZP2DoHvkOZQIDAQAB"'
                 buildConfigField "String", "SIGNATURE", '"4HCxqmQusuzbTuviIAOxy2sLSBA="'
 
-                versionCode 2608
-                versionName "Oreo - 7"
+                versionCode 2609
+                versionName "Oreo - 7.0.1"
             }
         }
     }
