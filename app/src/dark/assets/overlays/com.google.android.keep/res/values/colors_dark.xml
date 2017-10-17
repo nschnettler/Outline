@@ -29,6 +29,9 @@
         <color name="background_floating_material_light">@*android:color/background_dark</color>
         <color name="note_default_color">@*android:color/background_material_dark</color>
         <color name="snack_bar_background_color">@*android:color/background_material_dark</color>
+        <!-- Widget -->
+        <color name="widget_background_color">@*android:color/background_material_dark</color>                  <!-- Choose Account -->
+        <color name="widget_header_account_background_color">@*android:color/background_material_dark</color>   <!-- Actual Widget - Behind Account Name -->
 
     <!-- Text -->
         <!-- Drawer -->
