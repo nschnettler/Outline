@@ -233,6 +233,12 @@
         <enum name="unitSp" value="2" />
     </attr>
     <attr name="autoResizeText_minTextSize" format="dimension" />
+    <attr name="avatarViewStyle" format="reference" />
+    <attr name="avatarSelectorColor" format="reference" />
+    <attr name="avatarRoundedCornerRadius" format="reference" />
+    <attr name="avatarSelectorWidth" format="reference" />
+    <attr name="avatarMinimumTapTargetSize" format="reference" />
+    <attr name="refreshIconEnabled" format="boolean" />
     <attr name="shiftingMode">
         <enum name="auto" value="2" />
         <enum name="off" value="0" />
@@ -318,7 +324,7 @@
     </attr>
     <attr name="contact_list_item_action_button_background" format="reference" />
     <attr name="keylines" format="reference" />
-    <attr name="statusBarBackground" format="reference" />
+    <attr name="statusBarBackground" format="reference|color" />
     <attr name="layout_behavior" format="string" />
     <attr name="layout_anchor" format="reference" />
     <attr name="layout_keyline" format="integer" />
@@ -373,14 +379,19 @@
     <attr name="layout_center_horizontal_bound" format="integer" />
     <attr name="layout_center_vertical_bound" format="integer" />
     <attr name="rippleColor" format="color" />
+    <attr name="rippleAlpha" format="color" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
         <enum name="mini" value="1" />
     </attr>
+    <attr name="hoveredFocusedTranslationZ" format="dimension" />
     <attr name="pressedTranslationZ" format="dimension" />
     <attr name="borderWidth" format="dimension" />
     <attr name="useCompatPadding" format="boolean" />
+    <attr name="maxImageSize" format="dimension" />
+    <attr name="showMotionSpec" format="reference" />
+    <attr name="hideMotionSpec" format="reference" />
     <attr name="behavior_autoHide" format="boolean" />
     <attr name="fontProviderAuthority" format="string" />
     <attr name="fontProviderPackage" format="string" />
@@ -483,11 +494,11 @@
     <attr name="colorSecondaryDark" format="color" />
     <attr name="colorPalettePrimary" format="reference" />
     <attr name="colorPaletteSecondary" format="reference" />
-    <attr name="colorMaterialControl" format="color" />
-    <attr name="colorMaterialControlHighlight" format="color" />
+    <attr name="scrimBackground" format="reference|color" />
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
+    <attr name="floatingActionButtonStyle" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="mediaViewStyle" format="reference" />
@@ -710,6 +721,11 @@
         <enum name="filled" value="1" />
         <enum name="outline" value="2" />
     </attr>
+    <attr name="boxPaddingLeft" format="dimension" />
+    <attr name="boxPaddingTop" format="dimension" />
+    <attr name="boxPaddingRight" format="dimension" />
+    <attr name="boxPaddingBottom" format="dimension" />
+    <attr name="boxStrokeColor" format="color" />
     <attr name="hideIcon" format="boolean" />
     <attr name="hideSeparator" format="boolean" />
     <attr name="hideChevron" format="boolean" />
