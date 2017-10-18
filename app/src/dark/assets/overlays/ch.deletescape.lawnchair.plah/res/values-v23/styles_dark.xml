@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsTheme.Dark" parent="@*ch.deletescape.lawnchair.plah:style/Theme.AppCompat">
+        <item name="*ch.deletescape.lawnchair.plah:colorPrimaryDark">@*android:color/primary_material_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:colorPrimary">@*android:color/primary_dark_material_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:colorAccent">@*ch.deletescape.lawnchair.plah:color/accent_material_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*ch.deletescape.lawnchair.plah:blurTintColor">#45212121</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+</resources>

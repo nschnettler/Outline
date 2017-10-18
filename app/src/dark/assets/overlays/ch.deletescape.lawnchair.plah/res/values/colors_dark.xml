@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="quantum_panel_bg_color_dark">@*android:color/background_material_dark</color>
+    <color name="notification_icon_default_color">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="search_bar_text_color">#FFFFFF</color>
+</resources>
