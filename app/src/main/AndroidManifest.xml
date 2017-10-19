@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="substratum.theme.template"
+    package="com.schnettler.outline"
     android:installLocation="internalOnly">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
@@ -20,7 +20,7 @@
         tools:node="replace"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name="substratum.theme.template.SubstratumLauncher">
+        <activity android:name="${applicationId}.SubstratumLauncher">
             <intent-filter>
                 <action android:name="projekt.substratum.THEME"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -62,7 +62,7 @@
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="10.0.4"/>
+            android:value="11.0.3"/>
         <meta-data
             android:name="Substratum_Encryption"
             android:value="@string/encryption_status"/>
