@@ -9,10 +9,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    // Whether the theme assets should be encrypted or not
     SHOULD_ENCRYPT_ASSETS = false
-
-    // Whether this theme supports third party theme systems
     SUPPORTS_THIRD_PARTY_SYSTEMS = false
 
     byte[] key = new byte[16]
@@ -34,10 +31,9 @@ android {
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
-        resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
-
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "bool", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
+        resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
     }
     buildTypes {
         debug {
@@ -54,24 +50,31 @@ android {
             dark{
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
-                buildConfigField "boolean", "NEEDS_THEME_READY_GAPPS", "false"
-                buildConfigField "String", "LICENSE", '"***REMOVED***"'
-                buildConfigField "String", "SIGNATURE", '"***REMOVED***"'
+                ndk {
+                    moduleName "LoadingProcessDark"
+                }
 
                 versionCode 2608
                 versionName "Oreo - 3.0.1"
             }
-
-            light{
+            light {
                 dimension "theme"
                 applicationId "com.schnettler.outline"
-                buildConfigField "boolean", "NEEDS_THEME_READY_GAPPS", "false"
-                buildConfigField "String", "LICENSE", '"***REMOVED***"'
-                buildConfigField "String", "SIGNATURE", '"***REMOVED***"'
+                ndk {
+                    moduleName "LoadingProcessLight"
+                }
 
                 versionCode 2609
                 versionName "Oreo - 7.0.1"
             }
+        }
+    }
+    /*sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    } */
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
         }
     }
 }
