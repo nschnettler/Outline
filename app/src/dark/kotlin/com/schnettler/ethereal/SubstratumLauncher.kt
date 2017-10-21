@@ -132,8 +132,7 @@ class SubstratumLauncher : Activity() {
         var themePiracyCheck = false
         if (getBlacklistedApplications())
             themePiracyCheck = getSelfVerifiedPirateTools(applicationContext)
-        if (SUBSTRATUM_FILTER_CHECK && (!certified)) {                                              //TODO Ask Nick Whats going on here: if (!themePiracyCheck || SUBSTRATUM_FILTER_CHECK && (!certified)) {
-            System.out.println("TEST  " +SUBSTRATUM_FILTER_CHECK)
+        if (themePiracyCheck || (SUBSTRATUM_FILTER_CHECK && !certified)) {
             Toast.makeText(this, R.string.unauthorized, Toast.LENGTH_LONG).show()
             finish()
             return false
