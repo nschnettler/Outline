@@ -92,4 +92,14 @@ Java_com_schnettler_ethereal_SubstratumLauncher_allowThirdPartySubstratumBuilds(
     return JNI_FALSE;
 }
 
+/*
+ * Enable Samsung theming
+ *
+ * Change Line 94 to JNI_FALSE for official Samsung support!
+ */
+JNIEXPORT jboolean JNICALL
+Java_substratum_theme_template_SubstratumLauncher_getSamsungSupport(JNIEnv *env) {
+    return Java_com_schnettler_ethereal_SubstratumLauncher_allowThirdPartySubstratumBuilds(env);
+}
+
 #pragma clang diagnostic pop
