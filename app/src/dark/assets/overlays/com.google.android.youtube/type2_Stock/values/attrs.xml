@@ -7,6 +7,7 @@
     <attr name="backgroundSecondaryInverse" format="reference" />
     <attr name="backgroundTertiary" format="reference" />
     <attr name="backgroundTertiaryInverse" format="reference" />
+    <attr name="castExpandedControllerToolbarStyle" format="reference" />
     <attr name="colorControlSelected" format="color" />
     <attr name="colorPrimaryAlternate" format="reference" />
     <attr name="constraintSet" format="reference" />
@@ -157,6 +158,23 @@
     <attr name="textAppearanceTitle" format="reference" />
     <attr name="textAppearanceTitleInverse" format="reference" />
     <attr name="title" format="string" />
+    <attr name="ytActiveColorPrimary" format="reference|color" />
+    <attr name="ytActiveColorSecondary" format="reference|color" />
+    <attr name="ytBackgroundPrimary" format="reference|color" />
+    <attr name="ytBackgroundQuaternary" format="reference|color" />
+    <attr name="ytBackgroundSecondary" format="reference|color" />
+    <attr name="ytBackgroundTertiary" format="reference|color" />
+    <attr name="ytBrandRed" format="reference|color" />
+    <attr name="ytInactiveGreyPrimary" format="reference|color" />
+    <attr name="ytInactiveGreyQuaternary" format="reference|color" />
+    <attr name="ytInactiveGreySecondary" format="reference|color" />
+    <attr name="ytInactiveGreyTertiary" format="reference|color" />
+    <attr name="ytMaterialBlue500" format="reference|color" />
+    <attr name="ytMaterialGreen500" format="reference|color" />
+    <attr name="ytMaterialYellow700" format="reference|color" />
+    <attr name="ytTextColorDisabled" format="reference|color" />
+    <attr name="ytTextColorPrimary" format="reference|color" />
+    <attr name="ytTextColorSecondary" format="reference|color" />
     <attr name="backgroundViewId" format="reference" />
     <attr name="footerViewId" format="reference" />
     <attr name="navigationMode">
@@ -436,6 +454,32 @@
     <attr name="contentPaddingRight" format="dimension" />
     <attr name="contentPaddingTop" format="dimension" />
     <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="castSeekBarProgressDrawable" format="reference" />
+    <attr name="castSeekBarThumbDrawable" format="reference" />
+    <attr name="castBackgroundColor" format="reference|color" />
+    <attr name="castButtonBackgroundColor" format="reference|color" />
+    <attr name="castButtonTextAppearance" format="reference" />
+    <attr name="castButtonText" format="reference|string" />
+    <attr name="castTitleTextAppearance" format="reference" />
+    <attr name="castFocusRadius" format="reference|dimension" />
+    <attr name="castShowImageThumbnail" format="boolean" />
+    <attr name="castSubtitleTextAppearance" format="reference" />
+    <attr name="castControlButtons" format="reference" />
+    <attr name="castBackground" format="reference|color" />
+    <attr name="castProgressBarColor" format="color" />
+    <attr name="castButtonColor" format="reference|color" />
+    <attr name="castPlayButtonDrawable" format="reference" />
+    <attr name="castPauseButtonDrawable" format="reference" />
+    <attr name="castStopButtonDrawable" format="reference" />
+    <attr name="castLargePlayButtonDrawable" format="reference" />
+    <attr name="castLargePauseButtonDrawable" format="reference" />
+    <attr name="castLargeStopButtonDrawable" format="reference" />
+    <attr name="castSkipPreviousButtonDrawable" format="reference" />
+    <attr name="castSkipNextButtonDrawable" format="reference" />
+    <attr name="castRewind30ButtonDrawable" format="reference" />
+    <attr name="castForward30ButtonDrawable" format="reference" />
+    <attr name="castMuteToggleButtonDrawable" format="reference" />
+    <attr name="castClosedCaptionsButtonDrawable" format="reference" />
     <attr name="colSpacing" format="dimension" />
     <attr name="rowSpacing" format="dimension" />
     <attr name="diameter" format="dimension" />
@@ -532,7 +576,7 @@
         <enum name="bottom" value="80" />
         <enum name="end" value="8388613" />
         <enum name="left" value="3" />
-        <enum name="right" value="3" />
+        <enum name="right" value="5" />
         <enum name="start" value="8388611" />
         <enum name="top" value="48" />
     </attr>
@@ -542,7 +586,7 @@
         <flag name="bottom" value="0x00000050" />
         <flag name="end" value="0x00800005" />
         <flag name="left" value="0x00000003" />
-        <flag name="right" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
         <flag name="start" value="0x00800003" />
         <flag name="top" value="0x00000030" />
     </attr>
@@ -562,6 +606,9 @@
     <attr name="visualHeightRatio" format="integer" />
     <attr name="visualDoubleWidthRatio" format="integer" />
     <attr name="cropInfo" format="string" />
+    <attr name="castIntroOverlayStyle" format="reference" />
+    <attr name="castMiniControllerStyle" format="reference" />
+    <attr name="castExpandedControllerStyle" format="reference" />
     <attr name="CCLIntroOverlayStyle" format="reference" />
     <attr name="windowTransitionStyle">
         <enum name="none" value="2" />
@@ -593,6 +640,12 @@
     <attr name="barLength" format="dimension" />
     <attr name="thickness" format="dimension" />
     <attr name="state_live" format="boolean" />
+    <attr name="edit_location_field_icon" format="reference" />
+    <attr name="edit_location_add_icon" format="reference" />
+    <attr name="edit_location_delete_icon" format="reference" />
+    <attr name="edit_location_suggestion_stroke_color" format="color" />
+    <attr name="edit_location_suggestion_text_color" format="color" />
+    <attr name="edit_location_suggestion_text_highlight_color" format="color" />
     <attr name="itemSize" format="dimension" />
     <attr name="itemOffset" format="dimension" />
     <attr name="facePileStrokeWidth" format="dimension" />

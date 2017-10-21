@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.apps.youtube.app.common.widget.AccessibilityLayerLayout android:id="@*com.google.android.youtube:id/accessibility_layer_container"
+<com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout android:id="@*com.google.android.youtube:id/accessibility_layer_container"
     android:background="@*android:color/background_material_dark"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -7,7 +7,6 @@
     res-auto:footerViewId="@*com.google.android.youtube:id/pivot_bar_container"
     _xmlns:android="http://schemas.android.com/apk/res/android"
     _xmlns:yt="http://schemas.android.com/apk/res-auto"
-    _xmlns:tools="http://schemas.android.com/tools"
     xmlns:_xmlns="xmlns"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:res-auto="http://schemas.android.com/apk/res-auto">
@@ -68,4 +67,4 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         style="@*com.google.android.youtube:style/CompatElevationZ12" />
-</com.google.android.apps.youtube.app.common.widget.AccessibilityLayerLayout>
+</com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout>
