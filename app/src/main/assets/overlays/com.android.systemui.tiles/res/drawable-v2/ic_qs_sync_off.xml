@@ -3,6 +3,7 @@
     android:width="64.0dip"
     android:viewportHeight="24.0"
     android:viewportWidth="24"
+    android:alpha="0.5"
     >
     <path
         android:strokeColor="#FFFFFF"
