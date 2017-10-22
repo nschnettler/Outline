@@ -368,11 +368,13 @@
     <attr name="paramName" format="string" />
     <attr name="paramValue" format="string" />
     <attr name="rippleColor" format="color" />
+    <attr name="rippleAlpha" format="color" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
         <enum name="mini" value="1" />
     </attr>
+    <attr name="hoveredFocusedTranslationZ" format="dimension" />
     <attr name="pressedTranslationZ" format="dimension" />
     <attr name="borderWidth" format="dimension" />
     <attr name="useCompatPadding" format="boolean" />
@@ -499,8 +501,7 @@
     <attr name="colorSecondaryDark" format="color" />
     <attr name="colorPalettePrimary" format="reference" />
     <attr name="colorPaletteSecondary" format="reference" />
-    <attr name="colorMaterialControl" format="color" />
-    <attr name="colorMaterialControlHighlight" format="color" />
+    <attr name="scrimBackground" format="reference|color" />
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
@@ -750,6 +751,11 @@
         <enum name="filled" value="1" />
         <enum name="outline" value="2" />
     </attr>
+    <attr name="boxPaddingLeft" format="dimension" />
+    <attr name="boxPaddingTop" format="dimension" />
+    <attr name="boxPaddingRight" format="dimension" />
+    <attr name="boxPaddingBottom" format="dimension" />
+    <attr name="boxStrokeColor" format="color" />
     <attr name="tile_icon" format="reference" />
     <attr name="tile_content_layout" format="reference" />
     <attr name="tile_treat_as_button" format="boolean" />

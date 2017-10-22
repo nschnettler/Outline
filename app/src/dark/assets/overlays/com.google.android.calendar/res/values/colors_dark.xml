@@ -3,6 +3,9 @@
     <!-- Icons -->
     <color name="gray_75">#FFFFFF</color>
 
+    <!-- App Theme -->
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+
     <!-- Background -->
     <color name="timely_background_color">@*android:color/background_material_dark</color><!--Main Bg -->
     <color name="timeline_week_header_bg_color">@*android:color/background_material_dark</color><!-- Bg -->
