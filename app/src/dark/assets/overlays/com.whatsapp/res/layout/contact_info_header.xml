@@ -14,11 +14,7 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.whatsapp:dimen/info_screen_header" />
 
-    <ViewStub
-        android:id="@*com.whatsapp:id/business_details_card_stub"
-        android:layout="@*com.whatsapp:layout/business_details_card"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+    <include layout="@*com.whatsapp:layout/business_details_card" />
 
     <include layout="@*com.whatsapp:layout/media_card" />
 

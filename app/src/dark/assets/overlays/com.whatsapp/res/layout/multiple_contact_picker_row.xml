@@ -2,7 +2,7 @@
 <RelativeLayout android:layout_width="fill_parent"
     android:layout_height="@*com.whatsapp:dimen/conversations_row_height"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
 
     <FrameLayout
         android:id="@*com.whatsapp:id/contact_selector"

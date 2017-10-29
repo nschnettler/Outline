@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:title="@*com.whatsapp:string/settings_general"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:orientation="vertical"
@@ -201,6 +201,7 @@
                 android:textSize="17.0sp"
                 android:textColor="#ffdddddd"
                 android:layout_gravity="center|left"
+                android:id="@*com.whatsapp:id/settings_data_usage_text"
                 android:paddingLeft="72.0dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

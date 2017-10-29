@@ -19,16 +19,16 @@
             style="@*com.whatsapp:style/FullScreenDialogTitle">
 
             <TextView
-                android:gravity="center|left"
+                android:gravity="left"
                 android:id="@*com.whatsapp:id/dialog_title"
                 style="@*com.whatsapp:style/FullScreenDialogTitleText" />
 
             <TextView
-                android:id="@*com.whatsapp:id/visibility_notice"
+                android:gravity="left"
+                android:id="@*com.whatsapp:id/dialog_subtitle"
                 android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@*com.whatsapp:string/group_description_visibility"
                 style="@*com.whatsapp:style/Theme.ActionBar.SubtitleTextStyle" />
         </LinearLayout>
 

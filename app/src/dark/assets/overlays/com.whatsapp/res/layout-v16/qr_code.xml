@@ -11,7 +11,7 @@
 
     <TextView
         android:textSize="20.0dip"
-        android:textColor="#ffdddddd"
+        android:textColor="#b3FFFFFF"
         android:gravity="center"
         android:id="@*com.whatsapp:id/hint"
         android:background="@*com.whatsapp:color/gray_activity"

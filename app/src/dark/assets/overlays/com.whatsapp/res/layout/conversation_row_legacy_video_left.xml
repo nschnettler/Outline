@@ -51,6 +51,7 @@
                 style="@*com.whatsapp:style/QuotedFrame" />
 
             <FrameLayout
+                android:id="@*com.whatsapp:id/media_container"
                 android:padding="@*com.whatsapp:dimen/conversation_video_thumb_padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
