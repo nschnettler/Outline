@@ -58,7 +58,7 @@
                 android:layout_height="fill_parent"
                 android:scaleType="centerCrop" />
 
-            <FrameLayout
+            <com.whatsapp.location.WaMapView
                 android:id="@*com.whatsapp:id/map_holder"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />

@@ -2,20 +2,19 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout
-        android:gravity="right"
-        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
         android:id="@*com.whatsapp:id/main_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40.0dip"
         android:minHeight="30.0dip">
 
-        <view
+        <com.whatsapp.TextAndDateLayout
             android:paddingRight="2.0dip"
             android:paddingBottom="2.0dip"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            class="com.whatsapp.TextAndDateLayout">
+            android:layout_height="wrap_content">
 
             <com.whatsapp.TextEmojiLabel
                 android:textSize="@*com.whatsapp:dimen/conversation_text_row_tv"
@@ -28,9 +27,11 @@
                 android:paddingRight="8.0dip"
                 android:paddingBottom="3.0dip"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:drawablePadding="2.0dip" />
 
             <LinearLayout
+                android:gravity="center_vertical"
                 android:layout_gravity="bottom|center|right"
                 android:orientation="horizontal"
                 android:id="@*com.whatsapp:id/date_wrapper"
@@ -40,21 +41,12 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:gravity="right"
-                    android:layout_gravity="bottom|center|right"
                     android:id="@*com.whatsapp:id/date"
+                    android:paddingRight="4.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@*com.whatsapp:style/ConversationDate" />
-
-                <ImageView
-                    android:layout_gravity="bottom|center|right"
-                    android:id="@*com.whatsapp:id/status"
-                    android:paddingLeft="4.0dip"
-                    android:paddingBottom="3.0dip"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
             </LinearLayout>
-        </view>
+        </com.whatsapp.TextAndDateLayout>
     </LinearLayout>
 </merge>

@@ -56,7 +56,7 @@
             android:layout_height="1.0dip" />
 
         <TextView
-            android:textColor="#ffdddddd"
+            android:textColor="#b3FFFFFF"
             android:gravity="center"
             android:id="@*com.whatsapp:id/invite_btn"
             android:layout_width="fill_parent"

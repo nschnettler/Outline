@@ -3,12 +3,13 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:layout_above="@*com.whatsapp:id/emoji_search_container">
 
         <TextView
             android:layout_gravity="center"
@@ -169,4 +170,11 @@
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
+
+    <com.whatsapp.emoji.search.EmojiSearchContainer
+        android:id="@*com.whatsapp:id/emoji_search_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
 </com.whatsapp.EmojiPopupLayout>

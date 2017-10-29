@@ -109,5 +109,6 @@
         android:visibility="gone"
         android:layout_width="36.0dip"
         android:layout_height="36.0dip"
-        android:src="@*com.whatsapp:drawable/ic_close" />
+        android:src="@*com.whatsapp:drawable/ic_close"
+        android:contentDescription="@*com.whatsapp:string/cancel" />
 </FrameLayout>

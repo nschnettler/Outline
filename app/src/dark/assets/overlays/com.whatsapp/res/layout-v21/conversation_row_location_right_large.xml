@@ -28,7 +28,7 @@
                 android:layout_height="fill_parent"
                 android:scaleType="centerCrop" />
 
-            <FrameLayout
+            <com.whatsapp.location.WaMapView
                 android:id="@*com.whatsapp:id/map_holder"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
@@ -97,7 +97,7 @@
 
             <TextView
                 android:textSize="@*com.whatsapp:dimen/conversation_location_address"
-                android:textColor="#ffdddddd"
+                android:textColor="#b3FFFFFF"
                 android:ellipsize="end"
                 android:gravity="left"
                 android:id="@*com.whatsapp:id/place_address"
@@ -110,7 +110,7 @@
 
             <TextView
                 android:textSize="@*com.whatsapp:dimen/conversation_location_host"
-                android:textColor="#ffdddddd"
+                android:textColor="#b3FFFFFF"
                 android:ellipsize="start"
                 android:id="@*com.whatsapp:id/host_view"
                 android:paddingLeft="8.0dip"

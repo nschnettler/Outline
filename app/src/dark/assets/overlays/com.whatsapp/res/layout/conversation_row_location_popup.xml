@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
 
     <com.whatsapp.ThumbnailButton
         android:id="@*com.whatsapp:id/thumb"

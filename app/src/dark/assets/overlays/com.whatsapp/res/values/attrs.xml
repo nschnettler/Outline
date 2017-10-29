@@ -513,6 +513,10 @@
         <enum name="round" value="1" />
         <enum name="square" value="0" />
     </attr>
+    <attr name="rmtvLinkColor" format="color" />
+    <attr name="rmtvLinkSelectionColor" format="color" />
+    <attr name="rmtvText" format="string" />
+    <attr name="rmtvLines" format="integer" />
     <attr name="paddingBottomNoButtons" format="dimension" />
     <attr name="paddingTopNoTitle" format="dimension" />
     <attr name="layoutManager" format="string" />
