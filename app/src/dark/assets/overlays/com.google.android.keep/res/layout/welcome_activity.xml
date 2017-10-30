@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@*com.google.android.keep:id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:backgroundTint="@*android:color/background_material_dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ex="http://schemas.android.com/apk/com.google.android.keep">
+
+    <android.support.v4.view.ViewPager
+        android:id="@*com.google.android.keep:id/pages"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center_horizontal"
+        android:id="@*com.google.android.keep:id/skip_welcome"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48.0dip"
+        android:layout_marginBottom="48.0dip"
+        android:foreground="?android:selectableItemBackground"
+        ex:cardBackgroundColor="@*android:color/background_material_dark"
+        ex:cardCornerRadius="2.0dip"
+        ex:cardElevation="2.0dip"
+        ex:cardMaxElevation="6.0dip">
+
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="@*com.google.android.keep:color/primary_text_color"
+            android:gravity="center"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="44.0dip"
+            android:text="@*com.google.android.keep:string/skip_welcome"
+            android:fontFamily="sans-serif-medium" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>

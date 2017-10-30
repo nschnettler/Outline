@@ -32,6 +32,9 @@
         <!-- Widget -->
         <color name="widget_background_color">@*android:color/background_material_dark</color>                  <!-- Choose Account -->
         <color name="widget_header_account_background_color">@*android:color/background_material_dark</color>   <!-- Actual Widget - Behind Account Name -->
+        <!-- Save from Browser -->
+        <color name="share_handler_account_selector">@*android:color/background_material_dark</color>
+        <color name="share_handler_default_background">@*android:color/background_dark</color>
 
     <!-- Text -->
         <!-- Drawer -->
