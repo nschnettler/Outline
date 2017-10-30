@@ -19,6 +19,8 @@
     <color name="zero_search_dark_background_color">@android:color/holo_orange_dark</color>
     <color name="blue">@android:color/holo_orange_dark</color>
     <color name="quantum_googblue500">@android:color/holo_orange_dark</color>
+    <color name="label_editor_checkbox_color">@android:color/holo_orange_dark</color>
+    <color name="feature_highlight_blue">@android:color/holo_orange_dark</color>
 
 
     <!-- Notes Background Options -->
