@@ -42,4 +42,7 @@
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
+    <style name="LabelEditorCheckboxTheme" parent="@*com.google.android.keep:style/ThemeOverlay.AppCompat">
+        <item name="*com.google.android.keep:colorAccent">@*com.google.android.keep:color/label_editor_checkbox_color</item>
+    </style>
 </resources>
