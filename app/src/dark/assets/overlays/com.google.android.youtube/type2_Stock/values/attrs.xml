@@ -482,6 +482,24 @@
     <attr name="castClosedCaptionsButtonDrawable" format="reference" />
     <attr name="colSpacing" format="dimension" />
     <attr name="rowSpacing" format="dimension" />
+    <attr name="chipBackgroundColor" format="color" />
+    <attr name="chipCornerRadius" format="dimension" />
+    <attr name="chipStrokeColor" format="color" />
+    <attr name="chipStrokeWidth" format="dimension" />
+    <attr name="chipText" format="string" />
+    <attr name="chipIcon" format="reference" />
+    <attr name="chipIconSize" format="dimension" />
+    <attr name="closeIcon" format="reference" />
+    <attr name="closeIconSize" format="dimension" />
+    <attr name="checkedIcon" format="reference" />
+    <attr name="chipStartPadding" format="dimension" />
+    <attr name="iconStartPadding" format="dimension" />
+    <attr name="iconEndPadding" format="dimension" />
+    <attr name="textStartPadding" format="dimension" />
+    <attr name="textEndPadding" format="dimension" />
+    <attr name="closeIconStartPadding" format="dimension" />
+    <attr name="closeIconEndPadding" format="dimension" />
+    <attr name="chipEndPadding" format="dimension" />
     <attr name="diameter" format="dimension" />
     <attr name="strokeWidth" format="dimension" />
     <attr name="startAngle" format="float" />
@@ -643,9 +661,11 @@
     <attr name="edit_location_field_icon" format="reference" />
     <attr name="edit_location_add_icon" format="reference" />
     <attr name="edit_location_delete_icon" format="reference" />
+    <attr name="edit_location_back_icon" format="reference" />
     <attr name="edit_location_suggestion_stroke_color" format="color" />
     <attr name="edit_location_suggestion_text_color" format="color" />
     <attr name="edit_location_suggestion_text_highlight_color" format="color" />
+    <attr name="edit_location_divider_color" format="color" />
     <attr name="itemSize" format="dimension" />
     <attr name="itemOffset" format="dimension" />
     <attr name="facePileStrokeWidth" format="dimension" />
@@ -780,6 +800,7 @@
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
+    <attr name="chipStyle" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -886,7 +907,6 @@
     <attr name="iconifiedByDefault" format="boolean" />
     <attr name="queryHint" format="string" />
     <attr name="defaultQueryHint" format="string" />
-    <attr name="closeIcon" format="reference" />
     <attr name="goIcon" format="reference" />
     <attr name="searchIcon" format="reference" />
     <attr name="searchHintIcon" format="reference" />
@@ -1069,6 +1089,7 @@
     <attr name="boxPaddingRight" format="dimension" />
     <attr name="boxPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
+    <attr name="boxStrokeWidth" format="color" />
     <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
     <attr name="titleMargin" format="dimension" />
