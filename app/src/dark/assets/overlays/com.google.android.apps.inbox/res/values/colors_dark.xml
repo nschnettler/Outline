@@ -15,7 +15,7 @@
             <color name="bt_megalist_item_background">@*android:color/background_material_dark</color>        <!-- Item/Card bg-->
             <color name="bt_megalist_item_background_selected">@*android:color/background_dark</color>        <!-- Item/Card selected bg-->
             <!-- Divider -->
-            <color name="bt_stroke_grey">#00000000</color>                                                    <!-- Divider -->
+            <color name="bt_stroke_grey">@*android:color/background_dark</color>                              <!-- Divider -->
             <!-- Snackbar -->
             <color name="toastbar_background">@*android:color/background_material_dark</color>                <!-- Snackbar -->
         <!-- Smartmail -->
@@ -44,6 +44,8 @@
         <!-- Email FROM selector -->
         <color name="bt_compose_from_selector_dropdown_background_default">@*android:color/background_material_dark</color>
         <color name="bt_compose_from_selector_dropdown_background_pressed">@*android:color/background_dark</color>
+        <!-- Button -->
+        <color name="button_material_light">@*android:color/background_material_dark</color>
 
 
     <!-- Icons -->
