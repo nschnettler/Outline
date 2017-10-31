@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@*com.google.android.talk:id/sticker_view_pager_divider"
+        android:background="@*com.google.android.talk:color/quantum_black_divider"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.talk:dimen/sticker_tab_content_divider_size"
+        android:layout_alignParentTop="true" />
+
+    <com.google.android.apps.hangouts.conversation.v2.stickerpicker.impl.SlidingTabLayout android:layout_gravity="center_horizontal"
+        android:id="@*com.google.android.talk:id/sticker_sliding_tabs"
+        android:background="@*android:color/background_material_dark"
+        android:paddingTop="@*com.google.android.talk:dimen/sticker_sliding_tabs_padding_size"
+        android:paddingBottom="@*com.google.android.talk:dimen/sticker_sliding_tabs_padding_size"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        stickers:stripPosition="bottom"
+        xmlns:stickers="http://schemas.android.com/apk/com.google.android.talk" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@*com.google.android.talk:id/sticker_view_pager"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@*com.google.android.talk:id/sticker_sliding_tabs"
+        android:layout_below="@*com.google.android.talk:id/sticker_view_pager_divider" />
+
+    <View
+        android:id="@*com.google.android.talk:id/sticker_view_pager_divider_shadow"
+        android:background="@*com.google.android.talk:drawable/sticker_view_pager_gradient"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.talk:dimen/sticker_view_pager_gradient_size"
+        android:layout_below="@*com.google.android.talk:id/sticker_view_pager_divider" />
+</RelativeLayout>

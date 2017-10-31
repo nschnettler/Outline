@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="conversation_bg_color">@*android:color/background_material_dark</color>                            <!-- Conversation -->
+    <color name="application_background">@*android:color/background_material_dark</color>
+    <color name="compose_message_view_bg">@*android:color/background_material_dark</color>                          <!-- Compose Message -->
+    <color name="default_bg">@*android:color/background_material_dark</color>
+    <color name="solid_white">@*android:color/background_material_dark</color>
+    <color name="bg_item_activated">@*android:color/background_dark</color>                                         <!-- Chat Item - Activated -->
+    <color name="bg_item_selected">@*android:color/background_dark</color>                                          <!-- Chat Item - Selected -->
+    <color name="fab_hangouts_inactive_color">@*android:color/background_dark</color>                               <!-- Chat - Fab inactive -->
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
+    <color name="background_material_light">@*android:color/background_material_dark</color>
+    <color name="quantum_bluegrey50">@*android:color/background_material_dark</color>
+    <color name="quick_button_text_background_pressed_color">@*android:color/background_dark</color>
+    <color name="quick_button_text_background_unpressed_color">@*android:color/background_dark</color>
+    <color name="quantum_grey500">@*android:color/background_material_dark</color>                                  <!-- Splashscreen Statusbar -->
+    <color name="snackbar_background">@*android:color/background_material_dark</color>                              <!-- Snackbar -->
+    <!-- Status -->
+    <color name="status_message_background">@*android:color/background_material_dark</color>
+    <color name="status_message_statusbar_color">@*android:color/background_material_dark</color>
+    <!-- Message Bubble -->
+    <color name="incoming_conversation_bubble_background">@*android:color/background_dark</color>
+    <color name="incoming_conversation_bubble_background_otr">@*android:color/background_dark</color>
+
+
+    <!-- Divider -->
+    <color name="divider_settings">@*android:color/background_dark</color>
+    <color name="quantum_grey300">@*android:color/background_dark</color>                           <!-- New Chat Divider -->
+    <color name="material_grey_300">@*android:color/background_dark</color>                         <!-- New Chat Divider -->
+    <color name="bg_transport_spinner_item_pressed">@*android:color/background_dark</color>         <!-- Chat - Divider -->
+
+
+    <!-- Text -->
+    <color name="quantum_black_text">#FFFFFF</color>
+    <color name="black_text">#FFFFFF</color>
+    <color name="quantum_black_secondary_text">#b3FFFFFF</color>
+    <color name="black_secondary_text">#b3FFFFFF</color>
+    <color name="text_color_primary_settings">#FFFFFF</color>
+    <color name="text_color_secondary_settings">#b3FFFFFF</color>
+    <color name="realtimechat_message_text_incoming">#FFFFFF</color>
+    <color name="navigation_drawer_item_text">#FFFFFF</color>                                       <!-- Drawer Item -->
+    <color name="realtimechat_message_timestamp">#b3FFFFFF</color>                                  <!-- Chat - Timestamp -->
+    <color name="compose_message_view_text_color">#FFFFFF</color>                                   <!-- Chat - Compose -->
+    <color name="quantum_bluegrey800">#FFFFFF</color>                                               <!-- Various Texts and Icons -->
+    <color name="last_seen">#FFFFFF</color>                                                         <!-- Contact - Last Seen -->
+    <color name="people_name">#FFFFFF</color>                                                       <!-- Contact - Name -->
+    <color name="text_secondary_default_color_dark">#FFFFFF</color>
+    <color name="text_tertiary_default_color_dark">#b3FFFFFF</color>
+    <color name="quantum_bluegrey600">#b3FFFFFF</color>                                             <!-- Chat Item - Message -->
+    <color name="quantum_bluegrey900">#FFFFFF</color>                                               <!-- Chat Item - Name -->
+    <color name="quantum_bluegrey500">#b3FFFFFF</color>                                             <!-- Chat - Input Hit, Attach Icons -->
+    <color name="primary_text_default_material_light">#FFFFFF</color>
+    <color name="primary_text_disabled_material_light">#39ffffff</color>
+    <color name="people_no_results">#FFFFFF</color>
+    <color name="status_update_button_disabled">#b3FFFFFF</color>
+    <color name="status_update_button_enabled">#FFFFFF</color>
+    <!-- Account Switcher -->
+    <color name="manage_accounts_text_color">#FFFFFF</color>                                        <!-- Accounts: Add, manage -->
+    <color name="add_accounts_text_color">#ffffffff</color>
+    <color name="navigation_drawer_enabled_item_text">#FFFFFF</color>
+</resources>

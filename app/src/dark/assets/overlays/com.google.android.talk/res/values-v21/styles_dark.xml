@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog" /><!-- Snooze Dialog -->
+
+	<!-- Settings -->
+	<style name="Theme.Hangouts.Settings" parent="@*com.google.android.talk:style/Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:textColorPrimary">@*com.google.android.talk:color/text_color_primary_settings</item>
+		<item name="android:textColorSecondary">@*com.google.android.talk:color/text_color_secondary_settings</item>
+		<item name="android:dividerHeight">@*com.google.android.talk:dimen/divider_height_settings</item>
+		<item name="android:listDivider">@*com.google.android.talk:drawable/list_divider_settings</item>
+		<item name="android:actionBarStyle">@*com.google.android.talk:style/Hangout.Settings.ActionBar</item>
+		<item name="android:colorAccent">@*com.google.android.talk:color/primary_dark</item>
+		<item name="*com.google.android.talk:actionOverflowButtonStyle">@*com.google.android.talk:style/ActionBarOverflow</item>
+		<item name="*com.google.android.talk:colorPrimary">@*com.google.android.talk:color/primary</item>
+		<item name="*com.google.android.talk:colorPrimaryDark">@*com.google.android.talk:color/primary_dark</item>
+		<item name="*com.google.android.talk:colorAccent">@*com.google.android.talk:color/primary_dark</item>
+		<item name="*com.google.android.talk:supportPreferenceCategoryStyle">@*com.google.android.talk:style/SupportPreference.Category</item>
+		<item name="*com.google.android.talk:supportPreferenceScreenStyle">@*com.google.android.talk:style/SupportPreference.PreferenceScreen</item>
+		<item name="*com.google.android.talk:supportPreferenceFragmentStyle">@*com.google.android.talk:style/SupportPreferenceFragment</item>
+		<item name="*com.google.android.talk:supportPreferenceStyle">@*com.google.android.talk:style/SupportPreference</item>
+		<item name="*com.google.android.talk:supportPreferenceInformationStyle">@*com.google.android.talk:style/SupportPreference.Information</item>
+		<item name="*com.google.android.talk:supportCheckBoxPreferenceStyle">@*com.google.android.talk:style/SupportPreference.CheckBoxPreference</item>
+		<item name="*com.google.android.talk:supportYesNoPreferenceStyle">@*com.google.android.talk:style/SupportPreference.DialogPreference.YesNoPreference</item>
+		<item name="*com.google.android.talk:supportDialogPreferenceStyle">@*com.google.android.talk:style/SupportPreference.DialogPreference</item>
+		<item name="*com.google.android.talk:supportEditTextPreferenceStyle">@*com.google.android.talk:style/SupportPreference.DialogPreference.EditTextPreference</item>
+		<item name="*com.google.android.talk:supportRingtonePreferenceStyle">@*com.google.android.talk:style/SupportPreference.RingtonePreference</item>
+		<item name="*com.google.android.talk:supportPreferencePanelStyle">@*com.google.android.talk:style/SupportPreferencePanel</item>
+		<item name="*com.google.android.talk:supportSwitchPreferenceStyle">@*com.google.android.talk:style/SupportPreference.SwitchPreference</item>
+	</style>
+
+	<!-- Notifications -->
+	<style name="NotificationPrimaryText">
+		<item name="android:textColor">@*android:color/notification_primary_text_color_light</item>
+	</style>
+	<style name="NotificationSecondaryText">
+		<item name="android:textColor">@*android:color/notification_secondary_text_color_light</item>
+	</style>
+</resources>
