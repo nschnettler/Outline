@@ -4,9 +4,12 @@
     <color name="quantum_googgreen500">@android:color/holo_green_light</color>
     <color name="outgoing_conversation_bubble_background">@android:color/holo_green_light</color>
     <color name="outgoing_conversation_bubble_background_otr">@android:color/holo_green_light</color>
+    <color name="edit_participants_toolbar_color_default">@android:color/holo_green_light</color>
+    <color name="overview_header_background">@android:color/holo_green_light</color>
 
     <!-- Primary Dark -->
     <color name="quantum_googgreen700">@android:color/holo_green_light</color>
+    <color name="edit_participants_statusbar_color_default">@android:color/holo_green_light</color>
 
     <!-- Accent -->
     <color name="accent">@android:color/holo_green_light</color>
@@ -14,6 +17,8 @@
     <color name="accent_light">@android:color/holo_green_light</color>
     <color name="accent_material_light">@android:color/holo_green_light</color>
     <color name="accent_material_dark">@android:color/holo_green_light</color>
+    <color name="quick_button_color">@android:color/holo_green_light</color>
+    <color name="hangouts_search_query_highlight_color">@android:color/holo_green_light</color>
 
     <color name="realtimechat_message_text_outgoing">#FFFFFF</color>
     <color name="realtimechat_message_link_incoming">@android:color/holo_green_light</color>
