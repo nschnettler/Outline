@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <size android:height="@*com.google.android.apps.inbox:dimen/bt_hypercollapsed_message_circle_size" android:width="@*com.google.android.apps.inbox:dimen/bt_hypercollapsed_message_circle_size" />
+            <stroke android:width="@*com.google.android.apps.inbox:dimen/bt_stroke_width" android:color="@*com.google.android.apps.inbox:color/bt_stroke_grey" />
+            <solid android:color="@*android:color/background_dark" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@*com.google.android.apps.inbox:dimen/bt_hypercollapsed_message_circle_size" android:width="@*com.google.android.apps.inbox:dimen/bt_hypercollapsed_message_circle_size" />
+            <stroke android:width="@*com.google.android.apps.inbox:dimen/bt_stroke_width" android:color="@*com.google.android.apps.inbox:color/bt_stroke_grey" />
+            <solid android:color="@*android:color/background_dark" />
+        </shape>
+    </item>
+</selector>

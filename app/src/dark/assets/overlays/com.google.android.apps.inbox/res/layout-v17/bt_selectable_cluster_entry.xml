@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:paddingLeft="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_padding_horizontal"
+    android:paddingRight="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_padding_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_height"
+    android:paddingStart="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_padding_horizontal"
+    android:paddingEnd="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_padding_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:gravity="center_vertical"
+        android:id="@*com.google.android.apps.inbox:id/selectable_cluster_entry_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_height"
+        android:layout_marginLeft="0.0dip"
+        android:layout_marginRight="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_text_left_margin"
+        android:contentDescription="@null"
+        android:layout_marginStart="0.0dip"
+        android:layout_marginEnd="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_text_left_margin" />
+
+    <TextView
+        android:textSize="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_text_size"
+        android:textColor="#FFFFFF"
+        android:textColorPrimary="#FFFFFF"
+        android:background="@android:color/holo_blue_light"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@*com.google.android.apps.inbox:id/selectable_cluster_entry_text"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.apps.inbox:dimen/bt_selectable_cluster_entry_height"
+        android:singleLine="true"
+        android:textIsSelectable="false"
+        android:paddingStart="16dp"/>
+</LinearLayout>
