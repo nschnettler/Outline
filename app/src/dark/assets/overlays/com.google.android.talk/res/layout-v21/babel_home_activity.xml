@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@*com.google.android.talk:id/drawer_layout"
+    android:background="@*android:color/background_material_dark"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@*com.google.android.talk:id/main_content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <include layout="@*com.google.android.talk:layout/hangouts_toolbar" />
+
+            <com.google.android.apps.hangouts.util.TabHostEx
+                android:id="@android:id/tabhost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:elevation="@*com.google.android.talk:dimen/toolbar_elevation">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:fitsSystemWindows="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TabWidget
+                        android:orientation="horizontal"
+                        android:id="@android:id/tabs"
+                        android:background="@*com.google.android.talk:color/primary"
+                        android:visibility="gone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48.0dip"
+                        android:layout_weight="0.0"
+                        android:showDividers="none"
+                        android:elevation="@*com.google.android.talk:dimen/toolbar_elevation" />
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="0.0dip"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="0.0" />
+
+                    <com.google.android.apps.hangouts.views.MainViewPager
+                        android:id="@*com.google.android.talk:id/view_pager"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+            </com.google.android.apps.hangouts.util.TabHostEx>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:id="@*com.google.android.talk:id/floating_button_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ViewStub
+            android:id="@*com.google.android.talk:id/snackbar_stub"
+            android:layout="@*com.google.android.talk:layout/hangouts_snackbar"
+            android:inflatedId="@*com.google.android.talk:id/snackbar"
+            style="@*com.google.android.talk:style/Hangouts.Snackbar" />
+    </FrameLayout>
+
+    <fragment
+        android:name="com.google.android.apps.hangouts.navigation.NavigationDrawerFragment"
+        android:layout_gravity="start"
+        android:id="@*com.google.android.talk:id/navigation_drawer"
+        android:fitsSystemWindows="true"
+        android:layout_width="@*com.google.android.talk:dimen/nav_drawer_width"
+        android:layout_height="fill_parent" />
+</android.support.v4.widget.DrawerLayout>
