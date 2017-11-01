@@ -35,4 +35,20 @@
 	<style name="NotificationSecondaryText">
 		<item name="android:textColor">@*android:color/notification_secondary_text_color_light</item>
 	</style>
+
+	<style name="ConversationMessageListItemViewContainerStyle">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:background">@*android:color/background_dark</item>
+		<item name="android:paddingLeft">0.0dip</item>
+		<item name="android:paddingTop">@*com.google.android.talk:dimen/conversation_message_list_item_vertical_padding</item>
+		<item name="android:paddingRight">@*com.google.android.talk:dimen/l_space</item>
+		<item name="android:paddingBottom">@*com.google.android.talk:dimen/conversation_message_list_item_vertical_padding</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">@*com.google.android.talk:dimen/conversation_message_list_item_vertical_margin</item>
+		<item name="android:layout_marginBottom">@*com.google.android.talk:dimen/conversation_message_list_item_vertical_margin</item>
+		<item name="android:minHeight">@*com.google.android.talk:dimen/conversation_message_list_item_min_height</item>
+		<item name="android:paddingStart">0.0dip</item>
+		<item name="android:paddingEnd">@*com.google.android.talk:dimen/l_space</item>
+	</style>
 </resources>

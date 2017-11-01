@@ -7,7 +7,7 @@
     <color name="default_bg">@*android:color/background_material_dark</color>
     <color name="solid_white">@*android:color/background_material_dark</color>
     <color name="bg_item_activated">@*android:color/background_dark</color>                                         <!-- Chat Item - Activated -->
-    <color name="bg_item_selected">@*android:color/background_dark</color>                                          <!-- Chat Item - Selected -->
+    <color name="bg_item_selected">#00000000</color>                                                                <!-- Chat Item - Selected -->
     <color name="fab_hangouts_inactive_color">@*android:color/background_dark</color>                               <!-- Chat - Fab inactive -->
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
     <color name="background_material_light">@*android:color/background_material_dark</color>
@@ -16,6 +16,8 @@
     <color name="quick_button_text_background_unpressed_color">@*android:color/background_dark</color>
     <color name="quantum_grey500">@*android:color/background_material_dark</color>                                  <!-- Splashscreen Statusbar -->
     <color name="snackbar_background">@*android:color/background_material_dark</color>                              <!-- Snackbar -->
+    <color name="ongoing_hangout_background_v2">@*android:color/background_dark</color>
+    <color name="participant_chip_background_light">@*android:color/background_dark</color>
     <!-- Status -->
     <color name="status_message_background">@*android:color/background_material_dark</color>
     <color name="status_message_statusbar_color">@*android:color/background_material_dark</color>
@@ -59,4 +61,9 @@
     <color name="manage_accounts_text_color">#FFFFFF</color>                                        <!-- Accounts: Add, manage -->
     <color name="add_accounts_text_color">#ffffffff</color>
     <color name="navigation_drawer_enabled_item_text">#FFFFFF</color>
+
+    <!-- Various -->
+    <color name="quantum_bluegrey700">#b3FFFFFF</color>
+
+    <color name="bg_item_touch_feedback">#00000000</color>
 </resources>
