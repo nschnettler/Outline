@@ -261,6 +261,24 @@
     <attr name="contentPaddingRight" format="dimension" />
     <attr name="contentPaddingTop" format="dimension" />
     <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="chipBackgroundColor" format="color" />
+    <attr name="chipCornerRadius" format="dimension" />
+    <attr name="chipStrokeColor" format="color" />
+    <attr name="chipStrokeWidth" format="dimension" />
+    <attr name="chipText" format="string" />
+    <attr name="chipIcon" format="reference" />
+    <attr name="chipIconSize" format="dimension" />
+    <attr name="closeIcon" format="reference" />
+    <attr name="closeIconSize" format="dimension" />
+    <attr name="checkedIcon" format="reference" />
+    <attr name="chipStartPadding" format="dimension" />
+    <attr name="iconStartPadding" format="dimension" />
+    <attr name="iconEndPadding" format="dimension" />
+    <attr name="textStartPadding" format="dimension" />
+    <attr name="textEndPadding" format="dimension" />
+    <attr name="closeIconStartPadding" format="dimension" />
+    <attr name="closeIconEndPadding" format="dimension" />
+    <attr name="chipEndPadding" format="dimension" />
     <attr name="maxLines" format="integer" />
     <attr name="allowChipModification" format="boolean" />
     <attr name="aclChipLabel" format="string" />
@@ -349,7 +367,7 @@
         <enum name="bottom" value="80" />
         <enum name="end" value="8388613" />
         <enum name="left" value="3" />
-        <enum name="right" value="3" />
+        <enum name="right" value="5" />
         <enum name="start" value="8388611" />
         <enum name="top" value="48" />
     </attr>
@@ -358,7 +376,7 @@
         <flag name="bottom" value="0x00000050" />
         <flag name="end" value="0x00800005" />
         <flag name="left" value="0x00000003" />
-        <flag name="right" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
         <flag name="start" value="0x00800003" />
         <flag name="top" value="0x00000030" />
         <flag name="all" value="0x00000077" />
@@ -499,6 +517,7 @@
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
+    <attr name="chipStyle" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="mediaViewStyle" format="reference" />
@@ -580,7 +599,6 @@
     <attr name="iconifiedByDefault" format="boolean" />
     <attr name="queryHint" format="string" />
     <attr name="defaultQueryHint" format="string" />
-    <attr name="closeIcon" format="reference" />
     <attr name="goIcon" format="reference" />
     <attr name="searchIcon" format="reference" />
     <attr name="searchHintIcon" format="reference" />
@@ -726,6 +744,7 @@
     <attr name="boxPaddingRight" format="dimension" />
     <attr name="boxPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
+    <attr name="boxStrokeWidth" format="color" />
     <attr name="hideIcon" format="boolean" />
     <attr name="hideSeparator" format="boolean" />
     <attr name="hideChevron" format="boolean" />
