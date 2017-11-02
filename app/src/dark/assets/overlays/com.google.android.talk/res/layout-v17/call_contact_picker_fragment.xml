@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:textSize="14.0sp"
+        android:textColorHint="@*com.google.android.talk:color/make_phone_call_hint_color"
+        android:id="@*com.google.android.talk:id/contact_searchbox"
+        android:background="@*android:color/background_material_dark"
+        android:paddingLeft="@*com.google.android.talk:dimen/m_space"
+        android:paddingTop="@*com.google.android.talk:dimen/m_space"
+        android:paddingRight="@*com.google.android.talk:dimen/m_space"
+        android:paddingBottom="@*com.google.android.talk:dimen/m_space"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@*com.google.android.talk:dimen/dialpad_edit_text_minimum_height"
+        android:hint="@*com.google.android.talk:string/make_phone_call_hint_text_contacts"
+        android:singleLine="true" />
+
+    <View style="@*com.google.android.talk:style/horizontalDividerStyle" />
+
+    <FrameLayout
+        android:id="@*com.google.android.talk:id/recent_calls_list_fragment_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <FrameLayout
+        android:id="@*com.google.android.talk:id/local_contacts_list_fragment_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <ImageView
+        android:id="@*com.google.android.talk:id/dialpad_results_placeholder"
+        android:background="@*com.google.android.talk:color/primary"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@*com.google.android.talk:drawable/ic_dialpad_header"
+        android:scaleType="centerInside"
+        android:layout_weight="1.0"
+        android:importantForAccessibility="no" />
+
+    <FrameLayout
+        android:id="@*com.google.android.talk:id/phone_call_dialer_fragment_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@*com.google.android.talk:id/invoke_dialer_container"
+        android:background="@*com.google.android.talk:drawable/bg_btn_call"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.talk:dimen/fake_action_bar_height"
+        android:contentDescription="@*com.google.android.talk:string/dialpad_button"
+        android:layoutDirection="locale">
+
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@*com.google.android.talk:id/invoke_dialer_button"
+            android:background="@*com.google.android.talk:drawable/btn_call"
+            android:clickable="false"
+            android:layout_width="@*com.google.android.talk:dimen/fake_menu_button_min_width"
+            android:layout_height="fill_parent"
+            android:src="@*com.google.android.talk:drawable/ic_dialpad"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@*com.google.android.talk:id/dialButtonContainer"
+        android:background="@*com.google.android.talk:drawable/bg_btn_call"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.talk:dimen/fake_action_bar_height"
+        android:layoutDirection="locale">
+
+        <ImageButton
+            android:state_enabled="false"
+            android:id="@*com.google.android.talk:id/dialButton"
+            android:background="@*com.google.android.talk:drawable/btn_call"
+            android:clickable="false"
+            android:layout_width="@*com.google.android.talk:dimen/fake_menu_button_min_width"
+            android:layout_height="fill_parent"
+            android:src="@*com.google.android.talk:drawable/ic_dial_action_call"
+            android:contentDescription="@*com.google.android.talk:string/description_dial_button" />
+    </LinearLayout>
+</LinearLayout>
