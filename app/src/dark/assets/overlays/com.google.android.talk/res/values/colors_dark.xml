@@ -24,6 +24,12 @@
     <!-- Message Bubble -->
     <color name="incoming_conversation_bubble_background">@*android:color/background_dark</color>
     <color name="incoming_conversation_bubble_background_otr">@*android:color/background_dark</color>
+    <color name="background_dialpad">@*android:color/background_material_dark</color>
+    <color name="background_dialpad_focused">@*android:color/background_dark</color>
+    <color name="background_dialpad_pressed">@*android:color/background_dark</color>
+    <color name="background_edittext">@*android:color/background_material_dark</color>
+    <color name="background_edittext_focused">@*android:color/background_material_dark</color>
+    <color name="background_edittext_pressed">@*android:color/background_material_dark</color>
 
 
     <!-- Divider -->
@@ -31,6 +37,7 @@
     <color name="quantum_grey300">@*android:color/background_dark</color>                           <!-- New Chat Divider -->
     <color name="material_grey_300">@*android:color/background_dark</color>                         <!-- New Chat Divider -->
     <color name="bg_transport_spinner_item_pressed">@*android:color/background_dark</color>         <!-- Chat - Divider -->
+    <color name="dialpad_separator_line_color">@*android:color/background_dark</color>
 
 
     <!-- Text -->
@@ -57,6 +64,8 @@
     <color name="people_no_results">#FFFFFF</color>
     <color name="status_update_button_disabled">#b3FFFFFF</color>
     <color name="status_update_button_enabled">#FFFFFF</color>
+    <color name="sufficient_contrast_hint_text">#b3FFFFFF</color>
+    <color name="dialpad_digits_text_color">#ffffff</color>
     <!-- Account Switcher -->
     <color name="manage_accounts_text_color">#FFFFFF</color>                                        <!-- Accounts: Add, manage -->
     <color name="add_accounts_text_color">#ffffffff</color>

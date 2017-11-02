@@ -6,4 +6,10 @@
         <item name="*com.google.android.talk:messageTextColor">#FFFFFF</item>
         <item name="*com.google.android.talk:actionTextColor">@*com.google.android.talk:color/quantum_googgreen700</item>
     </style>
+
+    <style name="horizontalDividerStyle">
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
 </resources>
