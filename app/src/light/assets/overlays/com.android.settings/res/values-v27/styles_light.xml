@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings">
+        <item name="*android:colorSecondary">#FAFAFA</item>
+       <item name="android:navigationBarColor">#FAFAFA</item>
+    </style>
+</resources>
