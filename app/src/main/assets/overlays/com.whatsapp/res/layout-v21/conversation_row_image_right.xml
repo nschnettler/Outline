@@ -69,7 +69,7 @@
                         android:singleLine="true"
                         android:drawableLeft="@*com.whatsapp:drawable/btn_upload"
                         android:drawablePadding="8.0dip"
-                        android:stateListAnimator="@*com.whatsapp:null" />
+                        android:stateListAnimator="@null" />
                 </FrameLayout>
             </FrameLayout>
 
