@@ -60,6 +60,21 @@
         android:layout_marginTop="16.0dip"
         android:layout_marginBottom="16.0dip" />
 
+    <FrameLayout
+        android:id="@*com.google.android.youtube:id/ticker_tape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip" />
+
+    <View
+        android:id="@*com.google.android.youtube:id/ticker_tape_separator"
+        android:background="@*android:color/background_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginBottom="16.0dip" />
+
     <LinearLayout
         android:gravity="center"
         android:orientation="horizontal"
