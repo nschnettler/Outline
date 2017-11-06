@@ -44,7 +44,7 @@ Java_com_schnettler_ethereal_SubstratumLauncher_getAPKSignatureProduction(JNIEnv
  */
 JNIEXPORT jboolean JNICALL
 Java_com_schnettler_ethereal_SubstratumLauncher_getInternetCheck(JNIEnv *env) {
-    return JNI_TRUE;
+    return JNI_FALSE;
 }
 
 /*
