@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="suggestion_condition_background">@*android:color/background_material_dark</color>
+    <color name="condition_card_background">@*android:color/background_material_dark</color>
+</resources>
