@@ -106,6 +106,11 @@
         <flag name="chains" value="0x00000008" />
         <flag name="none" value="0x00000001" />
     </attr>
+    <attr name="liveChatShimmerLoadingFrameBackgroundColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameOverlayColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameShimmerEndColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameShimmerMiddleColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameShimmerStartColor" format="reference" />
     <attr name="loadingFrameErrorDrawable" format="reference" />
     <attr name="loadingFrameTextColor" format="reference" />
     <attr name="maxHeight" format="dimension" />
@@ -172,9 +177,9 @@
     <attr name="ytMaterialBlue500" format="reference|color" />
     <attr name="ytMaterialGreen500" format="reference|color" />
     <attr name="ytMaterialYellow700" format="reference|color" />
-    <attr name="ytTextColorDisabled" format="reference|color" />
     <attr name="ytTextColorPrimary" format="reference|color" />
     <attr name="ytTextColorSecondary" format="reference|color" />
+    <attr name="ytTextColorTertiary" format="reference|color" />
     <attr name="backgroundViewId" format="reference" />
     <attr name="footerViewId" format="reference" />
     <attr name="navigationMode">
@@ -262,6 +267,7 @@
     <attr name="srcCompat" format="reference" />
     <attr name="tint" format="color" />
     <attr name="tintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -271,12 +277,12 @@
     <attr name="tickMark" format="reference" />
     <attr name="tickMarkTint" format="color" />
     <attr name="tickMarkTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="textAllCaps" format="reference|boolean" />
     <attr name="autoSizeTextType">
@@ -483,6 +489,7 @@
     <attr name="colSpacing" format="dimension" />
     <attr name="rowSpacing" format="dimension" />
     <attr name="chipBackgroundColor" format="color" />
+    <attr name="chipMinHeight" format="dimension" />
     <attr name="chipCornerRadius" format="dimension" />
     <attr name="chipStrokeColor" format="color" />
     <attr name="chipStrokeWidth" format="dimension" />
@@ -490,6 +497,7 @@
     <attr name="chipIcon" format="reference" />
     <attr name="chipIconSize" format="dimension" />
     <attr name="closeIcon" format="reference" />
+    <attr name="closeIconTint" format="color" />
     <attr name="closeIconSize" format="dimension" />
     <attr name="checkedIcon" format="reference" />
     <attr name="chipStartPadding" format="dimension" />
@@ -556,6 +564,7 @@
     <attr name="alpha" format="float" />
     <attr name="buttonTint" format="color" />
     <attr name="buttonTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -643,6 +652,7 @@
     <attr name="scrubber_enabled_size" format="dimension" />
     <attr name="scrubber_disabled_size" format="dimension" />
     <attr name="scrubber_dragged_size" format="dimension" />
+    <attr name="scrubber_drawable" format="reference" />
     <attr name="played_color" format="color" />
     <attr name="scrubber_color" format="color" />
     <attr name="buffered_color" format="color" />
@@ -833,12 +843,12 @@
     <attr name="tooltipText" format="string" />
     <attr name="iconTint" format="color" />
     <attr name="iconTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="preserveIconSpacing" format="boolean" />
     <attr name="subMenuArrow" format="reference" />
@@ -997,22 +1007,22 @@
     <attr name="end_background" format="reference" />
     <attr name="thumbTint" format="color" />
     <attr name="thumbTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="track" format="reference" />
     <attr name="trackTint" format="color" />
     <attr name="trackTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="thumbTextPadding" format="dimension" />
     <attr name="switchTextAppearance" format="reference" />
@@ -1142,6 +1152,7 @@
     <attr name="theme" format="reference" />
     <attr name="backgroundTint" format="color" />
     <attr name="backgroundTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />

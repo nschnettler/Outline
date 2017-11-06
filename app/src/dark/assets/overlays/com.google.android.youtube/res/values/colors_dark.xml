@@ -52,6 +52,11 @@
         <!-- Ad -->
         <color name="muted_native_ad_background_color">@*android:color/background_dark</color>                          <!-- Muted -->
         <color name="companion_background_color_dark">@*android:color/background_dark</color>
+        <!-- Various -->
+        <color name="yt_background_primary_light">@*android:color/background_material_dark</color>  <!-- Videopage -->
+        <color name="yt_background_secondary_light">@*android:color/background_material_dark</color>
+        <color name="yt_background_tertiary_light">@*android:color/background_dark</color>
+        <color name="yt_background_quaternary_light">@*android:color/background_dark</color>
 
     <!-- Divider -->
     <color name="comment_divider_color">#00000000</color>
@@ -96,6 +101,9 @@
         <color name="slim_metadata_main_color">#FFFFFF</color>                                          <!-- New Description Thingy Title Text Color -->
         <color name="subscribe_button_subscribed_font_color">#FFFFFF</color>
         <color name="account_switcher_color_secondary">#FFFFFF</color>
+        <color name="yt_text_color_primary_light">#FFFFFF</color>
+        <color name="yt_text_color_secondary_light">#b3FFFFFF</color>
+        <color name="yt_text_color_tertiary_light">#b3FFFFFF</color>
 
 
     <!-- Other -->
