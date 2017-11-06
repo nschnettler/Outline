@@ -64,8 +64,8 @@ android {
                     moduleName "LoadingProcessLight"
                 }
 
-                versionCode 26010
-                versionName "Oreo - 8"
+                versionCode 26011
+                versionName "Oreo - 9"
             }
         }
     }
