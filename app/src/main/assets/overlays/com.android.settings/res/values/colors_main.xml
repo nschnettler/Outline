@@ -2,4 +2,9 @@
 <resources>
   <!-- Accent -->
     <color name="material_deep_teal_500">@*android:color/accent_device_default_light</color>
+
+  <!-- Screw´d -->
+  <color name="darkScrewdPrimary">@*android:color/accent_device_default_light</color>
+  <color name="darkScrewdPrimaryDark">@*android:color/accent_device_default_light</color>
+  <color name="darkScrewdAccent">@*android:color/accent_device_default_light</color>
 </resources>
