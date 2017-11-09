@@ -54,8 +54,8 @@ android {
                     moduleName "LoadingProcessDark"
                 }
 
-                versionCode 2610
-                versionName "Oreo - 4"
+                versionCode 2611
+                versionName "Oreo - 5"
             }
             light {
                 dimension "theme"
