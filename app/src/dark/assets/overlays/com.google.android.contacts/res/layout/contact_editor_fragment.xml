@@ -31,7 +31,7 @@
             android:layout_width="0.0dip"
             android:layout_height="0.0dip" />
 
-        <include layout="@*com.google.android.contacts:layout/editor_account_header" />
+        <include layout="@*com.google.android.contacts:layout/account_header_presenter" />
 
         <include layout="@*com.google.android.contacts:layout/contact_editor_fields" />
     </com.google.android.apps.contacts.editor.RawContactEditorView>
