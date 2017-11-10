@@ -4,7 +4,7 @@
         <!-- "Main" Backgrounds -->
         <color name="background_primary">@*android:color/background_material_dark</color>                           <!-- Main Contacts Background + Drawer -->
         <color name="empty_state_background">@*android:color/background_material_dark</color>                       <!-- "Vorschläge" Background -->
-        <color name="card_margin_color">@*android:color/background_material_dark</color>                            <!-- Edit contact background above card -->
+        <color name="background_material_light">@*android:color/background_material_dark</color>
         <!-- Divider -->
         <color name="divider_line_color_light">#00aaaaaa</color>                                                    <!-- Contact divider color -->
         <color name="drawer_divider_color">@*android:color/background_dark</color>
@@ -12,16 +12,16 @@
         <color name="cardview_dark_background">@*android:color/background_material_dark</color>                     <!-- Cards -->
         <!-- Snackbar -->
         <color name="snackbar_background">@*android:color/background_material_dark</color>                          <!-- Snackbar -->
+        <color name="owner_snackbar_bg">@*android:color/background_material_dark</color>
         <!-- Dialogs -->
         <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>  <!-- Dialogs / u.a. "create Label" -->
         <color name="material_grey_800">@*android:color/background_floating_material_dark</color>                   <!-- Dialog -->
         <!-- QuickContact -->
         <color name="quickcontact_header_background">@*android:color/background_material_dark</color>
-        <color name="quickcontact_header_avatar_border_color">@*android:color/background_dark</color>
+        <color name="header_avatar_border_color">@*android:color/background_dark</color>
         <!-- Drawer -->
         <color name="navigation_drawer_background_color">@*android:color/background_material_dark</color>           <!-- Drawer -->
-        <color name="nav_item_selected_background">@*android:color/background_dark</color>                          <!-- Drawer Selected -->
-        <color name="drawer_selected_color">@*android:color/background_dark</color>
+        <color name="drawer_selected_color">@*android:color/background_dark</color>                                 <!-- Drawer Selected -->
         <color name="contacts_accent_color">@*android:color/background_material_dark</color>                        <!-- Drawer behind Statusbar -->
         <color name="account_switcher_tooltip_bg">@*android:color/background_material_dark</color>
 
@@ -34,12 +34,13 @@
         <!-- Group -->
         <color name="group_primary_color_dark">@android:color/holo_blue_light</color>
         <color name="group_primary_color">@android:color/holo_blue_light</color>
+        <!-- Launch -->
+        <color name="quantum_grey500">@*android:color/primary_dark_material_dark</color>
 
 
     <!-- Text Color -->
         <!-- "Main" Text Colors -->
         <color name="primary_text_color">#ffffffff</color>                                          <!-- Primary -->
-        <color name="dialpad_secondary_text_color">#FFFFFF</color>
         <!-- Searchbox -->
         <color name="searchbox_text_color">#ffffffff</color>                                        <!-- Searchbox Primary -->
         <color name="searchbox_hint_text_color">#66FFFFFF</color>                                   <!-- Searchbox Hint -->
@@ -56,6 +57,7 @@
         <color name="contacts_text_color">#FFFFFF</color>                                           <!-- Standardkonto dialog Title Text -->
         <color name="dialtacts_secondary_text_color">#FFFFFF</color>                                <!-- u.a. Drawer Header text color + Drawer Icon color -->
         <color name="actionbar_text_color_black">#FFFFFF</color>                                    <!-- Actionbar text color (when selecting contacts) -->
+        <color name="primary_text_default_material_light">#FFFFFF</color>
 
 
     <!-- Icon -->
@@ -68,6 +70,5 @@
     <!-- Unsorted -->
     <color name="expanding_entry_card_background_color">@*android:color/background_material_dark</color>
     <color name="list_item_pinned_header_color">@*android:color/background_material_dark</color>
-    <color name="contact_all_list_background_color">@*android:color/background_material_dark</color>
     <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
 </resources>
