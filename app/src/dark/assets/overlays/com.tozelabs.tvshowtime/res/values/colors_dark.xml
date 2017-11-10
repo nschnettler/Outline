@@ -43,8 +43,8 @@
         <!-- Quiz -->
         <color name="quiz_leaderboard_text">#FFFFFF</color>                                             <!-- Points -->
         <color name="quiz_leaderboard_no_friends_message">#FFFFFF</color>
-        <color name="quiz_results_dark_gray">#FFFFFF</color>
-        <color name="quiz_results_black">#FFFFFF</color>
+       <!-- <color name="quiz_results_dark_gray">#FFFFFF</color>
+        <color name="quiz_results_black">#FFFFFF</color> -->
         <!-- Other -->
         <color name="text_gray">#FFFFFF</color>
 

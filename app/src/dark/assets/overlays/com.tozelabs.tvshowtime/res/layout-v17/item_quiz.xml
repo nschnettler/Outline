@@ -20,7 +20,7 @@
 
             <com.tozelabs.tvshowtime.widget.TZImageView
                 android:id="@*com.tozelabs.tvshowtime:id/coverImage"
-                android:background="@*com.tozelabs.tvshowtime:color/quiz_bg_black"
+                android:background="@*com.tozelabs.tvshowtime:color/heavyMetal"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:scaleType="centerCrop"
@@ -28,7 +28,7 @@
 
             <View
                 android:id="@*com.tozelabs.tvshowtime:id/coverOverlay"
-                android:background="@*com.tozelabs.tvshowtime:color/quiz_bg_black"
+                android:background="@*com.tozelabs.tvshowtime:color/heavyMetal"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
 
