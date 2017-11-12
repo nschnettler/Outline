@@ -11,6 +11,8 @@ android {
         minSdkVersion 25
         maxSdkVersion 25
         versionCode 2569
+        versionName "Nougat - Final (9.5)"
+        applicationId "com.schnettler.outline"
     }
     buildTypes {
         debug {
