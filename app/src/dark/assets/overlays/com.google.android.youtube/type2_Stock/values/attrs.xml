@@ -165,10 +165,10 @@
     <attr name="title" format="string" />
     <attr name="ytActiveColorPrimary" format="reference|color" />
     <attr name="ytActiveColorSecondary" format="reference|color" />
-    <attr name="ytBackgroundPrimary" format="reference|color" />
-    <attr name="ytBackgroundQuaternary" format="reference|color" />
-    <attr name="ytBackgroundSecondary" format="reference|color" />
-    <attr name="ytBackgroundTertiary" format="reference|color" />
+    <attr name="ytBackground1" format="reference|color" />
+    <attr name="ytBackground2" format="reference|color" />
+    <attr name="ytBackground3" format="reference|color" />
+    <attr name="ytBackground4" format="reference|color" />
     <attr name="ytBrandRed" format="reference|color" />
     <attr name="ytInactiveGreyPrimary" format="reference|color" />
     <attr name="ytInactiveGreyQuaternary" format="reference|color" />
@@ -177,9 +177,13 @@
     <attr name="ytMaterialBlue500" format="reference|color" />
     <attr name="ytMaterialGreen500" format="reference|color" />
     <attr name="ytMaterialYellow700" format="reference|color" />
-    <attr name="ytTextColorPrimary" format="reference|color" />
-    <attr name="ytTextColorSecondary" format="reference|color" />
-    <attr name="ytTextColorTertiary" format="reference|color" />
+    <attr name="ytMutedBackground1" format="reference|color" />
+    <attr name="ytMutedBackground2" format="reference|color" />
+    <attr name="ytMutedBackground3" format="reference|color" />
+    <attr name="ytTestAttribute" format="reference|color" />
+    <attr name="ytText1" format="reference|color" />
+    <attr name="ytText2" format="reference|color" />
+    <attr name="ytText3" format="reference|color" />
     <attr name="backgroundViewId" format="reference" />
     <attr name="footerViewId" format="reference" />
     <attr name="navigationMode">
@@ -672,7 +676,9 @@
     <attr name="edit_location_add_icon" format="reference" />
     <attr name="edit_location_delete_icon" format="reference" />
     <attr name="edit_location_back_icon" format="reference" />
+    <attr name="edit_location_suggestion_background_color" format="color" />
     <attr name="edit_location_suggestion_stroke_color" format="color" />
+    <attr name="edit_location_suggestion_stroke_width" format="dimension" />
     <attr name="edit_location_suggestion_text_color" format="color" />
     <attr name="edit_location_suggestion_text_highlight_color" format="color" />
     <attr name="edit_location_divider_color" format="color" />
@@ -811,6 +817,7 @@
     <attr name="materialButtonStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
+    <attr name="chipStandaloneStyle" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -866,6 +873,7 @@
     <attr name="playerControlsViewId" format="reference" />
     <attr name="playerControlsTimeBarId" format="reference" />
     <attr name="metadataViewId" format="reference" />
+    <attr name="maxWidthRatio" format="float" />
     <attr name="defaultDrawable" format="reference" />
     <attr name="startDrawable" format="reference" />
     <attr name="addingDrawable" format="reference" />
@@ -1070,6 +1078,7 @@
     <attr name="hintEnabled" format="boolean" />
     <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="hintTextAppearance" format="reference" />
+    <attr name="helperText" format="string" />
     <attr name="helperTextEnabled" format="boolean" />
     <attr name="helperTextTextAppearance" format="reference" />
     <attr name="errorEnabled" format="boolean" />
@@ -1095,10 +1104,17 @@
         <enum name="outline" value="2" />
     </attr>
     <attr name="boxPaddingLeft" format="dimension" />
-    <attr name="boxPaddingTop" format="dimension" />
+    <attr name="boxCollapsedPaddingTop" format="dimension" />
+    <attr name="boxExpandedPaddingTop" format="dimension" />
     <attr name="boxPaddingRight" format="dimension" />
-    <attr name="boxPaddingBottom" format="dimension" />
+    <attr name="boxCollapsedPaddingBottom" format="dimension" />
+    <attr name="boxCornerRadiusTopLeft" format="dimension" />
+    <attr name="boxCornerRadiusTopRight" format="dimension" />
+    <attr name="boxCornerRadiusBottomLeft" format="dimension" />
+    <attr name="boxCornerRadiusBottomRight" format="dimension" />
+    <attr name="boxExpandedPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
+    <attr name="boxBackgroundColor" format="color" />
     <attr name="boxStrokeWidth" format="color" />
     <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
