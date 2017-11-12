@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="text_black">@*android:color/primary_material_dark</color>                          <!-- Primary -->
+    <color name="material_grey_850">@*android:color/primary_material_dark</color>                   <!-- ActionMode -->
+    <color name="primary_material_dark">@android:color/holo_orange_light</color>                    <!-- Recents -->
+
+    <!-- Background -->
+    <color name="background_gray_d">@*android:color/background_material_dark</color>                <!-- Main -->
+    <color name="background_gray_2c">@*android:color/background_material_dark</color>               <!-- Sponsored Card, Chat -->
+    <color name="black_2c2e">@*android:color/background_material_dark</color>                       <!-- Cards -->
+    <color name="background_black_2f3132">@*android:color/background_material_dark</color>          <!-- Cards -->
+    <color name="color_383b3e">@*android:color/background_material_dark</color>                     <!-- Cards -->
+    <color name="color_282828">@*android:color/background_material_dark</color>                     <!-- Searchbar -->
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color><!-- Dialog -->
+    <color name="background_black_21">@*android:color/background_floating_material_dark</color>     <!-- Overflow-->
+    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color> <!-- Snackbar -->
+    <color name="quote_bg_color_d">@*android:color/background_dark</color>                          <!-- Quote -->
+    <color name="all_black">@*android:color/background_dark</color>                                 <!-- Thread -->
+    <color name="gray_424345">@*android:color/background_material_dark</color>                      <!-- Grid Card -->
+    <color name="background_white_d">@*android:color/background_material_dark</color>
+
+    <!-- Divider -->
+    <color name="background_black_3e">@*android:color/background_dark</color>
+    <color name="divider1_d">@*android:color/background_dark</color>
+
+
+
+</resources>

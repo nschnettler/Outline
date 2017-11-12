@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TkBlackStyle" parent="@*com.quoord.tapatalkpro.activity:style/TapatalkBaseDarkStyle">
+        <item name="*com.quoord.tapatalkpro.activity:windowActionModeOverlay">true</item>
+        <item name="*com.quoord.tapatalkpro.activity:homeAsUpIndicator">@*com.quoord.tapatalkpro.activity:drawable/ic_ab_back_dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:BackgroundGray">@*com.quoord.tapatalkpro.activity:style/background_gray_Dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:BackgroundWhite">@*com.quoord.tapatalkpro.activity:style/background_white_Dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:BackgroundTranslucent">@*com.quoord.tapatalkpro.activity:style/background_translucent_Dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:BackgroundTopicImg">@*com.quoord.tapatalkpro.activity:style/background_topicImg_Dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:BackgroundBlue">@*com.quoord.tapatalkpro.activity:style/background_blue_Dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:BackgroundBlue11A2C8">@*com.quoord.tapatalkpro.activity:style/background_blue11A2C8_blue246278_Dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:BackgroundBlack383231">@*com.quoord.tapatalkpro.activity:style/background_black383231_Dark</item>
+        <item name="*com.quoord.tapatalkpro.activity:quoord_author_12_textStyle">@*com.quoord.tapatalkpro.activity:style/Ligth_12_author_Text</item>
+        <item name="*com.quoord.tapatalkpro.activity:quoord_author_large_textStyle">@*com.quoord.tapatalkpro.activity:style/Ligth_14_author_Text</item>
+        <item name="*com.quoord.tapatalkpro.activity:quoordToolbarBackground">@android:color/holo_orange_light</item>
+        <item name="*com.quoord.tapatalkpro.activity:colorPrimaryDark">@android:color/holo_orange_light</item>
+    </style>
+</resources>
