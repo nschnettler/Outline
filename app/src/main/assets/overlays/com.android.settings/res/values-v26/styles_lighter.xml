@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:colorPrimary">#00FAFAFA</item>
+        <item name="android:colorPrimaryDark">#FAFAFA</item>
+        <item name="android:statusBarColor">#FAFAFA</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+        <item name="android:textColorPrimaryInverse">#000000</item>
+        <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
+    </style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:background">@*com.android.settings:drawable/ic_tab_selected_sdcard</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:colorPrimary">#00000000</item>
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
+        <item name="android:actionBarTheme">@*com.android.settings:style/Theme.ActionBar</item>
+        <item name="android:titleTextColor">#000000</item>
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="@*com.android.settings:switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <item name="switchBarBackgroundColor">@null</item>
+        <item name="android:colorControlNormal">#757575</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="@*com.android.settings:switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <item name="switchBarBackgroundColor">@null</item>
+        <item name="android:colorControlNormal">#757575</item>
+    </style>
+</resources>

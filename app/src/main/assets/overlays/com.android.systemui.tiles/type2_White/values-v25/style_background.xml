@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- QUICKSETTINGS -->
+    <style name="systemui_theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textColorPrimary">#757575</item>
+        <item name="android:colorControlNormal">#757575</item>
+        <item name="android:progressBackgroundTint">#757575</item>
+        <item name="android:colorPrimary">#FAFAFA</item>
+    </style>
+
+    <color name="system_primary_color">#FAFAFA</color>                      <!-- CM based ROMs -->
+    <color name="qs_edit_item_decoration_bg">#FAFAFA</color>                <!-- Edit Hintergrund -->
+    <color name="qs_detail_transition">#66757575</color>
+</resources>

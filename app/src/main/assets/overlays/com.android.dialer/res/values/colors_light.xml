@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- INCALL UI -->
+    <color name="incall_background_gradient_top">#e91F1F1F</color>
+    <color name="incall_background_gradient_bottom">#cc1F1F1F</color>
+    <color name="incall_background_gradient_middle">#e91F1F1F</color>
+    <color name="incall_background_multiwindow">#e91F1F1F</color>
+</resources>
