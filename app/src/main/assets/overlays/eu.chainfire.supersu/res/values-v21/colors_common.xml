@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="material_teal_900">@*android:color/primary_material_light</color>
-    <color name="material_teal_950">@*android:color/primary_material_light</color>
-    <color name="material_teal_500">@*android:color/accent_material_light</color>
-
-</resources>

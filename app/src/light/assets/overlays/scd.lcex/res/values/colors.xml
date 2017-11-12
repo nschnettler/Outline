@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="color_primary_dark_indigo">@android:color/holo_blue_light</color>
-    <color name="color_primary_indigo">@android:color/holo_blue_light</color>
-
-    <color name="color_accent_blue">@android:color/holo_blue_dark</color>
-    <color name="color_accent_red">@android:color/holo_blue_dark</color>
-</resources>

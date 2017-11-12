@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Primary Dark -->
-    <color name="material_light_blue_800">@android:color/holo_blue_light</color>
-    <!-- Primary -->
-    <color name="material_light_blue_600">@android:color/holo_blue_light</color>
-</resources>

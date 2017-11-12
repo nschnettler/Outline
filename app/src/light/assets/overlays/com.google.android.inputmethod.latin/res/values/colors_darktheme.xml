@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="base_material_dark_theme">#1F1F1F</color>
-    <color name="popup_background_material_dark_theme">#1F1F1F</color>
-    <color name="emoji_tab_page_indicator_background_lxx_dark">#1F1F1F</color>
-    <color name="candidate_material_dark_theme">#1F1F1F</color>
-</resources>

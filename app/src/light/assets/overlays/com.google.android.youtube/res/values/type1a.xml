@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <style name="Theme.YouTube.Home" parent="@*com.google.android.youtube:style/Theme.YouTube.Light.NoActionBar">
-    <item name="@*com.google.android.youtube:loadingFrameErrorDrawable">@*com.google.android.youtube:drawable/quantum_ic_error_outline_black_36</item>
-    <item name="@*com.google.android.youtube:loadingFrameTextColor">@*com.google.android.youtube:color/grey</item>
-    <item name="android:actionBarSize">56.0dip</item>
-  </style>
-</resources>

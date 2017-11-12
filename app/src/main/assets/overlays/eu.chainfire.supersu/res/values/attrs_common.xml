@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr name="colorAccent" format="reference" />
-    <attr name="actionBarWidgetTheme" format="reference" />
-    <attr name="actionBarDivider" format="reference" />
-    <attr name="windowContentOverlay" format="reference" />
-    <attr name="windowActionBar" format="boolean" />
-    <attr name="windowActionModeOverlay" format="boolean" />
-</resources>

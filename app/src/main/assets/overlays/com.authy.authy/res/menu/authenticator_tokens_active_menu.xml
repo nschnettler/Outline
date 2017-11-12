@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@*com.authy.authy:drawable/settings_icon" android:id="@*com.authy.authy:id/edit" android:title="@*com.authy.authy:string/edit" />
-    <item android:icon="@*com.authy.authy:drawable/sidebar_icon" android:id="@*com.authy.authy:id/remove" android:title="@*com.authy.authy:string/remove" />
-</menu>

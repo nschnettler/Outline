@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="batterymeter_frame_color_tile">#757575</color> <!-- tile battery frame color -->
-    <color name="batterymeter_circle_tile_bolt_plus_color">#757575</color> <!-- bolt and plus color for tile on circle battery style-->
-    <color name="batterymeter_tile_bolt_plus_color">#757575</color> <!-- bolt and plus color for tile on non circle battery styles - the qs panel background color -->
-    <color name="battery_normal_charge_level_tile">#757575</color> <!-- level color when >15 for the tile battery -->
-    <color name="battery_low_charge_level_tile">@*android:color/accent_material_light</color> <!-- level color when >15 for the tile battery -->
-</resources>
