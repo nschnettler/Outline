@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary && Background -->
+    <color name="grey_900">#2a2b32</color>
+    <!-- Snackbar -->
+    <color name="design_snackbar_background_color">#25262D</color>
+    <!-- Divider -->
+    <color name="hairline">#25262D</color>
+</resources>

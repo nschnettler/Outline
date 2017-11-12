@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@*com.google.android.calendar:drawable/fab_big_red" />
+<item
+    android:drawable="@*com.google.android.calendar:drawable/quantum_ic_reminders_alt_white_24"
+    android:gravity="center" />
+</layer-list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <selector android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+            <item android:state_window_focused="false">
+                <shape android:shape="oval">
+                    <solid android:color="#ffeeeeee" />
+                </shape>
+            </item>
+            <item android:state_focused="true">
+                <shape android:shape="oval">
+                    <solid android:color="#ffe0e0e0" />
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape android:shape="oval">
+                    <solid android:color="#ffe0e0e0" />
+                </shape>
+            </item>
+        </selector>/>
+    </item>
+
+    <item android:height="24dp" android:width="24dp" android:gravity="center">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24.0"
+            android:viewportHeight="24.0">
+            <path
+                android:strokeColor="@*com.google.android.apps.plus:color/material_grey_600"
+                android:strokeWidth="0.8"
+                android:pathData="M20.1,6.4L8.8,17.6l-4.9-4.9"/>
+        </vector>
+    </item>
+
+</layer-list>

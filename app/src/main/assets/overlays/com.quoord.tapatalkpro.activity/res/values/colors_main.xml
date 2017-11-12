@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="orange_b35">@android:color/holo_orange_light</color>                               <!-- Dark -->
+    <color name="orange_e064">@android:color/holo_orange_light</color>
+
+    <!-- Accent -->
+    <color name="accent_material_light">@android:color/holo_orange_dark</color>
+    <color name="accent_material_dark">@android:color/holo_orange_dark</color>
+    <color name="text_orange">@android:color/holo_orange_dark</color>
+    <color name="text_blue_14B6DA">@android:color/holo_orange_dark</color>
+    <color name="accent_dark">@android:color/holo_orange_dark</color>
+    <color name="chat_setting_section_title_color">@android:color/holo_orange_dark</color>
+
+    <!-- Other -->
+    <color name="translucent_background_30">#00000000</color>                                       <!-- Searchbar Overlay -->
+    <color name="color_b1481c">#1AFFFFFF</color>                                                    <!-- Searchbar -->
+</resources>
