@@ -1,5 +1,5 @@
 <resources>
-    <string name="ThemeAuthor">Niklas Schnettler • (Sh4dowSoul)</string>
+    <string name="ThemeAuthor">Niklas Schnettler</string>
     <string name="ThemeAuthorEmail">service.niklasschnettler@gmail.com</string>
     <string name="ThemeWallpaperSource"></string>
     <bool name="ThemeSupportLegacy">true</bool>
