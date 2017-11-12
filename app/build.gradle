@@ -21,17 +21,8 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        flavorDimensions "theme"
-        productFlavors {
-            light{
-                dimension "theme"
-                applicationId "com.schnettler.outline"
-                versionName "Nougat - Final (9.4.1)"
-            }
-        }
     }
 }
-
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.github.javiersantos:PiracyChecker:1.1'
