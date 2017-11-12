@@ -3,4 +3,6 @@
     <!-- Overlay Status (2) -->
     <color name="overlay_not_enabled_list_entry">#FFFFFF</color>                                    <!-- Installed -->
     <color name="overlay_not_installed_list_entry">#66FFFFFF</color>                                <!-- Not Installed -->
+    <!-- Drawer Header -->
+    <color name="material_drawer_header_selection_text">#FFFFFF</color>
 </resources>
