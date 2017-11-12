@@ -6,9 +6,11 @@
 
     <!-- Accent -->
     <color name="accent_material_light">@android:color/holo_orange_dark</color>
+    <color name="accent_material_dark">@android:color/holo_orange_dark</color>
     <color name="text_orange">@android:color/holo_orange_dark</color>
     <color name="text_blue_14B6DA">@android:color/holo_orange_dark</color>
     <color name="accent_dark">@android:color/holo_orange_dark</color>
+    <color name="chat_setting_section_title_color">@android:color/holo_orange_dark</color>
 
     <!-- Other -->
     <color name="translucent_background_30">#00000000</color>                                       <!-- Searchbar Overlay -->
