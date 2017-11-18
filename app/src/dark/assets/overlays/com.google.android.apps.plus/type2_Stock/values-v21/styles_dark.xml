@@ -11,8 +11,8 @@
         <item name="android:windowSoftInputMode">stateHidden</item>
         <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
         <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
     </style>
 
     <!-- Share Dialog -->
@@ -21,8 +21,8 @@
         <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
         <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
         <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
         <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 </resources>
