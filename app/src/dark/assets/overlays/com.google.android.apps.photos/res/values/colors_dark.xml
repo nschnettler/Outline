@@ -42,6 +42,8 @@
     <color name="photos_assistant_cardui_white_button_text">#FFFFFF</color>                         <!-- Assistant Card - Other Button -->
     <color name="photos_list_fastscroll_new_scrubber_label_text">#FFFFFF</color>                    <!-- Fastscroll - Currently Selected -->
     <color name="photos_list_fastscroll_new_scrubber_scale_label_text">#b3FFFFFF</color>            <!-- Fastscroll - Not Selected -->
+    <color name="photos_lens_ui_dark_text_color">#FFFFFF</color>                                    <!-- Lens - Title -->
+    <color name="photos_lens_ui_translucent_text_color">#b3FFFFFF</color>                           <!-- Lens - SubTitle -->
 
     <!-- Button -->
     <color name="photos_theme_button_light_color">@*android:color/background_dark</color>

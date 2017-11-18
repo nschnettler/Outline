@@ -25,4 +25,15 @@
         <item name="*com.google.android.apps.photos:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="*com.google.android.apps.photos:colorAccent">@*com.google.android.apps.photos:color/quantum_googblue500</item>
     </style>
+
+    <style name="photos_lens_card_style" parent="@*com.google.android.apps.photos:style/CardView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@*com.google.android.apps.photos:dimen/photos_lens_card_margin</item>
+        <item name="android:layout_marginTop">@*com.google.android.apps.photos:dimen/photos_lens_card_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.photos:dimen/photos_lens_card_margin</item>
+        <item name="*com.google.android.apps.photos:cardBackgroundColor">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.apps.photos:cardCornerRadius">2.0dip</item>
+        <item name="*com.google.android.apps.photos:cardElevation">0dp</item>
+    </style>
 </resources>
