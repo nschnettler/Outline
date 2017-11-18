@@ -18,12 +18,10 @@
     <color name="quote_bg_color_d">@*android:color/background_dark</color>                          <!-- Quote -->
     <color name="all_black">@*android:color/background_dark</color>                                 <!-- Thread -->
     <color name="gray_424345">@*android:color/background_material_dark</color>                      <!-- Grid Card -->
+    <color name="gray_2f2a29">@*android:color/background_material_dark</color>                      <!-- LaunchScreen -->
     <color name="background_white_d">@*android:color/background_material_dark</color>
 
     <!-- Divider -->
     <color name="background_black_3e">@*android:color/background_dark</color>
     <color name="divider1_d">@*android:color/background_dark</color>
-
-
-
 </resources>
