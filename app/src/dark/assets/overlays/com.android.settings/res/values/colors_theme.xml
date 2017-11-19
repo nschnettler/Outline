@@ -3,4 +3,5 @@
     <!-- 8.1 only -->
     <color name="suggestion_condition_background">@*android:color/background_material_dark</color>
     <color name="condition_card_background">@*android:color/background_material_dark</color>
+    <color name="material_grey_300">@*android:color/background_material_dark</color>
 </resources>
