@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="games_mvp_accent_green">@android:color/holo_green_light</color>
+
+    <!-- Accent -->
+    <color name="material_deep_teal_500">@android:color/holo_green_dark</color>
+    <color name="quantum_teal500">@android:color/holo_green_dark</color>
+    <color name="games_mvp_profile_comparison_other_color">@android:color/holo_green_dark</color>
+
+    <!-- Other -->
+    <color name="games_profile_edit_error_text_color">@android:color/holo_red_light</color>
+</resources>
