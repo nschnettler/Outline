@@ -3,4 +3,6 @@
     <!-- Action Mode -->
     <color name="action_mode_background">@*android:color/primary_material_dark</color>
     <color name="action_mode_statusbar_color">@*android:color/primary_dark_material_dark</color>
+
+    <color name="manage_accounts_text_color">#FFFFFF</color>                                        <!-- Drawer Account - Add, Manage \\ Drawer Icons -->
 </resources>
