@@ -111,14 +111,14 @@
                     </LinearLayout>
 
                     <ImageView
-                        android:layout_gravity="right"
+                        android:layout_gravity="end"
                         android:id="@*com.google.android.apps.messaging:id/work_profile_icon"
                         android:background="@android:color/transparent"
                         android:visibility="gone"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@*com.google.android.apps.messaging:drawable/ic_work_profile"
-                        android:scaleType="center" />
+                        android:scaleType="center"
+                        app:srcCompat="@*com.google.android.apps.messaging:drawable/ic_work_profile" />
                 </LinearLayout>
 
                 <TextView
@@ -161,17 +161,14 @@
                     android:layout_height="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_size"
                     android:scaleType="centerCrop"
                     android:contentDescription="@*com.google.android.apps.messaging:string/message_image_content_description"
-                    android:layout_marginEnd="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_margin_end"
                     app:cornerRadius="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_corner_radius" />
 
                 <com.google.android.apps.messaging.ui.attachment.AudioAttachmentView
                     android:id="@*com.google.android.apps.messaging:id/audio_attachment_view"
                     android:background="@android:color/transparent"
-                    android:padding="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_padding"
                     android:visibility="gone"
                     android:layout_width="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_size"
                     android:layout_height="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_size"
-                    android:layout_marginEnd="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_margin_end"
                     app:layoutMode="subcompact" />
             </FrameLayout>
         </LinearLayout>

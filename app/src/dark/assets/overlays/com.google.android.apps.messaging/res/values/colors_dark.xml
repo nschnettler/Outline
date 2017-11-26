@@ -4,9 +4,10 @@
     <color name="conversation_background">@*android:color/background_material_dark</color>                          <!-- Chat BG -->
     <color name="contact_picker_background">@*android:color/background_material_dark</color>
     <color name="sticker_set_overview_detail_background_color">@*android:color/background_material_dark</color>     <!-- Sticker Set Details -->
-    <color name="sticker_grid_item_view_background_color">@*android:color/background_material_dark</color>     <!-- Sticker Set Details -->
+    <color name="sticker_grid_item_view_background_color">@*android:color/background_material_dark</color>          <!-- Sticker Set Details -->
     <color name="sticker_grid_view_holder_credit_artist_view_background_color">@*android:color/background_material_dark</color>
     <color name="message_bubble_color_outgoing">@*android:color/background_dark</color>                             <!-- Message Bubble -->
+    <color name="background_material_light">@*android:color/background_material_dark</color>                        <!-- Overflow Bg -->
     <!-- GOOGLE MESSENGER SPECIFIC -->
     <color name="contact_picker_search_background">@*android:color/background_material_dark</color>
     <color name="compose_message_background_color">@*android:color/background_material_dark</color>
@@ -48,9 +49,11 @@
         <!-- Other -->
         <color name="compose_send_text_color">#FFFFFF</color>                                                       <!-- Compose Message Text -->
         <color name="chips_dropdown_text_highlighted">@android:color/holo_blue_dark</color>
-        <color name="google_blue_grey_400">#b3FFFFFF</color>                                                          <!-- Send -->
+        <color name="google_blue_grey_400">#b3FFFFFF</color>                                                        <!-- Send -->
         <!-- GOOGLE MESSENGER SPECIFIC -->
         <color name="google_blue_grey_600">#b3FFFFFF</color>                                                        <!-- Hint -->
         <color name="top_contact_list_text_primary">#FFFFFF</color>
         <color name="compose_contact_text">#FFFFFF</color>
+        <!-- Other -->
+        <color name="primary_text_default_material_light">#FFFFFF</color>                                           <!-- Overflow Text -->
 </resources>
