@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<!-- Background -->
+	<color name="popup_header_background_color">@*android:color/background_material_dark</color>
+	<color name="popup_background_color">@*android:color/background_material_dark</color>
+	<color name="notification_color_beneath">@*android:color/background_dark</color>				<!-- Behind Notification -->
 	<color name="legacy_icon_background">@*android:color/background_dark</color>
 
 	<color name="notification_icon_default_color">#FFFFFF</color>
