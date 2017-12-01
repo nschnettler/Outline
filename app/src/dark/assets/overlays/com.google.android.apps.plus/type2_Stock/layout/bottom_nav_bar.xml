@@ -29,6 +29,17 @@
         style="@*com.google.android.apps.plus:style/BottomBarItemVertical" />
 
     <TextView
+        android:id="@*com.google.android.apps.plus:id/navigation_discover"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@*com.google.android.apps.plus:dimen/navigation_bar_height_vertical"
+        android:text="@*com.google.android.apps.plus:string/discover_navigation_item"
+        android:drawableTop="@*com.google.android.apps.plus:drawable/quantum_ic_explore_white_24"
+        android:layout_weight="1.0"
+        android:contentDescription="@*com.google.android.apps.plus:string/discover_navigation_item"
+        style="@*com.google.android.apps.plus:style/BottomBarItemVertical" />
+
+    <TextView
         android:id="@*com.google.android.apps.plus:id/navigation_communities"
         android:layout_width="0.0dip"
         android:layout_height="@*com.google.android.apps.plus:dimen/navigation_bar_height_vertical"
@@ -36,6 +47,17 @@
         android:drawableTop="@*com.google.android.apps.plus:drawable/quantum_ic_communities_white_24"
         android:layout_weight="1.0"
         android:contentDescription="@*com.google.android.apps.plus:string/communities_navigation_item"
+        style="@*com.google.android.apps.plus:style/BottomBarItemVertical" />
+
+    <TextView
+        android:id="@*com.google.android.apps.plus:id/navigation_profile"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@*com.google.android.apps.plus:dimen/navigation_bar_height_vertical"
+        android:text="@*com.google.android.apps.plus:string/profile_navigation_item"
+        android:drawableTop="@*com.google.android.apps.plus:drawable/quantum_ic_account_circle_white_24"
+        android:layout_weight="1.0"
+        android:contentDescription="@*com.google.android.apps.plus:string/profile_navigation_item"
         style="@*com.google.android.apps.plus:style/BottomBarItemVertical" />
 
     <LinearLayout
