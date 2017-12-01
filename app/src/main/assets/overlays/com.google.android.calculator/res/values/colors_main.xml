@@ -2,12 +2,13 @@
 <resources>
     <!-- App Colors -->
     <color name="calculator_accent_color">@*android:color/accent_material_light</color>             <!-- Accent -->
+    <color name="calculator_clear_flood">@*android:color/accent_material_light</color>
 
     <!-- Swipe In Tab -->
     <color name="pad_advanced_background_color">@*android:color/accent_material_light</color>       <!-- Bg -->
     <color name="arrow_fill_color">#FFFFFF</color>                                                  <!-- Expand Icon -->
-    <color name="pad_button_advanced_text_color">#FFFFFF</color>                                    <!-- Text -->
 
     <!-- Error -->
-    <color name="calculator_error_color">@android:color/holo_red_light</color>
+    <color name="calculator_error_flood">@android:color/holo_red_light</color>
+    <color name="calculator_error_text_color">@android:color/holo_red_light</color>
 </resources>
