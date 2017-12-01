@@ -10,10 +10,10 @@ Profile Info: Mute, Notifications, Encryption Bg
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <View
-        android:background="@*com.whatsapp:drawable/list_separator_bot"
-        android:layout_width="fill_parent"
-        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+    <include
+        android:id="@*com.whatsapp:id/actions_card_top_divider"
+        android:visibility="gone"
+        layout="@*com.whatsapp:layout/divider_row" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -191,8 +191,7 @@ Profile Info: Mute, Notifications, Encryption Bg
         </LinearLayout>
     </LinearLayout>
 
-    <View
-        android:background="@*com.whatsapp:drawable/list_separator_top"
-        android:layout_width="fill_parent"
-        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+    <include
+        android:id="@*com.whatsapp:id/actions_card_bottom_divider"
+        layout="@*com.whatsapp:layout/divider_row" />
 </LinearLayout>

@@ -66,6 +66,24 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_payment_holder"
+                android:visibility="gone"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_payment"
+                    android:src="@*com.whatsapp:drawable/ic_payment"
+                    android:contentDescription="@*com.whatsapp:string/attach_payment"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    whatsapp:tbtnForegroundOnly="true"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_payment"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:id="@*com.whatsapp:id/pickfiletype_gallery_holder"
                 style="@*com.whatsapp:style/AttachPickerItem">
 

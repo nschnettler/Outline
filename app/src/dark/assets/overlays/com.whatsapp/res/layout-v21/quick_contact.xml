@@ -117,5 +117,16 @@
                 android:contentDescription="@*com.whatsapp:string/info"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
         </LinearLayout>
+
+        <Button
+            android:textColor="@*com.whatsapp:color/accent"
+            android:gravity="center"
+            android:id="@*com.whatsapp:id/direction_btn"
+            android:background="#fff3f3f3"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="@*com.whatsapp:string/get_direction"
+            android:textAllCaps="true"
+            style="@*com.whatsapp:style/ActionBarButtonStyle" />
     </LinearLayout>
 </view>

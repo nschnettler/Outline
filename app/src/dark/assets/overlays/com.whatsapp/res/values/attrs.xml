@@ -353,6 +353,10 @@
         <flag name="right" value="0x00000003" />
         <flag name="top" value="0x00000030" />
     </attr>
+    <attr name="charSize" format="dimension" />
+    <attr name="lineStroke" format="dimension" />
+    <attr name="charSpacing" format="dimension" />
+    <attr name="textBottomPadding" format="dimension" />
     <attr name="bar_height" format="dimension" />
     <attr name="touch_target_height" format="dimension" />
     <attr name="ad_marker_width" format="dimension" />
@@ -404,9 +408,34 @@
     <attr name="font" format="reference" />
     <attr name="fontWeight" format="integer" />
     <attr name="foregroundInsidePadding" format="boolean" />
+    <attr name="pinAnimationType">
+        <enum name="none" value="-1" />
+        <enum name="fromBottom" value="1" />
+        <enum name="popIn" value="0" />
+    </attr>
+    <attr name="pinCharacterMask" format="string" />
+    <attr name="pinCharacterSize" format="dimension" />
+    <attr name="pinFontSize" format="dimension" />
+    <attr name="pinRepeatedHint" format="string" />
+    <attr name="pinLineStroke" format="dimension" />
+    <attr name="pinLineStrokeSelected" format="dimension" />
+    <attr name="pinLineStrokeCentered" format="boolean" />
+    <attr name="pinCharacterSpacing" format="dimension" />
+    <attr name="pinTextBottomPadding" format="dimension" />
+    <attr name="pinLineColors" format="color" />
+    <attr name="pinBackgroundDrawable" format="reference" />
+    <attr name="pinBackgroundIsSquare" format="boolean" />
+    <attr name="formTitle" format="string" />
+    <attr name="formInputLength" format="integer" />
+    <attr name="formValidationError" format="string" />
+    <attr name="formActionOnTop" format="boolean" />
     <attr name="gifSource" format="reference|string" />
     <attr name="isOpaque" format="boolean" />
     <attr name="freezesAnimation" format="boolean" />
+    <attr name="keypad_bg_color" format="color" />
+    <attr name="key_digit_color" format="color" />
+    <attr name="key_digit_size" format="dimension" />
+    <attr name="key_digit_height" format="dimension" />
     <attr name="measureWithLargestChild" format="boolean" />
     <attr name="showDividers">
         <flag name="none" value="0x00000000" />

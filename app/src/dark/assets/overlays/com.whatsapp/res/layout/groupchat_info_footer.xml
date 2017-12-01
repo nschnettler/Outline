@@ -8,17 +8,6 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <View
-        android:id="@*com.whatsapp:id/participants_card_bottom"
-        android:background="@*com.whatsapp:drawable/list_separator_top"
-        android:layout_width="fill_parent"
-        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
-
-    <View
-        android:background="@*com.whatsapp:drawable/list_separator_bot"
-        android:layout_width="fill_parent"
-        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
-
     <LinearLayout
         android:orientation="vertical"
         android:background="@*android:color/background_material_dark"
@@ -52,21 +41,13 @@
         </LinearLayout>
     </LinearLayout>
 
-    <View
-        android:background="@*com.whatsapp:drawable/list_separator_top"
-        android:layout_width="fill_parent"
-        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+    <include layout="@*com.whatsapp:layout/divider_row" />
 
     <LinearLayout
         android:orientation="vertical"
         android:id="@*com.whatsapp:id/report_group"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-
-        <View
-            android:background="@*com.whatsapp:drawable/list_separator_bot"
-            android:layout_width="fill_parent"
-            android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
 
         <LinearLayout
             android:orientation="vertical"
