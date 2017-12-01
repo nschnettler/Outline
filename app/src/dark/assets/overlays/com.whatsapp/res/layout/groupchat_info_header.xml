@@ -13,6 +13,8 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.whatsapp:dimen/info_screen_header" />
 
+    <include layout="@*com.whatsapp:layout/description_card" />
+
     <TextView
         android:textSize="16.0sp"
         android:textColor="#FFFFFF"
@@ -21,7 +23,7 @@
         android:paddingLeft="@*com.whatsapp:dimen/card_h_padding"
         android:paddingTop="@*com.whatsapp:dimen/card_v_padding"
         android:paddingRight="@*com.whatsapp:dimen/card_h_padding"
-        android:paddingBottom="2.0dip"
+        android:paddingBottom="8.0dip"
         android:visibility="gone"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -29,13 +31,13 @@
 
     <include layout="@*com.whatsapp:layout/media_card" />
 
-    <include layout="@*com.whatsapp:layout/description_card" />
-
     <include layout="@*com.whatsapp:layout/live_location_card" />
 
     <include layout="@*com.whatsapp:layout/actions_card" />
 
     <include layout="@*com.whatsapp:layout/locations_card" />
+
+    <include layout="@*com.whatsapp:layout/admin_settings_card" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -43,24 +45,36 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
-        <View
-            android:background="@*com.whatsapp:drawable/list_separator_bot"
-            android:layout_width="fill_parent"
-            android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
-
-        <FrameLayout
+        <LinearLayout
+            android:orientation="horizontal"
             android:background="@*android:color/background_material_dark"
             android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            android:paddingTop="0.0dip"
             style="@*com.whatsapp:style/FlatCardHeader">
 
             <TextView
                 android:id="@*com.whatsapp:id/participants_title"
+                android:paddingTop="12.0dip"
+                android:layout_width="0.0dip"
+                android:layout_weight="1.0"
                 style="@*com.whatsapp:style/FlatCardTitle" />
 
             <TextView
                 android:id="@*com.whatsapp:id/participants_info"
+                android:paddingTop="12.0dip"
                 style="@*com.whatsapp:style/FlatCardInfo" />
-        </FrameLayout>
+
+            <ImageView
+                android:id="@*com.whatsapp:id/search_participant"
+                android:background="?android:actionBarItemBackground"
+                android:paddingRight="12.0dip"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="-12.0dip"
+                android:src="@*com.whatsapp:drawable/ic_action_search"
+                android:tint="@*com.whatsapp:color/accent" />
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -75,15 +89,16 @@
             android:gravity="center_vertical"
             android:background="@*com.whatsapp:drawable/selector_orange_gradient"
             android:layout_width="fill_parent"
-            android:layout_height="56.0dip">
+            android:layout_height="@*com.whatsapp:dimen/small_list_row_height">
 
             <ImageView
                 android:id="@*com.whatsapp:id/add_participant_icon"
+                android:background="@*com.whatsapp:drawable/green_circle"
                 android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
                 android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"
                 android:layout_marginLeft="@*com.whatsapp:dimen/small_list_avatar_padding"
                 android:layout_marginRight="@*com.whatsapp:dimen/small_list_avatar_padding"
-                android:src="@*com.whatsapp:drawable/add_person_gray"
+                android:src="@*com.whatsapp:drawable/ic_action_add_person"
                 android:scaleType="center"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true" />
