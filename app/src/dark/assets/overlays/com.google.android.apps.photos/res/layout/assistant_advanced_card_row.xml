@@ -35,19 +35,19 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
 
+                    <include layout="@*com.google.android.apps.photos:layout/assistant_advanced_card_text_layout" />
+
                     <ImageView
                         android:id="@*com.google.android.apps.photos:id/card_image"
                         android:contentDescription="@null"
                         style="@*com.google.android.apps.photos:style/AssistantCardImage" />
 
-                    <include layout="@*com.google.android.apps.photos:layout/assistant_advanced_card_text_layout" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@*com.google.android.apps.photos:id/media_preview_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
                 </RelativeLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:id="@*com.google.android.apps.photos:id/media_preview_container"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content" />
 
                 <View
                     android:id="@*com.google.android.apps.photos:id/bottom_div_line"

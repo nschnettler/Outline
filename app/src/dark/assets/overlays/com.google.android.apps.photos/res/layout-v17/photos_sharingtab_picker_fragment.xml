@@ -106,6 +106,7 @@
                     android:id="@*com.google.android.apps.photos:id/recipients_list"
                     android:paddingTop="18.0dip"
                     android:paddingBottom="18.0dip"
+                    android:visibility="gone"
                     android:layout_width="0.0dip"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="9.0dip"
@@ -113,12 +114,39 @@
                     android:layout_marginStart="9.0dip"
                     style="@*com.google.android.apps.photos:style/quantum_text_display_1_black" />
 
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@*com.google.android.apps.photos:id/recipients_layout"
+                    android:padding="8.0dip"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+
+                    <com.google.android.flexbox.FlexboxLayout android:id="@*com.google.android.apps.photos:id/recipients_flexbox"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8.0dip"
+                        app:flexWrap="wrap"
+                        app:justifyContent="flex_start"
+                        xmlns:app="http://schemas.android.com/apk/com.google.android.apps.photos" />
+
+                    <com.google.android.flexbox.FlexboxLayout android:id="@*com.google.android.apps.photos:id/face_chips_flexbox"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8.0dip"
+                        app:flexWrap="wrap"
+                        app:justifyContent="flex_start"
+                        xmlns:app="http://schemas.android.com/apk/com.google.android.apps.photos" />
+                </LinearLayout>
+
                 <ImageView
                     android:layout_gravity="center_vertical"
                     android:id="@*com.google.android.apps.photos:id/overflow"
                     android:background="?android:selectableItemBackground"
                     android:layout_width="40.0dip"
-                    android:layout_height="fill_parent"
+                    android:layout_height="wrap_content"
                     android:src="@*com.google.android.apps.photos:drawable/quantum_ic_more_vert_grey600_24"
                     android:scaleType="center"
                     android:layout_weight="0.0"
