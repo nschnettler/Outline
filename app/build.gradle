@@ -10,8 +10,8 @@ android {
         targetSdkVersion 25
         minSdkVersion 25
         maxSdkVersion 25
-        versionCode 2570
-        versionName "Nougat - Final (9.5)"
+        versionCode 2571
+        versionName "Nougat - Final (9.6)"
         applicationId "com.schnettler.outline"
     }
     buildTypes {
