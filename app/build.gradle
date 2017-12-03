@@ -62,7 +62,7 @@ android {
                     moduleName "LoadingProcessLight"
                 }
 
-                versionCode 26016
+                versionCode 26017
                 versionName "Oreo - 11.2"
             }
         }
