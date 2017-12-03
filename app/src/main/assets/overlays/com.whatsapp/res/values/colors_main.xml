@@ -3,6 +3,7 @@
     <!-- Primary -->
     <color name="primary">@android:color/holo_green_light</color>
     <color name="primary_dark">@android:color/holo_green_light</color>
+    <color name="unread_indicator">@android:color/holo_green_light</color>
 
     <!-- Accent -->
     <color name="accent_light">@*com.whatsapp:color/accent</color>
