@@ -22,6 +22,7 @@ import com.schnettler.ethereal.Constants.SUBSTRATUM_FILTER_CHECK
 import com.schnettler.ethereal.Constants.THEME_READY_GOOGLE_APPS
 import com.schnettler.ethereal.Constants.THEME_READY_PACKAGES
 import com.schnettler.ethereal.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
+import com.schnettler.ethereal.ThemeFunctions.checkNetworkConnection
 import com.schnettler.ethereal.ThemeFunctions.checkSubstratumIntegrity
 import com.schnettler.ethereal.ThemeFunctions.getSelfSignature
 import com.schnettler.ethereal.ThemeFunctions.getSelfVerifiedIntentResponse
@@ -46,7 +47,7 @@ class SubstratumLauncher : Activity() {
     private var piracyChecker: PiracyChecker? = null
 
     private fun calibrateSystem(certified: Boolean, modeLaunch: String?) {
-        if (!BuildConfig.DEBUG) {
+        if (getAPStatus() && !BuildConfig.DEBUG) {
             startAntiPiracyCheck(certified, modeLaunch)
         } else {
             quitSelf(certified, modeLaunch)
@@ -57,7 +58,7 @@ class SubstratumLauncher : Activity() {
         if (piracyChecker != null) {
             piracyChecker!!.start()
         } else {
-            if (getAPKSignatureProduction().isEmpty() && !BuildConfig.DEBUG) {
+            if (getAPStatus() && getAPKSignatureProduction().isEmpty() && !BuildConfig.DEBUG) {
                 Log.e(tag, PiracyCheckerUtils.getAPKSignature(this))
             }
 
@@ -77,6 +78,7 @@ class SubstratumLauncher : Activity() {
                             getString(R.string.toast_unlicensed),
                             getString(R.string.ThemeName))
                     Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
+                    Log.e(tag, error.toString())
                     finish()
                 }
             })
@@ -130,7 +132,7 @@ class SubstratumLauncher : Activity() {
         var themePiracyCheck = false
         if (getBlacklistedApplications())
             themePiracyCheck = getSelfVerifiedPirateTools(applicationContext)
-        if (themePiracyCheck or (SUBSTRATUM_FILTER_CHECK && !certified)) {
+        if (themePiracyCheck || (SUBSTRATUM_FILTER_CHECK && !certified)) {
             Toast.makeText(this, R.string.unauthorized, Toast.LENGTH_LONG).show()
             finish()
             return false
@@ -139,30 +141,20 @@ class SubstratumLauncher : Activity() {
         returnIntent.putExtra("theme_launch_type", themeLaunchType)
         returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
         returnIntent.putExtra("theme_piracy_check", themePiracyCheck)
-        returnIntent.putExtra("encryption_key", getDecryptionKey())
-        returnIntent.putExtra("iv_encrypt_key", getIVKey())
-
-        val callingPackage = intent.getStringExtra("calling_package_name")
-        if (callingPackage == null) {
-            val parse = String.format(
-                    getString(R.string.outdated_substratum),
-                    getString(R.string.ThemeName),
-                    913)
-            Toast.makeText(this, parse, Toast.LENGTH_SHORT).show()
-            finish()
-            return false
-        }
-        if (!isCallingPackageAllowed(callingPackage)) {
-            return false
-        } else {
-            returnIntent.`package` = callingPackage
-        }
+        returnIntent.putExtra("encryption_key", BuildConfig.DECRYPTION_KEY)
+        returnIntent.putExtra("iv_encrypt_key", BuildConfig.IV_KEY)
 
         if (intent.action == substratumIntentData) {
             setResult(getSelfVerifiedIntentResponse(applicationContext)!!, returnIntent)
         } else if (intent.action == getKeysIntent) {
+            val callingPackage = intent.getStringExtra("calling_package_name")
+            returnIntent.`package` = callingPackage
             returnIntent.action = receiveKeysIntent
-            sendBroadcast(returnIntent)
+            if (callingPackage != null) {
+                if (isCallingPackageAllowed(callingPackage)) {
+                    sendBroadcast(returnIntent)
+                }
+            }
         }
         finish()
         return true
@@ -174,10 +166,11 @@ class SubstratumLauncher : Activity() {
         val intent = intent
         val action = intent.action
         var verified = false
-        if ((action == substratumIntentData) or (action == getKeysIntent)) {
-            verified = when {
-                allowThirdPartySubstratumBuilds() -> true
-                else -> checkSubstratumIntegrity(this)
+        if (action == substratumIntentData) {
+            verified = if (allowThirdPartySubstratumBuilds()) {
+                true
+            } else {
+                checkSubstratumIntegrity(this)
             }
         } else {
             OTHER_THEME_SYSTEMS
@@ -199,9 +192,10 @@ class SubstratumLauncher : Activity() {
         val sharedPref = getPreferences(Context.MODE_PRIVATE)
         if (getInternetCheck()) {
             if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
-                when {
-                    THEME_READY_GOOGLE_APPS -> detectThemeReady(certified, modeLaunch)
-                    else -> calibrateSystem(certified, modeLaunch)
+                if (THEME_READY_GOOGLE_APPS) {
+                    detectThemeReady(certified, modeLaunch)
+                } else {
+                    calibrateSystem(certified, modeLaunch)
                 }
             } else {
                 checkConnection(certified, modeLaunch)
@@ -213,13 +207,20 @@ class SubstratumLauncher : Activity() {
         }
     }
 
-    private fun checkConnection(certified: Boolean, modeLaunch: String?) {
-        val editor = getPreferences(Context.MODE_PRIVATE).edit()
-        editor.putInt("last_version", BuildConfig.VERSION_CODE).apply()
-        if (THEME_READY_GOOGLE_APPS) {
-            detectThemeReady(certified, modeLaunch)
+    private fun checkConnection(certified: Boolean, modeLaunch: String?): Boolean {
+        val isConnected = checkNetworkConnection()
+        return if (!isConnected!!) {
+            Toast.makeText(this, R.string.toast_internet, Toast.LENGTH_LONG).show()
+            false
         } else {
-            calibrateSystem(certified, modeLaunch)
+            val editor = getPreferences(Context.MODE_PRIVATE).edit()
+            editor.putInt("last_version", BuildConfig.VERSION_CODE).apply()
+            if (THEME_READY_GOOGLE_APPS) {
+                detectThemeReady(certified, modeLaunch)
+            } else {
+                calibrateSystem(certified, modeLaunch)
+            }
+            true
         }
     }
 
@@ -290,6 +291,7 @@ class SubstratumLauncher : Activity() {
         System.loadLibrary("LoadingProcessDark")
     }
 
+    private external fun getAPStatus(): Boolean
     private external fun getInternetCheck(): Boolean
     private external fun getGooglePlayRequirement(): Boolean
     private external fun getAmazonAppStoreRequirement(): Boolean
@@ -297,6 +299,4 @@ class SubstratumLauncher : Activity() {
     private external fun getAPKSignatureProduction(): String
     private external fun getBlacklistedApplications(): Boolean
     private external fun allowThirdPartySubstratumBuilds(): Boolean
-    private external fun getDecryptionKey(): ByteArray
-    private external fun getIVKey(): ByteArray
 }

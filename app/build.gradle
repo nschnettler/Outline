@@ -22,14 +22,16 @@ ext {
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.1'
+    buildToolsVersion "27"
 
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 27
 
-        buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" +
-                SUPPORTS_THIRD_PARTY_SYSTEMS
+        buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
+        buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
+        buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
+        buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "bool", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
     }
@@ -67,7 +69,9 @@ android {
             }
         }
     }
-
+    /*sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    } */
     externalNativeBuild {
         ndkBuild {
             path 'src/main/jni/Android.mk'
@@ -83,16 +87,15 @@ dependencies {
     }
 }
 
-// Themers, do not touch this! This is our function to help us encrypt your assets!
 task encryptAssets {
     if (!shouldEncrypt()) {
-        println("Skipping assets encryption...")
+        println("skipping assets encryption...")
         return
     }
 
     def tempAssets = new File(getProjectDir(), "/src/main/assets-temp")
     if (!tempAssets.exists()) {
-        println("Encrypting duplicated assets, don't worry, your original assets are safe...")
+        println("encrypting assets...")
         def list = []
         def dir = new File(getProjectDir(), "/src/main/assets")
         dir.eachFileRecurse(FileType.FILES) { file ->
@@ -141,27 +144,8 @@ task encryptAssets {
             }
         }
     } else {
-        throw new RuntimeException("Old temporary assets found! Try and do a clean project.")
+        throw new RuntimeException("Old temporary assets found! Try to do a clean project")
     }
-}
-
-task writeKeys {
-    def KEY_READY = String.valueOf("\"" + KEY + "\"")
-            .replace("\"", "")
-            .replace("[", "{")
-            .replace("]", "}")
-    def IV_KEY_READY = String.valueOf("\"" + IV_KEY + "\"")
-            .replace("\"", "")
-            .replace("[", "{")
-            .replace("]", "}")
-
-    def headerFile = new File(getProjectDir(), "src/main/jni/LoadingProcess.h")
-    headerFile.createNewFile()
-    headerFile.text = """
-#include <jni.h>
-jbyte DECRYPTION_KEY[] = ${KEY_READY};
-jbyte IV_KEY[] = ${IV_KEY_READY};
-"""
 }
 
 project.afterEvaluate {
@@ -171,11 +155,11 @@ project.afterEvaluate {
 gradle.buildFinished {
     def tempAssets = new File(getProjectDir(), "/src/main/assets-temp")
     if (tempAssets.exists()) {
-        println("Cleaning duplicated encrypted assets, not your decrypted assets...")
+        println("cleaning encrypted assets...")
         def encryptedAssets = new File(getProjectDir(), "src/main/assets")
         encryptedAssets.deleteDir()
 
-        tempAssets.eachFileRecurse(FileType.FILES) { file ->
+        tempAssets.eachFileRecurse (FileType.FILES) { file ->
             FileInputStream fis = new FileInputStream(file)
             File fo = new File(file.getAbsolutePath().replace("assets-temp", "assets"))
             fo.getParentFile().mkdirs()
