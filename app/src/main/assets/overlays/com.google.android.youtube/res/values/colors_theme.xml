@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home -->
+    <color name="white_header_actionbar_color">@*android:color/primary_material_light</color>
+    <color name="white_header_statusbar_color">@*android:color/primary_material_light</color>
+    <!-- Video -->
+    <color name="theme_watch_color_primary_dark">@*android:color/primary_material_light</color>
+    <!-- Settings -->
+    <color name="theme_main_color_primary">@*android:color/primary_material_light</color>
+    <color name="theme_main_color_primary_dark">@*android:color/primary_material_light</color>
+</resources>
