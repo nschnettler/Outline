@@ -2,29 +2,15 @@
 <resources>
     <!-- Icons -->
     <color name="info_card_video_item_light_font">#FFFFFF</color>                                               <!-- Custom -->
-    <color name="theme_search_actionbar_controls_color">#ffffff</color>                                         <!-- Searched Icon color -->
-
-    <!-- Home Primary -->
-    <color name="white_header_actionbar_color">@*android:color/primary_material_dark</color>
-    <color name="white_header_statusbar_color">@*android:color/primary_material_dark</color>
-   
 
     <color name="white_header_controls_color">#ffdddddd</color>
     <color name="white_header_text_color">#ffffffff</color>
 
-    <color name="slim_status_bar_active_background_color">#4caf50</color>
-    <color name="slim_status_bar_inactive_background_color">@*android:color/button_material_dark</color>
-    <color name="slim_status_bar_text_color">#757</color>
-
     <!-- Backgrounds -->
         <!-- Main -->
         <color name="background_primary_light">@*android:color/background_material_dark</color>                 <!-- Background Primary -->
-        <color name="primary_background">@*android:color/background_material_dark</color>
         <color name="design_snackbar_background_color">#4caf50</color>
         <!-- Toolbar / Statusbar -->
-            <!-- Search -->
-            <color name="theme_search_color_primary">@*android:color/background_material_dark</color>           <!-- search Toolbar Color -->
-            <color name="theme_search_color_primary_dark">@*android:color/background_material_dark</color>      <!-- Search Statusbar Color -->
             <!-- Settings -->
             <color name="material_grey_600">@android:color/holo_red_light</color>                               <!-- Settings Statusbar & current resolution text color -->
             <color name="material_grey_300">@android:color/holo_red_light</color>                               <!-- Settings Toolbar -->
@@ -57,6 +43,9 @@
         <color name="yt_background_2_light">@*android:color/background_material_dark</color>
         <color name="yt_background_3_light">@*android:color/background_dark</color>
         <color name="yt_background_4_light">@*android:color/background_dark</color>
+        <!-- NavigationBar -->
+        <color name="navigationbar_background_light">@android:color/holo_red_light</color>
+        <color name="navigationbar_divider_light">@*android:color/background_material_dark</color>
 
     <!-- Divider -->
     <color name="comment_divider_color">#00000000</color>
@@ -69,9 +58,6 @@
         <!-- Main -->
         <color name="text_color_primary_default_light">#FFFFFF</color>                                  <!-- u.a. Share Dialog Title, Names -->
         <color name="text_color_secondary_default_light">#b3FFFFFF</color>
-        <color name="secondary_dark">#b3FFFFFF</color>                                                  <!-- Bottom Navigation Text -->
-        <!-- Search -->
-        <color name="theme_search_actionbar_text_color_primary">#FFFFFF</color>                         <!-- Searched Text Color -->
         <!-- Info Card -->
         <color name="info_card_youtube_black_light">#FFFFFF</color>                                     <!-- Info Card Header -->
         <color name="info_card_primary_dark">#FFFFFF</color>                                            <!-- Info Card Question -->
@@ -115,7 +101,6 @@
     <color name="background_material_light">@*android:color/background_material_dark</color>
     <color name="background_primary_dark">@*android:color/background_material_dark</color>
     <color name="background_secondary_dark">@*android:color/background_material_dark</color>
-    <color name="background_tertiary_dark">@*android:color/background_material_dark</color>
     <color name="background_tertiary_light">@*android:color/background_material_dark</color>
     <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
     <color name="conversation_background">@*android:color/background_material_dark</color>
@@ -129,7 +114,6 @@
     <color name="image_filter_list_item_label_background_color">@*android:color/button_material_dark</color>
     <color name="live_chat_light_overlay_background">@*android:color/background_material_dark</color>
     <color name="playlist_header_color_primary">@*android:color/background_material_dark</color>
-    <color name="dialog_background">@*android:color/background_material_dark</color>
     <color name="live_chat_header_text_color">#ffffffff</color>
     <color name="live_chat_background_color">@*android:color/background_material_dark</color>
     <color name="live_chat_action_panel_color">@*android:color/background_floating_material_dark</color>
@@ -145,7 +129,6 @@
     <color name="quantum_black_text">#ffffffff</color>
     <color name="primary_font">#ffffffff</color>
     <color name="secondary_font">#ffdddddd</color>
-    <color name="theme_native_actionbar_text_color_primary">#ffffffff</color>
     <color name="live_chat_button_primary_text_disabled_color">#66ffffff</color>
     <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_light">#4dffffff</color>

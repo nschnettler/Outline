@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.YouTube.Home" parent="@*com.google.android.youtube:style/Theme.YouTube.Light.NoActionBar">
-        <item name="@*com.google.android.youtube:loadingFrameErrorDrawable">@*com.google.android.youtube:drawable/quantum_ic_error_outline_black_36</item>
-        <item name="@*com.google.android.youtube:loadingFrameTextColor">@*com.google.android.youtube:color/grey</item>
-        <item name="android:actionBarSize">56.0dip</item>
-    </style>
-
-
     <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@*com.google.android.youtube:style/Platform.ThemeOverlay.AppCompat.Dark">
         <item name="android:colorForeground">@*android:color/white</item>
         <item name="android:colorBackground">@*android:color/background_dark</item>
@@ -29,18 +22,5 @@
         <item name="*com.google.android.youtube:colorButtonNormal">@*android:color/white</item>
         <item name="*com.google.android.youtube:colorSwitchThumbNormal">@*com.google.android.youtube:color/switch_thumb_material_dark</item>
         <item name="*com.google.android.youtube:colorBackgroundFloating">@*android:color/background_floating_material_dark</item>
-    </style>
-
-    <!-- Search Filter Spinner -->
-    <style name="SpinnerItem" parent="@*com.google.android.youtube:style/Widget.YouTube.TextView">
-        <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">12.0dip</item>
-        <item name="android:minHeight">48.0dip</item>
-        <item name="android:maxLines">1</item>
-    </style>
-    <style name="SpinnerItem.Dropdown" parent="@*com.google.android.youtube:style/SpinnerItem">
-        <item name="android:textColor">#FFFFFF</item>
     </style>
 </resources>

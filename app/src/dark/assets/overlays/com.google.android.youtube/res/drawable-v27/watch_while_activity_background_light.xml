@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@*com.google.android.youtube:color/navigationbar_divider_light" />
+        </shape>
+    </item>
+    <item android:bottom="@*com.google.android.youtube:dimen/navigationbar_divider_thickness">
+        <shape android:shape="rectangle">
+            <solid android:color="@*android:color/background_material_dark" />
+        </shape>
+    </item>
+</layer-list>
