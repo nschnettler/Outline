@@ -167,6 +167,10 @@
     <attr name="ytBackground2" format="reference|color" />
     <attr name="ytBackground3" format="reference|color" />
     <attr name="ytBackground4" format="reference|color" />
+    <attr name="ytBadgeBackground1" format="reference|color" />
+    <attr name="ytBadgeBackground2" format="reference|color" />
+    <attr name="ytBadgeText1" format="reference|color" />
+    <attr name="ytBadgeText2" format="reference|color" />
     <attr name="ytBrandRed" format="reference|color" />
     <attr name="ytInactiveGrey1" format="reference|color" />
     <attr name="ytInactiveGrey2" format="reference|color" />
@@ -176,6 +180,7 @@
     <attr name="ytSelectedNavIcon" format="reference|color" />
     <attr name="ytSelectedNavLabel" format="reference|color" />
     <attr name="ytStaticBlue" format="reference|color" />
+    <attr name="ytStaticDarkBackground1" format="reference|color" />
     <attr name="ytStaticGreen" format="reference|color" />
     <attr name="ytStaticGrey" format="reference|color" />
     <attr name="ytStaticWhite" format="reference|color" />
@@ -883,12 +888,15 @@
     <attr name="addingDrawable" format="reference" />
     <attr name="completeDrawable" format="reference" />
     <attr name="disabledDrawable" format="reference" />
-    <attr name="enableDarkMode" format="boolean" />
+    <attr name="globalTint" format="reference|color" />
+    <attr name="defaultTint" format="reference|color" />
     <attr name="layout_isInsetView" format="boolean" />
     <attr name="scrubberDrawable" format="reference" />
     <attr name="scrubberPadding" format="dimension" />
     <attr name="textMargin" format="dimension" />
     <attr name="timeTextColor" format="color" />
+    <attr name="scrubberMinSize" format="dimension" />
+    <attr name="scrubberMaxSize" format="dimension" />
     <attr name="seasonsViewId" format="reference" />
     <attr name="renderThumbnailAsSquare" format="boolean" />
     <attr name="labelTextSize" format="dimension" />
@@ -970,6 +978,7 @@
     </attr>
     <attr name="scopeUris" format="reference|string" />
     <attr name="use_artwork" format="boolean" />
+    <attr name="shutter_background_color" format="color" />
     <attr name="default_artwork" format="reference" />
     <attr name="use_controller" format="boolean" />
     <attr name="hide_on_touch" format="boolean" />
@@ -1054,6 +1063,7 @@
         <enum name="fill" value="0" />
         <enum name="center" value="1" />
     </attr>
+    <attr name="tabInlineLabel" format="boolean" />
     <attr name="tabMinWidth" format="dimension" />
     <attr name="tabMaxWidth" format="dimension" />
     <attr name="tabTextAppearance" format="reference" />
@@ -1073,6 +1083,8 @@
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
     </attr>
+    <attr name="tabRippleColor" format="color" />
+    <attr name="tabRippleAlpha" format="color" />
     <attr name="text_highlight_color" format="color" />
     <attr name="background_dark" format="color" />
     <attr name="tab_scroll_margin" format="dimension" />
@@ -1128,7 +1140,7 @@
     <attr name="boxExpandedPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
     <attr name="boxBackgroundColor" format="color" />
-    <attr name="boxStrokeWidth" format="color" />
+    <attr name="boxStrokeWidth" format="dimension" />
     <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
     <attr name="titleMargin" format="dimension" />
