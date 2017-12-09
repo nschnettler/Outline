@@ -226,6 +226,7 @@
     </attr>
     <attr name="behavior_hideable" format="boolean" />
     <attr name="behavior_skipCollapsed" format="boolean" />
+    <attr name="behavior_fitToContents" format="boolean" />
     <attr name="allowStacking" format="boolean" />
     <attr name="cardBackgroundColor" format="color" />
     <attr name="cardCornerRadius" format="dimension" />
@@ -238,17 +239,23 @@
     <attr name="contentPaddingRight" format="dimension" />
     <attr name="contentPaddingTop" format="dimension" />
     <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="summaryOn" format="string" />
+    <attr name="summaryOff" format="string" />
+    <attr name="disableDependentsState" format="boolean" />
     <attr name="chipBackgroundColor" format="color" />
     <attr name="chipMinHeight" format="dimension" />
     <attr name="chipCornerRadius" format="dimension" />
     <attr name="chipStrokeColor" format="color" />
     <attr name="chipStrokeWidth" format="dimension" />
     <attr name="chipText" format="string" />
+    <attr name="chipIconEnabled" format="boolean" />
     <attr name="chipIcon" format="reference" />
     <attr name="chipIconSize" format="dimension" />
+    <attr name="closeIconEnabled" format="boolean" />
     <attr name="closeIcon" format="reference" />
     <attr name="closeIconTint" format="color" />
     <attr name="closeIconSize" format="dimension" />
+    <attr name="checkedIconEnabled" format="boolean" />
     <attr name="checkedIcon" format="reference" />
     <attr name="chipStartPadding" format="dimension" />
     <attr name="iconStartPadding" format="dimension" />
@@ -384,6 +391,12 @@
         <flag name="top" value="0x00000030" />
         <flag name="all" value="0x00000077" />
     </attr>
+    <attr name="dialogTitle" format="string" />
+    <attr name="dialogMessage" format="string" />
+    <attr name="dialogIcon" format="reference" />
+    <attr name="positiveButtonText" format="string" />
+    <attr name="negativeButtonText" format="string" />
+    <attr name="dialogLayout" format="reference" />
     <attr name="dialpad_key_button_touch_tint" format="color" />
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
@@ -452,6 +465,8 @@
         <flag name="middle" value="0x00000002" />
     </attr>
     <attr name="dividerPadding" format="dimension" />
+    <attr name="entries" format="reference" />
+    <attr name="entryValues" format="reference" />
     <attr name="imageAspectRatioAdjust">
         <enum name="none" value="0" />
         <enum name="adjust_height" value="2" />
@@ -475,6 +490,7 @@
     <attr name="materialButtonStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
+    <attr name="chipStandaloneStyle" format="reference" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
@@ -522,6 +538,48 @@
     <attr name="headerLayout" format="reference" />
     <attr name="overlapAnchor" format="boolean" />
     <attr name="state_above_anchor" format="boolean" />
+    <attr name="key" format="string" />
+    <attr name="summary" format="string" />
+    <attr name="order" format="integer" />
+    <attr name="fragment" format="string" />
+    <attr name="widgetLayout" format="reference" />
+    <attr name="enabled" format="boolean" />
+    <attr name="selectable" format="boolean" />
+    <attr name="dependency" format="string" />
+    <attr name="persistent" format="boolean" />
+    <attr name="defaultValue" format="reference|string|integer|boolean|float" />
+    <attr name="shouldDisableView" format="boolean" />
+    <attr name="allowDividerAbove" format="boolean" />
+    <attr name="allowDividerBelow" format="boolean" />
+    <attr name="singleLineTitle" format="boolean" />
+    <attr name="iconSpaceReserved" format="boolean" />
+    <attr name="allowDividerAfterLastItem" format="boolean" />
+    <attr name="orderingFromXml" format="boolean" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="preferenceTheme" format="reference" />
+    <attr name="preferenceScreenStyle" format="reference" />
+    <attr name="preferenceActivityStyle" format="reference" />
+    <attr name="preferenceFragmentStyle" format="reference" />
+    <attr name="preferenceFragmentCompatStyle" format="reference" />
+    <attr name="preferenceCategoryStyle" format="reference" />
+    <attr name="preferenceStyle" format="reference" />
+    <attr name="preferenceInformationStyle" format="reference" />
+    <attr name="checkBoxPreferenceStyle" format="reference" />
+    <attr name="yesNoPreferenceStyle" format="reference" />
+    <attr name="dialogPreferenceStyle" format="reference" />
+    <attr name="editTextPreferenceStyle" format="reference" />
+    <attr name="ringtonePreferenceStyle" format="reference" />
+    <attr name="dropdownPreferenceStyle" format="reference" />
+    <attr name="preferenceLayoutChild" format="reference" />
+    <attr name="preferencePanelStyle" format="reference" />
+    <attr name="preferenceHeaderPanelStyle" format="reference" />
+    <attr name="preferenceListStyle" format="reference" />
+    <attr name="preferenceFragmentListStyle" format="reference" />
+    <attr name="preferenceFragmentPaddingSide" format="dimension" />
+    <attr name="switchPreferenceStyle" format="reference" />
+    <attr name="switchPreferenceCompatStyle" format="reference" />
+    <attr name="seekBarPreferenceStyle" format="reference" />
     <attr name="direction" format="string" />
     <attr name="ratio" format="float" />
     <attr name="paddingBottomNoButtons" format="dimension" />
@@ -550,6 +608,10 @@
     <attr name="suggestionRowLayout" format="reference" />
     <attr name="queryBackground" format="reference" />
     <attr name="submitBackground" format="reference" />
+    <attr name="min" format="integer" />
+    <attr name="seekBarIncrement" format="integer" />
+    <attr name="adjustable" format="boolean" />
+    <attr name="showSeekBarValue" format="boolean" />
     <attr name="buttonSize" format="reference">
         <enum name="icon_only" value="2" />
         <enum name="standard" value="0" />
@@ -587,6 +649,8 @@
     <attr name="switchPadding" format="dimension" />
     <attr name="splitTrack" format="boolean" />
     <attr name="showText" format="boolean" />
+    <attr name="switchTextOn" format="string" />
+    <attr name="switchTextOff" format="string" />
     <attr name="tabIndicatorColor" format="color" />
     <attr name="tabIndicatorHeight" format="dimension" />
     <attr name="tabContentStart" format="dimension" />
@@ -599,6 +663,7 @@
         <enum name="center" value="1" />
         <enum name="fill" value="0" />
     </attr>
+    <attr name="tabInlineLabel" format="boolean" />
     <attr name="tabMinWidth" format="dimension" />
     <attr name="tabMaxWidth" format="dimension" />
     <attr name="tabTextAppearance" format="reference" />
@@ -609,9 +674,21 @@
     <attr name="tabPaddingEnd" format="dimension" />
     <attr name="tabPaddingBottom" format="dimension" />
     <attr name="tabPadding" format="dimension" />
+    <attr name="tabIconTint" format="color" />
+    <attr name="tabIconTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="tabRippleColor" format="color" />
+    <attr name="tabRippleAlpha" format="color" />
     <attr name="hintEnabled" format="boolean" />
     <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="hintTextAppearance" format="reference" />
+    <attr name="helperText" format="string" />
     <attr name="helperTextEnabled" format="boolean" />
     <attr name="helperTextTextAppearance" format="reference" />
     <attr name="errorEnabled" format="boolean" />
@@ -637,11 +714,18 @@
         <enum name="outline" value="2" />
     </attr>
     <attr name="boxPaddingLeft" format="dimension" />
-    <attr name="boxPaddingTop" format="dimension" />
+    <attr name="boxCollapsedPaddingTop" format="dimension" />
+    <attr name="boxExpandedPaddingTop" format="dimension" />
     <attr name="boxPaddingRight" format="dimension" />
-    <attr name="boxPaddingBottom" format="dimension" />
+    <attr name="boxCollapsedPaddingBottom" format="dimension" />
+    <attr name="boxCornerRadiusTopLeft" format="dimension" />
+    <attr name="boxCornerRadiusTopRight" format="dimension" />
+    <attr name="boxCornerRadiusBottomLeft" format="dimension" />
+    <attr name="boxCornerRadiusBottomRight" format="dimension" />
+    <attr name="boxExpandedPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
-    <attr name="boxStrokeWidth" format="color" />
+    <attr name="boxBackgroundColor" format="color" />
+    <attr name="boxStrokeWidth" format="dimension" />
     <attr name="dialpad_text_color" format="color" />
     <attr name="dialpad_text_color_primary" format="color" />
     <attr name="dialpad_text_color_secondary" format="color" />
