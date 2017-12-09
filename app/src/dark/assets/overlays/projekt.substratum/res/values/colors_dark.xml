@@ -68,6 +68,7 @@
         <color name="restore_button_text_color">#ffffff</color>
         <!-- Overflow -->
         <color name="primary_text_default_material_light">#ffffffff</color>                         <!-- Text Color -->
+        <color name="bottombar_icon_text_selected">#ffffffff</color>
 
 
     <!-- Divider -->
