@@ -28,7 +28,10 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
-                <include layout="@*com.google.android.contacts:layout/quickcontact_header" />
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    layout="@*com.google.android.contacts:layout/quickcontact_header" />
             </android.support.design.widget.CollapsingToolbarLayout>
         </com.google.android.apps.contacts.quickcontact.QuickContactAppBarLayout>
 
@@ -39,9 +42,18 @@
             android:layout_height="fill_parent"
             android:layout_weight="4.0">
 
-            <include layout="@*com.google.android.contacts:layout/quickcontact_content" />
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@*com.google.android.contacts:layout/quickcontact_content" />
         </android.support.v4.widget.NestedScrollView>
     </LinearLayout>
 
-    <include layout="@*com.google.android.contacts:layout/quick_contact_floating_action_button" />
+    <include
+        android:layout_gravity="end|bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@*com.google.android.contacts:dimen/floating_action_button_margin_bottom"
+        android:layout_marginEnd="@*com.google.android.contacts:dimen/floating_action_button_margin_right"
+        layout="@*com.google.android.contacts:layout/quick_contact_floating_action_button" />
 </android.support.design.widget.CoordinatorLayout>
