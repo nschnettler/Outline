@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New Mail Screen -->
+        <!-- Main Background 1 (Flashing through at beginning) -->
+        <style name="ComposeTheme" parent="@*com.google.android.gm:style/ColoredNavBarGeneralTheme">
+            <item name="android:colorBackground">@*android:color/background_material_dark</item>
+            <item name="android:windowBackground">@*android:color/background_material_dark</item>
+            <item name="android:dropDownListViewStyle">@*com.google.android.gm:style/ComposeDropdownListViewStyle</item>
+            <item name="android:colorBackgroundCacheHint">@*android:color/background_dark</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="*com.google.android.gm:popupMenuStyle">@*com.google.android.gm:style/PopupMenu</item>
+        </style>
+</resources>

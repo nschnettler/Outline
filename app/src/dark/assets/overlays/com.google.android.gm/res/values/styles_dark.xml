@@ -8,4 +8,26 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:animateLayoutChanges">true</item>
     </style>
+
+    <!-- Mail Content -->
+    <style name="ComposeFieldLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#757575</item>
+    </style>
+
+    <!-- Mail Informations -->
+    <style name="RecipientComposeFieldLayout" parent="@*com.google.android.gm:style/ComposeFieldLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
+    </style>
 </resources>
