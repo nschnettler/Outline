@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <android.support.v4.widget.DrawerLayout
+    <com.google.android.apps.photos.home.AtMostDrawerLayout
         android:id="@*com.google.android.apps.photos:id/drawer_layout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
@@ -20,7 +20,7 @@
             android:id="@*com.google.android.apps.photos:id/drawer_container"
             android:layout_width="@*com.google.android.apps.photos:dimen/drawer_width"
             android:layout_height="fill_parent" />
-    </android.support.v4.widget.DrawerLayout>
+    </com.google.android.apps.photos.home.AtMostDrawerLayout>
 
     <FrameLayout
         android:id="@*com.google.android.apps.photos:id/photo_container"

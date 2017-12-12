@@ -5,17 +5,15 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageView
+    <View
+        android:background="@*com.google.android.apps.photos:drawable/photos_theme_fake_shadow_top_edge"
         android:layout_width="fill_parent"
-        android:layout_height="@*com.google.android.apps.photos:dimen/toolbar_shadow_size"
-        android:src="@*com.google.android.apps.photos:drawable/photos_theme_fake_shadow_top_edge"
-        android:scaleType="fitXY"
-        android:contentDescription="@null" />
+        android:layout_height="@*com.google.android.apps.photos:dimen/toolbar_shadow_size" />
 
     <LinearLayout
         android:gravity="center_horizontal"
         android:orientation="horizontal"
-        android:background="@*com.google.android.apps.photos:color/default_bg"
+        android:background="@*com.google.android.apps.photos:color/quantum_white_100"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
@@ -30,7 +28,6 @@
             android:id="@*com.google.android.apps.photos:id/tab_photos"
             android:layout_width="@*com.google.android.apps.photos:dimen/photos_tabbar_button_width"
             android:text="@*com.google.android.apps.photos:string/photos_tabbar_photos_label"
-            android:drawableTop="@*com.google.android.apps.photos:drawable/photos_drawable"
             android:layout_weight="@*com.google.android.apps.photos:integer/photos_tabbar_button_weight"
             style="@*com.google.android.apps.photos:style/TabButton" />
 
@@ -38,7 +35,6 @@
             android:id="@*com.google.android.apps.photos:id/tab_albums"
             android:layout_width="@*com.google.android.apps.photos:dimen/photos_tabbar_button_width"
             android:text="@*com.google.android.apps.photos:string/photos_tabbar_albums_label"
-            android:drawableTop="@*com.google.android.apps.photos:drawable/albums_drawable"
             android:layout_weight="@*com.google.android.apps.photos:integer/photos_tabbar_button_weight"
             style="@*com.google.android.apps.photos:style/TabButton" />
 
