@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr name="behavior_peekHeight" format="dimension">
-        <enum name="auto" value="-1" />
-    </attr>
-    <attr name="behavior_hideable" format="boolean" />
-    <attr name="behavior_skipCollapsed" format="boolean" />
-</resources>
