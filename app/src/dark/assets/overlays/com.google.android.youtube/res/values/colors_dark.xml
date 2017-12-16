@@ -2,6 +2,7 @@
 <resources>
     <!-- Icons -->
     <color name="info_card_video_item_light_font">#FFFFFF</color>                                               <!-- Custom -->
+    <color name="yt_static_grey">#FFFFFF</color>
 
     <color name="white_header_controls_color">#ffdddddd</color>
     <color name="white_header_text_color">#ffffffff</color>
@@ -91,6 +92,7 @@
         <color name="yt_text_2_light">#b3FFFFFF</color>
         <color name="yt_text_3_light">#b3FFFFFF</color>
         <color name="pivot_bar_content_tab_dark">#b3FFFFFF</color>
+        <color name="toolbar_text_color">#FFFFFF</color>
 
 
     <!-- Other -->
