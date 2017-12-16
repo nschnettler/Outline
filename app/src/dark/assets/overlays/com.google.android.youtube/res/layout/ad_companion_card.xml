@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@*com.google.android.youtube:id/ad_companion_card_container"
+    android:background="@*com.google.android.youtube:color/companion_background_color_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/res-auto"
+    _xmlns:tools="http://schemas.android.com/tools"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@*com.google.android.youtube:id/ad_companion_card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@*com.google.android.youtube:id/thumbnail"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:layout_alignParentStart="true" />
+
+        <include
+            android:id="@*com.google.android.youtube:id/contextual_menu_anchor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            layout="@*com.google.android.youtube:layout/companion_contextual_menu" />
+
+        <include
+            android:id="@*com.google.android.youtube:id/action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8.0dip"
+            android:layout_toLeftOf="@*com.google.android.youtube:id/contextual_menu_anchor"
+            android:layout_centerVertical="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_toStartOf="@*com.google.android.youtube:id/contextual_menu_anchor"
+            layout="@*com.google.android.youtube:layout/companion_cta_button" />
+
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/medium_font_size"
+            android:textColor="#FFFFFF"
+            android:ellipsize="end"
+            android:id="@*com.google.android.youtube:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="16.0dip"
+            android:maxLines="1"
+            android:layout_toLeftOf="@*com.google.android.youtube:id/action_button"
+            android:layout_toRightOf="@*com.google.android.youtube:id/thumbnail"
+            android:layout_marginEnd="16.0dip"
+            android:layout_toStartOf="@*com.google.android.youtube:id/action_button"
+            android:layout_toEndOf="@*com.google.android.youtube:id/thumbnail"
+            res-auto:robotoFont="regular"
+            xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
+
+        <include
+            android:id="@*com.google.android.youtube:id/ad_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_toRightOf="@*com.google.android.youtube:id/thumbnail"
+            android:layout_below="@*com.google.android.youtube:id/title"
+            android:layout_alignTop="@*com.google.android.youtube:id/description"
+            android:layout_marginEnd="8.0dip"
+            android:layout_toEndOf="@*com.google.android.youtube:id/thumbnail"
+            layout="@*com.google.android.youtube:layout/standalone_ad_badge_small" />
+
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/small_font_size"
+            android:textColor="#b3FFFFFF"
+            android:ellipsize="end"
+            android:id="@*com.google.android.youtube:id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:maxLines="1"
+            android:layout_toLeftOf="@*com.google.android.youtube:id/action_button"
+            android:layout_toRightOf="@*com.google.android.youtube:id/ad_badge"
+            android:layout_below="@*com.google.android.youtube:id/title"
+            android:layout_marginEnd="16.0dip"
+            android:layout_toStartOf="@*com.google.android.youtube:id/action_button"
+            android:layout_toEndOf="@*com.google.android.youtube:id/ad_badge"
+            res-auto:robotoFont="regular"
+            xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@*com.google.android.youtube:id/companion_extension_stub"
+        android:layout="@*com.google.android.youtube:layout/companion_extension"
+        android:inflatedId="@*com.google.android.youtube:id/companion_extension"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@*com.google.android.youtube:id/separator"
+        android:background="@android:color/background_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+</LinearLayout>
