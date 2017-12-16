@@ -233,6 +233,7 @@
     </attr>
     <attr name="behavior_hideable" format="boolean" />
     <attr name="behavior_skipCollapsed" format="boolean" />
+    <attr name="behavior_fitToContents" format="boolean" />
     <attr name="allowStacking" format="boolean" />
     <attr name="textSizeMaxDp" format="dimension" />
     <attr name="cardBackgroundColor" format="color" />
@@ -255,11 +256,14 @@
     <attr name="chipStrokeColor" format="color" />
     <attr name="chipStrokeWidth" format="dimension" />
     <attr name="chipText" format="string" />
+    <attr name="chipIconEnabled" format="boolean" />
     <attr name="chipIcon" format="reference" />
     <attr name="chipIconSize" format="dimension" />
+    <attr name="closeIconEnabled" format="boolean" />
     <attr name="closeIcon" format="reference" />
     <attr name="closeIconTint" format="color" />
     <attr name="closeIconSize" format="dimension" />
+    <attr name="checkedIconEnabled" format="boolean" />
     <attr name="checkedIcon" format="reference" />
     <attr name="chipStartPadding" format="dimension" />
     <attr name="iconStartPadding" format="dimension" />
@@ -494,8 +498,6 @@
     <attr name="userInputSection" format="string" />
     <attr name="userInputValue" format="string" />
     <attr name="toAddressesSection" format="string" />
-    <attr name="segment_label" format="string" />
-    <attr name="expandable_line_max" format="integer" />
     <attr name="measureWithLargestChild" format="boolean" />
     <attr name="showDividers">
         <flag name="none" value="0x00000000" />
@@ -525,6 +527,7 @@
     <attr name="materialButtonStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
+    <attr name="chipStandaloneStyle" format="reference" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
@@ -732,6 +735,7 @@
         <enum name="center" value="1" />
         <enum name="fill" value="0" />
     </attr>
+    <attr name="tabInlineLabel" format="boolean" />
     <attr name="tabMinWidth" format="dimension" />
     <attr name="tabMaxWidth" format="dimension" />
     <attr name="tabTextAppearance" format="reference" />
@@ -742,9 +746,21 @@
     <attr name="tabPaddingEnd" format="dimension" />
     <attr name="tabPaddingBottom" format="dimension" />
     <attr name="tabPadding" format="dimension" />
+    <attr name="tabIconTint" format="color" />
+    <attr name="tabIconTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="tabRippleColor" format="color" />
+    <attr name="tabRippleAlpha" format="color" />
     <attr name="hintEnabled" format="boolean" />
     <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="hintTextAppearance" format="reference" />
+    <attr name="helperText" format="string" />
     <attr name="helperTextEnabled" format="boolean" />
     <attr name="helperTextTextAppearance" format="reference" />
     <attr name="errorEnabled" format="boolean" />
@@ -774,10 +790,14 @@
     <attr name="boxExpandedPaddingTop" format="dimension" />
     <attr name="boxPaddingRight" format="dimension" />
     <attr name="boxCollapsedPaddingBottom" format="dimension" />
+    <attr name="boxCornerRadiusTopLeft" format="dimension" />
+    <attr name="boxCornerRadiusTopRight" format="dimension" />
+    <attr name="boxCornerRadiusBottomLeft" format="dimension" />
+    <attr name="boxCornerRadiusBottomRight" format="dimension" />
     <attr name="boxExpandedPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
     <attr name="boxBackgroundColor" format="color" />
-    <attr name="boxStrokeWidth" format="color" />
+    <attr name="boxStrokeWidth" format="dimension" />
     <attr name="tile_icon" format="reference" />
     <attr name="tile_content_layout" format="reference" />
     <attr name="tile_treat_as_button" format="boolean" />
