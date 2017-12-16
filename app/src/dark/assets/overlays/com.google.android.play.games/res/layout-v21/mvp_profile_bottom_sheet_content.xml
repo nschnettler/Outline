@@ -50,7 +50,10 @@
 
                     <FrameLayout
                         android:id="@*com.google.android.play.games:id/edit_avatar_image_container"
+                        android:background="?android:selectableItemBackground"
                         android:paddingBottom="8.0dip"
+                        android:focusable="true"
+                        android:clickable="true"
                         android:clipToPadding="false"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
