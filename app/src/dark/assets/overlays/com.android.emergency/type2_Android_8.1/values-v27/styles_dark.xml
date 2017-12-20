@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="AppTheme" parent="@*android:style/Theme.DeviceDefault.Settings">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+        <item name="*com.android.emergency:preferenceTheme">@*com.android.emergency:style/PreferenceTheme</item>
+        <item name="*com.android.emergency:colorPrimaryDark">@*com.android.emergency:color/primary_dark_color</item>
+        <item name="*com.android.emergency:tabIndicatorColor">@*com.android.emergency:color/accent_color_dark</item>
+        <item name="*com.android.emergency:textColorActionBar">?android:textColorPrimary</item>
+    </style>
+
+    <style name="AppThemeEmergency" parent="@*com.android.emergency:style/Theme.AppCompat.NoActionBar">
+        <item name="android:preferenceCategoryStyle">@*com.android.emergency:style/AppTheme.PreferenceCategoryStyle</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+        <item name="*com.android.emergency:preferenceTheme">@*com.android.emergency:style/PreferenceTheme</item>
+        <item name="*com.android.emergency:colorAccent">@*com.android.emergency:color/emergency_accent</item>
+        <item name="*com.android.emergency:colorPrimary">@*com.android.emergency:color/emergency_primary</item>
+        <item name="*com.android.emergency:colorPrimaryDark">@*com.android.emergency:color/emergency_primary_dark</item>
+        <item name="*com.android.emergency:tabIndicatorColor">@*com.android.emergency:color/emergency_accent</item>
+        <item name="*com.android.emergency:textColorActionBar">@*com.android.emergency:color/tab_text_color</item>
+    </style>
+</resources>
