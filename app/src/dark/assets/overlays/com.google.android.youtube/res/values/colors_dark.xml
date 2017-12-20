@@ -49,9 +49,9 @@
         <color name="navigationbar_divider_light">@*android:color/background_material_dark</color>
 
     <!-- Divider -->
-    <color name="comment_divider_color">#00000000</color>
-    <color name="line_separator">#00000000</color>
-    <color name="line_separator_color">#00000000</color>
+    <color name="comment_divider_color">@*android:color/background_dark</color>
+    <color name="line_separator">@*android:color/background_dark</color>
+    <color name="line_separator_color">@*android:color/background_dark</color>
     <color name="quantum_grey300">@*android:color/background_dark</color><!--Search Filter Dialog -->
 
 
