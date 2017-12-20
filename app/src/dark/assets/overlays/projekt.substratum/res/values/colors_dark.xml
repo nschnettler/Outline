@@ -69,6 +69,8 @@
         <!-- Overflow -->
         <color name="primary_text_default_material_light">#ffffffff</color>                         <!-- Text Color -->
         <color name="bottombar_icon_text_selected">#ffffffff</color>
+        <!-- Showcase - Tabs -->
+        <color name="showcase_activity_text">#FFFFFF</color>
 
 
     <!-- Divider -->
