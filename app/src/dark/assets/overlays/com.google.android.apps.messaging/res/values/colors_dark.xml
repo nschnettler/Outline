@@ -18,6 +18,7 @@
     <!-- Divider -->
     <color name="conversation_settings_list_divider">@*android:color/background_dark</color>
     <color name="sticker_set_overview_divider">@*android:color/background_dark</color>
+    <color name="c2o_grid_top_border">@*android:color/background_dark</color>
 
 
     <!-- Text -->

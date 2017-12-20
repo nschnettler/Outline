@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@*com.google.android.apps.messaging:dimen/sticker_set_overview_text_view_margin"
                 android:text="@*com.google.android.apps.messaging:string/sticker_set_overview_download_tagline"
-                android:maxLines="2"
+                android:maxLines="3"
                 style="@*com.google.android.apps.messaging:style/StickerSetListItemViewStickerCreatorTextStyle" />
 
             <TextView
@@ -79,7 +79,7 @@
             <TextView
                 android:id="@*com.google.android.apps.messaging:id/download"
                 android:visibility="gone"
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="@*com.google.android.apps.messaging:dimen/sticker_download_textview_height"
                 android:layout_marginTop="@*com.google.android.apps.messaging:dimen/sticker_set_overview_text_view_margin"
                 android:text="@*com.google.android.apps.messaging:string/sticker_set_download"
