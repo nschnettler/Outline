@@ -6,6 +6,5 @@
         <item name="android:textColorSecondaryInverse">#b3FFFFFF</item>
         <item name="android:textColorPrimaryInverse">#FFFFFF</item>
         <item name="android:textColorTertiaryInverse">#FFFFFF</item>
-        <item name="android:windowLightNavigationBar">false</item>
     </style>
 </resources>
