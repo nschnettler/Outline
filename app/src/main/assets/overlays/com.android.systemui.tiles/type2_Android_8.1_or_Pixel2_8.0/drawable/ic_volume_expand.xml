@@ -6,7 +6,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
         android:name="left"
-        android:strokeColor="#ffffffff"
+        android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="0.8"
         android:pathData="M 18.4 7.9 L 12.4 15.8 C 12.2 16.1 11.9 16.1 11.7 15.8 L 5.7 7.9" />
     <path android:name="right"/>
