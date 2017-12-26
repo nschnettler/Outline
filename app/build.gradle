@@ -46,6 +46,7 @@ android {
         flavorDimensions "theme"
         productFlavors {
             dark{
+                minSdkVersion 27
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
                 ndk {
