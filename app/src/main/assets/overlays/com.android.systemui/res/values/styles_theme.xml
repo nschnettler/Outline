@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- QuickSettings - Power Menu -->
+    <style name="qs_base" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
+        <item name="android:colorBackgroundFloating">#FAFAFA</item>                                 <!-- QuickSettings, Volume Background -->
+    </style>
+</resources>
