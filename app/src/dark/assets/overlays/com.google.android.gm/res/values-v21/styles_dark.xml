@@ -17,4 +17,11 @@
         <item name="*com.google.android.gm:alertDialogTheme">@*com.google.android.gm:style/AlertDialogTheme</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">@*android:color/notification_primary_text_color_light</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">@*android:color/notification_secondary_text_color_light</item>
+    </style>
 </resources>
