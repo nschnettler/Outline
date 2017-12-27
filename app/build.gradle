@@ -25,7 +25,7 @@ android {
     buildToolsVersion '27.0.1'
 
     defaultConfig {
-        minSdkVersion 26
+        minSdkVersion 27
         targetSdkVersion 27
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" +
@@ -46,7 +46,6 @@ android {
         flavorDimensions "theme"
         productFlavors {
             dark{
-                minSdkVersion 27
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
                 ndk {
