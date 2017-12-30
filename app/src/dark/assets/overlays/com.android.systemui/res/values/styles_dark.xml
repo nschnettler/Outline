@@ -25,4 +25,8 @@
     <style name="TextAppearance.NotificationInfo.Secondary.Warning" parent="@style/TextAppearance.NotificationInfo.Secondary">
         <item name="android:textColor">@*android:color/accent_material_dark</item>
     </style>
+
+    <!-- Dialogs -->
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />  <!-- ABD Confirmation Dialog, ... -->
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
 </resources>
