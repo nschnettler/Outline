@@ -68,4 +68,7 @@
         <item name="android:statusBarColor">#00000000</item>
         <item name="android:navigationBarColor">@*android:color/background_floating_material_dark</item>
     </style>
+
+    <!-- QuickSettings controlled in SystemUI Overlay, but needed for Brightness Dialog and SIM unlocked Dialog -->
+    <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:Theme.DeviceDefault"/>
 </resources>
