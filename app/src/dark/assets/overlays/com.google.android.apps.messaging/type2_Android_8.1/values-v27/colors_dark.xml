@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="light_navigation_bar_color">@*android:color/background_material_dark</color>
-    <color name="light_navigation_bar_divider_color">@*android:color/background_dark</color>
-</resources>
