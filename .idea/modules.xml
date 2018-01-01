@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Outline_Nougat.iml" filepath="$PROJECT_DIR$/Outline_Nougat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OutlineNDK.iml" filepath="$PROJECT_DIR$/OutlineNDK.iml" />
+      <module fileurl="file://D:\Benutzer\Shadow\OutlineNDK\Outline_Nougat.iml" filepath="D:\Benutzer\Shadow\OutlineNDK\Outline_Nougat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
