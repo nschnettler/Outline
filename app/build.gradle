@@ -4,14 +4,14 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
     }
-    compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.1'
     defaultConfig {
         targetSdkVersion 25
         minSdkVersion 25
         maxSdkVersion 25
-        versionCode 2571
-        versionName "Nougat - Final (9.6)"
+        versionCode 2572
+        versionName "Nougat - 12"
         applicationId "com.schnettler.outline"
     }
     buildTypes {
