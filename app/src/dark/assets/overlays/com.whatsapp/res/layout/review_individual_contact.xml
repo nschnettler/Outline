@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@*com.whatsapp:id/contact_display_layout"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.whatsapp.ThumbnailButton
+                android:gravity="center|left"
+                android:layout_gravity="center|left"
+                android:id="@*com.whatsapp:id/image"
+                android:background="@*com.whatsapp:color/conversation_background"
+                android:layout_width="@*com.whatsapp:dimen/small_avatar_size"
+                android:layout_height="@*com.whatsapp:dimen/small_avatar_size"
+                android:layout_margin="16.0dip"
+                android:scaleType="fitCenter"
+                whatsapp:tbtnRadius="-1.0dip"
+                whatsapp:tbtnForegroundOnly="false" />
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+
+                <com.whatsapp.TextEmojiLabel
+                    android:textSize="20.0sp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center|left"
+                    android:id="@*com.whatsapp:id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@*com.whatsapp:style/ListItemTitle" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center|left"
+                    android:id="@*com.whatsapp:id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@*com.whatsapp:style/ListItemSubtitle" />
+            </LinearLayout>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@*com.whatsapp:id/add_contact_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="32.0dip"
+                android:layout_marginRight="16.0dip"
+                android:minWidth="68.0dip"
+                android:text="@*com.whatsapp:string/add_contact_short"
+                style="@*com.whatsapp:style/WhatsAppButton.Green" />
+        </LinearLayout>
+
+        <View
+            android:background="@*com.whatsapp:color/divider_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</FrameLayout>
