@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:strokeColor="?onePlusActionbarIconColor"
+        android:strokeWidth="0.8"
+        android:pathData="M5.3,3.4c-1,0-1.9,0.8-1.9,1.9 M3.4,11.1V13 M7.2,20.6h1.9 M3.4,7.2v1.9 M12.9,3.4H11 M20.6,5.3
+	c0-1-0.9-1.9-1.9-1.9 M3.4,18.7c0,1,0.8,1.9,1.9,1.9 M3.4,14.8v1.9 M9.2,3.4H7.2 M11.1,20.6H13 M20.6,12.9V11 M18.7,20.6
+	c1,0,1.9-0.9,1.9-1.9 M20.6,9.2V7.2 M20.6,16.8v-1.9 M14.8,20.6h1.9 M16.8,3.4h-1.9 M9.4,15.5h5.3c0.5,0,0.9-0.4,0.9-0.9V9.4
+	c0-0.5-0.4-0.9-0.9-0.9H9.4c-0.5,0-0.9,0.4-0.9,0.9v5.3C8.5,15.1,8.9,15.5,9.4,15.5z"/>
+</vector>
