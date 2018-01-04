@@ -13,4 +13,5 @@
     <!-- Settings -->
     <color name="primary_device_default_settings_light">#FAFAFA</color>
     <color name="primary_dark_device_default_settings_light">#FAFAFA</color>
+    <color name="primary_dark_material_light_light_status_bar">#FAFAFA</color>
 </resources>
