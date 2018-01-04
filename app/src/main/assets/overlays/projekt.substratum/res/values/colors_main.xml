@@ -2,6 +2,7 @@
 <resources>
     <!-- Accent -->
     <color name="colorAccent">@android:color/holo_blue_dark</color>
+    <color name="bottombar_icon_text_selected">@android:color/holo_blue_dark</color>
 
     <!-- Logcat Error -->
     <color name="logcat_dialog_text">@android:color/holo_red_light</color>
