@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseDialogTheme" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="android:colorAccent">@*com.google.android.apps.docs:color/m_app_accent</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="@android:style/Theme.Material">
+        <item name="android:buttonStyle">@*com.google.android.apps.docs:style/BaseButton</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorPrimary">@*com.google.android.apps.docs:color/m_app_primary</item>
+        <item name="android:colorPrimaryDark">@*com.google.android.apps.docs:color/m_app_secondary</item>
+        <item name="android:colorAccent">@*com.google.android.apps.docs:color/m_app_accent</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="m_app_primary">@*android:color/primary_material_dark</color>
+    <color name="m_app_secondary">@*android:color/primary_material_dark</color>
+    <color name="quantum_grey400">@*android:color/primary_material_dark</color>
+    <color name="m_search_bar_background">@*android:color/primary_material_dark</color>
+
+    <!-- Icons -->
+    <color name="quantum_grey600">#FFFFFF</color>                                                   <!-- Drawer -->
+    <color name="m_icon_secondary_tint">#FFFFFF</color>                                             <!-- Floating Bar -->
+    <color name="m_icon_primary_inverse_tint">#FFFFFF</color>                                       <!-- Toolbar -->
+
+    <!-- Divider -->
+    <color name="default_list_divider">@*android:color/background_dark</color>
+    <color name="material_grey_300">@*android:color/background_dark</color>
+    <color name="quantum_grey300">@*android:color/background_dark</color>
+    <color name="m_material_grey_400">@*android:color/background_dark</color>
+    <color name="m_app_secondary_background">@*android:color/background_dark</color>
+
+    <!-- Background -->
+    <color name="m_doclist_background">@*android:color/background_material_dark</color>             <!-- Main -->
+    <color name="m_app_background">@*android:color/background_material_dark</color>                 <!-- Drawer (right side) -->
+    <color name="navigation_item_selected">@android:color/background_dark</color>                  <!-- Drawer Selected -->
+    <color name="m_entry">@*android:color/background_material_dark</color>                          <!-- List Entry -->
+    <color name="doc_grid_entry_title_background">@*android:color/background_material_dark</color>  <!-- Grid Entry -->
+    <color name="quantum_white_100">@*android:color/background_material_dark</color>
+    <color name="quantum_grey200">@*android:color/background_dark</color>
+    <color name="refined_reason_background">@*android:color/background_material_dark</color>        <!-- QuickAccess -->
+    <color name="m_app_alert_fullscreen">@*android:color/background_material_dark</color>
+    <color name="m_material_grey_200">@*android:color/background_material_dark</color>
+    <color name="m_material_grey_100">@*android:color/background_material_dark</color>
+    <color name="m_material_snackbar_bg">@*android:color/background_material_dark</color>
+
+
+    <!-- Text -->
+    <color name="m_app_secondary_text">#b3FFFFFF</color>                                            <!-- Headers -->
+    <color name="m_app_primary_text">#FFFFFF</color>
+    <color name="quantum_grey900">#FFFFFF</color>                                                   <!-- Drawer -->
+    <color name="quantum_black_text">#FFFFFF</color>                                                <!-- Bottomsheet -->
+    <color name="quantum_black_secondary_text">#b3FFFFFF</color>                                    <!-- Bottomsheet 2 -->
+    <color name="manage_accounts_text_color">#FFFFFF</color>
+    <color name="default_account_details_color">#FFFFFF</color>
+    <color name="m_black_87_percent">#FFFFFF</color>                                                <!-- Backup Name -->
+    <color name="material_grey_600">#b3FFFFFF</color>                                               <!-- Backup Description -->
+    <color name="m_hint_text">#b3FFFFFF</color>                                                     <!-- Search Hint -->
+    <color name="refined_reason">#b3FFFFFF</color>                                                  <!-- QuickAccess - Reason -->
+    <color name="material_title">#FFFFFF</color>                                                    <!-- QuickAccess - Name -->
+    <color name="quantum_black_100">#FFFFFF</color>
+    <color name="billing_secondary_text">#b3FFFFFF</color>
+</resources>
