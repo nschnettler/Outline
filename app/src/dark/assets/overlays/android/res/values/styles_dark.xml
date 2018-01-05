@@ -9,6 +9,13 @@
     <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.DeviceDefault.Settings">
         <item name="android:alertDialogTheme">@*android:style/Theme.DeviceDefault.Dialog.Alert</item>
     </style>
+    <!-- Theme for the dialog shown when an app crashes or ANRs. -->
+    <style name="Theme.Dialog.AppError" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
 
 
     <!-- Settings -->
