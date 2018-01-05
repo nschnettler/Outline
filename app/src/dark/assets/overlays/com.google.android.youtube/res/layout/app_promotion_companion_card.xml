@@ -82,12 +82,11 @@
 
         <LinearLayout
             android:orientation="horizontal"
+            android:id="@*com.google.android.youtube:id/rating_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@*com.google.android.youtube:id/action_button"
             android:layout_toRightOf="@*com.google.android.youtube:id/app_thumbnail"
             android:layout_below="@*com.google.android.youtube:id/title_row"
-            android:layout_toStartOf="@*com.google.android.youtube:id/action_button"
             android:layout_toEndOf="@*com.google.android.youtube:id/app_thumbnail">
 
             <include
@@ -119,6 +118,15 @@
                 res-auto:robotoFont="light"
                 xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
         </LinearLayout>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@*com.google.android.youtube:id/action_button"
+            android:layout_toRightOf="@*com.google.android.youtube:id/rating_container"
+            android:layout_below="@*com.google.android.youtube:id/title_row"
+            android:layout_toStartOf="@*com.google.android.youtube:id/action_button"
+            android:layout_toEndOf="@*com.google.android.youtube:id/rating_container" />
     </RelativeLayout>
 
     <ViewStub
