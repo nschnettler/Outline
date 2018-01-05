@@ -14,7 +14,7 @@
         android:layout_width="@*com.android.settings:dimen/oneplus_settings_icon_size_list"
         android:layout_height="@*com.android.settings:dimen/oneplus_settings_icon_size_list"
         android:scaleType="centerInside"
-        android:tint="#757575"
+        android:tint="?android:colorControlNormal"
         android:layout_centerVertical="true"
         android:layout_marginStart="@*com.android.settings:dimen/oneplus_settings_layout_margin_left2" />
 
