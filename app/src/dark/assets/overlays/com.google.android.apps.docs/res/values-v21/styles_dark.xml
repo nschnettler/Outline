@@ -12,4 +12,12 @@
         <item name="android:colorAccent">@*com.google.android.apps.docs:color/m_app_accent</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
+
+    <style name="OverlayActionBarStyleLight" parent="@*com.google.android.apps.docs:style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:height">@*com.google.android.apps.docs:dimen/viewer_action_bar_height</item>
+        <item name="android:elevation">5.0dip</item>
+        <item name="height">@*com.google.android.apps.docs:dimen/viewer_action_bar_height</item>
+        <item name="background">@*android:color/primary_material_dark</item>
+    </style>
 </resources>
