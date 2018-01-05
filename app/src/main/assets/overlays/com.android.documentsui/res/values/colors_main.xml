@@ -6,4 +6,11 @@
     <!-- Accent -->
     <color name="root_activated_color">@android:color/holo_blue_dark</color>
     <color name="accent">@android:color/holo_blue_dark</color>
+
+
+    <!-- OnePlus -->
+    <color name="primary_new">@android:color/holo_blue_light</color>
+    <color name="primary_dark_new">@android:color/holo_blue_light</color>
+    <color name="accent_new">@android:color/holo_blue_dark</color>
+    <color name="root_activated_color_new">@android:color/holo_blue_dark</color>
 </resources>
