@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- OxygenOS -->
+        <!-- Primary -->
+        <color name="oneplus_contorl_bg_color_appbar_dark">@*android:color/primary_material_dark</color>            <!-- Primary -->
+
+        <!-- Background -->
+        <color name="oneplus_contorl_bg_color_dark">@*android:color/background_material_dark</color>                <!-- Background -->
+        <color name="oneplus_contorl_bg_color_steppers_dark">@*android:color/background_material_dark</color>       <!--Switchbar -->
+        <color name="oneplus_contorl_bg_color_dialogs_dark">@*android:color/background_material_dark</color>        <!-- Dialog -->
+        <color name="oneplus_contorl_bg_color_menu_dark">@*android:color/background_material_dark</color>           <!-- Overflow -->
+        <color name="oneplus_contorl_divider_color_dark">@android:color/background_dark</color>                     <!-- Divider -->
+        <color name="oneplus_contorl_bg_color_bottomsheets_dark">@*android:color/background_material_dark</color>
+</resources>
