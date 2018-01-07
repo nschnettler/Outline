@@ -27,6 +27,7 @@ android {
     defaultConfig {
         minSdkVersion 27
         targetSdkVersion 27
+        versionCode 27001
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" +
                 SUPPORTS_THIRD_PARTY_SYSTEMS
@@ -52,8 +53,7 @@ android {
                     moduleName "LoadingProcessDark"
                 }
 
-                versionCode 27000
-                versionName "Oreo - 9"
+                versionName "Oreo - 10"
             }
             light {
                 dimension "theme"
@@ -62,8 +62,7 @@ android {
                     moduleName "LoadingProcessLight"
                 }
 
-                versionCode 27000
-                versionName "Oreo - 12"
+                versionName "Oreo - 13"
             }
         }
     }
