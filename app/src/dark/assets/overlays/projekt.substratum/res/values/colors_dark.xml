@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-        <color name="navigationBarColor">@*android:color/background_material_dark</color>           <!-- Navigationbar Color -->
+        <color name="navigationBarColor">@*android:color/background_material_dark</color>           <!-- NavigationBar -->
+        <color name="navigation_bar_divider">@*android:color/background_dark</color>                <!-- NavigationBarDivider -->
         <!-- Cards Main Screen -->
         <color name="main_screen_card_background">@*android:color/background_material_dark</color>  <!-- Cards -->
         <!-- Theme Screen -->
@@ -70,7 +71,7 @@
         <color name="primary_text_default_material_light">#ffffffff</color>                         <!-- Text Color -->
         <!-- Showcase - Tabs -->
         <color name="showcase_activity_text">#FFFFFF</color>
-
+        <color name="bottombar_icon_text_selected">#FFFFFF</color>
 
     <!-- Divider -->
     <color name="theme_information_card_divider">#00ffffff</color>                         <!-- Text Color -->
