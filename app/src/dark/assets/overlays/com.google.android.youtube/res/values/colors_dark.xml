@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Youtube Stock Dark Theme -->
+    <color name="yt_background_1_dark">@*android:color/background_material_dark</color>
+    <color name="yt_background_2_dark">@*android:color/background_material_dark</color>
+    <color name="yt_background_3_dark">@*android:color/background_dark</color>
+    <color name="yt_background_4_dark">@*android:color/background_dark</color>
+    <color name="yt_muted_background_3_dark">@*android:color/background_dark</color>
+    <!-- Text -->
+    <color name="yt_text_2_dark">#b3FFFFFF</color>
+    <color name="yt_text_3_dark">#b3FFFFFF</color>
+
+
+
     <!-- Icons -->
     <color name="info_card_video_item_light_font">#FFFFFF</color>                                               <!-- Custom -->
     <color name="yt_static_grey">#FFFFFF</color>
