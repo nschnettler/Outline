@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Search Suggestion -->
-<LinearLayout android:background="@*com.google.android.youtube:drawable/abc_item_background_holo_dark"
+<LinearLayout android:background="?selectableItemBackground"
     android:paddingTop="4.0dip"
     android:paddingBottom="4.0dip"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:minHeight="48.0dip"
     _xmlns:android="http://schemas.android.com/apk/res/android"
-    _xmlns:yt="http://schemas.android.com/apk/com.google.android.youtube"
+    _xmlns:yt="http://schemas.android.com/apk/res-auto"
     xmlns:_xmlns="xmlns"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -39,7 +38,7 @@
         android:paddingStart="20.0dip"
         android:paddingEnd="56.0dip"
         res-auto:robotoFont="regular"
-        xmlns:res-auto="http://schemas.android.com/apk/com.google.android.youtube" />
+        xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
 
     <ImageView
         android:layout_gravity="end|center"
