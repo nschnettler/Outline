@@ -20,6 +20,7 @@
     <attr name="colorPrimaryAlternate" format="reference" />
     <attr name="constraintSet" format="reference" />
     <attr name="controller_layout_id" format="reference" />
+    <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="defaultItemSelector" format="reference" />
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="fastforward_increment" format="integer" />
@@ -114,6 +115,7 @@
         <flag name="chains" value="0x00000008" />
         <flag name="none" value="0x00000001" />
     </attr>
+    <attr name="listItemChrome" format="reference|color" />
     <attr name="liveChatShimmerLoadingFrameBackgroundColor" format="reference" />
     <attr name="liveChatShimmerLoadingFrameOverlayColor" format="reference" />
     <attr name="liveChatShimmerLoadingFrameShimmerEndColor" format="reference" />
@@ -267,6 +269,7 @@
     <attr name="singleChoiceItemLayout" format="reference" />
     <attr name="listItemLayout" format="reference" />
     <attr name="showTitle" format="boolean" />
+    <attr name="buttonIconDimen" format="dimension" />
     <attr name="expanded" format="boolean" />
     <attr name="state_collapsed" format="boolean" />
     <attr name="state_collapsible" format="boolean" />
@@ -427,6 +430,7 @@
     <attr name="tooltipFrameBackground" format="reference" />
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
+    <attr name="viewInflaterClass" format="string" />
     <attr name="fabCradleDiameter" format="dimension" />
     <attr name="fabCradleRoundedCornerRadius" format="dimension" />
     <attr name="fabCradleVerticalOffset" format="dimension" />
@@ -540,6 +544,8 @@
     <attr name="chipSpacingHorizontal" format="dimension" />
     <attr name="chipSpacingVertical" format="dimension" />
     <attr name="singleLine" format="boolean" />
+    <attr name="singleSelection" format="boolean" />
+    <attr name="checkedChip" format="reference" />
     <attr name="diameter" format="dimension" />
     <attr name="strokeWidth" format="dimension" />
     <attr name="startAngle" format="float" />
@@ -785,7 +791,6 @@
     <attr name="infocards_overlayBackgroundOpaque" format="color" />
     <attr name="infocards_overlayBackgroundTranslucent" format="color" />
     <attr name="timeBarHeight" format="dimension" />
-    <attr name="summaryValues" format="reference" />
     <attr name="measureWithLargestChild" format="boolean" />
     <attr name="showDividers">
         <flag name="none" value="0x00000000" />
@@ -844,6 +849,7 @@
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialSwitchStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
     <attr name="chipGroupStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
@@ -1004,6 +1010,7 @@
     <attr name="default_artwork" format="reference" />
     <attr name="use_controller" format="boolean" />
     <attr name="hide_on_touch" format="boolean" />
+    <attr name="hide_during_ads" format="boolean" />
     <attr name="auto_show" format="boolean" />
     <attr name="expandedSize0" format="dimension" />
     <attr name="expandedSize1" format="dimension" />
@@ -1078,6 +1085,12 @@
     <attr name="tabContentStart" format="dimension" />
     <attr name="tabBackground" format="reference" />
     <attr name="tabIndicator" format="reference" />
+    <attr name="tabIndicatorGravity">
+        <enum name="bottom" value="0" />
+        <enum name="center" value="1" />
+        <enum name="top" value="2" />
+        <enum name="stretch" value="3" />
+    </attr>
     <attr name="tabMode">
         <enum name="fixed" value="1" />
         <enum name="scrollable" value="0" />

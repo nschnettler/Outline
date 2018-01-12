@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout android:id="@*com.google.android.youtube:id/accessibility_layer_container"
-    android:background="@*android:color/background_material_dark"
+    android:background="@*com.google.android.youtube:drawable/watch_while_activity_background_light"
+    android:paddingBottom="@*com.google.android.youtube:dimen/navigationbar_divider_thickness"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     res-auto:backgroundViewId="@*com.google.android.youtube:id/watch_while_layout"
