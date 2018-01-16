@@ -8,6 +8,8 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <include layout="@*com.whatsapp:layout/divider_row" />
+
     <LinearLayout
         android:orientation="vertical"
         android:background="@*android:color/background_material_dark"

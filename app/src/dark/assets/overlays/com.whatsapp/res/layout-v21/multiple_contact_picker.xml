@@ -31,7 +31,7 @@ New Group: Select (multiple) contacts
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="fill_parent">
 
             <FrameLayout
                 android:orientation="vertical"
@@ -44,7 +44,6 @@ New Group: Select (multiple) contacts
                     android:layout_gravity="center"
                     android:id="@*com.whatsapp:id/warning_text"
                     android:padding="@*com.whatsapp:dimen/conversation_row_padding"
-                    android:visibility="visible"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center" />
@@ -87,15 +86,44 @@ New Group: Select (multiple) contacts
                 android:layout_weight="1.0"
                 android:headerDividersEnabled="false"
                 android:footerDividersEnabled="true" />
-        </LinearLayout>
 
-        <ProgressBar
-            android:layout_gravity="center"
-            android:id="@*com.whatsapp:id/init_contacts_progress"
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="?android:attr/progressBarStyleInverse" />
+            <FrameLayout
+                android:id="@android:id/empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:id="@*com.whatsapp:id/init_contacts_progress"
+                    android:padding="16.0dip"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/progressBarStyleInverse" />
+
+                <TextView
+                    android:textSize="18.0sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:gravity="center"
+                    android:id="@*com.whatsapp:id/search_no_matches"
+                    android:paddingLeft="12.0dip"
+                    android:paddingTop="32.0dip"
+                    android:paddingRight="12.0dip"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    android:id="@*com.whatsapp:id/contacts_empty"
+                    android:visibility="gone"
+                    layout="@*com.whatsapp:layout/empty_tell_a_friend" />
+
+                <include
+                    android:id="@*com.whatsapp:id/contacts_empty_permission_denied"
+                    android:visibility="gone"
+                    layout="@*com.whatsapp:layout/empty_contacts_permissions_needed" />
+            </FrameLayout>
+        </LinearLayout>
 
         <ImageButton
             android:layout_gravity="bottom|center|right"
@@ -110,16 +138,4 @@ New Group: Select (multiple) contacts
             android:contentDescription="@*com.whatsapp:string/next"
             android:elevation="4.0dip" />
     </FrameLayout>
-
-    <include
-        android:id="@*com.whatsapp:id/contacts_empty"
-        android:visibility="gone"
-        android:layout_below="@*com.whatsapp:id/conversation_header"
-        layout="@*com.whatsapp:layout/empty_tell_a_friend" />
-
-    <include
-        android:id="@*com.whatsapp:id/contacts_empty_permission_denied"
-        android:visibility="gone"
-        android:layout_below="@*com.whatsapp:id/conversation_header"
-        layout="@*com.whatsapp:layout/empty_contacts_permissions_needed" />
 </LinearLayout>

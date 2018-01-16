@@ -95,6 +95,8 @@ Profile Info - Card Bg
                         android:layout_gravity="center|left"
                         android:id="@*com.whatsapp:id/registration_name"
                         android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+                        android:paddingTop="11.0dip"
+                        android:paddingBottom="11.0dip"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:singleLine="true"
@@ -133,6 +135,7 @@ Profile Info - Card Bg
 
         <TextView
             android:textSize="14.299988dip"
+            android:id="@*com.whatsapp:id/push_name_explanation"
             android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
             android:paddingTop="12.0dip"
             android:paddingRight="@*com.whatsapp:dimen/info_screen_padding"
