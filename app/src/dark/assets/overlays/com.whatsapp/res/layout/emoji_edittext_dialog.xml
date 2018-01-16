@@ -86,6 +86,7 @@
                     android:src="@*com.whatsapp:drawable/input_emoji"
                     android:layout_alignBottom="@*com.whatsapp:id/text_and_counter"
                     android:layout_alignParentRight="true"
+                    android:contentDescription="@*com.whatsapp:string/emoji_button_description"
                     style="@*com.whatsapp:style/ActionBarButtonStyle" />
             </RelativeLayout>
         </LinearLayout>

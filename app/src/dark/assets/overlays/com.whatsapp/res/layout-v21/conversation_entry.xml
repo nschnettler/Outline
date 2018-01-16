@@ -10,6 +10,57 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
 
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@*com.whatsapp:id/announcement_only"
+            android:background="@*com.whatsapp:color/announcement_footer_background"
+            android:paddingLeft="16.0dip"
+            android:paddingTop="16.0dip"
+            android:paddingRight="16.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="14.0sp"
+                android:gravity="left"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@*com.whatsapp:string/group_announcement_footer_description" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@*com.whatsapp:color/action_mode"
+                    android:gravity="center"
+                    android:id="@*com.whatsapp:id/message_admin_btn"
+                    android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+                    android:padding="16.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.whatsapp:string/group_announcement_message_admin_title"
+                    android:textAllCaps="true" />
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@*com.whatsapp:color/action_mode"
+                    android:gravity="center"
+                    android:id="@*com.whatsapp:id/mute_announcements_btn"
+                    android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+                    android:padding="16.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+
         <TextView
             android:textSize="14.0sp"
             android:textColor="#ff6b7a81"

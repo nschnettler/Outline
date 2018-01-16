@@ -123,6 +123,7 @@
                     android:layout_marginTop="-1.0dip" />
 
                 <LinearLayout
+                    android:gravity="center_vertical"
                     android:layout_gravity="bottom|center|right"
                     android:orientation="horizontal"
                     android:id="@*com.whatsapp:id/date_wrapper"
@@ -133,7 +134,7 @@
                         android:textColor="#ffffff"
                         android:paddingBottom="4.0dip"
                         android:paddingRight="4.0dip"
-                        android:layout_gravity="right"
+                        android:layout_gravity="center|right"
                         android:id="@*com.whatsapp:id/date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

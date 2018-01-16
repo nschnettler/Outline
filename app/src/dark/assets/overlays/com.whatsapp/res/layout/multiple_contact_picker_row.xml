@@ -40,10 +40,6 @@
         <com.whatsapp.TextEmojiLabel
             android:layout_gravity="left"
             android:id="@*com.whatsapp:id/chat_able_contacts_row_name"
-            android:shadowColor="#ffffff"
-            android:shadowDx="3"
-            android:shadowDy="3"
-            android:shadowRadius="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@*com.whatsapp:style/ListItemTitle" />
@@ -51,7 +47,6 @@
         <com.whatsapp.TextEmojiLabel
             android:layout_gravity="left"
             android:id="@*com.whatsapp:id/chat_able_contacts_row_status"
-            android:textColor="#b3FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@*com.whatsapp:style/ListItemSubtitle" />

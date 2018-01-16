@@ -19,210 +19,235 @@
 
         <LinearLayout
             android:orientation="horizontal"
-            android:id="@*com.whatsapp:id/emoji_group_layout"
-            android:background="@*com.whatsapp:color/emoji_popup_header"
+            android:id="@*com.whatsapp:id/sticker_category_container"
+            android:background="@*com.whatsapp:color/emoji_popup_body"
+            android:visibility="gone"
             android:layout_width="fill_parent"
             android:layout_height="36.0dip">
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
+            <android.support.v7.widget.RecyclerView
+                android:id="@*com.whatsapp:id/sticker_category_recycler"
+                android:paddingLeft="2.0dip"
+                android:paddingRight="2.0dip"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                android:paddingStart="2.0dip"
+                android:paddingEnd="2.0dip" />
+        </LinearLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_recent_btn"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_recent"
-                    android:scaleType="center" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@*com.whatsapp:id/emoji_group_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_recent_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
-
-            <FrameLayout
+            <LinearLayout
                 android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                android:background="@*com.whatsapp:color/emoji_popup_header"
+                android:layout_width="fill_parent"
+                android:layout_height="36.0dip">
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_people_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_people"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_people_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_recent_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_recent"
+                        android:scaleType="center" />
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_recent_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_nature_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_nature"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_nature_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_people_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_people"
+                        android:scaleType="center" />
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_people_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_food_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_food"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_food_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_nature_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_nature"
+                        android:scaleType="center" />
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_nature_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_activity_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_activity"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_activity_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_food_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_food"
+                        android:scaleType="center" />
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_food_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_travel_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_travel"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_travel_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_activity_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_activity"
+                        android:scaleType="center" />
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_activity_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_objects_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_objects"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_objects_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_travel_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_travel"
+                        android:scaleType="center" />
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_travel_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_symbols_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_symbols"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_symbols_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_objects_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_objects"
+                        android:scaleType="center" />
 
-            <FrameLayout
-                android:orientation="horizontal"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0">
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_objects_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/emoji_flags_btn"
-                    android:layout_width="fill_parent"
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
                     android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/selector_emoji_flags"
-                    android:scaleType="center" />
+                    android:layout_weight="1.0">
 
-                <View
-                    android:layout_gravity="bottom"
-                    android:id="@*com.whatsapp:id/emoji_flags_marker"
-                    android:layout_width="fill_parent"
-                    android:layout_height="2.0dip" />
-            </FrameLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_symbols_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_symbols"
+                        android:scaleType="center" />
+
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_symbols_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+
+                    <ImageView
+                        android:id="@*com.whatsapp:id/emoji_flags_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/selector_emoji_flags"
+                        android:scaleType="center" />
+
+                    <View
+                        android:layout_gravity="bottom"
+                        android:id="@*com.whatsapp:id/emoji_flags_marker"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip" />
+                </FrameLayout>
 
             <FrameLayout
                 android:background="@*android:color/background_material_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent">
 
-                <ImageView
-                    android:id="@*com.whatsapp:id/delete_symbol"
-                    android:visibility="gone"
-                    android:layout_width="40.0dip"
-                    android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/emoji_x"
-                    style="@*com.whatsapp:style/ActionBarButtonStyle" />
-            </FrameLayout>
-        </LinearLayout>
+                    <ImageView
+                        android:id="@*com.whatsapp:id/delete_symbol"
+                        android:visibility="gone"
+                        android:layout_width="40.0dip"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/emoji_x"
+                        style="@*com.whatsapp:style/ActionBarButtonStyle" />
+                </FrameLayout>
+            </LinearLayout>
 
-        <View
-            android:background="@*android:color/background_dark"
-            android:layout_width="fill_parent"
-            android:layout_height="1.0dip" />
+            <View
+                android:background="@*android:color/background_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+        </LinearLayout>
 
         <FrameLayout
             android:background="@*com.whatsapp:color/emoji_popup_body"
@@ -231,6 +256,12 @@
 
             <android.support.v4.view.ViewPager
                 android:id="@*com.whatsapp:id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@*com.whatsapp:id/sticker_pager"
+                android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
         </FrameLayout>
@@ -370,9 +401,18 @@
                     android:visibility="visible"
                     android:layout_width="40.0dip"
                     android:layout_height="fill_parent"
-                    android:layout_marginRight="12.0dip"
+                    android:layout_marginRight="6.0dip"
                     android:src="@*com.whatsapp:drawable/ic_emoticon_selected"
                     android:contentDescription="@*com.whatsapp:string/emoji_picker"
+                    style="@*com.whatsapp:style/ActionBarButtonStyle" />
+
+                <ImageView
+                    android:id="@*com.whatsapp:id/sticker_tab"
+                    android:visibility="gone"
+                    android:layout_width="40.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="6.0dip"
+                    android:src="@*com.whatsapp:drawable/ic_sticker_normal"
                     style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
                 <ImageView
