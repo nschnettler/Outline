@@ -4,4 +4,9 @@
     <color name="suggestion_condition_background">@*android:color/background_material_dark</color>
     <color name="condition_card_background">@*android:color/background_material_dark</color>
     <color name="material_grey_300">@*android:color/background_material_dark</color>
+
+    <!-- Dirty Unicorns -->
+    <color name="BottomBarBackgroundColor">@*android:color/background_material_dark</color>
+    <color name="bottom_nav_text_icon_active">@*android:color/accent_material_dark</color>
+    <color name="bottom_nav_text_icon_inactive">#b3FFFFFF</color>
 </resources>
