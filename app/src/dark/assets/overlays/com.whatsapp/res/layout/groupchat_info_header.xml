@@ -6,7 +6,8 @@
 <LinearLayout android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <View
         android:id="@*com.whatsapp:id/header_placeholder"
@@ -29,15 +30,17 @@
         android:layout_height="wrap_content"
         android:text="@*com.whatsapp:string/not_a_group_participant" />
 
-    <include layout="@*com.whatsapp:layout/media_card" />
+    <com.whatsapp.MediaCard
+        android:id="@*com.whatsapp:id/media_card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:mcTitle="@*com.whatsapp:string/view_conversation_media" />
 
     <include layout="@*com.whatsapp:layout/live_location_card" />
 
     <include layout="@*com.whatsapp:layout/actions_card" />
 
     <include layout="@*com.whatsapp:layout/locations_card" />
-
-    <include layout="@*com.whatsapp:layout/admin_settings_card" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -65,7 +68,7 @@
                 style="@*com.whatsapp:style/FlatCardInfo" />
 
             <ImageView
-                android:id="@*com.whatsapp:id/search_participant"
+                android:id="@*com.whatsapp:id/participants_action"
                 android:background="?android:actionBarItemBackground"
                 android:paddingRight="12.0dip"
                 android:visibility="gone"
@@ -87,6 +90,7 @@
 
         <RelativeLayout
             android:gravity="center_vertical"
+            android:id="@*com.whatsapp:id/add_participant_button"
             android:background="@*com.whatsapp:drawable/selector_orange_gradient"
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/small_list_row_height">
@@ -107,13 +111,48 @@
                 android:id="@*com.whatsapp:id/add_participant_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@*com.whatsapp:string/add_group_participant"
+                android:text="@*com.whatsapp:string/add_paticipants"
                 android:layout_toRightOf="@*com.whatsapp:id/add_participant_icon"
                 android:layout_centerVertical="true"
                 style="@*com.whatsapp:style/ListItemTitle" />
         </RelativeLayout>
 
         <View
+            android:background="@*com.whatsapp:color/divider_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="@*com.whatsapp:dimen/info_screen_padding" />
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@*com.whatsapp:id/invite_via_link_button"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/small_list_row_height">
+
+            <ImageView
+                android:id="@*com.whatsapp:id/invite_via_link_icon"
+                android:background="@*com.whatsapp:drawable/green_circle"
+                android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
+                android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"
+                android:layout_marginLeft="@*com.whatsapp:dimen/small_list_avatar_padding"
+                android:layout_marginRight="@*com.whatsapp:dimen/small_list_avatar_padding"
+                android:src="@*com.whatsapp:drawable/ic_invite_link"
+                android:scaleType="center"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@*com.whatsapp:string/invite_via_link"
+                android:layout_toRightOf="@*com.whatsapp:id/invite_via_link_icon"
+                android:layout_centerVertical="true"
+                style="@*com.whatsapp:style/ListItemTitle" />
+        </RelativeLayout>
+
+        <View
+            android:id="@*com.whatsapp:id/invite_via_link_separator"
             android:background="@*com.whatsapp:color/divider_gray"
             android:layout_width="fill_parent"
             android:layout_height="0.5dip"

@@ -5,7 +5,7 @@
 
 -->
 <LinearLayout android:orientation="vertical"
-    android:id="@*com.whatsapp:id/media_card"
+    android:id="@*com.whatsapp:id/media_card_root"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -28,12 +28,11 @@
             style="@*com.whatsapp:style/FlatCardHeader">
 
             <TextView
-                android:id="@*com.whatsapp:id/media_title"
-                android:text="@*com.whatsapp:string/view_conversation_media"
+                android:id="@*com.whatsapp:id/media_card_title"
                 style="@*com.whatsapp:style/FlatCardTitle" />
 
             <TextView
-                android:id="@*com.whatsapp:id/media_info"
+                android:id="@*com.whatsapp:id/media_card_info"
                 android:includeFontPadding="false"
                 style="@*com.whatsapp:style/FlatCardInfo" />
         </FrameLayout>
@@ -44,7 +43,7 @@
 
             <HorizontalScrollView
                 android:gravity="center_vertical"
-                android:id="@*com.whatsapp:id/media_scroller"
+                android:id="@*com.whatsapp:id/media_card_scroller"
                 android:paddingTop="12.0dip"
                 android:paddingBottom="10.0dip"
                 android:scrollbars="none"
@@ -59,7 +58,7 @@
                 <LinearLayout
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:id="@*com.whatsapp:id/media_thumbs"
+                    android:id="@*com.whatsapp:id/media_card_thumbs"
                     android:paddingLeft="14.0dip"
                     android:paddingRight="14.0dip"
                     android:layout_width="wrap_content"
@@ -69,7 +68,5 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <include
-        android:id="@*com.whatsapp:id/media_card_bottom_divider"
-        layout="@*com.whatsapp:layout/divider_row" />
+    <include layout="@*com.whatsapp:layout/divider_row" />
 </LinearLayout>
