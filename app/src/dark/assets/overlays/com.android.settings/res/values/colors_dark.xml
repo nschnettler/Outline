@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bluetooth Pair Dialog -->
+    <color name="bluetooth_dialog_text_color">#FFFFFF</color>
+</resources>
