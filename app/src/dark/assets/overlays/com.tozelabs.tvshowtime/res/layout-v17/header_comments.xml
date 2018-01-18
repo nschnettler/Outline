@@ -31,8 +31,8 @@
                 android:src="@*com.tozelabs.tvshowtime:drawable/default_user"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
-                app:riv_border_width="1.0dip"
                 app:riv_border_color="@*com.tozelabs.tvshowtime:color/white"
+                app:riv_border_width="1.0dip"
                 app:riv_mutate_background="true"
                 app:riv_oval="true" />
 
@@ -158,38 +158,4 @@
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
-
-    <com.tozelabs.tvshowtime.widget.TZTextView
-        android:ellipsize="start"
-        android:gravity="start|center"
-        android:layout_gravity="start|center"
-        android:id="@*com.tozelabs.tvshowtime:id/aboutText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@*com.tozelabs.tvshowtime:dimen/item_spacing"
-        android:singleLine="true"
-        android:layout_toLeftOf="@*com.tozelabs.tvshowtime:id/filterText"
-        android:layout_below="@*com.tozelabs.tvshowtime:id/composeSection"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="@*com.tozelabs.tvshowtime:dimen/item_spacing"
-        android:layout_toStartOf="@*com.tozelabs.tvshowtime:id/filterText"
-        android:layout_alignParentStart="true"
-        style="@*com.tozelabs.tvshowtime:style/FilterHeaderSectionText" />
-
-    <com.tozelabs.tvshowtime.widget.TZTextView
-        android:gravity="end|center"
-        android:layout_gravity="end|center"
-        android:id="@*com.tozelabs.tvshowtime:id/filterText"
-        android:background="@*com.tozelabs.tvshowtime:drawable/filter_background"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="@*com.tozelabs.tvshowtime:dimen/item_spacing"
-        android:drawableRight="@*com.tozelabs.tvshowtime:drawable/sort"
-        android:drawablePadding="@*com.tozelabs.tvshowtime:dimen/item_spacing"
-        android:layout_below="@*com.tozelabs.tvshowtime:id/composeSection"
-        android:layout_alignParentRight="true"
-        android:drawableEnd="@*com.tozelabs.tvshowtime:drawable/sort"
-        android:layout_marginEnd="@*com.tozelabs.tvshowtime:dimen/item_spacing"
-        android:layout_alignParentEnd="true"
-        style="@*com.tozelabs.tvshowtime:style/FilterHeaderSectionText" />
 </RelativeLayout>
