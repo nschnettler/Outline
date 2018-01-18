@@ -107,9 +107,11 @@
                     android:paddingTop="18.0dip"
                     android:paddingBottom="18.0dip"
                     android:visibility="gone"
+                    android:scrollbars="vertical"
                     android:layout_width="0.0dip"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="9.0dip"
+                    android:maxLines="2"
                     android:layout_weight="1.0"
                     android:layout_marginStart="9.0dip"
                     style="@*com.google.android.apps.photos:style/quantum_text_display_1_black" />
