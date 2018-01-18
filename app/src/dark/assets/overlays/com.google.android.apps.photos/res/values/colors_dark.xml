@@ -5,7 +5,6 @@
     <color name="primary_material_light">@*android:color/primary_material_dark</color>
 
     <!-- Background -->
-    <color name="default_bg">@*android:color/background_material_dark</color>                                       <!-- Main Bg 1 -->
     <color name="quantum_white_100">@*android:color/background_material_dark</color>                                <!-- Main Bg 2 -->
     <color name="photos_photoadapteritem_photo_background">@*android:color/background_material_dark</color>         <!-- When photo Selected -->
     <color name="photos_page_recycler_blank_square_backgroud">@*android:color/background_material_dark</color>

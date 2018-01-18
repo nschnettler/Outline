@@ -21,8 +21,8 @@
             android:id="@*com.google.android.apps.photos:id/toolbar"
             android:background="@*android:color/primary_material_dark"
             android:layout_width="fill_parent"
-            android:layout_height="@*com.google.android.apps.photos:dimen/abc_action_bar_default_height_material"
-            style="@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar" />
+            android:layout_height="?android:actionBarSize"
+            style="?android:attr/actionBarStyle" />
     </LinearLayout>
 
     <FrameLayout
