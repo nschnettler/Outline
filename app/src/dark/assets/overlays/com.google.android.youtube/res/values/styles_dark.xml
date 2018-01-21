@@ -30,4 +30,20 @@
         <item name="*com.google.android.youtube:colorSwitchThumbNormal">@*com.google.android.youtube:color/switch_thumb_material_dark</item>
         <item name="*com.google.android.youtube:colorBackgroundFloating">@*android:color/background_floating_material_dark</item>
     </style>
+
+    <!-- Some Texts -->
+    <style name="TextAppearance.YouTube.Body1.Inverse" parent="@*com.google.android.youtube:style/Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
+    <style name="TextAppearance.YouTube.Subhead.Inverse" parent="@*com.google.android.youtube:style/TextAppearance.AppCompat.Subhead"/>
+    <style name="TextAppearance.YouTube.Title.Inverse" parent="@*com.google.android.youtube:style/TextAppearance.AppCompat.Title"/>
+    <style name="TextAppearance.YouTube.Caption.Inverse" parent="@*com.google.android.youtube:style/TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
 </resources>
