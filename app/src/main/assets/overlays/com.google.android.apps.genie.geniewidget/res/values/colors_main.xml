@@ -3,6 +3,8 @@
     <!-- Accent -->
     <color name="accent_color_light">@android:color/holo_blue_light</color>
     <color name="accent_color_dark">@android:color/holo_blue_light</color>
+    <color name="text_color_highlight_dark">@android:color/holo_blue_light</color>
+    <color name="text_color_highlight_light">@android:color/holo_blue_light</color>
     <!-- Tab selected / Bottom Navigation selected -->
     <color name="text_color_primary_new_navigation_light">@android:color/holo_blue_light</color>
     <color name="text_color_primary_new_navigation_dark">@android:color/holo_blue_light</color>
