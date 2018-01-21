@@ -5,7 +5,7 @@
         android:viewportHeight="24.0"
         android:alpha="0.4">
         <path
-            android:strokeColor="@*com.google.android.youtube:color/info_card_video_item_light_font"
+            android:strokeColor="?android:colorControlNormal"
             android:strokeWidth="0.8"
             android:pathData="M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10s10-4.4,10-10S17.6,2,12,2z M7.3,17h9.5 M12,6.6v7.9 M16.5,10.5L12,14.4
 	l-4.5-3.9"/>

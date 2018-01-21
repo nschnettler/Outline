@@ -4,7 +4,7 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*com.google.android.youtube:color/info_card_video_item_light_font"
+        android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="0.8"
         android:pathData="M3,7h18 M3,17h6 M3,12h12"/>
 </vector>
