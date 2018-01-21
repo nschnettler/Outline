@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="adBackground1" format="reference|color" />
+    <attr name="adBackground2" format="reference|color" />
+    <attr name="adBlue" format="reference|color" />
+    <attr name="adMutedBackground" format="reference|color" />
+    <attr name="adSeparator" format="reference|color" />
+    <attr name="adText1" format="reference|color" />
+    <attr name="adText2" format="reference|color" />
     <attr name="aspectRatio" format="float" />
     <attr name="backgroundPrimary" format="reference" />
     <attr name="backgroundPrimaryInverse" format="reference" />
@@ -159,12 +166,8 @@
         <enum name="surface_view" value="1" />
         <enum name="texture_view" value="2" />
     </attr>
-    <attr name="textAppearanceBody1" format="reference" />
     <attr name="textAppearanceBody1Inverse" format="reference" />
-    <attr name="textAppearanceBody2" format="reference" />
     <attr name="textAppearanceBody2Inverse" format="reference" />
-    <attr name="textAppearanceButton" format="reference" />
-    <attr name="textAppearanceCaption" format="reference" />
     <attr name="textAppearanceCaptionInverse" format="reference" />
     <attr name="textAppearanceHeadline" format="reference" />
     <attr name="textAppearanceMenu" format="reference" />
@@ -431,6 +434,11 @@
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
     <attr name="viewInflaterClass" format="string" />
+    <attr name="fabAlignmentMode">
+        <enum name="center" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="fabAttached" format="boolean" />
     <attr name="fabCradleDiameter" format="dimension" />
     <attr name="fabCradleRoundedCornerRadius" format="dimension" />
     <attr name="fabCradleVerticalOffset" format="dimension" />
@@ -440,6 +448,9 @@
         <enum name="selected" value="0" />
         <enum name="unlabeled" value="2" />
     </attr>
+    <attr name="itemActiveLabelSize" format="dimension" />
+    <attr name="itemInactiveLabelSize" format="dimension" />
+    <attr name="itemTextAppearance" format="reference" />
     <attr name="itemHorizontalTranslation" format="boolean" />
     <attr name="shiftingMode">
         <enum name="auto" value="-1" />
@@ -855,6 +866,20 @@
     <attr name="chipStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
     <attr name="bottomAppBarStyle" format="reference" />
+    <attr name="cardViewStyle" format="reference" />
+    <attr name="textAppearanceHeadline1" format="reference" />
+    <attr name="textAppearanceHeadline2" format="reference" />
+    <attr name="textAppearanceHeadline3" format="reference" />
+    <attr name="textAppearanceHeadline4" format="reference" />
+    <attr name="textAppearanceHeadline5" format="reference" />
+    <attr name="textAppearanceHeadline6" format="reference" />
+    <attr name="textAppearanceSubtitle1" format="reference" />
+    <attr name="textAppearanceSubtitle2" format="reference" />
+    <attr name="textAppearanceBody1" format="reference" />
+    <attr name="textAppearanceBody2" format="reference" />
+    <attr name="textAppearanceCaption" format="reference" />
+    <attr name="textAppearanceButton" format="reference" />
+    <attr name="textAppearanceOverline" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -897,12 +922,13 @@
     <attr name="preserveIconSpacing" format="boolean" />
     <attr name="subMenuArrow" format="reference" />
     <attr name="auto_setup" format="boolean" />
+    <attr name="selectedItemTextColor" format="reference|color" />
+    <attr name="unselectedItemTextColor" format="reference|color" />
     <attr name="primaryIconTintColor" format="color" />
     <attr name="menu" format="reference" />
     <attr name="itemIconTint" format="color" />
     <attr name="itemTextColor" format="color" />
     <attr name="itemBackground" format="reference" />
-    <attr name="itemTextAppearance" format="reference" />
     <attr name="headerLayout" format="reference" />
     <attr name="scrimViewId" format="reference" />
     <attr name="watchLayoutViewId" format="reference" />
@@ -1091,6 +1117,7 @@
         <enum name="top" value="2" />
         <enum name="stretch" value="3" />
     </attr>
+    <attr name="tabIndicatorFullWidth" format="boolean" />
     <attr name="tabMode">
         <enum name="fixed" value="1" />
         <enum name="scrollable" value="0" />
@@ -1120,7 +1147,6 @@
         <enum name="src_over" value="3" />
     </attr>
     <attr name="tabRippleColor" format="color" />
-    <attr name="text_highlight_color" format="color" />
     <attr name="background_dark" format="color" />
     <attr name="tab_scroll_margin" format="dimension" />
     <attr name="tab_highlight_height" format="dimension" />
@@ -1131,6 +1157,7 @@
     <attr name="text_tab_layout" format="reference" />
     <attr name="text_tab_layout_text_view_id" format="reference" />
     <attr name="image_tab_layout" format="reference" />
+    <attr name="text_highlight_color" format="color" />
     <attr name="startColor" format="color" />
     <attr name="endColor" format="color" />
     <attr name="startSize" format="dimension" />
