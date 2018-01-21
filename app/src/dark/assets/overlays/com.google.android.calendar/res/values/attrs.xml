@@ -223,8 +223,12 @@
         <enum name="unitSp" value="2" />
     </attr>
     <attr name="autoResizeText_minTextSize" format="dimension" />
+    <attr name="fabCradleDiameter" format="dimension" />
+    <attr name="fabCradleRoundedCornerRadius" format="dimension" />
+    <attr name="fabCradleVerticalOffset" format="dimension" />
+    <attr name="itemHorizontalTranslation" format="boolean" />
     <attr name="shiftingMode">
-        <enum name="auto" value="2" />
+        <enum name="auto" value="-1" />
         <enum name="off" value="0" />
         <enum name="on" value="1" />
     </attr>
@@ -400,6 +404,7 @@
         <enum name="auto" value="-1" />
         <enum name="mini" value="1" />
     </attr>
+    <attr name="fabCustomSize" format="dimension" />
     <attr name="hoveredFocusedTranslationZ" format="dimension" />
     <attr name="pressedTranslationZ" format="dimension" />
     <attr name="borderWidth" format="dimension" />
@@ -528,6 +533,7 @@
     <attr name="floatingActionButtonStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
+    <attr name="bottomAppBarStyle" format="reference" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
