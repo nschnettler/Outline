@@ -4,6 +4,7 @@
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:navigationBarDividerColor">@*android:color/background_dark</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
     </style>
     <style name="Base.V27.Theme.YouTube.Light.Dialog" parent="@*com.google.android.youtube:style/Base.V23.Theme.YouTube.Light.Dialog">
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
