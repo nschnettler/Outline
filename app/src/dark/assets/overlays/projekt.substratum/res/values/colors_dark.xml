@@ -73,7 +73,6 @@
         <color name="primary_text_default_material_light">#ffffffff</color>                         <!-- Text Color -->
         <!-- Showcase - Tabs -->
         <color name="showcase_activity_text">#FFFFFF</color>
-        <color name="bottombar_icon_text_selected">#FFFFFF</color>
 
     <!-- Divider -->
     <color name="theme_information_card_divider">#00ffffff</color>                         <!-- Text Color -->
