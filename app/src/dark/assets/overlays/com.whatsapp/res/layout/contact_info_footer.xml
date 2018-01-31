@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:background="@*com.whatsapp:drawable/list_separator_bot"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+
+    <LinearLayout android:orientation="vertical"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <FrameLayout
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            style="@*com.whatsapp:style/FlatCardHeader">
+
+            <TextView
+                android:text="@*com.whatsapp:string/contact_other_phones"
+                style="@*com.whatsapp:style/FlatCardTitle" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
