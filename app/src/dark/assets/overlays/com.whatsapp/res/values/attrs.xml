@@ -357,6 +357,7 @@
     <attr name="lineStroke" format="dimension" />
     <attr name="charSpacing" format="dimension" />
     <attr name="textBottomPadding" format="dimension" />
+    <attr name="numChars" format="integer" />
     <attr name="bar_height" format="dimension" />
     <attr name="touch_target_height" format="dimension" />
     <attr name="ad_marker_width" format="dimension" />
@@ -562,6 +563,7 @@
     <attr name="latLngBoundsNorthEastLatitude" format="float" />
     <attr name="latLngBoundsNorthEastLongitude" format="float" />
     <attr name="mcTitle" format="string" />
+    <attr name="mcInfo" format="string" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
