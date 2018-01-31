@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-
-    Group Info: Add Member
-
--->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -68,15 +64,15 @@
                 style="@*com.whatsapp:style/FlatCardInfo" />
 
             <ImageView
-                android:id="@*com.whatsapp:id/participants_action"
+                android:id="@*com.whatsapp:id/participants_search"
                 android:background="?android:actionBarItemBackground"
                 android:paddingRight="12.0dip"
-                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_marginBottom="-12.0dip"
                 android:src="@*com.whatsapp:drawable/ic_action_search"
-                android:tint="@*com.whatsapp:color/accent" />
+                android:tint="@*com.whatsapp:color/accent"
+                android:contentDescription="@*com.whatsapp:string/search_group_participants" />
         </LinearLayout>
     </LinearLayout>
 
