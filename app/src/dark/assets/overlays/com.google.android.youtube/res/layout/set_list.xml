@@ -3,7 +3,6 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     _xmlns:android="http://schemas.android.com/apk/res/android"
-    _xmlns:yt="http://schemas.android.com/apk/res-auto"
     xmlns:_xmlns="xmlns"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
