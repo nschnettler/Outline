@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Don´t tint FAB -->
+    <style name="PlusFab">
+        <item name="android:layout_margin">@*com.google.android.apps.plus:dimen/navigation_fab_margin</item>
+        <item name="android:src">@*com.google.android.apps.plus:drawable/quantum_ic_create_white_24</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+
+    <!-- BGTint galore -->
+    <style name="Theme.ArkhamLight" parent="@*com.google.android.apps.plus:style/Theme.ArkhamLightBase" >
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+    </style>
+
+    <!-- BGTint galore -->
+    <style name="Theme.Square.NoActionBar" parent="@*com.google.android.apps.plus:style/Theme.Arkham.NoActionBar">
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Square.ActionBar</item>
+        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="actionBarStyle">@*com.google.android.apps.plus:style/Theme.Square.ActionBar</item>
+        <item name="colorPrimary">@*com.google.android.apps.plus:color/square_green_light</item>
+        <item name="colorPrimaryDark">@*com.google.android.apps.plus:color/square_green_dark</item>
+        <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+    </style>
+
+    <!-- BGTint galore -->
+    <style name="Theme.Collexion.NoActionBar" parent="@*com.google.android.apps.plus:style/Theme.Arkham.NoActionBar">
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Collexion.ActionBar</item>
+        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="actionBarStyle">@*com.google.android.apps.plus:style/Theme.Collexion.ActionBar</item>
+        <item name="colorPrimary">@*com.google.android.apps.plus:color/quantum_lightblue500</item>
+        <item name="colorPrimaryDark">@*com.google.android.apps.plus:color/quantum_lightblue700</item>
+        <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+    </style>
+
+    <!-- Post - Time -->
+    <style name="TextStyle.SocialPost.Timestamp" parent="@*com.google.android.apps.plus:style/TextStyle.Regular">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/textsize_12</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- Post - Source -->
+    <style name="TextStyle.GstsBasicCard.SourceText" parent="@*com.google.android.apps.plus:style/TextStyle.BoldItalic">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/textsize_12</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Post - Number +1´s -->
+    <style name="TextStyle.SocialButtons.ButtonSideText" parent="@*com.google.android.apps.plus:style/TextStyle.Regular">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/textsize_12</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
