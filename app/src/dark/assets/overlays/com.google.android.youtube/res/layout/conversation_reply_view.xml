@@ -6,7 +6,6 @@
     android:layout_height="@*com.google.android.youtube:dimen/conversation_reply_view_init_height"
     android:paddingEnd="4.0dip"
     _xmlns:android="http://schemas.android.com/apk/res/android"
-    _xmlns:yt="http://schemas.android.com/apk/res-auto"
     xmlns:_xmlns="xmlns"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -60,7 +59,7 @@
         android:layout_marginStart="56.0dip"
         android:layout_alignParentStart="true"
         res-auto:aspectRatio="@*com.google.android.youtube:fraction/conversation_aspect_ratio_16_9"
-        xmlns:res-auto="http://schemas.android.com/apk/res-auto">
+        xmlns:res-auto="http://schemas.android.com/apk/com.google.android.youtube">
 
         <ImageView
             android:id="@*com.google.android.youtube:id/attachment_thumbnail"
@@ -89,7 +88,7 @@
 
         <ImageView
             android:id="@*com.google.android.youtube:id/remove_attachment"
-            android:background="?selectableItemBackground"
+            android:background="?android:selectableItemBackground"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@*com.google.android.youtube:drawable/ic_remove_circle_black"
@@ -101,7 +100,7 @@
     <ImageView
         android:layout_gravity="top"
         android:id="@*com.google.android.youtube:id/search_button"
-        android:background="?selectableItemBackground"
+        android:background="?android:selectableItemBackground"
         android:visibility="gone"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
@@ -120,7 +119,7 @@
     <ImageView
         android:layout_gravity="top"
         android:id="@*com.google.android.youtube:id/send_button"
-        android:background="?selectableItemBackground"
+        android:background="?android:selectableItemBackground"
         android:visibility="gone"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
