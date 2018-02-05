@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     _xmlns:android="http://schemas.android.com/apk/res/android"
-    _xmlns:yt="http://schemas.android.com/apk/res-auto"
+    xmlns:res-auto="http://schemas.android.com/apk/com.google.android.youtube"
     xmlns:_xmlns="xmlns"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -28,8 +28,7 @@
             android:singleLine="@*com.google.android.youtube:bool/rtl_single_line_true"
             android:layout_weight="1.0"
             android:textAlignment="viewStart"
-            res-auto:robotoFont="medium"
-            xmlns:res-auto="http://schemas.android.com/apk/res-auto" />
+            res-auto:robotoFont="medium" />
 
         <ImageView
             android:id="@*com.google.android.youtube:id/add_account"
@@ -60,7 +59,7 @@
         android:ellipsize="end"
         android:gravity="center_vertical"
         android:id="@*com.google.android.youtube:id/sign_out_footer"
-        android:background="?selectableItemBackground"
+        android:background="?android:selectableItemBackground"
         android:paddingLeft="24.0dip"
         android:paddingRight="24.0dip"
         android:layout_width="fill_parent"
@@ -70,5 +69,5 @@
         android:maxLines="1"
         android:singleLine="@*com.google.android.youtube:bool/rtl_single_line_true"
         android:textAlignment="viewStart"
-        style="?textAppearanceSubhead" />
+        style="?*com.google.android.youtube:textAppearanceSubhead" />
 </LinearLayout>

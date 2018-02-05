@@ -8,7 +8,7 @@
 
     <com.google.android.libraries.youtube.common.ui.CircularImageView
         android:id="@*com.google.android.youtube:id/avatar"
-        android:background="?selectableItemBackground"
+        android:background="?android:selectableItemBackground"
         android:layout_width="32.0dip"
         android:layout_height="32.0dip"
         android:layout_marginLeft="16.0dip"
