@@ -58,6 +58,7 @@
     <color name="text_white">#ffffffff</color>
     <color name="text_white_26_percent">#b3FFFFFF</color>
     <color name="text_white_40_percent">#b3FFFFFF</color>
+    <color name="socialpost_header_text">#FFFFFF</color>                                            <!-- "Das hast du verpasst" Text -->
 
 
     <color name="card_background_selected">@*android:color/background_dark</color>

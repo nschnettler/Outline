@@ -53,4 +53,10 @@
         <item name="android:textSize">@*com.google.android.apps.plus:dimen/textsize_12</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
+
+    <!-- Notifications - Spinner Title -->
+    <style name="NotificationsTray.Title" parent="@*com.google.android.apps.plus:style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_20</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>
