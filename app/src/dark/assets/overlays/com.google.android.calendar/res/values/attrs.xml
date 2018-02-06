@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="height" format="dimension" />
     <attr name="isLightTheme" format="boolean" />
@@ -51,6 +52,7 @@
     <attr name="singleChoiceItemLayout" format="reference" />
     <attr name="listItemLayout" format="reference" />
     <attr name="showTitle" format="boolean" />
+    <attr name="buttonIconDimen" format="dimension" />
     <attr name="draw_month_label" format="boolean" />
     <attr name="count_days" format="integer" />
     <attr name="label_marginStart" format="dimension" />
@@ -214,6 +216,7 @@
     <attr name="tooltipFrameBackground" format="reference" />
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
+    <attr name="viewInflaterClass" format="string" />
     <attr name="autoResizeText_resizeStepUnit">
         <enum name="unitDip" value="1" />
         <enum name="unitIn" value="4" />
@@ -226,6 +229,12 @@
     <attr name="fabCradleDiameter" format="dimension" />
     <attr name="fabCradleRoundedCornerRadius" format="dimension" />
     <attr name="fabCradleVerticalOffset" format="dimension" />
+    <attr name="labelVisibilityMode">
+        <enum name="labeled" value="1" />
+        <enum name="legacy" value="-1" />
+        <enum name="selected" value="0" />
+        <enum name="unlabeled" value="2" />
+    </attr>
     <attr name="itemHorizontalTranslation" format="boolean" />
     <attr name="shiftingMode">
         <enum name="auto" value="-1" />
@@ -239,6 +248,21 @@
     <attr name="behavior_skipCollapsed" format="boolean" />
     <attr name="behavior_fitToContents" format="boolean" />
     <attr name="allowStacking" format="boolean" />
+    <attr name="buttonHeight" format="dimension" />
+    <attr name="fillWidthWhenVertical" format="boolean" />
+    <attr name="minChildWidth" format="dimension" />
+    <attr name="horizontalPaddingStart" format="dimension" />
+    <attr name="horizontalPaddingTop" format="dimension" />
+    <attr name="horizontalPaddingEnd" format="dimension" />
+    <attr name="horizontalPaddingBottom" format="dimension" />
+    <attr name="horizontalPadding" format="dimension" />
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="verticalPaddingStart" format="dimension" />
+    <attr name="verticalPaddingTop" format="dimension" />
+    <attr name="verticalPaddingEnd" format="dimension" />
+    <attr name="verticalPaddingBottom" format="dimension" />
+    <attr name="verticalPadding" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
     <attr name="textSizeMaxDp" format="dimension" />
     <attr name="cardBackgroundColor" format="color" />
     <attr name="cardCornerRadius" format="dimension" />
@@ -277,6 +301,12 @@
     <attr name="closeIconStartPadding" format="dimension" />
     <attr name="closeIconEndPadding" format="dimension" />
     <attr name="chipEndPadding" format="dimension" />
+    <attr name="chipSpacing" format="dimension" />
+    <attr name="chipSpacingHorizontal" format="dimension" />
+    <attr name="chipSpacingVertical" format="dimension" />
+    <attr name="singleLine" format="boolean" />
+    <attr name="singleSelection" format="boolean" />
+    <attr name="checkedChip" format="reference" />
     <attr name="expandedTitleMargin" format="dimension" />
     <attr name="expandedTitleMarginStart" format="dimension" />
     <attr name="expandedTitleMarginTop" format="dimension" />
@@ -398,7 +428,6 @@
     <attr name="paramName" format="string" />
     <attr name="paramValue" format="string" />
     <attr name="rippleColor" format="color" />
-    <attr name="rippleAlpha" format="color" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
@@ -530,10 +559,14 @@
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialSwitchStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
+    <attr name="chipGroupStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
     <attr name="bottomAppBarStyle" format="reference" />
+    <attr name="cardViewStyle" format="reference" />
+    <attr name="maxHeight" format="dimension" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
@@ -598,8 +631,8 @@
     <attr name="iconSpaceReserved" format="boolean" />
     <attr name="allowDividerAfterLastItem" format="boolean" />
     <attr name="orderingFromXml" format="boolean" />
+    <attr name="initialExpandedChildrenCount" format="integer" />
     <attr name="maxWidth" format="dimension" />
-    <attr name="maxHeight" format="dimension" />
     <attr name="preferenceTheme" format="reference" />
     <attr name="preferenceScreenStyle" format="reference" />
     <attr name="preferenceActivityStyle" format="reference" />
@@ -733,6 +766,13 @@
     <attr name="tabIndicatorHeight" format="dimension" />
     <attr name="tabContentStart" format="dimension" />
     <attr name="tabBackground" format="reference" />
+    <attr name="tabIndicator" format="reference" />
+    <attr name="tabIndicatorGravity">
+        <enum name="bottom" value="0" />
+        <enum name="center" value="1" />
+        <enum name="top" value="2" />
+        <enum name="stretch" value="3" />
+    </attr>
     <attr name="tabMode">
         <enum name="fixed" value="1" />
         <enum name="scrollable" value="0" />
@@ -762,7 +802,6 @@
         <enum name="src_over" value="3" />
     </attr>
     <attr name="tabRippleColor" format="color" />
-    <attr name="tabRippleAlpha" format="color" />
     <attr name="hintEnabled" format="boolean" />
     <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="hintTextAppearance" format="reference" />

@@ -54,6 +54,14 @@
 
                         <ImageView style="@*com.google.android.calendar:style/HeadlineCloseButton" />
                     </com.google.android.calendar.common.view.ClickTargetFrameLayout>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal"
+                        android:id="@*com.google.android.calendar:id/overflow_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
                 </FrameLayout>
             </FrameLayout>
 

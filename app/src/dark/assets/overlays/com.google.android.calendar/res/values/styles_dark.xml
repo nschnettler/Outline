@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="CalendarTheme.AbstractNoActionBar" parent="@*com.google.android.calendar:style/Theme.AppCompat.NoActionBar" />
+
+    <style name="Edit.Text.CustomNotification.Title" parent="@*com.google.android.calendar:style/Edit.Text.CustomNotification">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+    </style>
 </resources>
