@@ -2,4 +2,9 @@
 <resources>
     <!-- Bluetooth Pair Dialog -->
     <color name="bluetooth_dialog_text_color">#FFFFFF</color>
+
+    <!-- Exposures -->
+    <color name="suggestion_card_collapsed_summary_text_color">#FFFFFF</color>
+    <color name="suggestion_card_collapsed_title_text_color">#FFFFFF</color>
+    <color name="suggestion_card_more_text_color">#FFFFFF</color>
 </resources>
