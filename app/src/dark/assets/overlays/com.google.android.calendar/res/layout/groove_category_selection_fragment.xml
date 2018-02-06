@@ -24,7 +24,7 @@
             android:layout_marginStart="@*com.google.android.calendar:dimen/groove_action_bar_text_margin_start" />
     </FrameLayout>
 
-    <com.google.android.calendar.groove.ObservableScrollView
+    <com.google.android.calendar.common.view.ObservableScrollView
         android:id="@*com.google.android.calendar:id/category_scroll_view"
         android:scrollbars="none"
         android:layout_width="fill_parent"
@@ -65,5 +65,5 @@
                     android:text="@*com.google.android.calendar:string/groove_category_selection_description" />
             </LinearLayout>
         </LinearLayout>
-    </com.google.android.calendar.groove.ObservableScrollView>
+    </com.google.android.calendar.common.view.ObservableScrollView>
 </RelativeLayout>
