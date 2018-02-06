@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_text_color">@android:color/holo_blue_light</color>
+    <color name="result_bar_active_color">@android:color/holo_blue_light</color>
+    <color name="blue_0">@android:color/holo_blue_light</color>
+    <color name="blue_1">@android:color/holo_blue_light</color>
+    <color name="blue_2">@android:color/holo_blue_light</color>
+    <color name="blue_3">@android:color/holo_blue_light</color>
+    <color name="blue_4">@android:color/holo_blue_light</color>
+    <color name="blue_5">@android:color/holo_blue_light</color>
+    <color name="blue_6">@android:color/holo_blue_light</color>
+    <color name="blue_7">@android:color/holo_blue_light</color>
+    <color name="blue_8">@android:color/holo_blue_light</color>
+    <color name="blue_9">@android:color/holo_blue_light</color>
+</resources>
