@@ -71,6 +71,7 @@
     <color name="manage_accounts_text_color">#FFFFFF</color>                                        <!-- Accounts: Add, manage -->
     <color name="add_accounts_text_color">#ffffffff</color>
     <color name="navigation_drawer_enabled_item_text">#FFFFFF</color>
+    <color name="quantum_black_100">#FFFFFF</color>
 
     <!-- Various -->
     <color name="quantum_bluegrey700">#b3FFFFFF</color>
