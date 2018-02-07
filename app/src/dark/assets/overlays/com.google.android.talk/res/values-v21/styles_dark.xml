@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog" /><!-- Snooze Dialog -->
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@*com.google.android.talk:style/Base.V21.Theme.AppCompat.Dialog" />
 
 	<!-- Settings -->
 	<style name="Theme.Hangouts.Settings" parent="@*com.google.android.talk:style/Theme.AppCompat.Light.DarkActionBar">
