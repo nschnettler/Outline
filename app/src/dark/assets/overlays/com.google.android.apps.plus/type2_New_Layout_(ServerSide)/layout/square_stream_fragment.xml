@@ -28,7 +28,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     app:layout_collapseMode="pin"
-                    android:backgroundTint="@android:color/holo_green_light"/>
+                    android:backgroundTint="#1AFFFFFF"/>
 
                 <View
                     android:background="@*com.google.android.apps.plus:drawable/text_scrim"
