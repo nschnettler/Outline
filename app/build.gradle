@@ -27,8 +27,8 @@ android {
     defaultConfig {
         minSdkVersion 27
         targetSdkVersion 27
-        versionCode 27003
-        versionName "Oreo - 13.1.1"
+        versionCode 27004
+        versionName "Oreo - 14"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" +
                 SUPPORTS_THIRD_PARTY_SYSTEMS
