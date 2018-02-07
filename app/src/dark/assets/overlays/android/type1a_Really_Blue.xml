@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="background_material_dark">#1e2748</color>                                          <!-- Primary Background -->
+    <color name="background_dark">#18203a</color>                                                   <!-- Background Darker -->
+    <!-- Primary Color -->
+    <color name="primary_material_dark">#1e2748</color>                                             <!-- Primary -->
+    <color name="primary_dark_material_dark">#1e2748</color>                                        <!-- Primary Dark -->
+</resources>

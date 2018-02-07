@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preview">#1e2748</color>
+    <style name="drawer.Dark" parent="@*pl.solidexplorer2:style/drawer">
+        <item name="android:background">#1e2747</item>
+    </style>
+</resources>
