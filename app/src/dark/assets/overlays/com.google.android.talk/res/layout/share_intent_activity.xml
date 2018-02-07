@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@*com.google.android.talk:id/conversation_list_fragment_container"
+    android:background="@*android:color/background_material_dark"
+    android:paddingTop="@*com.google.android.talk:dimen/abc_dialog_padding_top_material"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@*com.google.android.talk:id/conversation_list_fragment"
+        android:tag="top_level"
+        android:background="@*com.google.android.talk:color/conversation_bg_color"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <View
+        android:id="@*com.google.android.talk:id/divider"
+        style="@*com.google.android.talk:style/horizontalDividerStyle" />
+
+    <Button
+        android:gravity="center"
+        android:id="@*com.google.android.talk:id/button_start_new_conversation"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:text="@*com.google.android.talk:string/new_hangout_label"
+        android:onClick="onStartNewHangoutButtonClick"
+        style="@*com.google.android.talk:style/borderlessButtonStyle" />
+
+    <Button
+        android:gravity="center"
+        android:id="@*com.google.android.talk:id/button_start_new_sms"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:text="@*com.google.android.talk:string/new_sms_label"
+        android:onClick="onStartNewSmsButtonClick"
+        style="@*com.google.android.talk:style/borderlessButtonStyle" />
+</LinearLayout>
