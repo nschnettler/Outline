@@ -3,6 +3,6 @@
     <!-- Bottom Bar Selector -->
     <style name="TabBarButton">
         <item name="*com.instagram.android:active">@android:color/holo_blue_light</item>
-        <item name="*com.instagram.android:normal">#b3FFFFFF</item>
+        <item name="*com.instagram.android:normal">#b2b2b2</item>
     </style>
 </resources>
