@@ -20,6 +20,7 @@
     <color name="gray_424345">@*android:color/background_material_dark</color>                      <!-- Grid Card -->
     <color name="gray_2f2a29">@*android:color/background_material_dark</color>                      <!-- LaunchScreen -->
     <color name="background_white_d">@*android:color/background_material_dark</color>
+    <color name="background_black_2c2e30">@*android:color/background_material_dark</color>                <!-- Main -->
 
     <!-- Divider -->
     <color name="background_black_3e">@*android:color/background_dark</color>
