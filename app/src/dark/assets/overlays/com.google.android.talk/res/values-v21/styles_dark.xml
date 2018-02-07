@@ -51,4 +51,10 @@
 		<item name="android:paddingStart">0.0dip</item>
 		<item name="android:paddingEnd">@*com.google.android.talk:dimen/l_space</item>
 	</style>
+
+	<style name="Theme.PhoneVerification" parent="@android:style/Theme.Material.NoActionBar">
+		<item name="android:textColorPrimary">@*com.google.android.talk:color/quantum_black_text</item>
+		<item name="android:textColor">@*com.google.android.talk:color/quantum_black_secondary_text</item>
+		<item name="android:colorAccent">@*com.google.android.talk:color/quantum_googgreenA200</item>
+	</style>
 </resources>
