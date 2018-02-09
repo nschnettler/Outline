@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="content_description_rated">
+        <item quantity="other">La tua valutazione: %1$s stelle</item>
+        <item quantity="one">La tua valutazione: %1$s stella</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d recensioni</item>
+        <item quantity="one">%1$d recensione</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d recensioni per valutazione a stelle %2$d</item>
+        <item quantity="one">%1$d recensione per valutazione a stelle %2$d</item>
+    </plurals>
+    <plurals name="installs_paused">
+        <item quantity="other">Installazioni in pausa</item>
+        <item quantity="one">Installazione in pausa</item>
+    </plurals>
+    <plurals name="myapps_security_last_scanned_days_ago">
+        <item quantity="other">App analizzate %1$d giorni fa</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="myapps_security_recently_removed_message">
+        <item quantity="other">%1$d app dannose rimosse. %2$s.</item>
+        <item quantity="one">%1$d app dannosa rimossa. %2$s.</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d aggiornamenti da approvare</item>
+        <item quantity="one">%1$d aggiornamento da approvare</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d nuovi aggiornamenti</item>
+        <item quantity="one">%1$d nuovo aggiornamento</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d aggiornamenti disponibili</item>
+        <item quantity="one">%1$d aggiornamento disponibile</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Aggiorna tutto</item>
+        <item quantity="one">Aggiorna</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d applicazioni aggiornate</item>
+        <item quantity="one">%1$d applicazione aggiornata</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&lt;b>%1$s&lt;/b> %2$s stelle</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> %2$s stella</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&lt;b>%1$s&lt;/b> %2$s stelle - %3$s</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> %2$s stella - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&lt;b>%1$s&lt;/b> %2$s stelle - %3$s - %4$s</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> %2$s stella - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d utenti hanno trovato utile questa recensione. Contrassegna il commento come utile</item>
+        <item quantity="one">%1$d utente ha trovato utile questa recensione. Contrassegna il commento come utile</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d utenti hanno trovato utile questa recensione. Rimuovi il contrassegno del commento come utile</item>
+        <item quantity="one">%1$d utente ha trovato utile questa recensione. Rimuovi il contrassegno del commento come utile</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Voto &lt;b>%1$s stelle&lt;/b></item>
+        <item quantity="one">Voto &lt;b>%1$s stella&lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">in %1$s recensioni</item>
+        <item quantity="one">in %1$s recensione</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&lt;b>%1$s stelle&lt;/b> %2$s</item>
+        <item quantity="one">&lt;b>%1$s stella&lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Ultimo utilizzo %1$d giorni fa</item>
+        <item quantity="one">Ultimo utilizzo %1$d giorno fa</item>
+    </plurals>
+    <plurals name="setup_wizard_restore_selected_apps">
+        <item quantity="other">Ripristina le %1$d app selezionate</item>
+        <item quantity="one">"Ripristina l'app selezionata"</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">stelle</item>
+        <item quantity="one">stella</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_installs_v2">
+        <item quantity="other">Le app saranno installate a breve.</item>
+        <item quantity="one">"L'app sarà installata a breve."</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_updates_v2">
+        <item quantity="other">Gli aggiornamenti delle app saranno installati a breve.</item>
+        <item quantity="one">"L'aggiornamento dell'app sarà installato a breve."</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_days">
+        <item quantity="other">Ultimo utilizzo: %1$d giorni fa</item>
+        <item quantity="one">Ultimo utilizzo: %1$d giorno fa</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_months">
+        <item quantity="other">Ultimo utilizzo: %1$d mesi fa</item>
+        <item quantity="one">Ultimo utilizzo: %1$d mese fa</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_accessibility_v2">
+        <item quantity="other">Per installare app o aggiornamenti sul dispositivo, elimina le app di cui non hai più bisogno. Puoi liberare spazio anche eliminando i file multimediali nelle impostazioni della memoria.</item>
+        <item quantity="one">Per installare app o aggiornamenti sul dispositivo, elimina le app di cui non hai più bisogno. Puoi liberare spazio anche eliminando i file multimediali nelle impostazioni della memoria.</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_exact_v2">
+        <item quantity="other">Per installare app o aggiornamenti sul dispositivo, elimina le app di cui non hai più bisogno. Puoi liberare spazio anche eliminando i file multimediali in &lt;a href=\"\">Impostazioni > Memoria&lt;/a>.</item>
+        <item quantity="one">Per installare app o aggiornamenti sul dispositivo, elimina le app di cui non hai più bisogno. Puoi liberare spazio anche eliminando i file multimediali in &lt;a href=\"\">Impostazioni > Memoria&lt;/a>.</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_fallback_v2">
+        <item quantity="other">Per installare app o aggiornamenti sul dispositivo, elimina le app di cui non hai più bisogno. Puoi liberare spazio anche eliminando i file multimediali in Impostazioni > Memoria.</item>
+        <item quantity="one">Per installare app o aggiornamenti sul dispositivo, elimina le app di cui non hai più bisogno. Puoi liberare spazio anche eliminando i file multimediali in Impostazioni > Memoria.</item>
+    </plurals>
+</resources>
