@@ -17,7 +17,6 @@
     <color name="corrected_query_link_color">@android:color/holo_red_dark</color>
     <color name="quantum_blue">@android:color/holo_red_dark</color>
     <color name="callout_drawable_background_color">@android:color/holo_red_dark</color>
-    <color name="muted_native_ad_text_color">@android:color/holo_red_dark</color>
     <color name="yt_material_blue_500">@android:color/holo_red_dark</color>
 
     <!-- Light Theme -->
