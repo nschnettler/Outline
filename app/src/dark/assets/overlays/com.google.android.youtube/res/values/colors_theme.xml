@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Video -->
-    <color name="theme_watch_color_primary_dark">#000000</color>
-    <!-- Settings -->
-    <color name="theme_main_color_primary_dark">@android:color/holo_red_light</color>
-    <!-- StatusBar -->
-    <color name="white_header_statusbar_color">@*android:color/primary_material_dark</color>
-</resources>
