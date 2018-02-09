@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="content_description_rated">
+        <item quantity="other">Votre note : %1$s étoiles</item>
+        <item quantity="one">Votre note : %1$s étoile</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d avis</item>
+        <item quantity="one">%1$d avis</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d avis avec la note %2$d</item>
+        <item quantity="one">%1$d avis avec la note %2$d</item>
+    </plurals>
+    <plurals name="installs_paused">
+        <item quantity="other">Installations suspendues</item>
+        <item quantity="one">Installation suspendue</item>
+    </plurals>
+    <plurals name="myapps_security_last_scanned_days_ago">
+        <item quantity="other">Applications analysées il y a %1$d jours</item>
+        <item quantity="one">Applications analysées il y a %1$d jour</item>
+    </plurals>
+    <plurals name="myapps_security_recently_removed_message">
+        <item quantity="other">%1$d applications malveillantes supprimées. %2$s.</item>
+        <item quantity="one">%1$d application malveillante supprimée. %2$s.</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d mises à jour à approuver</item>
+        <item quantity="one">%1$d mise à jour à approuver</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d nouvelles mises à jour</item>
+        <item quantity="one">%1$d nouvelle mise à jour</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d mises à jour disponibles</item>
+        <item quantity="one">%1$d mise à jour disponible</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Tout mettre à jour</item>
+        <item quantity="one">Tout mettre à jour</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d applications ont bien été mises à jour.</item>
+        <item quantity="one">%1$d application a bien été mise à jour.</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&lt;b>%1$s&lt;/b> : %2$s étoiles</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> : %2$s étoile</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&lt;b>%1$s&lt;/b> : %2$s étoiles – %3$s</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> : %2$s étoile – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&lt;b>%1$s&lt;/b> : %2$s étoiles – %3$s – %4$s</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> : %2$s étoile – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d utilisateurs ont trouvé cet avis utile. Indiquer que le commentaire est utile.</item>
+        <item quantity="one">%1$d utilisateur a trouvé cet avis utile. Indiquer que le commentaire est utile.</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d utilisateurs ont trouvé cet avis utile. Ne plus signaler ce commentaire comme utile.</item>
+        <item quantity="one">%1$d utilisateur a trouvé cet avis utile. Ne plus signaler ce commentaire comme utile.</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&lt;b>%1$s étoiles&lt;/b> attribuées à cet élément</item>
+        <item quantity="one">&lt;b>%1$s étoile&lt;/b> attribuée à cet élément</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">dans %1$s avis</item>
+        <item quantity="one">dans %1$s avis</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&lt;b>%1$s étoiles&lt;/b> – %2$s</item>
+        <item quantity="one">&lt;b>%1$s étoile&lt;/b> – %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Dernière utilisation il y a %1$d jours</item>
+        <item quantity="one">Dernière utilisation il y a %1$d jour</item>
+    </plurals>
+    <plurals name="setup_wizard_restore_selected_apps">
+        <item quantity="other">Restaurer les %1$d applications sélectionnées</item>
+        <item quantity="one">"Restaurer l'application sélectionnée (%1$d)"</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">étoiles</item>
+        <item quantity="one">étoile</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_installs_v2">
+        <item quantity="other">Les applications seront bientôt installées.</item>
+        <item quantity="one">"L'application sera bientôt installée."</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_updates_v2">
+        <item quantity="other">Les applications seront bientôt mises à jour.</item>
+        <item quantity="one">"L'application sera bientôt mise à jour."</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_days">
+        <item quantity="other">Dernière utilisation il y a %1$d jours</item>
+        <item quantity="one">Dernière utilisation il y a %1$d jour</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_months">
+        <item quantity="other">Dernière utilisation il y a %1$d mois</item>
+        <item quantity="one">Dernière utilisation il y a %1$d mois</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_accessibility_v2">
+        <item quantity="other">Pour installer des applis ou des mises à jour sur cet appareil, supprimez les applis qui ne servent plus. Vous pouvez aussi supprimer des fichiers multimédias dans Paramètres > Stockage.</item>
+        <item quantity="one">Pour installer une appli ou une mise à jour sur cet appareil, supprimez les applis qui ne servent plus. Vous pouvez aussi supprimer des fichiers multimédias dans Paramètres > Stockage.</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_exact_v2">
+        <item quantity="other">Pour installer des applis ou des mises à jour sur cet appareil, supprimez les applis qui ne servent plus. Vous pouvez aussi supprimer des fichiers multimédias dans &lt;a href=\"\">Paramètres > Stockage&lt;/a>.</item>
+        <item quantity="one">Pour installer une appli ou une mise à jour sur cet appareil, supprimez les applis qui ne servent plus. Vous pouvez aussi supprimer des fichiers multimédias dans &lt;a href=\"\">Paramètres > Stockage&lt;/a>.</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_fallback_v2">
+        <item quantity="other">Pour installer des applis ou des mises à jour sur cet appareil, supprimez les applis qui ne servent plus. Vous pouvez aussi supprimer des fichiers multimédias dans Paramètres > Stockage.</item>
+        <item quantity="one">Pour installer une appli ou une mise à jour sur cet appareil, supprimez les applis qui ne servent plus. Vous pouvez aussi supprimer des fichiers multimédias dans Paramètres > Stockage.</item>
+    </plurals>
+</resources>
