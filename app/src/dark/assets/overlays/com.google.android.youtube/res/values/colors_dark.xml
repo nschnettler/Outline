@@ -25,8 +25,7 @@
     <color name="yt_icon_2_dark">#FFFFFF</color>
 
 
-    <!-- Icons -->
-    <color name="yt_static_grey">#FFFFFF</color>
+
     <!-- Backgrounds -->
         <!-- Toolbar / Statusbar -->
             <!-- Settings -->
@@ -50,14 +49,9 @@
         <color name="share_panel_background_color">@*android:color/background_material_dark</color>                     <!-- Loading Background -->
         <color name="share_panel_list_background_color">@*android:color/background_material_dark</color>                <!-- Share Panel Main Background -->
         <!-- Ad -->
-        <color name="muted_native_ad_background_color">@*android:color/background_dark</color>                          <!-- Muted -->
         <color name="companion_background_color_dark">@*android:color/background_dark</color>
         <!-- Various -->
-        <color name="yt_background_1_light">@*android:color/background_material_dark</color>  <!-- Videopage -->
-        <color name="yt_background_2_light">@*android:color/background_material_dark</color>
-        <color name="yt_background_3_light">@*android:color/background_dark</color>
-        <color name="yt_background_4_light">@*android:color/background_dark</color>
-        <color name="sticky_refinement_card_background_color">@*android:color/background_material_dark</color>          <!-- Search Refinement Card -->
+        <color name="yt_background_1_light">@*android:color/background_material_dark</color>
         <!-- NavigationBar -->
         <color name="navigationbar_background_light">@android:color/holo_red_light</color>
         <color name="navigationbar_divider_light">@*android:color/background_material_dark</color>
