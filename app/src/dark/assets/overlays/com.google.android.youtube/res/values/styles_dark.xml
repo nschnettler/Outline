@@ -7,6 +7,14 @@
         <item name="android:layout_height">1.0dip</item>
     </style>
 
+    <style name="Mdx.Theme.Settings" parent="@*com.google.android.youtube:style/Theme.AppCompat">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="*com.google.android.youtube:actionBarStyle">@*com.google.android.youtube:style/Mdx.ActionBar</item>
+        <item name="*com.google.android.youtube:colorPrimary">@*com.google.android.youtube:color/mdx_actionbar_background</item>
+        <item name="*com.google.android.youtube:colorPrimaryDark">@*com.google.android.youtube:color/mdx_statusbar_background</item>
+        <item name="*com.google.android.youtube:colorAccent">@*com.google.android.youtube:color/color_brand_accent</item>
+    </style>
+
     <!-- Some Texts -->
     <style name="TextAppearance.YouTube.Body1.Inverse" parent="@*com.google.android.youtube:style/Base.TextAppearance.AppCompat.Body1">
         <item name="android:textColor">?android:textColorPrimary</item>

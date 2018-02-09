@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/com.google.android.youtube"
+    _xmlns:tools="http://schemas.android.com/tools"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@*com.google.android.youtube:id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/small_font_size"
+            android:textColor="#ff1b7fcc"
+            android:gravity="center_vertical"
+            android:id="@*com.google.android.youtube:id/card_list_button"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:maxLines="1"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="true"
+            android:layout_alignParentEnd="true"
+            res-auto:robotoFont="regular"
+            xmlns:res-auto="http://schemas.android.com/apk/com.google.android.youtube" />
+
+        <include
+            android:id="@*com.google.android.youtube:id/card_list_subscribe_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            layout="@*com.google.android.youtube:layout/subscribe_button" />
+
+        <FrameLayout
+            android:id="@*com.google.android.youtube:id/card_list_contextual_menu_anchor_wrapper"
+            android:layout_width="@*com.google.android.youtube:dimen/innertube_menu_anchor_size"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@*com.google.android.youtube:id/rich_list_header"
+            android:layout_alignBottom="@*com.google.android.youtube:id/rich_list_header"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+
+            <include
+                android:layout_gravity="end|center"
+                android:id="@*com.google.android.youtube:id/card_list_contextual_menu_anchor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginEnd="16.0dip"
+                layout="@*com.google.android.youtube:layout/contextual_menu_anchor" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@*com.google.android.youtube:id/card_list_container"
+        android:backgroundTint="@*android:color/background_material_dark"
+        android:paddingLeft="16.0dip"
+        android:paddingTop="4.0dip"
+        android:paddingRight="16.0dip"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4.0dip" />
+</LinearLayout>

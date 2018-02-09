@@ -10,7 +10,7 @@
     xmlns:_xmlns="xmlns"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageView
+    <android.support.v7.widget.AppCompatImageView
         android:layout_gravity="center_vertical"
         android:id="@*com.google.android.youtube:id/search_type_icon"
         android:visibility="invisible"
@@ -19,10 +19,11 @@
         android:layout_marginLeft="4.0dip"
         android:src="@*com.google.android.youtube:drawable/ic_query_suggestion"
         android:scaleType="centerInside"
+        android:tint="?*com.google.android.youtube:ytIcon1"
         android:layout_marginStart="4.0dip" />
 
     <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.youtube:dimen/medium_font_size"
-        android:textColor="#FFFFFF"
+        android:textColor="?*com.google.android.youtube:ytText2"
         android:background="@*android:color/holo_red_light"
         android:ellipsize="end"
         android:gravity="center_vertical"
@@ -37,14 +38,16 @@
         android:textAlignment="viewStart"
         android:paddingStart="20.0dip"
         android:paddingEnd="56.0dip"
-        res-auto:robotoFont="regular" />
+        res-auto:robotoFont="regular"
+        xmlns:res-auto="http://schemas.android.com/apk/com.google.android.youtube" />
 
-    <ImageView
+    <android.support.v7.widget.AppCompatImageView
         android:layout_gravity="end|center"
         android:id="@*com.google.android.youtube:id/edit_suggestion"
         android:layout_width="48.0dip"
         android:layout_height="fill_parent"
         android:src="@*com.google.android.youtube:drawable/ic_edit_suggestion"
         android:scaleType="centerInside"
+        android:tint="?*com.google.android.youtube:ytIcon1"
         android:contentDescription="@*com.google.android.youtube:string/accessibility_search_edit_suggestion" />
 </LinearLayout>
