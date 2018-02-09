@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="content_description_rated">
+        <item quantity="other">あなたの評価: %1$sつ星</item>
+        <item quantity="one">あなたの評価: %1$sつ星</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d件のレビュー</item>
+        <item quantity="one">%1$d件のレビュー</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d件の%2$dつ星のレビュー</item>
+        <item quantity="one">%1$d件の%2$dつ星のレビュー</item>
+    </plurals>
+    <plurals name="installs_paused">
+        <item quantity="other">インストールを一時停止しました</item>
+        <item quantity="one">インストールを一時停止しました</item>
+    </plurals>
+    <plurals name="myapps_security_last_scanned_days_ago">
+        <item quantity="other">前回のアプリのスキャン: %1$d 日前</item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="myapps_security_recently_removed_message">
+        <item quantity="other">%2$s: 有害なアプリを %1$d 個削除しました。</item>
+        <item quantity="one">%2$s: 有害なアプリを %1$d 個削除しました。</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d件のアップデートで承認が必要です</item>
+        <item quantity="one">%1$d件のアップデートで承認が必要です</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d件の新しいアップデート</item>
+        <item quantity="one">%1$d件の新しいアップデート</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d件のアップデートがあります</item>
+        <item quantity="one">%1$d件のアップデートがあります</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">すべて更新</item>
+        <item quantity="one">更新</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d個のアプリを更新しました</item>
+        <item quantity="one">%1$d個のアプリを更新しました</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&lt;b>%1$s&lt;/b>、%2$sつ星</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>、%2$sつ星</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&lt;b>%1$s&lt;/b>、%2$sつ星 - %3$s</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>、%2$sつ星 - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&lt;b>%1$s&lt;/b>、%2$sつ星 - %3$s - %4$s</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>、%2$sつ星 - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d人が、このレビューが役に立ったと評価しました。コメントが役に立ったと評価します</item>
+        <item quantity="one">%1$d人が、このレビューが役に立ったと評価しました。コメントが役に立ったと評価します</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d人が、このレビューが役に立ったと評価しました。役立ったコメントとしての評価を削除します</item>
+        <item quantity="one">%1$d人が、このレビューが役に立ったと評価しました。役立ったコメントとしての評価を削除します</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&lt;b>%1$sつ星&lt;/b>と評価しました</item>
+        <item quantity="one">&lt;b>%1$sつ星&lt;/b>と評価しました</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s件のレビュー</item>
+        <item quantity="one">%1$s件のレビュー</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&lt;b>%1$sつ星&lt;/b>、%2$s</item>
+        <item quantity="one">&lt;b>%1$sつ星&lt;/b>、%2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">前回の使用: %1$d日前</item>
+        <item quantity="one">前回の使用: %1$d日前</item>
+    </plurals>
+    <plurals name="setup_wizard_restore_selected_apps">
+        <item quantity="other">選択した %1$d 個のアプリを復元</item>
+        <item quantity="one">選択したアプリを復元</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">つ星</item>
+        <item quantity="one">つ星</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_installs_v2">
+        <item quantity="other">アプリはまもなくインストールされます。</item>
+        <item quantity="one">アプリはまもなくインストールされます。</item>
+    </plurals>
+    <plurals name="uninstall_manager_app_uninstallation_progress_updates_v2">
+        <item quantity="other">アプリのアップデートはまもなくインストールされます。</item>
+        <item quantity="one">アプリのアップデートはまもなくインストールされます。</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_days">
+        <item quantity="other">前回の使用: %1$d 日前</item>
+        <item quantity="one">前回の使用: %1$d 日前</item>
+    </plurals>
+    <plurals name="uninstall_manager_last_used_months">
+        <item quantity="other">前回の使用: %1$d か月前</item>
+        <item quantity="one">前回の使用: %1$d か月前</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_accessibility_v2">
+        <item quantity="other">この端末でアプリまたはアップデートをインストールするには、不要になったアプリを削除してください。[ストレージの設定] でメディア ファイルを削除して空き容量を増やすこともできます。</item>
+        <item quantity="one">この端末でアプリまたはアップデートをインストールするには、不要になったアプリを削除してください。[ストレージの設定] でメディア ファイルを削除して空き容量を増やすこともできます。</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_exact_v2">
+        <item quantity="other">この端末でアプリまたはアップデートをインストールするには、不要になったアプリを削除してください。&lt;a href=\"\">[設定] > [ストレージ]&lt;/a> でメディア ファイルを削除して空き容量を増やすこともできます。</item>
+        <item quantity="one">この端末でアプリまたはアップデートをインストールするには、不要になったアプリを削除してください。&lt;a href=\"\">[設定] > [ストレージ]&lt;/a> でメディア ファイルを削除して空き容量を増やすこともできます。</item>
+    </plurals>
+    <plurals name="uninstall_manager_subtitle_fallback_v2">
+        <item quantity="other">この端末でアプリまたはアップデートをインストールするには、不要になったアプリを削除してください。[設定] > [ストレージ] でメディア ファイルを削除して空き容量を増やすこともできます。</item>
+        <item quantity="one">この端末でアプリまたはアップデートをインストールするには、不要になったアプリを削除してください。[設定] > [ストレージ] でメディア ファイルを削除して空き容量を増やすこともできます。</item>
+    </plurals>
+</resources>
