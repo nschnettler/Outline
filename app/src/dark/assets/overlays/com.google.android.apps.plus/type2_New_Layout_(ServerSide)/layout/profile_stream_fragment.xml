@@ -2,29 +2,29 @@
 <android.support.v4.widget.SwipeRefreshLayout android:id="@*com.google.android.apps.plus:id/swipe_to_refresh"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.design.widget.CoordinatorLayout android:id="@*com.google.android.apps.plus:id/square_stream"
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@*com.google.android.apps.plus:id/profile_stream"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto">
+        android:layout_height="fill_parent">
 
         <android.support.design.widget.AppBarLayout
             android:theme="@*com.google.android.apps.plus:style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            android:id="@*com.google.android.apps.plus:id/square_stream_app_bar"
+            android:id="@*com.google.android.apps.plus:id/profile_stream_app_bar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
             <android.support.design.widget.CollapsingToolbarLayout
-                android:id="@*com.google.android.apps.plus:id/square_stream_collapsing_toolbar"
+                android:id="@*com.google.android.apps.plus:id/profile_stream_collapsing_toolbar"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 app:layout_scrollFlags="exitUntilCollapsed|scroll"
                 app:contentScrim="?colorPrimary">
 
                 <com.google.android.apps.plus.entity.header.EntityHeaderView
-                    android:id="@*com.google.android.apps.plus:id/square_header_view"
+                    android:id="@*com.google.android.apps.plus:id/profile_header_view"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     app:layout_collapseMode="pin"
@@ -37,7 +37,7 @@
                     app:layout_collapseMode="pin" />
 
                 <android.support.v7.widget.Toolbar
-                    android:id="@*com.google.android.apps.plus:id/square_stream_toolbar"
+                    android:id="@*com.google.android.apps.plus:id/profile_stream_toolbar"
                     android:layout_width="fill_parent"
                     android:layout_height="?actionBarSize"
                     app:popupTheme="@*com.google.android.apps.plus:style/Theme.ArkhamLight"
@@ -61,17 +61,13 @@
                 android:layout_height="4.0dip" />
         </FrameLayout>
 
-        <include layout="@*com.google.android.apps.plus:layout/new_post_button" />
-
         <android.support.design.widget.FloatingActionButton
             android:id="@*com.google.android.apps.plus:id/plus_fab"
-            android:visibility="gone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_behavior="com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior"
             app:layout_anchor="@*com.google.android.apps.plus:id/scroll_view"
             app:layout_anchorGravity="end|center|bottom"
-            app:backgroundTint="@*com.google.android.apps.plus:color/quantum_googgreen500"
-            style="@*com.google.android.apps.plus:style/PlusFab" />
+            style="@*com.google.android.apps.plus:style/PlusFabRed" />
     </android.support.design.widget.CoordinatorLayout>
 </android.support.v4.widget.SwipeRefreshLayout>
