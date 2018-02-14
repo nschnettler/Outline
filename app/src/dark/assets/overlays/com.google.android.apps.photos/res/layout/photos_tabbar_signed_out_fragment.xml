@@ -35,6 +35,7 @@
     <View
         android:id="@*com.google.android.apps.photos:id/fill_under_navigation_bar"
         android:background="@*android:color/background_material_dark"
+        android:backgroundTint="@*android:color/background_material_dark"
         android:layout_width="fill_parent"
         android:layout_height="0.0dip" />
 </LinearLayout>
