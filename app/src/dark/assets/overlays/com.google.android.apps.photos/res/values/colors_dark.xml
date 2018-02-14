@@ -21,6 +21,7 @@
     <color name="sendkit_ui_autocomplete_background_color">@*android:color/background_material_dark</color>
     <color name="sendkit_ui_autocomplete_row_background_color">@*android:color/background_material_dark</color>
     <color name="sendkit_ui_autocomplete_chip_background">@*android:color/background_dark</color>                   <!-- Share user selected -->
+    <color name="photos_theme_fake_shadow_end_color">@*android:color/background_dark</color>                        <!-- BottomBar Shadow -->
 
     <!-- Text -->
     <color name="quantum_black_text">#FFFFFF</color>
