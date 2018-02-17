@@ -11,8 +11,9 @@
         <!-- Card -->
         <color name="cardview_dark_background">@*android:color/background_material_dark</color>                     <!-- Cards -->
         <!-- Snackbar -->
-        <color name="snackbar_background">@*android:color/background_material_dark</color>                          <!-- Snackbar -->
+        <color name="snackbar_background">@*android:color/background_material_dark</color>
         <color name="owner_snackbar_bg">@*android:color/background_material_dark</color>
+        <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
         <!-- Dialogs -->
         <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>  <!-- Dialogs / u.a. "create Label" -->
         <color name="material_grey_800">@*android:color/background_floating_material_dark</color>                   <!-- Dialog -->
