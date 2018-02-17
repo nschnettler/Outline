@@ -170,6 +170,15 @@
                     android:layout_width="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_size"
                     android:layout_height="@*com.google.android.apps.messaging:dimen/conversation_list_image_preview_size"
                     app:layoutMode="subcompact" />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@*com.google.android.apps.messaging:id/conversation_video_overlay_image"
+                    android:visibility="gone"
+                    android:layout_width="@*com.google.android.apps.messaging:dimen/conversation_list_video_overlay_size"
+                    android:layout_height="@*com.google.android.apps.messaging:dimen/conversation_list_video_overlay_size"
+                    android:src="@*com.google.android.apps.messaging:drawable/ic_play_circle_filled"
+                    android:contentDescription="@null" />
             </FrameLayout>
         </LinearLayout>
     </FrameLayout>
