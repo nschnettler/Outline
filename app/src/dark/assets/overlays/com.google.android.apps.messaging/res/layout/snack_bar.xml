@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@*com.google.android.apps.messaging:dimen/snack_bar_top_bottom_margin"
             android:layout_marginBottom="@*com.google.android.apps.messaging:dimen/snack_bar_top_bottom_margin"
-            android:layout_weight="0.7"
+            android:layout_weight="1.0"
             style="@*com.google.android.apps.messaging:style/SnackBarMessageWrapper">
 
             <TextView
@@ -33,11 +33,10 @@
         <FrameLayout
             android:layout_gravity="center_vertical"
             android:id="@*com.google.android.apps.messaging:id/snack_bar_action_wrapper"
-            android:layout_width="0.0dip"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@*com.google.android.apps.messaging:dimen/snack_bar_top_bottom_margin"
             android:layout_marginBottom="@*com.google.android.apps.messaging:dimen/snack_bar_top_bottom_margin"
-            android:layout_weight="0.3"
             style="@*com.google.android.apps.messaging:style/SnackBarMessageWrapper">
 
             <TextView
