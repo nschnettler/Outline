@@ -1478,4 +1478,7 @@ Aktivieren Sie zunächst NFC in den Einstellungen und halten Sie anschließend I
     <string name="year">Jahr</string>
     <string name="yes">Ja</string>
     <string name="yes_im_in">OK</string>
+
+    <string name="notification_center">Meine Benachrichtigungen</string>
+    <string name="subscriptions_center">Meine Abos</string>
 </resources>
