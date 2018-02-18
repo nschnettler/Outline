@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@*com.topjohnwu.magisk:style/Base.V23.Theme.AppCompat.Light">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorControlNormal">#757575</item>
+    </style>
+
+    <style name="Base.V26.Theme.AppCompat" parent="@*com.topjohnwu.magisk:style/Base.V23.Theme.AppCompat">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

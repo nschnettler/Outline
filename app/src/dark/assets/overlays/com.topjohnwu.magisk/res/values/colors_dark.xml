@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialog -->
-    <color name="button_material_dark">@android:color/background_dark</color>                       <!-- Button -->
-    <color name="ripple_material_dark">@android:color/background_dark</color>                       <!-- Drawer Selected -->
-    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
-
-    <color name="icon_grey">#FFFFFF</color>                                                         <!-- Some Icons -->
-</resources>
