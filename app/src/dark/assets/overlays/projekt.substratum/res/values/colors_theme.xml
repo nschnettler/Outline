@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="colorPrimary">@*android:color/primary_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/primary_material_dark</color>
+    <color name="bottombar_bar_background">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+
+    <!-- Overlay Status (2) -->
+    <color name="overlay_not_enabled_list_entry">#FFFFFF</color>                                    <!-- Installed -->
+    <color name="overlay_not_installed_list_entry">#80FFFFFF</color>                                <!-- Not Installed -->
+    <!-- Drawer Header -->
+    <color name="material_drawer_header_selection_text">#FFFFFF</color>
+</resources>
