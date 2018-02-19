@@ -16,6 +16,7 @@
         <color name="dark_fragment_background">@*android:color/background_material_dark</color>
         <!-- Show Details -->
         <color name="show_trend_background">@*android:color/background_dark</color>                 <!-- Rating image border -->
+        <color name="watched_on_source_bg">@*android:color/background_material_dark</color>
         <!-- Profile -->
         <color name="champagne">@*android:color/background_material_dark</color>                    <!-- Background for example Number of episode watched -->
         <!-- Dialog -->
