@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:importantForAccessibility="yes"
-            style="@*com.google.android.calendar:style/ProposeTimeResponsePrompt" />
+            style="@*com.google.android.calendar:style/ResponsePrompt.ProposeTime" />
 
         <Button
             android:textColor="@*com.google.android.calendar:color/info_segment_text_dark"
