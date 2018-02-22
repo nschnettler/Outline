@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="bottomSheetDialogTheme" format="reference" />
-    <attr name="bottomSheetStyle" format="reference" />
+    <attr name="bottomNavigationStyle" format="reference" />
     <attr name="cardViewStyle" format="reference" />
     <attr name="chipGroupStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
@@ -19,10 +18,12 @@
     <attr name="hideMotionSpec" format="reference" />
     <attr name="isLightTheme" format="boolean" />
     <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialCardViewStyle" format="reference" />
     <attr name="materialSwitchStyle" format="reference" />
     <attr name="rippleColor" format="color" />
     <attr name="scrimBackground" format="reference|color" />
     <attr name="showMotionSpec" format="reference" />
+    <attr name="tabStyle" format="reference" />
     <attr name="textAppearanceBody1" format="reference" />
     <attr name="textAppearanceBody2" format="reference" />
     <attr name="textAppearanceButton" format="reference" />
@@ -36,6 +37,7 @@
     <attr name="textAppearanceOverline" format="reference" />
     <attr name="textAppearanceSubtitle1" format="reference" />
     <attr name="textAppearanceSubtitle2" format="reference" />
+    <attr name="textInputStyle" format="reference" />
     <attr name="title" format="string" />
     <attr name="navigationMode">
         <enum name="listMode" value="1" />
@@ -258,14 +260,18 @@
         <enum name="unitSp" value="2" />
     </attr>
     <attr name="autoResizeText_minTextSize" format="dimension" />
+    <attr name="menu" format="reference" />
     <attr name="labelVisibilityMode">
         <enum name="auto" value="-1" />
         <enum name="labeled" value="1" />
         <enum name="selected" value="0" />
         <enum name="unlabeled" value="2" />
     </attr>
+    <attr name="itemBackground" format="reference" />
+    <attr name="itemIconTint" format="color" />
     <attr name="itemTextAppearanceInactive" format="reference" />
     <attr name="itemTextAppearanceActive" format="reference" />
+    <attr name="itemTextColor" format="color" />
     <attr name="itemHorizontalTranslation" format="boolean" />
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
@@ -434,6 +440,8 @@
     <attr name="semanticallySearchable" format="boolean" />
     <attr name="documentMaxAgeSecs" format="integer" />
     <attr name="perAccountTemplate" format="boolean" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
     <attr name="dialogTitle" format="string" />
     <attr name="dialogMessage" format="string" />
     <attr name="dialogIcon" format="reference" />
@@ -685,10 +693,6 @@
     </attr>
     <attr name="preserveIconSpacing" format="boolean" />
     <attr name="subMenuArrow" format="reference" />
-    <attr name="menu" format="reference" />
-    <attr name="itemIconTint" format="color" />
-    <attr name="itemTextColor" format="color" />
-    <attr name="itemBackground" format="reference" />
     <attr name="itemTextAppearance" format="reference" />
     <attr name="headerLayout" format="reference" />
     <attr name="overlapAnchor" format="boolean" />
@@ -924,6 +928,7 @@
     <attr name="boxStrokeColor" format="color" />
     <attr name="boxBackgroundColor" format="color" />
     <attr name="boxStrokeWidth" format="dimension" />
+    <attr name="enforceMaterialTheme" format="boolean" />
     <attr name="tile_icon" format="reference" />
     <attr name="tile_content_layout" format="reference" />
     <attr name="tile_treat_as_button" format="boolean" />
