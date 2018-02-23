@@ -228,10 +228,10 @@
                         android:layout_height="2.0dip" />
                 </FrameLayout>
 
-            <FrameLayout
-                android:background="@*android:color/background_material_dark"
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent">
+                <FrameLayout
+                    android:background="@*android:color/background_material_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent">
 
                     <ImageView
                         android:id="@*com.whatsapp:id/delete_symbol"
@@ -434,6 +434,16 @@
                 android:layout_height="fill_parent"
                 android:src="@*com.whatsapp:drawable/emoji_x"
                 android:contentDescription="@*com.whatsapp:string/backspace"
+                style="@*com.whatsapp:style/ActionBarButtonStyle" />
+
+            <ImageView
+                android:layout_gravity="right"
+                android:id="@*com.whatsapp:id/sticker_store_button"
+                android:visibility="gone"
+                android:layout_width="40.0dip"
+                android:layout_height="fill_parent"
+                android:src="@*com.whatsapp:drawable/open_sticker_store"
+                android:contentDescription="@*com.whatsapp:string/sticker_store_content_description"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
         </com.whatsapp.EmojiPopupFooter>
     </FrameLayout>
