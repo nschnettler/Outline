@@ -6,8 +6,7 @@
     <color name="yt_background_2_dark">@*android:color/background_material_dark</color>
     <color name="yt_background_3_dark">@*android:color/background_dark</color>
     <color name="yt_background_4_dark">@*android:color/background_dark</color>
-    <color name="yt_muted_background_3_dark">@*android:color/background_dark</color>
-    <color name="yt_muted_background_1_dark">@*android:color/background_dark</color>                <!-- Divider -->
+    <color name="yt_separator_dark">@*android:color/background_dark</color>                <!-- Divider -->
     <color name="background_material_dark">@*android:color/background_material_dark</color>
     <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
     <color name="primary_material_dark">@*android:color/background_material_dark</color>
@@ -71,10 +70,6 @@
         <!-- Main -->
         <color name="text_color_primary_default_light">#FFFFFF</color>                                  <!-- u.a. Share Dialog Title, Names -->
         <color name="text_color_secondary_default_light">#b3FFFFFF</color>
-        <!-- Info Card -->
-        <color name="info_card_youtube_black_light">#FFFFFF</color>                                     <!-- Info Card Header -->
-        <color name="info_card_primary_dark">#FFFFFF</color>                                            <!-- Info Card Question -->
-        <color name="info_card_poll_choice">#FFFFFF</color>                                             <!-- Info Card Poll options -->
         <!-- Video Item -->
         <color name="video_item_uploader_font">#b3FFFFFF</color>
         <color name="video_item_title_font">#FFFFFF</color>
