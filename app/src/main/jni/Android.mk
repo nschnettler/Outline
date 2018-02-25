@@ -24,5 +24,10 @@ include $(BUILD_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_MODULE    := LoadingProcessLight
 LOCAL_SRC_FILES := LoadingProcessLight.c
+include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := LoadingProcessMinimal
+LOCAL_SRC_FILES := LoadingProcessMinimal.c
 
 include $(BUILD_SHARED_LIBRARY)

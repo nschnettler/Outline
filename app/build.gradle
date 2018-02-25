@@ -61,6 +61,13 @@ android {
                     moduleName "LoadingProcessLight"
                 }
             }
+            minimal {
+                dimension "theme"
+                applicationId "com.schnettler.minimal"
+                ndk {
+                    moduleName "LoadingProcessMinimal"
+                }
+            }
         }
     }
 
