@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue -->
+    <color name="quantum_lightblue500">#FFFFFF</color>                   <!-- Primary -->
+    <color name="quantum_lightblue700">@android:color/holo_blue_light</color>                   <!-- Primary Dark -->
+</resources>
