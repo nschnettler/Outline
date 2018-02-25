@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme -->
+    <color name="material_grey_850">@*android:color/background_material_dark</color>                <!-- Overflow Background -->
+    <color name="kitkat_actionbar_dark">@*android:color/background_dark</color>                     <!-- Drawer Selected -->
+    <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialog Background -->
+</resources>
