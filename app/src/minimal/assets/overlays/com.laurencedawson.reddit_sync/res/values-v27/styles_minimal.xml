@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:navigationBarDividerColor">#E0E0E0</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Platform.V25.AppCompat" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Splash -->
+    <style name="SplashTheme" parent="@*com.laurencedawson.reddit_sync.dev:style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@*com.laurencedawson.reddit_sync.dev:drawable/splash_background</item>
+        <item name="android:windowExitAnimation">@*com.laurencedawson.reddit_sync.dev:anim/fade_out</item>
+        <item name="android:statusBarColor">@*com.laurencedawson.reddit_sync.dev:color/window_dark</item>
+        <item name="android:navigationBarColor">@*com.laurencedawson.reddit_sync.dev:color/window_dark</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
