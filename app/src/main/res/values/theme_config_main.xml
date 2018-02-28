@@ -5,5 +5,4 @@
     <bool name="ThemeSupportLegacy">true</bool>
     <bool name="ThemeSupportSamsung">false</bool>
     <string name="ThemeHeroOverride">auto</string>
-    <string name="ThemeReadyRequirement">all</string>
 </resources>
