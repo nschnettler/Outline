@@ -89,6 +89,12 @@
                     android:contentDescription="@*com.whatsapp:string/emoji_button_description"
                     style="@*com.whatsapp:style/ActionBarButtonStyle" />
             </RelativeLayout>
+
+            <TextView
+                android:id="@*com.whatsapp:id/dialog_footer"
+                android:padding="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
         <include layout="@*com.whatsapp:layout/ok_cancel" />
