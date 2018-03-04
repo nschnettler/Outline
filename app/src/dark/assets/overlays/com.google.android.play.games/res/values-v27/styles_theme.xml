@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Replay.Light" parent="@*com.google.android.play.games:style/Base.Theme.Replay.Light">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarDividerColor">@*android:color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.play.games:colorPrimary">@android:color/holo_green_light</item>
+    </style>
+</resources>

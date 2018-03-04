@@ -15,9 +15,11 @@
 
         <android.support.v4.widget.NestedScrollView
             android:id="@*com.google.android.play.games:id/edit_profile_scroll_view"
+            android:focusable="false"
             android:layout_width="fill_parent"
             android:layout_height="0.0dip"
-            android:layout_weight="1.0">
+            android:layout_weight="1.0"
+            android:importantForAccessibility="no">
 
             <ViewSwitcher
                 android:id="@*com.google.android.play.games:id/edit_profile_view_switcher"
@@ -46,7 +48,7 @@
                         android:textDirection="locale"
                         android:textAlignment="viewStart"
                         android:layout_alignParentStart="true"
-                        style="@*com.google.android.play.games:style/Games.Mvp.HeaderText" />
+                        style="@*com.google.android.play.games:style/TextStyle.Replay.Overline" />
 
                     <FrameLayout
                         android:id="@*com.google.android.play.games:id/edit_avatar_image_container"
@@ -93,16 +95,35 @@
                         android:id="@*com.google.android.play.games:id/edit_gamer_tag_header"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8.0dip"
+                        android:layout_marginLeft="@*com.google.android.play.games:dimen/games_mvp_profile_edit_gamer_tag_header_start_margin"
                         android:text="@*com.google.android.play.games:string/games_profile_edit_gamer_tag_header"
                         android:layout_toRightOf="@*com.google.android.play.games:id/edit_avatar_image_container"
                         android:layout_alignTop="@*com.google.android.play.games:id/edit_avatar_image_container"
                         android:textDirection="locale"
                         android:textAlignment="viewStart"
-                        android:layout_marginStart="8.0dip"
+                        android:layout_marginStart="@*com.google.android.play.games:dimen/games_mvp_profile_edit_gamer_tag_header_start_margin"
                         android:layout_toEndOf="@*com.google.android.play.games:id/edit_avatar_image_container"
                         android:labelFor="@*com.google.android.play.games:id/gamer_tag_edit_text"
-                        style="@*com.google.android.play.games:style/Games.Mvp.BodyText" />
+                        style="@*com.google.android.play.games:style/TextStyle.Replay.Caption" />
+
+                    <EditText
+                        android:gravity="start"
+                        android:id="@*com.google.android.play.games:id/gamer_tag_edit_text"
+                        android:paddingTop="@*com.google.android.play.games:dimen/games_mvp_profile_edit_gamer_tag_top_padding"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@*com.google.android.play.games:dimen/games_mvp_profile_edit_gamer_tag_start_margin"
+                        android:layout_marginTop="@*com.google.android.play.games:dimen/games_mvp_profile_edit_gamer_tag_top_margin"
+                        android:maxLines="1"
+                        android:layout_toRightOf="@*com.google.android.play.games:id/edit_avatar_image_container"
+                        android:layout_below="@*com.google.android.play.games:id/edit_gamer_tag_header"
+                        android:inputType="text"
+                        android:imeOptions="actionDone"
+                        android:textDirection="anyRtl"
+                        android:textAlignment="viewStart"
+                        android:layout_marginStart="@*com.google.android.play.games:dimen/games_mvp_profile_edit_gamer_tag_start_margin"
+                        android:layout_toEndOf="@*com.google.android.play.games:id/edit_avatar_image_container"
+                        style="@*com.google.android.play.games:style/Games.AlertDialog.EditText" />
 
                     <TextView
                         android:textColor="@*com.google.android.play.games:color/games_profile_edit_error_text_color"
@@ -113,78 +134,77 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8.0dip"
                         android:layout_toRightOf="@*com.google.android.play.games:id/edit_avatar_image_container"
-                        android:layout_below="@*com.google.android.play.games:id/edit_gamer_tag_header"
+                        android:layout_below="@*com.google.android.play.games:id/gamer_tag_edit_text"
                         android:textDirection="locale"
                         android:textAlignment="viewStart"
                         android:layout_marginStart="8.0dip"
                         android:layout_toEndOf="@*com.google.android.play.games:id/edit_avatar_image_container"
-                        style="@*com.google.android.play.games:style/Games.Mvp.BodyText.Small" />
+                        style="@*com.google.android.play.games:style/TextStyle.Replay.Caption" />
 
-                    <EditText
-                        android:gravity="start"
-                        android:id="@*com.google.android.play.games:id/gamer_tag_edit_text"
+                    <Switch
+                        android:gravity="start|center"
+                        android:id="@*com.google.android.play.games:id/profile_auto_sign_in_switch"
+                        android:paddingTop="8.0dip"
+                        android:paddingBottom="8.0dip"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="4.0dip"
-                        android:layout_marginTop="-4.0dip"
-                        android:layout_marginBottom="@*com.google.android.play.games:dimen/games_standard_side_padding"
-                        android:maxLines="1"
-                        android:layout_toRightOf="@*com.google.android.play.games:id/edit_avatar_image_container"
+                        android:minHeight="@*com.google.android.play.games:dimen/games_mvp_profile_option_min_height"
+                        android:text="@*com.google.android.play.games:string/games_profile_edit_auto_sign_in"
                         android:layout_below="@*com.google.android.play.games:id/invalid_chars"
-                        android:inputType="text"
-                        android:imeOptions="actionDone"
-                        android:textDirection="anyRtl"
+                        android:layout_alignLeft="@*com.google.android.play.games:id/edit_profile_header"
+                        android:switchPadding="16.0dip"
+                        android:textDirection="locale"
                         android:textAlignment="viewStart"
-                        android:layout_marginStart="4.0dip"
-                        android:layout_toEndOf="@*com.google.android.play.games:id/edit_avatar_image_container" />
+                        android:layout_alignStart="@*com.google.android.play.games:id/edit_profile_header"
+                        style="@*com.google.android.play.games:style/Games.Mvp.ProfileOptionText" />
 
-                    <CheckBox
-                        android:gravity="start"
-                        android:id="@*com.google.android.play.games:id/profile_discoverability_checkbox"
-                        android:paddingLeft="@*com.google.android.play.games:dimen/games_mvp_profile_settings_checkbox_start_padding"
-                        android:paddingTop="4.0dip"
-                        android:paddingBottom="12.0dip"
+                    <Switch
+                        android:gravity="start|center"
+                        android:id="@*com.google.android.play.games:id/profile_discoverability_switch"
+                        android:paddingTop="8.0dip"
+                        android:paddingBottom="8.0dip"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:minHeight="@*com.google.android.play.games:dimen/games_mvp_profile_option_min_height"
                         android:text="@*com.google.android.play.games:string/games_profile_edit_discoverability"
-                        android:layout_below="@*com.google.android.play.games:id/gamer_tag_edit_text"
+                        android:layout_below="@*com.google.android.play.games:id/profile_auto_sign_in_switch"
                         android:layout_alignLeft="@*com.google.android.play.games:id/edit_profile_header"
+                        android:switchPadding="16.0dip"
                         android:textDirection="locale"
                         android:textAlignment="viewStart"
-                        android:paddingStart="@*com.google.android.play.games:dimen/games_mvp_profile_settings_checkbox_start_padding"
                         android:layout_alignStart="@*com.google.android.play.games:id/edit_profile_header"
-                        style="@*com.google.android.play.games:style/Games.Mvp.SubheaderText" />
+                        style="@*com.google.android.play.games:style/Games.Mvp.ProfileOptionText" />
 
-                    <CheckBox
-                        android:gravity="start"
-                        android:id="@*com.google.android.play.games:id/profile_visibility_checkbox"
-                        android:paddingLeft="@*com.google.android.play.games:dimen/games_mvp_profile_settings_checkbox_start_padding"
-                        android:paddingTop="4.0dip"
-                        android:paddingBottom="4.0dip"
+                    <Switch
+                        android:gravity="start|center"
+                        android:id="@*com.google.android.play.games:id/profile_visibility_switch"
+                        android:paddingTop="8.0dip"
+                        android:paddingBottom="8.0dip"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:minHeight="@*com.google.android.play.games:dimen/games_mvp_profile_option_min_height"
                         android:text="@*com.google.android.play.games:string/games_profile_edit_visibility"
-                        android:layout_below="@*com.google.android.play.games:id/profile_discoverability_checkbox"
+                        android:layout_below="@*com.google.android.play.games:id/profile_discoverability_switch"
                         android:layout_alignLeft="@*com.google.android.play.games:id/edit_profile_header"
+                        android:switchPadding="16.0dip"
                         android:textDirection="locale"
                         android:textAlignment="viewStart"
-                        android:paddingStart="@*com.google.android.play.games:dimen/games_mvp_profile_settings_checkbox_start_padding"
                         android:layout_alignStart="@*com.google.android.play.games:id/edit_profile_header"
-                        style="@*com.google.android.play.games:style/Games.Mvp.SubheaderText" />
+                        style="@*com.google.android.play.games:style/Games.Mvp.ProfileOptionText" />
 
                     <TextView
                         android:gravity="start"
                         android:id="@*com.google.android.play.games:id/disclaimer_text"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@*com.google.android.play.games:dimen/games_standard_side_padding"
-                        android:text="@*com.google.android.play.games:string/games_profile_edit_sign_into_all_games"
-                        android:layout_below="@*com.google.android.play.games:id/profile_visibility_checkbox"
+                        android:layout_marginTop="8.0dip"
+                        android:text="@*com.google.android.play.games:string/games_profile_edit_fine_print"
+                        android:layout_below="@*com.google.android.play.games:id/profile_visibility_switch"
                         android:layout_alignLeft="@*com.google.android.play.games:id/edit_profile_header"
                         android:textDirection="locale"
                         android:textAlignment="viewStart"
                         android:layout_alignStart="@*com.google.android.play.games:id/edit_profile_header"
-                        style="@*com.google.android.play.games:style/Games.Mvp.BodyText.Small" />
+                        style="@*com.google.android.play.games:style/TextStyle.Replay.Caption" />
                 </RelativeLayout>
 
                 <LinearLayout
@@ -205,7 +225,7 @@
                         android:textAlignment="viewStart"
                         android:paddingStart="@*com.google.android.play.games:dimen/games_standard_side_padding"
                         android:paddingEnd="@*com.google.android.play.games:dimen/games_standard_side_padding"
-                        style="@*com.google.android.play.games:style/Games.Mvp.HeaderText" />
+                        style="@*com.google.android.play.games:style/TextStyle.Replay.Overline" />
 
                     <android.support.v7.widget.RecyclerView
                         android:id="@*com.google.android.play.games:id/avatar_select_view"
@@ -227,27 +247,32 @@
         <LinearLayout
             android:gravity="end|center"
             android:orientation="horizontal"
-            android:padding="@*com.google.android.play.games:dimen/games_standard_side_padding"
+            android:paddingLeft="@*com.google.android.play.games:dimen/games_standard_side_padding"
+            android:paddingTop="@*com.google.android.play.games:dimen/games_standard_side_padding_minus_button_inset"
+            android:paddingRight="@*com.google.android.play.games:dimen/games_standard_side_padding"
+            android:paddingBottom="@*com.google.android.play.games:dimen/games_standard_side_padding_minus_button_inset"
             android:focusable="false"
             android:clickable="true"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingStart="@*com.google.android.play.games:dimen/games_standard_side_padding"
+            android:paddingEnd="@*com.google.android.play.games:dimen/games_standard_side_padding">
 
-            <com.google.android.gms.games.ui.v2.widget.ProductSansButton
+            <android.support.design.button.MaterialButton
                 android:id="@*com.google.android.play.games:id/cancel_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@android:string/cancel"
-                style="@*com.google.android.play.games:style/Games.Mvp.Button.Secondary" />
+                style="@*com.google.android.play.games:style/Widget.Replay.HairlineButton" />
 
-            <com.google.android.gms.games.ui.v2.widget.ProductSansButton
+            <android.support.design.button.MaterialButton
                 android:id="@*com.google.android.play.games:id/save_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@*com.google.android.play.games:dimen/games_mvp_profile_bottom_sheet_button_left_margin"
                 android:text="@*com.google.android.play.games:string/games_profile_edit_action_save"
                 android:layout_marginStart="@*com.google.android.play.games:dimen/games_mvp_profile_bottom_sheet_button_left_margin"
-                style="@*com.google.android.play.games:style/Games.Mvp.Button.Primary" />
+                style="@*com.google.android.play.games:style/Widget.Replay.FillButton" />
         </LinearLayout>
     </LinearLayout>
 
