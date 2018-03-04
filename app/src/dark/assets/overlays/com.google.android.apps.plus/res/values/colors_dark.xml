@@ -11,7 +11,7 @@
     <!-- Background -->
     <color name="compose_item_bg">@*android:color/background_material_dark</color>                  <!-- Drawer -->
     <color name="quantum_grey100">@*android:color/background_material_dark</color>                  <!-- Notification Section Background -->
-    <color name="quantum_grey200">@*android:color/background_dark</color>                           <!-- Main Background + Background behind +1, share, comment-->
+
         <!-- Create Post Top -->
         <color name="quantum_white_100">@*android:color/background_material_dark</color>
         <color name="quantum_grey300">@*android:color/background_material_dark</color>
@@ -30,7 +30,6 @@
     <color name="quantum_grey">@*android:color/background_material_dark</color>                      <!-- Splash screen Statusbar -->
         <!-- Pick Photo Activity -->
         <color name="photos_host_background">@*android:color/background_material_dark</color>       <!-- Photo Strip Bg -->
-        <color name="host_background">@*android:color/background_material_dark</color>              <!-- Main bg -->
         <color name="quantum_greyblack1000">@*android:color/background_dark</color>                 <!-- Album Name Bg -->
 
     <!-- Text -->

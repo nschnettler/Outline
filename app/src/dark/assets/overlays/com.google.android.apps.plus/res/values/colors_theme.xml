@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue -->
+    <color name="quantum_lightblue500">@android:color/holo_blue_light</color>                       <!-- Primary -->
+    <color name="quantum_lightblue700">@android:color/holo_blue_light</color>                       <!-- Primary Dark -->
+
+    <color name="quantum_grey200">@*android:color/background_dark</color>                           <!-- Main Background + Background behind +1, share, comment-->
+    <color name="host_background">@*android:color/background_material_dark</color>                  <!-- Main bg -->
+</resources>
