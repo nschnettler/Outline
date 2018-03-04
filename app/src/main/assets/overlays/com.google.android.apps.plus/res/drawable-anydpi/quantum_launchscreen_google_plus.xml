@@ -5,7 +5,7 @@
 
     <item>
         <shape>
-            <solid android:color="@*com.google.android.apps.plus:color/material_grey_50" />
+            <solid android:color="@*com.google.android.apps.plus:color/quantum_white_100" />
         </shape>
     </item>
     <item android:gravity="center|center_vertical">
