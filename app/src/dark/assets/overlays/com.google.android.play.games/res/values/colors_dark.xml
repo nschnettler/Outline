@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-    <color name="games_mvp_background_color">@*android:color/background_material_dark</color>       <!-- Main -->
+    <color name="replay__window_background_light">@*android:color/background_material_dark</color>  <!-- Main -->
 
     <!-- Text -->
     <color name="games_mvp_text_color_primary">#FFFFFF</color>
-    <color name="games_mvp_text_color_secondary">#b3FFFFFF</color>
     <color name="games_mvp_text_color_tertiary">#b3FFFFFF</color>
     <color name="secondary_text_default_material_light">#b3FFFFFF</color>
+    <color name="play_fg_primary">#FFFFFF</color>
 
     <!-- Divider -->
-    <color name="games_mvp_divider_color">@*android:color/background_dark</color>
-
-    <!-- Button -->
-    <color name="games_mvp_disabled_button_background_color">@*android:color/background_dark</color>
+    <color name="replay__pal_gray_200">@android:color/background_dark</color>
+    <color name="google_grey300">@android:color/background_dark</color>
+    <color name="games_mvp_divider_color">@android:color/background_dark</color>
+    <color name="pf__tagbrowse__divider_color">@android:color/background_dark</color>
+    <color name="replay__pal_gray_300">@android:color/background_dark</color>
 </resources>

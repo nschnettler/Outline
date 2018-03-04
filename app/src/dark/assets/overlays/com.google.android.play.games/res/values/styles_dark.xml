@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GameDetails.PlayButtonTextAppearance" parent="@*com.google.android.play.games:style/TextAppearance.Replay.Button.GS">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
