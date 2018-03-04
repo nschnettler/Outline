@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Bar -->
+    <style name="Widget.Replay.BottomNavigationView" parent="@*com.google.android.play.games:style/Widget.GoogleMaterial.BottomNavigationView">
+        <item name="android:background">?android:colorBackground</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="*com.google.android.play.games:itemIconTint">@*com.google.android.play.games:drawable/replay__bottomnavigationview_item_tint</item>
+        <item name="*com.google.android.play.games:itemTextColor">@*com.google.android.play.games:drawable/replay__bottomnavigationview_item_tint</item>
+    </style>
+</resources>
