@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@*com.google.android.apps.plus:dimen/exif_stream_horizontal_margin"
+    android:paddingTop="@*com.google.android.apps.plus:dimen/exif_stream_vertical_margin"
+    android:paddingRight="@*com.google.android.apps.plus:dimen/exif_stream_horizontal_margin"
+    android:paddingBottom="@*com.google.android.apps.plus:dimen/exif_stream_vertical_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@*com.google.android.apps.plus:id/exif_summary_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="16.0dip"
+        android:tint="#FFFFFF"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@*com.google.android.apps.plus:dimen/text_size_14"
+            android:textColor="#FFFFFF"
+            android:ellipsize="end"
+            android:id="@*com.google.android.apps.plus:id/exif_summary_primary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <TextView
+            android:textSize="@*com.google.android.apps.plus:dimen/text_size_12"
+            android:textColor="#b3FFFFFF"
+            android:ellipsize="end"
+            android:id="@*com.google.android.apps.plus:id/exif_summary_secondary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>
