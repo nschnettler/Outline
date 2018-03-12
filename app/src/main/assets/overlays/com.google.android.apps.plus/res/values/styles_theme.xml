@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Post -->
-    <style name="Theme.OneUp.Stream" parent="@*com.google.android.apps.plus:style/Theme.Arkham.Transparent.Accent.NoActionBar">
-        <item name="android:navigationBarColor">#FFFFFF</item>
-        <item name="android:navigationBarDividerColor">#E0E0E0</item>
-        <item name="android:windowLightNavigationBar">true</item>
-    </style>
     <!-- Settings -->
     <style name="Theme.Arkham.NormalWhiteActionBar" parent="@*com.google.android.apps.plus:style/Theme.Arkham">
         <item name="android:windowBackground">@*com.google.android.apps.plus:color/quantum_white_100</item>
@@ -18,10 +12,33 @@
         <item name="*com.google.android.apps.plus:colorPrimaryDark">#FFFFFF</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
-    <!-- Lauch -->
-    <style name="Theme.Plus.Launcher" parent="@*com.google.android.apps.plus:style/Theme.Arkham.Overlay.NoShadow">
+    <style name="Theme.Arkham.WithWhiteActionBar" parent="@*com.google.android.apps.plus:style/Theme.Arkham">
+        <item name="android:windowBackground">@*com.google.android.apps.plus:color/quantum_white_100</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Arkham.White.ActionBar</item>
+        <item name="android:actionMenuTextAppearance">@*com.google.android.apps.plus:style/Theme.Arkham.ActionBar.MenuButtonTextStyle</item>
+        <item name="android:actionMenuTextColor">@*com.google.android.apps.plus:color/white_actionbar_done_button_color</item>
+        <item name="*com.google.android.apps.plus:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Arkham.White.ActionBar</item>
+        <item name="*com.google.android.apps.plus:actionMenuTextAppearance">@*com.google.android.apps.plus:style/Theme.Arkham.ActionBar.MenuButtonTextStyle</item>
+        <item name="*com.google.android.apps.plus:actionMenuTextColor">@*com.google.android.apps.plus:color/white_actionbar_done_button_color</item>
+        <item name="*com.google.android.apps.plus:colorPrimary">#FFFFFF</item>
+        <item name="*com.google.android.apps.plus:colorPrimaryDark">#FFFFFF</item>
+    </style>
+    <!-- Launch -->
+    <style name="Theme.Plus.Launcher.NoActionBar" parent="@*com.google.android.apps.plus:style/Theme.Arkham.NoActionBar">
         <item name="android:windowBackground">@*com.google.android.apps.plus:drawable/quantum_launchscreen_google_plus</item>
         <item name="*com.google.android.apps.plus:colorPrimaryDark">#FFFFFF</item>
         <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <!-- Community ActionBar -->
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*com.google.android.apps.plus:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">?android:textColorPrimaryInverse</item>
+        <item name="*com.google.android.apps.plus:actionMenuTextColor">?android:textColorPrimaryInverse</item>
+        <item name="*com.google.android.apps.plus:actionOverflowButtonStyle">@*com.google.android.apps.plus:style/Theme.Arkham.ActionBar.BlackOverflow</item>
+    </style>
+    <!-- ActionBar Text -->
+    <style name="Theme.Arkham.ActionBar.Text" parent="@*com.google.android.apps.plus:style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_20</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="android:textColorPrimary">#de000000</item>
     </style>
 </resources>
