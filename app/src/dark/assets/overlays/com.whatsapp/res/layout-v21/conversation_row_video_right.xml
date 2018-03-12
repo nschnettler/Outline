@@ -33,7 +33,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:scaleType="centerCrop"
-                    class="com.whatsapp.ConversationRowVideo$RowVideoView" />
+                    class="com.whatsapp.conversationrow.ConversationRowVideo$RowVideoView" />
 
                 <TextView
                     android:textSize="12.5sp"

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <LinearLayout android:orientation="vertical"
         android:id="@*com.whatsapp:id/content"
         android:layout_width="262.0dip"
         android:layout_height="wrap_content"
@@ -31,7 +30,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="84.0dip"
                     android:scaleType="centerCrop"
-                    class="com.whatsapp.ConversationRowDocument$DocumentPreviewView" />
+                    class="com.whatsapp.conversationrow.ConversationRowDocument$DocumentPreviewView" />
 
                 <View
                     android:id="@*com.whatsapp:id/preview_separator"

@@ -43,6 +43,7 @@
     <color name="status_normal">#FFFFFF</color>
     <color name="conversations_text_gray">#b3FFFFFF</color>
     <color name="edit_text_counter">#b3FFFFFF</color>                                               <!-- Rename counter -->
+    <color name="conversation_divider_text">#FFFFFFFF</color>                                       <!-- Date Bubble -->
 
     <!-- Statusbar -->
      <color name="about_statusbar">@*android:color/background_material_dark</color>
