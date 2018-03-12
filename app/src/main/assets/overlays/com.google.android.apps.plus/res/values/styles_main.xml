@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Bottom Bar -->
-    <style name="BottomBarItemVertical">
-        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_12</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@*com.google.android.apps.plus:drawable/bottom_bar_item_ripple</item>
-        <item name="android:paddingTop">@*com.google.android.apps.plus:dimen/navigation_bar_y_top_padding</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:drawablePadding">@*com.google.android.apps.plus:dimen/navigation_bar_y_drawable_padding</item>
-    </style>
-
     <!-- Image Viewer -->
-    <style name="Theme.Arkham.Transparent.Accent.NoActionBar" parent="@*com.google.android.apps.plus:style/Theme.Arkham.Transparent.Accent">
-        <item name="*com.google.android.apps.plus:windowActionBar">false</item>
-        <item name="*com.google.android.apps.plus:windowNoTitle">true</item>
+    <style name="Theme.Plus.Transparent" parent="@*com.google.android.apps.plus:style/Theme.Plus">
+        <item name="android:windowActionBarOverlay">true</item>
         <item name="android:navigationBarColor">#000000</item>
         <item name="android:navigationBarDividerColor">#000000</item>
         <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+    <style name="Theme.Arkham.Transparent.Accent" parent="@*com.google.android.apps.plus:style/Theme.Arkham.Transparent">
+        <item name="android:colorControlNormal">#FFFFFF</item>
     </style>
 </resources>
