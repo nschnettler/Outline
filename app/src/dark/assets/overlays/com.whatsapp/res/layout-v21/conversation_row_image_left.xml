@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <FrameLayout
-        android:layout_width="wrap_content"
+    <FrameLayout android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="40.0dip">
 
@@ -61,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:scaleType="centerCrop"
-                    class="com.whatsapp.ConversationRowImage$RowImageView" />
+                    class="com.whatsapp.conversationrow.ConversationRowImage$RowImageView" />
 
                 <FrameLayout
                     android:layout_gravity="center"
