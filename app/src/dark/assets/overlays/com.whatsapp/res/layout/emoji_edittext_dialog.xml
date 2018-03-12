@@ -94,7 +94,8 @@
                 android:id="@*com.whatsapp:id/dialog_footer"
                 android:padding="16.0dip"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="#b3FFFFFF"/>
         </LinearLayout>
 
         <include layout="@*com.whatsapp:layout/ok_cancel" />

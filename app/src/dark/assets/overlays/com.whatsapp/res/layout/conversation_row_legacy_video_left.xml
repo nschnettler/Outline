@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <FrameLayout
-        android:layout_width="wrap_content"
+    <FrameLayout android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="40.0dip">
 
@@ -34,7 +33,7 @@
 
                 <com.whatsapp.TextEmojiLabel
                     android:textSize="@*com.whatsapp:dimen/conversation_participant_name_tv"
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:id="@*com.whatsapp:id/pushname_in_group_tv"
                     android:paddingLeft="12.0sp"
                     android:layout_width="wrap_content"
@@ -61,7 +60,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:scaleType="centerCrop"
-                    class="com.whatsapp.ConversationRowVideo$RowVideoView" />
+                    class="com.whatsapp.conversationrow.ConversationRowVideo$RowVideoView" />
 
                 <TextView
                     android:textSize="12.5sp"
@@ -125,7 +124,7 @@
 
                 <com.whatsapp.TextEmojiLabel
                     android:textSize="@*com.whatsapp:dimen/conversation_text_row_tv"
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="left"
                     android:id="@*com.whatsapp:id/caption"
                     android:paddingLeft="8.0dip"

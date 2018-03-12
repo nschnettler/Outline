@@ -165,4 +165,9 @@
         <item name="*com.whatsapp:toolbarStyle">@*com.whatsapp:style/Widget.Styled.Toolbar</item>
         <item name="*com.whatsapp:colorAccent">@*com.whatsapp:color/accent</item>
     </style>
+
+    <!-- Edit Dialog (FullScreen) Buttons -->
+    <style name="ActionBarButtonStyle" parent="@*com.whatsapp:style/Widget.AppCompat.ActionButton" >
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>
