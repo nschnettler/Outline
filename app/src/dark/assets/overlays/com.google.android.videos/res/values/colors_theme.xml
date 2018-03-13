@@ -6,11 +6,18 @@
     <color name="play_movies_drawer_selected_text_background">@*android:color/background_dark</color>                               <!-- Drawer Selected -->
     <color name="material_grey_800">@*android:color/background_material_dark</color>                                                <!-- Dialogs -->
     <color name="material_grey_850">@*android:color/background_material_dark</color>                                                <!-- Overflow -->
-    <!-- Details -->
     <color name="play_movies_details_card_background">@*android:color/background_material_dark</color>
     <color name="play_movies_details_background">@*android:color/background_material_dark</color>
     <color name="play_movies_thumbnail_placeholder">@*android:color/background_material_dark</color>
-
     <color name="play_card_light_background">@*android:color/background_material_dark</color>
     <color name="play_search_suggestion_divider_background">@*android:color/background_dark</color>
+
+    <!-- Text -->
+    <color name="play_movies_secondary_text">#b3FFFFFF</color>                                      <!-- Movie Description -->
+    <color name="play_fg_secondary">#FFFFFF</color>                                                 <!-- Search Title -->
+    <color name="play_fg_tertiary">#FFFFFF</color>                                                  <!-- Search suggestion | already entered -->
+    <color name="play_fg_primary_original">#b3FFFFFF</color>                                        <!-- Search suggestion | suggested -->
+
+    <!-- Icon -->
+    <color name="play_search_plate_navigation_button_color">#FFFFFF</color>
 </resources>
