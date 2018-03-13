@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Post -->
-    <style name="Theme.OneUp.Stream" parent="@*com.google.android.apps.plus:style/Theme.Arkham.Transparent.Accent.NoActionBar">
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-        <item name="android:navigationBarDividerColor">@android:color/background_dark</item>
-    </style>
-
     <!-- Don´t tint FAB -->
     <style name="PlusFab">
         <item name="android:layout_margin">@*com.google.android.apps.plus:dimen/navigation_fab_margin</item>
         <item name="android:src">@*com.google.android.apps.plus:drawable/quantum_ic_create_white_24</item>
         <item name="android:backgroundTint">@null</item>
-    </style>
-
-    <!-- BGTint galore -->
-    <style name="Theme.ArkhamLight" parent="@*com.google.android.apps.plus:style/Theme.ArkhamLightBase" >
-        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 
     <!-- BGTint galore -->
@@ -41,6 +30,13 @@
         <item name="colorPrimaryDark">@*com.google.android.apps.plus:color/quantum_lightblue700</item>
         <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
         <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+    </style>
+
+    <style name="Theme.Arkham.NormalWhiteActionBarWithShadow" parent="@*com.google.android.apps.plus:style/Theme.Arkham.NormalWhiteActionBar">
+        <item name="android:windowBackground">@*com.google.android.apps.plus:color/host_background</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Arkham.NormalWhite.ActionBarWithShadow</item>
+        <item name="*com.google.android.apps.plus:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Arkham.NormalWhite.ActionBarWithShadow</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 
     <!-- Post - Time -->

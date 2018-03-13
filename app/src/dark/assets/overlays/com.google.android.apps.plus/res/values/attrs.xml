@@ -52,6 +52,7 @@
     <attr name="mediaRouteTvIconDrawable" format="reference" />
     <attr name="mtrlColor" format="reference|color" />
     <attr name="mtrlColors" format="reference" />
+    <attr name="navigationViewStyle" format="reference" />
     <attr name="scrimBackground" format="reference|color" />
     <attr name="showMotionSpec" format="reference" />
     <attr name="tabStyle" format="reference" />
@@ -302,6 +303,7 @@
         <enum name="unlabeled" value="2" />
     </attr>
     <attr name="itemBackground" format="reference" />
+    <attr name="itemIconSize" format="dimension" />
     <attr name="itemIconTint" format="color" />
     <attr name="itemTextAppearanceInactive" format="reference" />
     <attr name="itemTextAppearanceActive" format="reference" />
@@ -715,6 +717,8 @@
     <attr name="subMenuArrow" format="reference" />
     <attr name="itemTextAppearance" format="reference" />
     <attr name="headerLayout" format="reference" />
+    <attr name="itemHorizontalPadding" format="dimension" />
+    <attr name="itemIconPadding" format="dimension" />
     <attr name="compact" format="boolean" />
     <attr name="overlapAnchor" format="boolean" />
     <attr name="state_above_anchor" format="boolean" />
