@@ -11,7 +11,7 @@
         android:layout_height="fill_parent">
 
         <android.support.design.widget.AppBarLayout
-            android:theme="@*com.google.android.apps.plus:style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:theme="@*com.google.android.apps.plus:style/Theme.Plus.ActionBar"
             android:id="@*com.google.android.apps.plus:id/profile_stream_app_bar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             app:layout_behavior="com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior"
             app:layout_anchor="@*com.google.android.apps.plus:id/scroll_view"
-            app:layout_anchorGravity="end|center|bottom"
+            app:layout_anchorGravity="end|bottom|center"
             style="@*com.google.android.apps.plus:style/PlusFabRed" />
     </android.support.design.widget.CoordinatorLayout>
 </android.support.v4.widget.SwipeRefreshLayout>

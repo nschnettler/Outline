@@ -41,7 +41,7 @@
     <color name="quantum_grey900">#ffffffff</color>                                                 <!-- u.a Community Card Title Color -->
     <color name="quantum_black_hint_text">#b3FFFFFF</color>                                         <!-- u.a edit profil community list subtitle text color | Search hint text-->
     <color name="sharekit_text_normal">#ffffffff</color>                                            <!-- Communities Einladung Title Color -->
-    <color name="quantum_grey600">#FFFFFF</color>                                                   <!-- u.a. Community Ban Text -->
+    <color name="quantum_grey600">#b3FFFFFF</color>                                                   <!-- u.a. Community Ban Text -->
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_dark">#b3FFFFFF</color>

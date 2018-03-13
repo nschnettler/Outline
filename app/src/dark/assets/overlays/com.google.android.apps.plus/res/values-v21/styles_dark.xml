@@ -1,64 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="BottomBarItemVertical">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@*android:color/background_material_dark</item>
-        <item name="android:paddingTop">7.0dip</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:drawablePadding">-5.0dip</item>
-    </style>
-
-    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
-        <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    <!-- Main Theme -->
+    <style name="Theme.Plus" parent="@*com.google.android.apps.plus:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorLink">@*com.google.android.apps.plus:color/text_blue</item>
+        <item name="android:actionBarSize">@*com.google.android.apps.plus:dimen/action_bar_menu_item_height</item>
+        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="android:textColorLinkInverse">@*com.google.android.apps.plus:color/text_blue</item>
+        <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:colorPrimary">@*com.google.android.apps.plus:color/action_bar_color</item>
+        <item name="*com.google.android.apps.plus:colorPrimaryDark">@*com.google.android.apps.plus:color/status_bar_color</item>
+        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="*com.google.android.apps.plus:editAudienceBackground">?android:editTextBackground</item>
+        <item name="*com.google.android.apps.plus:buttonSelectableBackground">?android:selectableItemBackground</item>
+        <item name="*com.google.android.apps.plus:listSelector">?android:listChoiceBackgroundIndicator</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 
     <!-- Report Abuse Activity Theme -->
     <style name="UrawTheme" parent="@*android:style/Theme.Material">
         <item name="android:colorControlActivated">@*com.google.android.apps.plus:color/quantum_googblue500</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-    </style>
-
-    <style name="Theme.AclPickerTheme" parent="@*com.google.android.apps.plus:style/Theme.AppCompat">
-        <item name="android:colorBackground">@*com.google.android.apps.plus:color/acl_list_background</item>
-        <item name="android:windowBackground">@*com.google.android.apps.plus:color/acl_list_background</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.AclPickerTheme.AlertDialogTheme</item>
-        <item name="*com.google.android.apps.plus:contentInsetStart">0.0dip</item>
-        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="*com.google.android.apps.plus:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="*com.google.android.apps.plus:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.AclPickerTheme.AlertDialogTheme</item>
-    </style>
-
-    <!-- Post Background -->
-    <style name="StreamOneUpBase" parent="@*com.google.android.apps.plus:style/Theme.Arkham.Overlay">
-        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
-        <item name="android:backgroundTintMode">src_atop</item>
-        <item name="android:windowFrame">@null</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:cacheColorHint">@*com.google.android.apps.plus:color/quantum_white_100</item>
-        <item name="android:windowFullscreen">false</item>
-        <item name="android:windowSoftInputMode">stateHidden</item>
-        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
-        <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
-    </style>
-
-    <!-- Share Dialog -->
-    <style name="Theme.Sharekit" parent="@*com.google.android.apps.plus:style/Theme.SharekitBase">
-        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
-        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
-        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
-        <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
-        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 </resources>
