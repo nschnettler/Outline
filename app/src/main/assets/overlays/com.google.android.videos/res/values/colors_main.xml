@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="play_movies_primary">@android:color/holo_red_light</color>                      <!-- PRIMARY -->
-
-    <color name="play_movies_action_bar_background">@android:color/holo_red_light</color>           <!-- Actionbar -->
-    <color name="play_movies_system_bar_background">@android:color/holo_red_light</color>           <!-- Toolbar -->
-    <color name="play_movies_secondary_v2">@android:color/holo_red_light</color>
-    <color name="play_movies_recents_v2">@android:color/holo_red_light</color>                      <!-- Overscroll Indicator Color -->
-    <color name="play_movies_card_color_accent">@android:color/holo_red_light</color>
-    <color name="play_movies_details_button">@android:color/holo_red_light</color>
+    <!-- Primary -->
+    <color name="play_movies_primary">@android:color/holo_red_light</color>
     <color name="play_movies_primary_v2">@android:color/holo_red_light</color>
-
-    <!-- Text -->
-    <color name="play_movies_secondary_text">#b3FFFFFF</color>                                      <!-- Movie Description -->
-    <color name="play_fg_secondary">#FFFFFF</color>                                                 <!-- Search Title -->
-    <color name="play_fg_tertiary">#FFFFFF</color>                                                  <!-- Search suggestion | already entered -->
-    <color name="play_fg_primary_original">#b3FFFFFF</color>                                        <!-- Search suggestion | suggested -->
-
-    <color name="play_search_plate_navigation_button_color">#FFFFFF</color>
+    <color name="play_movies_details_button">@android:color/holo_red_light</color>
+    <color name="play_movies_action_bar_background">@android:color/holo_red_light</color>
+    <color name="play_movies_system_bar_background">@android:color/holo_red_light</color>
 </resources>

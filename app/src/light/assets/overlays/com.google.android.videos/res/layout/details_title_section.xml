@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@*com.google.android.videos:id/title_section"
+    android:tag="layout/details_title_section_0"
+    android:background="@*com.google.android.videos:drawable/gradient_background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:paddingTop="@*com.google.android.videos:dimen/details_vertical_spacing"
+        android:paddingBottom="@*com.google.android.videos:dimen/details_vertical_spacing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@*com.google.android.videos:dimen/details_poster_title_offset"
+        android:baselineAligned="false"
+        android:importantForAccessibility="no"
+        android:paddingStart="@*com.google.android.videos:dimen/details_section_padding_horizontal"
+        android:paddingEnd="@*com.google.android.videos:dimen/details_section_padding_horizontal">
+
+        <ImageView
+            android:id="@*com.google.android.videos:id/thumbnail_frame"
+            android:tag="binding_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@*com.google.android.videos:id/title_section_info_area"
+            android:tag="binding_2"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@*com.google.android.videos:dimen/details_poster_spacing">
+
+            <TextView
+                android:textColor="#de000000"
+                android:tag="binding_3"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                style="@*com.google.android.videos:style/DetailsTitle" />
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.google.android.videos:dimen/details_title_section_vertical_padding">
+
+                <TextView
+                    android:ellipsize="none"
+                    android:tag="binding_4"
+                    android:background="@*com.google.android.videos:drawable/border_rect"
+                    android:paddingTop="@*com.google.android.videos:dimen/details_label_vertical_padding"
+                    android:paddingBottom="@*com.google.android.videos:dimen/details_label_vertical_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingStart="@*com.google.android.videos:dimen/details_label_horizontal_padding"
+                    android:paddingEnd="@*com.google.android.videos:dimen/details_label_horizontal_padding"
+                    android:layout_marginEnd="@*com.google.android.videos:dimen/details_item_spacing_small"
+                    style="@*com.google.android.videos:style/DetailsContentRating" />
+
+                <TextView
+                    android:ellipsize="end"
+                    android:tag="binding_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    style="@*com.google.android.videos:style/DetailsSubtitle" />
+            </LinearLayout>
+
+            <include layout="@*com.google.android.videos:layout/details_ratings" />
+        </LinearLayout>
+
+        <View
+            android:tag="binding_6"
+            android:layout_width="@*com.google.android.videos:dimen/details_play_button_size"
+            android:layout_height="0.0dip"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        android:tag="binding_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@*com.google.android.videos:dimen/details_play_button_offset"
+        android:layout_marginEnd="@*com.google.android.videos:dimen/details_section_padding_horizontal">
+
+        <View
+            android:visibility="visible"
+            android:layout_width="@*com.google.android.videos:dimen/details_play_button_size"
+            android:layout_height="@*com.google.android.videos:dimen/details_play_button_half_size" />
+
+        <com.google.android.apps.play.movies.mobile.view.widget.DownloadView
+            android:layout_gravity="center_horizontal"
+            android:id="@*com.google.android.videos:id/title_section_pin"
+            android:tag="binding_8"
+            android:background="@*com.google.android.videos:drawable/selectable_item_circular_background"
+            android:padding="@*com.google.android.videos:dimen/details_item_spacing_small"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.google.android.videos:dimen/details_item_spacing_small"
+            style="@*com.google.android.videos:style/DownloadViewLarge" />
+    </LinearLayout>
+</FrameLayout>
