@@ -24,14 +24,23 @@
                 android:minHeight="?android:actionBarSize"
                 app:popupTheme="@*com.google.android.apps.plus:style/Theme.ArkhamLight"
                 app:layout_scrollFlags="enterAlways|scroll"
-                app:titleTextAppearance="@*com.google.android.apps.plus:style/Theme.Arkham.ActionBar.Text"
-                app:theme="@*com.google.android.apps.plus:style/Theme.ArkhamDark" />
+                app:titleTextAppearance="@*com.google.android.apps.plus:style/Theme.Plus.ActionBar.Title"
+                app:theme="@*com.google.android.apps.plus:style/Theme.Plus.ActionBar" />
         </android.support.design.widget.AppBarLayout>
 
         <FrameLayout
             android:id="@*com.google.android.apps.plus:id/fragment_container"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior" />
+
+        <View
+            android:id="@*com.google.android.apps.plus:id/toolbar_shadow"
+            android:background="@*com.google.android.apps.plus:drawable/stream_elevation_shadow"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="4.0dip"
+            app:layout_collapseMode="pin"
             app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior" />
 
         <include layout="@*com.google.android.apps.plus:layout/bottom_bar_and_fab" />

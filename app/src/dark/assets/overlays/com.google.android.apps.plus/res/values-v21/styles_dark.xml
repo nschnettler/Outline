@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Main Theme -->
+    <style name="Theme.Plus" parent="@*com.google.android.apps.plus:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorLink">@*com.google.android.apps.plus:color/text_blue</item>
+        <item name="android:actionBarSize">@*com.google.android.apps.plus:dimen/action_bar_menu_item_height</item>
+        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="android:textColorLinkInverse">@*com.google.android.apps.plus:color/text_blue</item>
+        <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:colorPrimary">@*com.google.android.apps.plus:color/action_bar_color</item>
+        <item name="*com.google.android.apps.plus:colorPrimaryDark">@*com.google.android.apps.plus:color/status_bar_color</item>
+        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="*com.google.android.apps.plus:editAudienceBackground">?android:editTextBackground</item>
+        <item name="*com.google.android.apps.plus:buttonSelectableBackground">?android:selectableItemBackground</item>
+        <item name="*com.google.android.apps.plus:listSelector">?android:listChoiceBackgroundIndicator</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+    </style>
+
     <!-- Report Abuse Activity Theme -->
     <style name="UrawTheme" parent="@*android:style/Theme.Material">
         <item name="android:colorControlActivated">@*com.google.android.apps.plus:color/quantum_googblue500</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-    </style>
-
-    <!-- Share Dialog -->
-    <style name="Theme.Sharekit" parent="@*com.google.android.apps.plus:style/Theme.SharekitBase">
-        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
-        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
-        <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
-        <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
-        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 </resources>
