@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Colors -> White Toolbar/Statusbar -->
-    <color name="bt_status_bar_white">@*android:color/primary_material_dark</color>
     <color name="bt_action_bar_background_white">@*android:color/primary_dark_material_dark</color>
     <color name="primary_color">@*android:color/holo_blue_light</color>
     <color name="primary_dark_color">@*android:color/holo_blue_light</color>
 
 
     <!-- Background -->
-        <!-- Main -->
-        <color name="bt_megalist_background">@*android:color/background_material_dark</color>             <!-- Main bg -->
         <color name="bt_speed_dial_background">#33000000</color>                                          <!-- Overlay when FAB opened -->
             <!-- Card -->
             <color name="bt_megalist_item_background">@*android:color/background_material_dark</color>        <!-- Item/Card bg-->
@@ -17,7 +14,6 @@
             <!-- Divider -->
             <color name="bt_stroke_grey">@*android:color/background_dark</color>                              <!-- Divider -->
             <!-- Snackbar -->
-            <color name="toastbar_background">@*android:color/background_material_dark</color>                <!-- Snackbar -->
         <!-- Smartmail -->
         <color name="bt_generic_smartmail_cv_card_background">@*android:color/background_material_dark</color><!-- Card bg -->
         <!-- Label -->
