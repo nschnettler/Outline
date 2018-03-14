@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary -->
+    <color name="bt_action_bar_background_blue">@*android:color/primary_material_dark</color>
+    <color name="bt_action_bar_background_done">@*android:color/primary_material_dark</color>
+    <color name="bt_action_bar_background_grey">@*android:color/primary_material_dark</color>
+    <color name="bt_action_bar_background_inbox">@*android:color/primary_material_dark</color>
+    <color name="bt_action_bar_background_upcoming">@*android:color/primary_material_dark</color>
+
+    <!-- StatusBar -->
+    <color name="bt_status_bar_white">@*android:color/primary_material_dark</color>
+    <color name="bt_status_bar_blue">@*android:color/primary_material_dark</color>
+    <color name="bt_status_bar_brick">@*android:color/primary_material_dark</color>
+    <color name="bt_status_bar_default">@*android:color/primary_material_dark</color>
+    <color name="bt_status_bar_done">@*android:color/primary_material_dark</color>
+    <color name="bt_status_bar_inbox">@*android:color/primary_material_dark</color>
+    <color name="bt_status_bar_snoozed">@*android:color/primary_material_dark</color>
+
+    <!-- Background -->
+    <color name="bt_megalist_background">@*android:color/background_material_dark</color>           <!-- Main bg -->
+    <color name="toastbar_background">@*android:color/background_material_dark</color>              <!-- Snackbar -->
+
     <!-- Empty Background -->
     <color name="bt_empty_list_view_background_default">@*android:color/primary_material_dark</color>
     <color name="bt_empty_list_view_done_background">@*android:color/primary_material_dark</color>
