@@ -10,6 +10,13 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.google.android.apps.photos:dimen/toolbar_shadow_size" />
 
+    <ViewStub
+        android:id="@*com.google.android.apps.photos:id/tabbar_promo_stub"
+        android:layout="@*com.google.android.apps.photos:layout/photos_tabbar_promo"
+        android:inflatedId="@*com.google.android.apps.photos:id/tabbar_promo"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.apps.photos:dimen/photos_tabbar_promo_height" />
+
     <LinearLayout
         android:gravity="center_horizontal"
         android:orientation="horizontal"
@@ -24,12 +31,25 @@
             android:layout_weight="@*com.google.android.apps.photos:integer/photos_tabbar_button_weight"
             style="@*com.google.android.apps.photos:style/TabButton" />
 
-        <Button
-            android:id="@*com.google.android.apps.photos:id/tab_albums"
+        <FrameLayout
             android:layout_width="@*com.google.android.apps.photos:dimen/photos_tabbar_button_width"
-            android:text="@*com.google.android.apps.photos:string/photos_tabbar_albums_label"
-            android:layout_weight="@*com.google.android.apps.photos:integer/photos_tabbar_button_weight"
-            style="@*com.google.android.apps.photos:style/TabButton" />
+            android:layout_height="wrap_content"
+            android:layout_weight="@*com.google.android.apps.photos:integer/photos_tabbar_button_weight">
+
+            <Button
+                android:id="@*com.google.android.apps.photos:id/tab_albums"
+                android:layout_width="fill_parent"
+                android:text="@*com.google.android.apps.photos:string/photos_tabbar_albums_label"
+                style="@*com.google.android.apps.photos:style/TabButton" />
+
+            <ViewStub
+                android:layout_gravity="center|top"
+                android:id="@*com.google.android.apps.photos:id/tabbar_promo_arrow_stub"
+                android:layout="@*com.google.android.apps.photos:layout/photos_tabbar_button_promo_arrow"
+                android:inflatedId="@*com.google.android.apps.photos:id/tabbar_promo_arrow"
+                android:layout_width="@*com.google.android.apps.photos:dimen/photos_tabbar_promo_arrow_size"
+                android:layout_height="@*com.google.android.apps.photos:dimen/photos_tabbar_promo_arrow_size" />
+        </FrameLayout>
 
         <Button
             android:id="@*com.google.android.apps.photos:id/tab_assistant"
