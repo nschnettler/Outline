@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@*com.google.android.deskclock:id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextClock
+            android:textSize="@*com.google.android.deskclock:dimen/big_font_size"
+            android:gravity="center"
+            android:id="@*com.google.android.deskclock:id/digital_clock"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?android:actionBarSize"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@*com.google.android.deskclock:style/TextAppearance.TextClock" />
+
+        <TextView
+            android:textSize="20.0sp"
+            android:gravity="center"
+            android:id="@*com.google.android.deskclock:id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="16.0dip"
+            android:singleLine="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@*com.google.android.deskclock:id/digital_clock"
+            style="@*com.google.android.deskclock:style/TextAppearance.Body" />
+
+        <com.android.deskclock.widget.CircleView
+            android:gravity="center"
+            android:id="@*com.google.android.deskclock:id/pulse"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layerType="hardware"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:fillColor="?android:colorAccent"
+            app:radius="@*com.google.android.deskclock:dimen/alarm_lockscreen_pulse_radius" />
+
+        <ImageView
+            android:id="@*com.google.android.deskclock:id/snooze"
+            android:background="@*com.google.android.deskclock:drawable/bg_circle_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@*com.google.android.deskclock:string/alarm_alert_snooze_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@*com.google.android.deskclock:id/alarm"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@*com.google.android.deskclock:drawable/ic_snooze_white_80dp"
+            app:backgroundTint="?android:colorAccent" />
+
+        <ImageView
+            android:id="@*com.google.android.deskclock:id/dismiss"
+            android:background="@*com.google.android.deskclock:drawable/bg_circle_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@*com.google.android.deskclock:string/alarm_alert_dismiss_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@*com.google.android.deskclock:id/alarm"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@*com.google.android.deskclock:drawable/ic_dismiss_white_80dp"
+            app:backgroundTint="@android:color/holo_red_light" />
+
+        <ImageView
+            android:id="@*com.google.android.deskclock:id/alarm"
+            android:background="@android:color/transparent"
+            android:paddingLeft="@*com.google.android.deskclock:dimen/alarm_lockscreen_alarm_horizontal_padding"
+            android:paddingTop="@*com.google.android.deskclock:dimen/alarm_lockscreen_alarm_vertical_padding"
+            android:paddingRight="@*com.google.android.deskclock:dimen/alarm_lockscreen_alarm_horizontal_padding"
+            android:paddingBottom="@*com.google.android.deskclock:dimen/alarm_lockscreen_alarm_vertical_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@*com.google.android.deskclock:string/description_direction_both"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@*com.google.android.deskclock:id/snooze"
+            app:layout_constraintRight_toLeftOf="@*com.google.android.deskclock:id/dismiss"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@*com.google.android.deskclock:drawable/ic_alarm_circle_white_vardp"
+            app:tint="?android:colorAccent"
+            app:tintMode="src_in" />
+
+        <TextView
+            android:textSize="@*com.google.android.deskclock:dimen/bottom_text_size"
+            android:textColor="#80000000"
+            android:id="@*com.google.android.deskclock:id/hint"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@*com.google.android.deskclock:dimen/alarm_lockscreen_bottom_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@*com.google.android.deskclock:id/alert"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@*com.google.android.deskclock:dimen/alarm_info_font_size"
+            android:textColor="#de000000"
+            android:gravity="center_horizontal"
+            android:id="@*com.google.android.deskclock:id/alert_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin" />
+
+        <TextView
+            android:textSize="@*com.google.android.deskclock:dimen/alarm_info_font_size"
+            android:textStyle="bold"
+            android:textColor="#80000000"
+            android:gravity="center_horizontal"
+            android:id="@*com.google.android.deskclock:id/alert_info"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin" />
+    </LinearLayout>
+</FrameLayout>
