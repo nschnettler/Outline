@@ -1,10 +1,15 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:height="20dp" android:width="20dp" android:gravity="center">
+    <item
+        android:gravity="center"
+        android:width="20dp"
+        android:height="20dp">
         <shape
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:shape="oval">
-            <solid android:color="#33FFFFFF"/>
-            <stroke android:width="0.8dp" android:color="#FFFFFF"/>
+            android:shape="oval"
+            android:tint="?android:colorControlActivated">
+            <solid android:color="#66757575" />
+            <stroke
+                android:width="1dp"
+                android:color="#FFFFFF" />
         </shape>
     </item>
 </layer-list>

@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary -->
+    <color name="bt_action_bar_background_blue">#FFFFFF</color>
+    <color name="bt_action_bar_background_done">#FFFFFF</color>
+    <color name="bt_action_bar_background_grey">#FFFFFF</color>
+    <color name="bt_action_bar_background_inbox">#FFFFFF</color>
+    <color name="bt_action_bar_background_upcoming">#FFFFFF</color>
+
+    <!-- StatusBar -->
+    <color name="bt_status_bar_white">#FFFFFF</color>
+    <color name="bt_status_bar_blue">#FFFFFF</color>
+    <color name="bt_status_bar_brick">#FFFFFF</color>
+    <color name="bt_status_bar_default">#FFFFFF</color>
+    <color name="bt_status_bar_done">#FFFFFF</color>
+    <color name="bt_status_bar_inbox">#FFFFFF</color>
+    <color name="bt_status_bar_snoozed">#FFFFFF</color>
+
+    <!-- Background -->
+    <color name="bt_megalist_background">#FFFFFFFF</color>
+    <color name="toastbar_background">#FFFFFFFF</color>
+    <color name="toastbar_text">#de000000</color>
     <!-- Empty Background -->
-    <color name="bt_empty_list_view_background_default">@android:color/holo_blue_light</color>
-    <color name="bt_empty_list_view_done_background">@android:color/holo_green_light</color>
-    <color name="bt_empty_list_view_inbox_background">@android:color/holo_blue_light</color>
-    <color name="bt_empty_list_view_upcoming_background">@android:color/holo_orange_light</color>
+    <color name="bt_empty_list_view_background_default">#FFFFFF</color>
+    <color name="bt_empty_list_view_done_background">#FFFFFF</color>
+    <color name="bt_empty_list_view_inbox_background">#FFFFFF</color>
+    <color name="bt_empty_list_view_upcoming_background">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="bt_white_text">#de000000</color>
 
     <!-- Unimportant Cluster -->
     <color name="bt_cluster_name_custom">@*android:color/holo_gray_light</color>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme -->
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.Light.NoActionBar" >
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor">#e0e0e0</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Settings - ActionBar -->
+    <style name="bt_ActionBarTitle.Preferences" parent="@*com.google.android.apps.inbox:style/bt_ActionBarTitle">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <!-- Vacation Settings - ActionBar -->
+    <style name="VacationResponderActionButtonText">
+        <item name="android:textAppearance">?android:actionMenuTextAppearance</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>
