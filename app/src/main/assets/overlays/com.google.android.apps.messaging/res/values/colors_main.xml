@@ -18,17 +18,4 @@
     <!-- Error -->
     <color name="conversation_list_error">@android:color/holo_red_light</color>
     <color name="message_failed_timestamp_text">@android:color/holo_red_light</color>
-
-
-
-
-<!--
-    <color name="material_deep_teal_200">@android:color/holo_blue_light</color>
-    <color name="material_deep_teal_500">@android:color/holo_blue_light</color>
-    <color name="place_picker_center_bar_title">@android:color/holo_blue_light</color>
-    <color name="place_picker_center_bar_hint">@android:color/holo_blue_light</color>
-    <color name="dark_blue">@android:color/holo_blue_light</color>
-    <color name="material_google_blue_500">@android:color/holo_blue_light</color>
-    <color name="chips_dropdown_background_activated">@android:color/holo_blue_light</color>
-    -->
 </resources>
