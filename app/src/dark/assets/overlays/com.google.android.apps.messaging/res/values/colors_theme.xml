@@ -49,7 +49,6 @@
         <color name="audio_picker_timer_text_color">#FFFFFF</color>
         <color name="audio_attachment_timer_text_color">#FFFFFF</color>
         <!-- Other -->
-        <color name="compose_send_text_color">#FFFFFF</color>                                                       <!-- Compose Message Text -->
         <color name="chips_dropdown_text_highlighted">@android:color/holo_blue_dark</color>
         <color name="google_blue_grey_400">#b3FFFFFF</color>                                                        <!-- Send -->
         <!-- GOOGLE MESSENGER SPECIFIC -->
@@ -58,4 +57,7 @@
         <color name="compose_contact_text">#FFFFFF</color>
         <!-- Other -->
         <color name="primary_text_default_material_light">#FFFFFF</color>                                           <!-- Overflow Text -->
+        <!-- Send -->
+        <color name="compose_send_text_color">#FFFFFF</color>                                                       <!-- Compose Message Text -->
+        <color name="c2o_send_hint_color">#b3FFFFFF</color>
 </resources>

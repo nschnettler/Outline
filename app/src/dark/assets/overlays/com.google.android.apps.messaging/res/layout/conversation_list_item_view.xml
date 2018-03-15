@@ -14,7 +14,7 @@
     <FrameLayout
         android:id="@*com.google.android.apps.messaging:id/swipeableContainer"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:importantForAccessibility="no">
 
         <LinearLayout
@@ -24,7 +24,7 @@
             android:duplicateParentState="true"
             android:clipToPadding="false"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
             style="@*com.google.android.apps.messaging:style/ConversationListItemViewPaddingStyle">
 
             <FrameLayout
@@ -121,7 +121,7 @@
                         app:srcCompat="@*com.google.android.apps.messaging:drawable/ic_work_profile" />
                 </LinearLayout>
 
-                <TextView
+                <android.support.text.emoji.widget.EmojiTextView
                     android:ellipsize="end"
                     android:id="@*com.google.android.apps.messaging:id/conversation_subject"
                     android:paddingBottom="3.0dip"
@@ -131,7 +131,7 @@
                     android:singleLine="true"
                     style="@*com.google.android.apps.messaging:style/ConversationListItemViewTextStyle" />
 
-                <TextView
+                <android.support.text.emoji.widget.EmojiTextView
                     android:ellipsize="end"
                     android:id="@*com.google.android.apps.messaging:id/conversation_snippet"
                     android:paddingBottom="3.0dip"
