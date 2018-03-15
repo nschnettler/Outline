@@ -21,4 +21,12 @@
         <item name="android:navigationBarColor">#000000</item>
         <item name="android:navigationBarDividerColor">#000000</item>
     </style>
+
+    <!-- SplashScreen -->
+    <style name="CakemixTheme.SplashScreen" parent="@*com.google.android.apps.docs:style/CakemixTheme">
+        <item name="android:windowBackground">@*com.google.android.apps.docs:drawable/quantum_launchscreen_drive</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">#FAFAFA</item>
+    </style>
 </resources>
