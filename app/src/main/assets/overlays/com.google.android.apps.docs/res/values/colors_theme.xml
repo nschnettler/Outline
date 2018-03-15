@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- StatusBar -->
+    <color name="quantum_grey400">#FFFFFF</color>
+    <color name="m_app_secondary">#FFFFFF</color>
+</resources>
