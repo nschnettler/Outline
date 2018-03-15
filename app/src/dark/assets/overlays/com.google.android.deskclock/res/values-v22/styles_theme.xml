@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeskClock" parent="@*com.google.android.deskclock:style/Theme.Design.NoActionBar">
+        <item name="android:colorBackground">@*com.google.android.deskclock:color/grey_900</item>
+        <item name="android:windowBackground">@*com.google.android.deskclock:color/grey_900</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:timePickerStyle">@*com.google.android.deskclock:style/Widget.TimePicker</item>
+        <item name="*com.google.android.deskclock:popupTheme">@*com.google.android.deskclock:style/ThemeOverlay.Popup</item>
+        <item name="*com.google.android.deskclock:colorBackgroundFloating">@*com.google.android.deskclock:color/grey_900</item>
+        <item name="*com.google.android.deskclock:imageButtonStyle">@*com.google.android.deskclock:style/Widget.ImageButton</item>
+        <item name="*com.google.android.deskclock:colorPrimary">@*com.google.android.deskclock:color/grey_900</item>
+        <item name="*com.google.android.deskclock:colorPrimaryDark">@*com.google.android.deskclock:color/grey_900</item>
+        <item name="*com.google.android.deskclock:colorAccent">@android:color/holo_blue_light</item>
+        <item name="*com.google.android.deskclock:colorControlNormal">?android:textColorSecondary</item>
+        <item name="*com.google.android.deskclock:colorControlActivated">?android:textColorPrimary</item>
+    </style>
+</resources>
