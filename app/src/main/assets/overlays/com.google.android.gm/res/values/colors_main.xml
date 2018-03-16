@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
-    <color name="primary_color">@android:color/holo_red_light</color>
-    <color name="quantum_googred500">@android:color/holo_red_light</color>
-    <!-- Primary Dark -->
-    <color name="primary_dark_color">@android:color/holo_red_light</color>
     <!-- Accent -->
     <color name="accent_blue">@android:color/holo_red_light</color>
-
+    <color name="snack_bar_action_text_color">@android:color/holo_red_light</color>
 
     <!-- Mail Actions -->
-        <color name="quantum_deeporange500">@android:color/holo_red_light</color>                   <!-- Delete -->
-        <color name="quantum_googgreen700">@android:color/holo_green_light</color>                  <!-- Achieve -->
+    <color name="quantum_deeporange500">@android:color/holo_red_light</color>                       <!-- Delete -->
+    <color name="quantum_googgreen700">@android:color/holo_green_light</color>                      <!-- Achieve -->
 
     <!-- Other -->
     <color name="blue">@android:color/holo_blue_light</color>
-    <color name="suw_color_accent_glif_dark">@android:color/holo_blue_light</color>
-    <color name="suw_color_accent_glif_light">@android:color/holo_blue_light</color>
-    <color name="chips_dropdown_background_activated">@android:color/holo_blue_light</color>
-    <color name="chips_dropdown_permission_text">@android:color/holo_blue_light</color>
     <color name="quantum_googblue500">@android:color/holo_blue_light</color>
     <color name="smart_reply_button_border">@android:color/holo_blue_light</color>                  <!-- Smart Reply Border -->
 
