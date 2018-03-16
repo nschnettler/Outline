@@ -24,6 +24,8 @@
         <!-- Smart Reply -->
         <color name="smart_reply_background_with_normal_state">@*android:color/background_material_dark</color>
         <color name="smart_reply_background_with_pressed_state">@*android:color/background_dark</color>
+        <!-- Other -->
+        <color name="tip_teaser_bg">@*android:color/background_dark</color>
 
     <!-- Text -->
         <!-- Mail -->
