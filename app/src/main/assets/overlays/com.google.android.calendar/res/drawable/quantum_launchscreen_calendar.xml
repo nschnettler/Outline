@@ -5,7 +5,7 @@
 
     <item>
         <shape>
-            <solid android:color="@*com.google.android.calendar:color/background_color" />
+            <solid android:color="?android:colorBackground" />
         </shape>
     </item>
     <item android:gravity="center|center_vertical">
