@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center"
+    android:id="@*com.google.android.gm:id/compose_button"
+    android:focusable="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@*com.google.android.gm:dimen/compose_button_margin_side"
+    android:layout_marginBottom="@*com.google.android.gm:dimen/compose_button_margin_bottom"
+    android:src="@*com.google.android.gm:drawable/ic_pencil_wht_24dp"
+    android:contentDescription="@*com.google.android.gm:string/compose"
+    android:layout_marginEnd="@*com.google.android.gm:dimen/compose_button_margin_side"
+    style="@*com.google.android.gm:style/Widget.Design.FloatingActionButton"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
