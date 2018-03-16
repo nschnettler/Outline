@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalendarTheme.CreateGrooveActivity" parent="@*com.google.android.calendar:style/CalendarTheme.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorPrimary">@*com.google.android.calendar:color/calendar_primary</item>
+        <item name="android:colorAccent">@*com.google.android.calendar:color/accent_blue</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="*com.google.android.calendar:windowNoTitle">true</item>
+        <item name="*com.google.android.calendar:colorPrimary">@*com.google.android.calendar:color/calendar_primary</item>
+        <item name="*com.google.android.calendar:colorAccent">@*com.google.android.calendar:color/accent_blue</item>
+
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:navigationBarDividerColor">#000000</item>
+    </style>
+</resources>
