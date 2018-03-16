@@ -5,10 +5,28 @@
     <attr name="chipGroupStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
-    <attr name="colorPalettePrimary" format="reference" />
-    <attr name="colorPaletteSecondary" format="reference" />
+    <attr name="colorPrimary100" format="color" />
+    <attr name="colorPrimary200" format="color" />
+    <attr name="colorPrimary300" format="color" />
+    <attr name="colorPrimary400" format="color" />
+    <attr name="colorPrimary50" format="color" />
+    <attr name="colorPrimary500" format="color" />
+    <attr name="colorPrimary600" format="color" />
+    <attr name="colorPrimary700" format="color" />
+    <attr name="colorPrimary800" format="color" />
+    <attr name="colorPrimary900" format="color" />
     <attr name="colorPrimaryLight" format="color" />
     <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondary100" format="color" />
+    <attr name="colorSecondary200" format="color" />
+    <attr name="colorSecondary300" format="color" />
+    <attr name="colorSecondary400" format="color" />
+    <attr name="colorSecondary50" format="color" />
+    <attr name="colorSecondary500" format="color" />
+    <attr name="colorSecondary600" format="color" />
+    <attr name="colorSecondary700" format="color" />
+    <attr name="colorSecondary800" format="color" />
+    <attr name="colorSecondary900" format="color" />
     <attr name="colorSecondaryDark" format="color" />
     <attr name="colorSecondaryLight" format="color" />
     <attr name="coordinatorLayoutStyle" format="reference" />
@@ -20,7 +38,7 @@
     <attr name="materialButtonStyle" format="reference" />
     <attr name="materialCardViewStyle" format="reference" />
     <attr name="materialSwitchStyle" format="reference" />
-    <attr name="rippleColor" format="color" />
+    <attr name="navigationViewStyle" format="reference" />
     <attr name="scrimBackground" format="reference|color" />
     <attr name="showMotionSpec" format="reference" />
     <attr name="tabStyle" format="reference" />
@@ -268,6 +286,7 @@
         <enum name="unlabeled" value="2" />
     </attr>
     <attr name="itemBackground" format="reference" />
+    <attr name="itemIconSize" format="dimension" />
     <attr name="itemIconTint" format="color" />
     <attr name="itemTextAppearanceInactive" format="reference" />
     <attr name="itemTextAppearanceActive" format="reference" />
@@ -620,6 +639,15 @@
     </attr>
     <attr name="draw_hours" format="boolean" />
     <attr name="indicate_today" format="boolean" />
+    <attr name="containerBackgroundColor" format="color" />
+    <attr name="containerShadowColor" format="color" />
+    <attr name="arrowLength" format="dimension" />
+    <attr name="arrowBaseWidth" format="dimension" />
+    <attr name="containerPadding" format="dimension" />
+    <attr name="containerMargin" format="dimension" />
+    <attr name="containerCornerRadius" format="dimension" />
+    <attr name="containerShadowRadius" format="dimension" />
+    <attr name="containerShadowOffset" format="dimension" />
     <attr name="layout_spaceStart" format="dimension" />
     <attr name="layout_spaceEnd" format="dimension" />
     <attr name="layout_spaceBetween" format="dimension" />
@@ -651,8 +679,14 @@
     </attr>
     <attr name="imageAspectRatio" format="float" />
     <attr name="circleCrop" format="boolean" />
+    <attr name="iconPadding" format="dimension" />
+    <attr name="iconTint" format="color" />
+    <attr name="additionalPaddingLeftForIcon" format="dimension" />
+    <attr name="additionalPaddingRightForIcon" format="dimension" />
     <attr name="strokeColor" format="color" />
     <attr name="strokeWidth" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="rippleColor" format="color" />
     <attr name="maxHeight" format="dimension" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
@@ -682,7 +716,6 @@
     <attr name="actionProviderClass" format="string" />
     <attr name="contentDescription" format="string" />
     <attr name="tooltipText" format="string" />
-    <attr name="iconTint" format="color" />
     <attr name="iconTintMode">
         <enum name="add" value="16" />
         <enum name="multiply" value="14" />
@@ -695,6 +728,8 @@
     <attr name="subMenuArrow" format="reference" />
     <attr name="itemTextAppearance" format="reference" />
     <attr name="headerLayout" format="reference" />
+    <attr name="itemHorizontalPadding" format="dimension" />
+    <attr name="itemIconPadding" format="dimension" />
     <attr name="overlapAnchor" format="boolean" />
     <attr name="state_above_anchor" format="boolean" />
     <attr name="key" format="string" />
