@@ -51,6 +51,7 @@
         <color name="date_text_color_read">#FFFFFF</color>                                          <!-- Date (Read) -->
         <!-- Drawer Manage Accounts -->
         <color name="default_account_details_color">#FFFFFF</color>                                 <!-- Account Names -->
+        <color name="manage_accounts_text_color">#FFFFFF</color>                                    <!-- Account - Add, Manage-->
         <!-- Search -->
         <color name="search_query_hint_text">#b3FFFFFF</color>                                      <!-- Hint -->
         <color name="search_query_text">#FFFFFF</color>                                             <!-- Search -->
