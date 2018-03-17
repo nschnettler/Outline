@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar Icons -->
+    <style name="ToolbarTheme" parent="@*com.google.android.keep:style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="*com.google.android.keep:colorControlNormal">#de000000</item>
+    </style>
+</resources>

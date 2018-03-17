@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Colors -->
+    <color name="primary_color">@android:color/holo_orange_light</color>
+    <color name="primary_color_dark">@android:color/holo_orange_light</color>
+
     <!--Trash Theme -->
     <color name="trash_action_bar_background_color">@android:color/holo_red_light</color>
     <color name="trash_status_bar_color">@android:color/holo_red_light</color>

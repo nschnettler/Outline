@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Color -->
+    <color name="actionMode_status_bar_color">#FFFFFF</color>
+    <!-- Text -->
+    <color name="action_bar_text_color">#de000000</color>
+</resources>
