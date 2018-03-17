@@ -36,6 +36,7 @@
     <color name="call_subject_limit_exceeded">@android:color/holo_red_light</color>
     <color name="notification_action_dismiss">@android:color/holo_red_light</color>
     <color name="remove_highlighted_text_color">@android:color/holo_red_light</color>
+    <color name="dialer_end_call_button_color">@android:color/holo_red_light</color>
     <!-- GRÜN -->
     <color name="call_accept_background">@android:color/holo_green_light</color>
     <color name="call_subject_button">@android:color/holo_green_light</color>
