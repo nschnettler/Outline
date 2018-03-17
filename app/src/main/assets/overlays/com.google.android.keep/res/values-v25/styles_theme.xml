@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.Light.NoActionBar" >
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor">#1A000000</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+</resources>
