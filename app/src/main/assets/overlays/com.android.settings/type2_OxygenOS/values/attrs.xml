@@ -22,6 +22,7 @@
     <attr name="state_saved" format="boolean" />
     <attr name="wifi_signal" format="reference" />
     <attr name="wifi_friction" format="reference" />
+    <attr name="footerPreferenceStyle" format="reference" />
     <attr name="sideLabels" format="reference" />
     <attr name="bottomLabels" format="reference" />
     <attr name="textColor" format="color" />
@@ -39,6 +40,7 @@
         <flag name="start" value="0x00800003" />
     </attr>
     <attr name="suwCardBackground" format="reference|color" />
+    <attr name="suwFillContentLayoutStyle" format="reference" />
     <attr name="suwDividerCondition">
         <enum name="both" value="1" />
         <enum name="either" value="0" />
@@ -60,8 +62,13 @@
     <attr name="suwColorPrimary" format="color" />
     <attr name="suwHeader" format="reference" />
     <attr name="suwDividerInset" format="reference|dimension" />
+    <attr name="suwDividerInsetEnd" format="reference|dimension" />
+    <attr name="suwDividerInsetStart" format="reference|dimension" />
+    <attr name="suwDividerInsetStartNoIcon" format="reference|dimension" />
     <attr name="suwItemDescriptionStyle" format="reference" />
+    <attr name="suwItemDescriptionTitleStyle" format="reference" />
     <attr name="suwAspectRatio" format="float" />
+    <attr name="suwVideo" format="reference" />
     <attr name="suwBackgroundPatterned" format="boolean" />
     <attr name="suwBackgroundBaseColor" format="color" />
     <attr name="suwFooter" format="reference" />
@@ -460,6 +467,7 @@
     <attr name="theme" format="reference" />
     <attr name="backgroundTint" format="color" />
     <attr name="backgroundTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -571,6 +579,7 @@
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="buttonTint" format="color" />
     <attr name="buttonTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -613,6 +622,7 @@
     <attr name="srcCompat" format="reference" />
     <attr name="tint" format="color" />
     <attr name="tintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -715,7 +725,6 @@
     <attr name="fillColor" format="color" />
     <attr name="fillColorSecondary" format="color" />
     <attr name="apnPreferenceStyle" format="reference" />
-    <attr name="footerPreferenceStyle" format="reference" />
     <attr name="keywords" format="string" />
     <attr name="dotDiameter" format="dimension" />
     <attr name="dotGap" format="dimension" />

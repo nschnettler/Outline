@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@*com.android.settings:drawable/selectable_card"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@*com.android.settings:dimen/dashboard_category_elevation"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:background="?android:listDivider"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@*com.android.settings:dimen/dashboard_tile_minimum_height">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="@*com.android.settings:dimen/dashboard_tile_image_size"
+            android:layout_height="@*com.android.settings:dimen/dashboard_tile_image_size"
+            android:scaleType="centerInside"
+            android:tint="?android:colorAccent"
+            android:layout_marginStart="@*com.android.settings:dimen/dashboard_tile_image_margin_start"
+            android:layout_marginEnd="@*com.android.settings:dimen/dashboard_tile_image_margin_end" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:textAppearance="@*com.android.settings:style/TextAppearance.TileTitle"
+                android:ellipsize="marquee"
+                android:id="@android:id/title"
+                android:fadingEdge="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:textAppearance="@*com.android.settings:style/TextAppearance.Small"
+                android:textColor="?android:textColorSecondary"
+                android:id="@android:id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@android:id/title"
+                android:layout_alignStart="@android:id/title" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:gravity="top"
+                android:id="@*com.android.settings:id/overflow"
+                android:paddingTop="12.0dip"
+                android:paddingBottom="16.0dip"
+                android:layout_width="44.0dip"
+                android:layout_height="44.0dip"
+                android:tint="@*com.android.settings:color/overflow_tint_color"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="12.0dip"
+                style="?*android:actionOverflowButtonStyle" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
