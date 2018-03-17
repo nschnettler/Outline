@@ -59,4 +59,5 @@
     <color name="dialer_secondary_text_color">#FFFFFF</color>
     <color name="block_report_spam_primary_text_color">#FFFFFF</color>                              <!-- Block Dialog Text -->
     <color name="primary_material_dark">#FFFFFF</color>                                             <!-- Duo Card -->
+    <color name="bubble_button_color_grey">#FFFFFF</color>                                          <!-- Call Bubble - Text & Icons -->
 </resources>
