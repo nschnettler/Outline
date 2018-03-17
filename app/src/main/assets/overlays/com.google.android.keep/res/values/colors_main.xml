@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Theme -->
-    <color name="primary_color">@android:color/holo_orange_light</color>
-    <color name="primary_color_dark">@android:color/holo_orange_light</color>
     <color name="accent_color">@android:color/holo_orange_dark</color>
 
     <!-- Accent -->
