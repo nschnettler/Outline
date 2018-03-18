@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary - Main -->
+    <!-- Main Page - Statusbar -->
     <color name="status_bar_color">#FFFFFF</color>
-    <color name="action_bar_background">#FFFFFF</color>
-    <color name="status_bar_background">#FFFFFF</color>
-    <!-- Primary - Community -->
-    <color name="square_green_light">#FFFFFF</color>
-    <color name="square_green_dark">#FFFFFF</color>
-    <!-- Primary - Collection -->
-    <color name="quantum_lightblue500">#FFFFFF</color>                   <!-- Primary -->
-    <color name="quantum_lightblue700">#FFFFFF</color>                   <!-- Primary Dark -->
+
     <!-- Background -->
     <color name="quantum_grey200">#FAFAFA</color>
     <color name="host_background">#FAFAFA</color>
