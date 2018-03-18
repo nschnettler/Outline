@@ -1,4 +1,4 @@
-package com.schnettler.ethereal
+package com.schnettler.minimal
 
 import android.app.Activity
 import android.content.Context
