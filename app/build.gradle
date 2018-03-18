@@ -22,7 +22,7 @@ ext {
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.1'
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 26
@@ -52,6 +52,7 @@ android {
                 applicationId "com.schnettler.ethereal"
                 ndk {
                     moduleName "LoadingProcessDark"
+                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
                 }
             }
             light {
@@ -59,6 +60,15 @@ android {
                 applicationId "com.schnettler.outline"
                 ndk {
                     moduleName "LoadingProcessLight"
+                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
+                }
+            }
+            minimal {
+                dimension "theme"
+                applicationId "com.schnettler.minimal"
+                ndk {
+                    moduleName "LoadingProcessMinimal"
+                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
                 }
             }
         }
@@ -72,9 +82,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.github.javiersantos:PiracyChecker:1.1'
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.github.javiersantos:PiracyChecker:1.1'
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
         transitive = true
     }
 }
