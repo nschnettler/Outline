@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="default_background_color">@*android:color/background_material_dark</color>             <!-- Main | Settings, Behind Cards,... -->
+    <color name="default_fragment_background_color">@*android:color/background_material_dark</color>    <!-- Drawer, Fragments -->
+    <color name="keep_default_color">@*android:color/background_material_dark</color>
+</resources>
