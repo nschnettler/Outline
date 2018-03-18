@@ -14,8 +14,6 @@
 
 
     <!-- Background -->
-    <color name="default_background_color">@*android:color/background_material_dark</color>             <!-- Main | Settings, Behind Cards,... -->
-    <color name="default_fragment_background_color">@*android:color/background_material_dark</color>    <!-- Drawer, Fragments -->
         <!-- Drawer -->
         <color name="drawer_selected_color">@*android:color/background_dark</color>                     <!-- Selected -->
         <color name="drawer_divider_color">@*android:color/background_dark</color>                      <!-- Divider -->
@@ -56,10 +54,6 @@
         <color name="checked_list_item_color">#4dffffff</color>                                         <!-- Checkbox Selected Color -->
         <color name="collaborator_fragment_title_text_color">#FFFFFF</color>                            <!-- Add Collaborator Toolbar Text -->
         <color name="share_fragment_save_text_color_enabled">#FFFFFF</color>                            <!-- Add Collaborator Toolbar Save Text -->
-
-
-    <!-- Notes Background Options -->
-    <color name="keep_default_color">@*android:color/background_material_dark</color>
 
     <!-- Spinner -->
     <color name="reminder_spinner_custom_dropdown_background">@*android:color/background_material_dark</color>
