@@ -2,7 +2,7 @@
 <resources>
     <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.Light.NoActionBar">
         <item name="android:navigationBarColor">#FFFFFF</item>
-        <item name="android:navigationBarDividerColor">#E0E0E0</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
