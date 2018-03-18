@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SettingsBase" parent="@*com.android.settings:style/Oneplus.Theme.DeviceDefault">
+        <item name="android:dividerHeight">@*com.android.settings:dimen/oneplus_contorl_divider_height_standard</item>
+        <item name="android:listDivider">@*com.android.settings:color/oneplus_contorl_divider_color_default</item>
+        <item name="android:colorControlNormal">@*com.android.settings:color/oneplus_settings_text_color_primary</item>
+        <item name="android:colorPrimary">?onePlusActionbarBackgroundColor</item>
+        <item name="android:colorPrimaryDark">?onePlusActionbarBackgroundColor</item>
+        <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>
+        <item name="onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
+        <item name="onePlusActionbarBackgroundColor">@*com.android.settings:color/oneplus_main_home_bg_ab</item>
+    </style>
+</resources>
