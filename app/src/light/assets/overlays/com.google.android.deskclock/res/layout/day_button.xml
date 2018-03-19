@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dip"
+    android:layout_height="48.0dip"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:gravity="center"
+        android:background="@*com.google.android.deskclock:drawable/toggle_circle"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"/>
+
+    <CheckBox
+        android:textSize="@*com.google.android.deskclock:dimen/day_button_font_size"
+        android:gravity="center"
+        android:id="@*com.google.android.deskclock:id/day_button_box"
+        android:background="@*com.google.android.deskclock:drawable/toggle_circle"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:button="@null" />
+</FrameLayout>
