@@ -4,4 +4,7 @@
     <color name="quantum_googblue800">@android:color/holo_blue_light</color>
     <!-- Primary Dark -->
     <color name="primary_color_dark">@android:color/holo_blue_light</color>
+
+    <!-- ActionBar Icon -->
+    <color name="actionbar_color_grey_solid">#FFFFFF</color>
 </resources>
