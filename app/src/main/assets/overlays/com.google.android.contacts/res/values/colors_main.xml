@@ -9,7 +9,4 @@
     <color name="swipe_refresh_color2">@android:color/holo_blue_dark</color>
     <color name="swipe_refresh_color3">@android:color/holo_blue_dark</color>
     <color name="swipe_refresh_color4">@android:color/holo_blue_dark</color>
-
-    <!-- ActionBar Icon -->
-    <color name="actionbar_color_grey_solid">#FFFFFF</color>
 </resources>
