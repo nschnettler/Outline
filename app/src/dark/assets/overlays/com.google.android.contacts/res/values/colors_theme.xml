@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="background_primary">@*android:color/background_material_dark</color>                   <!-- Main -->
+    <color name="navigation_drawer_background_color">@*android:color/background_material_dark</color>   <!-- Drawer -->
+    <color name="empty_state_background">@*android:color/background_material_dark</color>               <!-- "Vorschläge" Background -->
+</resources>
