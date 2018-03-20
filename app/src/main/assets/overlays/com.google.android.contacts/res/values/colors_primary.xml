@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="quantum_googblue800">@android:color/holo_blue_light</color>
+    <!-- Primary Dark -->
+    <color name="primary_color_dark">@android:color/holo_blue_light</color>
+</resources>
