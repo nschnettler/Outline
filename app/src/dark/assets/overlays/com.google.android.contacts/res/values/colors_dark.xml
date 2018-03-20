@@ -2,8 +2,6 @@
 <resources>
     <!-- Background -->
         <!-- "Main" Backgrounds -->
-        <color name="background_primary">@*android:color/background_material_dark</color>                           <!-- Main Contacts Background + Drawer -->
-        <color name="empty_state_background">@*android:color/background_material_dark</color>                       <!-- "Vorschläge" Background -->
         <color name="background_material_light">@*android:color/background_material_dark</color>
         <!-- Divider -->
         <color name="divider_line_color_light">#00aaaaaa</color>                                                    <!-- Contact divider color -->
@@ -21,7 +19,6 @@
         <color name="quickcontact_header_background">@*android:color/background_material_dark</color>
         <color name="header_avatar_border_color">@*android:color/background_dark</color>
         <!-- Drawer -->
-        <color name="navigation_drawer_background_color">@*android:color/background_material_dark</color>           <!-- Drawer -->
         <color name="drawer_selected_color">@*android:color/background_dark</color>                                 <!-- Drawer Selected -->
         <color name="contacts_accent_color">@*android:color/background_material_dark</color>                        <!-- Drawer behind Statusbar -->
         <color name="account_switcher_tooltip_bg">@*android:color/background_material_dark</color>
@@ -63,7 +60,6 @@
 
     <!-- Icon -->
     <color name="floating_action_button_icon_color">#FFFFFF</color>                                 <!-- FAB Icon -->
-    <color name="actionbar_color_grey_solid">#FFFFFF</color>                                        <!-- Assistant Card Icon -->
     <color name="editor_icon_color">#FFFFFF</color>                                                 <!-- Edit Contact Icons -->
     <color name="quickcontact_icon_color">#FFFFFF</color>
 
