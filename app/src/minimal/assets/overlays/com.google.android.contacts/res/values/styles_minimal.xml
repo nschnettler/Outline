@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <style name="ContactsPreferencesTheme" parent="@*com.google.android.contacts:style/Theme.AppCompat.Light">
+        <item name="*com.google.android.contacts:preferenceTheme">@*com.google.android.contacts:style/PreferenceTheme</item>
+        <item name="*com.google.android.contacts:colorPrimary">#FFFFFF</item>
+        <item name="*com.google.android.contacts:colorPrimaryDark">#FFFFFF</item>
+        <item name="*com.google.android.contacts:colorAccent">@android:color/holo_blue_dark</item>
+    </style>
+
+    <!-- Contact Source Filter -->
+    <style name="PeopleTheme" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:colorPrimary">#FFFFFF</item>
+        <item name="android:colorPrimaryDark">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
+
+    <!-- QuickContact Toolbar Text -->
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*com.google.android.contacts:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:colorControlNormal">#de000000</item>
+    </style>
+
+    <!-- Drawer Arrow -->
+    <style name="DrawerArrowStyle" parent="@*com.google.android.contacts:style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="*com.google.android.contacts:color">#de000000</item>
+    </style>
+
+    <!-- Main Theme -->
+    <style name="ContactsColorTheme" parent="@*com.google.android.contacts:style/Theme.AppCompat.Light">
+        <item name="android:colorPrimary">@*com.google.android.contacts:color/primary_color</item>
+        <item name="android:colorPrimaryDark">@*com.google.android.contacts:color/primary_color_dark</item>
+        <item name="android:colorAccent">@android:color/holo_blue_dark</item>
+        <item name="*com.google.android.contacts:colorPrimary">@*com.google.android.contacts:color/primary_color</item>
+        <item name="*com.google.android.contacts:colorPrimaryDark">@*com.google.android.contacts:color/primary_color_dark</item>
+        <item name="*com.google.android.contacts:colorAccent">@android:color/holo_blue_dark</item>
+    </style>
+</resources>
