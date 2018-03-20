@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar Text & Icons -->
+    <color name="actionbar_icon_color">#de000000</color>
+    <color name="actionbar_text_color">#de000000</color>
+    <color name="action_bar_button_text_color">#de000000</color>
+
+    <!-- Action Mode -->
+    <color name="contextual_selection_bar_color">#FFFFFF</color>
+    <color name="contextual_selection_bar_status_bar_color">#FFFFFF</color>
+
+    <!-- Background -->
+    <color name="quickcontact_header_background">#FFFFFF</color>
+
+    <!-- Statusbar -->
+    <color name="quantum_grey500">#FAFAFA</color>
+</resources>
