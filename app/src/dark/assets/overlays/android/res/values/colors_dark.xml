@@ -19,4 +19,6 @@
 
     <!-- Exposures -->
     <color name="sender_text_color">#FFFFFF</color>                                                 <!-- Notification sender text color -->
+    <!-- Ambient Notification icon/text dynamic tint -->
+    <color name="notification_text_default_color">@*android:color/accent_material_light</color>
 </resources>
