@@ -26,6 +26,9 @@
         <color name="smart_reply_background_with_pressed_state">@*android:color/background_dark</color>
         <!-- Other -->
         <color name="tip_teaser_bg">@*android:color/background_dark</color>
+        <!-- Account Setup -->
+        <color name="suw_glif_background_color_light">@*android:color/background_material_dark</color>
+        <color name="glif_button_disabled_color">@*android:color/background_dark</color>
 
     <!-- Text -->
         <!-- Mail -->
@@ -62,6 +65,8 @@
         <color name="srs_button_text_disabled_color">#FFFFFF</color>                                <!-- Example: Add Account Next Button Disabled -->
         <color name="quantum_black_secondary_text">#FFFFFF</color>                                  <!-- Example: Add Account Zertificate, Drawer Category-->
         <color name="quantum_black_text">#ffffffff</color>
+        <!-- Account Setup -->
+        <color name="glif_button_text_disabled_color">#b3FFFFFF</color>
 
 
     <!-- Divider -->
