@@ -10,9 +10,7 @@
     <color name="all_apps_container_color_dark">@*android:color/background_material_dark</color>        <!-- Drawer -->
     <color name="all_apps_round_searchbar_bg_color_dark">@*android:color/background_dark</color>        <!-- Drawer: Alternative Searchbar (rounded) -->
     <color name="qsb_background_dark">@*android:color/background_material_dark</color>                  <!-- QuickSearchbar / Pill -->
-    <color name="popup_background_color_dark">@*android:color/background_material_dark</color>          <!-- Popup -->
     <color name="popup_header_background_color_dark">@*android:color/background_dark</color>            <!-- Popup Header -->
-    <color name="notification_color_beneath_dark">@*android:color/background_material_dark</color>      <!-- Popup below Notification -->
 
     <!-- Divider -->
     <color name="all_apps_round_searchbar_divider_color_dark">@*android:color/background_dark</color>   <!-- Drawer -->
