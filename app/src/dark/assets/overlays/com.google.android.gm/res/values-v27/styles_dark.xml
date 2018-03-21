@@ -20,4 +20,10 @@
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:navigationBarDividerColor">@android:color/background_dark</item>
     </style>
+
+    <style name="ColoredNavBarGlifActivityTheme" parent="@*com.google.android.gm:style/SuwThemeGlif.Light">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@android:color/background_dark</item>
+    </style>
 </resources>
