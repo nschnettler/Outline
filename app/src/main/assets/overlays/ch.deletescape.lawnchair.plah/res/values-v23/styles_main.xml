@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <style name="SettingsTheme" parent="@*ch.deletescape.lawnchair.plah:style/Theme.AppCompat.Light">
+        <item name="*ch.deletescape.lawnchair.plah:colorPrimaryDark">#FFFFFF</item>
+        <item name="*ch.deletescape.lawnchair.plah:colorPrimary">#FFFFFF</item>
+        <item name="android:colorAccent">@*ch.deletescape.lawnchair.plah:color/accent_material_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="*ch.deletescape.lawnchair.plah:blurTintColor">#45ffffff</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="SettingsTheme.Dark" parent="@*ch.deletescape.lawnchair.plah:style/Theme.AppCompat">
+        <item name="*ch.deletescape.lawnchair.plah:colorPrimaryDark">@*ch.deletescape.lawnchair.plah:color/color_primary_dark_settings_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:colorPrimary">@*ch.deletescape.lawnchair.plah:color/color_primary_settings_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:colorAccent">@*ch.deletescape.lawnchair.plah:color/accent_material_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*ch.deletescape.lawnchair.plah:blurTintColor">#45212121</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+</resources>
