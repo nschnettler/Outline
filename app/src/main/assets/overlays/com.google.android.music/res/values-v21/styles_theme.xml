@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LaunchScreen -->
+    <style name="MusicActivityTheme.Launcher" parent="@*com.google.android.music:style/MusicActivityTheme">
+        <item name="android:windowBackground">@*com.google.android.music:drawable/splashscreen_logo</item>
+        <item name="android:colorPrimaryDark">#FFFFFF</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
