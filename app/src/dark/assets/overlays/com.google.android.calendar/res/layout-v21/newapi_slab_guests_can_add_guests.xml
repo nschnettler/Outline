@@ -2,11 +2,5 @@
 <com.google.android.calendar.tiles.view.TextTileView android:id="@*com.google.android.calendar:id/slab_can_add_guests"
     android:background="@*android:color/background_material_dark"
     android:elevation="@*com.google.android.calendar:dimen/slab_guests_can_add_guests_elevation"
-    app:tile_treat_as_button="true"
-    app:tile_right_action_layout="@*com.google.android.calendar:layout/newapi_tile_right_action_ninja_switch"
-    app:tile_primary_text="@*com.google.android.calendar:string/guests_can_invite_switch_label"
-    app:tile_primary_text_color="@*com.google.android.calendar:color/tile_secondary_line"
-    app:tile_primary_text_size="@*com.google.android.calendar:dimen/two_line_tile_secondary_line_text_size"
     style="@*com.google.android.calendar:style/Tile.TwoLine"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" />
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
