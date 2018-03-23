@@ -9,11 +9,4 @@
     <color name="music_banner_color">@android:color/holo_orange_light</color>
     <color name="overlay_status_bar_color">#00000000</color>                                        <!-- Statusbar Overlay -->
     <color name="play_music_secondary">@android:color/holo_orange_light</color>                     <!-- Drawer - Selected Text -->
-
-    <!-- Background -->
-    <color name="app_background">#FFFFFF</color>
-    <color name="play_card_light_background">#FFFFFF</color>
-    <color name="app_background_light">#FFFFFF</color>
-    <color name="app_background_light_transparent">#FFFFFFFF</color>
-    <color name="nowplaying_art_bg">#FFFFFF</color>
 </resources>
