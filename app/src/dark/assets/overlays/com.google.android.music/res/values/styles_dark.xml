@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Platform.AppCompat.Light" parent="@android:style/Theme">
-        <item name="android:textColor">@*android:color/Teal_700</item>
-        <item name="android:textColorPrimary">@*android:color/Teal_700</item>
-        <item name="android:textColorSecondary">@android:color/white</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-    </style>
-
     <style name="PlayCardTitle" parent="@*com.google.android.music:style/PlayPlainText">
         <item name="android:textSize">@*com.google.android.music:dimen/play_title_size</item>
         <item name="android:textColor">#FFFFFF</item>

@@ -4,7 +4,7 @@
         android:viewportWidth="24.0"
         android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*com.google.android.music:color/side_drawer_icon_color"
+        android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="0.8"
         android:pathData="M3.3,6.3h12 M3.3,11.3h12 M3.3,16.3h7.5 M21.8,6.3h-3v10 M16.3,13.8c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5
 	s2.5-1.1,2.5-2.5S17.6,13.8,16.3,13.8z"/>

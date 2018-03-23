@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Icons (Drawer) -->
-    <color name="side_drawer_icon_color">#FFFFFF</color>                                            <!-- Icons -->
+    <!-- Background -->
+    <color name="app_background">@*android:color/background_material_dark</color>                   <!-- Main -->
+    <color name="play_card_light_background">@*android:color/background_material_dark</color>
+    <color name="app_background_light">@*android:color/background_material_dark</color>
+    <color name="app_background_light_transparent">@*android:color/background_material_dark</color> <!-- Now Playing Bottom -->
+    <color name="nowplaying_art_bg">@*android:color/background_material_dark</color>
 </resources>
