@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="app_background">#FFFFFF</color>
+    <color name="play_card_light_background">#FFFFFF</color>
+    <color name="app_background_light">#FFFFFF</color>
+    <color name="app_background_light_transparent">#FFFFFFFF</color>
+    <color name="nowplaying_art_bg">#FFFFFF</color>
+</resources>

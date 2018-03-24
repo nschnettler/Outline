@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Background-->
-    <color name="app_background">@*android:color/background_material_dark</color>                   <!-- Main -->
-    <color name="play_card_light_background">@*android:color/background_material_dark</color>
-    <color name="app_background_light">@*android:color/background_material_dark</color>
-    <color name="app_background_light_transparent">@*android:color/background_material_dark</color> <!-- Now Playing Bottom -->
+    <!-- Background - Main Backgrounds in colors_theme -->
     <color name="white">@*android:color/background_material_dark</color>                            <!-- Various Backgrounds: Cards, Select Account, Now Playing Queue, Album Card Background -->
-    <color name="nowplaying_art_bg">@*android:color/background_material_dark</color>
     <color name="music_play_card_small_number_bg">@*android:color/background_material_dark</color>
     <color name="design_snackbar_background_color">@*android:color/background_material_dark</color> <!-- Snackbar -->
 
@@ -31,4 +26,9 @@
     <color name="default_primary_text_color">#FFFFFF</color>                                        <!-- Search Suggestion Primary -->
     <color name="default_secondary_text_color">#b3FFFFFF</color>                                    <!-- Search Suggestion Secondary -->
     <color name="disabled_grey">#b3FFFFFF</color>
+    <color name="nowplaying_widget_track_color">#FFFFFF</color>
+    <color name="grey">#b3FFFFFF</color>
+
+    <!-- Icon -->
+    <color name="side_drawer_icon_color">#FFFFFF</color>
 </resources>
