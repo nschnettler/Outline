@@ -2,8 +2,6 @@
 <resources>
     <!-- Background -->
     <color name="welcome_screen_background">@*android:color/background_material_dark</color>
-    <!--<color name="chart_area">@*android:color/background_material_dark</color> -->
-    <color name="list_background">@*android:color/background_material_dark</color>
     <color name="quantum_white_100">@*android:color/background_material_dark</color>                            <!-- | Drawer -->
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>  <!-- Dialog -->
     <color name="drawer_selected_background">@*android:color/background_dark</color>                            <!-- Drawer Selected -->
