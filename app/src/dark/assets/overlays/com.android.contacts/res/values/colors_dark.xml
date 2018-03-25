@@ -70,4 +70,8 @@
     <color name="list_item_pinned_header_color">@*android:color/background_material_dark</color>
     <color name="contact_all_list_background_color">@*android:color/background_material_dark</color>
     <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
+
+
+    <!-- ROMs -->
+    <color name="navigation_bar_color">@*android:color/background_material_dark</color>
 </resources>

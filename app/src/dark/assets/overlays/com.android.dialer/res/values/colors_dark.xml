@@ -58,4 +58,8 @@
     <color name="section_header_text_color">#ffffffff</color>
     <color name="dialer_secondary_text_color">#FFFFFF</color>
     <color name="block_report_spam_primary_text_color">#FFFFFF</color>                              <!-- Block Dialog Text -->
+
+
+    <!-- ROMs -->
+    <color name="navigation_bar_color">@*android:color/background_material_dark</color>
 </resources>
