@@ -6,10 +6,9 @@
     <!-- Accent -->
     <color name="root_activated_color">@android:color/holo_blue_dark</color>
     <color name="accent">@android:color/holo_blue_dark</color>
-
-    <!-- Icons -->
-    <color name="root_icon_color">?android:colorControlNormal</color>                                                 <!-- Drawer Icons -->
-
+    <color name="text_handle">@android:color/holo_blue_dark</color>
+    <color name="text_highlight">@android:color/holo_blue_dark</color>
+    <color name="text_cursor">@android:color/holo_blue_dark</color>
 
     <!-- OnePlus -->
     <color name="primary_new">@android:color/holo_blue_light</color>
