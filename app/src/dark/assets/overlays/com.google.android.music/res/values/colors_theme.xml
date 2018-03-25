@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Icon -->
+    <color name="side_drawer_icon_color">#FFFFFF</color>
+
     <!-- Background -->
     <color name="app_background">@*android:color/background_material_dark</color>                   <!-- Main -->
     <color name="play_card_light_background">@*android:color/background_material_dark</color>
