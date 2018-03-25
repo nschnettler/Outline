@@ -28,7 +28,4 @@
     <color name="disabled_grey">#b3FFFFFF</color>
     <color name="nowplaying_widget_track_color">#FFFFFF</color>
     <color name="grey">#b3FFFFFF</color>
-
-    <!-- Icon -->
-    <color name="side_drawer_icon_color">#FFFFFF</color>
 </resources>
