@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Icons -->
-    <color name="root_icon_color">#757575</color>                                                   <!-- Drawer Icons -->
+    <!-- Background -->
+    <color name="directory_background">#FFFFFF</color>
+    <color name="drawer_background">#FFFFFF</color>
+    <color name="window_background">#FFFFFF</color>
 </resources>
 
