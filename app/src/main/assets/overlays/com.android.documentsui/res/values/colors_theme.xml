@@ -4,8 +4,9 @@
     <color name="root_icon_color">#de000000</color>                                                 <!-- Drawer Icons -->
 
     <!-- Background -->
-    <color name="directory_background">#FFFFFF</color>
-    <color name="drawer_background">#FFFFFF</color>
-    <color name="window_background">#FFFFFF</color>
+    <color name="directory_background">#FFFFFF</color>                                              <!-- List  -->
+    <color name="drawer_background">#FFFFFF</color>                                                 <!-- Drawer -->
+    <color name="window_background">#FFFFFF</color>                                                 <!-- Main -->
+    <color name="material_grey_50">#FFFFFF</color>                                                  <!-- Save as Bar -->
 </resources>
 
