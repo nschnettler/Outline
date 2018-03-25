@@ -2,5 +2,25 @@
 <resources>
     <!-- Icons -->
     <color name="root_icon_color">#FFFFFF</color>                                                   <!-- Drawer Icons -->
+
+    <!-- Background -->
+    <color name="directory_background">@*android:color/background_material_dark</color>             <!-- List  -->
+    <color name="drawer_background">@*android:color/background_material_dark</color>                <!-- Drawer -->
+    <color name="window_background">@*android:color/background_material_dark</color>                <!-- Main -->
+    <color name="material_grey_50">@*android:color/background_material_dark</color>                 <!-- Save as Bar -->
+
+    <color name="drawer_border">@*android:color/background_material_dark</color>                    <!-- Drawer -->
+    <color name="item_doc_background">@*android:color/background_material_dark</color>              <!-- Cards -->
+    <color name="item_doc_background_selected">@*android:color/background_dark</color>              <!-- Card selected -->
+    <color name="item_doc_background_disabled">@*android:color/background_dark</color>              <!-- Card disabled -->
+
+    <!-- Text -->
+    <color name="dialog_title">#FFFFFF</color>                                                      <!-- Dialog -->
+    <color name="root_details_color">#b3FFFFFF</color>                                              <!-- Drawer - Item Details -->
+    <color name="root_title_color">#FFFFFF</color>                                                  <!-- Drawer - Item Text -->
+    <color name="sort_widget_text_color">#FFFFFF</color>                                            <!-- Sortview -->
+    <color name="item_doc_title">#FFFFFF</color>                                                    <!-- Items - Title -->
+    <color name="item_doc_title_disabled">#b3FFFFFF</color>                                         <!-- Items - Disabled -->
+    <color name="item_doc_details">#b3FFFFFF</color>                                                <!-- Items - Details -->
 </resources>
 
