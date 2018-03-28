@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Icons -->
+    <color name="deep_gray">#80FFFFFF</color>
+
+    <!-- Background -->
+    <color name="pressed">#1a000000</color>
+    <color name="speech_bubble">#4D000000</color>
+</resources>
