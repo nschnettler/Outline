@@ -33,7 +33,7 @@
                     android:id="@*com.whatsapp:id/name_in_group"
                     android:paddingLeft="8.0dip"
                     android:paddingTop="3.0dip"
-                    android:paddingRight="8.0dip"
+                    android:paddingRight="0.0dip"
                     android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -51,7 +51,7 @@
                         android:textSize="@*com.whatsapp:dimen/conversation_participant_name_tv"
                         android:textColor="#ffdddddd"
                         android:id="@*com.whatsapp:id/pushname_in_group_tv"
-                        android:paddingLeft="12.0sp"
+                        android:paddingLeft="6.0sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:lines="1"
@@ -110,7 +110,7 @@
                             whatsapp:vnsbTrackWidth="3.0dip" />
 
                         <TextView
-                            android:textColor="#ffdddddd"
+                            android:textColor="#b3FFFFFF"
                             android:layout_gravity="center"
                             android:id="@*com.whatsapp:id/description"
                             android:layout_width="0.0dip"
@@ -120,7 +120,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="bottom|center|left"
                     android:id="@*com.whatsapp:id/duration"
                     android:paddingLeft="58.0dip"
