@@ -3,12 +3,7 @@
     <!-- Primary -->
     <color name="toolbar_bg_color">#202030</color>
 
-    <!-- Icons -->
-    <color name="deep_gray">#80FFFFFF</color>
-
     <!-- Background -->
     <color name="app_background">#202030</color>
     <color name="faded_gray">#202030</color>
-    <color name="pressed">#1a000000</color>
-    <color name="speech_bubble">#4D000000</color>
 </resources>
