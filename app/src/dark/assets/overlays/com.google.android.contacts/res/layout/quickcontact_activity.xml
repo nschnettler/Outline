@@ -4,8 +4,7 @@
     android:fitsSystemWindows="true"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.google.android.apps.contacts.quickcontact.QuickContactAppBarLayout
         android:theme="@*com.google.android.contacts:style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -19,9 +18,7 @@
             android:background="@*com.google.android.contacts:color/quickcontact_header_background"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            app:layout_scrollFlags="enterAlways|enterAlwaysCollapsed|scroll"
-            app:expandedTitleGravity="bottom|center"
-            app:titleEnabled="false">
+            style="@*com.google.android.contacts:style/Widget.Design.CollapsingToolbar">
 
             <include
                 android:layout_width="fill_parent"
@@ -34,7 +31,7 @@
         android:id="@*com.google.android.contacts:id/content_scroll_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        app:layout_behavior="@*com.google.android.contacts:string/appbar_scrolling_view_behavior">
+        style="@*com.google.android.contacts:style/Widget.Design.CollapsingToolbar">
 
         <include
             android:layout_width="fill_parent"
