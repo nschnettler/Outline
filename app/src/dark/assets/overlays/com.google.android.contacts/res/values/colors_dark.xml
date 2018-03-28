@@ -4,9 +4,9 @@
         <!-- "Main" Backgrounds -->
         <color name="background_material_light">@*android:color/background_material_dark</color>
         <!-- Divider -->
-        <color name="divider_line_color_light">#00aaaaaa</color>                                                    <!-- Contact divider color -->
-        <color name="drawer_divider_color">@*android:color/background_dark</color>
-        <!-- Card -->
+        <color name="divider_line_color_light">#33000000</color>                                                    <!-- Contact divider color -->
+        <color name="drawer_divider_color">#33000000</color>
+    <!-- Card -->
         <color name="cardview_dark_background">@*android:color/background_material_dark</color>                     <!-- Cards -->
         <!-- Snackbar -->
         <color name="snackbar_background">@*android:color/background_material_dark</color>
