@@ -14,4 +14,15 @@
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
+
+    <!-- From Layout Files (to get rid of attrs) -->
+    <style name="Widget.Design.CollapsingToolbar" parent="@android:style/Widget">
+        <item name="*com.google.android.contacts:expandedTitleMargin">32.0dip</item>
+        <item name="*com.google.android.contacts:statusBarScrim">?android:colorPrimaryDark</item>
+        <item name="*com.google.android.contacts:layout_scrollFlags">enterAlways|enterAlwaysCollapsed|scroll</item>
+        <item name="*com.google.android.contacts:expandedTitleGravity">bottom|center</item>
+        <item name="*com.google.android.contacts:titleEnabled">false</item>
+
+        <item name="*com.google.android.contacts:layout_behavior">@*com.google.android.contacts:string/appbar_scrolling_view_behavior</item>
+    </style>
 </resources>
