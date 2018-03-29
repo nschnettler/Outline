@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <style name="BaseTheme" parent="@*com.patreon.android:style/Theme.Design.Light.NoActionBar">
+        <item name="android:textColor">#de000000</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorPrimary">#FFFFFF</item>
+        <item name="android:colorPrimaryDark">#FFFFFF</item>
+        <item name="android:colorAccent">@*com.patreon.android:color/blue</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
+</resources>
