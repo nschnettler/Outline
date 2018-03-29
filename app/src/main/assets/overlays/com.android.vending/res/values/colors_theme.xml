@@ -6,4 +6,8 @@
     <color name="subscriptions_icon">#eeeeee</color>
     <color name="rewards_icon">#eeeeee</color>
     <color name="order_history_icon">#eeeeee</color>
+    <color name="email_icon">#eeeeee</color>
+
+    <!-- Background -->
+    <color name="play_main_background">#FFFFFF</color>
 </resources>
