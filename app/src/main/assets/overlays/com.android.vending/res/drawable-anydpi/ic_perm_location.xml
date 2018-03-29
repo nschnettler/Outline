@@ -4,7 +4,7 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*com.android.vending:color/play_icon_default"
+        android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="0.8"
         android:pathData="M12,2C8.1,2,5,5.1,5,9c0,5.2,7,13,7,13s7-7.8,7-13C19,5.1,15.8,2,12,2z M14.5,9c0,1.4-1.1,2.5-2.5,2.5
 	S9.5,10.4,9.5,9s1.1-2.5,2.5-2.5S14.5,7.6,14.5,9z"/>
