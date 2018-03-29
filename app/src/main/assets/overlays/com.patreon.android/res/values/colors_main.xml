@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="coral">@android:color/holo_orange_light</color>
+    <color name="blue">@android:color/holo_orange_light</color>
+
+    <!-- Other -->
+    <color name="green">@android:color/holo_green_light</color>
+    <color name="brick">@android:color/holo_red_light</color>
+</resources>
