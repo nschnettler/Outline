@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@*com.patreon.android:id/ptr_progress_bar_back_view"
+        android:background="@*com.patreon.android:drawable/ptr_progress_bar_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:backgroundTint="@null"/>
+
+    <View
+        android:id="@*com.patreon.android:id/ptr_progress_bar_front_view"
+        android:background="@*com.patreon.android:drawable/ptr_progress_bar_front"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:backgroundTint="@null"/>
+</RelativeLayout>
