@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="background_material_dark">@*android:color/background_material_dark</color>         <!-- Main -->
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color><!-- Dialog -->
+    <color name="gray1">@*android:color/background_material_dark</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#b3FFFFFF</color>
+    <color name="black60">#ccFFFFFF</color>                                                         <!--Drawer Unselected -->
+
+    <!-- Other -->
+    <color name="ripple_material_dark">#26000000</color>                                            <!-- Ripple, Drawer Selected -->
+</resources>
