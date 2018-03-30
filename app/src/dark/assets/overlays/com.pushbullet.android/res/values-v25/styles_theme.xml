@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Theme -->
+    <style name="Theme.Base" parent="@*com.pushbullet.android:style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionModeStyle">@*com.pushbullet.android:style/Toolbar</item>
+        <item name="*com.pushbullet.android:windowActionModeOverlay">true</item>
+        <item name="*com.pushbullet.android:actionModeStyle">@*com.pushbullet.android:style/Toolbar</item>
+        <item name="*com.pushbullet.android:colorPrimary">@*com.pushbullet.android:color/app_primary</item>
+        <item name="*com.pushbullet.android:colorPrimaryDark">@*com.pushbullet.android:color/app_primary_dark</item>
+        <item name="*com.pushbullet.android:colorAccent">@*com.pushbullet.android:color/app_accent</item>
+        <item name="*com.pushbullet.android:colorButtonNormal">@*com.pushbullet.android:color/midgreen</item>
+
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    </style>
+</resources>
