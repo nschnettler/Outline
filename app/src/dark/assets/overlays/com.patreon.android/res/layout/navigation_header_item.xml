@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@*com.patreon.android:id/navigation_header_item"
+    android:background="?android:selectableItemBackground"
+    android:padding="@*com.patreon.android:dimen/gutter_md"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@*com.patreon.android:id/navigation_header_item_icon"
+        android:layout_width="18.0dip"
+        android:layout_height="18.0dip"
+        android:layout_marginEnd="@*com.patreon.android:dimen/gutter_md"
+        android:backgroundTint="@null"/>
+
+    <com.patreon.android.ui.shared.PatreonTextView android:textSize="@*com.patreon.android:dimen/text_scale_1"
+        android:textColor="@*com.patreon.android:color/smoke"
+        android:id="@*com.patreon.android:id/navigation_header_item_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@*com.patreon.android:dimen/gutter_md"
+        app:typeface="america_bold"
+        xmlns:app="http://schemas.android.com/apk/com.patreon.android" />
+
+    <include
+        android:id="@*com.patreon.android:id/navigation_header_item_count_badge"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@*com.patreon.android:layout/count_badge" />
+</LinearLayout>
