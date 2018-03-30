@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:id="@*com.instagram.android:id/reel_viewer_message_composer_container"
+    android:background="@*com.instagram.android:color/black_65_transparent"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.0"
+    android:translationY="40.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.instagram.android">
+
+    <ViewStub
+        android:id="@*com.instagram.android:id/reel_reaction_toolbar_viewstub"
+        android:layout="@*com.instagram.android:layout/reel_reaction_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.instagram.android:dimen/button_width">
+
+        <FrameLayout
+            android:layout_gravity="center_vertical"
+            android:id="@*com.instagram.android:id/reel_viewer_composer_camera_button_container"
+            android:background="@*com.instagram.android:drawable/reels_composer_camera_button_ring"
+            android:visibility="gone"
+            android:layout_width="@*com.instagram.android:dimen/button_width"
+            android:layout_height="@*com.instagram.android:dimen/button_width"
+            android:layout_marginRight="@*com.instagram.android:dimen/reel_reply_composer_margin">
+
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView
+                android:layout_gravity="center"
+                android:id="@*com.instagram.android:id/reel_viewer_composer_button_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@*com.instagram.android:drawable/button_icon_camera_gradient"
+                android:scaleType="center"
+                android:contentDescription="@*com.instagram.android:string/camera_description"
+                app:active_alpha="@*com.instagram.android:color/white"
+                app:normal="@*com.instagram.android:color/white" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@*com.instagram.android:id/reel_viewer_message_composer"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.instagram.android:dimen/button_width">
+
+            <EditText
+                android:textSize="@*com.instagram.android:dimen/font_medium"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@*com.instagram.android:color/grey_5"
+                android:ellipsize="end"
+                android:id="@*com.instagram.android:id/reel_viewer_message_composer_text"
+                android:background="@null"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="4.0dip"
+                android:hint="@*com.instagram.android:string/reel_message_composer_text_hint"
+                android:maxLines="1"
+                android:maxLength="@*com.instagram.android:integer/max_message_length"
+                android:layout_weight="1.0"
+                android:inputType="textAutoCorrect|textCapSentences"
+                android:imeOptions="actionSend"
+                android:layout_marginStart="4.0dip" />
+
+            <ImageView
+                android:id="@*com.instagram.android:id/reel_viewer_message_composer_send_btn"
+                android:background="@null"
+                android:layout_width="@*com.instagram.android:dimen/button_width"
+                android:layout_height="fill_parent"
+                android:src="@*com.instagram.android:drawable/check"
+                android:scaleType="center" />
+
+            <TextView
+                android:textSize="@*com.instagram.android:dimen/font_medium"
+                android:textColor="@*com.instagram.android:color/reply_composer_text_button_colors"
+                android:gravity="center_vertical"
+                android:id="@*com.instagram.android:id/reel_viewer_message_composer_text_send_btn"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="@*com.instagram.android:dimen/row_padding"
+                android:text="@*com.instagram.android:string/send"
+                android:layout_marginEnd="@*com.instagram.android:dimen/row_padding" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
