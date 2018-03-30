@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text -->
+    <color name="navy">#FFFFFF</color>
+    <color name="smoke">#FFFFFF</color>
+
+    <!-- Background -->
+    <color name="snow">@*android:color/background_material_dark</color>
+</resources>
