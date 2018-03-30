@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">#FFFFFFFF</item>
+        <item name="android:colorAccent">@*com.instagram.android:color/blue_5</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:colorEdgeEffect">@*com.instagram.android:color/grey_3</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="*com.instagram.android:backgroundColorPrimaryDark">?android:statusBarColor</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
+    <style name="IgTranslucentWindow" parent="@*com.instagram.android:style/Theme.Instagram">
+        <item name="android:windowBackground">@*com.instagram.android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+    <color name="grey_0">#FFFFFFFF</color>
+</resources>
