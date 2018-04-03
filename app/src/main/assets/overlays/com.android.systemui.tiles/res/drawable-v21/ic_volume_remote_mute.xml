@@ -6,20 +6,9 @@
     <path
         android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="0.8"
-        android:pathData="M14.6,20h5.6c1,0,1.8-0.8,1.8-1.8V5.8c0-1-0.8-1.8-1.8-1.8H3.8C2.8,4,2,4.8,2,5.8v1.6"/>
-    <path
-        android:strokeColor="?android:colorControlNormal"
-        android:strokeWidth="0.8"
         android:strokeAlpha="0.4"
-        android:pathData="M12.2,20C12.2,14.4,7.6,9.8,2,9.8"/>
-    <path
-        android:strokeColor="?android:colorControlNormal"
-        android:strokeWidth="0.8"
-        android:strokeAlpha="0.4"
-        android:pathData="M8.8,20c0-3.8-3.1-6.8-6.8-6.8"/>
-    <path
-        android:strokeColor="?android:colorControlNormal"
-        android:strokeWidth="0.8"
-        android:strokeAlpha="0.4"
-        android:pathData="M2,16.6c1.9,0,3.4,1.5,3.4,3.4"/>
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M2 16.6c1.9 0 3.4 1.5 3.4 3.4m3.4 0c0-3.8-3.1-6.8-6.8-6.8M12.2 20C12.2 14.4 7.6 9.8 2 9.8
+  M15.2 20h5c1 0 1.8-.8 1.8-1.8V5.8c0-1-.8-1.8-1.8-1.8H3.8C2.8 4 2 4.8 2 5.8v1" />
 </vector>
