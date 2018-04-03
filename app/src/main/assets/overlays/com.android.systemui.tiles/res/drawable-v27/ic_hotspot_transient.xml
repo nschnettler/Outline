@@ -7,16 +7,19 @@
         android:name="circle01_0"
         android:strokeColor="#FFFFFF"
         android:strokeWidth="0.8"
-        android:pathData="M13.4,10.6c0.8,0.8,0.8,2,0,2.8c-0.8,0.8-2,0.8-2.8,0c-0.8-0.8-0.8-2,0-2.8
-	C11.4,9.8,12.6,9.8,13.4,10.6z" />
+        android:pathData="M 12 12.167 C 13.2271767141 12.167 14.222 13.1618232859 14.222 14.389 C 14.222 15.6161767141 13.2271767141 16.611 12 16.611 C 10.7728232859 16.611 9.778 15.6161767141 9.778 14.389 C 9.778 13.1618232859 10.7728232859 12.167 12 12.167 Z" />
     <path
         android:name="circle02_0"
         android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
         android:strokeWidth="0.8"
-        android:pathData="M7.9,16.1c-2.3-2.3-2.3-5.9,0-8.2s5.9-2.3,8.2,0s2.3,5.9,0,8.2" />
+        android:pathData="M5.889 14.389c0-3.373 2.738-6.111 6.111-6.111 3.373 0 6.111 2.738 6.111 6.111" />
     <path
         android:name="circle03_0"
         android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
         android:strokeWidth="0.8"
-        android:pathData="M5.2,18.8C1.5,15,1.5,9,5.2,5.2s9.8-3.7,13.6,0s3.7,9.8,0,13.6" />
+        android:pathData="M2 14.389c0-5.519 4.481-10 10-10s10 4.481 10 10" />
 </vector>

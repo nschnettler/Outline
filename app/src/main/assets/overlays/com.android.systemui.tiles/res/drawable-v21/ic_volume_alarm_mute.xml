@@ -6,6 +6,8 @@
     <path
         android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="0.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
         android:pathData="M20.5,13c0,4.7-3.8,8.5-8.5,8.5S3.5,17.7,3.5,13S7.3,4.5,12,4.5S20.5,8.3,20.5,13z M17.1,2.5l4.3,3.6 M4,5
 	l16,16"/>
 </vector>
