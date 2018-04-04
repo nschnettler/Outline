@@ -66,6 +66,5 @@
     <color name="media_message_progress_indeterminate">#ffffffff</color>
     <color name="mention_annotation_on_dark">#7fffffff</color>
     <color name="mention_preview_dark">#ffdddddd</color>
-    <color name="voice_note_scrubber_grey">#ff555555</color>
     <color name="body_light_gray">#ffdddddd</color>
 </resources>
