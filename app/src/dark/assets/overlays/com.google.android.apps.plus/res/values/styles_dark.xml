@@ -8,11 +8,6 @@
     </style>
 
     <!-- BGTint galore -->
-    <style name="Theme.ArkhamLight" parent="@*com.google.android.apps.plus:style/Theme.ArkhamLightBase" >
-        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
-    </style>
-
-    <!-- BGTint galore -->
     <style name="Theme.Square.NoActionBar" parent="@*com.google.android.apps.plus:style/Theme.Arkham.NoActionBar">
         <item name="android:backgroundTint">@*android:color/background_material_dark</item>
         <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Square.ActionBar</item>
@@ -35,6 +30,13 @@
         <item name="colorPrimaryDark">@*com.google.android.apps.plus:color/quantum_lightblue700</item>
         <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
         <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+    </style>
+
+    <style name="Theme.Arkham.NormalWhiteActionBarWithShadow" parent="@*com.google.android.apps.plus:style/Theme.Arkham.NormalWhiteActionBar">
+        <item name="android:windowBackground">@*com.google.android.apps.plus:color/host_background</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Arkham.NormalWhite.ActionBarWithShadow</item>
+        <item name="*com.google.android.apps.plus:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Arkham.NormalWhite.ActionBarWithShadow</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 
     <!-- Post - Time -->
