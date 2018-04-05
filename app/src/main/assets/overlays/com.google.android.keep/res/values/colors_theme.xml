@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_background_color">#FFFFFF</color>
+    <color name="default_fragment_background_color">#FFFFFF</color>
+    <color name="keep_default_color">#FFFFFF</color>
+</resources>
