@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@*com.google.android.apps.inbox:color/bt_empty_list_view_background_default"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.google.android.apps.inbox:dimen/bt_curated_action_header_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="@*com.google.android.apps.inbox:dimen/bt_curated_action_text_size"
+        android:textColor="?android:textColorPrimary"
+        android:layout_gravity="start"
+        android:id="@*com.google.android.apps.inbox:id/curated_text"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.apps.inbox:dimen/bt_curated_action_curation_text"
+        android:layout_marginLeft="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_left"
+        android:layout_marginTop="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_top"
+        android:layout_marginRight="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_right"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_left"
+        android:layout_marginEnd="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_right" />
+
+    <TextView
+        android:textSize="@*com.google.android.apps.inbox:dimen/bt_curated_action_text_size"
+        android:textColor="?android:textColorPrimary"
+        android:gravity="end"
+        android:id="@*com.google.android.apps.inbox:id/curated_action"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.apps.inbox:dimen/bt_curated_action_action_text"
+        android:layout_marginLeft="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_left"
+        android:layout_marginRight="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_right"
+        android:layout_marginBottom="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_bottom"
+        android:textAlignment="viewEnd"
+        android:layout_marginStart="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_left"
+        android:layout_marginEnd="@*com.google.android.apps.inbox:dimen/bt_curated_action_padding_right" />
+</LinearLayout>
