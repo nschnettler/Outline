@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="changelog_background_color">@*android:color/background_material_dark</color>
+    <color name="changelog_background_shade_color">@*android:color/background_material_dark</color>
+</resources>
