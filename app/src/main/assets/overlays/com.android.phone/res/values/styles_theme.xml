@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Settings: Networks -->
-    <style name="NetworkOperatorsSettingsTheme" parent="@*android:style/Theme.DeviceDefault.Settings">
-        <item name="android:colorPrimaryDark">#FAFAFA</item>
-    </style>
-</resources>
