@@ -12,6 +12,8 @@
     <color name="grey_5">#b3FFFFFF</color>                                                          <!-- Secondary -->
     <color name="grey_3">#FFFFFFFF</color>
     <color name="black">#FFFFFFFF</color>
+    <color name="black_80_transparent">#FFFFFFFF</color>
+    <color name="black_50_transparent">#b3FFFFFF</color>
 
     <!-- In App Browser -->
     <color name="browser_title_text_color">#FFFFFF</color>
