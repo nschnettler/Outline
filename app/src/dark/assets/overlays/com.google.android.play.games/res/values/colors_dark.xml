@@ -15,4 +15,5 @@
     <color name="games_mvp_divider_color">@android:color/background_dark</color>
     <color name="pf__tagbrowse__divider_color">@android:color/background_dark</color>
     <color name="replay__pal_gray_300">@android:color/background_dark</color>
+    <color name="replay__pal_gray_900">#FFFFFF</color>
 </resources>
