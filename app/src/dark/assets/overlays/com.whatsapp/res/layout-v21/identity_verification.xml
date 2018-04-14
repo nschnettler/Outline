@@ -11,8 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
-    <com.whatsapp.qrcode.QrCodeOverlay
-        android:layout_gravity="center"
+    <com.whatsapp.qrcode.QrCodeOverlay android:layout_gravity="center"
         android:id="@*com.whatsapp:id/overlay"
         android:paddingBottom="@*com.whatsapp:dimen/actionbar_height"
         android:visibility="gone"
@@ -32,9 +31,8 @@
 
     <FrameLayout
         android:orientation="vertical"
-        android:background="@*android:color/background_material_dark"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="fill_parent">
 
         <ScrollView
             android:id="@*com.whatsapp:id/main_layout"
