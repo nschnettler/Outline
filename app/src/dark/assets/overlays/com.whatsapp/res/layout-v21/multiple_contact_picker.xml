@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 
 New Group: Select (multiple) contacts
 
@@ -37,7 +36,8 @@ New Group: Select (multiple) contacts
                 android:orientation="vertical"
                 android:id="@*com.whatsapp:id/warning"
                 android:layout_width="fill_parent"
-                android:layout_height="@*com.whatsapp:dimen/selected_contacts_height">
+                android:layout_height="wrap_content"
+                android:minHeight="@*com.whatsapp:dimen/selected_contacts_height">
 
                 <TextView
                     android:textColor="#b3FFFFFF"
