@@ -250,6 +250,7 @@
         android:paddingLeft="8.0dip"
         android:paddingRight="@*com.whatsapp:dimen/input_layout_voice_animation_margin_right"
         android:paddingBottom="@*com.whatsapp:dimen/input_layout_voice_animation_margin_bottom"
+        android:visibility="gone"
         android:clipToPadding="false"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
