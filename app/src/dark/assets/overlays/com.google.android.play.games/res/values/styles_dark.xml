@@ -3,4 +3,8 @@
     <style name="GameDetails.PlayButtonTextAppearance" parent="@*com.google.android.play.games:style/TextAppearance.Replay.Button.GS">
         <item name="android:textColor">#FFFFFF</item>
     </style>
+    <style name="Theme.Replay.Light" parent="@*com.google.android.play.games:style/Base.Theme.Replay.Light">
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.play.games:colorPrimary">@android:color/holo_green_light</item>
+    </style>
 </resources>
