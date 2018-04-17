@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Account categories -->
-    <color name="payment_methods_icon">#eeeeee</color>
-    <color name="family_icon">#eeeeee</color>
-    <color name="subscriptions_icon">#eeeeee</color>
-    <color name="rewards_icon">#eeeeee</color>
-    <color name="order_history_icon">#eeeeee</color>
-    <color name="email_icon">#eeeeee</color>
+    <color name="payment_methods_icon">#1a000000</color>
+    <color name="family_icon">#1a000000</color>
+    <color name="subscriptions_icon">#1a000000</color>
+    <color name="rewards_icon">#1a000000</color>
+    <color name="order_history_icon">#1a000000</color>
+    <color name="email_icon">#1a000000</color>
+    <color name="country_icon">#1a000000</color>
 
     <!-- Background -->
     <color name="play_main_background">#FFFFFF</color>
