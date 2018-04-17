@@ -170,4 +170,11 @@
     <style name="ActionBarButtonStyle" parent="@*com.whatsapp:style/Widget.AppCompat.ActionButton" >
         <item name="android:textColor">#FFFFFF</item>
     </style>
+
+    <style name="Theme.App.Black" parent="@*com.whatsapp:style/Theme.App">
+        <item name="android:backgroundTint">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="*com.whatsapp:colorPrimary">@android:color/black</item>
+        <item name="*com.whatsapp:colorPrimaryDark">@android:color/transparent</item>
+    </style>
 </resources>
