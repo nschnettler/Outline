@@ -69,7 +69,7 @@
 
         <TextView
             android:textSize="14.0sp"
-            android:textColor="#b3000000"
+            android:textColor="#b3FFFFFF"
             android:layout_gravity="center_horizontal"
             android:id="@*com.whatsapp:id/nag_text"
             android:paddingLeft="24.0dip"
