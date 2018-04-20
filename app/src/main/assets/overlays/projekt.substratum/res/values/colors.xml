@@ -8,8 +8,8 @@
 
     <!-- Overlay Status -->
     <color name="overlay_installed_list_entry">@android:color/holo_red_light</color>                <!-- Installed & Enabled -->
-    <color name="overlay_update_available">#4c000000</color>                                        <!-- Update available -->
-    <color name="overlay_update_not_needed">#4c000000</color>                                       <!-- Update2Date -->
-    <color name="overlay_not_enabled_list_entry">#757575</color>                                    <!-- Installed -->
-    <color name="overlay_not_installed_list_entry">#4c000000</color>                                <!-- Not Installed -->
+    <color name="overlay_update_available">#4D000000</color>                                        <!-- Update available -->
+    <color name="overlay_update_not_needed">#4D000000</color>                                       <!-- Update2Date -->
+    <color name="overlay_not_enabled_list_entry">#b3000000</color>                                  <!-- Installed -->
+    <color name="overlay_not_installed_list_entry">#4D000000</color>                                <!-- Not Installed -->
 </resources>
