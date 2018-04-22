@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@*com.google.android.apps.playconsole:drawable/quantum_ic_star_grey600_24" android:gravity="left"/>
-    <item android:left="20.0dip" android:drawable="@*com.google.android.apps.playconsole:drawable/quantum_ic_star_grey600_24" android:gravity="left"/>
-    <item android:left="40.0dip" android:drawable="@*com.google.android.apps.playconsole:drawable/quantum_ic_star_grey600_24" android:gravity="left"/>
-    <item android:left="60.0dip" android:drawable="@*com.google.android.apps.playconsole:drawable/quantum_ic_star_grey600_24" android:gravity="left"/>
-    <item android:left="80.0dip" android:drawable="@*com.google.android.apps.playconsole:drawable/quantum_ic_star_grey600_24" android:gravity="left"/>
-</layer-list>
