@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme -->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="primary_material_light">#FFFFFF</color>
+    <color name="colorAccent">@android:color/holo_red_light</color>
+
+    <!-- Overlay Status - 1 -->
+    <color name="overlay_installed_list_entry">#7db694</color>                                      <!-- Installed -->
+    <color name="overlay_not_enabled_list_entry">#d37a7a</color>                                    <!-- Enabled -->
+    <color name="overlay_not_enabled_elsewhere_list_entry">#7E8ACD</color>                          <!-- Enabled Somewhere else -->
+    <color name="overlay_installed_not_active">#8e8eb2</color>                                      <!-- Needs Reboot -->
+
+    <!-- Overlay Status - 2 -->
+    <color name="overlay_update_available">#80000000</color>                                        <!-- Update -->
+    <color name="overlay_update_not_needed">#80000000</color>                                       <!-- Up to Date -->
+    <color name="overlay_not_installed_list_entry">#80000000</color>                                <!-- Not Installed -->
+    <color name="theme_information_card_subtext">#b3000000</color>
+</resources>
