@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-
-    Permission Dialog
-
--->
 <FrameLayout android:paddingLeft="40.0dip"
     android:paddingRight="40.0dip"
     android:layout_width="fill_parent"

@@ -8,7 +8,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/com.whatsapp">
 
     <View
         android:id="@*com.whatsapp:id/header_placeholder"

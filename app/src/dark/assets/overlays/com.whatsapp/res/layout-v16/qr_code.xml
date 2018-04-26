@@ -4,10 +4,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.whatsapp.qrcode.QrCodeView
-        android:layout_gravity="center"
         android:id="@*com.whatsapp:id/camera"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true" />
 
     <TextView
         android:textSize="20.0dip"

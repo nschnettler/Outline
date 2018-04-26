@@ -3,7 +3,7 @@
     android:layout_height="wrap_content"
     android:title="@*com.whatsapp:string/settings_general"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -32,8 +32,8 @@
                     android:layout_height="@*com.whatsapp:dimen/pref_profile_small_photo_size"
                     android:src="@*com.whatsapp:drawable/avatar_contact"
                     android:scaleType="fitCenter"
-                    whatsapp:tbtnRadius="@*com.whatsapp:dimen/mid_avatar_radius"
-                    whatsapp:tbtnForegroundOnly="true" />
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="@*com.whatsapp:dimen/mid_avatar_radius" />
             </FrameLayout>
 
             <LinearLayout

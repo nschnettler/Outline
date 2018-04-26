@@ -52,7 +52,6 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:overScrollMode="never"
-                android:layerType="software"
                 android:layoutDirection="ltr">
 
                 <LinearLayout

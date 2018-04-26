@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -64,10 +64,10 @@
                     android:layout_height="@*com.whatsapp:dimen/multiple_contact_message_photo_size"
                     android:layout_marginLeft="16.0dip"
                     android:scaleType="fitCenter"
-                    whatsapp:tbtnRadius="-1.0dip"
-                    whatsapp:tbtnBorderSize="1.0dip"
                     whatsapp:tbtnBorderColor="@*com.whatsapp:color/white"
-                    whatsapp:tbtnForegroundOnly="false" />
+                    whatsapp:tbtnBorderSize="1.0dip"
+                    whatsapp:tbtnForegroundOnly="false"
+                    whatsapp:tbtnRadius="-1.0dip" />
 
                 <com.whatsapp.ThumbnailButton
                     android:gravity="center|left"
@@ -77,10 +77,10 @@
                     android:layout_height="@*com.whatsapp:dimen/multiple_contact_message_photo_size"
                     android:layout_marginLeft="-43.0dip"
                     android:scaleType="fitCenter"
-                    whatsapp:tbtnRadius="-1.0dip"
-                    whatsapp:tbtnBorderSize="1.0dip"
                     whatsapp:tbtnBorderColor="@*com.whatsapp:color/white"
-                    whatsapp:tbtnForegroundOnly="false" />
+                    whatsapp:tbtnBorderSize="1.0dip"
+                    whatsapp:tbtnForegroundOnly="false"
+                    whatsapp:tbtnRadius="-1.0dip" />
 
                 <com.whatsapp.ThumbnailButton
                     android:gravity="center|left"
@@ -90,10 +90,10 @@
                     android:layout_height="@*com.whatsapp:dimen/multiple_contact_message_photo_size"
                     android:layout_marginLeft="-44.0dip"
                     android:scaleType="fitCenter"
-                    whatsapp:tbtnRadius="-1.0dip"
-                    whatsapp:tbtnBorderSize="1.0dip"
                     whatsapp:tbtnBorderColor="@*com.whatsapp:color/white"
-                    whatsapp:tbtnForegroundOnly="false" />
+                    whatsapp:tbtnBorderSize="1.0dip"
+                    whatsapp:tbtnForegroundOnly="false"
+                    whatsapp:tbtnRadius="-1.0dip" />
             </LinearLayout>
 
             <LinearLayout
@@ -156,7 +156,6 @@
                 android:textColor="@*com.whatsapp:drawable/flat_button_link_color_incoming"
                 android:layout_gravity="center"
                 android:id="@*com.whatsapp:id/view_contacts_btn"
-                android:padding="8.0dip"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:text="@*com.whatsapp:string/view_contacts_button"

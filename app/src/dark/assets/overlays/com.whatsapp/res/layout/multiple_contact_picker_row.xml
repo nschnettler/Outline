@@ -2,7 +2,7 @@
 <RelativeLayout android:layout_width="fill_parent"
     android:layout_height="@*com.whatsapp:dimen/conversations_row_height"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <FrameLayout
         android:id="@*com.whatsapp:id/contact_selector"
@@ -17,8 +17,8 @@
             android:layout_width="@*com.whatsapp:dimen/small_avatar_size"
             android:layout_height="@*com.whatsapp:dimen/small_avatar_size"
             android:scaleType="fitCenter"
-            whatsapp:tbtnRadius="@*com.whatsapp:dimen/small_avatar_radius"
-            whatsapp:tbtnForegroundOnly="false" />
+            whatsapp:tbtnForegroundOnly="false"
+            whatsapp:tbtnRadius="@*com.whatsapp:dimen/small_avatar_radius" />
 
         <com.whatsapp.SelectionCheckView
             android:layout_gravity="bottom|center|right"
@@ -26,7 +26,8 @@
             android:layout_width="@*com.whatsapp:dimen/selection_check_image_size"
             android:layout_height="@*com.whatsapp:dimen/selection_check_image_size"
             android:layout_marginRight="8.0dip"
-            android:layout_marginBottom="8.0dip" />
+            android:layout_marginBottom="8.0dip"
+            whatsapp:scvBorderColor="@*com.whatsapp:color/white" />
     </FrameLayout>
 
     <LinearLayout

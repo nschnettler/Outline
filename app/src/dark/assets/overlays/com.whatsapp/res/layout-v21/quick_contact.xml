@@ -63,7 +63,7 @@
             android:layout_height="36.0dip">
 
             <LinearLayout
-                android:layout_gravity="center_vertical"
+                android:layout_gravity="start|center"
                 android:orientation="horizontal"
                 android:id="@*com.whatsapp:id/label_row"
                 android:paddingLeft="6.0dip"
