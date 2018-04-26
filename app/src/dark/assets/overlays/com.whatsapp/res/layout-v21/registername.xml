@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <LinearLayout
         android:orientation="vertical"

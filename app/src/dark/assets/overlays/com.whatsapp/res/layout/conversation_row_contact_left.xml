@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -58,8 +58,8 @@
                 android:layout_height="@*com.whatsapp:dimen/single_contact_message_photo_size"
                 android:layout_margin="8.0dip"
                 android:scaleType="fitCenter"
-                whatsapp:tbtnRadius="-1.0dip"
-                whatsapp:tbtnForegroundOnly="false" />
+                whatsapp:tbtnForegroundOnly="false"
+                whatsapp:tbtnRadius="-1.0dip" />
 
             <com.whatsapp.TextEmojiLabel
                 android:textColor="@*com.whatsapp:drawable/flat_button_link_color_incoming"

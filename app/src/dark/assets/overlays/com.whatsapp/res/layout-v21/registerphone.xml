@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/com.whatsapp">
 
     <com.whatsapp.util.MarqueeToolbar
         android:id="@*com.whatsapp:id/title_toolbar"

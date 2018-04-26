@@ -46,11 +46,19 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
+                <ViewStub
+                    android:id="@*com.whatsapp:id/stub_button_before_text"
+                    android:inflatedId="@*com.whatsapp:id/stub_button_before_text"
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:layout_marginRight="10.0dip" />
+
                 <RelativeLayout
                     android:id="@*com.whatsapp:id/text_and_counter"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_toLeftOf="@*com.whatsapp:id/emoji_btn"
+                    android:layout_toRightOf="@*com.whatsapp:id/stub_button_before_text"
                     android:layout_centerVertical="true">
 
                     <EditText
