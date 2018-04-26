@@ -2,7 +2,7 @@
 <FrameLayout android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -25,8 +25,8 @@
                 android:layout_height="@*com.whatsapp:dimen/small_avatar_size"
                 android:layout_margin="16.0dip"
                 android:scaleType="fitCenter"
-                whatsapp:tbtnRadius="-1.0dip"
-                whatsapp:tbtnForegroundOnly="false" />
+                whatsapp:tbtnForegroundOnly="false"
+                whatsapp:tbtnRadius="-1.0dip" />
 
             <LinearLayout
                 android:gravity="center_vertical"

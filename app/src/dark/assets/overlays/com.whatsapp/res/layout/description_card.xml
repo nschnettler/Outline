@@ -4,7 +4,8 @@
     android:visibility="gone"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -35,15 +36,15 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
-                <com.whatsapp.ReadMoreTextView android:textColor="@*com.whatsapp:color/list_item_title"
+                <com.whatsapp.ReadMoreTextView
+                    android:textColor="@*com.whatsapp:color/list_item_title"
                     android:id="@*com.whatsapp:id/group_description"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    app:rmtvLines="3"
-                    app:rmtvLinkColor="@*com.whatsapp:color/link_color_incoming"
-                    app:rmtvLinkSelectionColor="@*com.whatsapp:color/link_color_selected"
-                    app:rmtvText="@*com.whatsapp:string/read_more"
-                    xmlns:app="http://schemas.android.com/apk/res-auto" />
+                    whatsapp:rmtvLines="3"
+                    whatsapp:rmtvLinkColor="@*com.whatsapp:color/link_color_incoming"
+                    whatsapp:rmtvLinkSelectionColor="@*com.whatsapp:color/link_color_selected"
+                    whatsapp:rmtvText="@*com.whatsapp:string/read_more" />
 
                 <ProgressBar
                     android:id="@*com.whatsapp:id/change_description_progress"

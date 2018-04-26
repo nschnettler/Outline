@@ -2,7 +2,7 @@
 <FrameLayout android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <com.whatsapp.qrcode.QrCodeView
         android:layout_gravity="center"
@@ -11,7 +11,8 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
-    <com.whatsapp.qrcode.QrCodeOverlay android:layout_gravity="center"
+    <com.whatsapp.qrcode.QrCodeOverlay
+        android:layout_gravity="center"
         android:id="@*com.whatsapp:id/overlay"
         android:paddingBottom="@*com.whatsapp:dimen/actionbar_height"
         android:visibility="gone"

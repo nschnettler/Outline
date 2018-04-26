@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/com.whatsapp">
 
     <View
         android:id="@*com.whatsapp:id/header_placeholder"
@@ -26,7 +26,8 @@
         android:layout_height="wrap_content"
         android:text="@*com.whatsapp:string/not_a_group_participant" />
 
-    <com.whatsapp.MediaCard android:id="@*com.whatsapp:id/media_card_view"
+    <com.whatsapp.MediaCard
+        android:id="@*com.whatsapp:id/media_card_view"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         app:mcTitle="@*com.whatsapp:string/view_conversation_media" />

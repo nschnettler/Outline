@@ -79,6 +79,7 @@
                 android:layout_height="wrap_content" />
 
             <LinearLayout
+                android:gravity="center_vertical"
                 android:layout_gravity="bottom|center|right"
                 android:orientation="horizontal"
                 android:id="@*com.whatsapp:id/date_wrapper"

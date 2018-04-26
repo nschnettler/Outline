@@ -3,13 +3,13 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/com.whatsapp">
 
     <com.whatsapp.util.MarqueeToolbar
         android:id="@*com.whatsapp:id/title_toolbar"
         android:background="@*android:color/background_material_dark"
         android:layout_width="fill_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="?android:actionBarSize"
         app:theme="@*com.whatsapp:style/Widget.Styled.ActionBar.Registration.White">
 
         <TextView
@@ -25,7 +25,7 @@
         android:id="@*com.whatsapp:id/search_holder"
         android:visibility="gone"
         android:layout_width="fill_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="?android:actionBarSize"
         android:elevation="@*com.whatsapp:dimen/actionbar_elevation" />
 
     <LinearLayout
