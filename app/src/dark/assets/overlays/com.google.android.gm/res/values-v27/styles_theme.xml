@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Theme -->
+    <style name="ColoredNavBarGmailTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarDividerColor">#33000000</item>
+    </style>
+
+    <!-- Account Manager -->
+    <style name="ColoredNavBarGlifActivityTheme" parent="@*com.google.android.gm:style/SuwThemeGlif.Light">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarDividerColor">#33000000</item>
+    </style>
+
+    <style name="ColoredNavBarAccountSetupDialogActivityTheme" parent="@*com.google.android.gm:style/Theme.AppCompat.Light.Dialog"/>
+</resources>
