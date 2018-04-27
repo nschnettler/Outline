@@ -15,9 +15,9 @@
         <item name="*com.google.android.gm:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
         <item name="*com.google.android.gm:colorAccent">@*com.google.android.gm:color/accent_blue</item>
         <item name="*com.google.android.gm:alertDialogTheme">@*com.google.android.gm:style/AlertDialogTheme</item>
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
 
+    <!-- Notifications -->
     <style name="NotificationPrimaryText">
         <item name="android:textColor">@*android:color/notification_primary_text_color_light</item>
     </style>
