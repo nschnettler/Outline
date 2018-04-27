@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.android.mail.ui.search.MaterialSearchActionView android:id="@*com.google.android.gm:id/search_actionbar_view"
-    android:backgroundTint="@*android:color/background_material_dark"
+    android:backgroundTint="@*android:color/holo_red_light"
     android:visibility="gone"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -23,7 +23,7 @@
         android:textColorHint="@*com.google.android.gm:color/search_query_hint_text"
         android:gravity="center_vertical"
         android:id="@*com.google.android.gm:id/search_actionbar_query_text"
-        android:background="@android:color/transparent"
+        android:background="@*android:color/holo_red_light"
         android:paddingLeft="@*com.google.android.gm:dimen/search_main_text_padding"
         android:paddingRight="@*com.google.android.gm:dimen/search_main_text_padding"
         android:nextFocusDown="@*com.google.android.gm:id/search_overlay_suggestion_list"

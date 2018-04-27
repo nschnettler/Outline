@@ -5,5 +5,4 @@
     <!-- Background -->
         <!-- Conversation List -->
         <color name="loading_messages_background_color">@*android:color/background_material_dark</color>            <!-- Background Loading Messages -->
-    <color name="conversation_list_background_color">@*android:color/background_material_dark</color>               <!-- Background -->
 </resources>
