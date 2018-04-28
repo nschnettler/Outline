@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Purchase Dialog -->
+    <style name="PurchaseDialog" parent="@*com.android.vending:style/FinskyLightDialogTheme">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#8A000000</item>
+        <item name="android:textColorHint">#61000000</item>
+    </style>
+</resources>
