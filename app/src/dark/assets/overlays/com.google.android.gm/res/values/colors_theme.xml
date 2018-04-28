@@ -12,10 +12,13 @@
     <color name="conversation_view_overlay_background_color">@*android:color/background_material_dark</color>   <!-- Mail - Main -->
     <color name="message_header_background_color">@*android:color/background_material_dark</color>              <!-- Mail - Details -->
     <color name="checkmark_tile_background_color">@*android:color/background_material_dark</color>              <!-- Mail - Checked -->
+    <color name="conversation_view_banner_background_color">@android:color/background_dark</color>              <!-- Mail - Banner -->
     <color name="smart_reply_background_with_normal_state">#00000000</color>                                    <!-- Smart Reply - Normal -->
     <color name="smart_reply_background_with_pressed_state">#00000000</color>                                   <!-- Smart Reply - Pressed -->
     <color name="suw_glif_background_color_light">@*android:color/background_material_dark</color>              <!-- Account Setup - Main -->
     <color name="glif_button_disabled_color">@*android:color/background_dark</color>                            <!-- Account Setup - Disabled Button -->
+    <color name="spam_warning_background_color">@*android:color/background_material_dark</color>                <!-- Spam Warning Card -->
+    <color name="snooze_dialog_background">@*android:color/background_material_dark</color>
 
 
     <!-- Text -->
@@ -27,6 +30,9 @@
     <color name="default_account_details_color">#FFFFFF</color>                                     <!-- Account Names -->
     <color name="manage_accounts_text_color">#FFFFFF</color>                                        <!-- Account - Add, Manage-->
     <color name="glif_button_text_disabled_color">#80FFFFFF</color>
+    <color name="snooze_dark_text">#FFFFFF</color>                                                  <!-- Snooze - Title -->
+    <color name="snooze_faint_text">#b3FFFFFF</color>                                               <!-- Snooze - Subtitle -->
+    <color name="conversation_view_banner_text_color">#FFFFFF</color>                               <!-- Mail - Banner Text -->
 
 
     <!-- Divider -->
