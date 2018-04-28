@@ -13,6 +13,8 @@
     <color name="compose_message_background_color">@*android:color/background_material_dark</color>
     <color name="compose_message_top_border_color">@*android:color/background_dark</color>
     <color name="c2o_grid_background">@*android:color/background_material_dark</color>
+    <color name="sim_selector_background_end">@*android:color/background_material_dark</color>      <!-- SIM Selector - End -->
+    <color name="sim_selector_background_start">@*android:color/background_material_dark</color>    <!-- SIM Selector - Start -->
 
 
     <!-- Divider -->
@@ -60,4 +62,7 @@
         <!-- Send -->
         <color name="compose_send_text_color">#FFFFFF</color>                                                       <!-- Compose Message Text -->
         <color name="c2o_send_hint_color">#b3FFFFFF</color>
+        <!-- SIM Selector -->
+        <color name="sim_selector_text_primary">#FFFFFF</color>
+        <color name="sim_selector_text_secondary">#FFFFFF</color>
 </resources>
