@@ -25,4 +25,19 @@
         <item name="android:textDirection">locale</item>
         <item name="android:textAlignment">viewStart</item>
     </style>
+
+    <style name="snooze_dialogSpinner" parent="@*com.google.android.gm:style/Widget.AppCompat.Spinner">
+        <item name="android:textSize">@*com.google.android.gm:dimen/snooze_datepicker_spinner_text_size</item>
+        <item name="android:textColor">@*com.google.android.gm:color/snooze_dark_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">@*com.google.android.gm:dimen/snooze_datepicker_picker_text_vertical_padding</item>
+        <item name="android:paddingRight">@*com.google.android.gm:dimen/snooze_datepicker_spinner_right_padding</item>
+        <item name="android:paddingBottom">@*com.google.android.gm:dimen/snooze_datepicker_picker_text_vertical_padding</item>
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/snooze_datepicker_default_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.gm:dimen/snooze_datepicker_default_margin</item>
+        <item name="android:minHeight">@*com.google.android.gm:dimen/snooze_datepicker_row_height</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingEnd">@*com.google.android.gm:dimen/snooze_datepicker_spinner_right_padding</item>
+        <item name="android:popupBackground">@*android:color/background_material_dark</item>
+    </style>
 </resources>
