@@ -37,5 +37,6 @@
 
     <!-- Divider -->
     <color name="quantum_black_divider">#1a000000</color>
-    <color name="autocomplete_divider_color">@*android:color/background_dark</color>
+    <color name="autocomplete_divider_color">#1a000000</color>
+    <color name="snooze_stroke_grey">#1a000000</color>
 </resources>
