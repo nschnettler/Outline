@@ -27,8 +27,8 @@ android {
     defaultConfig {
         minSdkVersion 27
         targetSdkVersion 27
-        versionCode 27017
-        versionName "Oreo MR - 16.3"
+        versionCode 27018
+        versionName "Oreo MR - 16.4"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" +
                 SUPPORTS_THIRD_PARTY_SYSTEMS
