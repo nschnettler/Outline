@@ -17,8 +17,8 @@
     <!-- App Color -->
     <color name="yt_status_bar_background_dark">@*android:color/primary_material_dark</color>
     <!-- NavigationBar -->
-    <color name="navigationbar_background_dark">@*android:color/background_material_dark</color>
-    <color name="navigationbar_divider_dark">@android:color/background_dark</color>
+    <color name="navigation_bar_background_dark">@*android:color/background_material_dark</color>
+    <color name="navigation_bar_divider_dark">@*android:color/background_dark</color>
     <!-- Icon -->
     <color name="yt_icon_1_dark">#FFFFFF</color>
     <color name="yt_icon_2_dark">#FFFFFF</color>
