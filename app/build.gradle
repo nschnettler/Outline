@@ -92,7 +92,27 @@ dependencies {
 }
 def currentFlavor = getCurrentFlavor()
 
-task backupAssets {
+task prepareManifest(){
+    def theme = ""
+    switch (currentFlavor){
+        case "light":
+            theme = "outline"
+            break
+        case "dark":
+            theme = "ethereal"
+            break
+    }
+    copy {
+        from "/src/main/AndroidManifestTemplate.xml"
+        into "/src/main/"
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
+        rename { String fileName ->
+           fileName = "AndroidManifest.xml"
+        }
+    }
+}
+
+task backupAssets(dependsOn: prepareManifest) {
     if (shouldEncrypt()) {
         def source = new File(getProjectDir(), "/src/main/assets")
         def backup = new File(getProjectDir(), "/src/main/assets-temp")
@@ -184,7 +204,7 @@ jbyte IV_KEY[] = ${IV_KEY_READY};
 }
 
 project.afterEvaluate {
-    preBuild.dependsOn backupAssets
+    preBuild.dependsOn prepareManifest
 }
 
 
