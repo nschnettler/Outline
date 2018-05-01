@@ -90,3 +90,6 @@ app/release/output\.json
 # C++
 #############################################################################
 app/.externalNativeBuild
+
+AndroidManifest.xml
+LoadingProcess.h
