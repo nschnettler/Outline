@@ -218,12 +218,7 @@ gradle.buildFinished {
             //Delete Encrypted Files
             normalAssets.deleteDir()
             //Restore normal Files
-            copy {
-                from tempAssets
-                into normalAssets
-            }
-            //Delete Backup Files
-            tempAssets.deleteDir()
+            tempAssets.renameTo(normalAssets)
         }
 
         tempAssets = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
@@ -232,12 +227,7 @@ gradle.buildFinished {
             //Delete Encrypted Files
             normalAssets.deleteDir()
             //Restore normal Files
-            copy {
-                from tempAssets
-                into normalAssets
-            }
-            //Delete Backup Files
-            tempAssets.deleteDir()
+            tempAssets.renameTo(normalAssets)
         }
     }
 
