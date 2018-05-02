@@ -117,21 +117,15 @@ task backupAssets(dependsOn: prepareManifest) {
         def source = new File(getProjectDir(), "/src/main/assets")
         def backup = new File(getProjectDir(), "/src/main/assets-temp")
         if (!backup.exists()) {
-            println("Encryption - Backup - Main Assets")
-            copy {
-                from source
-                into backup
-            }
+            println("Encryption - Moving Main Assets")
+            source.renameTo(backup)
         }
         if (currentFlavor != ""){
             source = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets")
             backup = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
             if (!backup.exists()) {
-                println("Encryption - Backup - Flavor Assets")
-                copy {
-                    from source
-                    into backup
-                }
+                println("Encryption - Moving Flavor Assets")
+                source.renameTo(backup)
             }
         }
     }
@@ -142,12 +136,12 @@ task encryptAssets(dependsOn: backupAssets ) {
         //Get Files to Encrypt
         println("Encryption - Find Files to Encrypt")
         def list = []
-        def source = new File(getProjectDir(), "/src/main/assets")
+        def source = new File(getProjectDir(), "/src/main/assets-temp")
         source.eachFileRecurse(FileType.FILES) { file ->
             list << file
         }
         if (currentFlavor != ""){
-            source = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets")
+            source = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
             source.eachFileRecurse(FileType.FILES) { file ->
                 list << file
             }
@@ -162,7 +156,9 @@ task encryptAssets(dependsOn: backupAssets ) {
 
             cipher.init(Cipher.ENCRYPT_MODE, secret, iv)
             FileInputStream fis = new FileInputStream(it)
-            FileOutputStream fos = new FileOutputStream(it.getAbsolutePath() + ".enc")
+            File outputFile = new File(it.getAbsolutePath().replace("assets-temp", "assets") + ".enc");
+            outputFile.getParentFile().mkdirs();
+            FileOutputStream fos = new FileOutputStream(outputFile)
 
             byte[] input = new byte[64]
             int bytesRead
@@ -179,7 +175,7 @@ task encryptAssets(dependsOn: backupAssets ) {
             fis.close()
             fos.flush()
             fos.close()
-            it.delete()
+            //it.delete()
         }
     }
 }
@@ -210,28 +206,24 @@ project.afterEvaluate {
 
 
 gradle.buildFinished {
-    if (shouldEncrypt()){
-        println("Encryption - Cleanup")
-        def tempAssets = new File(getProjectDir(), "/src/main/assets-temp/")
-        def normalAssets = new File(getProjectDir(), "src/main/assets")
-        if (tempAssets.exists()) {
-            //Delete Encrypted Files
-            normalAssets.deleteDir()
-            //Restore normal Files
-            tempAssets.renameTo(normalAssets)
-        }
-
-        tempAssets = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
-        normalAssets = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets")
-        if (tempAssets.exists()) {
-            //Delete Encrypted Files
-            normalAssets.deleteDir()
-            //Restore normal Files
-            tempAssets.renameTo(normalAssets)
-        }
+    println("Encryption - Cleanup")
+    def tempAssets = new File(getProjectDir(), "/src/main/assets-temp/")
+    def normalAssets = new File(getProjectDir(), "src/main/assets")
+    if (tempAssets.exists()) {
+        //Delete Encrypted Files
+        normalAssets.deleteDir()
+        //Restore normal Files
+        tempAssets.renameTo(normalAssets)
     }
 
-
+    tempAssets = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
+    normalAssets = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets")
+    if (tempAssets.exists()) {
+        //Delete Encrypted Files
+        normalAssets.deleteDir()
+        //Restore normal Files
+        tempAssets.renameTo(normalAssets)
+    }
 }
 
 boolean shouldEncrypt() {
