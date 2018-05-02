@@ -136,8 +136,8 @@ class SubstratumLauncher : Activity() {
         returnIntent.putExtra("theme_launch_type", themeLaunchType)
         returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
         returnIntent.putExtra("theme_piracy_check", themePiracyCheck)
-        returnIntent.putExtra("encryption_key", getDecryptionKey())
-        returnIntent.putExtra("iv_encrypt_key", getIVKey())
+        returnIntent.putExtra("encryption_key", erhalteEntschluesselungsSchluessel())
+        returnIntent.putExtra("iv_encrypt_key", erhalteIV())
 
         val callingPackage = intent.getStringExtra("calling_package_name")
         if (callingPackage == null) {
@@ -225,6 +225,6 @@ class SubstratumLauncher : Activity() {
     private external fun getAPKSignatureProduction(): String
     private external fun getBlacklistedApplications(): Boolean
     private external fun allowThirdPartySubstratumBuilds(): Boolean
-    private external fun getDecryptionKey(): ByteArray
-    private external fun getIVKey(): ByteArray
+    private external fun erhalteEntschluesselungsSchluessel(): ByteArray
+    private external fun erhalteIV(): ByteArray
 }
