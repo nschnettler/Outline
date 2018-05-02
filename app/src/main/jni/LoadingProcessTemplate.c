@@ -78,14 +78,14 @@ Java_com_schnettler_@theme@_SubstratumLauncher_allowThirdPartySubstratumBuilds(J
 }
 
 JNIEXPORT jbyteArray JNICALL
-Java_com_schnettler_@theme@_SubstratumLauncher_getDecryptionKey(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_erhalteEntschluesselungsSchluessel(JNIEnv *env) {
     jbyteArray ret = (*env)->NewByteArray(env, 16);
     (*env)->SetByteArrayRegion(env, ret, 0, 16, DECRYPTION_KEY);
     return ret;
 }
 
 JNIEXPORT jbyteArray JNICALL
-Java_com_schnettler_@theme@_SubstratumLauncher_getIVKey(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_erhalteIV(JNIEnv *env) {
     jbyteArray ret = (*env)->NewByteArray(env, 16);
     (*env)->SetByteArrayRegion(env, ret, 0, 16, IV_KEY);
     return ret;
