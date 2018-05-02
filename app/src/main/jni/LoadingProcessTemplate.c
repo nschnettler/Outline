@@ -5,8 +5,8 @@
 #pragma clang diagnostic ignored "-Wunused-parameter"
 
 // Make sure to fill in those values if you enable anti piracy
-char APK_SIGNATURE_PRODUCTION[] = "4HCxqmQusuzbTuviIAOxy2sLSBA=";
-char BASE_64_LICENSE_KEY[] = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimxk6Y2nBBXgMVa3a4VlSfHGHka0FK9tHfNoBhKq25xEyjNtesQAp1d9e/XZ2lgthuXG2hnjmeIwBAVpD7C/DbRcThKhmYpQtJxf/8e5euMP2UIBy3J/g+ZyDOgrqhNzyrUjMiJ90qMuppHm1LRknHJfcgAIGsVB7c665BhzWSHRpzWYSTBbcuIM++PUcWjeiR5ktD0xliJDC+PUT0x/AZecVYzXfaG10vczwxGafYUwvT7nJF4+/7bJUUxkh9Bobt/zv1dqYBFqSe/XmRhMbj9AU8AXqJAvvsuGGAJOEVVQXQTc33GAhGmiDjZh4JewzHAqKThIZGRZP2DoHvkOZQIDAQAB";
+char APK_SIGNATURE_PRODUCTION[] = "@signature@";
+char BASE_64_LICENSE_KEY[] = "@key@";
 
 // You can change those values if you enable anti piracy
 jboolean ENABLE_APP_BLACKLIST_CHECK = JNI_FALSE;
@@ -21,7 +21,7 @@ jboolean ALLOW_THIRD_PARTY_SUBSTRATUM_BUILD = JNI_TRUE;
  * APK Signature Production
  */
 JNIEXPORT jstring JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getAPKSignatureProduction(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getAPKSignatureProduction(JNIEnv *env) {
     return (*env)->NewStringUTF(env, APK_SIGNATURE_PRODUCTION);
 }
 
@@ -29,7 +29,7 @@ Java_com_schnettler_minimal_SubstratumLauncher_getAPKSignatureProduction(JNIEnv 
  * Base 64 License Key
  */
 JNIEXPORT jstring JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getBase64Key(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getBase64Key(JNIEnv *env) {
     return (*env)->NewStringUTF(env, BASE_64_LICENSE_KEY);
 }
 
@@ -37,7 +37,7 @@ Java_com_schnettler_minimal_SubstratumLauncher_getBase64Key(JNIEnv *env) {
  * Enforce Internet Check
  */
 JNIEXPORT jboolean JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getInternetCheck(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getInternetCheck(JNIEnv *env) {
     return ENABLE_INTERNET_CHECK;
 }
 
@@ -45,7 +45,7 @@ Java_com_schnettler_minimal_SubstratumLauncher_getInternetCheck(JNIEnv *env) {
  * Enforce Google Play Install
  */
 JNIEXPORT jboolean JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getGooglePlayRequirement(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getGooglePlayRequirement(JNIEnv *env) {
     return REQUIRE_INSTALL_FROM_PLAY_STORE;
 }
 
@@ -53,7 +53,7 @@ Java_com_schnettler_minimal_SubstratumLauncher_getGooglePlayRequirement(JNIEnv *
  * Enforce Amazon App Store Install
  */
 JNIEXPORT jboolean JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getAmazonAppStoreRequirement(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getAmazonAppStoreRequirement(JNIEnv *env) {
     return REQUIRE_INSTALL_FROM_AMAZON_STORE;
 }
 
@@ -61,7 +61,7 @@ Java_com_schnettler_minimal_SubstratumLauncher_getAmazonAppStoreRequirement(JNIE
  * Enable check for Blacklisted APKs
  */
 JNIEXPORT jboolean JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getBlacklistedApplications(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getBlacklistedApplications(JNIEnv *env) {
     return ENABLE_APP_BLACKLIST_CHECK;
 }
 
@@ -73,19 +73,19 @@ Java_com_schnettler_minimal_SubstratumLauncher_getBlacklistedApplications(JNIEnv
  *          if there are specific bugs unreproducible on the main stream of APKs.
  */
 JNIEXPORT jboolean JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_allowThirdPartySubstratumBuilds(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_allowThirdPartySubstratumBuilds(JNIEnv *env) {
     return ALLOW_THIRD_PARTY_SUBSTRATUM_BUILD;
 }
 
 JNIEXPORT jbyteArray JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getDecryptionKey(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getDecryptionKey(JNIEnv *env) {
     jbyteArray ret = (*env)->NewByteArray(env, 16);
     (*env)->SetByteArrayRegion(env, ret, 0, 16, DECRYPTION_KEY);
     return ret;
 }
 
 JNIEXPORT jbyteArray JNICALL
-Java_com_schnettler_minimal_SubstratumLauncher_getIVKey(JNIEnv *env) {
+Java_com_schnettler_@theme@_SubstratumLauncher_getIVKey(JNIEnv *env) {
     jbyteArray ret = (*env)->NewByteArray(env, 16);
     (*env)->SetByteArrayRegion(env, ret, 0, 16, IV_KEY);
     return ret;
