@@ -36,6 +36,11 @@ android {
                 SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "bool", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
+
+        ndk {
+            moduleName "LoadingProcess"
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86"
+        }
     }
     buildTypes {
         debug {
@@ -52,28 +57,20 @@ android {
             dark{
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
-                ndk {
-                    moduleName "LoadingProcessDark"
-                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
-                }
             }
             light {
                 dimension "theme"
                 applicationId "com.schnettler.outline"
-                ndk {
-                    moduleName "LoadingProcessLight"
-                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
-                }
             }
             minimal {
                 dimension "theme"
                 applicationId "com.schnettler.minimal"
-                ndk {
-                    moduleName "LoadingProcessMinimal"
-                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
-                }
             }
         }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
     }
 
     externalNativeBuild {
@@ -94,20 +91,48 @@ def currentFlavor = getCurrentFlavor()
 
 task prepareManifest(){
     def theme = ""
+    def sourceDestination = "/src/main/kotlin/"
+    def signature = ""
+    def key = ""
     switch (currentFlavor){
         case "light":
             theme = "outline"
+            sourceDestination = "/src/main/kotlin/com/schnettler/outline"
+            signature = "***REMOVED***"
+            key = "***REMOVED***"
             break
         case "dark":
             theme = "ethereal"
+            sourceDestination = "/src/main/kotlin/com/schnettler/ethereal"
+            signature = "***REMOVED***"
+            key = "***REMOVED***"
             break
     }
+
+    //Prepare Manifest
     copy {
         from "/src/main/AndroidManifestTemplate.xml"
         into "/src/main/"
         filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
         rename { String fileName ->
            fileName = "AndroidManifest.xml"
+        }
+    }
+    //Prepare Source Files
+    def kotlinDir = new File(getProjectDir(), "/src/main/kotlin/")
+    kotlinDir.deleteDir()
+    copy {
+        from "/src/main/kotlinTemplates"
+        into sourceDestination
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
+    }
+    //Prepare C Files
+    copy {
+        from "/src/main/jni/LoadingProcessTemplate.c"
+        into "/src/main/jni/"
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme, signature : signature, key : key])
+        rename { String fileName ->
+            fileName = "LoadingProcess.c"
         }
     }
 }

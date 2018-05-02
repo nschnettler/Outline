@@ -1,4 +1,4 @@
-package com.schnettler.ethereal
+package com.schnettler.@theme@
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -9,10 +9,10 @@ import android.content.pm.Signature
 import android.net.Uri
 import android.os.RemoteException
 import android.widget.Toast
-import com.schnettler.ethereal.Constants.BLACKLISTED_APPLICATIONS
-import com.schnettler.ethereal.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import com.schnettler.ethereal.Constants.MINIMUM_SUBSTRATUM_VERSION
-import com.schnettler.ethereal.Constants.OTHER_THEME_SYSTEMS
+import com.schnettler.@theme@.Constants.BLACKLISTED_APPLICATIONS
+import com.schnettler.@theme@.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import com.schnettler.@theme@.Constants.MINIMUM_SUBSTRATUM_VERSION
+import com.schnettler.@theme@.Constants.OTHER_THEME_SYSTEMS
 
 
 @Suppress("ConstantConditionIf") // This needs to be defined by the themer, so suppress!
