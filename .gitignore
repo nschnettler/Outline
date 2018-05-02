@@ -93,5 +93,5 @@ app/.externalNativeBuild
 
 AndroidManifest.xml
 LoadingProcess.h
-app/src/main/kotlin
+app/src/main/kotlin/
 LoadingProcess.c
