@@ -64,4 +64,15 @@
         <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_20</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
+
+    <style name="BottomBarNotificationCounter">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">end|center|top</item>
+        <item name="android:background">@*com.google.android.apps.plus:drawable/bottom_bar_notification_count_background</item>
+        <item name="android:layout_width">8.0dip</item>
+        <item name="android:layout_height">8.0dip</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
 </resources>
