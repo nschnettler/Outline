@@ -10,4 +10,8 @@
 
     <!-- ROMs - Tabs -->
     <color name="dt_tab_inactive_text_color">#b3FFFFFF</color>
+
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg_activated">@*android:color/background_material_dark</drawable>
+    <drawable name="expanded_item_bg">@*android:color/background_material_dark</drawable>
 </resources>
