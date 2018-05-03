@@ -1,6 +1,6 @@
-package com.schnettler.minimal
+package com.schnettler.@theme@
 
-import com.schnettler.minimal.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
+import com.schnettler.@theme@.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
 
 object Constants {
 

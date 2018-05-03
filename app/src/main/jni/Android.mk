@@ -17,17 +17,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := LoadingProcessDark
-LOCAL_SRC_FILES := LoadingProcessDark.c
-include $(BUILD_SHARED_LIBRARY)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE    := LoadingProcessLight
-LOCAL_SRC_FILES := LoadingProcessLight.c
-include $(BUILD_SHARED_LIBRARY)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE    := LoadingProcessMinimal
-LOCAL_SRC_FILES := LoadingProcessMinimal.c
+LOCAL_MODULE    := LoadingProcess
+LOCAL_SRC_FILES := LoadingProcess.c
 
 include $(BUILD_SHARED_LIBRARY)

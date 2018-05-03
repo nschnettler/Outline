@@ -36,6 +36,11 @@ android {
                 SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "bool", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
+
+        ndk {
+            moduleName "LoadingProcess"
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86"
+        }
     }
     buildTypes {
         debug {
@@ -52,28 +57,20 @@ android {
             dark{
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
-                ndk {
-                    moduleName "LoadingProcessDark"
-                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
-                }
             }
             light {
                 dimension "theme"
                 applicationId "com.schnettler.outline"
-                ndk {
-                    moduleName "LoadingProcessLight"
-                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
-                }
             }
             minimal {
                 dimension "theme"
                 applicationId "com.schnettler.minimal"
-                ndk {
-                    moduleName "LoadingProcessMinimal"
-                    abiFilters "armeabi-v7a", "arm64-v8a", "x86"
-                }
             }
         }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
     }
 
     externalNativeBuild {
@@ -94,20 +91,48 @@ def currentFlavor = getCurrentFlavor()
 
 task prepareManifest(){
     def theme = ""
+    def sourceDestination = "/src/main/kotlin/"
+    def signature = ""
+    def key = ""
     switch (currentFlavor){
         case "light":
             theme = "outline"
+            sourceDestination = "/src/main/kotlin/com/schnettler/outline"
+            signature = "4HCxqmQusuzbTuviIAOxy2sLSBA="
+            key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimxk6Y2nBBXgMVa3a4VlSfHGHka0FK9tHfNoBhKq25xEyjNtesQAp1d9e/XZ2lgthuXG2hnjmeIwBAVpD7C/DbRcThKhmYpQtJxf/8e5euMP2UIBy3J/g+ZyDOgrqhNzyrUjMiJ90qMuppHm1LRknHJfcgAIGsVB7c665BhzWSHRpzWYSTBbcuIM++PUcWjeiR5ktD0xliJDC+PUT0x/AZecVYzXfaG10vczwxGafYUwvT7nJF4+/7bJUUxkh9Bobt/zv1dqYBFqSe/XmRhMbj9AU8AXqJAvvsuGGAJOEVVQXQTc33GAhGmiDjZh4JewzHAqKThIZGRZP2DoHvkOZQIDAQAB"
             break
         case "dark":
             theme = "ethereal"
+            sourceDestination = "/src/main/kotlin/com/schnettler/ethereal"
+            signature = "tGQYWSO6wsgTs90QJwLNH6vSwbA="
+            key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArTRaZnE2hkleiuajs6R41Fpf8f+em2T4cogtzPQ6O7r4DqBnUtc48KiZE408o0gGQoB3hr9vwoNKblxxSWxowcF9crDagEcWE6sfzHdEx/tM3nrVvq8jJPYPbUOfRPsxrPV0DqLGMU2DlxCeOhMWCRGK0IEMjQSBXXo33fie0g8sQrx7PGiaR9E0rbjO2eK5l7TsU7o1AhpONl4ODMcxLEupUEk3P8NxohafPSdLv/hFAJHDxzkJZCpvaxETcCAz8VatODZIKylHiYQsd0aEeYvfOmfpvG7PMz4o7H5riv1XE30qFFH0NVKXlYtgbewmhbmw5sRIcxuHmVQXTkIzWwIDAQAB"
             break
     }
+
+    //Prepare Manifest
     copy {
         from "/src/main/AndroidManifestTemplate.xml"
         into "/src/main/"
         filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
         rename { String fileName ->
            fileName = "AndroidManifest.xml"
+        }
+    }
+    //Prepare Source Files
+    def kotlinDir = new File(getProjectDir(), "/src/main/kotlin/")
+    kotlinDir.deleteDir()
+    copy {
+        from "/src/main/kotlinTemplates"
+        into sourceDestination
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
+    }
+    //Prepare C Files
+    copy {
+        from "/src/main/jni/LoadingProcessTemplate.c"
+        into "/src/main/jni/"
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme, signature : signature, key : key])
+        rename { String fileName ->
+            fileName = "LoadingProcess.c"
         }
     }
 }
