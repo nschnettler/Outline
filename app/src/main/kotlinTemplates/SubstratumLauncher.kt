@@ -1,4 +1,4 @@
-package com.schnettler.minimal
+package com.schnettler.@theme@
 
 import android.app.Activity
 import android.content.Context
@@ -14,22 +14,22 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
-import com.schnettler.minimal.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import com.schnettler.minimal.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
-import com.schnettler.minimal.Constants.MINIMUM_SUBSTRATUM_VERSION
-import com.schnettler.minimal.Constants.OTHER_THEME_SYSTEMS
-import com.schnettler.minimal.Constants.SUBSTRATUM_FILTER_CHECK
-import com.schnettler.minimal.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
-import com.schnettler.minimal.ThemeFunctions.checkSubstratumIntegrity
-import com.schnettler.minimal.ThemeFunctions.getSelfSignature
-import com.schnettler.minimal.ThemeFunctions.getSelfVerifiedIntentResponse
-import com.schnettler.minimal.ThemeFunctions.getSelfVerifiedPirateTools
-import com.schnettler.minimal.ThemeFunctions.getSelfVerifiedThemeEngines
-import com.schnettler.minimal.ThemeFunctions.getSubstratumFromPlayStore
-import com.schnettler.minimal.ThemeFunctions.getSubstratumUpdatedResponse
-import com.schnettler.minimal.ThemeFunctions.hasOtherThemeSystem
-import com.schnettler.minimal.ThemeFunctions.isCallingPackageAllowed
-import com.schnettler.minimal.ThemeFunctions.isPackageInstalled
+import com.schnettler.@theme@.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import com.schnettler.@theme@.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+import com.schnettler.@theme@.Constants.MINIMUM_SUBSTRATUM_VERSION
+import com.schnettler.@theme@.Constants.OTHER_THEME_SYSTEMS
+import com.schnettler.@theme@.Constants.SUBSTRATUM_FILTER_CHECK
+import com.schnettler.@theme@.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
+import com.schnettler.@theme@.ThemeFunctions.checkSubstratumIntegrity
+import com.schnettler.@theme@.ThemeFunctions.getSelfSignature
+import com.schnettler.@theme@.ThemeFunctions.getSelfVerifiedIntentResponse
+import com.schnettler.@theme@.ThemeFunctions.getSelfVerifiedPirateTools
+import com.schnettler.@theme@.ThemeFunctions.getSelfVerifiedThemeEngines
+import com.schnettler.@theme@.ThemeFunctions.getSubstratumFromPlayStore
+import com.schnettler.@theme@.ThemeFunctions.getSubstratumUpdatedResponse
+import com.schnettler.@theme@.ThemeFunctions.hasOtherThemeSystem
+import com.schnettler.@theme@.ThemeFunctions.isCallingPackageAllowed
+import com.schnettler.@theme@.ThemeFunctions.isPackageInstalled
 import java.io.File
 import java.util.*
 
@@ -136,8 +136,8 @@ class SubstratumLauncher : Activity() {
         returnIntent.putExtra("theme_launch_type", themeLaunchType)
         returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
         returnIntent.putExtra("theme_piracy_check", themePiracyCheck)
-        returnIntent.putExtra("encryption_key", getDecryptionKey())
-        returnIntent.putExtra("iv_encrypt_key", getIVKey())
+        returnIntent.putExtra("encryption_key", erhalteEntschluesselungsSchluessel())
+        returnIntent.putExtra("iv_encrypt_key", erhalteIV())
 
         val callingPackage = intent.getStringExtra("calling_package_name")
         if (callingPackage == null) {
@@ -215,7 +215,7 @@ class SubstratumLauncher : Activity() {
 
     // Load up the JNI library
     init {
-        System.loadLibrary("LoadingProcessMinimal")
+        System.loadLibrary("LoadingProcess")
     }
 
     private external fun getInternetCheck(): Boolean
@@ -225,6 +225,6 @@ class SubstratumLauncher : Activity() {
     private external fun getAPKSignatureProduction(): String
     private external fun getBlacklistedApplications(): Boolean
     private external fun allowThirdPartySubstratumBuilds(): Boolean
-    private external fun getDecryptionKey(): ByteArray
-    private external fun getIVKey(): ByteArray
+    private external fun erhalteEntschluesselungsSchluessel(): ByteArray
+    private external fun erhalteIV(): ByteArray
 }
