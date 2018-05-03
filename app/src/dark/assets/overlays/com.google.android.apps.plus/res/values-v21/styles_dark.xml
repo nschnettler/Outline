@@ -23,4 +23,22 @@
         <item name="android:colorControlActivated">@*com.google.android.apps.plus:color/quantum_googblue500</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
+
+
+    <!-- Replacement Styles (for removal of attrs.xml) -->
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="">
+        <item name="*com.google.android.apps.plus:layout_behavior">@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="">
+        <item name="*com.google.android.apps.plus:layout_scrollFlags">enterAlways|scroll</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="">
+        <item name="*com.google.android.apps.plus:layout_collapseMode">pin</item>
+    </style>
+    <!-- Collapsing Toolbar -->
+    <style name="Widget.Design.CollapsingToolbar" parent="">
+        <item name="*com.google.android.apps.plus:layout_scrollFlags">exitUntilCollapsed|scroll</item>
+        <item name="*com.google.android.apps.plus:statusBarScrim">?android:colorPrimaryDark</item>
+        <item name="*com.google.android.apps.plus:contentScrim">?android:colorPrimary</item>
+    </style>
 </resources>

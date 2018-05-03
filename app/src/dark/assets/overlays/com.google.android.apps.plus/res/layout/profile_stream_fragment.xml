@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/com.google.android.apps.plus">
 
     <android.support.design.widget.CoordinatorLayout
         android:id="@*com.google.android.apps.plus:id/profile_stream"
@@ -20,28 +20,27 @@
                 android:id="@*com.google.android.apps.plus:id/profile_stream_collapsing_toolbar"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                app:layout_scrollFlags="exitUntilCollapsed|scroll"
-                app:contentScrim="?colorPrimary">
+                style="@*com.google.android.apps.plus:style/Widget.Design.CollapsingToolbar">
 
                 <com.google.android.apps.plus.entity.header.EntityHeaderView
                     android:id="@*com.google.android.apps.plus:id/profile_header_view"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    app:layout_collapseMode="pin"
-                    android:backgroundTint="#33FFFFFF"/>
+                    android:backgroundTint="#33FFFFFF"
+                    style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Large.Inverse"/>
 
                 <View
                     android:background="@*com.google.android.apps.plus:drawable/text_scrim"
                     android:layout_width="fill_parent"
-                    android:layout_height="?actionBarSize"
-                    app:layout_collapseMode="pin" />
+                    android:layout_height="?android:actionBarSize"
+                    style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Large.Inverse"/>
 
                 <android.support.v7.widget.Toolbar
                     android:id="@*com.google.android.apps.plus:id/profile_stream_toolbar"
                     android:layout_width="fill_parent"
-                    android:layout_height="?actionBarSize"
+                    android:layout_height="?android:actionBarSize"
                     app:popupTheme="@*com.google.android.apps.plus:style/Theme.ArkhamLight"
-                    app:layout_collapseMode="pin" />
+                    style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Large.Inverse"/>
             </android.support.design.widget.CollapsingToolbarLayout>
         </android.support.design.widget.AppBarLayout>
 
@@ -49,7 +48,7 @@
             android:id="@*com.google.android.apps.plus:id/scroll_view"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior">
+            style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Medium.Inverse">
 
             <include layout="@*com.google.android.apps.plus:layout/empty_view_layout" />
 
@@ -65,9 +64,6 @@
             android:id="@*com.google.android.apps.plus:id/plus_fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_behavior="com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior"
-            app:layout_anchor="@*com.google.android.apps.plus:id/scroll_view"
-            app:layout_anchorGravity="end|bottom|center"
             style="@*com.google.android.apps.plus:style/PlusFabRed" />
     </android.support.design.widget.CoordinatorLayout>
 </android.support.v4.widget.SwipeRefreshLayout>

@@ -2,7 +2,7 @@
 <RelativeLayout android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/com.google.android.apps.plus">
 
     <android.support.design.widget.CoordinatorLayout
         android:id="@*com.google.android.apps.plus:id/one_up_overlay"
@@ -18,13 +18,13 @@
 
             <android.support.v7.widget.Toolbar
                 android:id="@*com.google.android.apps.plus:id/one_up_toolbar"
-                android:background="?colorPrimary"
+                android:background="?android:colorPrimary"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="?actionBarSize"
+                android:minHeight="?android:actionBarSize"
                 app:popupTheme="@*com.google.android.apps.plus:style/Theme.ArkhamLight"
-                app:layout_scrollFlags="enterAlways|scroll"
-                app:theme="@*com.google.android.apps.plus:style/Theme.Plus.ActionBar" />
+                app:theme="@*com.google.android.apps.plus:style/Theme.Plus.ActionBar"
+                style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Small.Inverse"/>
         </android.support.design.widget.AppBarLayout>
 
         <FrameLayout
@@ -32,7 +32,7 @@
             android:background="@*com.google.android.apps.plus:color/quantum_grey200"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior" />
+            style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Medium.Inverse" />
 
         <View
             android:id="@*com.google.android.apps.plus:id/shadow"
@@ -41,7 +41,7 @@
             android:layout_width="fill_parent"
             android:layout_height="4.0dip"
             app:layout_collapseMode="pin"
-            app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior" />
+            style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Medium.Inverse" />
     </android.support.design.widget.CoordinatorLayout>
 
     <LinearLayout

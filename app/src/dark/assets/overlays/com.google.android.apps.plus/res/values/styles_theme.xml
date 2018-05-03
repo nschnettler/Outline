@@ -5,6 +5,9 @@
         <item name="android:layout_margin">@*com.google.android.apps.plus:dimen/navigation_fab_margin</item>
         <item name="android:src">@*com.google.android.apps.plus:drawable/quantum_ic_create_white_24</item>
         <item name="android:backgroundTint">@null</item>
+        <item name="*com.google.android.apps.plus:layout_behavior">com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior</item>
+        <item name="*com.google.android.apps.plus:layout_anchor">@*com.google.android.apps.plus:id/scroll_view</item>
+        <item name="*com.google.android.apps.plus:layout_anchorGravity">end|center|bottom</item>
     </style>
 
     <!-- BGTint galore -->
@@ -13,11 +16,11 @@
         <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Square.ActionBar</item>
         <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
         <item name="android:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="actionBarStyle">@*com.google.android.apps.plus:style/Theme.Square.ActionBar</item>
-        <item name="colorPrimary">@*com.google.android.apps.plus:color/square_green_light</item>
-        <item name="colorPrimaryDark">@*com.google.android.apps.plus:color/square_green_dark</item>
-        <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="*com.google.android.apps.plus:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Square.ActionBar</item>
+        <item name="*com.google.android.apps.plus:colorPrimary">@*com.google.android.apps.plus:color/square_green_light</item>
+        <item name="*com.google.android.apps.plus:colorPrimaryDark">@*com.google.android.apps.plus:color/square_green_dark</item>
+        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
     </style>
 
     <!-- BGTint galore -->
@@ -25,11 +28,11 @@
         <item name="android:backgroundTint">@*android:color/background_material_dark</item>
         <item name="android:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Collexion.ActionBar</item>
         <item name="android:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
-        <item name="actionBarStyle">@*com.google.android.apps.plus:style/Theme.Collexion.ActionBar</item>
-        <item name="colorPrimary">@*com.google.android.apps.plus:color/quantum_lightblue500</item>
-        <item name="colorPrimaryDark">@*com.google.android.apps.plus:color/quantum_lightblue700</item>
-        <item name="colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
-        <item name="alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
+        <item name="*com.google.android.apps.plus:actionBarStyle">@*com.google.android.apps.plus:style/Theme.Collexion.ActionBar</item>
+        <item name="*com.google.android.apps.plus:colorPrimary">@*com.google.android.apps.plus:color/quantum_lightblue500</item>
+        <item name="*com.google.android.apps.plus:colorPrimaryDark">@*com.google.android.apps.plus:color/quantum_lightblue700</item>
+        <item name="*com.google.android.apps.plus:colorAccent">@*com.google.android.apps.plus:color/quantum_googblue</item>
+        <item name="*com.google.android.apps.plus:alertDialogTheme">@*com.google.android.apps.plus:style/Theme.Arkham.AlertDialogTheme</item>
     </style>
 
     <style name="Theme.Arkham.NormalWhiteActionBarWithShadow" parent="@*com.google.android.apps.plus:style/Theme.Arkham.NormalWhiteActionBar">
