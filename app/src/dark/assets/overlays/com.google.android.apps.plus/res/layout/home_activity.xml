@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/com.google.android.apps.plus">
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="fill_parent"
@@ -32,7 +32,7 @@
             android:id="@*com.google.android.apps.plus:id/fragment_container"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior" />
+            style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Medium.Inverse" />
 
         <View
             android:id="@*com.google.android.apps.plus:id/toolbar_shadow"
@@ -41,7 +41,7 @@
             android:layout_width="fill_parent"
             android:layout_height="4.0dip"
             app:layout_collapseMode="pin"
-            app:layout_behavior="@*com.google.android.apps.plus:string/appbar_scrolling_view_behavior" />
+            style="@*com.google.android.apps.plus:style/Base.TextAppearance.AppCompat.Medium.Inverse" />
 
         <include layout="@*com.google.android.apps.plus:layout/bottom_bar_and_fab" />
     </android.support.design.widget.CoordinatorLayout>
