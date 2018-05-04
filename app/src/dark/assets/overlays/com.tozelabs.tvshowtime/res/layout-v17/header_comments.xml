@@ -23,18 +23,14 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <com.tozelabs.tvshowtime.widget.ForegroundRoundedImageView
+            <com.tozelabs.tvshowtime.widget.ForegroundImageView
                 android:id="@*com.tozelabs.tvshowtime:id/profileImage"
                 android:layout_width="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_width"
                 android:layout_height="@*com.tozelabs.tvshowtime:dimen/medium_user_pic_height"
                 android:layout_margin="@*com.tozelabs.tvshowtime:dimen/big_item_spacing"
                 android:src="@*com.tozelabs.tvshowtime:drawable/default_user"
                 android:scaleType="fitCenter"
-                android:adjustViewBounds="true"
-                app:riv_border_color="@*com.tozelabs.tvshowtime:color/white"
-                app:riv_border_width="1.0dip"
-                app:riv_mutate_background="true"
-                app:riv_oval="true" />
+                android:adjustViewBounds="true" />
 
             <com.tozelabs.tvshowtime.widget.TZTextView
                 android:textSize="@*com.tozelabs.tvshowtime:dimen/typo_body_1"
