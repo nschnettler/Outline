@@ -51,9 +51,6 @@
         <color name="companion_background_color_dark">@*android:color/background_dark</color>
         <!-- Various -->
         <color name="yt_background_1_light">@*android:color/background_material_dark</color>
-        <!-- NavigationBar -->
-        <color name="navigationbar_background_light">@android:color/holo_red_light</color>
-        <color name="navigationbar_divider_light">@*android:color/background_material_dark</color>
         <!-- Live Chat -->
         <color name="live_chat_header_text_color">#ffffffff</color>
         <color name="live_chat_background_color">@*android:color/background_material_dark</color>
