@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Accent -->
+    <!-- App Primary -->
+    <color name="quantum_googblue800">@android:color/holo_blue_light</color>                        <!-- Primary -->
+    <color name="primary_color_dark">@android:color/holo_blue_light</color>                         <!-- Primary Dark -->
+    <color name="group_primary_color_dark">@android:color/holo_blue_light</color>                   <!-- Group - Primary -->
+    <color name="group_primary_color">@android:color/holo_blue_light</color>                        <!-- Group - Primary Dark -->
+
+    <!-- App Accent -->
     <color name="material_star_pink">@android:color/holo_blue_dark</color>
     <color name="dialtacts_theme_color">@android:color/holo_blue_dark</color>
     <color name="quickcontact_default_photo_tint_color">@android:color/holo_blue_dark</color>
