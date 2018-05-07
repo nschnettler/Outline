@@ -18,6 +18,7 @@ import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
 import com.schnettler.@theme@.AdvancedConstants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+import com.schnettler.@theme@.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
 import com.schnettler.@theme@.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
 import com.schnettler.@theme@.AdvancedConstants.OTHER_THEME_SYSTEMS
 import com.schnettler.@theme@.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
@@ -44,11 +45,7 @@ class SubstratumLauncher : Activity() {
     private var piracyChecker: PiracyChecker? = null
 
     private fun calibrateSystem(certified: Boolean) {
-        if (!BuildConfig.DEBUG) {
-            startAntiPiracyCheck(certified)
-        } else {
-            quitSelf(certified)
-        }
+        if (BuildConfig.DEBUG) quitSelf(certified) else startAntiPiracyCheck(certified)
     }
 
     private fun startAntiPiracyCheck(certified: Boolean) {
@@ -167,6 +164,28 @@ class SubstratumLauncher : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Reject all other apps trying to hijack the theme first
+        val caller = callingActivity.packageName
+        var callerVerified = false
+
+        val themeSystems: MutableList<String> = mutableListOf()
+        themeSystems.addAll(ORGANIZATION_THEME_SYSTEMS)
+        themeSystems.addAll(OTHER_THEME_SYSTEMS)
+        themeSystems
+                .filter { caller.startsWith(prefix = it, ignoreCase = true) }
+                .forEach { callerVerified = true }
+        if (!callerVerified) {
+            Log.e(tag, "This theme does not support the launching theme system. [HIJACK] ($caller)")
+            val hijackString =
+                    String.format(getString(R.string.unauthorized_theme_client_hijack), caller)
+            Toast.makeText(this, hijackString, Toast.LENGTH_LONG).show()
+            finish()
+            return
+        } else {
+            Log.d(tag, "'$caller' has been authorized to launch this theme. (Phase 1)")
+        }
+
         // We will ensure that our support is added where it belongs
         val intent = intent
         val action = intent.action
@@ -190,7 +209,7 @@ class SubstratumLauncher : Activity() {
             finish()
             return
         } else {
-            Log.d(tag, "'$action' has been authorized to launch this theme.")
+            Log.d(tag, "'$action' has been authorized to launch this theme. (Phase 2)")
         }
 
         if (SHOW_LAUNCH_DIALOG) run {
