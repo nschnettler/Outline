@@ -9,13 +9,11 @@ import android.content.pm.Signature
 import android.net.Uri
 import android.os.RemoteException
 import android.widget.Toast
-import com.schnettler.@theme@.Constants.BLACKLISTED_APPLICATIONS
-import com.schnettler.@theme@.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import com.schnettler.@theme@.Constants.MINIMUM_SUBSTRATUM_VERSION
-import com.schnettler.@theme@.Constants.OTHER_THEME_SYSTEMS
+import com.schnettler.@theme@.AdvancedConstants.BLACKLISTED_APPLICATIONS
+import com.schnettler.@theme@.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
+import com.schnettler.@theme@.AdvancedConstants.OTHER_THEME_SYSTEMS
 
-
-@Suppress("ConstantConditionIf") // This needs to be defined by the themer, so suppress!
+@Suppress("ConstantConditionIf")
 object ThemeFunctions {
 
     val SUBSTRATUM_PACKAGE_NAME = "projekt.substratum"
@@ -40,7 +38,7 @@ object ThemeFunctions {
             if (pi.signatures != null
                     && pi.signatures.size == 1
                     && ((SIGNATURES[0] == pi.signatures[0]) ||
-                    (SIGNATURES[1] == pi.signatures[0]))) {
+                            (SIGNATURES[1] == pi.signatures[0]))) {
                 return true
             }
             false
@@ -90,18 +88,23 @@ object ThemeFunctions {
     }
 
     fun getSelfVerifiedIntentResponse(context: Context): Int? {
-        return if (ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS) {
+        return if (BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
             getSelfSignature(context)
         } else {
             getSubstratumSignature(context)
         }
     }
 
+    private fun checkPackageRegex(context: Context, stringArray: Array<String>): Boolean {
+        val pm = context.packageManager
+        val packages = pm.getInstalledApplications(PackageManager.GET_META_DATA)
+        val listOfInstalled = arrayListOf<String>()
+        packages.mapTo(listOfInstalled) { it.packageName }
+        return stringArray.any { listOfInstalled.contains(it) }
+    }
+
     fun getSelfVerifiedPirateTools(context: Context): Boolean {
-        BLACKLISTED_APPLICATIONS
-                .filter { isPackageInstalled(context, it) }
-                .forEach { return true }
-        return false
+        return checkPackageRegex(context, BLACKLISTED_APPLICATIONS)
     }
 
     fun checkSubstratumIntegrity(context: Context): Boolean {
@@ -113,7 +116,7 @@ object ThemeFunctions {
 
     fun getSelfVerifiedThemeEngines(context: Context): Boolean? {
         val isPermitted: Boolean? = OTHER_THEME_SYSTEMS.any { isPackageInstalled(context, it) }
-        if (ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS) {
+        if (BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
             return isPermitted
         } else if (isPackageInstalled(context, SUBSTRATUM_PACKAGE_NAME)) {
             return (!isPermitted!!)
@@ -123,7 +126,7 @@ object ThemeFunctions {
 
     fun isCallingPackageAllowed(packageId: String): Boolean {
         if (packageId == SUBSTRATUM_PACKAGE_NAME) return true
-        if (ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS) {
+        if (BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
             OTHER_THEME_SYSTEMS.filter { packageId == it }.forEach { return true }
         }
         return false
