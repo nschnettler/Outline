@@ -9,11 +9,9 @@ import java.util.regex.Pattern
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply from: 'ThemerConstants.gradle'
 
 ext {
-    SHOULD_ENCRYPT_ASSETS = true
-    SUPPORTS_THIRD_PARTY_SYSTEMS = false
-
     byte[] key = new byte[16]
     new Random().nextBytes(key)
     KEY = key
@@ -32,15 +30,16 @@ android {
         versionCode 27019
         versionName "Oreo MR - 16.5"
 
-        buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" +
-                SUPPORTS_THIRD_PARTY_SYSTEMS
-        resValue "bool", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
+        buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
+        buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
+        buildConfigField "boolean", "ENFORCE_INTERNET_CHECK", "" + ENFORCE_INTERNET_CHECK
+        buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "" + ENFORCE_GOOGLE_PLAY_INSTALL
+        buildConfigField "boolean", "ENFORCE_AMAZON_APP_STORE_INSTALL", "" + ENFORCE_AMAZON_APP_STORE_INSTALL
+        buildConfigField "boolean", "ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS", "" + ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS
+        buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
+        buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
+        buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
-
-        ndk {
-            moduleName "LoadingProcess"
-            abiFilters "armeabi-v7a", "arm64-v8a", "x86"
-        }
     }
     buildTypes {
         debug {
@@ -57,10 +56,16 @@ android {
             dark{
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
+
+                buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + ETHEREAL_BASE_64_LICENSE_KEY + "\""
+                buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + ETHEREAL_APK_SIGNATURE_PRODUCTION + "\""
             }
             light {
                 dimension "theme"
                 applicationId "com.schnettler.outline"
+
+                buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
+                buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
             }
             minimal {
                 dimension "theme"
@@ -72,18 +77,12 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
-    externalNativeBuild {
-        ndkBuild {
-            path 'src/main/jni/Android.mk'
-        }
-    }
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.javiersantos:PiracyChecker:1.1'
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
+    implementation 'com.github.javiersantos:PiracyChecker:1.2.2'
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
         transitive = true
     }
 }
@@ -92,20 +91,14 @@ def currentFlavor = getCurrentFlavor()
 task prepareManifest(){
     def theme = ""
     def sourceDestination = "/src/main/kotlin/"
-    def signature = ""
-    def key = ""
     switch (currentFlavor){
         case "light":
             theme = "outline"
             sourceDestination = "/src/main/kotlin/com/schnettler/outline"
-            signature = "***REMOVED***"
-            key = "***REMOVED***"
             break
         case "dark":
             theme = "ethereal"
             sourceDestination = "/src/main/kotlin/com/schnettler/ethereal"
-            signature = "***REMOVED***"
-            key = "***REMOVED***"
             break
     }
 
@@ -125,15 +118,6 @@ task prepareManifest(){
         from "/src/main/kotlinTemplates"
         into sourceDestination
         filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
-    }
-    //Prepare C Files
-    copy {
-        from "/src/main/jni/LoadingProcessTemplate.c"
-        into "/src/main/jni/"
-        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme, signature : signature, key : key])
-        rename { String fileName ->
-            fileName = "LoadingProcess.c"
-        }
     }
 }
 
@@ -203,25 +187,6 @@ task encryptAssets(dependsOn: backupAssets ) {
             //it.delete()
         }
     }
-}
-
-task writeKeys {
-    def KEY_READY = String.valueOf("\"" + KEY + "\"")
-            .replace("\"", "")
-            .replace("[", "{")
-            .replace("]", "}")
-    def IV_KEY_READY = String.valueOf("\"" + IV_KEY + "\"")
-            .replace("\"", "")
-            .replace("[", "{")
-            .replace("]", "}")
-
-    def headerFile = new File(getProjectDir(), "src/main/jni/LoadingProcess.h")
-    headerFile.createNewFile()
-    headerFile.text = """
-#include <jni.h>
-jbyte DECRYPTION_KEY[] = ${KEY_READY};
-jbyte IV_KEY[] = ${IV_KEY_READY};
-"""
 }
 
 project.afterEvaluate {

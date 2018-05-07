@@ -1,8 +1,6 @@
 package com.schnettler.@theme@
 
-import com.schnettler.@theme@.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
-
-object Constants {
+object AdvancedConstants {
 
     // Dynamic filter that only works on Substratum 627+
     // WARNING: Only enable if you are sure you want certification status to pass on Substratum
@@ -12,7 +10,11 @@ object Constants {
     // Miscellaneous Checks
     const val ENFORCE_MINIMUM_SUBSTRATUM_VERSION = true
     const val MINIMUM_SUBSTRATUM_VERSION = 712 // 510 is the final MM build
-    const val ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS = SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
+
+    // Custom message on theme launch, see theme_strings.xml for changing the dialog content
+    // Set SHOW_DIALOG_REPEATEDLY to true if you want the dialog to be showed on every theme launch
+    const val SHOW_LAUNCH_DIALOG = false
+    const val SHOW_DIALOG_REPEATEDLY = false
 
     // Blacklisted APKs to prevent theme launching, these include simple regex formatting, without
     // full regex formatting (e.g. com.android. will block everything that starts with com.android.)
@@ -24,11 +26,8 @@ object Constants {
             "com.dimonvideo.luckypatcher",
             "com.chelpus.lackypatch",
             "com.forpda.lp",
-            "com.android.vending.billing.InAppBillingService.LUCK",
-            "com.android.vending.billing.InAppBillingService.CLON",
-            "com.android.vending.billing.InAppBillingService.LOCK",
-            "com.android.vending.billing.InAppBillingService.CRAC",
-            "com.android.vending.billing.InAppBillingService.LACK",
+            "com.android.vending.billing.InAppBillingService",
+            "com.android.vending.billing.InAppBillingSorvice",
             "com.android.vendinc",
             "com.appcake",
             "ac.market.store",
