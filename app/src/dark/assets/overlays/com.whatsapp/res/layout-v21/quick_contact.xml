@@ -55,24 +55,7 @@
             </FrameLayout>
         </FrameLayout>
 
-        <HorizontalScrollView
-            android:id="@*com.whatsapp:id/label_row_scroller"
-            android:background="@*com.whatsapp:color/labels_light_gray_background_2"
-            android:visibility="gone"
-            android:layout_width="@*com.whatsapp:dimen/quick_contact_profile_photo_size"
-            android:layout_height="36.0dip">
-
-            <LinearLayout
-                android:layout_gravity="start|center"
-                android:orientation="horizontal"
-                android:id="@*com.whatsapp:id/label_row"
-                android:paddingLeft="6.0dip"
-                android:paddingRight="6.0dip"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingStart="6.0dip"
-                android:paddingEnd="6.0dip" />
-        </HorizontalScrollView>
+        <include layout="@*com.whatsapp:layout/smb_label_scroller_stub" />
 
         <View
             android:id="@*com.whatsapp:id/quick_contact_divider"

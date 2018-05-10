@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical"
+<com.whatsapp.InfoCard android:orientation="vertical"
     android:id="@*com.whatsapp:id/description_card"
+    android:paddingTop="0.0dip"
     android:visibility="gone"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    whatsapp:icTopDrawable="@null"
+    style="@*com.whatsapp:style/InfoCard"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
@@ -64,8 +67,4 @@
             android:text="@*com.whatsapp:string/add_group_description"
             style="@*com.whatsapp:style/ListItemTitle" />
     </LinearLayout>
-
-    <include
-        android:id="@*com.whatsapp:id/actions_card_bottom_divider"
-        layout="@*com.whatsapp:layout/divider_row" />
-</LinearLayout>
+</com.whatsapp.InfoCard>

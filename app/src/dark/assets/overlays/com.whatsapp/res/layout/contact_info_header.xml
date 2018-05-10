@@ -15,6 +15,15 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.whatsapp:dimen/info_screen_header" />
 
+    <include layout="@*com.whatsapp:layout/smb_label_scroller_stub" />
+
+    <View
+        android:id="@*com.whatsapp:id/header_top_shadow"
+        android:background="@*com.whatsapp:drawable/list_separator_top"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+
     <ViewStub
         android:id="@*com.whatsapp:id/business_details_card_stub"
         android:inflatedId="@*com.whatsapp:id/business_details_card"
@@ -23,24 +32,23 @@
 
     <com.whatsapp.MediaCard
         android:id="@*com.whatsapp:id/media_card_view"
+        android:paddingTop="0.0dip"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        app:mcTitle="@*com.whatsapp:string/view_conversation_media" />
+        app:icContentColor="@*com.whatsapp:color/white"
+        app:mcTitle="@*com.whatsapp:string/view_conversation_media"
+        style="@*com.whatsapp:style/InfoCard" />
 
     <include layout="@*com.whatsapp:layout/live_location_card" />
 
     <include layout="@*com.whatsapp:layout/actions_card" />
 
-    <LinearLayout
+    <com.whatsapp.InfoCard
         android:orientation="vertical"
         android:id="@*com.whatsapp:id/status_card"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <View
-            android:background="@*com.whatsapp:drawable/list_separator_bot"
-            android:layout_width="fill_parent"
-            android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+        android:layout_height="wrap_content"
+        style="@*com.whatsapp:style/InfoCard">
 
         <LinearLayout
             android:orientation="vertical"
@@ -84,12 +92,7 @@
 
             <include layout="@*com.whatsapp:layout/contact_info_phone" />
         </LinearLayout>
-
-        <View
-            android:background="@*com.whatsapp:drawable/list_separator_top"
-            android:layout_width="fill_parent"
-            android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
-    </LinearLayout>
+    </com.whatsapp.InfoCard>
 
     <LinearLayout
         android:orientation="vertical"
