@@ -10,6 +10,15 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.whatsapp:dimen/info_screen_header" />
 
+    <include layout="@*com.whatsapp:layout/smb_label_scroller_stub" />
+
+    <View
+        android:id="@*com.whatsapp:id/header_top_shadow"
+        android:background="@*com.whatsapp:drawable/list_separator_top"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+
     <include layout="@*com.whatsapp:layout/description_card" />
 
     <TextView
@@ -30,7 +39,9 @@
         android:id="@*com.whatsapp:id/media_card_view"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        app:mcTitle="@*com.whatsapp:string/view_conversation_media" />
+        app:icContentColor="@*com.whatsapp:color/white"
+        app:mcTitle="@*com.whatsapp:string/view_conversation_media"
+        style="@*com.whatsapp:style/InfoCard" />
 
     <include layout="@*com.whatsapp:layout/live_location_card" />
 
@@ -41,6 +52,11 @@
         android:id="@*com.whatsapp:id/participants_card"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
+
+        <View
+            android:background="@*com.whatsapp:drawable/list_separator_bot"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
 
         <LinearLayout
             android:orientation="horizontal"

@@ -150,14 +150,16 @@
                 android:text="@*com.whatsapp:string/next"
                 style="@*com.whatsapp:style/RegistrationButton" />
 
-            <TextView
+            <com.whatsapp.TextEmojiLabel
                 android:textSize="12.0sp"
                 android:textColor="@*com.whatsapp:color/body_light_gray"
                 android:gravity="bottom|center"
+                android:id="@*com.whatsapp:id/registration_info"
                 android:paddingBottom="8.0dip"
+                android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@*com.whatsapp:string/register_phone_number_sms_charge_warning" />
+                android:lineSpacingMultiplier="1.25" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

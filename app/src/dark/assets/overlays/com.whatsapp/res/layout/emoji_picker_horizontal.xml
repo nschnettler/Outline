@@ -209,6 +209,7 @@
                     android:layout_width="40.0dip"
                     android:layout_height="fill_parent"
                     android:src="@*com.whatsapp:drawable/ic_sticker_normal"
+                    android:contentDescription="@*com.whatsapp:string/sticker_tab_content_description"
                     style="@*com.whatsapp:style/ActionBarButtonStyle" />
             </LinearLayout>
 

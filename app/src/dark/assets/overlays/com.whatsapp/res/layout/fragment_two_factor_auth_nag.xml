@@ -64,8 +64,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="2.0dip"
-            android:layout_marginBottom="16.0dip"
-            style="@*com.whatsapp:style/TextAppearance.Design.Error" />
+            android:layout_marginBottom="16.0dip" />
 
         <TextView
             android:textSize="14.0sp"

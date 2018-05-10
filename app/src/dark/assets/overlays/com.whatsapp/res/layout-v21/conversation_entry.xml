@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.whatsapp.util.ClippingLayout
         android:layout_gravity="bottom"
@@ -203,20 +202,7 @@
                             android:contentDescription="@*com.whatsapp:string/voice_note_button" />
                     </FrameLayout>
                 </FrameLayout>
-
-                <TextView
-                    android:textSize="18.0sp"
-                    android:textColor="@*com.whatsapp:color/red_button_text"
-                    android:id="@*com.whatsapp:id/voice_note_cancel_btn"
-                    android:visibility="gone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@*com.whatsapp:string/cancel"
-                    android:maxLines="1"
-                    android:singleLine="true"
-                    android:layout_centerInParent="true" />
             </RelativeLayout>
-
             <com.whatsapp.gif_search.GifSearchContainer
                 android:id="@*com.whatsapp:id/gif_search_container"
                 android:visibility="gone"

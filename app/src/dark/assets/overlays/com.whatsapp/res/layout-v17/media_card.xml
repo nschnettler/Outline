@@ -1,71 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-
-    All Media (ing Group / normal Chat
-
--->
-<LinearLayout android:orientation="vertical"
-    android:id="@*com.whatsapp:id/media_card_root"
-    android:layout_width="fill_parent"
+<merge android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <View
-        android:id="@*com.whatsapp:id/media_card_top_shadow"
-        android:background="@*com.whatsapp:drawable/list_separator_bot"
-        android:visibility="gone"
-        android:layout_width="fill_parent"
-        android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+    <FrameLayout
+        android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+        style="@*com.whatsapp:style/FlatCardHeader">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:background="@*android:color/background_material_dark"
+        <TextView
+            android:id="@*com.whatsapp:id/media_card_title"
+            style="@*com.whatsapp:style/FlatCardTitle" />
+
+        <TextView
+            android:id="@*com.whatsapp:id/media_card_info"
+            android:includeFontPadding="false"
+            style="@*com.whatsapp:style/FlatCardInfo" />
+    </FrameLayout>
+
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
-        <FrameLayout
-            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
-            style="@*com.whatsapp:style/FlatCardHeader">
+        <HorizontalScrollView
+            android:gravity="center_vertical"
+            android:id="@*com.whatsapp:id/media_card_scroller"
+            android:paddingTop="12.0dip"
+            android:paddingBottom="10.0dip"
+            android:scrollbars="none"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:overScrollMode="never"
+            android:layoutDirection="ltr">
 
-            <TextView
-                android:id="@*com.whatsapp:id/media_card_title"
-                style="@*com.whatsapp:style/FlatCardTitle" />
-
-            <TextView
-                android:id="@*com.whatsapp:id/media_card_info"
-                android:includeFontPadding="false"
-                style="@*com.whatsapp:style/FlatCardInfo" />
-        </FrameLayout>
-
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-
-            <HorizontalScrollView
+            <LinearLayout
                 android:gravity="center_vertical"
-                android:id="@*com.whatsapp:id/media_card_scroller"
-                android:paddingTop="12.0dip"
-                android:paddingBottom="10.0dip"
-                android:scrollbars="none"
-                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:id="@*com.whatsapp:id/media_card_thumbs"
+                android:paddingLeft="14.0dip"
+                android:paddingRight="14.0dip"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:overScrollMode="never"
-                android:layoutDirection="ltr">
-
-                <LinearLayout
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:id="@*com.whatsapp:id/media_card_thumbs"
-                    android:paddingLeft="14.0dip"
-                    android:paddingRight="14.0dip"
-                    android:layout_width="wrap_content"
-                    android:layout_height="@*com.whatsapp:dimen/medium_thumbnail_size"
-                    android:layoutDirection="locale" />
-            </HorizontalScrollView>
-        </RelativeLayout>
-    </LinearLayout>
-
-    <include layout="@*com.whatsapp:layout/divider_row" />
-</LinearLayout>
+                android:layout_height="@*com.whatsapp:dimen/medium_thumbnail_size"
+                android:layoutDirection="locale" />
+        </HorizontalScrollView>
+    </RelativeLayout>
+</merge>
