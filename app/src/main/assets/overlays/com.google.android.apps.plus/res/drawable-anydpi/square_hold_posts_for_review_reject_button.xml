@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item >
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:height="28dp"
+        android:width="28dp"
+        android:gravity="center">
         <selector android:exitFadeDuration="@android:integer/config_mediumAnimTime">
             <item android:state_window_focused="false">
                 <shape android:shape="oval">
-                    <solid android:color="#ffeeeeee" />
+                    <solid android:color="#0d000000" />
                 </shape>
             </item>
             <item android:state_focused="true">
                 <shape android:shape="oval">
-                    <solid android:color="#ffe0e0e0" />
+                    <solid android:color="#1a000000" />
                 </shape>
             </item>
             <item android:state_pressed="true">
                 <shape android:shape="oval">
-                    <solid android:color="#ffe0e0e0" />
+                    <solid android:color="#1a000000" />
                 </shape>
             </item>
-        </selector>/>
+        </selector>
+        />
     </item>
 
-    <item android:height="24dp" android:width="24dp" android:gravity="center">
-        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    <item
+        android:height="20dp"
+        android:width="20dp"
+        android:gravity="center">
+        <vector
             android:width="24dp"
             android:height="24dp"
             android:viewportWidth="24.0"
             android:viewportHeight="24.0">
             <path
-                android:strokeColor="@*com.google.android.apps.plus:color/material_grey_600"
-                android:strokeWidth="0.8"
-                android:pathData="M5,5l14,14 M5,19L19,5"/>
+                android:strokeColor="?android:colorControlNormal"
+                android:strokeWidth="1.5"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:pathData="M6 6l12 12M6 18L18 6"/>
         </vector>
     </item>
 
