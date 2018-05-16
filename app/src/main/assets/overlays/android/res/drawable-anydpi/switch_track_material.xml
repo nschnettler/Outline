@@ -1,10 +1,12 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="center_vertical|fill_horizontal"
+    <item
+        android:gravity="center_vertical|fill_horizontal"
         android:end="10dp"
         android:start="10dp">
         <shape android:shape="rectangle">
-            <size android:height="0.8dp" />
-            <solid android:color="@*android:color/switch_track_material"/>
+            <size android:height="1.5dp" />
+            <solid android:color="@*android:color/switch_track_material" />
+            <corners android:radius="10dp" />
         </shape>
     </item>
 </layer-list>
