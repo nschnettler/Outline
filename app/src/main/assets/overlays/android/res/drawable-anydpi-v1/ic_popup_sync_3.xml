@@ -3,9 +3,16 @@
     android:height="24dp"
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
-    <path
-        android:strokeColor="#FFFFFFFF"
-        android:strokeWidth="0.8"
-        android:pathData="M17.1,9l2.9,1.5l0.2-3.3L17.1,9z M6.9,15L4,13.5l-0.2,3.3L6.9,15z M8.1,5.3
-	c3.7-2.1,8.4-0.9,10.5,2.8 M15.9,18.7c-3.7,2.1-8.4,0.9-10.5-2.8"/>
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="60">
+        <path
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M4.2 12c0-4.3 3.5-7.8 7.8-7.8m0 15.6c4.3 0 7.8-3.5 7.8-7.8M12
+  22v-4.4l-3.3 2.2L12 22zm0-20v4.4l3.3-2.2L12 2z" />
+    </group>
 </vector>
