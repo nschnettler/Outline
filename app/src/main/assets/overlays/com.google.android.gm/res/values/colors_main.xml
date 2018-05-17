@@ -11,13 +11,13 @@
     <color name="quantum_googgreen700">@android:color/holo_green_light</color>                      <!-- Achieve -->
 
     <!-- Other -->
-    <color name="blue">@android:color/holo_blue_light</color>
-    <color name="quantum_googblue500">@android:color/holo_blue_light</color>
-    <color name="smart_reply_button_border">@android:color/holo_blue_light</color>                  <!-- Smart Reply Border -->
+    <color name="blue">@android:color/holo_red_light</color>
+    <color name="quantum_googblue500">@android:color/holo_red_light</color>
+    <color name="smart_reply_button_border">@android:color/holo_red_light</color>                  <!-- Smart Reply Border -->
 
     <!-- Refresh -->
     <color name="swipe_refresh_color1">@android:color/holo_red_light</color>
-    <color name="swipe_refresh_color2">@android:color/holo_orange_light</color>
-    <color name="swipe_refresh_color3">@android:color/holo_green_light</color>
-    <color name="swipe_refresh_color4">@android:color/holo_blue_light</color>
+    <color name="swipe_refresh_color2">@android:color/holo_red_light</color>
+    <color name="swipe_refresh_color3">@android:color/holo_red_light</color>
+    <color name="swipe_refresh_color4">@android:color/holo_red_light</color>
 </resources>
