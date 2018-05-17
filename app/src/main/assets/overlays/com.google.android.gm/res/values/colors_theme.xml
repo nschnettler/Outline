@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Color -->
+    <color name="primary_color">#FFFFFF</color>                                                     <!-- Primary -->
+    <color name="primary_dark_color">#FFFFFF</color>                                                <!-- Primary - Dark-->
+
     <!-- Action Mode -->
-    <color name="action_mode_background">@*android:color/holo_gray_light</color>
-    <color name="action_mode_statusbar_color">@*android:color/holo_gray_light</color>
+    <color name="action_mode_background">#FFFFFF</color>
+    <color name="action_mode_statusbar_color">#FFFFFF</color>
 </resources>
