@@ -6,5 +6,6 @@
        <item name="android:colorPrimary">#FFFFFF</item>
        <item name="android:colorPrimaryDark">#FFFFFF</item>
        <item name="android:windowBackground">@android:color/white</item>
+       <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
     </style>
 </resources>
