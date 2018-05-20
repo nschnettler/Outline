@@ -1,8 +1,9 @@
 <resources>
     <!-- Icon -->
     <color name="icon_accent">#d37a7a</color>
-    <color name="icon_background">#2a2b32</color>
+    <color name="icon_background">#202030</color>
     <color name="icon_foreground_drop">#FFFFFF</color>
+    <dimen name="icon_foreground_drop_opacity">1</dimen>
 
     <!-- HeroImage -->
     <color name="hero_background">#25262d</color>

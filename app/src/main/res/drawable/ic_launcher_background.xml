@@ -4,10 +4,6 @@
     android:viewportHeight="108.0"
     android:viewportWidth="108.0">
     <path
-        android:fillColor="@color/icon_accent"
-        android:pathData="M108,108H0V0h108V108z"/>
-
-    <path
-        android:fillColor="#1a000000"
-        android:pathData="M0,108V0h108L0,108z"/>
+        android:fillColor="@color/icon_background"
+        android:pathData="M-.5-.5h109v109H-.5z"/>
 </vector>
