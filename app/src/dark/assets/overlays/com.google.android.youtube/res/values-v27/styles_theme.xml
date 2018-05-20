@@ -7,13 +7,11 @@
     <!-- Dialog -->
     <style name="Base.V27.Theme.YouTube.Light.Dialog" parent="@*com.google.android.youtube:style/Base.V23.Theme.YouTube.Dark.Dialog">
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-        <item name="android:windowLightNavigationBar">false</item>
-        <item name="android:navigationBarDividerColor">@*android:color/background_dark</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
     <!-- Share Dialog -->
     <style name="Base.V27.Theme.YouTube.Share.DialogFragment" parent="@*com.google.android.youtube:style/Base.Theme.YouTube.Share.DialogFragment">
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-        <item name="android:windowLightNavigationBar">false</item>
-        <item name="android:navigationBarDividerColor">@*android:color/background_dark</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
 </resources>
