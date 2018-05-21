@@ -8,6 +8,7 @@
     <color name="games_mvp_text_color_tertiary">#b3FFFFFF</color>
     <color name="secondary_text_default_material_light">#b3FFFFFF</color>
     <color name="play_fg_primary">#FFFFFF</color>
+    <color name="replay__pal_gray_700">#b3FFFFFF</color>
 
     <!-- Divider -->
     <color name="replay__pal_gray_200">@android:color/background_dark</color>
