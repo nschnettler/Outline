@@ -3,9 +3,9 @@
     viewBox="0 0 24 24">
     <path fill="none"
         stroke="#757575"
-        stroke-width="0.8"
-        stroke-miterlimit="10"
+        stroke-width="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"
-        d="M22 18c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-3.5c1.4 0 2.5-1.1 2.5-2.5S3.4 9.5 2 9.5V6c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2v3.5c-1.4 0-2.5 1.1-2.5 2.5s1.1 2.5 2.5 2.5V18zM12 8v8m-3.467-5.956l6.934 4m-6.934 0l6.934-4"/>
+        d="M4.2 12c0-4.3 3.5-7.8 7.8-7.8m0 15.6c4.3 0 7.8-3.5 7.8-7.8M12
+  22v-4.4l-3.3 2.2L12 22zm0-20v4.4l3.3-2.2L12 2z"/>
 </svg>
