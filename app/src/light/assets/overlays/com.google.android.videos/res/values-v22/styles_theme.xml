@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Light Theme -->
-    <style name="AppTheme" parent="@*com.google.android.videos:style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowBackground">@*com.google.android.videos:color/play_movies_main_background</item>
-        <item name="android:listDivider">@null</item>
-        <item name="android:colorBackgroundFloating">@*com.google.android.videos:color/play_movies_card_background</item>
-        <item name="*com.google.android.videos:actionBarPopupTheme">@*com.google.android.videos:style/ThemeOverlay.AppCompat</item>
-        <item name="*com.google.android.videos:actionBarTheme">@*com.google.android.videos:style/ActionBarTheme</item>
-        <item name="*com.google.android.videos:colorPrimary">@*com.google.android.videos:color/play_movies_recents</item>
-        <item name="*com.google.android.videos:colorPrimaryDark">@*com.google.android.videos:color/play_movies_system_bar_background</item>
-        <item name="*com.google.android.videos:colorAccent">@*com.google.android.videos:color/play_movies_primary</item>
-        <item name="*com.google.android.videos:alertDialogTheme">@*com.google.android.videos:style/AlertDialogTheme</item>
-
-        <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:navigationBarColor">#FFFFFF</item>
-        <item name="android:navigationBarDividerColor">#e0e0e0</item>
-    </style>
-
     <!-- Drawer -->
     <style name="Widget.AppCompat.DrawerArrowToggle" parent="@*com.google.android.videos:style/Base.Widget.AppCompat.DrawerArrowToggle">
         <item name="*com.google.android.videos:color">#FFFFFF</item>
