@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor">#e0e0e0</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
     <style name="CalendarTheme.CreateGrooveActivity" parent="@*com.google.android.calendar:style/CalendarTheme.NoActionBar">
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:windowNoTitle">true</item>

@@ -9,5 +9,8 @@
         <item name="android:colorAccent">@*com.patreon.android:color/blue</item>
         <item name="android:windowActivityTransitions">true</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
 </resources>
