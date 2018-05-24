@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Image Viewer -->
+    <style name="Theme.Plus.Transparent" parent="@*com.google.android.apps.plus:style/Theme.Plus">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:navigationBarDividerColor">#000000</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+</resources>
