@@ -3,8 +3,18 @@
     android:height="30dp"
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
-    <path
-        android:strokeColor="#FFFFFFFF"
-        android:strokeWidth="0.8"
-        android:pathData="M11.9,12.1L12,5.1 M7.2,12l4.8,5.8l4.8-5.8L7.2,12z"/>
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateY="1">
+        <path
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M12 11.9H8.5l3.5 4.8
+  3.5-4.8H12V3" />
+    </group>
 </vector>
