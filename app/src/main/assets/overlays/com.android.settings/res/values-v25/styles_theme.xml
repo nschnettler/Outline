@@ -2,9 +2,6 @@
 <resources>
    <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings">
        <item name="android:colorSecondary">#FFFFFF</item>
-       <item name="android:navigationBarColor">#FFFFFF</item>
-       <item name="android:colorPrimary">#FFFFFF</item>
-       <item name="android:colorPrimaryDark">#FFFFFF</item>
        <item name="android:windowBackground">@android:color/white</item>
        <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
     </style>
