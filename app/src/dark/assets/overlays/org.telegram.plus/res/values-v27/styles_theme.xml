@@ -19,22 +19,6 @@
         <item name="android:colorPrimaryDark">#00000000</item>
         <item name="android:datePickerDialogTheme">@*org.telegram.plus:style/Theme.TMessages.Dialog.Alert</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-    </style>
-
-
-    <style name="Theme.TMessages.Start" parent="@android:style/Theme.Material">
-        <item name="android:actionBarStyle">@*org.telegram.plus:style/ActionBar.Transparent.TMessages.Start</item>
-        <item name="android:colorBackground">@*android:color/background_material_dark</item>
-        <item name="android:windowBackground">@*android:color/background_material_dark</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-    </style>
-
-    <style name="ActionBar.Transparent.TMessages.Start" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">?android:colorPrimary</item>
-        <item name="android:title"></item>
-        <item name="android:logo">@*org.telegram.plus:drawable/transparent</item>
+        <item name="android:navigationBarDividerColor">@*android:color/background_dark</item>
     </style>
 </resources>
