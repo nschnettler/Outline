@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base Theme -->
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarDividerColor">#33000000</item>
+    </style>
+
     <!-- Main Theme -->
     <style name="ColoredNavBarGmailTheme" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
