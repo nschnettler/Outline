@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:navigationBarColor">@*com.twitter.android:color/app_background</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">@*com.twitter.android:color/app_background</item>
+        <item name="android:navigationBarDividerColor">#33000000</item>
+    </style>
+
+    <!-- Gallery Theme - Disable Light NavBar -->
+    <style name="Theme.Gallery" parent="@*com.twitter.android:style/Theme.DarkBase">
+        <item name="*com.twitter.android:listRowStyle">@*com.twitter.android:style/ListRow.MediaTaggedUsers</item>
+        <item name="*com.twitter.android:textColorSecondary">@*com.twitter.android:color/white_opacity_75</item>
+        <item name="*com.twitter.android:toolBarStyle">@*com.twitter.android:style/ToolBarStyle.Circled</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">#00000000</item>
+    </style>
+
     <!-- Main Them - Remove NavBar Bg -->
     <style name="ThemeBase" parent="@*com.twitter.android:style/Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:statusBarColor">@*com.twitter.android:color/status_bar_transluscent</item>
@@ -14,14 +32,5 @@
         <item name="*com.twitter.android:toolBarStyle">@*com.twitter.android:style/ToolBarStyle.Modal</item>
         <item name="*com.twitter.android:toolbarBackgroundColor">@*com.twitter.android:color/toolbar_bg_color</item>
         <item name="*com.twitter.android:toolbarForegroundColor">@*com.twitter.android:color/twitter_blue</item>
-    </style>
-
-    <!-- Gallery Theme - Disable Light NavBar -->
-    <style name="Theme.Gallery" parent="@*com.twitter.android:style/Theme.DarkBase">
-        <item name="*com.twitter.android:listRowStyle">@*com.twitter.android:style/ListRow.MediaTaggedUsers</item>
-        <item name="*com.twitter.android:textColorSecondary">@*com.twitter.android:color/white_opacity_75</item>
-        <item name="*com.twitter.android:toolBarStyle">@*com.twitter.android:style/ToolBarStyle.Circled</item>
-        <item name="android:windowLightNavigationBar">false</item>
-        <item name="android:navigationBarDividerColor">#00000000</item>
     </style>
 </resources>
