@@ -36,6 +36,8 @@
         <include layout="@*com.google.android.calendar:layout/speed_dial_frame" />
 
         <include layout="@*com.google.android.calendar:layout/bottom_sheet_frame" />
+
+        <include layout="@*com.google.android.calendar:layout/uss_ribbon" />
     </FrameLayout>
 
     <FrameLayout

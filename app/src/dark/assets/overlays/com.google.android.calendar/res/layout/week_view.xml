@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:fillViewport="true">
 
-            <com.google.android.calendar.timely.gridviews.AllDayHeaderView android:id="@*com.google.android.calendar:id/week_all_day_content"
+            <com.google.android.calendar.timely.gridviews.allday.AllDayHeaderView android:id="@*com.google.android.calendar:id/week_all_day_content"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 custom:count_days="7" />
