@@ -8,5 +8,5 @@
             <TextView android:textAppearance="@*com.android.settings:style/TextAppearance.Small" android:textColor="?android:textColorSecondary" android:id="@*android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
-    <include layout="@*com.android.settings:layout/horizontal_divider" />
+    <View android:id="@*com.android.settings:id/divider" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="0.75dip"/>
 </LinearLayout>
