@@ -12,5 +12,6 @@
         <item name="*com.pushbullet.android:colorButtonNormal">@*com.pushbullet.android:color/midgreen</item>
 
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarDividerColor">#33000000</item>
     </style>
 </resources>
