@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="*android:listDivider">@*com.android.settings:drawable/preference_list_divider_material</item>
+        <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
+</resources>
