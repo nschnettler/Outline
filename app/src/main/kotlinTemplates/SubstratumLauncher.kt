@@ -102,8 +102,6 @@ class SubstratumLauncher : Activity() {
                     .enableGooglePlayLicensing(BuildConfig.BASE_64_LICENSE_KEY)
                     .enableSigningCertificate(BuildConfig.APK_SIGNATURE_PRODUCTION)
                     .enableInstallerId(InstallerID.GOOGLE_PLAY)
-                    .enableUnauthorizedAppsCheck(true)
-                    .enableStoresCheck(true)
                     .enableDebugCheck(!BuildConfig.DEBUG)
 
             piracyChecker!!.callback(object : PiracyCheckerCallback() {
