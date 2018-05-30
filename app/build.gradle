@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 27
-        versionCode 27026
-        versionName "Oreo - 17"
+        versionCode 27028
+        versionName "Oreo - 17.0.1"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
