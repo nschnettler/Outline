@@ -4,7 +4,7 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-        android:strokeColor="?android:colorControlNormal"
+        android:strokeColor="@*com.google.android.music:color/secondary_text_default_material_light"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
@@ -12,7 +12,7 @@
   0-.794.161-1.081.448-.287.287-.448.676-.448 1.082V7.5" />
 
     <path
-        android:strokeColor="?android:colorControlNormal"
+        android:strokeColor="@*com.google.android.music:color/secondary_text_default_material_light"
         android:strokeWidth="1.5"
         android:strokeAlpha="0.5"
         android:strokeLineCap="round"
