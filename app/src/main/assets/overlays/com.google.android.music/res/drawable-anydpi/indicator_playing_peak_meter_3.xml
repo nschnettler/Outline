@@ -1,10 +1,12 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="7dp"
-        android:height="24dp"
-        android:viewportWidth="7"
-        android:viewportHeight="24.0">
+    android:width="7dp"
+    android:height="24dp"
+    android:viewportWidth="7"
+    android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*com.google.android.music:color/side_drawer_icon_color"
-        android:strokeWidth="0.8"
+        android:strokeColor="@*com.google.android.music:color/secondary_text_default_material_light"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
         android:pathData="M3.5,24v-7"/>
 </vector>
