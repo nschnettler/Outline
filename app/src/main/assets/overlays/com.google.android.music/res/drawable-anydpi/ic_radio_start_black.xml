@@ -4,8 +4,14 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-        android:strokeColor="?android:colorControlNormal"
-        android:strokeWidth="0.8"
-        android:pathData="M20,21.5H4c-1.1,0-2-0.9-2-2v-12c0-1.1,0.9-2,2-2h16c1.1,0,2,0.9,2,2v12C22,20.6,21.1,21.5,20,21.5z M6.8,14.6
-	c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S7.9,14.6,6.8,14.6z M2,9.5h20 M3.2,5.7L16,1.5"/>
+        android:strokeColor="@*com.google.android.music:color/secondary_text_default_material_light"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M21 8.767c0-.53-.211-1.039-.586-1.414S19.53 6.767 19 6.767H5c-.53
+  0-1.039.211-1.414.586S3 8.237 3 8.767v10.211c0 .53.211 1.039.586 1.414s.884.586
+  1.414.586h14c.53 0 1.039-.211 1.414-.586s.586-.884.586-1.414V8.767zM15.44
+  2.173L4.531 6.767 M5.368 16.714c0-1.045.849-1.894 1.895-1.894s1.895.849
+  1.895 1.894c0 1.046-.849 1.895-1.895 1.895s-1.895-.849-1.895-1.895zM3
+  11.741h18M16.737 11.741V10.32" />
 </vector>
