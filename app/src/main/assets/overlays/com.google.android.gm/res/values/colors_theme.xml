@@ -7,4 +7,7 @@
     <!-- Action Mode -->
     <color name="action_mode_background">#FFFFFF</color>
     <color name="action_mode_statusbar_color">#FFFFFF</color>
+
+    <!-- Text Color -->
+    <color name="action_bar_tablet_title_color">#de000000</color>
 </resources>
