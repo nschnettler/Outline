@@ -30,7 +30,6 @@
     <color name="list_item_sub_title">#b3FFFFFF</color>                                             <!-- Chat List: Message, Date -->
     <color name="list_item_info">#FFFFFF</color>
     <color name="body_gray">#FFFFFF</color>
-    <color name="conversation_row_date">#FFFFFF</color>
     <color name="black">#FFFFFF</color>
     <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_light">#4dffffff</color>
