@@ -5,9 +5,10 @@
     android:viewportHeight="24.0">
     <path
         android:strokeColor="@*com.whatsapp:color/material_grey_600"
-        android:strokeWidth="0.8"
+        android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M13.5 8.7h1m-4 3.8h-1m-3 0h-1m0-3.8h1m9.3 7.6H8.2m6.3-3.8h-1m4-3.8h1m0 3.8h-1m-8-3.8h1
-  M22 17V7c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2z"/>
+        android:pathData="M21.5 7.5c0-1.105-.895-2-2-2h-15c-1.105 0-2 .895-2 2v9c0 1.105.895
+  2 2 2h15c1.105 0 2-.895 2-2v-9zM8.5 16h7M13.5 9h1M17.5 9h1M13.5 12h1M17.5
+  12h1M9.5 12h1M9.5 9h1M5.5 9h1M5.5 12h1" />
 </vector>
