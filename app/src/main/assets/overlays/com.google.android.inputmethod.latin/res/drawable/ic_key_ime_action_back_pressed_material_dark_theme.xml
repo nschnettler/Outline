@@ -4,10 +4,10 @@
     android:tint="@*android:color/accent_material_light">
     <corners android:radius="19.0dip" />
     <size
-        android:height="38.0dip"
-        android:width="38.0dip" />
-    <solid android:color="#E6FFFFFF" />
+        android:height="36dp"
+        android:width="36dp" />
+    <solid android:color="#CCFFFFFF" />
     <stroke
-        android:width="1dip"
+        android:width="1.8dip"
         android:color="#FFFFFF" />
 </shape>
