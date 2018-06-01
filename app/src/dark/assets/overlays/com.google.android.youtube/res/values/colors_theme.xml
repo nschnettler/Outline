@@ -48,17 +48,9 @@
         <color name="background_secondary_light">@*android:color/background_floating_material_dark</color>      <!-- Change Account Dialog Bg -->
         <!-- Comment -->
         <color name="comments_background">@*android:color/background_material_dark</color>                      <!-- Comment enter Background -->
-        <!-- Upload -->
-        <color name="upload_activity_privacy_popup_nonselected_color">@*android:color/background_material_dark</color>  <!-- Upload Privacy Spinner | normal-->
-        <color name="upload_activity_privacy_popup_selected_color">@*android:color/background_dark</color>              <!-- Upload Privacy Spinner | selected-->
         <!-- Cast to TV -->
         <color name="mdx_header_background_error">@android:color/holo_red_light</color>                                 <!-- Header Normal -->
         <color name="mdx_header_background_normal">@*android:color/background_material_dark</color>                     <!-- Header Error -->
-        <!-- Share Panel -->
-        <color name="share_panel_background_color">@*android:color/background_material_dark</color>                     <!-- Loading Background -->
-        <color name="share_panel_list_background_color">@*android:color/background_material_dark</color>                <!-- Share Panel Main Background -->
-        <!-- Ad -->
-        <color name="companion_background_color_dark">@*android:color/background_dark</color>
         <!-- Various -->
         <color name="yt_background_1_light">@*android:color/background_material_dark</color>
         <!-- Live Chat -->
