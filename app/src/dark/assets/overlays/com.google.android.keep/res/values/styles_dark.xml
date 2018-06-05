@@ -5,6 +5,15 @@
         <item name="*com.google.android.keep:colorControlNormal">#FFFFFF</item>
     </style>
 
+   <style name="DrawerItemIconStyle">
+       <item name="android:gravity">center</item>
+       <item name="android:layout_gravity">center</item>
+       <item name="android:layout_width">@*com.google.android.keep:dimen/drawer_item_icon_size</item>
+       <item name="android:layout_height">@*com.google.android.keep:dimen/drawer_item_icon_size</item>
+       <item name="android:scaleType">center</item>
+       <item name="android:alpha">1</item>
+   </style>
+
     <style name="KeepPhotoViewerTheme" parent="@*com.google.android.keep:style/Theme.AppCompat.Light">
         <item name="android:windowBackground">@*com.google.android.keep:color/default_background_color</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
