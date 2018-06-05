@@ -4,6 +4,7 @@
     <color name="yt_status_bar_background_dark">@*android:color/primary_material_dark</color>
     <color name="navigation_bar_background_dark">@*android:color/background_material_dark</color>
     <color name="navigation_bar_divider_dark">@*android:color/background_dark</color>
+    <color name="navigation_bar_divider_light">@*android:color/background_dark</color>
 
     <!-- Background -->
     <color name="yt_background_1_dark">@*android:color/background_material_dark</color>             <!-- Main -->
