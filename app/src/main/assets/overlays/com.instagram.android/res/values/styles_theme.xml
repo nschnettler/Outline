@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Bottom Bar Selector -->
-    <style name="TabBarButton">
-        <item name="*com.instagram.android:active">@android:color/holo_blue_light</item>
-        <item name="*com.instagram.android:normal">#757575</item>
-    </style>
-</resources>
