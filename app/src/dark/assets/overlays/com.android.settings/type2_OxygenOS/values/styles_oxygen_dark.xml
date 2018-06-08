@@ -2,6 +2,6 @@
 <resources>
     <style name="Oneplus.Theme.Material" parent="@*com.android.settings:style/OneplusThemeBase">
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-        <item name="onePlusActionbarLineColor">@android:color/background_dark</item>
+        <item name="*com.android.settings:onePlusActionbarLineColor">@android:color/background_dark</item>
     </style>
 </resources>
