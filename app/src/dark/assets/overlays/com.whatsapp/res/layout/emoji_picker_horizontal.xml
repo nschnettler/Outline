@@ -50,6 +50,14 @@
                 android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
+
+            <View
+                android:id="@*com.whatsapp:id/fallback_divider"
+                android:background="@*android:color/background_dark"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:alpha="0.1" />
         </FrameLayout>
     </LinearLayout>
 

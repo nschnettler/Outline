@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
     android:id="@*com.whatsapp:id/emoji_group_layout"
-    android:background="@*com.whatsapp:color/emoji_popup_header"
+    android:background="@*com.whatsapp:color/emoji_popup_body"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -196,9 +196,4 @@
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
         </FrameLayout>
     </LinearLayout>
-
-    <View
-        android:background="@android:color/background_dark"
-        android:layout_width="fill_parent"
-        android:layout_height="1.0dip" />
 </LinearLayout>
