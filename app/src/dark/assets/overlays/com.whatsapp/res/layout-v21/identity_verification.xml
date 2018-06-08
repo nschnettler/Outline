@@ -65,7 +65,7 @@
                         android:padding="48.0dip"
                         android:layout_width="220.0dip"
                         android:layout_height="220.0dip"
-                        class="com.whatsapp.coreui.QrImageView" />
+                        class="com.whatsapp.QrImageView" />
 
                     <ImageView
                         android:layout_gravity="center_horizontal"
