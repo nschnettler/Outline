@@ -6,10 +6,6 @@
     <color name="snack_bar_action_text_color">@android:color/holo_red_light</color>
     <color name="snooze_orange">@android:color/holo_red_light</color>
 
-    <!-- Mail Actions -->
-    <color name="quantum_deeporange500">@android:color/holo_red_light</color>                       <!-- Delete -->
-    <color name="quantum_googgreen700">@android:color/holo_green_light</color>                      <!-- Achieve -->
-
     <!-- Other -->
     <color name="blue">@android:color/holo_red_light</color>
     <color name="quantum_googblue500">@android:color/holo_red_light</color>
@@ -20,4 +16,11 @@
     <color name="swipe_refresh_color2">@android:color/holo_red_light</color>
     <color name="swipe_refresh_color3">@android:color/holo_red_light</color>
     <color name="swipe_refresh_color4">@android:color/holo_red_light</color>
+
+    <!-- Swipe Actions -->
+    <color name="swipe_bg_archive">@android:color/holo_green_light</color>
+    <color name="swipe_bg_delete">@android:color/holo_red_light</color>
+    <color name="swipe_bg_mark_as_read_or_unread">@android:color/holo_blue_light</color>
+    <color name="swipe_bg_moveTo">@android:color/holo_blue_light</color>
+    <color name="swipe_bg_snooze">@android:color/holo_orange_light</color>
 </resources>
