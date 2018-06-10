@@ -23,4 +23,17 @@
         <item name="*com.google.android.apps.plus:colorPrimary">#FFFFFF</item>
         <item name="*com.google.android.apps.plus:colorPrimaryDark">#FFFFFF</item>
     </style>
+
+    <!-- Community ActionBar -->
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*com.google.android.apps.plus:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">?android:textColorPrimaryInverse</item>
+        <item name="*com.google.android.apps.plus:actionMenuTextColor">?android:textColorPrimaryInverse</item>
+        <item name="*com.google.android.apps.plus:actionOverflowButtonStyle">@*com.google.android.apps.plus:style/Theme.Arkham.ActionBar.BlackOverflow</item>
+    </style>
+    <!-- ActionBar Text -->
+    <style name="Theme.Arkham.ActionBar.Text" parent="@*com.google.android.apps.plus:style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_20</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="android:textColorPrimary">#de000000</item>
+    </style>
 </resources>
