@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="ali_red">@android:color/holo_red_light</color>
+    <color name="RedA400">@android:color/holo_red_light</color>                                     <!-- Workaround - Dark Theme -->
+
+    <!-- Up/Down Vote -->
+    <color name="reddit_upvote">@android:color/holo_orange_light</color>
+    <color name="reddit_downvote">@android:color/holo_blue_light</color>
+
+    <!-- Posts -->
+    <color name="sticky_color">@android:color/holo_green_light</color>                              <!-- Light - Sticky -->
+    <color name="ali_blue">@android:color/holo_blue_light</color>                                   <!-- Light - Link -->
+    <color name="twitter_green">@android:color/holo_green_light</color>                             <!-- Dark - Sticky -->
+    <color name="LightBlue300">@android:color/holo_blue_light</color>                               <!-- Dark - Link -->
+</resources>
