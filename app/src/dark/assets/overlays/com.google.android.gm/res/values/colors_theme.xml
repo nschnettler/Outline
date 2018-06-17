@@ -23,6 +23,7 @@
     <color name="glif_button_disabled_color">@*android:color/background_dark</color>                            <!-- Account Setup - Disabled Button -->
     <color name="spam_warning_background_color">@*android:color/background_material_dark</color>                <!-- Spam Warning Card -->
     <color name="snooze_dialog_background">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color>
 
 
     <!-- Text -->
