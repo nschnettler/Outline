@@ -3,5 +3,4 @@
     <!-- Background -->
     <color name="background_primary">#FFFFFF</color>
     <color name="navigation_drawer_background_color">#FFFFFF</color>
-    <color name="empty_state_background">#FFFFFF</color>
 </resources>
