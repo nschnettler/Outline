@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@*com.google.android.contacts:id/search_box_expanded"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:backgroundTint="?android:colorBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:id="@*com.google.android.contacts:id/search_back_button"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:layout_width="@*com.google.android.contacts:dimen/search_box_icon_size"
+        android:layout_height="@*com.google.android.contacts:dimen/search_box_icon_size"
+        android:src="@*com.google.android.contacts:drawable/quantum_ic_arrow_back_vd_theme_24"
+        android:tint="?android:colorControlNormal"
+        android:contentDescription="@*com.google.android.contacts:string/back_arrow_content_description"
+        android:layout_marginEnd="@*com.google.android.contacts:dimen/search_box_navigation_icon_margin" />
+
+    <android.widget.AutoCompleteTextView
+        android:textSize="@*com.google.android.contacts:dimen/search_text_size"
+        android:textColor="?android:textColorPrimary"
+        android:id="@*com.google.android.contacts:id/search_view"
+        android:background="@null"
+        android:layout_width="0.0dip"
+        android:layout_height="@*com.google.android.contacts:dimen/search_box_icon_size"
+        android:layout_marginLeft="@*com.google.android.contacts:dimen/search_box_text_left_margin"
+        android:singleLine="true"
+        android:layout_weight="1.0"
+        android:inputType="textFilter"
+        android:imeOptions="flagNoExtractUi"
+        android:textCursorDrawable="@*com.google.android.contacts:drawable/searchedittext_custom_cursor"
+        android:fontFamily="@*com.google.android.contacts:string/search_font_family" />
+
+    <ImageView
+        android:id="@*com.google.android.contacts:id/search_close_button"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="@*com.google.android.contacts:dimen/search_box_close_icon_padding"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@*com.google.android.contacts:dimen/search_box_close_icon_size"
+        android:layout_height="@*com.google.android.contacts:dimen/search_box_close_icon_size"
+        android:src="@*com.google.android.contacts:drawable/quantum_ic_close_vd_theme_24"
+        android:tint="?android:textColorSecondary"
+        android:contentDescription="@*com.google.android.contacts:string/description_clear_search" />
+</LinearLayout>
