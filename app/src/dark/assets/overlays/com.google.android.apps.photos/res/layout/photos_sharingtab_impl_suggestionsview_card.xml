@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView android:layout_width="fill_parent"
+<android.support.design.card.MaterialCardView android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     card_view:cardBackgroundColor="@*android:color/background_material_dark"
     card_view:cardCornerRadius="2.0dip"
@@ -152,4 +152,4 @@
             </FrameLayout>
         </LinearLayout>
     </LinearLayout>
-</android.support.v7.widget.CardView>
+</android.support.design.card.MaterialCardView>

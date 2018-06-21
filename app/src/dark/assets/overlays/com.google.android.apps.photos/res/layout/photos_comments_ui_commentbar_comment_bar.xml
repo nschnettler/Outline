@@ -79,7 +79,7 @@
                 android:layout_gravity="center"
                 android:layout_width="24.0dip"
                 android:layout_height="24.0dip"
-                android:src="@*com.google.android.apps.photos:drawable/quantum_ic_add_photo_alternate_grey600_24"
+                android:src="@*com.google.android.apps.photos:drawable/quantum_gm_ic_add_photo_alternate_grey600_24"
                 android:contentDescription="@*com.google.android.apps.photos:string/photos_comments_ui_commentbar_add_photos_icon_content_desc" />
         </FrameLayout>
 
@@ -114,7 +114,7 @@
                 android:layout_gravity="center"
                 android:layout_width="24.0dip"
                 android:layout_height="24.0dip"
-                android:src="@*com.google.android.apps.photos:drawable/quantum_ic_favorite_border_grey600_24"
+                android:src="@*com.google.android.apps.photos:drawable/quantum_gm_ic_favorite_border_grey600_24"
                 android:contentDescription="@null" />
         </FrameLayout>
     </LinearLayout>

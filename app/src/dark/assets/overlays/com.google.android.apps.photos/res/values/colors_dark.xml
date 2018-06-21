@@ -4,6 +4,9 @@
     <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
     <color name="primary_material_light">@*android:color/primary_material_dark</color>
 
+    <!-- Icon -->
+    <color name="secondary_text_default_material_light">#FFFFFF</color>
+
     <!-- Background -->
     <color name="quantum_white_100">@*android:color/background_material_dark</color>                                <!-- Main Bg 2 -->
     <color name="photos_photoadapteritem_photo_background">@*android:color/background_material_dark</color>         <!-- When photo Selected -->
