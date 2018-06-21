@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Color -->
+    <color name="ytm_theme_main_color_primary">@*android:color/background_material_dark</color>     <!-- Primary -->
+    <color name="ytm_theme_main_color_dark">@*android:color/background_material_dark</color>        <!-- Primary - Dark -->
+
+    <!-- Background -->
+    <color name="theme_main_window_background">@*android:color/background_material_dark</color>     <!-- Main -->
+    <color name="yt_music_background">@*android:color/background_material_dark</color>              <!-- Splash -->
+    <color name="drawer_background">@*android:color/background_material_dark</color>                <!-- Drawer -->
+    <color name="remix_player_section1_color">@*android:color/background_material_dark</color>      <!-- Mini Player -->
+    <color name="shelf_default_background_color">@*android:color/background_material_dark</color>   <!-- Shelf Gradient End -->
+    <color name="ytm_color_grey_12">@*android:color/background_material_dark</color>                <!-- Offline Mixtape -->
+    <color name="yt_black1">@*android:color/background_material_dark</color>                        <!-- Quality Bottomsheet -->
+    <color name="ytm_theme_main_color_secondary">@*android:color/background_material_dark</color>   <!-- SnackBar -->
+
+    <!-- Divider -->
+    <color name="dark_grey">@*android:color/background_dark</color>
+</resources>

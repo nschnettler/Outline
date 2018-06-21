@@ -2,18 +2,9 @@
 <resources>
     <!-- App Color -->
     <color name="yt_red">@android:color/holo_red_light</color>                                      <!-- Accent -->
-    <color name="ytm_theme_main_color_primary">@*android:color/background_material_dark</color>
-    <color name="ytm_theme_main_color_dark">@*android:color/background_material_dark</color>
+    <color name="subscribe_font_color">@android:color/holo_red_light</color>
+    <color name="ytm_color_blue_01">@android:color/holo_red_light</color>
 
-    <color name="yt_music_background">@*android:color/background_material_dark</color><!-- Splash -->
-    <color name="drawer_background">@*android:color/background_material_dark</color><!-- Drawer -->
-    <color name="theme_main_window_background">@*android:color/background_material_dark</color><!-- Main -->
-    <color name="remix_player_section1_color">@*android:color/background_material_dark</color><!-- Mini Player -->
-    <color name="shelf_default_background_color">@*android:color/background_material_dark</color><!-- Shelf Gradient End -->
-    <color name="ytm_color_grey_12">@*android:color/background_material_dark</color><!-- Offline Mixtape -->
-
-    <color name="dark_grey">@*android:color/background_dark</color><!-- Divider -->
-
-    <dimen name="action_bar_height">56dp</dimen>
-    <dimen name="watch_while_mini_player_height_short_stack">56dp</dimen>
+    <!-- Text -->
+    <color name="ytm_color_grey_08">#b3FFFFFF</color>
 </resources>
