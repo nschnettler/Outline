@@ -15,6 +15,7 @@
         <item name="android:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Overflow</item>
         <item name="android:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_arrow_back_grey600_24</item>
         <item name="android:actionModeStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionModeActionBar</item>
+        <item name="*com.google.android.apps.photos:tabBackgroundColor">@*com.google.android.apps.photos:color/quantum_grey200</item>
         <item name="*com.google.android.apps.photos:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar.Overflow</item>
         <item name="*com.google.android.apps.photos:actionBarStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionBar</item>
         <item name="*com.google.android.apps.photos:actionBarSize">@*com.google.android.apps.photos:dimen/photos_theme_actionbar_menuitem_height</item>
@@ -22,6 +23,7 @@
         <item name="*com.google.android.apps.photos:actionModeStyle">@*com.google.android.apps.photos:style/Widget.Photos.ActionModeActionBar</item>
         <item name="*com.google.android.apps.photos:actionModeCloseDrawable">@*com.google.android.apps.photos:drawable/quantum_ic_clear_white_24</item>
         <item name="*com.google.android.apps.photos:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_arrow_back_grey600_24</item>
+        <item name="*com.google.android.apps.photos:borderlessButtonStyle">@*com.google.android.apps.photos:style/Widget.Photos.Button.Borderless</item>
         <item name="*com.google.android.apps.photos:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="*com.google.android.apps.photos:colorAccent">@*com.google.android.apps.photos:color/quantum_googblue500</item>
     </style>

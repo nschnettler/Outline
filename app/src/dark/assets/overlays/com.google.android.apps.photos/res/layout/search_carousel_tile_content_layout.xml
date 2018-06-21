@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView android:layout_width="fill_parent"
+<android.support.design.card.MaterialCardView android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_marginLeft="@*com.google.android.apps.photos:dimen/photos_carousel_common_item_padding"
     android:layout_marginTop="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_top_margin_for_shadow"
@@ -52,4 +52,4 @@
             android:maxLines="2"
             android:singleLine="false" />
     </LinearLayout>
-</android.support.v7.widget.CardView>
+</android.support.design.card.MaterialCardView>
