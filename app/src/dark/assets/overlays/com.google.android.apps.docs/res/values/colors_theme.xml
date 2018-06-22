@@ -7,6 +7,7 @@
     <color name="m_search_bar_background">@*android:color/primary_material_dark</color>
 
     <!-- Icons -->
+    <color name="secondary_text_default_material_light">#FFFFFF</color>                             <!-- Custom -->
     <color name="quantum_grey600">#FFFFFF</color>                                                   <!-- Drawer -->
     <color name="m_icon_secondary_tint">#FFFFFF</color>                                             <!-- Floating Bar -->
     <color name="m_icon_primary_inverse_tint">#FFFFFF</color>                                       <!-- Toolbar -->
