@@ -4,7 +4,4 @@
     <color name="yt_red">@android:color/holo_red_light</color>                                      <!-- Accent -->
     <color name="subscribe_font_color">@android:color/holo_red_light</color>
     <color name="ytm_color_blue_01">@android:color/holo_red_light</color>
-
-    <!-- Text -->
-    <color name="ytm_color_grey_08">#b3FFFFFF</color>
 </resources>

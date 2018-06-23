@@ -8,7 +8,7 @@
         android:pivotY="12"
         android:rotation="-90">
         <path
-            android:strokeColor="#FFF"
+            android:strokeColor="?android:colorControlNormal"
             android:strokeWidth="1.5"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"

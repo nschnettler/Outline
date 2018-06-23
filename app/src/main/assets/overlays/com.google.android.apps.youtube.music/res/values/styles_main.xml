@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Settings -->
     <style name="Theme.YouTubeMusic.Settings" parent="@*com.google.android.apps.youtube.music:style/Theme.AppCompat">
         <item name="*com.google.android.apps.youtube.music:colorPrimary">@*com.google.android.apps.youtube.music:color/ytm_theme_main_color_primary</item>
         <item name="*com.google.android.apps.youtube.music:colorPrimaryDark">@*com.google.android.apps.youtube.music:color/ytm_theme_main_color_dark</item>
