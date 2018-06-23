@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/res-auto"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.libraries.youtube.player.features.overlay.timebar.TimeBar android:id="@*com.google.android.apps.youtube.music:id/time_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@*com.google.android.apps.youtube.music:dimen/item_large_spacing"
+        android:layout_marginTop="@*com.google.android.apps.youtube.music:dimen/item_medium_spacing"
+        android:layout_marginRight="@*com.google.android.apps.youtube.music:dimen/item_large_spacing"
+        android:layout_marginBottom="@*com.google.android.apps.youtube.music:dimen/item_medium_spacing"
+        android:importantForAccessibility="yes"
+        res-auto:textMargin="@*com.google.android.apps.youtube.music:dimen/item_extra_extra_small_spacing"
+        res-auto:timeBarHeight="16.0dip"
+        res-auto:timeTextColor="#FFF"
+        res-auto:scrubberMinSize="8.0dip"
+        res-auto:scrubberMaxSize="18.0dip"
+        xmlns:res-auto="http://schemas.android.com/apk/com.google.android.apps.youtube.music" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@*com.google.android.apps.youtube.music:id/controls_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@*com.google.android.apps.youtube.music:id/time_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="ltr">
+
+        <ImageView
+            android:id="@*com.google.android.apps.youtube.music:id/dislike_button"
+            android:padding="@*com.google.android.apps.youtube.music:dimen/item_medium_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*com.google.android.apps.youtube.music:drawable/dislike_drawable"
+            android:contentDescription="@*com.google.android.apps.youtube.music:string/accessibility_dislike_video"
+            style="@*com.google.android.apps.youtube.music:style/MusicPlayerButton" />
+
+        <com.google.android.libraries.youtube.common.ui.TouchImageView
+            android:layout_gravity="center_vertical"
+            android:id="@*com.google.android.apps.youtube.music:id/player_control_previous_button"
+            android:padding="@*com.google.android.apps.youtube.music:dimen/item_medium_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@*com.google.android.apps.youtube.music:dimen/remix_controls_spacing"
+            android:layout_marginRight="@*com.google.android.apps.youtube.music:dimen/remix_controls_spacing"
+            android:src="@*com.google.android.apps.youtube.music:drawable/music_player_prev"
+            android:scaleType="center"
+            android:contentDescription="@*com.google.android.apps.youtube.music:string/accessibility_previous"
+            style="@*com.google.android.apps.youtube.music:style/MusicPlayerButton" />
+
+        <com.google.android.libraries.youtube.common.ui.TouchImageView
+            android:layout_gravity="center_vertical"
+            android:id="@*com.google.android.apps.youtube.music:id/player_control_play_pause_replay_button"
+            android:background="@*com.google.android.apps.youtube.music:drawable/ripple"
+            android:layout_width="@*com.google.android.apps.youtube.music:dimen/remix_overlay_play_button_size"
+            android:layout_height="@*com.google.android.apps.youtube.music:dimen/remix_overlay_play_button_size"
+            android:contentDescription="@*com.google.android.apps.youtube.music:string/accessibility_play" />
+
+        <com.google.android.libraries.youtube.common.ui.TouchImageView
+            android:layout_gravity="center_vertical"
+            android:id="@*com.google.android.apps.youtube.music:id/player_control_next_button"
+            android:padding="@*com.google.android.apps.youtube.music:dimen/item_medium_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@*com.google.android.apps.youtube.music:dimen/remix_controls_spacing"
+            android:layout_marginRight="@*com.google.android.apps.youtube.music:dimen/remix_controls_spacing"
+            android:src="@*com.google.android.apps.youtube.music:drawable/music_player_next"
+            android:scaleType="center"
+            android:contentDescription="@*com.google.android.apps.youtube.music:string/accessibility_next"
+            style="@*com.google.android.apps.youtube.music:style/MusicPlayerButton" />
+
+        <ImageView
+            android:id="@*com.google.android.apps.youtube.music:id/like_button"
+            android:padding="@*com.google.android.apps.youtube.music:dimen/item_medium_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*com.google.android.apps.youtube.music:drawable/like_drawable"
+            android:contentDescription="@*com.google.android.apps.youtube.music:string/accessibility_like_video"
+            style="@*com.google.android.apps.youtube.music:style/MusicPlayerButton" />
+    </LinearLayout>
+</RelativeLayout>
