@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.music.player.PlayerPanel android:id="@*com.google.android.apps.youtube.music:id/player_panel"
+    android:background="#ff000000"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    _xmlns:yt="http://schemas.android.com/apk/res-auto"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.apps.youtube.music.player.MusicPlayerView
+        android:id="@*com.google.android.apps.youtube.music:id/watch_player"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip" />
+
+    <RelativeLayout
+        android:id="@*com.google.android.apps.youtube.music:id/player_panel_metadata"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip">
+
+        <ImageView
+            android:id="@*com.google.android.apps.youtube.music:id/mini_player_close_button"
+            android:visibility="gone"
+            android:layout_width="@*com.google.android.apps.youtube.music:dimen/remix_generic_button_size"
+            android:layout_height="@*com.google.android.apps.youtube.music:dimen/remix_generic_button_size"
+            android:src="@*com.google.android.apps.youtube.music:drawable/quantum_ic_close_white_24"
+            android:scaleType="centerInside"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@*com.google.android.apps.youtube.music:string/accessibility_close"
+            android:layout_alignParentEnd="true"
+            style="@*com.google.android.apps.youtube.music:style/MusicPlayerButton" />
+
+        <ImageView
+            android:id="@*com.google.android.apps.youtube.music:id/play_pause_replay_button"
+            android:padding="@*com.google.android.apps.youtube.music:dimen/item_medium_spacing"
+            android:visibility="invisible"
+            android:layout_width="@*com.google.android.apps.youtube.music:dimen/remix_generic_button_size"
+            android:layout_height="@*com.google.android.apps.youtube.music:dimen/remix_generic_button_size"
+            android:layout_toLeftOf="@*com.google.android.apps.youtube.music:id/mini_player_close_button"
+            android:layout_centerVertical="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:contentDescription="@*com.google.android.apps.youtube.music:string/accessibility_play"
+            android:layout_toStartOf="@*com.google.android.apps.youtube.music:id/mini_player_close_button"
+            android:tint="?android:colorControlNormal"
+            style="@*com.google.android.apps.youtube.music:style/MusicPlayerButton" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="@*com.google.android.apps.youtube.music:dimen/item_large_spacing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@*com.google.android.apps.youtube.music:id/play_pause_replay_button"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingStart="@*com.google.android.apps.youtube.music:dimen/item_large_spacing"
+            android:layout_toStartOf="@*com.google.android.apps.youtube.music:id/play_pause_replay_button"
+            android:layout_alignParentStart="true">
+
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.apps.youtube.music:dimen/small_font_size"
+                android:textColor="#de000000"
+                android:id="@*com.google.android.apps.youtube.music:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                res-auto:robotoFont="regular"
+                xmlns:res-auto="http://schemas.android.com/apk/com.google.android.apps.youtube.music" />
+
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@*com.google.android.apps.youtube.music:dimen/extra_small_font_size"
+                android:textColor="#80000000"
+                android:id="@*com.google.android.apps.youtube.music:id/artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                res-auto:robotoFont="regular"
+                xmlns:res-auto="http://schemas.android.com/apk/com.google.android.apps.youtube.music" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.apps.youtube.music.player.PlayerPanel>
