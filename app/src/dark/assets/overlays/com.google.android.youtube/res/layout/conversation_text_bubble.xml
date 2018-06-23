@@ -46,7 +46,7 @@
             android:layout_marginRight="4.0dip"
             android:layout_marginBottom="2.0dip"
             android:src="@*com.google.android.youtube:drawable/ic_heart_full"
-            android:contentDescription="@*com.google.android.youtube:string/accessibility_heart_icon_empty"
+            android:contentDescription="@*com.google.android.youtube:string/accessibility_facepile_hearts"
             android:layout_marginEnd="4.0dip" />
 
         <com.google.android.libraries.youtube.conversation.ui.FacePileView
