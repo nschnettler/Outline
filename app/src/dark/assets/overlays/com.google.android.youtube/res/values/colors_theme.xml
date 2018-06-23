@@ -83,7 +83,6 @@
         <color name="live_chat_input_text_color">#FFFFFF</color>
         <color name="live_chat_input_text_color_hint">#b3FFFFFF</color>
         <color name="live_chat_light_metadata_subtitle">#b3FFFFFF</color>
-        <color name="live_chat_light_overlay_author_name">#FFFFFF</color>
         <color name="live_chat_button_subtext_light_color">#FFFFFF</color>
         <!-- PlayList Video Item -->
         <color name="video_item_dark_font">#FFFFFF</color>                                          <!-- Video Title -->
@@ -120,7 +119,6 @@
     <color name="av_host_fragment_background">@*android:color/background_floating_material_dark</color>
     <color name="av_intro_screen_background">@*android:color/background_material_dark</color>
     <color name="image_filter_list_item_label_background_color">@*android:color/button_material_dark</color>
-    <color name="live_chat_light_overlay_background">@*android:color/background_material_dark</color>
     <color name="black">@*android:color/background_material_dark</color>
     <color name="av_button_ripple_color">#4fffffff</color>
     <color name="ripple_material_light">#33ffffff</color>
