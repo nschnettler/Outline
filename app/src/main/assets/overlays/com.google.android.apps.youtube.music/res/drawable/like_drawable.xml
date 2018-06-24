@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@*com.google.android.apps.youtube.music:drawable/quantum_ic_thumb_up_white_24" />
+    <item android:state_enabled="true" android:drawable="@*com.google.android.apps.youtube.music:drawable/thumb_up_outline" />
+    <item android:state_enabled="false" android:drawable="@*com.google.android.apps.youtube.music:drawable/ic_thumb_up_outline_white" android:alpha="0.6" />
+</selector>

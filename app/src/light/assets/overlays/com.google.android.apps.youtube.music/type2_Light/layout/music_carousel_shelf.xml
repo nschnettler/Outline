@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    _xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:_xmlns="xmlns"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@*com.google.android.apps.youtube.music:id/header_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_gravity="bottom"
+        android:id="@*com.google.android.apps.youtube.music:id/carousel_content"
+        android:paddingLeft="@*com.google.android.apps.youtube.music:dimen/item_small_spacing"
+        android:paddingTop="@*com.google.android.apps.youtube.music:dimen/carousel_top_padding"
+        android:paddingRight="@*com.google.android.apps.youtube.music:dimen/item_small_spacing"
+        android:paddingBottom="@*com.google.android.apps.youtube.music:dimen/carousel_bottom_padding"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"/>
+</LinearLayout>
