@@ -190,19 +190,28 @@
                             android:scaleType="center"
                             android:contentDescription="@*com.whatsapp:string/send_button" />
 
-                        <ImageButton
+                        <FrameLayout
                             android:layout_gravity="center"
                             android:id="@*com.whatsapp:id/voice_note_btn"
                             android:background="@android:color/transparent"
                             android:visibility="gone"
                             android:layout_width="47.0dip"
                             android:layout_height="47.0dip"
-                            android:src="@*com.whatsapp:drawable/input_mic_white"
-                            android:scaleType="center"
-                            android:contentDescription="@*com.whatsapp:string/voice_note_button" />
+                            android:contentDescription="@*com.whatsapp:string/voice_note_button">
+
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:id="@*com.whatsapp:id/voice_note_mic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@*com.whatsapp:drawable/input_mic_white"
+                                android:scaleType="center"
+                                android:contentDescription="@*com.whatsapp:string/voice_note_button" />
+                        </FrameLayout>
                     </FrameLayout>
                 </FrameLayout>
             </RelativeLayout>
+
             <com.whatsapp.gif_search.GifSearchContainer
                 android:id="@*com.whatsapp:id/gif_search_container"
                 android:visibility="gone"
