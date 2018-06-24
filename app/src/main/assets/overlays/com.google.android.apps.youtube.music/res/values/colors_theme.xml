@@ -2,4 +2,7 @@
 <resources>
     <!-- Text -->
     <color name="ytm_color_grey_08">#b3FFFFFF</color>
+
+    <!-- Icons -->
+    <color name="ytm_color_control_normal">#FFF</color>                                             <!-- ColorControlNormal -->
 </resources>
