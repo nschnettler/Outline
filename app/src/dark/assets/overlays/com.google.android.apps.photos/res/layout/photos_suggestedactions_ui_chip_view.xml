@@ -5,7 +5,6 @@
     android:id="@*com.google.android.apps.photos:id/photobar_suggestion_chip"
     android:background="@*com.google.android.apps.photos:drawable/photos_suggestedactions_ui_chip_background"
     android:visibility="gone"
-    android:backgroundTint="@*android:color/background_material_dark"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -15,8 +14,9 @@
         android:layout_width="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:scaleType="center"
-         android:contentDescription="@null"
-        android:importantForAccessibility="no" />
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        android:tint="#de000000"/>
 
     <TextView
         android:textColor="#FFFFFF"
@@ -34,5 +34,6 @@
         android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:src="@*com.google.android.apps.photos:drawable/quantum_ic_cancel_white_18"
         android:scaleType="center"
-        android:contentDescription="@*com.google.android.apps.photos:string/photos_suggestedactions_ui_dismiss_button_description" />
+        android:contentDescription="@*com.google.android.apps.photos:string/photos_suggestedactions_ui_dismiss_button_description"
+        android:tint="#de000000"/>
 </LinearLayout>
