@@ -2,11 +2,6 @@
 <resources>
     <!-- ToolBar Text, Icons -->
     <style name="ActionBarTheme" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
-        <item name="android:textColorHighlight">@*com.android.documentsui:color/text_highlight</item>
-        <item name="android:textSelectHandleLeft">@*com.android.documentsui:drawable/text_select_handle_left</item>
-        <item name="android:textSelectHandleRight">@*com.android.documentsui:drawable/text_select_handle_right</item>
-        <item name="android:textSelectHandle">@*com.android.documentsui:drawable/text_select_handle_middle</item>
-        <item name="android:textCursorDrawable">@*com.android.documentsui:drawable/text_cursor</item>
         <item name="android:textColorPrimary">#de000000</item>
         <item name="android:colorControlNormal">#de000000</item>
         <item name="android:textColorHint">#80000000</item>

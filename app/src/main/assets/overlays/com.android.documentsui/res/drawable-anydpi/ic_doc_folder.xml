@@ -4,7 +4,7 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-         android:strokeColor="@*com.android.documentsui:color/root_icon_color"
+        android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
