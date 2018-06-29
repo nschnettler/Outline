@@ -34,6 +34,7 @@
             android:layout_marginEnd="24.0dip" />
 
         <EditText
+            android:textAppearance="@*com.google.android.apps.photos:style/TextAppearance.Photos.Body1"
             android:layout_gravity="center"
             android:id="@*com.google.android.apps.photos:id/comment_edit_text"
             android:background="@*com.google.android.apps.photos:color/transparent_bg"
@@ -47,10 +48,10 @@
             android:layout_weight="1.0"
             android:inputType="textAutoCorrect|textCapSentences"
             android:imeOptions="flagNoExtractUi"
-            android:paddingEnd="16.0dip"
-            style="@*com.google.android.apps.photos:style/quantum_text_subhead_black" />
+            android:paddingEnd="16.0dip" />
 
         <TextView
+            android:textAppearance="@*com.google.android.apps.photos:style/TextAppearance.Photos.Body1"
             android:layout_gravity="center"
             android:id="@*com.google.android.apps.photos:id/comment_text_view"
             android:background="@*com.google.android.apps.photos:color/transparent_bg"
@@ -62,8 +63,7 @@
             android:layout_height="wrap_content"
             android:hint="@null"
             android:layout_weight="1.0"
-            android:paddingEnd="16.0dip"
-            style="@*com.google.android.apps.photos:style/quantum_text_subhead_black" />
+            android:paddingEnd="16.0dip" />
 
         <FrameLayout
             android:layout_gravity="center"

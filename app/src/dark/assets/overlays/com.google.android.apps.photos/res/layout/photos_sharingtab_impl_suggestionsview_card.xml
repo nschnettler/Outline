@@ -60,6 +60,7 @@
         </com.google.android.libraries.material.aspectratio.FixedAspectRatioFrameLayout>
 
         <TextView
+            android:textAppearance="@*com.google.android.apps.photos:style/TextAppearance.Photos.Body1"
             android:id="@*com.google.android.apps.photos:id/description_text"
             android:paddingLeft="@*com.google.android.apps.photos:dimen/photos_sharingtab_impl_suggestionsview_card_text_horizontal_padding"
             android:paddingRight="@*com.google.android.apps.photos:dimen/photos_sharingtab_impl_suggestionsview_card_text_horizontal_padding"
@@ -68,8 +69,7 @@
             android:layout_marginTop="@*com.google.android.apps.photos:dimen/photos_sharingtab_impl_suggestionsview_card_text_top_margin"
             android:layout_marginBottom="@*com.google.android.apps.photos:dimen/photos_sharingtab_impl_suggestionsview_card_text_bottom_margin"
             android:paddingStart="@*com.google.android.apps.photos:dimen/photos_sharingtab_impl_suggestionsview_card_text_horizontal_padding"
-            android:paddingEnd="@*com.google.android.apps.photos:dimen/photos_sharingtab_impl_suggestionsview_card_text_horizontal_padding"
-            style="@*com.google.android.apps.photos:style/quantum_text_subhead_black" />
+            android:paddingEnd="@*com.google.android.apps.photos:dimen/photos_sharingtab_impl_suggestionsview_card_text_horizontal_padding" />
 
         <LinearLayout
             android:orientation="horizontal"

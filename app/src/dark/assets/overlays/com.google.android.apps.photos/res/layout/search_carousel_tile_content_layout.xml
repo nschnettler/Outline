@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.card.MaterialCardView android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_marginLeft="@*com.google.android.apps.photos:dimen/photos_carousel_common_item_padding"
     android:layout_marginTop="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_top_margin_for_shadow"
-    android:layout_marginRight="@*com.google.android.apps.photos:dimen/photos_carousel_common_item_padding"
     android:layout_marginBottom="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_bottom_padding"
+    android:layout_marginStart="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_start_margin"
+    android:layout_marginEnd="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_end_margin"
+    card_view:strokeWidth="0.0dip"
     card_view:cardBackgroundColor="@*android:color/background_material_dark"
     card_view:cardCornerRadius="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_corner_radius"
     card_view:cardElevation="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_elevation"
@@ -19,10 +20,9 @@
         <FrameLayout
             android:layout_gravity="center"
             android:id="@*com.google.android.apps.photos:id/carousel_image_container"
-            android:layout_width="fill_parent"
-            android:layout_height="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_image_height">
+            style="@*com.google.android.apps.photos:style/Photos.Search.Carousel.Card">
 
-            <ImageView
+            <com.google.android.apps.photos.view.RoundedCornerImageView
                 android:id="@*com.google.android.apps.photos:id/carousel_image"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -38,18 +38,17 @@
         </FrameLayout>
 
         <TextView
-            android:textSize="11.0sp"
-            android:textColor="@*com.google.android.apps.photos:color/text_black_87_percent"
             android:ellipsize="end"
             android:id="@*com.google.android.apps.photos:id/carousel_title"
-            android:paddingLeft="8.0dip"
-            android:paddingTop="4.0dip"
-            android:paddingRight="8.0dip"
+            android:paddingLeft="@*com.google.android.apps.photos:dimen/photos_search_carousel_text_side_padding"
+            android:paddingTop="@*com.google.android.apps.photos:dimen/photos_search_carousel_text_top_padding"
+            android:paddingRight="@*com.google.android.apps.photos:dimen/photos_search_carousel_text_side_padding"
             android:paddingBottom="2.0dip"
             android:layout_width="wrap_content"
             android:layout_height="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_text_height"
             android:minHeight="24.0dip"
             android:maxLines="2"
-            android:singleLine="false" />
+            android:singleLine="false"
+            style="@*com.google.android.apps.photos:style/Photos.Search.Carousel.AlbumTitleText" />
     </LinearLayout>
 </android.support.design.card.MaterialCardView>
