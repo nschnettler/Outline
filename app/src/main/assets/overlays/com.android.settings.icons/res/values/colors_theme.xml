@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Icon Color -->
-  <color name="icon_accent">#80000000</color>
+    <color name="icon_accent">#80000000</color>
+    <color name="external_tile_icon_tint_color">?android:colorControlNormal</color>
 </resources>
