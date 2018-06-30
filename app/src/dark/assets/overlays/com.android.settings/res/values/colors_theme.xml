@@ -9,4 +9,9 @@
     <color name="BottomBarBackgroundColor">@*android:color/background_material_dark</color>
     <color name="bottom_nav_text_icon_active">@*android:color/accent_material_dark</color>
     <color name="bottom_nav_text_icon_inactive">#b3FFFFFF</color>
+
+    <!-- Nougat -->
+    <color name="dashboard_background_color">@*android:color/background_material_dark</color>
+    <color name="card_background">@*android:color/background_material_dark</color>
+    <color name="card_background_grey">@*android:color/background_material_dark</color>
 </resources>
