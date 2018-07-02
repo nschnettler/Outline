@@ -29,6 +29,24 @@ object ThemeFunctions {
         }
     }
 
+    fun getPackageVersion(context: Context, package_name: String): Int {
+        return try {
+            val pm = context.packageManager
+            pm.getPackageInfo(package_name, PackageManager.GET_ACTIVITIES).versionCode
+        }
+        catch (e: Exception) {
+            0
+        }
+    }
+
+    fun isInstalledFromPlay(context: Context): Boolean {
+        return try {
+            context.packageManager.getInstallerPackageName(context.packageName) == "com.android.vending"
+        } catch (e: Exception) {
+            false
+        }
+    }
+
     @SuppressLint("PackageManagerGetSignatures")
     private fun checkSubstratumIntegrity(context: Context,
                                          packageName: String?): Boolean {
