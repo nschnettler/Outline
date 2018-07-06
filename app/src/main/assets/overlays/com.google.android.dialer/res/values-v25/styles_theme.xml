@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+    <!-- Replacement Styles (for removal of attrs.xml) -->
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="">
+        <item name="*com.google.android.dialer:contentInsetStart">4dip</item>
+        <item name="*com.google.android.dialer:contentInsetEnd">4dip</item>
+    </style>
+</resources>

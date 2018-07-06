@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="actionbar_background_color">#FFF</color>
+
+    <!-- Primary Dark -->
+    <color name="dialer_theme_color_dark">#FFF</color>
+
+    <!-- Background -->
+    <color name="background_dialer_light">#FFF</color>
+
+    <!-- Text -->
+    <color name="actionbar_text_color">#de000000</color>
+</resources>
