@@ -96,6 +96,27 @@
         </LinearLayout>
 
         <View
+            android:id="@*com.whatsapp:id/media_visibility_separator"
+            style="@*com.whatsapp:style/FlatCardSeparator" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@*com.whatsapp:id/media_visibility_layout"
+            android:background="@*com.whatsapp:drawable/selector_orange_gradient"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/info_screen_row">
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@*com.whatsapp:string/settings_media_visibility"
+                style="@*com.whatsapp:style/ListItemTitle" />
+        </LinearLayout>
+
+        <View
             android:id="@*com.whatsapp:id/starred_messages_separator"
             android:visibility="gone"
             style="@*com.whatsapp:style/FlatCardSeparator" />
