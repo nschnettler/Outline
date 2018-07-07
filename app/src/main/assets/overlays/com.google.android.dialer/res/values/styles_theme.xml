@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ActionBar Text -->
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*com.google.android.dialer:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:colorControlNormal">#de000000</item>
+    </style>
+
+    <!-- Card Corner Radius -->
+    <style name="CallLogCardStyle" parent="@*com.google.android.dialer:style/CardView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4.0dip</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="*com.google.android.dialer:cardBackgroundColor">@*com.google.android.dialer:color/background_dialer_call_log_list_item</item>
+        <item name="*com.google.android.dialer:cardCornerRadius">8dip</item>
+    </style>
+
+    <!-- Overflow Icon Tint -->
+    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+        <item name="android:src">@*com.google.android.dialer:drawable/quantum_ic_more_vert_white_24</item>
+        <item name="android:tint">#de000000</item>
+    </style>
+</resources>
