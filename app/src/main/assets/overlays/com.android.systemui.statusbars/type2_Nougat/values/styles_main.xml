@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DualToneLightTheme">
+        <item name="android:strokeColor">#FFFFFF</item>
+
+    </style>
+    <style name="DualToneDarkTheme">
+        <item name="android:strokeColor">#de000000</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.CarrierLabel" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <!-- Note: must be dp to fit in status bar -->
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
