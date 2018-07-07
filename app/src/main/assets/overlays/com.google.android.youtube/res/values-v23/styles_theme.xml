@@ -4,4 +4,7 @@
         <item name="android:windowLightStatusBar">true</item>
         <item name="*com.google.android.youtube:actionBarSize">56dp</item>
     </style>
+
+    <!-- Fix Tinting of Back Arrow -->
+    <style name="ThemeOverlay.YouTube.ActionBar.Button.Navigation" parent="@*com.google.android.youtube:style/Widget.AppCompat.Toolbar.Button.Navigation"/>
 </resources>

@@ -11,6 +11,7 @@
     <color name="bright_red">@android:color/holo_red_light</color>
     <color name="yt_light_blue">@android:color/holo_red_light</color>
     <color name="yt_dark_blue">@android:color/holo_red_light</color>
+    <color name="yt_youtube_red">@android:color/holo_red_light</color>                              <!-- New Content Dot -->
 
     <color name="quantum_googblue500">@android:color/holo_red_light</color>                         <!-- Accent -->
     <color name="youtube_blue">@android:color/holo_red_light</color>
