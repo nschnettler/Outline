@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replacement Styles (for removal of attrs.xml) -->
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="">
+        <item name="*com.google.android.dialer:contentInsetStart">4dip</item>
+        <item name="*com.google.android.dialer:contentInsetEnd">4dip</item>
+    </style>
+</resources>

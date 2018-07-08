@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="actionbar_background_color">@*android:color/primary_material_dark</color>
+
+    <!-- Primary Dark -->
+    <color name="dialer_theme_color_dark">@*android:color/primary_material_dark</color>
+
+    <!-- Background -->
+    <color name="background_dialer_light">@*android:color/background_material_dark</color>
+
+    <!-- Text -->
+    <color name="actionbar_text_color">#FFF</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card Corner Radius -->
+    <style name="CallLogCardStyle" parent="@*com.google.android.dialer:style/CardView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4.0dip</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="*com.google.android.dialer:cardBackgroundColor">@*com.google.android.dialer:color/background_dialer_call_log_list_item</item>
+        <item name="*com.google.android.dialer:cardCornerRadius">8dip</item>
+    </style>
+</resources>

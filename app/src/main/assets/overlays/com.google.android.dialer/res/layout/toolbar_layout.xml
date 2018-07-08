@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.dialer.main.impl.toolbar.MainToolbar android:background="#FFF"
+<com.android.dialer.main.impl.toolbar.MainToolbar android:background="?android:colorBackground"
     android:layout_width="fill_parent"
     android:layout_height="@*com.google.android.dialer:dimen/expanded_search_bar_height"
     style="@*com.google.android.dialer:style/Base.TextAppearance.AppCompat.Medium.Inverse"
