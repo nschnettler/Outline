@@ -5,6 +5,9 @@
     android:viewportHeight="24.0">
     <path
         android:strokeColor="?onePlusActionbarIconColor"
-        android:strokeWidth="0.8"
-        android:pathData="M20.1,6.4L8.8,17.6l-4.9-4.9"/>
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M4.276 12.995L8.709
+ 17.5l11.015-11"/>
 </vector>
