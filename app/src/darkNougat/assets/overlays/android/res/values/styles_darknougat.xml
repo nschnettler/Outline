@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification - Text -->
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@*android:style/TextAppearance.Material.Notification"/>
+    <style name="TextAppearance.Material.Notification.Info" parent="@*android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Line2" parent="@*android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Title" parent="@*android:style/TextAppearance.Material.Notification"/>
+</resources>
