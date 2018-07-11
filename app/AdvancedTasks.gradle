@@ -1,4 +1,5 @@
 import groovy.io.FileType
+import org.apache.tools.ant.filters.ReplaceTokens
 
 import javax.crypto.Cipher
 import javax.crypto.SecretKey
@@ -7,7 +8,7 @@ import javax.crypto.spec.SecretKeySpec
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
-def currentFlavor = getCurrentFlavor()
+String currentFlavor =  getCurrentFlavor().contains("light") ? "light" : "dark"
 
 ext {
     byte[] key = new byte[16]
@@ -37,7 +38,7 @@ task prepareManifest(){
     copy {
         from "/src/main/AndroidManifestTemplate.xml"
         into "/src/main/"
-        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
+        filter(ReplaceTokens, tokens: [theme: theme])
         rename { String fileName ->
             fileName = "AndroidManifest.xml"
         }
@@ -48,7 +49,7 @@ task prepareManifest(){
     copy {
         from "/src/main/kotlinTemplates"
         into sourceDestination
-        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [theme: theme])
+        filter(ReplaceTokens, tokens: [theme: theme])
     }
 }
 
@@ -62,8 +63,8 @@ task backupAssets(dependsOn: prepareManifest) {
             source.renameTo(backup)
         }
         if (currentFlavor != ""){
-            source = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets")
-            backup = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
+            source = new File(getProjectDir(), "/src/" + currentFlavor + "/assets")
+            backup = new File(getProjectDir(), "/src/" + currentFlavor + "/assets-temp")
             if (!backup.exists()) {
                 println("Encryption - Moving Flavor Assets")
                 source.renameTo(backup)
@@ -83,7 +84,7 @@ task encryptAssets(dependsOn: backupAssets ) {
             list << file
         }
         if (currentFlavor != ""){
-            source = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
+            source = new File(getProjectDir(), "/src/" + currentFlavor + "/assets-temp")
             source.eachFileRecurse(FileType.FILES) { file ->
                 list << file
             }
@@ -132,8 +133,8 @@ gradle.buildFinished {
         tempAssets.renameTo(normalAssets)
     }
 
-    tempAssets = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets-temp")
-    normalAssets = new File(getProjectDir(), "/src/" + getCurrentFlavor() + "/assets")
+    tempAssets = new File(getProjectDir(), "/src/" + currentFlavor + "/assets-temp")
+    normalAssets = new File(getProjectDir(), "/src/" + currentFlavor + "/assets")
     if (tempAssets.exists()) {
         //Delete Encrypted Files
         normalAssets.deleteDir()
