@@ -13,6 +13,8 @@
         n1:layout_width="wrap_content"
         n1:layout_height="wrap_content"
         n1:layout_weight="1.0"
-        n1:layout_marginHorizontal="24.0dip"
-        n1:layout_marginVertical="15.0dip" />
+        n1:layout_marginLeft="24.0dip"
+        n1:layout_marginRight="24.0dip"
+        n1:layout_marginTop="15.0dip"
+        n1:layout_marginBottom="15.0dip"/>
 </LinearLayout>
