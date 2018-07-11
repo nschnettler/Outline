@@ -74,4 +74,9 @@
 
     <!-- ROMs -->
     <color name="navigation_bar_color">@*android:color/background_material_dark</color>
+
+
+    <!-- Nougat -->
+    <color name="group_list_background_color">@*android:color/background_material_dark</color>
+    <color name="list_item_name_text_color">#FFFFFF</color>                                         <!-- Contact List Name Color -->
 </resources>
