@@ -6,7 +6,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">4.0dip</item>
         <item name="android:baselineAligned">false</item>
-        <item name="*com.google.android.dialer:cardBackgroundColor">@*com.google.android.dialer:color/background_dialer_call_log_list_item</item>
+        <item name="*com.google.android.dialer:cardBackgroundColor">?android:colorBackgroundFloating</item>
         <item name="*com.google.android.dialer:cardCornerRadius">8dip</item>
     </style>
 </resources>
