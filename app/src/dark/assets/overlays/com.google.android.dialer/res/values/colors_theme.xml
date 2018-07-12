@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
-    <color name="actionbar_background_color">@*android:color/primary_material_dark</color>
-
-    <!-- Primary Dark -->
-    <color name="dialer_theme_color_dark">@*android:color/primary_material_dark</color>
+    <!-- App Theme -->
+    <color name="dialer_dark_theme_color">@android:color/holo_blue_light</color>
+    <color name="dialer_dark_theme_color_dark">@android:color/holo_blue_light</color>
+    <color name="dialer_dark_secondary_color">@android:color/holo_blue_light</color>
 
     <!-- Background -->
-    <color name="background_dialer_light">@*android:color/background_material_dark</color>
+    <color name="google_grey_900">@*android:color/background_material_dark</color>                  <!-- Main -->
+    <color name="google_grey_800">@*android:color/background_material_dark</color>                  <!-- Card -->
 
     <!-- Text -->
-    <color name="actionbar_text_color">#FFF</color>
+    <color name="google_grey_400">#FEFEFE</color>                                                   <!-- Primary -->
+    <color name="google_grey_300">#b3FFFFFF</color>                                                   <!-- Secondary -->
+    <color name="google_grey_700">#b3FFFFFF</color>
+
+
+    <!-- Legacy -->
+    <!-- Divider -->
+    <color name="dialer_divider_line_color">#1a000000</color>
+    <!-- Background -->
+    <color name="dialer_background_color">@*android:color/background_material_dark</color>
+    <!-- Text -->
+    <color name="dialer_primary_text_color">#FFFFFF</color>
+    <color name="dialer_secondary_text_color">#b3FFFFFF</color>
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+    <!-- Use Dark Theme -->
+    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityThemeBase.Dark">
+        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
     </style>
 </resources>
