@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="albumset_background">#FFF</color>
+    <color name="albumset_label_background">#FFF</color>
+    <color name="album_background">#FFF</color>
+
+    <!-- Text -->
+    <color name="albumset_label_title">#de000000</color>
+    <color name="albumset_label_count">#80000000</color>
+</resources>
