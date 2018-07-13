@@ -5,17 +5,12 @@
         <item name="android:colorPrimaryDark">#FFFFFF</item>
         <item name="android:colorPrimary">#FFFFFF</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:textAppearanceMedium">@*com.android.packageinstaller:style/MediumText</item>
         <item name="android:textAppearanceSmall">@*com.android.packageinstaller:style/SmallText</item>
         <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
-    </style>
-
-    <!-- Settings: Permissions -->
-    <style name="Settings" parent="@android:style/Theme.DeviceDefault.Settings">
-        <item name="android:colorPrimaryDark">#FFF</item>
-        <item name="android:colorPrimary">#FFF</item>
-        <item name="android:windowBackground">@android:color/white</item>
-        <item name="android:actionBarStyle">@*com.android.packageinstaller:style/ActionBar</item>
     </style>
 </resources>

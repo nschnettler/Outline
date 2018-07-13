@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Install App Activity -->
-    <style name="DialogWhenLarge"  parent="@android:style/Theme.Material.Light.NoActionBar">
+    <style name="Theme.DialogWhenLarge"  parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:colorPrimaryDark">#FFFFFF</item>
         <item name="android:colorPrimary">#FFFFFF</item>
         <item name="android:windowLightStatusBar">true</item>
@@ -12,10 +12,11 @@
     </style>
 
     <!-- Settings: Permissions -->
-    <style name="Settings" parent="@android:style/Theme.DeviceDefault.Settings">
+    <style name="Settings" parent="@android:style/Theme.Material.Light.LightStatusBar">
         <item name="android:colorPrimaryDark">#FFF</item>
         <item name="android:colorPrimary">#FFF</item>
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:actionBarStyle">@*com.android.packageinstaller:style/ActionBar</item>
+        <item name="android:textColorPrimaryInverse">#de000000</item>
     </style>
 </resources>
