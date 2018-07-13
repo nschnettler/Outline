@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="primary">@*android:color/background_material_dark</color>
+    <color name="primary_dark">@*android:color/background_material_dark</color>
+
+    <!-- Background -->
+    <color name="albumset_background">@*android:color/background_material_dark</color>
+    <color name="albumset_label_background">@*android:color/background_material_dark</color>
+    <color name="album_background">@*android:color/background_material_dark</color>
+</resources>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Colors -->
-    <color name="primary">@android:color/holo_blue_light</color>
-    <color name="primary_dark">@android:color/holo_blue_light</color>
     <color name="accent">@android:color/holo_blue_dark</color>
 </resources>
