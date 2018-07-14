@@ -2,9 +2,10 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24.0"
-    android:viewportHeight="24.0">
+    android:viewportHeight="24.0"
+    android:alpha="0.6">
     <path
-        android:strokeColor="@*de.toastcode.screener:color/material_grey_600"
+        android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
@@ -12,7 +13,7 @@
   9.5 9.5-4.256 9.5-9.5-4.256-9.5-9.5-9.5z" />
 
     <path
-        android:strokeColor="@*de.toastcode.screener:color/material_grey_600"
+        android:strokeColor="?android:colorControlNormal"
         android:strokeWidth="1"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
