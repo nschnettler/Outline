@@ -14,5 +14,6 @@
 
         <item>\#FFFFFF</item>       <!-- White -->
         <item>\#00FFFFFF</item>     <!-- Transparent -->
+        <item>\#eeeeee</item>       <!-- Color Picker -->
     </string-array>
 </resources>
