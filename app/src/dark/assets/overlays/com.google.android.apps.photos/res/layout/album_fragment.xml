@@ -25,4 +25,10 @@
         android:id="@*com.google.android.apps.photos:id/comment_banner_preview_container"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:id="@*com.google.android.apps.photos:id/comment_preview_fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
 </FrameLayout>
