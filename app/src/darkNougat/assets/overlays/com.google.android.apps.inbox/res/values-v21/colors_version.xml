@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification - Undo -->
+    <color name="bt_notification_undo_button_text">#FFF</color>        <!-- Undo Button -->
+    <color name="bt_notification_undo_description_text">#FFF</color>   <!-- Marked as done Message -->
+    <!-- Notification - Primary -->
+    <color name="bt_notification_highlight">#FFF</color>
+</resources>
