@@ -9,8 +9,8 @@ android {
 
     defaultConfig {
         targetSdkVersion 28
-        versionCode 27044
-        versionName "Oreo - 19.1"
+        versionCode 1
+        versionName "20"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -27,7 +27,7 @@ android {
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            versionNameSuffix ' - '+ '(' +  new Date().format('dd.MM HH:mm') + ')'
+            versionNameSuffix ' - '+  new Date().format('dd.MM HH:mm')
         }
         release {
             minifyEnabled true
@@ -56,10 +56,14 @@ android {
             oreo {
                 dimension "androidVersion"
                 minSdkVersion 26
+                versionCode 260000  + android.defaultConfig.versionCode
+                versionName "Oreo - " + android.defaultConfig.versionName
             }
             nougat {
                 dimension "androidVersion"
                 minSdkVersion 25
+                versionCode 250000  + android.defaultConfig.versionCode
+                versionName "Nougat - " + android.defaultConfig.versionName
             }
 
         }
