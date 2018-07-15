@@ -49,10 +49,6 @@ android {
                 buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
                 buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
             }
-            minimal {
-                dimension "theme"
-                applicationId "com.schnettler.minimal"
-            }
             oreo {
                 dimension "androidVersion"
                 minSdkVersion 26
