@@ -6,9 +6,9 @@ package com.schnettler.@theme@
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
-import android.util.Base64
+import android.support.v7.app.AlertDialog
 import android.util.Log
 import android.widget.Toast
 import com.github.javiersantos.piracychecker.PiracyChecker
@@ -35,7 +35,6 @@ import com.schnettler.@theme@.ThemeFunctions.getSubstratumUpdatedResponse
 import com.schnettler.@theme@.ThemeFunctions.hasOtherThemeSystem
 import com.schnettler.@theme@.ThemeFunctions.isCallingPackageAllowed
 import com.schnettler.@theme@.ThemeFunctions.isPackageInstalled
-import java.security.MessageDigest
 
 class SubstratumLauncher : Activity() {
 
@@ -108,108 +107,86 @@ class SubstratumLauncher : Activity() {
             piracyChecker!!.callback(object : PiracyCheckerCallback() {
                 //Not Pirated
                 override fun allow() {
-                    //Installed from PlayStore
-                    if (this@SubstratumLauncher.packageManager.getInstallerPackageName(this@SubstratumLauncher.packageName) == "com.android.vending") {
-                        var res = ""
-                        val packageInfo = this@SubstratumLauncher.getPackageManager().getPackageInfo(this@SubstratumLauncher.getPackageName(), PackageManager.GET_SIGNATURES)
-                        for (signature in packageInfo.signatures) {
-                            val messageDigest = MessageDigest.getInstance("SHA")
-                            messageDigest.update(signature.toByteArray())
-                            res = Base64.encodeToString(messageDigest.digest(), Base64.DEFAULT)
-                        }
-                        //Signature
-                        if (BuildConfig.APK_SIGNATURE_PRODUCTION.equals(res.trim())) {
-                            if (!hasOtherThemeSystem(this@SubstratumLauncher)) {
-                                if (!isPackageInstalled(applicationContext, SUBSTRATUM_PACKAGE_NAME)) {
-                                    getSubstratumFromPlayStore(this@SubstratumLauncher)
-                                    finish()
-                                }
-                                if (ENFORCE_MINIMUM_SUBSTRATUM_VERSION
-                                        && !getSubstratumUpdatedResponse(applicationContext)) {
-                                    val parse = String.format(
-                                            getString(R.string.outdated_substratum),
-                                            getString(R.string.ThemeName),
-                                            MINIMUM_SUBSTRATUM_VERSION.toString())
-                                    Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
-                                    finish()
-                                }
-                            } else if (!BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
-                                Toast.makeText(this@SubstratumLauncher, R.string.unauthorized_theme_client, Toast.LENGTH_LONG).show()
-                                finish()
-                            }
-
-                            var returnIntent = Intent()
-                            if (intent.action == getKeysIntent) {
-                                returnIntent = Intent(receiveKeysIntent)
-                            }
-
-                            val themeName = getString(R.string.ThemeName)
-                            val themeAuthor = getString(R.string.ThemeAuthor)
-                            val themePid = packageName
-                            returnIntent.putExtra("theme_name", themeName)
-                            returnIntent.putExtra("theme_author", themeAuthor)
-                            returnIntent.putExtra("theme_pid", themePid)
-
-                            val themeLaunchType = getSelfVerifiedThemeEngines(applicationContext)
-                            val themeHash = getSelfSignature(applicationContext)
-                            var themePiracyCheck = false
-                            if (BuildConfig.ENABLE_APP_BLACKLIST_CHECK)
-                                themePiracyCheck = getSelfVerifiedPirateTools(applicationContext)
-                            if (themePiracyCheck or (SUBSTRATUM_FILTER_CHECK && !certified)) {
-                                Toast.makeText(this@SubstratumLauncher, R.string.unauthorized, Toast.LENGTH_LONG).show()
-                                finish()
-                            }
-                            returnIntent.putExtra("theme_hash", themeHash)
-                            returnIntent.putExtra("theme_launch_type", themeLaunchType)
-                            returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
-                            returnIntent.putExtra("theme_piracy_check", themePiracyCheck)
-                            returnIntent.putExtra("encryption_key", BuildConfig.DECRYPTION_KEY)
-                            returnIntent.putExtra("iv_encrypt_key", BuildConfig.IV_KEY)
-
-                            val callingPackage = intent.getStringExtra("calling_package_name")
-                            if (callingPackage == null) {
-                                val parse = String.format(
-                                        getString(R.string.outdated_substratum),
-                                        getString(R.string.ThemeName),
-                                        915)
-                                Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
-                                finish()
-                            }
-                            if (!isCallingPackageAllowed(callingPackage)) {
-                                finish()
-                            } else {
-                                returnIntent.`package` = callingPackage
-                            }
-
-                            if (intent.action == substratumIntentData) {
-                                setResult(getSelfVerifiedIntentResponse(applicationContext)!!, returnIntent)
-                            } else if (intent.action == getKeysIntent) {
-                                returnIntent.action = receiveKeysIntent
-                                sendBroadcast(returnIntent)
-                            }
+                    if (!hasOtherThemeSystem(this@SubstratumLauncher)) {
+                        if (!isPackageInstalled(applicationContext, SUBSTRATUM_PACKAGE_NAME)) {
+                            getSubstratumFromPlayStore(this@SubstratumLauncher)
                             finish()
-                        };
-                        else {
-                            showError()
                         }
+                        if (ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+                                && !getSubstratumUpdatedResponse(applicationContext)) {
+                            val parse = String.format(
+                                    getString(R.string.outdated_substratum),
+                                    getString(R.string.ThemeName),
+                                    MINIMUM_SUBSTRATUM_VERSION.toString())
+                            Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
+                            finish()
+                        }
+                    } else if (!BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
+                        Toast.makeText(this@SubstratumLauncher, R.string.unauthorized_theme_client, Toast.LENGTH_LONG).show()
+                        finish()
                     }
-                    else
-                        showError()
+
+                    var returnIntent = Intent()
+                    if (intent.action == getKeysIntent) {
+                        returnIntent = Intent(receiveKeysIntent)
+                    }
+
+                    val themeName = getString(R.string.ThemeName)
+                    val themeAuthor = getString(R.string.ThemeAuthor)
+                    val themePid = packageName
+                    returnIntent.putExtra("theme_name", themeName)
+                    returnIntent.putExtra("theme_author", themeAuthor)
+                    returnIntent.putExtra("theme_pid", themePid)
+
+                    val themeLaunchType = getSelfVerifiedThemeEngines(applicationContext)
+                    val themeHash = getSelfSignature(applicationContext)
+                    var themePiracyCheck = false
+                    if (BuildConfig.ENABLE_APP_BLACKLIST_CHECK)
+                        themePiracyCheck = getSelfVerifiedPirateTools(applicationContext)
+                    if (themePiracyCheck or (SUBSTRATUM_FILTER_CHECK && !certified)) {
+                        Toast.makeText(this@SubstratumLauncher, R.string.unauthorized, Toast.LENGTH_LONG).show()
+                        finish()
+                    }
+                    returnIntent.putExtra("theme_hash", themeHash)
+                    returnIntent.putExtra("theme_launch_type", themeLaunchType)
+                    returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
+                    returnIntent.putExtra("theme_piracy_check", themePiracyCheck)
+                    returnIntent.putExtra("encryption_key", BuildConfig.DECRYPTION_KEY)
+                    returnIntent.putExtra("iv_encrypt_key", BuildConfig.IV_KEY)
+
+                    val callingPackage = intent.getStringExtra("calling_package_name")
+                    if (callingPackage == null) {
+                        val parse = String.format(
+                                getString(R.string.outdated_substratum),
+                                getString(R.string.ThemeName),
+                                915)
+                        Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
+                        finish()
+                    }
+                    if (!isCallingPackageAllowed(callingPackage)) {
+                      finish()
+                    } else {
+                        returnIntent.`package` = callingPackage
+                    }
+
+                    if (intent.action == substratumIntentData) {
+                        setResult(getSelfVerifiedIntentResponse(applicationContext)!!, returnIntent)
+                    } else if (intent.action == getKeysIntent) {
+                        returnIntent.action = receiveKeysIntent
+                        sendBroadcast(returnIntent)
+                    }
+                    finish()
                 }
 
                 override fun dontAllow(error: PiracyCheckerError, pirateApp: PirateApp?) {
-                    showError()
+                    val parse = String.format(
+                            getString(R.string.toast_unlicensed),
+                            getString(R.string.ThemeName))
+                    Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
+                    finish()
                 }
             })
         }
         piracyChecker!!.start()
-    }
-
-    fun showError(){
-        val parse = String.format(
-                getString(R.string.toast_unlicensed),
-                getString(R.string.ThemeName))
-        Toast.makeText(this@SubstratumLauncher, parse, Toast.LENGTH_SHORT).show()
-        finish()
     }
 }
