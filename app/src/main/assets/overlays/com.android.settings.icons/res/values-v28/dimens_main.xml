@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- P -->
+    <dimen name="dashboard_tile_image_size">40dp</dimen>
+    <dimen name="dashboard_tile_foreground_image_inset">8dip</dimen>
+</resources>
