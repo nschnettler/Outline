@@ -7,6 +7,7 @@
     <color name="notification_progress_background_color">#FFFFFF</color>                            <!-- ??? -->
 
     <!-- Notification | Background -->
-    <color name="notification_action_list">@*android:color/background_material_dark</color>         <!-- Action 1 | Button Bar Background -->
+    <color name="notification_material_background_color">@*android:color/background_material_dark</color><!-- Notification Background -->
+    <color name="notification_action_list">@*android:color/background_dark</color>                  <!-- Action 1 | Button Bar Background -->
     <color name="notification_action_list_dark">@*android:color/background_dark</color>             <!-- Action 2 | Notification Button Dark Background (for example Clock notification) -->
 </resources>
