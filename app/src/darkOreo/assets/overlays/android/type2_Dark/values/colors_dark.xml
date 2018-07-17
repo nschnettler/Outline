@@ -4,6 +4,7 @@
     <color name="notification_primary_text_color_light">#FFFFFF</color>                             <!-- Title -->
     <color name="notification_secondary_text_color_light">#b3FFFFFF</color>                         <!-- Subtitle -->
     <color name="notification_default_color">@*android:color/accent_material_dark</color>           <!-- App Icon & Name -->
+    <color name="notification_default_color_dark">#b3FFFFFF</color>
     <color name="notification_progress_background_color">#FFFFFF</color>                            <!-- ??? -->
 
     <!-- Notification | Background -->
