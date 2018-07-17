@@ -6,5 +6,7 @@
         <item name="android:colorPrimaryDark">@*android:color/background_material_dark</item>       <!-- Power Menu - Additional (Bug Report) -->
         <item name="android:colorSecondary">@*android:color/background_material_dark</item>         <!-- QuickSettings - Edit Background -->
         <item name="android:colorBackgroundFloating">@*android:color/background_material_dark</item><!-- QuickSettings, Volume Background -->
+        <item name="android:panelColorBackground">@android:color/background_dark</item>   <!-- P - Volume Panel Bottom (Settings) -->
+
     </style>
 </resources>
