@@ -1,6 +1,6 @@
 ext {
     // Encryption
-    SHOULD_ENCRYPT_ASSETS = true
+    SHOULD_ENCRYPT_ASSETS = false
 
     // 3rd party Theme Engines
     SUPPORTS_THIRD_PARTY_SYSTEMS = false
