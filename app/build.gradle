@@ -9,8 +9,8 @@ android {
 
     defaultConfig {
         targetSdkVersion 28
-        versionCode 1
-        versionName "20"
+        versionCode 3
+        versionName "21"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -53,7 +53,7 @@ android {
                 dimension "androidVersion"
                 minSdkVersion 26
                 versionCode 260000  + android.defaultConfig.versionCode
-                versionName "Oreo - " + android.defaultConfig.versionName
+                versionName "Oreo/Pancake - " + android.defaultConfig.versionName
             }
             nougat {
                 dimension "androidVersion"
