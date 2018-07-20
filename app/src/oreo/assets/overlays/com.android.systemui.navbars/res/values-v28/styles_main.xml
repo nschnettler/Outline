@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DualToneLightTheme">
+        <item name="*com.android.systemui:backgroundColor">@*com.android.systemui:color/light_mode_icon_color_dual_tone_background</item>
+        <item name="*com.android.systemui:fillColor">@*com.android.systemui:color/light_mode_icon_color_dual_tone_fill</item>
+        <item name="*com.android.systemui:singleToneColor">@*com.android.systemui:color/light_mode_icon_color_single_tone</item>
+        <item name="android:colorControlNormal">@*com.android.systemui:color/light_mode_icon_color_single_tone</item>
+    </style>
+    <style name="DualToneDarkTheme">
+        <item name="*com.android.systemui:backgroundColor">@*com.android.systemui:color/dark_mode_icon_color_dual_tone_background</item>
+        <item name="*com.android.systemui:fillColor">@*com.android.systemui:color/dark_mode_icon_color_dual_tone_fill</item>
+        <item name="*com.android.systemui:singleToneColor">@*com.android.systemui:color/dark_mode_icon_color_single_tone</item>
+        <item name="android:colorControlNormal">@*com.android.systemui:color/dark_mode_icon_color_single_tone</item>
+    </style>
+</resources>
