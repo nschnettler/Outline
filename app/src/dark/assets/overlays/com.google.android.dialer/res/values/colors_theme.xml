@@ -21,6 +21,6 @@
     <!-- Background -->
     <color name="dialer_background_color">@*android:color/background_material_dark</color>
     <!-- Text -->
-    <color name="dialer_primary_text_color">#FFFFFF</color>
-    <color name="dialer_secondary_text_color">#b3FFFFFF</color>
+    <color name="dialer_primary_text_color">#FEFEFE</color>
+    <color name="dialer_secondary_text_color">#b3FEFEFE</color>
 </resources>

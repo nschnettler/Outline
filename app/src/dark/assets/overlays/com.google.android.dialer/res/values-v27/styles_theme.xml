@@ -6,4 +6,9 @@
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
+    <style name="DialtactsTheme" parent="@*com.google.android.dialer:style/Dialer.ThemeBase.ActionBar">
+        <item name="android:navigationBarColor">?android:windowBackground</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
 </resources>
