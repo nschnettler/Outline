@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Both Themes -->
-    <color name="accent">@*android:color/accent_material_light</color>
+    <!-- Base Theme -->
+    <color name="primary">#FFF</color>                                                              <!-- Primary -->
+    <color name="primary_dark">#FFF</color>                                                         <!-- Primary Dark -->
+    <color name="accent">@*android:color/accent_material_light</color>                              <!-- Accent -->
 
+    <!-- Various Colors -->
     <color name="green500">@android:color/holo_green_light</color>
     <color name="red500">@android:color/holo_red_light</color>
     <color name="grey500">@*android:color/holo_gray_light</color>
 
 
-    <!-- Light Theme-->
-    <color name="primary">@*android:color/accent_material_light</color>
-    <color name="primary_dark">@*android:color/primary_material_light</color>
-
-
     <!-- Dark Theme -->
     <color name="primary_dark_material_dark">@*android:color/primary_material_dark</color>
-    <color name="primary_material_dark">@*android:color/accent_material_dark</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
 
     <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialog -->
     <color name="button_material_dark">@android:color/background_dark</color>                       <!-- Button -->

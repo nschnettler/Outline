@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.Toolbar android:id="@*com.topjohnwu.magisk:id/toolbar"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="56dp"
-    android:elevation="5dp"
-    android:background="?android:colorPrimaryDark"/>
