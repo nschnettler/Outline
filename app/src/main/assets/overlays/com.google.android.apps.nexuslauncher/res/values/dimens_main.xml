@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="task_corner_radius">8dip</dimen>
+</resources>
