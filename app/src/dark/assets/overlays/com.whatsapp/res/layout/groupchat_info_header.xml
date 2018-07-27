@@ -35,6 +35,8 @@
         android:layout_height="wrap_content"
         android:text="@*com.whatsapp:string/not_a_group_participant" />
 
+    <include layout="@*com.whatsapp:layout/live_location_card" />
+
     <com.whatsapp.MediaCard
         android:id="@*com.whatsapp:id/media_card_view"
         android:layout_width="fill_parent"
@@ -42,8 +44,6 @@
         app:icContentColor="@*com.whatsapp:color/white"
         app:mcTitle="@*com.whatsapp:string/view_conversation_media"
         style="@*com.whatsapp:style/InfoCard" />
-
-    <include layout="@*com.whatsapp:layout/live_location_card" />
 
     <include layout="@*com.whatsapp:layout/actions_card" />
 

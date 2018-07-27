@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-
-    Profile Info (Contact)
-    Info Und TelefonNummer Hintergrund
-
--->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -30,16 +25,15 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 
+    <include layout="@*com.whatsapp:layout/live_location_card" />
+
     <com.whatsapp.MediaCard
         android:id="@*com.whatsapp:id/media_card_view"
-        android:paddingTop="0.0dip"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         app:icContentColor="@*com.whatsapp:color/white"
         app:mcTitle="@*com.whatsapp:string/view_conversation_media"
         style="@*com.whatsapp:style/InfoCard" />
-
-    <include layout="@*com.whatsapp:layout/live_location_card" />
 
     <include layout="@*com.whatsapp:layout/actions_card" />
 

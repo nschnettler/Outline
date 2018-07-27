@@ -4,14 +4,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
-    <com.whatsapp.qrcode.QrCodeView
+    <com.whatsapp.qrcode.QrScannerView
         android:layout_gravity="center"
         android:id="@*com.whatsapp:id/camera"
         android:visibility="gone"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
-    <com.whatsapp.qrcode.QrCodeOverlay
+    <com.whatsapp.qrcode.QrScannerOverlay
         android:layout_gravity="center"
         android:id="@*com.whatsapp:id/overlay"
         android:paddingBottom="@*com.whatsapp:dimen/actionbar_height"
