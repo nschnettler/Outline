@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FKU.AppTheme" parent="@*com.franco.kernel:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="*com.franco.kernel:colorAccent">@*com.franco.kernel:color/colorAccent</item>
+        <item name="*com.franco.kernel:colorPrimary">@*com.franco.kernel:color/colorPrimary</item>
+        <item name="*com.franco.kernel:colorPrimaryDark">@*com.franco.kernel:color/colorPrimaryDark</item>
+        <item name="*com.franco.kernel:preferenceTheme">@*com.franco.kernel:style/PrefTheme</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
