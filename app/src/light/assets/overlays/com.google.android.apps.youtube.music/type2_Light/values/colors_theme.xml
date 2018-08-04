@@ -16,6 +16,7 @@
     <color name="ytm_color_control_active">#80000000</color>
     <color name="ytm_color_control_normal">#80000000</color>                                        <!-- ColorControlNormal -->
     <color name="ytm_color_black">#FFF</color>
+    <color name="quantum_white_100">#80000000</color>                                               <!-- ColorControlNormal-->
 
 
     <!-- Background -->
