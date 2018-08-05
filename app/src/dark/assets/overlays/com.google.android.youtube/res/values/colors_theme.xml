@@ -1,142 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Color -->
-    <color name="yt_status_bar_background_dark">@*android:color/primary_material_dark</color>
-    <color name="navigation_bar_background_dark">@*android:color/background_material_dark</color>
+    <color name="yt_status_bar_background_dark">@*android:color/primary_material_dark</color>       <!-- StatusBar -->
+    <color name="navigation_bar_background_dark">@*android:color/background_material_dark</color>   <!-- NavigationBar -->
     <color name="navigation_bar_divider_dark">@*android:color/background_dark</color>
-    <color name="navigation_bar_divider_light">@*android:color/background_dark</color>
 
     <!-- Background -->
-    <color name="yt_background_1_dark">@*android:color/background_material_dark</color>             <!-- Main -->
-    <color name="yt_background_2_dark">@*android:color/background_material_dark</color>             <!-- Secondary -->
-    <color name="yt_background_3_dark">@*android:color/background_dark</color>                      <!-- Tertiary -->
-    <color name="yt_background_4_dark">@*android:color/background_dark</color>
+    <color name="yt_black1">@*android:color/background_material_dark</color>                        <!-- Primary -->
+    <color name="yt_black2">@*android:color/background_material_dark</color>                        <!-- Secondary -->
+    <color name="yt_black3">@*android:color/background_dark</color>                                 <!-- Tertiary -->
     <color name="yt_separator_dark">@*android:color/background_dark</color>                         <!-- Divider -->
-    <color name="background_material_dark">@*android:color/background_material_dark</color>
-    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
-    <color name="primary_material_dark">@*android:color/background_material_dark</color>
     <color name="yt_white1_opacity10">@*android:color/background_material_dark</color>              <!-- Chip -->
-    <color name="yt_black1">@*android:color/background_material_dark</color>                        <!-- Bottomsheet -->
-    <color name="yt_black2">@*android:color/background_material_dark</color>                        <!-- Spinner -->
 
     <!-- Text -->
     <color name="yt_text_2_dark">#b3FFFFFF</color>                                                  <!-- Secondary -->
     <color name="yt_text_3_dark">#b3FFFFFF</color>                                                  <!-- Tertiary -->
+    <color name="yt_unselected_nav_icon_dark">#b3FFFFFF</color>                                     <!-- Bottom Bar - Unselected-->
 
     <!-- Icon -->
     <color name="yt_icon_1_dark">#FFFFFF</color>
     <color name="yt_icon_2_dark">#FFFFFF</color>
-    <color name="yt_unselected_nav_icon_dark">#b3FFFFFF</color>                                     <!-- Bottom Bar - Unselected-->
 
 
-
-
-
-
-
-
-    <!-- OLD -->
-    <!-- Backgrounds -->
-        <!-- Toolbar / Statusbar -->
-            <!-- Settings -->
-            <color name="material_grey_600">@android:color/holo_red_light</color>                               <!-- Settings Statusbar & current resolution text color -->
-            <!-- Cast to TV -->
-            <color name="mdx_statusbar_background">@android:color/holo_red_light</color>                        <!-- Statusbar Color -->
-            <color name="mdx_actionbar_background">@android:color/holo_red_light</color>                        <!-- Toolbar Color -->
-            <!-- Launch Screen -->
-            <color name="quantum_grey500">@*android:color/background_material_dark</color>                      <!-- Statusbar -->
-        <!-- Dialogs -->
-        <color name="background_secondary_light">@*android:color/background_floating_material_dark</color>      <!-- Change Account Dialog Bg -->
-        <!-- Comment -->
-        <color name="comments_background">@*android:color/background_material_dark</color>                      <!-- Comment enter Background -->
-        <!-- Cast to TV -->
-        <color name="mdx_header_background_error">@android:color/holo_red_light</color>                                 <!-- Header Normal -->
-        <color name="mdx_header_background_normal">@*android:color/background_material_dark</color>                     <!-- Header Error -->
-        <!-- Various -->
-        <color name="yt_background_1_light">@*android:color/background_material_dark</color>
-        <!-- Live Chat -->
-        <color name="live_chat_header_text_color">#ffffffff</color>
-        <color name="live_chat_background_color">@*android:color/background_material_dark</color>
-        <color name="live_chat_action_panel_color">@*android:color/background_floating_material_dark</color>
-        <color name="live_chat_header_color">@*android:color/background_material_dark</color>
-
-    <!-- Divider -->
-    <color name="line_separator">@*android:color/background_dark</color>
-    <color name="line_separator_color">@*android:color/background_dark</color>
-    <color name="quantum_grey300">@*android:color/background_dark</color><!--Search Filter Dialog -->
-
-
-    <!-- Text Color -->
-        <!-- Main -->
-        <color name="text_color_primary_default_light">#FFFFFF</color>                                  <!-- u.a. Share Dialog Title, Names -->
-        <color name="text_color_secondary_default_light">#b3FFFFFF</color>
-        <!-- Video Item -->
-        <color name="video_item_uploader_font">#b3FFFFFF</color>
-        <color name="video_item_title_font">#FFFFFF</color>
-        <color name="video_item_description_font">#b3FFFFFF</color>
-        <!-- Cast to TV -->
-        <color name="mdx_prefs_header">#FFFFFF</color>                                                  <!-- Text Colors -->
-        <color name="mdx_prefs_subtitle">#89FFFFFF</color>
-        <color name="mdx_prefs_title">#deFFFFFF</color>
-        <!-- Live Chat -->
-        <color name="live_chat_light_author_name">#b3FFFFFF</color>
-        <color name="live_chat_input_text_color">#FFFFFF</color>
-        <color name="live_chat_input_text_color_hint">#b3FFFFFF</color>
-        <color name="live_chat_light_metadata_subtitle">#b3FFFFFF</color>
-        <color name="live_chat_button_subtext_light_color">#FFFFFF</color>
-        <!-- PlayList Video Item -->
-        <color name="video_item_dark_font">#FFFFFF</color>                                          <!-- Video Title -->
-        <color name="video_item_light_font">#b3FFFFFF</color>                                       <!-- Video Author -->
-        <!-- Conversation -->
-        <color name="conversation_tertiary_text_color">#b3FFFFFF</color>
-        <!-- Various -->
-        <color name="slim_metadata_main_color">#FFFFFF</color>                                          <!-- New Description Thingy Title Text Color -->
-        <color name="subscribe_button_subscribed_font_color">#FFFFFF</color>
-        <color name="account_switcher_color_secondary">#FFFFFF</color>
-        <color name="yt_text_1_light">#FFFFFF</color>
-        <color name="yt_text_2_light">#b3FFFFFF</color>
-        <color name="yt_text_3_light">#b3FFFFFF</color>
-        <color name="pivot_bar_content_tab_dark">#b3FFFFFF</color>
-        <color name="toolbar_text_color">#FFFFFF</color>
-
-
-    <!-- Other -->
-    <color name="comment_poll_choice_unselected_color">#b3FFFFFF</color>
-    <color name="comment_poll_progress_unselected_color">#b3FFFFFF</color>
-    <color name="material_grey_100">@*android:color/background_floating_material_dark</color>
-    <color name="material_grey_850">@*android:color/background_material_dark</color>
-    <color name="background_material_light">@*android:color/background_material_dark</color>
-    <color name="background_primary_dark">@*android:color/background_material_dark</color>
-    <color name="background_secondary_dark">@*android:color/background_material_dark</color>
-    <color name="background_tertiary_light">@*android:color/background_material_dark</color>
-    <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
-    <color name="conversation_background">@*android:color/background_material_dark</color>
-    <color name="conversation_invite_background">@*android:color/background_material_dark</color>
-    <color name="info_card_teaser_background">@*android:color/background_material_dark</color>
-    <color name="inline_survey_background_color">@*android:color/background_material_dark</color>
-    <color name="theme_main_window_background">@*android:color/background_material_dark</color>
-    <color name="av_code_entry_screen_background">@*android:color/background_material_dark</color>
-    <color name="av_host_fragment_background">@*android:color/background_floating_material_dark</color>
-    <color name="av_intro_screen_background">@*android:color/background_material_dark</color>
-    <color name="image_filter_list_item_label_background_color">@*android:color/button_material_dark</color>
-    <color name="black">@*android:color/background_material_dark</color>
-    <color name="av_button_ripple_color">#4fffffff</color>
-    <color name="ripple_material_light">#33ffffff</color>
-    <color name="snackbar_action_button_ripple">#2fffffff</color>
-    <color name="conversation_primary_text_color">#ffffffff</color>
-    <color name="sign_in_promo_text_color">#ffdddddd</color>
-    <color name="quantum_black_secondary_text">#ffdddddd</color>
-    <color name="quantum_black_text">#ffffffff</color>
-    <color name="primary_font">#ffffffff</color>
-    <color name="secondary_font">#ffdddddd</color>
-    <color name="live_chat_button_primary_text_disabled_color">#66ffffff</color>
-    <color name="primary_text_default_material_light">#ffffffff</color>
-    <color name="primary_text_disabled_material_light">#4dffffff</color>
-    <color name="secondary_text_default_material_light">#ffdddddd</color>
-    <color name="secondary_text_disabled_material_light">#36ffffff</color>
-    <color name="mdx_status_bar_color">#00000000</color>
-    <color name="info_card_teaser_foreground">#ffffffff</color>
-    <color name="video_dismissal_card_background">@*android:color/background_floating_material_dark</color>
-    <color name="video_dismissal_card_border_color">#ff555555</color>
-    <color name="video_dismissal_card_undo_text">#ffffffff</color>
+    <!-- Other  -->
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
+    <color name="navigation_bar_divider_light">@*android:color/background_dark</color>
+    <color name="live_chat_light_overlay_background">@*android:color/background_material_dark</color>
+    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
+    <color name="quantum_grey500">@*android:color/background_material_dark</color>                  <!-- Launch - Statusbar -->
+    <color name="yt_grey3">#FFF</color>                                                             <!-- Some Icons -->
+    <color name="toolbar_text_color">#FFF</color>
+    <color name="subscribe_button_subscribed_font_color">#FFF</color>
 </resources>
