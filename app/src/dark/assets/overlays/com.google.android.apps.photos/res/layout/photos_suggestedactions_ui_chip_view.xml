@@ -15,8 +15,7 @@
         android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:scaleType="center"
         android:contentDescription="@null"
-        android:importantForAccessibility="no"
-        android:tint="#de000000"/>
+        android:importantForAccessibility="no" />
 
     <TextView
         android:textColor="#FFFFFF"
@@ -25,15 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_height"
-        android:paddingStart="5.0dip"
-        android:paddingEnd="13.0dip" />
+        style="@*com.google.android.apps.photos:style/photos_suggestedactions_ui_chip_text" />
 
     <ImageView
         android:id="@*com.google.android.apps.photos:id/close_button"
         android:layout_width="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
-        android:src="@*com.google.android.apps.photos:drawable/quantum_ic_cancel_white_18"
+        android:src="@*com.google.android.apps.photos:drawable/photos_suggestedactions_ui_close_icon"
         android:scaleType="center"
-        android:contentDescription="@*com.google.android.apps.photos:string/photos_suggestedactions_ui_dismiss_button_description"
-        android:tint="#de000000"/>
+        android:contentDescription="@*com.google.android.apps.photos:string/photos_suggestedactions_ui_dismiss_button_description" />
 </LinearLayout>

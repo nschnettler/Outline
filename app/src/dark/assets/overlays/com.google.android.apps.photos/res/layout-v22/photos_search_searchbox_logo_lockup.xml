@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        style="@*com.google.android.apps.photos:style/Photos.Search.SearchBox.Lockup">
 
         <ImageView
             android:id="@*com.google.android.apps.photos:id/search_box_branding_logo"

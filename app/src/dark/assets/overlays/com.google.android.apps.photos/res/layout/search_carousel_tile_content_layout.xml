@@ -47,8 +47,6 @@
             android:layout_width="wrap_content"
             android:layout_height="@*com.google.android.apps.photos:dimen/photos_search_carousel_tile_text_height"
             android:minHeight="24.0dip"
-            android:maxLines="2"
-            android:singleLine="false"
             style="@*com.google.android.apps.photos:style/Photos.Search.Carousel.AlbumTitleText" />
     </LinearLayout>
 </android.support.design.card.MaterialCardView>
