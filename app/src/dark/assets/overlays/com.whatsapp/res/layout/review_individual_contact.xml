@@ -67,7 +67,6 @@
         <View
             android:background="@*com.whatsapp:color/divider_gray"
             android:layout_width="fill_parent"
-            android:layout_height="0.5dip"
-            android:layout_alignParentBottom="true" />
+            android:layout_height="0.5dip" />
     </LinearLayout>
 </FrameLayout>

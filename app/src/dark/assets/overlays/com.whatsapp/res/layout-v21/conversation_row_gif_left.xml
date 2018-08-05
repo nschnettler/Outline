@@ -119,6 +119,15 @@
                 </FrameLayout>
             </FrameLayout>
 
+            <FrameLayout
+                android:id="@*com.whatsapp:id/suspicious_link_indicator_holder"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:paddingBottom="2.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
             <com.whatsapp.TextAndDateLayout
                 android:id="@*com.whatsapp:id/text_and_date"
                 android:layout_width="fill_parent"

@@ -4,6 +4,7 @@
 
     <LinearLayout
         android:orientation="vertical"
+        android:id="@*com.whatsapp:id/conversation_row_root"
         android:layout_width="262.0dip"
         android:layout_height="wrap_content"
         android:layout_marginRight="40.0dip">

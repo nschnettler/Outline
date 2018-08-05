@@ -32,7 +32,22 @@
                 android:id="@*com.whatsapp:id/locations_row"
                 layout="@*com.whatsapp:layout/storage_usage_detail_row" />
 
-            <include layout="@*com.whatsapp:layout/divider_row" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@*com.whatsapp:color/gray_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:background="@*com.whatsapp:drawable/list_separator_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+
+                <View
+                    android:background="@*com.whatsapp:drawable/list_separator_bot"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+            </LinearLayout>
 
             <include
                 android:id="@*com.whatsapp:id/image_row"

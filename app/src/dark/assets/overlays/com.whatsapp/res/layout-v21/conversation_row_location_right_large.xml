@@ -19,8 +19,7 @@
             android:id="@*com.whatsapp:id/map_frame"
             android:padding="@*com.whatsapp:dimen/conversation_video_thumb_padding"
             android:layout_width="fill_parent"
-            android:layout_height="147.0dip"
-            android:layout_centerVertical="true">
+            android:layout_height="147.0dip">
 
             <ImageView
                 android:id="@*com.whatsapp:id/thumb"

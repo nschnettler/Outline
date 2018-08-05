@@ -4,6 +4,7 @@
 
     <LinearLayout
         android:orientation="vertical"
+        android:id="@*com.whatsapp:id/conversation_row_root"
         android:layout_width="262.0dip"
         android:layout_height="wrap_content"
         android:layout_marginRight="40.0dip">
@@ -49,7 +50,7 @@
 
                     <com.whatsapp.TextEmojiLabel
                         android:textSize="@*com.whatsapp:dimen/conversation_participant_name_tv"
-                        android:textColor="#ffdddddd"
+                        android:textColor="#b3FFFFFF"
                         android:id="@*com.whatsapp:id/pushname_in_group_tv"
                         android:paddingLeft="12.0sp"
                         android:layout_width="wrap_content"
@@ -112,7 +113,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="bottom|center|left"
                     android:id="@*com.whatsapp:id/description"
                     android:paddingLeft="58.0dip"
