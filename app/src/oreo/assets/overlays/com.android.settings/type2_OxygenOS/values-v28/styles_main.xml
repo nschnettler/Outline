@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:titleTextStyle">@*com.android.settings:style/Oneplus.TextAppearance.Material.Widget.ActionBar.Title</item>
+        <item name="android:contentInsetStart">@*com.android.settings:dimen/actionbar_contentInsetStart</item>
+    </style>
+</resources>
