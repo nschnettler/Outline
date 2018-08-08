@@ -14,4 +14,5 @@
     <color name="homepage_storage_background">#0d000000</color>
     <color name="homepage_support_background">#0d000000</color>
     <color name="homepage_system_background">#0d000000</color>
+    <color name="oneplus_settings_dashboard_icon_bg_color">#0d000000</color>                        <!-- OxygenOS -->
 </resources>
