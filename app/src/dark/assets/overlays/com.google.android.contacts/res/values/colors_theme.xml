@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Colors -->
-    <color name="contextual_selection_bar_color">@*android:color/primary_material_dark</color>              <!-- Contextual - Toolbar -->
-    <color name="contextual_selection_bar_status_bar_color">@*android:color/primary_material_dark</color>   <!-- Contextual - StatusBar -->
-    <color name="google_grey500">@*android:color/primary_dark_material_dark</color>                        <!-- LaunchScreen - Statusbar -->
+    <!-- Text  -->
+    <color name="manage_accounts_text_color">#FFF</color>                                           <!-- Accounts -->
+    <color name="default_account_details_color">#FFF</color>                                        <!-- Selected Account -->
+    <color name="google_grey700">#FFF</color>                                                       <!-- Toolbar Product Name -->
+    <color name="google_grey800">#FFF</color>
+    <color name="google_grey300">#FFF</color>                                                       <!-- Sign-In Message Text -->
 
     <!-- Background -->
-    <color name="background_primary">@*android:color/background_material_dark</color>                       <!-- Main -->
-    <color name="navigation_drawer_background_color">@*android:color/background_material_dark</color>       <!-- Drawer -->
-    <color name="background_material_light">@*android:color/background_material_dark</color>
-    <color name="cardview_dark_background">@*android:color/background_material_dark</color>                 <!-- Cards -->
-    <color name="background_floating_material_light">@*android:color/background_material_dark</color>       <!-- Dialogs / u.a. "create Label" -->
-    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>        <!-- Dialog -->
-    <color name="quickcontact_header_background">@*android:color/background_material_dark</color>           <!-- Contact - Header -->
-    <color name="header_avatar_border_color">@*android:color/background_dark</color>                        <!-- Contact - Avatar Border -->
-    <color name="drawer_selected_color">#1a000000</color>                                                   <!-- Drawer - Selected -->
-    <color name="owner_snackbar_bg">@*android:color/background_material_dark</color>
     <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
-
-    <!-- Divider -->
-    <color name="divider_line_color_light">#33000000</color>                                                <!-- Contact divider color -->
-
-    <!-- Text Color -->
-    <color name="manage_accounts_text_color">#FFFFFF</color>                                                <!-- Accounts -->
-    <color name="default_account_details_color">#FFFFFF</color>                                             <!-- Other Accounts -->
-    <color name="primary_text_default_material_light">#FFFFFF</color>
-
-    <!-- Icon -->
-    <color name="actionbar_color_grey_solid">#FFFFFF</color>                                                <!-- New Contact - Toolbar -->
 </resources>

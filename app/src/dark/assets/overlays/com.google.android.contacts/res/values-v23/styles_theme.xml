@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme (Overwrite Google_White) -->
+    <style name="Base.Theme.GoogleMaterial.Light" parent="@*com.google.android.contacts:style/Base.V14.Theme.GoogleMaterial.Light">
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.google.android.contacts:colorPrimary">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.contacts:colorPrimaryDark">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.contacts:colorBackgroundFloating">@*android:color/background_material_dark</item>
+    </style>
+</resources>

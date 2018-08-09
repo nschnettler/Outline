@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialog -->
+    <style name="Base.Theme.GoogleMaterial.Light.Dialog" parent="@*com.google.android.contacts:style/Base.V14.Theme.GoogleMaterial.Light.Dialog">
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.contacts:textColorAlertDialogListItem">#FFF</item>
+    </style>
+
+    <!-- Cardview (Stroke Color) -->
+    <style name="Widget.GoogleMaterial.CardView.Light" parent="@*com.google.android.contacts:style/Widget.GoogleMaterial.CardView">
+        <item name="*com.google.android.contacts:strokeColor">#1a000000</item>
+    </style>
+</resources>
