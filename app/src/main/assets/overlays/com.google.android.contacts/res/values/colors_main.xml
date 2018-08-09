@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Primary -->
-    <color name="primary_color">@android:color/holo_blue_light</color>                        <!-- Primary -->
-    <color name="primary_color_dark">@android:color/holo_blue_light</color>                         <!-- Primary Dark -->
-    <color name="group_primary_color_dark">@android:color/holo_blue_light</color>                   <!-- Group - Primary -->
-    <color name="group_primary_color">@android:color/holo_blue_light</color>                        <!-- Group - Primary Dark -->
-
-    <!-- App Accent -->
-    <color name="material_star_pink">@android:color/holo_blue_dark</color>
-
-    <color name="swipe_refresh_color1">@android:color/holo_blue_dark</color>
-    <color name="swipe_refresh_color2">@android:color/holo_blue_dark</color>
-    <color name="swipe_refresh_color3">@android:color/holo_blue_dark</color>
-    <color name="swipe_refresh_color4">@android:color/holo_blue_dark</color>
+    <!-- Accent -->
+    <color name="google_blue600">@android:color/holo_blue_light</color>                             <!-- Accent (Secondary600)-->
+    <color name="google_blue500">@android:color/holo_blue_light</color>                             <!-- Secondary 500 -->
 </resources>
