@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Colors - Accent -->
-    <color name="twitter_blue">@*android:color/holo_blue_light</color>                              <!--  -->
+    <color name="twitter_blue">@*android:color/holo_blue_light</color>
     <color name="text_blue">@*android:color/holo_blue_light</color>
 
     <!-- Icons -->
