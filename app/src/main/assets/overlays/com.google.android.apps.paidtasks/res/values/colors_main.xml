@@ -8,6 +8,5 @@
     <color name="accent">@*android:color/holo_blue_dark</color>
 
     <!-- Other -->
-    <color name="blue_500">@*android:color/holo_blue_light</color>
     <color name="blue_grey_500">@*android:color/holo_blue_light</color>                             <!-- Drawer Header -->
 </resources>
