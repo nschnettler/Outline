@@ -50,13 +50,13 @@
 
         <ImageView
             android:id="@*com.google.android.apps.photos:id/add_photos_button"
-            android:src="@*com.google.android.apps.photos:drawable/quantum_gm_ic_add_photo_alternate_grey600_24"
+            android:src="@*com.google.android.apps.photos:drawable/quantum_gm_ic_add_photo_alternate_gm_grey_24"
             android:contentDescription="@*com.google.android.apps.photos:string/photos_comments_ui_commentbar_add_photos_icon_content_desc"
             style="@*com.google.android.apps.photos:style/Photos.Comments.Ui.CommentBar.CommentBarIcon" />
 
         <ImageView
             android:id="@*com.google.android.apps.photos:id/heart_button"
-            android:src="@*com.google.android.apps.photos:drawable/quantum_gm_ic_favorite_border_grey600_24"
+            android:src="@*com.google.android.apps.photos:drawable/quantum_gm_ic_favorite_border_gm_grey_24"
             android:contentDescription="@null"
             style="@*com.google.android.apps.photos:style/Photos.Comments.Ui.CommentBar.CommentBarIcon" />
 

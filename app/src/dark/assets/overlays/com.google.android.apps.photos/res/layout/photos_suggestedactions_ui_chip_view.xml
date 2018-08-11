@@ -2,8 +2,8 @@
 <LinearLayout android:gravity="center_vertical"
     android:layout_gravity="center"
     android:orientation="horizontal"
-    android:id="@*com.google.android.apps.photos:id/photobar_suggestion_chip"
     android:background="@*com.google.android.apps.photos:drawable/photos_suggestedactions_ui_chip_background"
+    android:padding="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_touch_area_padding"
     android:visibility="gone"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -11,19 +11,21 @@
 
     <ImageView
         android:id="@*com.google.android.apps.photos:id/action_image"
+        android:padding="4.0dip"
         android:layout_width="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
-        android:scaleType="center"
+        android:scaleType="centerInside"
         android:contentDescription="@null"
         android:importantForAccessibility="no" />
 
-    <TextView
+    <com.google.android.apps.photos.suggestedactions.ui.AlternateTextView
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:id="@*com.google.android.apps.photos:id/action_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_height"
+        android:paddingStart="2.0dip"
         style="@*com.google.android.apps.photos:style/photos_suggestedactions_ui_chip_text" />
 
     <ImageView
