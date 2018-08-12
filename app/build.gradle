@@ -6,11 +6,10 @@ apply from: 'AdvancedTasks.gradle'
 android {
     compileSdkVersion 28
     buildToolsVersion '27.0.3'
-
     defaultConfig {
         targetSdkVersion 28
-        versionCode 5
-        versionName "21.2"
+        versionCode 7
+        versionName "22"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -35,7 +34,7 @@ android {
         }
         flavorDimensions "theme", "androidVersion"
         productFlavors {
-            dark{
+            dark {
                 dimension "theme"
                 applicationId "com.schnettler.ethereal"
 
@@ -53,25 +52,42 @@ android {
                 dimension "androidVersion"
                 minSdkVersion 26
                 versionCode 260000  + android.defaultConfig.versionCode
-                versionName "Oreo/Pancake - " + android.defaultConfig.versionName
+                versionName "Oreo/Pie - " + android.defaultConfig.versionName
             }
             nougat {
                 dimension "androidVersion"
                 minSdkVersion 25
-                versionCode 250000  + android.defaultConfig.versionCode
+                versionCode 250000 + android.defaultConfig.versionCode
                 versionName "Nougat - " + android.defaultConfig.versionName
             }
-
         }
     }
-
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
     signingConfigs {
         debug {
             storeFile file("debug.keystore")
+        }
+        EtherealRelease {
+            keyPassword '99Laiwzh#'
+            storeFile file('D:/Benutzer/Niklas Schnettler/Google Drive/Development/Android Keystores/OutlineDark.jks')
+            storePassword '99Laiwzh#'
+            keyAlias 'outlinedark'
+        }
+        OutlineRelease {
+            keyPassword '99Laiwzh#'
+            storeFile file('D:/Benutzer/Niklas Schnettler/Google Drive/Development/Android Keystores/OutlineKeystore.jks')
+            storePassword '99Laiwzh#'
+            keyAlias 'outlinekey'
+        }
+    }
+    productFlavors {
+        dark {
+            signingConfig signingConfigs.EtherealRelease
+        }
+        light {
+            signingConfig signingConfigs.OutlineRelease
         }
     }
 }
