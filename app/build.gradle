@@ -8,7 +8,7 @@ android {
     buildToolsVersion '27.0.3'
     defaultConfig {
         targetSdkVersion 28
-        versionCode 7
+        versionCode 8
         versionName "22"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
@@ -68,26 +68,6 @@ android {
     signingConfigs {
         debug {
             storeFile file("debug.keystore")
-        }
-        EtherealRelease {
-            keyPassword '99Laiwzh#'
-            storeFile file('D:/Benutzer/Niklas Schnettler/Google Drive/Development/Android Keystores/OutlineDark.jks')
-            storePassword '99Laiwzh#'
-            keyAlias 'outlinedark'
-        }
-        OutlineRelease {
-            keyPassword '99Laiwzh#'
-            storeFile file('D:/Benutzer/Niklas Schnettler/Google Drive/Development/Android Keystores/OutlineKeystore.jks')
-            storePassword '99Laiwzh#'
-            keyAlias 'outlinekey'
-        }
-    }
-    productFlavors {
-        dark {
-            signingConfig signingConfigs.EtherealRelease
-        }
-        light {
-            signingConfig signingConfigs.OutlineRelease
         }
     }
 }
