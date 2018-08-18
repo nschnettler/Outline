@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:foreground="@*com.whatsapp:drawable/balloon_incoming_frame"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <LinearLayout
         android:gravity="center_vertical"
@@ -25,12 +26,29 @@
                 android:layout_height="@*com.whatsapp:dimen/link_preview_thumb_height"
                 android:scaleType="centerCrop" />
 
-            <ProgressBar
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@*com.whatsapp:id/play_button"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@*com.whatsapp:drawable/ic_video_play"
+                android:contentDescription="@*com.whatsapp:string/play_video" />
+
+            <com.whatsapp.CircularProgressBar
+                android:layout_gravity="center"
                 android:id="@*com.whatsapp:id/progress"
                 android:padding="16.0dip"
                 android:visibility="gone"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" />
+                android:layout_height="fill_parent"
+                android:indeterminateOnly="true"
+                whatsapp:cpbBackground="#00000000"
+                whatsapp:cpbColor="#99ffffff"
+                whatsapp:cpbFill="#00000000"
+                whatsapp:cpbOutlineColor="#20000000"
+                whatsapp:cpbOutlineWidth="1.0dip"
+                whatsapp:cpbStrokeWidthFactor="10.0" />
         </FrameLayout>
 
         <LinearLayout
