@@ -3,7 +3,4 @@
     <!-- Backgrounds -->
     <color name="background_material_dark">#202028</color>                                          <!-- Primary Background -->
     <color name="background_dark">#1c1c24</color>                                                   <!-- Background Darker -->
-    <!-- Primary Color -->
-    <color name="primary_material_dark">#202028</color>                                             <!-- Primary -->
-    <color name="primary_dark_material_dark">#202028</color>                                        <!-- Primary Dark -->
 </resources>
