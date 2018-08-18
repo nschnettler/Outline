@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="holo_red_dark">@android:color/holo_blue_light</color>
+    <color name="holo_blue_dark">@android:color/holo_red_light</color>
+    <color name="holo_green_dark">@android:color/holo_blue_light</color>
+    <color name="holo_orange_dark">@android:color/holo_blue_light</color>
+</resources>
