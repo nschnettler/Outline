@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.V27.Theme.YouTube.Light" >
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="*com.google.android.youtube:actionBarSize">56dp</item>
-    </style>
-</resources>
