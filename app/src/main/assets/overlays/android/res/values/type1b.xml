@@ -7,7 +7,4 @@
     <color name="holo_orange_light">#f2a56f</color>
     <color name="holo_purple">#8e8eb2</color>
     <color name="holo_gray_light">#757575</color>
-
-    <!-- Accent -->
-    <color name="accent_material_light">@android:color/holo_red_light</color>
 </resources>
