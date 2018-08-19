@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary_color">@android:color/holo_blue_light</color>
+    <color name="action_bar_background_color_dark">@android:color/holo_blue_light</color>           <!-- Dark -->
+    <color name="contextual_action_bar_background_color">@android:color/holo_blue_light</color>     <!-- Action Mode -->
+
+    <!-- Archived Messages: Primary -->
+    <color name="archived_conversation_action_bar_background_color">@android:color/holo_blue_light</color>
+    <color name="archived_conversation_action_bar_background_color_dark">@android:color/holo_blue_light</color>
+
+    <!-- Accent -->
+    <color name="fab_color">@android:color/holo_blue_dark</color>
+    <color name="letter_tile_default_primary_color">@android:color/holo_blue_dark</color>
+    <color name="contact_list_alphabet_header">@android:color/holo_blue_dark</color>
+    <color name="google_blue_800">@android:color/holo_blue_dark</color>
+
+    <!-- Error -->
+    <color name="conversation_list_error">@android:color/holo_red_light</color>
+    <color name="message_failed_timestamp_text">@android:color/holo_red_light</color>
+</resources>

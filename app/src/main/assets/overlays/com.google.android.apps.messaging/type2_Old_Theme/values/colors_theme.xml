@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="conversation_background">#FFFFFF</color>                                           <!-- Conversation -->
+    <color name="message_bubble_color_outgoing">#ECEFF1</color>                                     <!-- Message - Outgoing -->
+</resources>

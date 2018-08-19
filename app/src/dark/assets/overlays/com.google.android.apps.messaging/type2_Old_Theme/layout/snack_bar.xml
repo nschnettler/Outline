@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:id="@*com.google.android.apps.messaging:id/snackbarContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@*com.google.android.apps.messaging:id/snack_bar"
+        android:background="@*android:color/background_material_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:id="@*com.google.android.apps.messaging:id/snack_bar_message_wrapper"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.google.android.apps.messaging:dimen/snack_bar_top_bottom_margin"
+            android:layout_marginBottom="@*com.google.android.apps.messaging:dimen/snack_bar_top_bottom_margin"
+            android:layout_weight="1.0"
+            style="@*com.google.android.apps.messaging:style/SnackBarMessageWrapper">
+
+            <TextView
+                android:id="@*com.google.android.apps.messaging:id/snack_bar_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="locale"
+                style="@*com.google.android.apps.messaging:style/SnackBarText" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_gravity="center_vertical"
+            android:id="@*com.google.android.apps.messaging:id/snack_bar_action_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            style="@*com.google.android.apps.messaging:style/SnackBarMessageWrapper">
+
+            <TextView
+                android:textColor="@android:color/holo_blue_dark"
+                android:gravity="center"
+                android:id="@*com.google.android.apps.messaging:id/snack_bar_action"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:minWidth="@*com.google.android.apps.messaging:dimen/min_touch_target_size"
+                android:minHeight="@*com.google.android.apps.messaging:dimen/min_touch_target_size"
+                android:textAllCaps="true"
+                style="@*com.google.android.apps.messaging:style/SnackBarText" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
