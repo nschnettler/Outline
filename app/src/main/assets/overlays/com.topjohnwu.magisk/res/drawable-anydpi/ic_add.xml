@@ -8,5 +8,6 @@
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M11.969 5.5v13-13zM5.469 12h13-13z" />
+        android:pathData="M12 5.75v12.5-12.5zM5.75
+12h12.5-12.5z" />
 </vector>
