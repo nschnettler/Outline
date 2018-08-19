@@ -14,6 +14,7 @@
     <color name="white">@*android:color/background_material_dark</color>                            <!-- Various Backgrounds: Cards, Select Account, Now Playing Queue, Album Card Background -->
     <color name="music_play_card_small_number_bg">@*android:color/background_material_dark</color>
     <color name="design_snackbar_background_color">@*android:color/background_material_dark</color> <!-- Snackbar -->
+    <color name="background_material_light">@*android:color/background_material_dark</color>        <!-- Cast Dialog -->
 
     <!-- Dialog -->
     <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color><!-- Dialog Background | Example: Switch Account warning -->
