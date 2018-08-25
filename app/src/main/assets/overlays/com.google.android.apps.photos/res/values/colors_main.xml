@@ -11,4 +11,5 @@
     <color name="quantum_lightblueA200">@android:color/holo_blue_light</color>
     <color name="quantum_lightgreen500">@android:color/holo_green_light</color>
     <color name="quantum_deeppurple500">@android:color/holo_purple</color>
+    <color name="quantum_orange500">@android:color/holo_orange_light</color>
 </resources>
