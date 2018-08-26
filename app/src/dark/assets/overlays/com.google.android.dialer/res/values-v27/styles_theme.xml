@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Use Dark Theme -->
-    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityThemeBase.Dark">
-        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
+    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityTheme.Dark">
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
