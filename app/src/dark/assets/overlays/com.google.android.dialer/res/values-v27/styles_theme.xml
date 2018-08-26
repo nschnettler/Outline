@@ -10,4 +10,18 @@
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
+    <!-- Incall -->
+    <style name="Theme.InCallScreen" parent="@*com.google.android.dialer:style/Dialer.ThemeBase.NoActionBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="*com.google.android.dialer:dialpad_style">@*com.google.android.dialer:style/InCallDialpad</item>
+        <item name="*com.google.android.dialer:dialpad_key_button_touch_tint">?android:colorPrimary</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
 </resources>

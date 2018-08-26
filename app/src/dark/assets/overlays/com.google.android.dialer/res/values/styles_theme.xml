@@ -30,7 +30,6 @@
         <item name="*com.google.android.dialer:dialpad_key_button_touch_tint">?android:colorPrimary</item>
 
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
         <item name="android:windowTranslucentNavigation">true</item>
     </style>
 </resources>
