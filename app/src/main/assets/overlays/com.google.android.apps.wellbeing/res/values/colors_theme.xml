@@ -3,7 +3,4 @@
     <!-- App Colors -->
     <color name="google_grey200">#FFF</color>                                                       <!-- Primary Dark -->
     <color name="google_grey50">#FFF</color>                                                        <!-- Primary -->
-
-    <!-- Chart - Unselected -->
-    <color name="google_blue100">#33000000</color>
 </resources>

@@ -7,9 +7,6 @@
     <!-- Background -->
     <color name="google_white">@*android:color/background_material_dark</color>                     <!-- Dashboard -->
 
-    <!-- Chart - Unselected -->
-    <color name="google_blue100">#33FFFFFF</color>
-
     <!-- Divider -->
     <color name="google_grey300">#1a000000</color>
     <color name="google_grey100">#1a000000</color>
