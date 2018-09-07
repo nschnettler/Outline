@@ -4,12 +4,11 @@
     <color name="quantum_googblue500">@android:color/holo_blue_light</color>
     <color name="quantum_googblue700">@android:color/holo_blue_light</color>
     <color name="quantum_googred500">@android:color/holo_blue_light</color>
-    <color name="bt_toastbar_button_background">@android:color/holo_blue_light</color>
 
     <!-- New ... Buttons -->
-    <color name="quantum_googredA200">@android:color/holo_red_light</color>
-    <color name="quantum_lightblueA200">@android:color/holo_blue_light</color>
-    <color name="quantum_lightgreen500">@android:color/holo_green_light</color>
-    <color name="quantum_deeppurple500">@android:color/holo_purple</color>
-    <color name="quantum_orange500">@android:color/holo_orange_light</color>
+    <color name="google_red500">@android:color/holo_red_light</color>
+    <color name="google_blue500">@android:color/holo_blue_light</color>
+    <color name="google_green500">@android:color/holo_green_light</color>
+    <color name="google_purple500">@android:color/holo_purple</color>
+    <color name="google_yellow500">@android:color/holo_orange_light</color>
 </resources>
