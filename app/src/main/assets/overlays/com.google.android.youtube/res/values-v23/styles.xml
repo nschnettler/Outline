@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.V23.Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.V21.Theme.YouTube.Light">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

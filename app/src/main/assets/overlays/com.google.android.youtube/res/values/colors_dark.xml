@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="navigation_bar_background_dark">@*android:color/background_material_dark</color>
+    <color name="yt_status_bar_background_dark">@*android:color/background_material_dark</color>
+    <color name="yt_black1">@*android:color/background_material_dark</color>                        <!-- Primary -->
+    <color name="yt_black2">@*android:color/background_material_dark</color>                        <!-- Secondary -->
+    <color name="yt_black3">@android:color/background_dark</color>                                  <!-- Tertiary -->
+    <color name="yt_navy_blue">@*android:color/background_material_dark</color>                     <!-- Chip -->
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
+
+    <!-- Divider -->
+    <color name="navigation_bar_divider_dark">#1a000000</color>
+    <color name="yt_separator_dark">#1a000000</color>
+
+    <!-- Text -->
+    <color name="yt_grey2">#b3FFFFFF</color>
+    <color name="yt_grey3">#b3FFFFFF</color>
+    <color name="yt_unselected_nav_icon_dark">#b3FFFFFF</color>
+
+    <!-- Icon -->
+    <color name="yt_icon_1_dark">#FFF</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LaunchScreen -->
+    <style name="Theme.YouTube.Launcher" parent="@*com.google.android.youtube:style/Theme.YouTube.Dark.NoActionBar">
+        <item name="android:windowBackground">@*com.google.android.youtube:drawable/quantum_launchscreen_youtube</item>
+    </style>
+</resources>

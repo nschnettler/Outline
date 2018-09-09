@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text -->
+    <color name="toolbar_text_color">#FFF</color>
+    <color name="subscribe_button_subscribed_font_color">#b3FFFFFF</color>
+
+    <!-- Background -->
+    <color name="theme_watch_color_primary_dark">#000</color>
+</resources>
