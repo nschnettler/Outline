@@ -15,8 +15,6 @@
     <color name="yt_separator_dark">#1a000000</color>
 
     <!-- Text -->
-    <color name="yt_grey2">#b3FFFFFF</color>
-    <color name="yt_grey3">#b3FFFFFF</color>
     <color name="yt_unselected_nav_icon_dark">#b3FFFFFF</color>
 
     <!-- Icon -->

@@ -3,6 +3,8 @@
     <!-- Text -->
     <color name="toolbar_text_color">#FFF</color>
     <color name="subscribe_button_subscribed_font_color">#b3FFFFFF</color>
+    <color name="yt_grey2">#b3FFFFFF</color>
+    <color name="yt_grey3">#b3FFFFFF</color>
 
     <!-- Background -->
     <color name="theme_watch_color_primary_dark">#000</color>
