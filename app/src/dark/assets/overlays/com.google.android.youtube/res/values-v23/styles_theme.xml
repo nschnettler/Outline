@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- App Theme (-> Dark) -->
-    <style name="Theme.YouTube.Light" parent="*com.google.android.youtube:style/Base.V23.Theme.YouTube.Dark">
-        <item name="*com.google.android.youtube:actionBarSize">56dp</item>
-    </style>
-    <!-- Share Dialog -->
-    <style name="Theme.YouTube.Share.DialogFragment.Light" parent="@*com.google.android.youtube:style/Base.Theme.YouTube.Share.DialogFragment.Dark" />
-</resources>
