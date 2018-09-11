@@ -7,6 +7,7 @@
     android:visibility="gone"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:backgroundTint="@null"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
@@ -16,7 +17,8 @@
         android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:scaleType="centerInside"
         android:contentDescription="@null"
-        android:importantForAccessibility="no" />
+        android:importantForAccessibility="no"
+        android:tint="#757575"/>
 
     <com.google.android.apps.photos.suggestedactions.ui.AlternateTextView
         android:textColor="#FFFFFF"
@@ -34,5 +36,6 @@
         android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
         android:src="@*com.google.android.apps.photos:drawable/photos_suggestedactions_ui_close_icon"
         android:scaleType="center"
-        android:contentDescription="@*com.google.android.apps.photos:string/photos_suggestedactions_ui_dismiss_button_description" />
+        android:contentDescription="@*com.google.android.apps.photos:string/photos_suggestedactions_ui_dismiss_button_description"
+        android:tint="#757575"/>
 </LinearLayout>

@@ -1,60 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
-    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
-    <color name="primary_material_light">@*android:color/primary_material_dark</color>
+    <!-- Background -->
+    <color name="quantum_white_100">@*android:color/background_material_dark</color>
+    <color name="google_white">@*android:color/background_material_dark</color>
+    <color name="photos_theme_gm2_white_translucent_navigation_bar_color">#00000000</color>         <!-- NavBar Overlay-->
+    <color name="google_grey300">#1a000000</color>                                                  <!-- Card - Stroke -->
+    <color name="photos_theme_fake_shadow_end_color">#1a000000</color>
+    <color name="photos_photoadapteritem_photo_placeholder">@*android:color/background_dark</color>
+    <color name="photos_photoeditor_commonui_toolbar_background">@*android:color/background_material_dark</color>
+    <color name="photos_photoeditor_adjustments_background">@*android:color/background_material_dark</color>
+    <color name="photos_photoeditor_crop_toolbar_background">@*android:color/background_material_dark</color>
+
+    <!-- Text -->
+    <color name="google_grey600">#FFF</color>                                                       <!-- Header -->
+    <color name="google_grey800">#FFF</color>                                                       <!-- Primary -->
+    <color name="google_grey700">#b3FFFFFF</color>                                                  <!-- Secondary -->
+    <color name="quantum_grey900">#FFF</color>                                                      <!-- Drawer -->
+    <color name="photos_assistant_cardui_header_dark_title">#b3FFFFFF</color>                       <!-- Card - Header -->
+    <color name="sendkit_ui_default_primary_color">#FFF</color>                                     <!-- Share - Primary -->
+    <color name="sendkit_ui_default_secondary_color">#b3FFFFFF</color><!-- Share Secondary -->
+    <color name="quantum_black_text">#FFF</color>
+    <color name="quantum_black_secondary_text">#b3FFFFFF</color>
+    <color name="quantum_black_hint_text">#b3FFFFFF</color>
+    <color name="quantum_black_100">#FFF</color>
+    <color name="google_grey900">#FFF</color>
+    <color name="photos_list_fastscroll_new_scrubber_scale_label_text">#FFF</color>
+    <color name="text_black_87_percent">#FFF</color>
+    <color name="photos_list_fastscroll_new_scrubber_label_text">#80000000</color>
 
     <!-- Icon -->
     <color name="secondary_text_default_material_light">#FFFFFF</color>
-
-    <!-- Background -->
-    <color name="quantum_white_100">@*android:color/background_material_dark</color>                                <!-- Main Bg 2 -->
-    <color name="photos_photoadapteritem_photo_background">@*android:color/background_material_dark</color>         <!-- When photo Selected -->
-    <color name="photos_page_recycler_blank_square_backgroud">@*android:color/background_material_dark</color>
-    <color name="photos_photoadapteritem_photo_placeholder">@*android:color/background_dark</color>                 <!-- Photo Placeholder -->
-    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>      <!-- Dialog -->
-    <color name="quantum_grey200">@*android:color/background_dark</color>                                           <!-- Search Divider -->
-    <color name="quantum_grey300">@*android:color/background_dark</color>                                           <!-- Divider: Drawer, Overflow Uploaded Bubble -->
-    <color name="quantum_grey100">@*android:color/background_material_dark</color>                                  <!-- Device Folder Switchbar -->
-    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
-    <color name="photos_list_fastscroll_new_scrubber_scale_label_background">@*android:color/background_dark</color>
-    <!-- Share -->
-    <color name="sendkit_ui_default_background_color">@*android:color/background_material_dark</color>
-    <color name="sendkit_ui_list_background_color">@*android:color/background_material_dark</color>
-    <color name="sendkit_ui_autocomplete_background_color">@*android:color/background_material_dark</color>
-    <color name="sendkit_ui_autocomplete_row_background_color">@*android:color/background_material_dark</color>
-    <color name="sendkit_ui_autocomplete_chip_background">@*android:color/background_dark</color>                   <!-- Share user selected -->
-    <color name="photos_theme_fake_shadow_end_color">@*android:color/background_dark</color>                        <!-- BottomBar Shadow -->
-
-    <!-- Text -->
-    <color name="quantum_black_text">#FFFFFF</color>
-    <color name="quantum_black_secondary_text">#b3FFFFFF</color>                                    <!-- | Photo Details Subtitle, Album List Header -->
-    <color name="quantum_grey600">#FFFFFF</color>                                                   <!-- | Photo Details Header -->
-    <color name="photos_assistant_cardui_header_dark_title">#FFFFFF</color>                         <!-- Assistant Card: Header -->
-    <color name="quantum_black_100">#FFFFFF</color>                                                 <!-- | Button -->
-    <color name="text_black_87_percent">#FFFFFF</color>                                             <!-- | Album Name -->
-    <color name="text_black_54_percent">#89ffffff</color>                                           <!-- | Album Date -->
-    <color name="quantum_grey900">#b3FFFFFF</color>
-    <color name="sendkit_ui_default_primary_color">#ffffffff</color>                                <!-- Share: Name -->
-    <color name="sendkit_ui_default_secondary_color">#ccffffff</color>                              <!-- Share: Description/Mail -->
-    <color name="sendkit_ui_autocomplete_text_color">#b3FFFFFF</color>
-    <color name="quantum_grey500">#b3FFFFFF</color>
-    <color name="photos_assistant_cardui_disabled_button_text">@android:color/holo_green_light</color>
-    <color name="photos_assistant_cardui_normal_text">#FFFFFF</color>                               <!-- Assistant Card - Normal Text + Button -->
-    <color name="photos_assistant_cardui_white_title">#FFFFFF</color>                               <!-- Assistant Card - Title -->
-    <color name="photos_assistant_cardui_white_button_text">#FFFFFF</color>                         <!-- Assistant Card - Other Button -->
-    <color name="photos_list_fastscroll_new_scrubber_label_text">#FFFFFF</color>                    <!-- Fastscroll - Currently Selected -->
-    <color name="photos_list_fastscroll_new_scrubber_scale_label_text">#b3FFFFFF</color>            <!-- Fastscroll - Not Selected -->
-    <color name="photos_lens_ui_dark_text_color">#FFFFFF</color>                                    <!-- Lens - Title -->
-    <color name="photos_lens_ui_translucent_text_color">#b3FFFFFF</color>                           <!-- Lens - SubTitle -->
-    <color name="text_black_26_percent">#80FFFFFF</color>                                           <!-- Disabled -->
-
-    <!-- Button -->
-    <color name="photos_theme_button_light_color">@*android:color/background_dark</color>
-    <color name="photos_theme_button_light_disabled">@*android:color/background_dark</color>
-    <color name="photos_theme_button_light_disabled_text_color">#b3FFFFFF</color>
-    <color name="photos_theme_button_light_focused">@*android:color/background_dark</color>
-    <color name="photos_theme_button_light_pressed">@*android:color/background_dark</color>
-
-    <color name="material_grey_300">@*android:color/background_dark</color>
+    <color name="quantum_grey600">#b3FFFFFF</color>
 </resources>

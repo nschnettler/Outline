@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical"
-    android:id="@*com.google.android.apps.photos:id/section_container"
-    android:background="@*android:color/background_material_dark"
-    android:paddingTop="8.0dip"
-    android:paddingBottom="8.0dip"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
