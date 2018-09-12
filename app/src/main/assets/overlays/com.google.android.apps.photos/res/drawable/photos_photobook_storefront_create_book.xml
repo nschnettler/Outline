@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@*com.google.android.apps.photos:drawable/photos_photobook_storefront_dashed_square" />
+    <item android:drawable="@*com.google.android.apps.photos:drawable/photos_photobook_storefront_create_book_icon" android:gravity="center"/>
+</layer-list>
