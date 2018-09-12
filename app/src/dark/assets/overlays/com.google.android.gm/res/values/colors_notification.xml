@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notifications -->
+    <color name="bt_dark_text">@*android:color/notification_primary_text_color_light</color>
+</resources>
