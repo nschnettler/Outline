@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:clickable="true"
+<android.support.design.widget.CoordinatorLayout android:id="@*com.google.android.calendar:id/view_screen_coordinator_layout"
+    android:clickable="true"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -45,7 +46,7 @@
                     android:id="@*com.google.android.calendar:id/header_action_bar"
                     android:background="@android:color/transparent"
                     android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
+                    android:layout_height="56.0dip">
 
                     <com.google.android.calendar.common.view.ClickTargetFrameLayout
                         android:id="@*com.google.android.calendar:id/cancel"
@@ -54,14 +55,6 @@
 
                         <ImageView style="@*com.google.android.calendar:style/HeadlineCloseButton" />
                     </com.google.android.calendar.common.view.ClickTargetFrameLayout>
-
-                    <LinearLayout
-                        android:gravity="center_vertical"
-                        android:layout_gravity="end"
-                        android:orientation="horizontal"
-                        android:id="@*com.google.android.calendar:id/overflow_container"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
                 </FrameLayout>
             </FrameLayout>
 
@@ -105,7 +98,7 @@
                     android:focusable="true"
                     android:layout_width="@*com.google.android.calendar:dimen/info_icon_size"
                     android:layout_height="@*com.google.android.calendar:dimen/info_icon_size"
-                    android:src="@*com.google.android.calendar:drawable/quantum_ic_edit_white_24"
+                    android:src="@*com.google.android.calendar:drawable/ic_edit_white_24"
                     android:contentDescription="@*com.google.android.calendar:string/empty_description"
                     style="@*com.google.android.calendar:style/NotImportantForAccessibility" />
             </com.google.android.calendar.common.view.ClickTargetFrameLayout>
@@ -117,4 +110,4 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
     </FrameLayout>
-</FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

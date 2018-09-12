@@ -38,6 +38,13 @@
         <include layout="@*com.google.android.calendar:layout/bottom_sheet_frame" />
 
         <include layout="@*com.google.android.calendar:layout/uss_ribbon" />
+
+        <include layout="@*com.google.android.calendar:layout/gm_ribbon" />
+
+        <com.google.android.apps.calendar.vagabond.viewfactory.PlaceHolderView
+            android:id="@*com.google.android.calendar:id/creation_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
     </FrameLayout>
 
     <FrameLayout
