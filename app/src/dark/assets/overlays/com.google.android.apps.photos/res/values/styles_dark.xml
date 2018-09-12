@@ -44,4 +44,9 @@
     <style name="PhotosActionableToastButton" parent="@*com.google.android.apps.photos:style/Widget.Photos.Button.Borderless">
         <item name="android:backgroundTint">@null</item>
     </style>
+
+    <!-- Buttons -->
+    <style name="Widget.AppCompat.Button" parent="@*com.google.android.apps.photos:style/Base.Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@null</item>
+    </style>
 </resources>
