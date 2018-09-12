@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Icons -->
-    <color name="gray_75">#FFFFFF</color>
+    <color name="material_grey_600">#FFFFFF</color>
 
     <!-- App Theme -->
     <color name="primary_material_light">@*android:color/primary_material_dark</color>
@@ -17,7 +17,7 @@
     <color name="speed_dial_fade_color">#33000000</color>
     <color name="background_floating_material_light">@*android:color/background_material_dark</color>
     <color name="background_material_light">@*android:color/background_material_dark</color>
-    <color name="primary_text_default_material_light">#FFF</color>
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
 
     <!-- Divider -->
     <color name="quantum_grey300">@*android:color/background_dark</color><!-- Divider -->
@@ -30,6 +30,7 @@
     <color name="quantum_grey600">#b3FFFFFF</color>
     <color name="quantum_grey900">#FFFFFF</color>
     <color name="event_info_response">#FFFFFF</color>
+    <color name="primary_text_default_material_light">#FFF</color>
         <!-- Entry -->
         <color name="tile_primary_line">#FFFFFF</color>
         <color name="tile_secondary_line">#b3FFFFFF</color>
