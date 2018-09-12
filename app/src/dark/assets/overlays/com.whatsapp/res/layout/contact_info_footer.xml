@@ -104,7 +104,7 @@
                     android:id="@*com.whatsapp:id/report_contact_text"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@*com.whatsapp:string/report_spam" />
+                    android:text="@*com.whatsapp:string/report_contact" />
             </LinearLayout>
         </LinearLayout>
     </com.whatsapp.InfoCard>

@@ -74,7 +74,7 @@
                 android:id="@*com.whatsapp:id/report_group_text"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@*com.whatsapp:string/report_spam" />
+                android:text="@*com.whatsapp:string/report_group" />
         </LinearLayout>
     </com.whatsapp.InfoCard>
 </LinearLayout>
