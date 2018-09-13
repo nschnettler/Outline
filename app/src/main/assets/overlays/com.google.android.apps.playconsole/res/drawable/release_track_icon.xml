@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="oval">
+            <solid android:color="@*com.google.android.apps.playconsole:color/release_track_icon_prod" />
+        </shape>
+    </item>
+    <item
+        android:left="@*com.google.android.apps.playconsole:dimen/release_track_icon_margin_left"
+        android:top="@*com.google.android.apps.playconsole:dimen/release_track_icon_margin"
+        android:right="@*com.google.android.apps.playconsole:dimen/release_track_icon_margin"
+        android:bottom="@*com.google.android.apps.playconsole:dimen/release_track_icon_margin"
+        android:drawable="@*com.google.android.apps.playconsole:drawable/quantum_ic_play_prism_white_24">
+    </item>
+</layer-list>
