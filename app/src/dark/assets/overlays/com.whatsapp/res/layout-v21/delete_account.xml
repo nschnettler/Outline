@@ -113,6 +113,24 @@
                             android:layout_weight="1.0"
                             style="@*com.whatsapp:style/Text.Steps" />
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@*com.whatsapp:id/delete_payments_account_warning"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            style="@*com.whatsapp:style/Text.Bullet" />
+
+                        <TextView
+                            android:textColor="#b3FFFFFF"
+                            android:layout_width="0.0dip"
+                            android:text="@*com.whatsapp:string/delete_account_item_5"
+                            android:layout_weight="1.0"
+                            style="@*com.whatsapp:style/Text.Steps" />
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
 

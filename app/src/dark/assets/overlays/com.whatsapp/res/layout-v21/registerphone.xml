@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         app:theme="@*com.whatsapp:style/Widget.Styled.ActionBar.Registration.White">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="14.0sp"
                 android:gravity="center_horizontal"
                 android:layout_width="fill_parent"
@@ -45,7 +45,7 @@
                 android:lineSpacingMultiplier="@*com.whatsapp:dimen/registration_description_line_space_multiplier"
                 style="@*com.whatsapp:style/Text.Description" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="16.0sp"
                 android:ellipsize="end"
                 android:gravity="center"
@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="fill_parent">
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textSize="16.0sp"
                         android:textColor="#b3FFFFFF"
                         android:paddingLeft="4.0dip"
@@ -124,7 +124,7 @@
                     android:backgroundTint="@*com.whatsapp:color/accent" />
             </LinearLayout>
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="14.0sp"
                 android:textColorLink="#ff1976d2"
                 android:gravity="center_horizontal"

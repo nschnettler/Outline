@@ -53,6 +53,7 @@
         </RelativeLayout>
 
         <FrameLayout
+            android:id="@android:id/content"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
@@ -92,6 +93,13 @@
                 android:layout_width="fill_parent"
                 android:layout_height="@*com.whatsapp:dimen/abc_action_bar_default_height_material"
                 android:elevation="@*com.whatsapp:dimen/actionbar_elevation" />
+
+            <ViewStub
+                android:layout_gravity="center|right|top"
+                android:id="@*com.whatsapp:id/filter_chat_tip_view_stub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.whatsapp:dimen/abc_action_bar_default_height_material" />
 
             <ImageView
                 android:layout_gravity="bottom|center|right"
