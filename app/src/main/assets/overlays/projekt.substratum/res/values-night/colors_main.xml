@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Overlay Status - 2 -->
-    <color name="overlay_update_available">#80FFFFFF</color>                                        <!-- Update available -->
-    <color name="overlay_update_not_needed">#80FFFFFF</color>                                       <!-- Update2Date -->
-    <color name="overlay_not_installed_list_entry">#80FFFFFF</color>                                <!-- Not Installed -->
-</resources>

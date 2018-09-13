@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Theme -->
-    <color name="colorPrimary">@*android:color/primary_material_dark</color>
-    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="colorPrimary">@*android:color/background_material_dark</color>
+    <color name="primary_material_dark">@*android:color/background_material_dark</color>
     <color name="fab_background_color">@android:color/holo_red_light</color>
     <color name="navigation_bar_divider">@*android:color/background_dark</color>                    <!-- NavigationBarDivider -->
 
@@ -11,4 +11,9 @@
     <color name="main_screen_card_background">@*android:color/background_material_dark</color>      <!-- Main Screen - Cards -->
     <color name="theme_information_background">@*android:color/background_material_dark</color>     <!-- Theme Screen - Background -->
     <color name="window_bg">@*android:color/background_material_dark</color>                        <!-- Main - Background -->
+
+    <!-- Overlay Status - 2 -->
+    <color name="overlay_update_available">#80FFFFFF</color>                                        <!-- Update available -->
+    <color name="overlay_update_not_needed">#80FFFFFF</color>                                       <!-- Update2Date -->
+    <color name="overlay_not_installed_list_entry">#80FFFFFF</color>                                <!-- Not Installed -->
 </resources>
