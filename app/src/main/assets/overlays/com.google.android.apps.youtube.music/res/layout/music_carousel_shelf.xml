@@ -10,7 +10,7 @@
         android:id="@*com.google.android.apps.youtube.music:id/header_container"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@*android:color/background_material_dark"/>
+        android:background="?android:colorBackground"/>
 
     <android.support.v7.widget.RecyclerView
         android:layout_gravity="bottom"
@@ -23,5 +23,5 @@
         android:clipToPadding="false"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@*android:color/background_material_dark"/>
+        android:background="?android:colorBackground"/>
 </LinearLayout>
