@@ -18,4 +18,5 @@
 
     <!-- Custom ROM -->
     <color name="homepage_nitrogen_background">#0d000000</color>
+    <color name="homepage_cf_background">#0d000000</color>
 </resources>
