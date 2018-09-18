@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="@*com.google.android.calculator:style/Theme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="*com.google.android.calculator:windowActionBar">false</item>
+        <item name="*com.google.android.calculator:windowNoTitle">true</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">?android:colorPrimary</item>
+    </style>
+
+    <style name="PadLayoutStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+</resources>
