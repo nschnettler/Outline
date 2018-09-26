@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Statusbar -->
-    <color name="mainview_status_bar_background">#FFFFFF</color>
-    <color name="light_status_bar_background">#FFFFFF</color>
-</resources>

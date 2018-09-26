@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@*com.google.android.calendar:drawable/fab_big_red" />
-    <item
-        android:drawable="@*com.google.android.calendar:drawable/quantum_ic_flag_white_24"
-        android:gravity="center" />
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@*com.google.android.calendar:drawable/fab_small_white" />
+    <item android:gravity="center" android:drawable="@*com.google.android.calendar:drawable/quantum_gm_ic_flag_googblue_24" />
 </layer-list>
