@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.calendar.tiles.view.TextTileView android:id="@*com.google.android.calendar:id/slab_can_add_guests"
-    android:background="@*android:color/background_material_dark"
-    android:elevation="@*com.google.android.calendar:dimen/slab_guests_can_add_guests_elevation"
-    style="@*com.google.android.calendar:style/Tile.TwoLine"
-    xmlns:android="http://schemas.android.com/apk/res/android"/>

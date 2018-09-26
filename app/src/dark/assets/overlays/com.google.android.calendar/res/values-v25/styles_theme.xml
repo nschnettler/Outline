@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Platform.V25.AppCompat" parent="@*android:style/Theme.Material.NoActionBar">
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-        <item name="*com.google.android.calendar:layoutManager">android.support.v7.widget.LinearLayoutManager</item>
-    </style>
     <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
-        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+        <item name="android:backgroundTintMode">multiply</item>
+        <item name="android:colorBackground">#FFF</item>
     </style>
 </resources>

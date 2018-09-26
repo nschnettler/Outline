@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalendarGmTheme.NoActionBar" parent="@*com.google.android.calendar:style/CalendarGmTheme.NoActionBar.Base">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- LaunchScreen -->
+    <style name="CalendarTheme.AllInOneActivity.LaunchScreen" parent="@*com.google.android.calendar:style/CalendarTheme.NoActionBar">
+        <item name="android:windowBackground">@*com.google.android.calendar:drawable/quantum_launchscreen_calendar</item>
+        <item name="android:statusBarColor">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+</resources>

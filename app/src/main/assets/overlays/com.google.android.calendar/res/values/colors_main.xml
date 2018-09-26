@@ -5,7 +5,4 @@
     <color name="google_blue700">@android:color/holo_blue_light</color>
     <color name="quantum_googblue500">@android:color/holo_blue_light</color>
     <color name="quantum_googblue600">@android:color/holo_blue_light</color>
-
-    <!-- System Bars -->
-    <color name="google_grey100">#FFF</color>                                                       <!-- Navbar -->
 </resources>
