@@ -3,7 +3,7 @@
     android:height="24dp"
     android:viewportWidth="24.0"
     android:viewportHeight="24.0"
-    android:tint="?android:colorControlNormal">
+    android:tint="?android:textColorPrimary">
     <path
         android:strokeColor="#FFF"
         android:strokeWidth="1.5"
