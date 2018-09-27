@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Twitch.ToolBarTitle" parent="@*tv.twitch.android.app:style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#de000000</item>
+    </style>
+    <style name="Theme.Twitch.ToolbarStyle" parent="@*tv.twitch.android.app:style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="*tv.twitch.android.app:colorAccent">@*tv.twitch.android.app:color/white</item>
+        <item name="android:colorControlNormal">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*tv.twitch.android.app:style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorControlNormal">?android:textColorPrimaryInverse</item>
+    </style>
+</resources>

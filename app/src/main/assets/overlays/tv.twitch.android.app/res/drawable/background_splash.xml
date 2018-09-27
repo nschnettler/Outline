@@ -1,22 +1,24 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
-android:opacity="opaque"
-android:paddingMode="nest" >
-
-<item>
-    <shape>
-        <solid android:color="@android:color/holo_purple" />
-    </shape>
-</item>
-<item android:gravity="center|center_vertical">
-    <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="144dp"
-        android:height="144dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0">
-        <path
-            android:strokeColor="#FFFFFFFF"
-            android:strokeWidth="0.8"
-            android:pathData="M11,7v5 M16,7v5 M3.1,17.7h3.8v3.8l3.8-3.8h6.3l3.8-3.8V2.5H3.1V17.7z"/>
-    </vector>
-</item>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="?android:colorBackground" />
+        </shape>
+    </item>
+    <item android:gravity="center|center_vertical">
+        <vector
+            android:width="144dp"
+            android:height="144dp"
+            android:viewportWidth="24.0"
+            android:viewportHeight="24.0">
+            <path
+                android:strokeColor="?android:colorControlNormal"
+                android:strokeWidth="1.5"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:pathData="M11.1 7.763V10.5m4.737-2.737V10.5M3.616 16.4c0 .398.158.779.439
+1.061.281.281.663.439 1.061.439h2.1v3.6l3.6-3.6h5.968l3.6-3.6V5c0-.828-.671-1.5-1.5-1.5H5.116c-.398
+0-.78.158-1.061.439-.281.282-.439.663-.439
+1.061v11.4z" />
+        </vector>
+    </item>
 </layer-list>

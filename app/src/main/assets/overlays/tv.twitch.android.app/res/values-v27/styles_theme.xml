@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#FFF</item>
+        <item name="android:statusBarColor">#FFF</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+</resources>

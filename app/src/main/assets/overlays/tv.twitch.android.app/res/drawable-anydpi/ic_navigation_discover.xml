@@ -8,7 +8,8 @@
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M14 13h4m0-4h-4m-4 4.5v-5c0-.3-.2-.5-.5-.5h-3c-.3 0-.5.2-.5.5v5c0
- .3.2.5.5.5h3c.3 0 .5-.2.5-.5zM22 18V5c0-.6-.5-1-1-1H3c-.5 0-1 .4-1
- 1v13c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2z"/>
+        android:pathData="M2.5 12c0-5.243 4.257-9.5 9.5-9.5s9.5 4.257 9.5
+ 9.5-4.257 9.5-9.5 9.5-9.5-4.257-9.5-9.5z M10.531
+ 10.556L8 16l5.454-2.546L16
+ 8l-5.469 2.556z"/>
 </vector>
