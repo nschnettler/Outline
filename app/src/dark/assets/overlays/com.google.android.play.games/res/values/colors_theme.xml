@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="replay__background_color_dark">@*android:color/background_material_dark</color>    <!-- Main -->
+    <color name="google_grey300">#1a000000</color>                                                  <!-- Button Stroke -->
+    <color name="google_blue100">#1a000000</color>                                                  <!-- Button Stroke Pressed -->
+    <color name="google_grey100">#1a000000</color>                                                  <!-- Button Disabled -->
+    <color name="google_grey50">#1a000000</color>
+
+    <!-- Divider -->
+    <color name="replay__divider_color_dark">#1a000000</color>
+
+    <!-- Search -->
+    <color name="google_opensearchview_divider_color">#1a000000</color>
+    <color name="google_opensearchview_background_color">@*android:color/background_material_dark</color>
+    <color name="google_opensearchbar_text_color">#FFF</color>
+</resources>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- StatusBar -->
-    <color name="games__systemui__status_bar_color">@android:color/holo_green_light</color>
-</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:layout_width="wrap_content" android:layout_height="wrap_content" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@*com.google.android.play.games:dimen/games__profile__progress_bar_radius" />
+    <solid android:color="#1a000000" />
+</shape>

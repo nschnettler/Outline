@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Accent -->
+    <!-- Accent - Light -->
     <color name="replay__pal_games_light_600">@android:color/holo_green_light</color>
     <color name="replay__pal_games_light_800">@android:color/holo_green_light</color>
+
+    <!-- Accent - Dark -->
+    <color name="replay__pal_games_dark_400">@android:color/holo_green_light</color>
+    <color name="replay__pal_games_dark_600">@android:color/holo_green_light</color>
+    <color name="replay__pal_games_dark_800">@android:color/holo_green_light</color>
 
     <!-- Other -->
     <color name="games_profile_edit_error_text_color">@android:color/holo_red_light</color>
