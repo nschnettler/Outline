@@ -28,4 +28,9 @@
 
     <!-- Other -->
     <color name="purple_11">#FFFFFF</color>                                                         <!-- Dark Mode - Bottom Bar selected -->
+
+    <!-- Dark Theme -->
+    <color name="purple_2">@*android:color/background_material_dark</color>                         <!-- Main -->
+    <color name="purple_3">@*android:color/background_material_dark</color>                         <!-- "Card" -->
+    <color name="primary_material_dark">@*android:color/background_material_dark</color>
 </resources>

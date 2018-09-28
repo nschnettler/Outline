@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Background -->
-    <color name="purple_2">@*android:color/background_material_dark</color><!-- Main -->
-    <color name="purple_3">@*android:color/background_material_dark</color><!-- "Card" -->
-</resources>
