@@ -6,13 +6,14 @@
     <!-- Text -->
     <color name="play_fg_primary">#FFFFFF</color>                                                   <!-- Primary Text Color, for example  Drawer unselected-->
     <color name="play_fg_secondary">#FFFFFF</color>                                                 <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
-    <color name="primary_text_default_material_light">#deFFFFFF</color>
+    <color name="primary_text_default_material_light">#FFF</color>
     <color name="detailed_permissions_footer_text">#b3FFFFFF</color>
     <color name="play_icon_selected">#FFFFFF</color>                                                <!-- Drawer Selected -->
     <color name="flat_card_cluster_header_title_text_color">#FFFFFF</color>
     <color name="flat_card_cluster_header_title_text_color_black">#FFFFFF</color>
     <color name="account_email_dark_text_color">#FFFFFF</color>                                     <!-- Email Settings - Title -->
     <color name="account_email_light_text_color">#b3FFFFFF</color>                                  <!-- Email Settings - SubTitle -->
+    <color name="white_action_bar_icon_color">#FFF</color>
 
     <!-- Background -->
         <!-- What's New -->
@@ -30,6 +31,7 @@
     <color name="play_search_suggestion_divider_background">@*android:color/background_material_dark</color>    <!-- Search Divider -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color>           <!-- Dialog -->
     <color name="detailed_permissions_footer_bg">@*android:color/background_material_dark</color>               <!-- Permission Footer -->
+    <color name="play_white_half_transparent">@android:color/holo_green_light</color>
 
     <color name="play_drawer_separator">@*android:color/background_dark</color>                                 <!-- Drawer Seperator -->
     <color name="reviews_filtering_color">#FFFFFF</color>
