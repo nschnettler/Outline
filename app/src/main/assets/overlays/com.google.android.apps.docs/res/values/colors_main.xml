@@ -31,4 +31,5 @@
 
     <!-- Other -->
     <color name="chip_background_invalid">@android:color/holo_red_light</color>
+    <color name="out_of_storage_red">@android:color/holo_red_light</color>
 </resources>
