@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+	<style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="*android:listDivider">@*com.android.settings:drawable/preference_list_divider_material</item>
+        <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundFloating">#0dFFFFFF</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+
+        <item name="android:colorPrimary">@android:color/background_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
+    </style>
+
+    <!-- Suggestion Card -->
+    <style name="SuggestionConditionStyle">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Header Backgrounds -->
+    <style name="EntityHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+</resources>
