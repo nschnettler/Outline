@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="og_nav_item_icon_size">24dp</dimen>
+    <dimen name="og_nav_menu_selected_item_background_padding_left">0dp</dimen>
+    <dimen name="og_nav_menu_selected_item_background_padding_right">8dp</dimen>
+</resources>
