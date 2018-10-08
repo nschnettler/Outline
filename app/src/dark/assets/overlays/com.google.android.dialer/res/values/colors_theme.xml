@@ -3,6 +3,7 @@
     <!-- App Theme -->
     <color name="dialer_dark_theme_color">@android:color/holo_blue_light</color>
     <color name="dialer_dark_theme_color_dark">@android:color/holo_blue_light</color>
+    <color name="google_blue_800">@android:color/holo_blue_light</color>
 
     <!-- Background -->
     <color name="google_grey_900">@*android:color/background_material_dark</color>                  <!-- Main -->
@@ -12,4 +13,6 @@
     <color name="google_grey_400">#FEFEFE</color>                                                   <!-- Primary -->
     <color name="google_grey_300">#b3FFFFFF</color>                                                 <!-- Secondary -->
     <color name="google_grey_700">#b3FFFFFF</color>
+    <color name="settings_text_color_primary">#FFFFFFFF</color>
+    <color name="settings_text_color_secondary">#b3FFFFFF</color>
 </resources>

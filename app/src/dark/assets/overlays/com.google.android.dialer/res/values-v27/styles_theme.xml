@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Use Dark Theme -->
-    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityTheme.Dark">
-        <item name="android:windowLightNavigationBar">false</item>
+    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityThemeBase.Dark">
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
         <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
-    <style name="DialtactsTheme" parent="@*com.google.android.dialer:style/Dialer.ThemeBase.ActionBar">
-        <item name="android:navigationBarColor">?android:windowBackground</item>
-        <item name="android:windowLightNavigationBar">false</item>
+
+    <!-- Log, Details, Settings -->
+    <style name="Dialer.ThemeBase.NoActionBar" parent="@*com.google.android.dialer:style/Dialer.Dark.ThemeBase.NoActionBar">
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
         <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
+
     <!-- Incall -->
     <style name="Theme.InCallScreen" parent="@*com.google.android.dialer:style/Dialer.ThemeBase.NoActionBar">
         <item name="android:windowBackground">?android:colorBackground</item>
