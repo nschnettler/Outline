@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Text  -->
-    <color name="manage_accounts_text_color">#FFF</color>                                           <!-- Accounts -->
-    <color name="default_account_details_color">#FFF</color>                                        <!-- Selected Account -->
     <color name="google_grey700">#FFF</color>                                                       <!-- Toolbar Product Name -->
     <color name="google_grey800">#FFF</color>
     <color name="google_grey300">#FFF</color>                                                       <!-- Sign-In Message Text -->
 
     <!-- Background -->
     <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
+    <color name="google_white">@*android:color/background_material_dark</color>                     <!-- Drawer -->
+    <color name="google_grey200">#1a000000</color>                                                  <!-- Drawer Divider (some) -->
 </resources>
