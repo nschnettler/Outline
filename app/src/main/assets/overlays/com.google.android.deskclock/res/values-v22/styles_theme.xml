@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.DeskClock" parent="@*com.google.android.deskclock:style/Theme.Design.NoActionBar">
-        <item name="android:colorBackground">@*com.google.android.deskclock:color/grey_900</item>
-        <item name="android:windowBackground">@*com.google.android.deskclock:color/grey_900</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:navigationBarColor">@android:color/holo_blue_light</item>
-        <item name="android:timePickerStyle">@*com.google.android.deskclock:style/Widget.TimePicker</item>
-        <item name="*com.google.android.deskclock:popupTheme">@*com.google.android.deskclock:style/ThemeOverlay.Popup</item>
-        <item name="*com.google.android.deskclock:colorBackgroundFloating">@*com.google.android.deskclock:color/grey_900</item>
-        <item name="*com.google.android.deskclock:imageButtonStyle">@*com.google.android.deskclock:style/Widget.ImageButton</item>
-        <item name="*com.google.android.deskclock:colorPrimary">@*com.google.android.deskclock:color/grey_900</item>
-        <item name="*com.google.android.deskclock:colorPrimaryDark">#b3b3b3</item>
-        <item name="*com.google.android.deskclock:colorAccent">@android:color/holo_blue_light</item>
-        <item name="*com.google.android.deskclock:colorControlNormal">?android:textColorSecondary</item>
-        <item name="*com.google.android.deskclock:colorControlActivated">?android:textColorPrimary</item>
-    </style>
-
-    <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
-        <item name="android:textSize">@*com.google.android.deskclock:dimen/design_snackbar_text_size</item>
-        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    <style name="Theme.DeskClock" parent="@*com.google.android.deskclock:style/Theme.GoogleMaterial.Dark.NoActionBar.Bridge">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
     </style>
 </resources>
