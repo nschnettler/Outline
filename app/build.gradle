@@ -8,8 +8,8 @@ android {
     buildToolsVersion '27.0.3'
     defaultConfig {
         targetSdkVersion 28
-        versionCode 15
-        versionName "22.4.1"
+        versionCode 16
+        versionName "22.5"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
