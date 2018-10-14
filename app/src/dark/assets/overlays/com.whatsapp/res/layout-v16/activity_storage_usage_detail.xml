@@ -54,6 +54,10 @@
                 layout="@*com.whatsapp:layout/storage_usage_detail_row" />
 
             <include
+                android:id="@*com.whatsapp:id/sticker_row"
+                layout="@*com.whatsapp:layout/storage_usage_detail_row" />
+
+            <include
                 android:id="@*com.whatsapp:id/gif_row"
                 layout="@*com.whatsapp:layout/storage_usage_detail_row" />
 
@@ -107,7 +111,7 @@
             android:indeterminate="true"
             style="?android:progressBarStyleLarge" />
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="14.0sp"
             android:textColor="@*com.whatsapp:color/accent"
             android:gravity="right"
@@ -132,7 +136,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="14.0sp"
             android:textColor="@*com.whatsapp:color/red_button_text"
             android:gravity="right"

@@ -83,7 +83,7 @@
                 android:layout_height="0.0dip"
                 android:layout_weight="1.0">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="16.0sp"
                     android:gravity="center"
                     android:layout_gravity="bottom"
@@ -211,14 +211,32 @@
                     android:contentDescription="@*com.whatsapp:string/gif_search"
                     style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-                <ImageView
+                <FrameLayout
                     android:id="@*com.whatsapp:id/sticker_tab"
                     android:visibility="gone"
                     android:layout_width="40.0dip"
-                    android:layout_height="fill_parent"
-                    android:src="@*com.whatsapp:drawable/ic_sticker_normal"
-                    android:contentDescription="@*com.whatsapp:string/sticker_tab_content_description"
-                    style="@*com.whatsapp:style/ActionBarButtonStyle" />
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@*com.whatsapp:id/sticker_tab_icon"
+                        android:layout_width="40.0dip"
+                        android:layout_height="fill_parent"
+                        android:src="@*com.whatsapp:drawable/ic_sticker_normal"
+                        android:contentDescription="@*com.whatsapp:string/sticker_tab_content_description"
+                        style="@*com.whatsapp:style/ActionBarButtonStyle" />
+
+                    <View
+                        android:layout_gravity="center|right|top"
+                        android:id="@*com.whatsapp:id/sticker_onboarding_badge"
+                        android:background="@*com.whatsapp:drawable/sticker_update_badge"
+                        android:visibility="gone"
+                        android:layout_width="9.0dip"
+                        android:layout_height="9.0dip"
+                        android:layout_marginLeft="4.0dip"
+                        android:layout_marginTop="6.0dip"
+                        android:layout_marginRight="4.0dip"
+                        android:layout_marginBottom="4.0dip" />
+                </FrameLayout>
             </LinearLayout>
 
             <ImageView
@@ -244,7 +262,7 @@
             android:layout_width="fill_parent"
             android:layout_height="1.0dip" />
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="16.0sp"
             android:textColor="@*com.whatsapp:color/body_light_gray"
             android:gravity="center"

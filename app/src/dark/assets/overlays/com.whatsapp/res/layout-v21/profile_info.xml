@@ -127,7 +127,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="14.299988dip"
             android:id="@*com.whatsapp:id/push_name_explanation"
             android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
@@ -152,7 +152,7 @@
 
             <FrameLayout style="@*com.whatsapp:style/FlatCardHeader">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:id="@*com.whatsapp:id/status_and_phone_title"
                     android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
                     android:paddingRight="@*com.whatsapp:dimen/info_screen_padding"
@@ -196,12 +196,11 @@
                 android:layout_width="fill_parent"
                 android:layout_height="60.0dip">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:layout_gravity="center|left"
                     android:id="@*com.whatsapp:id/phone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textDirection="ltr"
                     style="@*com.whatsapp:style/ListItemTitle" />
             </FrameLayout>
         </LinearLayout>

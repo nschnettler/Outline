@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="14.0sp"
             android:textColor="@*com.whatsapp:color/conversation_info_text"
             android:gravity="center"
@@ -144,6 +144,12 @@
                                 android:scaleType="center"
                                 android:contentDescription="@*com.whatsapp:string/camera_button_description"
                                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
+
+                            <ViewStub
+                                android:id="@*com.whatsapp:id/stub_quick_reply_btn"
+                                android:layout_width="44.0dip"
+                                android:layout_height="47.0dip"
+                                style="@*com.whatsapp:style/ActionBarButtonStyle" />
                         </LinearLayout>
                     </LinearLayout>
 
@@ -190,24 +196,16 @@
                             android:scaleType="center"
                             android:contentDescription="@*com.whatsapp:string/send_button" />
 
-                        <FrameLayout
+                        <ImageButton
                             android:layout_gravity="center"
                             android:id="@*com.whatsapp:id/voice_note_btn"
                             android:background="@android:color/transparent"
                             android:visibility="gone"
                             android:layout_width="47.0dip"
                             android:layout_height="47.0dip"
-                            android:contentDescription="@*com.whatsapp:string/voice_note_button">
-
-                            <ImageView
-                                android:layout_gravity="center"
-                                android:id="@*com.whatsapp:id/voice_note_mic"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@*com.whatsapp:drawable/input_mic_white"
-                                android:scaleType="center"
-                                android:contentDescription="@*com.whatsapp:string/voice_note_button" />
-                        </FrameLayout>
+                            android:src="@*com.whatsapp:drawable/input_mic_white"
+                            android:scaleType="center"
+                            android:contentDescription="@*com.whatsapp:string/voice_note_button" />
                     </FrameLayout>
                 </FrameLayout>
             </RelativeLayout>
@@ -276,7 +274,7 @@
         android:layout_alignParentBottom="true"
         android:elevation="2.0dip" />
 
-    <TextView
+    <com.whatsapp.WaTextView
         android:textColor="@android:color/white"
         android:layout_gravity="bottom|center|right"
         android:id="@*com.whatsapp:id/voice_note_tip"

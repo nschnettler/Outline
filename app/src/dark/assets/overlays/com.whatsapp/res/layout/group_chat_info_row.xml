@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-
-    Group Info: Member List Entry
-
- -->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:gravity="center_vertical"
     android:backgroundTint="@*android:color/background_material_dark"
     android:orientation="horizontal"
@@ -54,16 +50,24 @@
                     android:layout_weight="1.0" />
             </LinearLayout>
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/owner"
                 android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8.0dip"
                 style="@*com.whatsapp:style/TextGroupAdmin" />
+
+            <com.whatsapp.TextEmojiLabel
+                android:id="@*com.whatsapp:id/group_participant_picker_push_name"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8.0dip" />
         </LinearLayout>
 
         <LinearLayout
+            android:gravity="right"
             android:orientation="horizontal"
             android:clipChildren="false"
             android:layout_width="fill_parent"
