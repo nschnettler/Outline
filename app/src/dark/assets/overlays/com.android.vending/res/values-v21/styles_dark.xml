@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Bottomsheet Bahavior -->
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@android:style/TextAppearance.Material.Small.Inverse">
+        <item name="*com.android.vending:layout_behavior">com.google.android.finsky.dialogbuilderlayout.FixedBottomSheetBehavior</item>
+    </style>
+
     <!-- Drawer Item selected -->
     <style name="PlayDrawerSelectedText" parent="@*com.android.vending:style/PlayDrawerBaseText">
         <item name="android:background">@*android:color/background_dark</item>
