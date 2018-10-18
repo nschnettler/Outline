@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- True if the notifications should dynamically tint the app icon and app title -->
-    <bool name="config_allowNotificationIconTextTinting">false</bool>
-</resources>

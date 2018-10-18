@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:textSize="14.0sp"
-    android:textColor="@*android:color/notification_primary_text_color_light"
-    android:gravity="center_vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="48.0dip"
-    android:layout_marginStart="@*android:dimen/list_item_padding_horizontal_material"
-    android:layout_marginEnd="@*android:dimen/action_bar_subtitle_bottom_margin_material"/>

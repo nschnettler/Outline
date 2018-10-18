@@ -10,6 +10,7 @@
 
     <path
         android:fillColor="@color/hero_accent"
+        android:fillAlpha="@dimen/hero_alpha"
         android:pathData="M282.5,0h256l233.7,233.7l-128,128L282.5,0z M636.7,0l184.7,184.7L1006.2,0H636.7z"/>
 
     <path
@@ -19,7 +20,7 @@
 
     <path
         android:strokeWidth="24"
-        android:strokeAlpha="@dimen/icon_foreground_drop_opacity"
+        android:strokeAlpha="@dimen/hero_alpha"
         android:strokeColor="@color/hero_icon"
         android:pathData="M269.862 215.4c-26.418 26.418-26.418 69.36 0 95.787C283.08
         324.396 300.44 331 317.8 331c17.36 0 34.72-6.604 47.938-19.813 26.418-26.427 26.418-69.369

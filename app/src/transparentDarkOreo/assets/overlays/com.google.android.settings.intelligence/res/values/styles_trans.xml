@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Settings" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:colorBackgroundFloating">#0dFFFFFF</item>
+
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

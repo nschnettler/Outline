@@ -1,0 +1,13 @@
+<resources>
+    <!-- Icon -->
+    <color name="icon_accent">#d37a7a</color>
+    <color name="icon_background">#BF202030</color>
+    <color name="icon_foreground_drop">#FFFFFF</color>
+    <dimen name="icon_foreground_drop_opacity">0.4</dimen>
+
+    <!-- HeroImage -->
+    <color name="hero_background">#0dFFFFFF</color>
+    <color name="hero_foreground">#0dFFFFFF</color>
+    <color name="hero_accent">@color/icon_accent</color>
+    <color name="hero_icon">@color/icon_foreground_drop</color>
+</resources>
