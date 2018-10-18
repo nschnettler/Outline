@@ -9,4 +9,5 @@
     <color name="theme_information_background">@*android:color/transparent</color>                  <!-- Theme Screen - Background -->
     <color name="fab_menu_background_card">@*android:color/background_material_dark</color>         <!-- Fab Menu -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Bottom Sheet -->
+    <color name="lunchbar_background">@*android:color/background_material_dark</color>
 </resources>

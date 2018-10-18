@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- Styles not present in OxygenOS Contacts -->
+     <style name="PopupMenuStyleAppCompat" parent="@android:style/Theme.Material">
+          <item name="android:popupBackground">@null</item>
+     </style>
+     <style name="LaunchScreenTheme" parent="@android:style/Theme.Material">
+          <item name="android:windowBackground">@null</item>
+          <item name="android:colorPrimaryDark">@null</item>
+     </style>
+</resources>
