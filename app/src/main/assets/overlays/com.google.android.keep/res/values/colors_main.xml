@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Theme -->
-    <color name="accent_color">@android:color/holo_orange_dark</color>
-
     <!-- Accent -->
-    <color name="zero_search_more_toggle_button_color">@android:color/holo_orange_dark</color>
-    <color name="zero_search_dark_background_color">@android:color/holo_orange_dark</color>
-    <color name="blue">@android:color/holo_orange_dark</color>
-    <color name="quantum_googblue500">@android:color/holo_orange_dark</color>
-    <color name="label_editor_checkbox_color">@android:color/holo_orange_dark</color>
-    <color name="feature_highlight_blue">@android:color/holo_orange_dark</color>
+    <color name="google_blue600">@android:color/holo_orange_light</color>
+    <color name="accent_color">@android:color/holo_orange_light</color>
 
+    <!-- Swipe 2 Refresh -->
+    <color name="swipe_refresh_color1">@android:color/holo_orange_light</color>
+    <color name="swipe_refresh_color2">@android:color/holo_orange_light</color>
+    <color name="swipe_refresh_color3">@android:color/holo_orange_light</color>
+    <color name="swipe_refresh_color4">@android:color/holo_orange_light</color>
+
+    <!-- Search -->
+    <color name="zero_search_more_toggle_button_color">@android:color/holo_orange_light</color>
+    <color name="zero_search_dark_background_color">@android:color/holo_orange_light</color>
 
     <!-- Notes Background Options -->
     <color name="keep_red">@android:color/holo_red_light</color>
@@ -24,14 +26,4 @@
     <color name="keep_pink">@android:color/holo_red_light</color>
     <color name="keep_brown">@*android:color/holo_gray_light</color>
     <color name="keep_gray">@*android:color/holo_gray_light</color>
-
-
-    <!-- Swipe 2 Refresh -->
-    <color name="swipe_refresh_color1">@android:color/holo_green_light</color>
-    <color name="swipe_refresh_color2">@android:color/holo_red_light</color>
-    <color name="swipe_refresh_color3">@android:color/holo_blue_light</color>
-    <color name="swipe_refresh_color4">@android:color/holo_orange_light</color>
-
-    <!-- Other -->
-    <color name="error_message_color">@android:color/holo_red_light</color>
 </resources>

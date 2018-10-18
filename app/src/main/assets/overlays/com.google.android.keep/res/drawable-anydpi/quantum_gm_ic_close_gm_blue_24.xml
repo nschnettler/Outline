@@ -2,12 +2,13 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24.0"
-    android:viewportHeight="24.0">
+    android:viewportHeight="24.0"
+    android:tint="?android:colorControlActivated">
     <path
-        android:strokeColor="#de000000"
+        android:strokeColor="#FFF"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M3.5 7h17M3.5 12h17M3.5
-  17h17" />
+        android:pathData="M6 6l12 12M6
+  18L18 6" />
 </vector>

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="default_background_color">#FFFFFF</color>
-    <color name="default_fragment_background_color">#FFFFFF</color>
-    <color name="keep_default_color">#FFFFFF</color>
-
-    <!-- App Color -->
-    <color name="actionMode_status_bar_color">#FFFFFF</color>
-    <!-- Text -->
-    <color name="action_bar_text_color">#de000000</color>
+    <!-- Primary -->
+    <color name="trash_action_bar_background_color">#FFF</color>
+    <color name="trash_status_bar_color">#FFF</color>
+    <color name="action_bar_background_color">#FFF</color>
+    <color name="browse_secondary_status_bar_color">#FFF</color>
 </resources>

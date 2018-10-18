@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Remove NavBar Colors -->
+    <style name="KeepAppTheme" parent="@*com.google.android.keep:style/Theme.GoogleMaterial.Light.NoActionBar">
+        <item name="android:textAppearanceLarge">@*com.google.android.keep:style/Body1TextAppearance</item>
+        <item name="android:textAppearanceMedium">@*com.google.android.keep:style/Body2TextAppearance</item>
+        <item name="android:textAppearanceSmall">@*com.google.android.keep:style/CaptionTextAppearance</item>
+        <item name="android:windowBackground">@*com.google.android.keep:color/default_background_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:editTextStyle">@*com.google.android.keep:style/EditTextStyle</item>
+        <item name="android:textColorHint">@*com.google.android.keep:color/hint_text_color</item>
+        <item name="android:dialogTheme">@*com.google.android.keep:style/Theme.AppCompat.Light.Dialog</item>
+        <item name="android:alertDialogTheme">@*com.google.android.keep:style/KeepAppTheme.GoogleMaterial.AlertDialog</item>
+        <item name="android:textCursorDrawable">@*com.google.android.keep:drawable/cursor</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorEdgeEffect">@*com.google.android.keep:color/overscroll_color</item>
+        <item name="*com.google.android.keep:drawerArrowStyle">@*com.google.android.keep:style/DrawerArrowStyle</item>
+        <item name="*com.google.android.keep:popupTheme">@*com.google.android.keep:style/ThemeOverlay.AppCompat.Light</item>
+        <item name="*com.google.android.keep:windowActionBar">false</item>
+        <item name="*com.google.android.keep:windowActionModeOverlay">true</item>
+        <item name="*com.google.android.keep:homeAsUpIndicator">@*com.google.android.keep:drawable/ic_material_arrow_left_dark</item>
+        <item name="*com.google.android.keep:popupMenuStyle">@*com.google.android.keep:style/PopupMenu</item>
+        <item name="*com.google.android.keep:colorPrimary">@*com.google.android.keep:color/primary_color</item>
+        <item name="*com.google.android.keep:colorPrimaryDark">@*com.google.android.keep:color/primary_color_dark</item>
+        <item name="*com.google.android.keep:colorAccent">@*com.google.android.keep:color/accent_color</item>
+        <item name="*com.google.android.keep:editTextStyle">?android:editTextStyle</item>
+    </style>
+</resources>
