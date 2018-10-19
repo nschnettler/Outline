@@ -28,7 +28,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.google.android.keep:dimen/share_dialog_web_title_height">
 
-            <com.google.android.keep.share.TopCropImageView
+            <com.google.android.apps.keep.ui.share.TopCropImageView
                 android:id="@*com.google.android.keep:id/web_image"
                 android:background="@*com.google.android.keep:color/share_handler_default_background"
                 android:layout_width="@*com.google.android.keep:dimen/share_dialog_web_title_height"
@@ -80,7 +80,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
-                <com.google.android.keep.share.MaxHeightScrollView
+                <com.google.android.apps.keep.ui.share.MaxHeightScrollView
                     android:id="@*com.google.android.keep:id/dialog_scroll_view"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
@@ -98,7 +98,7 @@
                             android:layout_height="wrap_content"
                             style="@*com.google.android.keep:style/ShareEditorText" />
                     </LinearLayout>
-                </com.google.android.keep.share.MaxHeightScrollView>
+                </com.google.android.apps.keep.ui.share.MaxHeightScrollView>
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -119,7 +119,7 @@
                             android:paddingLeft="@*com.google.android.keep:dimen/share_account_side_margin"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@*com.google.android.keep:drawable/ic_label_gray"
+                            android:src="@*com.google.android.keep:drawable/ic_label_dark_24"
                             android:contentDescription="@*com.google.android.keep:string/enter_label_name"
                             android:paddingStart="@*com.google.android.keep:dimen/share_account_side_margin" />
 
@@ -129,7 +129,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1.0">
 
-                            <com.google.android.keep.share.LabelSummaryLayout
+                            <com.google.android.apps.keep.ui.share.LabelSummaryLayout
                                 android:gravity="center_vertical"
                                 android:id="@*com.google.android.keep:id/label_summary"
                                 android:layout_width="wrap_content"

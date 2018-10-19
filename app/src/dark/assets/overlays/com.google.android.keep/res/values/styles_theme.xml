@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GoogleMaterial.Light" parent="@*com.google.android.keep:style/Base.Theme.GoogleMaterial.Light">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="IndexListCheckboxStyle">
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:alpha">1</item>
+        <item name="android:paddingEnd">@*com.google.android.keep:dimen/index_list_item_checkbox_margin</item>
+        <item name="android:tint">#FFF</item>
+    </style>
+    <style name="WebLinkAnnotation">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@*com.google.android.keep:dimen/weblink_annotation_height</item>
+        <item name="android:layout_marginLeft">@*com.google.android.keep:dimen/weblink_annotation_margin_sides</item>
+        <item name="android:layout_marginTop">@*com.google.android.keep:dimen/weblink_annotation_margin_top_bottom</item>
+        <item name="android:layout_marginRight">@*com.google.android.keep:dimen/weblink_annotation_margin_sides</item>
+        <item name="android:layout_marginBottom">@*com.google.android.keep:dimen/weblink_annotation_margin_top_bottom</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+    </style>
+</resources>

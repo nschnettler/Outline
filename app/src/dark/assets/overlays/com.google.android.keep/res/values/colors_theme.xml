@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary -->
+    <color name="trash_action_bar_background_color">@*android:color/background_material_dark</color>
+    <color name="trash_status_bar_color">@*android:color/background_material_dark</color>
+    <color name="action_bar_background_color">@*android:color/background_material_dark</color>
+    <color name="browse_secondary_status_bar_color">@*android:color/background_material_dark</color>
+
     <!-- Background -->
-    <color name="default_background_color">@*android:color/background_material_dark</color>             <!-- Main | Settings, Behind Cards,... -->
-    <color name="default_fragment_background_color">@*android:color/background_material_dark</color>    <!-- Drawer, Fragments -->
-    <color name="keep_default_color">@*android:color/background_material_dark</color>
+    <color name="google_white">@*android:color/background_material_dark</color>                     <!-- Main -->
+    <color name="action_mode_background_color">@*android:color/background_material_dark</color>     <!-- Action Mode -->
+    <color name="design_default_color_surface">@*android:color/background_material_dark</color>     <!-- Action Mode Animation -->
+    <color name="label_editor_rename_mode_color">@*android:color/background_material_dark</color>   <!-- New Label -->
+    <color name="background_material_light">@*android:color/background_material_dark</color>        <!-- Overflow -->
+    <color name="design_default_color_on_surface">@android:color/background_dark</color>            <!-- SnackBar -->
+    <color name="widget_background_color">@*android:color/background_material_dark</color>          <!-- Widget - Choose Account -->
+    <color name="widget_header_account_background_color">@*android:color/background_material_dark</color><!-- Widget - Behind Account Name -->
+    <color name="share_handler_account_selector">@*android:color/background_material_dark</color>
+    <color name="share_handler_default_background">@*android:color/background_dark</color>
+    <color name="zero_search_background_color">@*android:color/background_material_dark</color>     <!-- Search -->
+    <color name="zero_search_light_background_color">#1a000000</color>                              <!-- Search 2 -->
+    <color name="google_grey200">#1a000000</color>                                                  <!-- Divider -->
+    <color name="google_grey300">#1a000000</color>                                                  <!-- Divider/Stroke -->
+    <color name="annotation_background_color_translucent">#00000000</color>
+
+    <!-- Text -->
+    <color name="primary_text_color">#FFF</color>                                                   <!-- Main -->
+    <color name="drawer_label_edit_text_color">#b3FFFFFF</color>                                    <!-- Drawer - Edit -->
+    <color name="google_grey800">#FFF</color>                                                       <!--Account Name -->
+    <color name="google_grey700">#b3FFFFFF</color>                                                  <!-- Account Mail -->
+    <color name="primary_text_default_material_light">#FFF</color>                                  <!-- Overflow -->
+    <color name="hint_text_color">#b3FFFFFF</color>                                                 <!-- Hint -->
+    <color name="google_grey900">#FFF</color>                                                       <!-- Toolbar -->
+
+    <!-- Other -->
+    <color name="material_gray">#FFFFFF</color>                                                     <!-- Checkbox -->
+    <color name="checked_list_item_color">#b3FFFFFF</color>                                         <!-- CheckBox - Checked -->
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <layer-list>
+            <item android:right="16dip">
+                <shape android:shape="rectangle" android:tint="@android:color/holo_orange_light">
+                    <solid android:color="#FFF" />
+                    <corners android:topRightRadius="24.0dip" android:bottomRightRadius="24.0dip" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:drawable="@*com.google.android.keep:drawable/note_ripple_background" />
+</selector>

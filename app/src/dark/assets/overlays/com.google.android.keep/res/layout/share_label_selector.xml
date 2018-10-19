@@ -22,7 +22,7 @@
         android:layout_height="@*com.google.android.keep:dimen/divider_stroke_width"
         android:importantForAccessibility="no" />
 
-    <com.google.android.keep.share.MaxHeightRecyclerView
+    <com.google.android.apps.keep.ui.share.MaxHeightRecyclerView
         android:id="@*com.google.android.keep:id/label_selector_list"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
