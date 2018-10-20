@@ -12,6 +12,7 @@
     <color name="photos_photoeditor_crop_toolbar_background">@*android:color/background_material_dark</color>
     <color name="google_grey50">@*android:color/background_material_dark</color>                    <!-- Photobook Statusbar -->
     <color name="photos_theme_white_translucent_navigation_bar_color">@android:color/transparent</color>
+    <color name="photos_theme_white_translucent_system_ui_color">#00000000</color>                  <!-- NavBar/Statusbar Overlay-->
 
     <!-- Text -->
     <color name="google_grey600">#FFF</color>                                                       <!-- Header -->
