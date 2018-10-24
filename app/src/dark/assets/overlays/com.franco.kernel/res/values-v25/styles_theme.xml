@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Drawer Icons -->
-    <style name="TextAppearance.AppCompat.Body2" parent="@*com.franco.kernel:style/Base.TextAppearance.AppCompat.Body2">
-        <item name="android:drawableTint">#FFF</item>
-    </style>
-</resources>
