@@ -7,6 +7,7 @@
     <!-- Background -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color>
     <color name="quantum_grey100">@*android:color/background_dark</color>
+    <color name="google_grey100">@android:color/background_dark</color>                             <!-- Time-Picker -->
 
     <!-- Text -->
     <color name="primary_tile_text_color">#FFF</color>
