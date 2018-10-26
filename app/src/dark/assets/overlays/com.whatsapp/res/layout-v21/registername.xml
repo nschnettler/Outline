@@ -11,7 +11,7 @@
         android:layout_height="fill_parent"
         android:layout_above="@*com.whatsapp:id/emoji_search_container">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:layout_gravity="center"
             android:id="@*com.whatsapp:id/title"
             android:paddingTop="16.0dip"
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             style="@*com.whatsapp:style/RegistrationTitle" />
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="14.0sp"
             android:textColor="@*com.whatsapp:color/body_light_gray"
             android:gravity="center"
@@ -87,7 +87,7 @@
                     android:imeOptions="actionDone"
                     android:backgroundTint="@*com.whatsapp:color/accent" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="12.0sp"
                     android:textColor="@*com.whatsapp:color/edit_text_counter"
                     android:id="@*com.whatsapp:id/name_counter_tv"
@@ -140,7 +140,7 @@
             android:layout_width="fill_parent"
             android:layout_height="56.0dip">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="14.0sp"
                 android:textColor="@*com.whatsapp:color/body_gray"
                 android:gravity="center|left"

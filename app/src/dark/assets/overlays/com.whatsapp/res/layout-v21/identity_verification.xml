@@ -20,7 +20,7 @@
         android:layout_height="fill_parent"
         whatsapp:qsoShape="round" />
 
-    <TextView
+    <com.whatsapp.WaTextView
         android:textColor="@*com.whatsapp:color/white"
         android:gravity="center"
         android:id="@*com.whatsapp:id/error_indicator"
@@ -65,9 +65,9 @@
                         android:padding="48.0dip"
                         android:layout_width="220.0dip"
                         android:layout_height="220.0dip"
-                        class="com.whatsapp.QrImageView" />
+                        class="com.whatsapp.Qrcom.whatsapp.WaImageView" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:layout_gravity="center_horizontal"
                         android:id="@*com.whatsapp:id/result"
                         android:padding="48.0dip"
@@ -77,7 +77,7 @@
                         android:scaleType="center" />
                 </FrameLayout>
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="16.0sp"
                     android:gravity="center"
                     android:id="@*com.whatsapp:id/identity_text"
@@ -108,7 +108,7 @@
             android:layout_height="@*com.whatsapp:dimen/actionbar_height"
             android:elevation="2.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center_vertical"
                 android:id="@*com.whatsapp:id/close"
                 android:paddingLeft="6.0dip"
@@ -117,7 +117,7 @@
                 android:src="@*com.whatsapp:drawable/ic_close"
                 android:tint="#FFFFFF"/>
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="12.0sp"
                 android:layout_gravity="center"
                 android:paddingLeft="16.0dip"
@@ -145,7 +145,7 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.whatsapp:dimen/actionbar_height">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="16.0sp"
             android:gravity="center"
             android:layout_gravity="center"

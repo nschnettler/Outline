@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="center"
                     android:id="@*com.whatsapp:id/play_button"
                     android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                     android:contentDescription="@*com.whatsapp:string/play_video" />
             </FrameLayout>
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="end|bottom|center"
                 android:id="@*com.whatsapp:id/logo_button"
                 android:padding="@*com.whatsapp:dimen/inline_controls_padding"
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="14.0dip"
                     android:textColor="#FFF"
                     android:ellipsize="end"
@@ -146,7 +146,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textColor="#b3FFFFFF"
                         android:ellipsize="end"
                         android:id="@*com.whatsapp:id/url"
@@ -157,7 +157,7 @@
                         android:singleLine="true"
                         android:includeFontPadding="false" />
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textColor="#b3FFFFFF"
                         android:ellipsize="end"
                         android:id="@*com.whatsapp:id/gif_size_bullet"
@@ -170,7 +170,7 @@
                         android:maxLines="1"
                         android:singleLine="true" />
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textColor="#b3FFFFFF"
                         android:ellipsize="end"
                         android:id="@*com.whatsapp:id/gif_size"
@@ -184,7 +184,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:layout_gravity="center|right|top"
         android:id="@*com.whatsapp:id/cancel"
         android:paddingLeft="12.0dip"

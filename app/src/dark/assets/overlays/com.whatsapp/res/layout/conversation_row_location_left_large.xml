@@ -51,7 +51,7 @@
             android:layout_width="fill_parent"
             android:layout_height="147.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/thumb"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -102,7 +102,7 @@
                 android:maxLines="1"
                 android:singleLine="true" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="@*com.whatsapp:dimen/conversation_location_address"
                 android:textColor="@*android:color/white"
                 android:ellipsize="end"
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="2" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="@*com.whatsapp:dimen/conversation_location_host"
                 android:textColor="@*android:color/white"
                 android:ellipsize="start"
@@ -135,7 +135,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:id="@*com.whatsapp:id/date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         style="@*com.whatsapp:style/ForwardButton" />
 </merge>

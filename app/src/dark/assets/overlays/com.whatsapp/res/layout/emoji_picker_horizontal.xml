@@ -114,7 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:layout_gravity="center|top"
                         android:id="@*com.whatsapp:id/sample_current"
                         android:background="@*com.whatsapp:color/emoji_popup_header"
@@ -173,7 +173,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="left"
                 android:id="@*com.whatsapp:id/search_button"
                 android:visibility="gone"
@@ -189,7 +189,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent">
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="center_vertical"
                     android:id="@*com.whatsapp:id/emoji_tab"
                     android:visibility="visible"
@@ -200,7 +200,7 @@
                     android:contentDescription="@*com.whatsapp:string/emoji_picker"
                     style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="center_vertical"
                     android:id="@*com.whatsapp:id/gif_tab"
                     android:visibility="visible"
@@ -217,7 +217,7 @@
                     android:layout_width="40.0dip"
                     android:layout_height="fill_parent">
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:id="@*com.whatsapp:id/sticker_tab_icon"
                         android:layout_width="40.0dip"
                         android:layout_height="fill_parent"
@@ -239,7 +239,7 @@
                 </FrameLayout>
             </LinearLayout>
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="right"
                 android:id="@*com.whatsapp:id/delete_symbol_tb"
                 android:visibility="gone"

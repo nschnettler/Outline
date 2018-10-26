@@ -8,7 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="0.30000007dip" />
 
-    <TextView
+    <com.whatsapp.WaTextView
         android:textSize="14.0sp"
         android:textColor="@*com.whatsapp:color/accent"
         android:id="@*com.whatsapp:id/title"

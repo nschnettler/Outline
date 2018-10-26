@@ -22,7 +22,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textStyle="bold"
                     android:textColor="@android:color/holo_red_light"
                     android:paddingLeft="16.0dip"
@@ -50,11 +50,11 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content">
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:layout_width="wrap_content"
                             style="@*com.whatsapp:style/Text.Bullet" />
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:textColor="#b3FFFFFF"
                             android:layout_width="0.0dip"
                             android:text="@*com.whatsapp:string/delete_account_item_1"
@@ -67,11 +67,11 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content">
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:layout_width="wrap_content"
                             style="@*com.whatsapp:style/Text.Bullet" />
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:textColor="#b3FFFFFF"
                             android:layout_width="0.0dip"
                             android:text="@*com.whatsapp:string/delete_account_item_2"
@@ -84,11 +84,11 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content">
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:layout_width="wrap_content"
                             style="@*com.whatsapp:style/Text.Bullet" />
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:textColor="#b3FFFFFF"
                             android:layout_width="0.0dip"
                             android:text="@*com.whatsapp:string/delete_account_item_3"
@@ -102,11 +102,11 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content">
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:layout_width="wrap_content"
                             style="@*com.whatsapp:style/Text.Bullet" />
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:textColor="#b3FFFFFF"
                             android:layout_width="0.0dip"
                             android:text="@*com.whatsapp:string/delete_account_item_4"
@@ -120,11 +120,11 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content">
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:layout_width="wrap_content"
                             style="@*com.whatsapp:style/Text.Bullet" />
 
-                        <TextView
+                        <com.whatsapp.WaTextView
                             android:textColor="#b3FFFFFF"
                             android:layout_width="0.0dip"
                             android:text="@*com.whatsapp:string/delete_account_item_5"
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6.0dip">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textStyle="bold|italic"
                     android:textColor="@android:color/holo_green_dark"
                     android:gravity="center"
@@ -166,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6.0dip">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textColor="#b3FFFFFF"
                     android:id="@*com.whatsapp:id/delete_account_instructions"
                     android:paddingLeft="16.0dip"
@@ -177,7 +177,7 @@
                     android:layout_weight="1.0"
                     style="@*com.whatsapp:style/Text.Description" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="16.0sp"
                     android:ellipsize="end"
                     android:gravity="left"
@@ -205,7 +205,7 @@
                     android:layout_marginRight="12.0dip"
                     android:layoutDirection="ltr">
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textSize="20.0sp"
                         android:textColor="#b3FFFFFF"
                         android:layout_width="wrap_content"

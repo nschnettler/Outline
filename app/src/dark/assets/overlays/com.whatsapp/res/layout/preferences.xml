@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
                 android:src="@*com.whatsapp:drawable/ic_business_about"
                 android:tint="#FFFFFF"/>
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"
@@ -124,7 +124,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
                 android:src="@*com.whatsapp:drawable/ic_settings_account"
                 android:tint="#FFFFFF" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
                 android:src="@*com.whatsapp:drawable/ic_settings_chat"
                 android:tint="#FFFFFF" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"
@@ -188,7 +188,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -196,7 +196,7 @@
                 android:src="@*com.whatsapp:drawable/ic_settings_notifications"
                 android:tint="#FFFFFF" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"
@@ -223,7 +223,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -231,7 +231,7 @@
                 android:src="@*com.whatsapp:drawable/ic_settings_payments"
                 android:tint="#FFFFFF" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"
@@ -255,7 +255,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -263,7 +263,7 @@
                 android:src="@*com.whatsapp:drawable/ic_settings_data"
                 android:tint="#FFFFFF" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"
@@ -288,7 +288,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -296,7 +296,7 @@
                 android:src="@*com.whatsapp:drawable/ic_settings_contacts"
                 android:tint="#FFFFFF" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"
@@ -320,7 +320,7 @@
             android:layout_height="wrap_content"
             android:minHeight="66.0dip">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
                 android:paddingLeft="25.0dip"
                 android:layout_width="wrap_content"
@@ -328,7 +328,7 @@
                 android:src="@*com.whatsapp:drawable/ic_settings_help"
                 android:tint="#FFFFFF" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="#b3FFFFFF"
                 android:layout_gravity="center|left"

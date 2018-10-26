@@ -160,14 +160,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:id="@*com.whatsapp:id/picture"
                         android:padding="7.0dip"
                         android:layout_width="62.0dip"
                         android:layout_height="62.0dip"
                         android:scaleType="fitCenter" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:id="@*com.whatsapp:id/picture_in_group"
                         android:paddingLeft="7.0dip"
                         android:paddingTop="9.0dip"
@@ -179,7 +179,7 @@
                         android:scaleType="fitCenter" />
                 </FrameLayout>
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="bottom|center|left"
                     android:id="@*com.whatsapp:id/mic_overlay"
                     android:background="@*com.whatsapp:drawable/mic_background_incoming"
@@ -193,7 +193,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         style="@*com.whatsapp:style/ForwardButton" />
 </merge>

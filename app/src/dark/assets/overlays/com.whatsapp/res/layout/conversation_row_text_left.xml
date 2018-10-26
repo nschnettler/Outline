@@ -97,7 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:id="@*com.whatsapp:id/date"
                     android:paddingBottom="4.0dip"
                     android:textColor="#ccffffff"
@@ -108,7 +108,7 @@
         </view>
     </LinearLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         style="@*com.whatsapp:style/ForwardButton" />
 </merge>

@@ -63,7 +63,7 @@
                     android:scaleType="centerCrop"
                     class="com.whatsapp.conversationrow.ConversationRowVideo$RowVideoView" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="12.5sp"
                     android:textStyle="bold"
                     android:textColor="@*android:color/white"
@@ -94,7 +94,7 @@
                         android:layout_height="64.0dip"
                         android:indeterminateOnly="false" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:layout_gravity="center"
                         android:id="@*com.whatsapp:id/button_image"
                         android:visibility="gone"
@@ -154,7 +154,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textColor="@*com.whatsapp:color/conversation_row_image_text"
                         android:id="@*com.whatsapp:id/date"
                         android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
         </LinearLayout>
     </FrameLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         style="@*com.whatsapp:style/ForwardButton" />
 </merge>

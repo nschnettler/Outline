@@ -9,7 +9,7 @@
         android:layout_height="fill_parent"
         android:layout_alignParentBottom="true" />
 
-    <TextView
+    <com.whatsapp.WaTextView
         android:textSize="20.0dip"
         android:textColor="#b3FFFFFF"
         android:gravity="center"
@@ -56,7 +56,7 @@
                     android:layout_height="0.0dip"
                     android:layout_weight="1.0" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="20.0sp"
                     android:textColor="@*com.whatsapp:drawable/flat_button_text_color"
                     android:gravity="right"

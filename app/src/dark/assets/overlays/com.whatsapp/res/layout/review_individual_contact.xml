@@ -44,7 +44,7 @@
                     android:layout_height="wrap_content"
                     style="@*com.whatsapp:style/ListItemTitle" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:gravity="center_vertical"
                     android:layout_gravity="center|left"
                     android:id="@*com.whatsapp:id/description"

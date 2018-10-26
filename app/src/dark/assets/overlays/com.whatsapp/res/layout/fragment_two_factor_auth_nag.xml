@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
+    <com.whatsapp.WaTextView
         android:textSize="18.0sp"
         android:textColor="@*com.whatsapp:color/white"
         android:background="@*com.whatsapp:drawable/panel_popup_top"
@@ -54,7 +54,7 @@
                 style="@android:style/Widget.ProgressBar.Horizontal" />
         </RelativeLayout>
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="14.0sp"
             android:textColor="@*com.whatsapp:color/red_button_text"
             android:gravity="center"
@@ -66,7 +66,7 @@
             android:layout_marginTop="2.0dip"
             android:layout_marginBottom="16.0dip" />
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="14.0sp"
             android:textColor="#b3FFFFFF"
             android:layout_gravity="center_horizontal"

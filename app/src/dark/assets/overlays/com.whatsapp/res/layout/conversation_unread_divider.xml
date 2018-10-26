@@ -12,7 +12,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textSize="13.0sp"
             android:textStyle="bold"
             android:textColor="#ffdddddd"

@@ -27,7 +27,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@*com.whatsapp:string/description"
@@ -58,7 +58,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:id="@*com.whatsapp:id/no_description_view"
             android:paddingTop="4.0dip"
             android:visibility="gone"

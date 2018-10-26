@@ -16,7 +16,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_recent_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -35,7 +35,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_people_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -54,7 +54,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_nature_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -73,7 +73,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_food_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -92,7 +92,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_activity_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -111,7 +111,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_travel_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -130,7 +130,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_objects_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -149,7 +149,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_symbols_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -168,7 +168,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/emoji_flags_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -187,7 +187,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/delete_symbol"
                 android:visibility="gone"
                 android:layout_width="40.0dip"

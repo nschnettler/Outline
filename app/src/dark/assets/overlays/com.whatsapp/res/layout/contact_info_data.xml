@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:gravity="center"
                 android:layout_gravity="center_vertical"
                 android:id="@*com.whatsapp:id/primary_action_icon"
@@ -65,7 +65,7 @@
                 android:checked="true" />
         </LinearLayout>
 
-        <ImageView
+        <com.whatsapp.WaImageView
             android:gravity="center"
             android:layout_gravity="center_vertical"
             android:id="@*com.whatsapp:id/secondary_action_btn"
@@ -77,7 +77,7 @@
             android:tint="@*com.whatsapp:color/accent"
             android:contentDescription="@*com.whatsapp:string/audio_call" />
 
-        <ImageView
+        <com.whatsapp.WaImageView
             android:gravity="center"
             android:layout_gravity="center_vertical"
             android:id="@*com.whatsapp:id/third_action_btn"

@@ -12,7 +12,7 @@
         android:layout_height="?android:actionBarSize"
         app:theme="@*com.whatsapp:style/Widget.Styled.ActionBar.Registration.White">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:gravity="center|left"
             android:layout_gravity="center|left"
             android:layout_width="fill_parent"

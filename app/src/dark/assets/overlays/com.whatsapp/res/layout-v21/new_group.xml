@@ -97,7 +97,7 @@
                                             android:capitalize="sentences"
                                             android:imeOptions="actionDone" />
 
-                                        <TextView
+                                        <com.whatsapp.WaTextView
                                             android:textSize="12.0sp"
                                             android:textColor="#b3FFFFFF"
                                             android:id="@*com.whatsapp:id/subject_counter_tv"
@@ -121,7 +121,7 @@
                                 </RelativeLayout>
                             </LinearLayout>
 
-                            <TextView
+                            <com.whatsapp.WaTextView
                                 android:textSize="13.0sp"
                                 android:textColor="#b3FFFFFF"
                                 android:gravity="left"
@@ -136,7 +136,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <com.whatsapp.WaTextView
                                 android:textSize="14.0sp"
                                 android:textColor="#FFFFFF"
                                 android:layout_gravity="left"

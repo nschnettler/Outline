@@ -112,7 +112,7 @@
                     </FrameLayout>
                 </LinearLayout>
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textColor="#b3FFFFFF"
                     android:layout_gravity="bottom|center|left"
                     android:id="@*com.whatsapp:id/description"
@@ -132,7 +132,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3.0dip">
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:id="@*com.whatsapp:id/date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:id="@*com.whatsapp:id/picture"
                         android:padding="4.0dip"
                         android:layout_width="62.0dip"
@@ -160,7 +160,7 @@
                         android:src="@*com.whatsapp:drawable/audio_message_thumb"
                         android:scaleType="fitCenter" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:layout_gravity="center"
                         android:id="@*com.whatsapp:id/picture_in_group"
                         android:padding="4.0dip"
@@ -169,7 +169,7 @@
                         android:src="@*com.whatsapp:drawable/audio_message_thumb"
                         android:scaleType="fitCenter" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:layout_gravity="center"
                         android:id="@*com.whatsapp:id/icon"
                         android:paddingBottom="12.0sp"
@@ -185,7 +185,7 @@
                         android:layout_width="50.0dip"
                         android:layout_height="50.0dip" />
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textStyle="bold"
                         android:textColor="@*android:color/white"
                         android:layout_gravity="bottom|center"
@@ -201,7 +201,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         style="@*com.whatsapp:style/ForwardButton" />
 </merge>

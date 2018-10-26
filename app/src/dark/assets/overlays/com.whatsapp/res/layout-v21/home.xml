@@ -32,7 +32,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="@android:color/white"
                 android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
                 android:layout_toLeftOf="@*com.whatsapp:id/call_notification_timer"
                 android:layout_alignParentLeft="true" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="16.0sp"
                 android:textColor="@android:color/white"
                 android:gravity="center_vertical"
@@ -101,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@*com.whatsapp:dimen/abc_action_bar_default_height_material" />
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="bottom|center|right"
                 android:id="@*com.whatsapp:id/fab"
                 android:background="@*com.whatsapp:drawable/input_circle_green"
@@ -111,7 +111,7 @@
                 android:scaleType="center"
                 android:elevation="4.0dip" />
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="bottom|center|right"
                 android:id="@*com.whatsapp:id/fab_aux"
                 android:background="@*com.whatsapp:drawable/input_circle_grey"

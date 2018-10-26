@@ -11,7 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:gravity="center_vertical"
             android:layout_gravity="center_vertical"
             android:id="@*com.whatsapp:id/vcards_layout"
@@ -47,13 +47,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@*com.whatsapp:string/menuitem_mute_notifications"
                     style="@*com.whatsapp:style/ListItemTitle" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:id="@*com.whatsapp:id/mute_info"
                     android:visibility="gone"
                     android:layout_width="wrap_content"
@@ -80,14 +80,14 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:layout_gravity="left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@*com.whatsapp:string/custom_notifications"
                 style="@*com.whatsapp:style/ListItemTitle" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/notifications_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:layout_gravity="left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:layout_gravity="center_vertical"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
@@ -138,7 +138,7 @@
                 android:layout_weight="1.0"
                 style="@*com.whatsapp:style/ListItemTitle" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="14.0sp"
                 android:textColor="#ff91a7a7"
                 android:layout_gravity="center_vertical"
@@ -174,14 +174,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:layout_gravity="left"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@*com.whatsapp:string/contact_encryption"
                     style="@*com.whatsapp:style/ListItemTitle" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="14.0sp"
                     android:textColor="@*com.whatsapp:color/list_item_info"
                     android:gravity="left"
@@ -191,7 +191,7 @@
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_gravity="center_vertical"
                 android:id="@*com.whatsapp:id/encryption_indicator"
                 android:paddingLeft="20.0dip"
@@ -215,7 +215,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:layout_gravity="center_vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

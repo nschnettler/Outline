@@ -13,7 +13,7 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.whatsapp:dimen/small_list_row_height">
 
-        <ImageView
+        <com.whatsapp.WaImageView
             android:id="@*com.whatsapp:id/avatar"
             android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
             android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"

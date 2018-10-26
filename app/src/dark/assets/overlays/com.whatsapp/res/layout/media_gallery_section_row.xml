@@ -10,7 +10,7 @@
     android:backgroundTint="@*android:color/background_material_dark"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
+    <com.whatsapp.WaTextView
         android:textSize="14.0sp"
         android:textStyle="bold"
         android:textColor="?android:textColorSecondary"

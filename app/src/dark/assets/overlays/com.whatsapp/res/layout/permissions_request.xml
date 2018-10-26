@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="center_vertical"
                     android:id="@*com.whatsapp:id/permission_image"
                     android:paddingLeft="24.0dip"
@@ -34,7 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="center_vertical"
                     android:id="@*com.whatsapp:id/permission_image_1"
                     android:paddingLeft="12.0dip"
@@ -42,7 +42,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="center_vertical"
                     android:id="@*com.whatsapp:id/permission_image_2"
                     android:paddingLeft="12.0dip"
@@ -60,7 +60,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="14.0sp"
                 android:gravity="left"
                 android:id="@*com.whatsapp:id/permission_message"

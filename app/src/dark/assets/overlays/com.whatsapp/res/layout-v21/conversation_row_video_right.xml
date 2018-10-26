@@ -35,7 +35,7 @@
                     android:scaleType="centerCrop"
                     class="com.whatsapp.conversationrow.ConversationRowVideo$RowVideoView" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="12.5sp"
                     android:textStyle="bold"
                     android:textColor="@android:color/white"
@@ -78,7 +78,7 @@
                             android:indeterminateTint="@android:color/white"
                             android:indeterminateTintMode="src_atop" />
 
-                        <ImageView
+                        <com.whatsapp.WaImageView
                             android:layout_gravity="center|left"
                             android:id="@*com.whatsapp:id/cancel_btn"
                             android:visibility="gone"
@@ -111,7 +111,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:layout_gravity="center"
                         android:id="@*com.whatsapp:id/play_button"
                         android:visibility="visible"
@@ -149,7 +149,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textColor="#ffffff"
                         android:paddingBottom="8.0dip"
                         android:id="@*com.whatsapp:id/date"
@@ -157,7 +157,7 @@
                         android:layout_height="wrap_content"
                         style="@*com.whatsapp:style/ConversationDate" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:id="@*com.whatsapp:id/status"
                         android:paddingLeft="0.0dip"
                         android:paddingBottom="10.0dip"
@@ -169,7 +169,7 @@
         </LinearLayout>
     </FrameLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         android:contentDescription="@*com.whatsapp:string/forward_to"
         style="@*com.whatsapp:style/ForwardButton" />

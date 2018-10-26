@@ -39,7 +39,7 @@ New Group: Select (multiple) contacts
                 android:layout_height="wrap_content"
                 android:minHeight="@*com.whatsapp:dimen/selected_contacts_height">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textColor="#b3FFFFFF"
                     android:layout_gravity="center"
                     android:id="@*com.whatsapp:id/warning_text"
@@ -101,7 +101,7 @@ New Group: Select (multiple) contacts
                     android:layout_height="wrap_content"
                     style="?android:attr/progressBarStyleInverse" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="18.0sp"
                     android:textColor="?android:textColorPrimary"
                     android:gravity="center"

@@ -34,7 +34,7 @@
             android:minHeight="16.0dip"
             android:layout_weight="1.0" />
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:textColor="#ffdddddd"
             android:layout_gravity="center"
             android:id="@*com.whatsapp:id/duration"

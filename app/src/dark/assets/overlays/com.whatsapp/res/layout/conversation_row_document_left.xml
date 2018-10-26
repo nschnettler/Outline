@@ -79,7 +79,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:id="@*com.whatsapp:id/icon"
                         android:paddingTop="8.0dip"
                         android:paddingBottom="8.0dip"
@@ -136,31 +136,31 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@*com.whatsapp:style/ConversationDocumentInfo" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/bullet_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@*com.whatsapp:style/ConversationDocumentInfoBullet" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/file_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@*com.whatsapp:style/ConversationDocumentInfo" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/bullet_file_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@*com.whatsapp:style/ConversationDocumentInfoBullet" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/file_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -179,7 +179,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:id="@*com.whatsapp:id/date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -188,7 +188,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         style="@*com.whatsapp:style/ForwardButton" />
 </merge>

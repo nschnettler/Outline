@@ -25,7 +25,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/exit_group_icon"
                 android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
                 android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"
@@ -34,7 +34,7 @@
                 android:scaleType="center"
                 android:tint="@*com.whatsapp:color/red_button_text" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="@*com.whatsapp:color/red_button_text"
                 android:id="@*com.whatsapp:id/exit_group_text"
@@ -59,7 +59,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/report_group_icon"
                 android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
                 android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"
@@ -68,7 +68,7 @@
                 android:scaleType="center"
                 android:tint="@*com.whatsapp:color/red_button_text" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:textColor="@*com.whatsapp:color/red_button_text"
                 android:id="@*com.whatsapp:id/report_group_text"

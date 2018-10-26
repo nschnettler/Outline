@@ -17,7 +17,7 @@
             android:layout_width="fill_parent"
             android:layout_height="0.30000007dip" />
 
-        <TextView
+        <com.whatsapp.WaTextView
             android:id="@*com.whatsapp:id/header"
             android:paddingLeft="20.0dip"
             android:paddingTop="12.0dip"
@@ -38,13 +38,13 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_spam_report"
                 android:tint="@*com.whatsapp:color/accent_light" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="15.0sp"
                 android:textColor="@*com.whatsapp:color/accent_light"
                 android:id="@*com.whatsapp:id/spam_btn_text"
@@ -68,13 +68,13 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_spam_ok"
                 android:tint="@*com.whatsapp:color/accent_light" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="15.0sp"
                 android:textColor="@*com.whatsapp:color/accent_light"
                 android:id="@*com.whatsapp:id/not_spam_btn_text"
@@ -98,14 +98,14 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_spam_block"
                 android:tint="@*com.whatsapp:color/accent_light"
                 android:tintMode="src_in" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="15.0sp"
                 android:textColor="@*com.whatsapp:color/accent_light"
                 android:id="@*com.whatsapp:id/block_btn_text"
@@ -129,13 +129,13 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_spam_add"
                 android:tint="@*com.whatsapp:color/accent_light" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="15.0sp"
                 android:textColor="@*com.whatsapp:color/accent_light"
                 android:id="@*com.whatsapp:id/add_btn_text"

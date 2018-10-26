@@ -48,7 +48,7 @@
                         android:indeterminateTint="@*android:color/white"
                         android:indeterminateTintMode="src_atop" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:layout_gravity="center"
                         android:id="@*com.whatsapp:id/cancel_download"
                         android:visibility="gone"
@@ -56,7 +56,7 @@
                         android:layout_height="wrap_content"
                         android:src="@*com.whatsapp:drawable/btn_cancel" />
 
-                    <Button
+                    <com.whatsapp.WaButton
                         android:textColor="@*com.whatsapp:color/conversation_row_image_text"
                         android:ellipsize="none"
                         android:layout_gravity="center"
@@ -100,7 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textColor="#ffffff"
                         android:paddingBottom="8.0dip"
                         android:id="@*com.whatsapp:id/date"
@@ -108,7 +108,7 @@
                         android:layout_height="wrap_content"
                         style="@*com.whatsapp:style/ConversationDate" />
 
-                    <ImageView
+                    <com.whatsapp.WaImageView
                         android:id="@*com.whatsapp:id/status"
                         android:paddingLeft="0.0dip"
                         android:paddingBottom="10.0dip"
@@ -120,7 +120,7 @@
         </LinearLayout>
     </FrameLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:id="@*com.whatsapp:id/forward"
         android:contentDescription="@*com.whatsapp:string/conversation_menu_forward"
         style="@*com.whatsapp:style/ForwardButton" />

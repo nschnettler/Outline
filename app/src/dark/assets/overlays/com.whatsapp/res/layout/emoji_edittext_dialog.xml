@@ -18,12 +18,12 @@
             android:orientation="vertical"
             style="@*com.whatsapp:style/FullScreenDialogTitle">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:gravity="left"
                 android:id="@*com.whatsapp:id/dialog_title"
                 style="@*com.whatsapp:style/FullScreenDialogTitleText" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:gravity="left"
                 android:id="@*com.whatsapp:id/dialog_subtitle"
                 android:visibility="gone"
@@ -74,7 +74,7 @@
                         android:singleLine="true"
                         android:inputType="textCapSentences" />
 
-                    <TextView
+                    <com.whatsapp.WaTextView
                         android:textSize="14.0sp"
                         android:textColor="@*com.whatsapp:color/edit_text_counter"
                         android:gravity="center|right"
@@ -98,7 +98,7 @@
                     style="@*com.whatsapp:style/ActionBarButtonStyle" />
             </RelativeLayout>
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:id="@*com.whatsapp:id/dialog_footer"
                 android:padding="16.0dip"
                 android:layout_width="fill_parent"

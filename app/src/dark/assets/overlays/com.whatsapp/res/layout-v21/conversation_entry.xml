@@ -225,7 +225,7 @@
         </LinearLayout>
     </com.whatsapp.util.ClippingLayout>
 
-    <ImageView
+    <com.whatsapp.WaImageView
         android:layout_gravity="bottom|center|left"
         android:id="@*com.whatsapp:id/voice_cancel_animation"
         android:paddingLeft="5.0dip"
@@ -304,7 +304,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true">
 
-        <ImageView
+        <com.whatsapp.WaImageView
             android:id="@*com.whatsapp:id/voice_cancel_trashcan_lid"
             android:paddingBottom="1.0dip"
             android:layout_width="48.0dip"
@@ -312,7 +312,7 @@
             android:scaleType="center"
             android:tint="#ff7d8488" />
 
-        <ImageView
+        <com.whatsapp.WaImageView
             android:id="@*com.whatsapp:id/voice_cancel_trashcan_body"
             android:layout_width="48.0dip"
             android:layout_height="wrap_content"

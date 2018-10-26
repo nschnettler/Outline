@@ -24,7 +24,7 @@
             android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
             style="@*com.whatsapp:style/FlatCardHeader">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:text="@*com.whatsapp:string/contact_other_phones"
                 style="@*com.whatsapp:style/FlatCardTitle" />
         </FrameLayout>
@@ -51,7 +51,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/block_contact_icon"
                 android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
                 android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size"
@@ -59,7 +59,7 @@
                 android:src="@*com.whatsapp:drawable/ic_spam_block"
                 android:scaleType="center" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
                 android:id="@*com.whatsapp:id/block_contact_text"
                 android:layout_width="fill_parent"
@@ -88,7 +88,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="@*com.whatsapp:dimen/info_screen_row">
 
-                <ImageView
+                <com.whatsapp.WaImageView
                     android:layout_gravity="center"
                     android:id="@*com.whatsapp:id/report_contact_icon"
                     android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size"
@@ -98,7 +98,7 @@
                     android:scaleType="center"
                     android:tint="@*com.whatsapp:color/red_button_text" />
 
-                <TextView
+                <com.whatsapp.WaTextView
                     android:textSize="17.0sp"
                     android:textColor="@*com.whatsapp:color/red_button_text"
                     android:id="@*com.whatsapp:id/report_contact_text"

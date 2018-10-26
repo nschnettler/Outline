@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@*com.whatsapp:color/accent">
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:textSize="18.0sp"
                 android:textColor="@*com.whatsapp:color/white"
                 android:layout_gravity="center|left"
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0" />
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
                 android:contentDescription="@*com.whatsapp:string/delete"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-            <ImageView
+            <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/forward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
 
-            <TextView
+            <com.whatsapp.WaTextView
                 android:gravity="center"
                 android:id="@android:id/empty"
                 android:visibility="gone"
