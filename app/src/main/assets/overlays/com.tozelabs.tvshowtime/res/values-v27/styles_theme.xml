@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#FFF</item>
+        <item name="android:statusBarColor">#FFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="ShowTheme" parent="@*com.tozelabs.tvshowtime:style/AppFullTheme" >
+        <item name="android:navigationBarColor">@android:color/holo_orange_light</item>
+    </style>
+    <style name="EpisodeTheme" parent="@*com.tozelabs.tvshowtime:style/AppFullTheme" >
+        <item name="android:navigationBarColor">@android:color/holo_orange_light</item>
+    </style>
+</resources>

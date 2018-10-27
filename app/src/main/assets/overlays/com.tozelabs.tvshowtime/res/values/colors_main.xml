@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary & Accent-->
-    <color name="toolbar_background">@*android:color/holo_orange_light</color>                      <!-- Toolbar -->
-    <color name="medium_black">@*android:color/holo_orange_light</color>                            <!-- Statusbar -->
-    <color name="material_deep_teal_500">@*android:color/holo_orange_dark</color>                   <!-- Accent -->
+    <!-- Accent-->
+    <color name="saffron">@android:color/holo_orange_light</color>
+    <color name="bostonBlue">@android:color/holo_orange_light</color>
 
     <!-- Colors -->
-    <color name="saffron_translucent">@*android:color/holo_orange_light</color>                     <!-- Gelb -->
-    <color name="luxorGold">@*android:color/holo_green_light</color>                                <!-- Grün -->
-    <color name="bostonBlue">@*android:color/holo_blue_light</color>                                <!-- Blau -->
-    <color name="scarlet">@*android:color/holo_red_light</color>
-    <color name="chambray">@*android:color/holo_blue_light</color>                                  <!-- Blau -->
-    <color name="tallPoppy">@*android:color/holo_red_light</color>                                  <!-- Rot -->
-
-
-    <!-- GENRE Colors-->
-    <color name="atlantis">@*android:color/holo_green_light</color>                                 <!-- Drama Green | Progress: Finished -->
-    <color name="sky">@*android:color/holo_blue_light</color>                                       <!-- Action Blau -->
-    <color name="cinnabar">@*android:color/holo_red_light</color>                                   <!-- Crime Rot -->
-    <color name="saffron">@*android:color/holo_orange_light</color>                                 <!-- Comedy Orange | Other Stuff/Accent-->
-    <color name="alto">@*android:color/holo_gray_light</color>                                      <!-- Other Grau -->
-
-    <!-- Other -->
-    <color name="silverChalice">#b3FFFFFF</color>                                                   <!-- Bottom Bar inactive -->
+    <color name="atlantis">@android:color/holo_green_light</color>
+    <color name="sky">@android:color/holo_blue_light</color>
+    <color name="cinnabar">@android:color/holo_red_light</color>
+    <color name="alto">@*android:color/holo_gray_light</color>
+    <color name="chambray">@android:color/holo_blue_light</color>
 </resources>

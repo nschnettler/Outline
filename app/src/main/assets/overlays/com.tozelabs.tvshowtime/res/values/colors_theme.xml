@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Other -->
-    <color name="agenda_highlighted_background">#E0E0E0</color>
-    <color name="secondary_text_white">#b3757575</color>
-
     <!-- Background -->
-    <color name="fragment_background">#FFFFFF</color>
+    <color name="whiteFive">#FFF</color>                                                            <!-- Bottom Navigation -->
+    <color name="fragment_background">#FFF</color>
+    <color name="item_highlighted_background">#0d000000</color>
 </resources>
