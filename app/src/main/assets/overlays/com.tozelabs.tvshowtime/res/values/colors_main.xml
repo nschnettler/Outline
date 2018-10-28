@@ -10,4 +10,5 @@
     <color name="cinnabar">@android:color/holo_red_light</color>
     <color name="alto">@*android:color/holo_gray_light</color>
     <color name="chambray">@android:color/holo_blue_light</color>
+    <color name="tallPoppy">@android:color/holo_red_light</color>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@android:style/TextAppearance.Material.Small.Inverse">
+        <item name="*com.tozelabs.tvshowtime:layout_constraintStart_toStartOf">parent</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@android:style/TextAppearance.Material.Large.Inverse">
+        <item name="*com.tozelabs.tvshowtime:layout_constraintTop_toBottomOf">@*com.tozelabs.tvshowtime:id/seasonCard</item>
+    </style>
+</resources>

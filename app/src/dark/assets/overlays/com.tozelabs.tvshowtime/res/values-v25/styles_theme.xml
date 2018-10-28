@@ -3,10 +3,4 @@
     <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar" >
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
     </style>
-
-    <!-- Profile "Settings and Stuff" Overflow Menu -->
-    <style name="UserActionsPopupMenuStyle" parent="@*com.tozelabs.tvshowtime:style/Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:textColor">@*com.tozelabs.tvshowtime:color/primary_text_black</item>
-        <item name="android:itemBackground">@*android:color/background_material_dark</item>
-    </style>
 </resources>

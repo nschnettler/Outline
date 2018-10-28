@@ -1,67 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Icons -->
-    <color name="md_grey_600">#FFFFFF</color>
+    <color name="kumera">@android:color/holo_orange_light</color>
 
     <!-- Background -->
-    <!-- Main -->
-    <color name="desertStorm">@*android:color/background_material_dark</color>                  <!-- Main Background -->
-    <color name="white_background">@*android:color/background_material_dark</color>             <!-- Main Bg 2 -->
-    <color name="item_background">@*android:color/background_material_dark</color>              <!-- Item Background, Bottom Bar Back -->
-    <!-- Agenda -->
-    <color name="agenda_background">@*android:color/background_material_dark</color>            <!-- Agenda Unseen episode Background -->
-    <color name="alto1">@*android:color/background_dark</color>                                 <!-- Category /"Day" Background -->
-    <!-- Explore -->
-    <color name="mineShaft1">@*android:color/background_material_dark</color>                   <!-- Explore Background -->
-    <color name="dark_fragment_background">@*android:color/background_material_dark</color>
-    <!-- Show Details -->
-    <color name="show_trend_background">@*android:color/background_dark</color>                 <!-- Rating image border -->
-    <color name="watched_on_source_bg">@*android:color/background_material_dark</color>
-    <!-- Profile -->
-    <color name="champagne">@*android:color/background_material_dark</color>                    <!-- Background for example Number of episode watched -->
-    <!-- Dialog -->
-    <color name="md_grey_50">@*android:color/background_material_dark</color>                   <!-- Dialog -->
-    <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Settings Dialog -->
-    <!-- Notification Area -->
-    <color name="notification_item_background">@*android:color/background_material_dark</color> <!-- Notification Item Background -->
-    <!-- Comments -->
-    <color name="reply_background">@*android:color/background_material_dark</color>
-    <color name="alabaster">@*android:color/background_dark</color>
-    <!-- Overflow -->
+    <color name="whiteFive">@*android:color/background_material_dark</color>                        <!-- Bottom Navigation -->
+    <color name="fragment_background">@*android:color/background_material_dark</color>
+    <color name="item_highlighted_background">#1a000000</color>
+    <color name="white_background">@*android:color/background_material_dark</color>                 <!-- Main & Primary -->
+    <color name="item_background">@*android:color/background_material_dark</color>
+    <color name="settings_background">@*android:color/background_material_dark</color>
+    <color name="whiteSeven">@*android:color/background_material_dark</color>
+    <color name="mineShaft1">@*android:color/background_material_dark</color>
+    <color name="heavyMetal">@*android:color/background_material_dark</color>
+    <color name="toolbar_background">@*android:color/background_material_dark</color>
+    <color name="medium_black">@*android:color/background_material_dark</color>
     <color name="blackThree">@*android:color/background_material_dark</color>
-    <!-- Podcast -->
-    <color name="lightGrey90">@*android:color/background_material_dark</color>
-    <!-- Quiz -->
-    <color name="quiz_leaderboard_header_bg">@*android:color/background_material_dark</color>
+    <color name="notification_item_background">@*android:color/background_material_dark</color>
+    <color name="notification_item_highlighted_background">#1a000000</color>
+    <color name="alto1">@android:color/background_dark</color>
+    <color name="whiteSix">#33000000</color>                                                        <!-- Poll - Other Votes -->
 
     <!-- Text -->
-    <color name="mineShaft">#FFFFFF</color>                                                         <!-- Primary Text -->
-    <!-- Secondary Text -->
-    <color name="hint_text_white">#b3FFFFFF</color>
+    <color name="primary_text_black">#FFFFFF</color>
     <color name="secondary_text_black">#b3FFFFFF</color>
-    <color name="text_grey">#b3FFFFFF</color>
-    <color name="gray">#b3FFFFFF</color>
-    <!-- Quiz -->
-    <color name="quiz_leaderboard_text">#FFFFFF</color>                                             <!-- Points -->
-    <color name="quiz_leaderboard_no_friends_message">#FFFFFF</color>
-    <!-- <color name="quiz_results_dark_gray">#FFFFFF</color>
-     <color name="quiz_results_black">#FFFFFF</color> -->
-    <!-- Other -->
-    <color name="text_gray">#FFFFFF</color>
-
-    <!-- Other Stuff -->
-    <color name="black">#FFFFFF</color>                                                             <!-- ViewpageIndicator Selected -->
-    <color name="black_tr_50">#80FFFFFF</color>                                                     <!-- ViewpageIndicator UnSelected -->
-    <color name="divider_white">@*android:color/background_dark</color>
-    <color name="divider_black">#00000000</color>                                                   <!-- Divider -->
-    <color name="kumera">#FFFFFF</color>
-    <color name="material_grey_50">#000000</color>
-
-    <array name="placeholer_colors">
-        <item>@*android:color/background_dark</item>
-    </array>
-
-    <!-- Other -->
-    <color name="agenda_highlighted_background">@*android:color/background_material_dark</color>    <!-- Agenda Seen episode Background -->
-    <color name="secondary_text_white">#b3FFFFFF</color>
+    <color name="blackSix">#FFF</color>
 </resources>

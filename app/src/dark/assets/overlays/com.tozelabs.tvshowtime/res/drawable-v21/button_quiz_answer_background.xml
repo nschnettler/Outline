@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <shape>
+            <corners android:radius="@*com.tozelabs.tvshowtime:dimen/answer_button_radius" />
+            <solid android:color="@*android:color/background_material_dark" />
+            <stroke android:width="2.0dip" android:color="@*com.tozelabs.tvshowtime:color/atlantis" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="@*com.tozelabs.tvshowtime:dimen/answer_button_radius" />
+            <solid android:color="@*android:color/background_material_dark" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="@*com.tozelabs.tvshowtime:color/saffron_pressed">
+            <item>
+                <shape>
+                    <corners android:radius="@*com.tozelabs.tvshowtime:dimen/answer_button_radius" />
+                    <solid android:color="@*android:color/background_material_dark" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

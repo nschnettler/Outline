@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="QuizTheme" parent="@*com.tozelabs.tvshowtime:style/AppImmersiveTheme">
+        <item name="*com.tozelabs.tvshowtime:actionMenuTextAppearance">@*com.tozelabs.tvshowtime:style/MenuStyle</item>
+        <item name="*com.tozelabs.tvshowtime:actionMenuTextColor">@*com.tozelabs.tvshowtime:color/menu_text</item>
+        <item name="*com.tozelabs.tvshowtime:md_background_color">@*android:color/background_material_dark</item>
+    </style>
+</resources>

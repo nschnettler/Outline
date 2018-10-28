@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="@*com.tozelabs.tvshowtime:dimen/episode_card_radius" />
-    <gradient android:startColor="@*com.tozelabs.tvshowtime:color/transparent" android:endColor="@*android:color/background_material_dark" android:angle="-90.0" />
-</shape>
