@@ -19,4 +19,5 @@
     <color name="button_material_dark">@android:color/background_dark</color>                       <!-- Button -->
     <color name="ripple_material_dark">@android:color/background_dark</color>                       <!-- Drawer Selected -->
     <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
+    <color name="card_background_color_dark">@*android:color/background_material_dark</color>       <!-- Card -->
 </resources>
