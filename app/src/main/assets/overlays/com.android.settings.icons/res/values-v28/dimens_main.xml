@@ -3,4 +3,8 @@
     <!-- P -->
     <dimen name="dashboard_tile_image_size">40dp</dimen>
     <dimen name="dashboard_tile_foreground_image_inset">8dip</dimen>
+
+    <!-- StatiXOS -->
+    <dimen name="sparks_tile_foreground_image_size">24dp</dimen>
+    <dimen name="sparks_tile_foreground_image_inset">8dip</dimen>
 </resources>
