@@ -7,12 +7,10 @@
 
     <!-- Background -->
     <color name="google_grey_900">@*android:color/background_material_dark</color>                  <!-- Main -->
-    <color name="google_grey_800">@*android:color/background_material_dark</color>                  <!-- Card -->
+    <color name="google_grey_900_elevated">@*android:color/background_material_dark</color>         <!-- Card -->
 
     <!-- Text -->
     <color name="google_grey_400">#FEFEFE</color>                                                   <!-- Primary -->
     <color name="google_grey_300">#b3FFFFFF</color>                                                 <!-- Secondary -->
     <color name="google_grey_700">#b3FFFFFF</color>
-    <color name="settings_text_color_primary">#FFFFFFFF</color>
-    <color name="settings_text_color_secondary">#b3FFFFFF</color>
 </resources>

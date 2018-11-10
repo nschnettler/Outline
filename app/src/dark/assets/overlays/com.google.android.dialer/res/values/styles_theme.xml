@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Use Dark Theme -->
-    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityThemeBase.Dark">
-        <item name="android:statusBarColor">?android:colorBackground</item>
+    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityTheme.Dark">
         <item name="android:navigationBarColor">?android:colorBackground</item>
     </style>
 
     <!-- Log, Details, Settings -->
     <style name="Dialer.ThemeBase.NoActionBar" parent="@*com.google.android.dialer:style/Dialer.Dark.ThemeBase.NoActionBar">
-        <item name="android:statusBarColor">?android:colorBackground</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
     </style>
 
@@ -16,15 +14,9 @@
     <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorBackground">@*android:color/background_material_dark</item>
     </style>
-
     <!-- Incall -->
-    <style name="Theme.InCallScreen" parent="@*com.google.android.dialer:style/Dialer.ThemeBase.NoActionBar">
-        <item name="android:windowBackground">?android:colorBackground</item>
-        <item name="android:windowAnimationStyle">@null</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <style name="Theme.InCallScreen" parent="@*com.google.android.dialer:style/Theme.InCallScreen.Dark">
         <item name="android:statusBarColor">@android:color/holo_blue_light</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="*com.google.android.dialer:dialpad_style">@*com.google.android.dialer:style/InCallDialpad</item>
-        <item name="*com.google.android.dialer:dialpad_key_button_touch_tint">?android:colorPrimary</item>
     </style>
 </resources>
