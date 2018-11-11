@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-
-    Create Group
-
--->
+<?xml version="1.0" encoding="utf-8"?>
 <com.whatsapp.EmojiPopupLayout android:id="@*com.whatsapp:id/main"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -82,7 +78,7 @@
                                         android:layout_alignBottom="@*com.whatsapp:id/emoji_btn"
                                         android:layout_centerVertical="true">
 
-                                        <EditText
+                                        <com.whatsapp.WaEditText
                                             android:textSize="16.0sp"
                                             android:textColorHint="#b3FFFFFF"
                                             android:ellipsize="end"
@@ -109,7 +105,7 @@
                                             android:layout_alignParentRight="true" />
                                     </RelativeLayout>
 
-                                    <ImageButton
+                                    <com.whatsapp.WaImageButton
                                         android:id="@*com.whatsapp:id/emoji_btn"
                                         android:layout_width="48.0dip"
                                         android:layout_height="48.0dip"
@@ -147,7 +143,7 @@
                         </FrameLayout>
                     </LinearLayout>
 
-                    <ImageButton
+                    <com.whatsapp.WaImageButton
                         android:layout_gravity="right"
                         android:id="@*com.whatsapp:id/ok_btn"
                         android:background="@*com.whatsapp:drawable/input_circle_green"

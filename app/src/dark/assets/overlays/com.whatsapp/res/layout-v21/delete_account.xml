@@ -212,7 +212,7 @@
                         android:layout_height="wrap_content"
                         android:text="+" />
 
-                    <EditText
+                    <com.whatsapp.WaEditText
                         android:textSize="16.0sp"
                         android:gravity="center"
                         android:id="@*com.whatsapp:id/registration_cc"
@@ -222,7 +222,7 @@
                         android:digits="\ 0123456789"
                         android:inputType="phone" />
 
-                    <EditText
+                    <com.whatsapp.WaEditText
                         android:textSize="16.0sp"
                         android:textColor="#ffffffff"
                         android:textColorHint="#b3FFFFFF"
@@ -238,7 +238,7 @@
                         android:imeOptions="actionDone" />
                 </LinearLayout>
 
-                <Button
+                <com.whatsapp.WaButton
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:id="@*com.whatsapp:id/registration_submit"

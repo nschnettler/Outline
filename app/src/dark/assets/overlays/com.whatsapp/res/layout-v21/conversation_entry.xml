@@ -90,7 +90,7 @@
                             android:layout_height="wrap_content"
                             android:minHeight="47.0dip">
 
-                            <ImageButton
+                            <com.whatsapp.WaImageButton
                                 android:layout_gravity="bottom"
                                 android:id="@*com.whatsapp:id/emoji_picker_btn"
                                 android:layout_width="44.0dip"
@@ -122,7 +122,7 @@
                                 android:scrollbarFadeDuration="300"
                                 android:scrollbarDefaultDelayBeforeFade="200" />
 
-                            <ImageButton
+                            <com.whatsapp.WaImageButton
                                 android:layout_gravity="bottom"
                                 android:id="@*com.whatsapp:id/input_attach_button"
                                 android:visibility="gone"
@@ -133,7 +133,7 @@
                                 android:contentDescription="@*com.whatsapp:string/attach"
                                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-                            <ImageButton
+                            <com.whatsapp.WaImageButton
                                 android:layout_gravity="bottom"
                                 android:id="@*com.whatsapp:id/camera_btn"
                                 android:visibility="gone"
@@ -146,6 +146,7 @@
                                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
                             <ViewStub
+                                android:layout_gravity="bottom"
                                 android:id="@*com.whatsapp:id/stub_quick_reply_btn"
                                 android:layout_width="44.0dip"
                                 android:layout_height="47.0dip"
@@ -186,7 +187,7 @@
                         android:elevation="2.0dip"
                         android:stateListAnimator="@*com.whatsapp:anim/fab_animation">
 
-                        <ImageButton
+                        <com.whatsapp.WaImageButton
                             android:layout_gravity="center"
                             android:id="@*com.whatsapp:id/send"
                             android:background="@android:color/transparent"
@@ -196,7 +197,7 @@
                             android:scaleType="center"
                             android:contentDescription="@*com.whatsapp:string/send_button" />
 
-                        <ImageButton
+                        <com.whatsapp.WaImageButton
                             android:layout_gravity="center"
                             android:id="@*com.whatsapp:id/voice_note_btn"
                             android:background="@android:color/transparent"
@@ -254,7 +255,7 @@
         android:paddingEnd="@*com.whatsapp:dimen/input_layout_voice_animation_margin_right"
         android:layout_alignParentEnd="true" />
 
-    <ImageButton
+    <com.whatsapp.WaImageButton
         android:layout_gravity="bottom|center|right"
         android:id="@*com.whatsapp:id/voice_note_btn_slider"
         android:background="@*com.whatsapp:drawable/input_circle_large"

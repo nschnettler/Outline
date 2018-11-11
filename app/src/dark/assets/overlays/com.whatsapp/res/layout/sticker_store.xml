@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.MainChildCoordinatorLayout android:id="@*com.whatsapp:id/content_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:mcclChildId="@*com.whatsapp:id/store_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.whatsapp">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@*com.whatsapp:id/store_container"
+        android:background="@*android:color/background_material_dark"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.whatsapp.BidiToolbar
+            android:id="@*com.whatsapp:id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="?android:actionBarSize"
+            android:layout_alignParentTop="true"
+            app:titleTextAppearance="@*com.whatsapp:style/TextAppearance.AppCompat.Title" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@*com.whatsapp:id/sticker_store_tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_below="@*com.whatsapp:id/toolbar" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@*com.whatsapp:id/sticker_store_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@*com.whatsapp:id/sticker_store_tabs" />
+    </RelativeLayout>
+</com.whatsapp.MainChildCoordinatorLayout>

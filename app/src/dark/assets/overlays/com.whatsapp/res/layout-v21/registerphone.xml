@@ -85,7 +85,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_centerVertical="true" />
 
-                    <EditText
+                    <com.whatsapp.WaEditText
                         android:textSize="16.0sp"
                         android:textColor="#ffffffff"
                         android:ellipsize="end"
@@ -104,7 +104,7 @@
                         android:backgroundTint="@*com.whatsapp:color/accent" />
                 </RelativeLayout>
 
-                <EditText
+                <com.whatsapp.WaEditText
                     android:textSize="16.0sp"
                     android:textColor="#ffffffff"
                     android:textColorHint="#b3FFFFFF"
@@ -139,7 +139,7 @@
                 android:layout_height="0.0dip"
                 android:layout_weight="1.0" />
 
-            <Button
+            <com.whatsapp.WaButton
                 android:gravity="center"
                 android:layout_gravity="bottom|center"
                 android:id="@*com.whatsapp:id/registration_submit"

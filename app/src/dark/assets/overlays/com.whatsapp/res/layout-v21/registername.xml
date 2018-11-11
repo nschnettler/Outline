@@ -70,9 +70,9 @@
                 android:layout_marginLeft="8.0dip"
                 android:layout_weight="1.0">
 
-                <EditText
+                <com.whatsapp.WaEditText
                     android:textSize="16.0dip"
-                    android:textColor="#ff000000"
+                    android:textColor="#FFF"
                     android:textColorHint="@*com.whatsapp:color/edit_text_counter"
                     android:ellipsize="end"
                     android:id="@*com.whatsapp:id/registration_name"
@@ -99,7 +99,7 @@
                     android:layout_alignParentRight="true" />
             </RelativeLayout>
 
-            <ImageButton
+            <com.whatsapp.WaImageButton
                 android:layout_gravity="center|right"
                 android:id="@*com.whatsapp:id/emoji_btn"
                 android:background="@android:color/transparent"
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0" />
 
-        <Button
+        <com.whatsapp.WaButton
             android:gravity="center"
             android:layout_gravity="bottom|center"
             android:id="@*com.whatsapp:id/register_name_accept"

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-
-    Ex: Rename Group Bg
-
--->
+<?xml version="1.0" encoding="utf-8"?>
 <com.whatsapp.EmojiPopupLayout android:id="@*com.whatsapp:id/emoji_edit_text_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -32,79 +28,83 @@
                 style="@*com.whatsapp:style/Theme.ActionBar.SubtitleTextStyle" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:id="@*com.whatsapp:id/subject_layout"
-            android:paddingTop="16.0dip"
+        <ScrollView
             android:layout_width="fill_parent"
             android:layout_height="0.0dip"
             android:layout_weight="1.0">
 
-            <RelativeLayout
-                android:paddingLeft="13.0dip"
-                android:paddingRight="2.0dip"
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@*com.whatsapp:id/subject_layout"
+                android:paddingTop="16.0dip"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
-                <ViewStub
-                    android:id="@*com.whatsapp:id/stub_button_before_text"
-                    android:inflatedId="@*com.whatsapp:id/stub_button_before_text"
-                    android:layout_width="48.0dip"
-                    android:layout_height="48.0dip"
-                    android:layout_marginRight="10.0dip" />
-
                 <RelativeLayout
-                    android:id="@*com.whatsapp:id/text_and_counter"
+                    android:paddingLeft="13.0dip"
+                    android:paddingRight="2.0dip"
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_toLeftOf="@*com.whatsapp:id/emoji_btn"
-                    android:layout_toRightOf="@*com.whatsapp:id/stub_button_before_text"
-                    android:layout_centerVertical="true">
+                    android:layout_height="wrap_content">
 
-                    <EditText
-                        android:textColor="#FFFFFF"
-                        android:textColorHint="#b3FFFFFF"
-                        android:ellipsize="end"
-                        android:id="@*com.whatsapp:id/edit_text"
-                        android:paddingRight="@*com.whatsapp:dimen/counter_text_padding"
+                    <ViewStub
+                        android:id="@*com.whatsapp:id/stub_button_before_text"
+                        android:inflatedId="@*com.whatsapp:id/stub_button_before_text"
+                        android:layout_width="48.0dip"
+                        android:layout_height="48.0dip"
+                        android:layout_marginRight="10.0dip" />
+
+                    <RelativeLayout
+                        android:id="@*com.whatsapp:id/text_and_counter"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:maxLines="1"
-                        android:lines="1"
-                        android:singleLine="true"
-                        android:inputType="textCapSentences" />
+                        android:layout_toLeftOf="@*com.whatsapp:id/emoji_btn"
+                        android:layout_toRightOf="@*com.whatsapp:id/stub_button_before_text"
+                        android:layout_centerVertical="true">
 
-                    <com.whatsapp.WaTextView
-                        android:textSize="14.0sp"
-                        android:textColor="@*com.whatsapp:color/edit_text_counter"
-                        android:gravity="center|right"
-                        android:id="@*com.whatsapp:id/counter_tv"
-                        android:visibility="gone"
-                        android:layout_width="wrap_content"
+                        <com.whatsapp.WaEditText
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#b3FFFFFF"
+                            android:ellipsize="end"
+                            android:id="@*com.whatsapp:id/edit_text"
+                            android:paddingRight="@*com.whatsapp:dimen/counter_text_padding"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:lines="1"
+                            android:singleLine="true"
+                            android:inputType="textCapSentences" />
+
+                        <com.whatsapp.WaTextView
+                            android:textSize="14.0sp"
+                            android:textColor="@*com.whatsapp:color/edit_text_counter"
+                            android:gravity="center|right"
+                            android:id="@*com.whatsapp:id/counter_tv"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48.0dip"
+                            android:layout_marginRight="10.0dip"
+                            android:layout_alignBottom="@*com.whatsapp:id/edit_text"
+                            android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+
+                    <com.whatsapp.WaImageButton
+                        android:id="@*com.whatsapp:id/emoji_btn"
+                        android:layout_width="48.0dip"
                         android:layout_height="48.0dip"
-                        android:layout_marginRight="10.0dip"
-                        android:layout_alignBottom="@*com.whatsapp:id/edit_text"
-                        android:layout_alignParentRight="true" />
+                        android:src="@*com.whatsapp:drawable/input_emoji"
+                        android:layout_alignBottom="@*com.whatsapp:id/text_and_counter"
+                        android:layout_alignParentRight="true"
+                        android:contentDescription="@*com.whatsapp:string/emoji_button_description"
+                        style="@*com.whatsapp:style/ActionBarButtonStyle" />
                 </RelativeLayout>
 
-                <ImageButton
-                    android:id="@*com.whatsapp:id/emoji_btn"
-                    android:layout_width="48.0dip"
-                    android:layout_height="48.0dip"
-                    android:src="@*com.whatsapp:drawable/input_emoji"
-                    android:layout_alignBottom="@*com.whatsapp:id/text_and_counter"
-                    android:layout_alignParentRight="true"
-                    android:contentDescription="@*com.whatsapp:string/emoji_button_description"
-                    style="@*com.whatsapp:style/ActionBarButtonStyle" />
-            </RelativeLayout>
-
-            <com.whatsapp.WaTextView
-                android:id="@*com.whatsapp:id/dialog_footer"
-                android:padding="16.0dip"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#b3FFFFFF"/>
-        </LinearLayout>
+                <com.whatsapp.WaTextView
+                    android:id="@*com.whatsapp:id/dialog_footer"
+                    android:padding="16.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
 
         <include layout="@*com.whatsapp:layout/ok_cancel" />
 

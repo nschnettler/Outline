@@ -74,7 +74,8 @@
                     android:id="@*com.whatsapp:id/pickfiletype_payment"
                     android:background="@*com.whatsapp:drawable/payment_attach_background"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4.0dip">
 
                     <com.whatsapp.PaymentsIconView
                         android:textSize="23.0dip"
@@ -85,6 +86,7 @@
                 </RelativeLayout>
 
                 <com.whatsapp.CondensedTextView
+                    android:paddingTop="6.0dip"
                     android:text="@*com.whatsapp:string/payment"
                     style="@*com.whatsapp:style/AttachPickerLabel" />
             </LinearLayout>
