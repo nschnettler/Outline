@@ -7,11 +7,4 @@
         <item>@android:color/holo_green_light</item>
         <item>@android:color/holo_orange_light</item>
     </array>
-    <array name="letter_tile_colors_dark">
-        <item>#FFF</item>
-        <item>#FFF</item>
-        <item>#FFF</item>
-        <item>#FFF</item>
-        <item>#FFF</item>
-    </array>
 </resources>

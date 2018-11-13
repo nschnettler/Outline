@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Base AppCompat -> Dark Theme -->
-    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar"/>
-</resources>
