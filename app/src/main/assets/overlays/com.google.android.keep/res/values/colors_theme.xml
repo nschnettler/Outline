@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Primary -->
-    <color name="trash_action_bar_background_color">#FFF</color>
-    <color name="trash_status_bar_color">#FFF</color>
-    <color name="action_bar_background_color">#FFF</color>
-    <color name="browse_secondary_status_bar_color">#FFF</color>
-</resources>

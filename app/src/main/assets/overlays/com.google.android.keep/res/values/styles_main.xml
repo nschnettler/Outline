@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Toolbar Text -->
-    <style name="ToolbarTitleTextAppearance" parent="@*com.google.android.keep:style/TextAppearance.GoogleMaterial.Toolbar.Title"/>
-    <!-- Toolbar Icons -->
-    <style name="ToolbarTheme">
-        <item name="*com.google.android.keep:colorControlNormal">?android:textColorPrimary</item>
-    </style>
-</resources>
