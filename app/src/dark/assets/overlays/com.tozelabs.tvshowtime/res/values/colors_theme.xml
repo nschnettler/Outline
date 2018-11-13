@@ -16,6 +16,7 @@
     <color name="medium_black">@*android:color/background_material_dark</color>
     <color name="blackThree">@*android:color/background_material_dark</color>
     <color name="notification_item_background">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog -->
     <color name="notification_item_highlighted_background">#1a000000</color>
     <color name="alto1">@android:color/background_dark</color>
     <color name="whiteSix">#33000000</color>                                                        <!-- Poll - Other Votes -->
