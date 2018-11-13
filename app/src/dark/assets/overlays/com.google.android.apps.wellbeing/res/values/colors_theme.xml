@@ -6,6 +6,7 @@
 
     <!-- Background -->
     <color name="google_white">@*android:color/background_material_dark</color>                     <!-- Dashboard -->
+    <color name="design_default_color_surface">@*android:color/background_material_dark</color>
 
     <!-- Divider -->
     <color name="google_grey300">#1a000000</color>
@@ -13,6 +14,6 @@
 
     <!-- Text -->
     <color name="pie_chart_label_color">#FFF</color>
-    <color name="pie_chart_sub_headers_color">#b3FFFFFF</color>
+    <color name="secondary_grey">#b3FFFFFF</color>
     <color name="google_grey900">#FFF</color>
 </resources>
