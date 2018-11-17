@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.GoogleMaterial.Light" parent="@*com.google.android.keep:style/Base.Theme.GoogleMaterial.Light">
-        <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:windowLightNavigationBar">false</item>
-        <item name="android:windowLightStatusBar">false</item>
-    </style>
-    <style name="Theme.GoogleMaterial.Light.BottomSheetDialog" parent="@*com.google.android.keep:style/Base.Theme.GoogleMaterial.Light.BottomSheetDialog">
-        <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:windowLightNavigationBar">false</item>
-    </style>
+    <style name="Theme.GoogleMaterial.Light.BottomSheetDialog" parent="@*com.google.android.keep:style/Theme.GoogleMaterial.Dark.BottomSheetDialog"/>
 </resources>
