@@ -1,7 +1,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:height="56dp" android:width="56dp" android:gravity="center">
+    <item android:height="54dp" android:width="54dp" android:gravity="center">
         <shape android:shape="oval">
-            <solid android:color="@android:color/holo_orange_light"/>
+            <solid android:color="@*android:color/holo_gray_light"/>
         </shape>
     </item>
     <item android:height="32dp" android:width="32dp" android:gravity="center">
@@ -12,8 +12,12 @@
             android:viewportHeight="24.0">
             <path
                 android:strokeColor="#FFFFFF"
-                android:strokeWidth="0.8"
-                android:pathData="M14.1,17.3c0,2.3-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2S14.1,14.8,14.1,17.3z M18.3,2.5h-4.2v14.8"/>
+                android:strokeWidth="1.5"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:pathData="M7.039 9.604s3.454 3.498 4.584
+4.643c.094.094.221.148.354.148.133.001.261-.052.355-.146
+1.145-1.141 4.662-4.645 4.662-4.645"/>
         </vector>
     </item>
 </layer-list>
