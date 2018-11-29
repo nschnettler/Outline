@@ -185,6 +185,22 @@
                     android:text="@*com.whatsapp:string/attach_contact"
                     style="@*com.whatsapp:style/AttachPickerLabel" />
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_reminder_holder"
+                android:visibility="gone"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_reminder"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:id="@*com.whatsapp:id/attach_appointment_reminder_text"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </com.whatsapp.CircularRevealView>

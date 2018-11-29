@@ -118,7 +118,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@*com.whatsapp:string/sticker_delete_button"
-                    style="@*com.whatsapp:style/StickerPreviewButtonText" />
+                    style="@*com.whatsapp:style/StickerPreviewButtonCapText" />
             </FrameLayout>
 
             <LinearLayout
@@ -140,7 +140,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@*com.whatsapp:string/sticker_download_button"
-                        style="@*com.whatsapp:style/StickerPreviewButtonText" />
+                        style="@*com.whatsapp:style/StickerPreviewButtonCapText" />
 
                     <com.whatsapp.WaTextView
                         android:textColor="@*com.whatsapp:color/white"

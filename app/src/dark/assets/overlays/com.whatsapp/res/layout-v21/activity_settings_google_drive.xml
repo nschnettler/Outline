@@ -151,7 +151,7 @@
                     android:layout_marginTop="16.0dip"
                     android:layout_marginBottom="16.0dip">
 
-                    <Button
+                    <com.whatsapp.WaButton
                         android:textSize="14.0sp"
                         android:textColor="@*com.whatsapp:color/selector_google_drive_green_button_text"
                         android:layout_gravity="left"
@@ -164,7 +164,7 @@
                         android:layout_marginTop="0.0dip"
                         android:layout_marginBottom="0.0dip"
                         android:minWidth="@*com.whatsapp:dimen/btn_min_width"
-                        android:text="@*com.whatsapp:string/settings_gdrive_backup_now_title"
+                        android:text="@*com.whatsapp:string/backup"
                         android:textAllCaps="true" />
 
                     <LinearLayout
@@ -415,7 +415,7 @@
         </LinearLayout>
     </ScrollView>
 
-    <Button
+    <com.whatsapp.WaButton
         android:textSize="16.0sp"
         android:textColor="@*com.whatsapp:color/accent"
         android:gravity="center"
