@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="25.0dip" android:width="25.0dip" android:viewportWidth="25.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/holo_orange_light" android:pathData="M4,0L21,0A4,4 0,0 1,25 4L25,21A4,4 0,0 1,21 25L4,25A4,4 0,0 1,0 21L0,4A4,4 0,0 1,4 0z" android:fillType="nonZero" />
+    <path android:fillColor="#ff373737" android:pathData="M6,5L11,5A1,1 0,0 1,12 6L12,11A1,1 0,0 1,11 12L6,12A1,1 0,0 1,5 11L5,6A1,1 0,0 1,6 5z" android:fillType="nonZero" />
+    <path android:fillColor="#ff373737" android:pathData="M14,5L19,5A1,1 0,0 1,20 6L20,11A1,1 0,0 1,19 12L14,12A1,1 0,0 1,13 11L13,6A1,1 0,0 1,14 5z" android:fillType="nonZero" />
+    <path android:fillColor="#ff373737" android:pathData="M6,13L11,13A1,1 0,0 1,12 14L12,19A1,1 0,0 1,11 20L6,20A1,1 0,0 1,5 19L5,14A1,1 0,0 1,6 13z" android:fillType="nonZero" />
+    <path android:fillColor="#ff373737" android:pathData="M14,13L19,13A1,1 0,0 1,20 14L20,19A1,1 0,0 1,19 20L14,20A1,1 0,0 1,13 19L13,14A1,1 0,0 1,14 13z" android:fillType="nonZero" />
+</vector>
