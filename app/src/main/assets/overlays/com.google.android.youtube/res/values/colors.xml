@@ -6,6 +6,7 @@
     <color name="color_brand_primary">@android:color/holo_red_light</color>
     <color name="yt_material_blue_500">@android:color/holo_red_light</color>
     <color name="yt_light_blue">@android:color/holo_red_light</color>
+    <color name="yt_dark_blue">@android:color/holo_red_light</color>                                <!-- Settings - ColorControlActivated -->
 
     <color name="yt_selected_nav_icon_light">@android:color/holo_red_light</color>                  <!-- BottomBar Selected - Icon -->
     <color name="yt_selected_nav_label_light">@android:color/holo_red_light</color>                 <!-- BottomBar Selected - Text -->
