@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LeftNavRedesignWhiteTheme" parent="@*com.android.vending:style/Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@*com.android.vending:color/play_primary_settings_set</item>
+        <item name="android:textAppearanceMedium">@*com.android.vending:style/DarkerMedium</item>
+        <item name="android:windowBackground">@*com.android.vending:color/play_white</item>
+        <item name="android:textColorTertiary">@*com.android.vending:color/play_tertiary_settings_set</item>
+        <item name="android:statusBarColor">@*com.android.vending:color/play_white</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.android.vending:colorPrimary">@*com.android.vending:color/play_white</item>
+        <item name="*com.android.vending:colorPrimaryDark">@*com.android.vending:color/play_white</item>
+        <item name="*com.android.vending:delegateToSupportLibAlertDialog">true</item>
+    </style>
+</resources>

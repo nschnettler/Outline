@@ -14,6 +14,8 @@
     <color name="account_email_dark_text_color">#FFFFFF</color>                                     <!-- Email Settings - Title -->
     <color name="account_email_light_text_color">#b3FFFFFF</color>                                  <!-- Email Settings - SubTitle -->
     <color name="white_action_bar_icon_color">#FFF</color>
+    <color name="white_action_bar_dark_title_color">#FFF</color>                                    <!-- Toolbar -->
+    <color name="play_secondary_light">#b3FFFFFF</color>                                            <!-- Tab Inactive -->
 
     <!-- Background -->
         <!-- What's New -->
