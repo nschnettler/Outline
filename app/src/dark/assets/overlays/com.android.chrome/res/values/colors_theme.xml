@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary/Background -->
+    <color name="modern_primary_color">@*android:color/background_material_dark</color>
+    <color name="suggestions_modern_bg">@*android:color/background_material_dark</color>
+    <color name="modern_grey_100">@android:color/background_dark</color>
+
+    <!-- Text -->
+    <color name="url_emphasis_domain_and_registry">#FFFFFFFF</color>                                <!-- Domain -->
+    <color name="url_emphasis_non_emphasized_text">#b3FFFFFF</color>                                <!-- Rest -->
+    <color name="url_emphasis_default_text">@android:color/holo_blue_light</color>                  <!-- SearchBox, Suggestion Title -->
+    <color name="modern_grey_900">#FFF</color>
+    <color name="default_text_color_secondary">#b3FFFFFF</color>
+    <color name="black_alpha_38">#b3FFFFFF</color>
+
+    <!-- Icon -->
+    <color name="default_icon_color">#FFF</color>
+    <color name="black_alpha_24">#b3FFFFFF</color>
+
+    <!-- Other -->
+    <color name="light_normal_color">#b3FFFFFF</color>                                              <!-- CheckBox -->
+    <color name="omnibox_focused_fading_background_color_light">#00000000</color>                   <!-- Overlay -->
+</resources>
