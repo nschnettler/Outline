@@ -8,6 +8,7 @@
     <color name="suggestion_card_collapsed_title_text_color">#FFFFFF</color>
     <color name="suggestion_card_more_text_color">#FFFFFF</color>
     <color name="suggestion_tile_background">@*android:color/background_material_dark</color>
+    <color name="search_bar_background_color">@*android:color/background_material_dark</color>      <!-- Bootleggers - Searchbar -->
 
     <!-- ROMs - Tabs -->
     <color name="dt_tab_inactive_text_color">#b3FFFFFF</color>
