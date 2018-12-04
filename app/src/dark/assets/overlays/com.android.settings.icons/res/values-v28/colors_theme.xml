@@ -31,5 +31,6 @@
     <color name="homepage_xtensions_background">#0dFFFFFF</color>
     <color name="homepage_pixys_background">#0dFFFFFF</color>
     <color name="homepage_skydragon_background">#0dFFFFFF</color>
+    <color name="homepage_bootlegdump_background">#0dFFFFFF</color>
     <color name="omni_logo_color">#0dFFFFFF</color>
 </resources>
