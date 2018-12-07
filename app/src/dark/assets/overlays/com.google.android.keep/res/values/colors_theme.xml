@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="google_white">@*android:color/background_material_dark</color>
+    <color name="google_dark_default_color_background">@*android:color/background_material_dark</color>
     <color name="action_mode_background_color">@*android:color/background_material_dark</color>     <!-- Action Mode -->
     <color name="design_dark_default_color_surface">@*android:color/background_material_dark</color>
     <color name="label_editor_rename_mode_color">@*android:color/background_material_dark</color>   <!-- New Label -->
