@@ -4,6 +4,15 @@
     <color name="blueapptheme_color">@android:color/holo_blue_light</color>                         <!-- Primary -->
     <color name="blueapptheme_color_pressed">@android:color/holo_blue_light</color>                 <!-- Primary Pressed-->
     <color name="colorPrimaryLightDark">@android:color/holo_blue_light</color>                      <!-- Primary Dark -->
+    <color name="material_grey_50">#FFF</color>                                                     <!-- Main -->
+
+    <!-- Dark Theme -->
+    <color name="actionbar">@*android:color/background_dark</color>                                 <!-- Primary -->
+    <color name="actionbar_dark">@*android:color/background_dark</color>                            <!-- Primary Dark-->
+    <color name="background">@*android:color/background_material_dark</color>                       <!-- Main -->
+    <color name="card_background">@*android:color/background_material_dark</color>                  <!-- Card -->
+    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color> <!-- Snackbar -->
+    <color name="background_cardview_black">@*android:color/background_material_dark</color>        <!-- Navigationbar -->
 
     <!-- Dashboard -->
     <color name="dashboard_green">@android:color/holo_green_light</color>
