@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="dialer_light_theme_color">@android:color/holo_blue_light</color>                   <!-- Light -->
+    <color name="dialer_dark_theme_color">@android:color/holo_blue_light</color>                    <!-- Dark -->
+    <color name="google_blue_800">@android:color/holo_blue_light</color>                            <!-- Dark - FAB -->
+    <color name="dialer_snackbar_action_text_color">@android:color/holo_blue_light</color>
+
+    <!-- Dark Theme -->
+    <color name="google_grey_900">@*android:color/background_material_dark</color>                  <!-- Background - Main -->
+    <color name="google_grey_900_elevated">@*android:color/background_material_dark</color>         <!-- Background - Elevated -->
+
+    <!-- Call -->
+    <color name="dialer_call_green">@android:color/holo_blue_light</color>                          <!-- Start -->
+    <color name="call_hangup_background">@android:color/holo_red_light</color>                      <!-- Hang up -->
+    <color name="dialer_end_call_button_color">@android:color/holo_red_light</color>
+    <color name="notification_action_accept">@android:color/holo_green_light</color>                <!-- Answer -->
+    <color name="notification_action_answer_video">@android:color/holo_green_light</color>          <!-- Answer - Video -->
+    <color name="dialer_red">@android:color/holo_red_light</color>                                  <!-- Missed -->
+</resources>

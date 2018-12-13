@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Incall -->
-    <style name="Theme.InCallScreen" parent="@*com.google.android.dialer:style/Theme.InCallScreen.Dark">
-        <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
-        <item name="android:windowTranslucentNavigation">true</item>
-    </style>
-</resources>

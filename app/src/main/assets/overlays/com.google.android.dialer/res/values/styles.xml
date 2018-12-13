@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark - NavigationBar, Divider -->
+    <style name="Dialer.Dark.ThemeBase.NoActionBar" parent="@*com.google.android.dialer:style/Dialer.Dark.ThemeBase">
+        <item name="*com.google.android.dialer:windowActionBar">false</item>
+        <item name="*com.google.android.dialer:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="*com.google.android.dialer:colorDividerLine">#1a000000</item>
+    </style>
+</resources>
