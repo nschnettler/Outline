@@ -8,4 +8,9 @@
         <item name="android:textColorSecondary">#8A000000</item>
         <item name="android:textColorHint">#61000000</item>
     </style>
+
+    <style name="SettingsRedesignPreferenceText">
+        <item name="android:textSize">@*com.android.vending:dimen/settings_preference_text_size</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
 </resources>

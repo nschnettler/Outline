@@ -5,7 +5,7 @@
 
     <!-- Text -->
     <color name="play_fg_primary">#FFFFFF</color>                                                   <!-- Primary Text Color, for example  Drawer unselected-->
-    <color name="play_fg_secondary">#FFFFFF</color>                                                 <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
+    <color name="play_fg_secondary">#b3FFFFFF</color>                                                 <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
     <color name="primary_text_default_material_light">#FFF</color>
     <color name="detailed_permissions_footer_text">#b3FFFFFF</color>
     <color name="play_icon_selected">#FFFFFF</color>                                                <!-- Drawer Selected -->
