@@ -9,6 +9,7 @@
     <color name="widget_header_account_background_color">@*android:color/background_material_dark</color><!-- Widget - Behind Account Name -->
     <color name="share_handler_account_selector">@*android:color/background_material_dark</color>
     <color name="google_grey800">@*android:color/background_material_dark</color>
+    <color name="recurrence_picker_background">@*android:color/background_material_dark</color>
     <color name="share_handler_default_background">@*android:color/background_dark</color>
     <color name="zero_search_background_color">@*android:color/background_material_dark</color>     <!-- Search -->
     <color name="zero_search_light_background_color">#1a000000</color>                              <!-- Search 2 -->
