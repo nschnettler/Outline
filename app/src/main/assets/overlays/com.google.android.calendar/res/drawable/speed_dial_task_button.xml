@@ -2,5 +2,5 @@
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@*com.google.android.calendar:drawable/fab_small_white" />
-    <item android:gravity="center" android:drawable="@*com.google.android.calendar:drawable/ic_reminders_alt_googblue_24" />
+    <item android:gravity="center" android:drawable="@*com.google.android.calendar:drawable/quantum_gm_ic_reminder_gm_blue_24" />
 </layer-list>
