@@ -18,6 +18,7 @@
     <color name="groove_wizard_button_black">#FFF</color>
     <color name="quantum_grey900">#FFF</color>
     <color name="drawer_logo_lockup_product_name_color">#FFF</color>
+    <color name="primary_text_default_material_light">#FFF</color>
 
     <!-- Divider -->
     <color name="google_grey200">#1a000000</color>
