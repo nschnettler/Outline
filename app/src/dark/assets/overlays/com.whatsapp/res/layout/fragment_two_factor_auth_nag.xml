@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30.0dip">
 
-            <com.whatsapp.registration.CodeInputField
+            <com.whatsapp.CodeInputField
                 android:textSize="22.0sp"
                 android:gravity="bottom|center"
                 android:id="@*com.whatsapp:id/code"

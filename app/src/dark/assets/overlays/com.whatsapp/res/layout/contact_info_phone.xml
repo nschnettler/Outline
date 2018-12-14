@@ -18,7 +18,7 @@
             android:background="@*com.whatsapp:drawable/selector_orange_gradient"
             android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
             android:layout_width="0.0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="@*com.whatsapp:dimen/small_list_row_height"
             android:layout_weight="1.0">
 
             <LinearLayout

@@ -4,7 +4,7 @@
     android:focusable="true"
     android:clickable="true"
     android:layout_width="fill_parent"
-    android:layout_height="100.0dip"
+    android:layout_height="100.0sp"
     android:foreground="?android:selectableItemBackground"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/com.whatsapp">
@@ -58,18 +58,18 @@
     <com.whatsapp.stickers.TouchDiscardLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="12.0dip"
         android:layout_toLeftOf="@*com.whatsapp:id/buttons"
         android:layout_below="@*com.whatsapp:id/sticker_pack_info">
 
         <android.support.v7.widget.RecyclerView
-            android:layout_gravity="bottom"
+            android:layout_gravity="center_vertical"
             android:id="@*com.whatsapp:id/sticker_row_recycler"
             android:layout_width="fill_parent"
-            android:layout_height="44.0dip"
-            android:layout_marginLeft="16.0dip"
-            android:layout_marginTop="4.0dip"
-            android:layout_marginRight="16.0dip"
-            android:layout_marginBottom="12.0dip" />
+            android:layout_height="44.0dip" />
 
         <com.whatsapp.CircularProgressBar
             android:layout_gravity="center"

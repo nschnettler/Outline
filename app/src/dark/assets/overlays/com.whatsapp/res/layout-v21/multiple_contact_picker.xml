@@ -9,6 +9,7 @@ New Group: Select (multiple) contacts
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <FrameLayout
+        android:id="@*com.whatsapp:id/action_bar"
         android:background="@*android:color/background_material_dark"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -37,7 +38,7 @@ New Group: Select (multiple) contacts
                 android:id="@*com.whatsapp:id/warning"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="@*com.whatsapp:dimen/selected_contacts_height">
+                android:minHeight="@*com.whatsapp:dimen/selected_contacts_layout_height">
 
                 <com.whatsapp.WaTextView
                     android:textColor="#b3FFFFFF"
@@ -55,37 +56,71 @@ New Group: Select (multiple) contacts
                     android:layout_height="0.5dip" />
             </FrameLayout>
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:id="@*com.whatsapp:id/selected_list"
-                android:layout_width="fill_parent"
-                android:layout_height="@*com.whatsapp:dimen/selected_contacts_height">
-
-                <android.support.v7.widget.RecyclerView
-                    android:layout_gravity="left"
-                    android:id="@*com.whatsapp:id/selected_items"
-                    android:layout_width="fill_parent"
-                    android:layout_height="@*com.whatsapp:dimen/selected_contacts_list_height" />
-
-                <View
-                    android:background="@*com.whatsapp:drawable/divider_gray"
-                    android:layout_width="fill_parent"
-                    android:layout_height="0.5dip" />
-            </LinearLayout>
-
-            <ListView
-                android:id="@*android:id/list"
-                android:background="@*android:color/background_material_dark"
-                android:paddingLeft="@*com.whatsapp:dimen/contact_list_padding_left"
-                android:paddingRight="@*com.whatsapp:dimen/contact_list_padding_right"
+            <FrameLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0.0dip"
-                android:divider="@*com.whatsapp:drawable/conversations_list_divider"
-                android:dividerHeight="0.5dip"
-                android:choiceMode="singleChoice"
-                android:layout_weight="1.0"
-                android:headerDividersEnabled="false"
-                android:footerDividersEnabled="true" />
+                android:layout_weight="1.0">
+
+                <RelativeLayout
+                    android:id="@*com.whatsapp:id/selected_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@*com.whatsapp:dimen/selected_contacts_layout_height">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_gravity="top"
+                        android:id="@*com.whatsapp:id/selected_items"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:nestedScrollingEnabled="false" />
+
+                    <View
+                        android:layout_gravity="center"
+                        android:id="@*com.whatsapp:id/selected_items_divider"
+                        android:background="@*com.whatsapp:drawable/divider_gray"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dip"
+                        android:layout_alignParentBottom="true" />
+
+                    <com.whatsapp.WaImageButton
+                        android:id="@*com.whatsapp:id/selected_list_action_fab_1"
+                        android:background="@*com.whatsapp:drawable/selected_contacts_action_fab_background"
+                        android:visibility="gone"
+                        android:layout_width="@*com.whatsapp:dimen/selected_contacts_list_action_fab_size"
+                        android:layout_height="@*com.whatsapp:dimen/selected_contacts_list_action_fab_size"
+                        android:layout_marginTop="@*com.whatsapp:dimen/selected_contacts_top_offset"
+                        android:src="@*com.whatsapp:drawable/ic_fab_next"
+                        android:layout_alignTop="@*com.whatsapp:id/selected_items"
+                        android:layout_alignParentRight="true"
+                        android:contentDescription="@*com.whatsapp:string/next"
+                        android:elevation="@*com.whatsapp:dimen/selected_contacts_list_action_fab_elevation" />
+
+                    <com.whatsapp.WaImageButton
+                        android:id="@*com.whatsapp:id/selected_list_action_fab_2"
+                        android:background="@*com.whatsapp:drawable/selected_contacts_action_fab_background"
+                        android:visibility="gone"
+                        android:layout_width="@*com.whatsapp:dimen/selected_contacts_list_action_fab_size"
+                        android:layout_height="@*com.whatsapp:dimen/selected_contacts_list_action_fab_size"
+                        android:layout_marginTop="@*com.whatsapp:dimen/selected_contacts_top_offset"
+                        android:src="@*com.whatsapp:drawable/ic_fab_next"
+                        android:layout_alignTop="@*com.whatsapp:id/selected_items"
+                        android:layout_alignParentRight="true"
+                        android:contentDescription="@*com.whatsapp:string/next"
+                        android:elevation="@*com.whatsapp:dimen/selected_contacts_list_action_fab_elevation" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@android:id/list"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="@*com.whatsapp:dimen/contact_list_padding_left"
+                    android:paddingRight="@*com.whatsapp:dimen/contact_list_padding_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:choiceMode="singleChoice"
+                    android:headerDividersEnabled="false"
+                    android:footerDividersEnabled="true" />
+            </FrameLayout>
 
             <FrameLayout
                 android:id="@android:id/empty"
@@ -125,7 +160,7 @@ New Group: Select (multiple) contacts
             </FrameLayout>
         </LinearLayout>
 
-        <ImageButton
+        <com.whatsapp.WaImageButton
             android:layout_gravity="bottom|center|right"
             android:id="@*com.whatsapp:id/next_btn"
             android:background="@*com.whatsapp:drawable/input_circle_green"
