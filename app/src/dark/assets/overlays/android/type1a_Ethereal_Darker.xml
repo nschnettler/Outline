@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Backgrounds -->
-    <color name="background_material_dark">#202028</color>                                          <!-- Primary Background -->
-    <color name="background_dark">#1c1c24</color>                                                   <!-- Background Darker -->
-</resources>
