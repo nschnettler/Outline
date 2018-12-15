@@ -7,4 +7,11 @@
     <style name="ActionBarDrawerArrowDrawableStyle" parent="@*com.google.android.gm:style/Widget.AppCompat.DrawerArrowToggle">
         <item name="*com.google.android.gm:color">#de000000</item>
     </style>
+
+    <style name="SingleFolderListIconStyle">
+        <item name="android:layout_marginLeft">@*com.google.android.gm:dimen/single_folder_list_item_start_margin</item>
+        <item name="android:scaleX">@*com.google.android.gm:integer/dirScale</item>
+        <item name="android:layout_marginStart">@*com.google.android.gm:dimen/single_folder_list_item_start_margin</item>
+        <item name="android:tint">#de000000</item>
+    </style>
 </resources>
