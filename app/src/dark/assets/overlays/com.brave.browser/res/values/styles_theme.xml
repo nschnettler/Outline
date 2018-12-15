@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeWithActionBar" parent="@*com.brave.browser:style/ThemeWithActionBarBase">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+    </style>
+</resources>

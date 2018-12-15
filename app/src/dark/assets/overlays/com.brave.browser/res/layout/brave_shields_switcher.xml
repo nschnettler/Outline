@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:listPreferredItemHeightSmall"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="15.0dip"
+        android:paddingEnd="15.0dip"
+        android:background="?android:colorBackground">
+
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="#FFF"
+            android:layout_gravity="start|center"
+            android:orientation="horizontal"
+            android:id="@*com.brave.browser:id/brave_shields"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@*com.brave.browser:string/brave_shields"
+            android:layout_weight="1.0"
+            android:fontFamily="sans-serif-medium" />
+
+        <Switch
+            android:theme="@*com.brave.browser:style/SwitchTheme"
+            android:layout_gravity="end|center"
+            android:orientation="horizontal"
+            android:id="@*com.brave.browser:id/brave_shields_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:switchMinWidth="56.0dip" />
+    </LinearLayout>
+</RelativeLayout>
