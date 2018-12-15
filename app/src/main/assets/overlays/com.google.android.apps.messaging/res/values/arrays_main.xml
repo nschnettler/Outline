@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="tile_colors_m2">
+        <item>@*com.google.android.apps.messaging:color/google_red100</item>
+        <item>@*com.google.android.apps.messaging:color/google_purple100</item>
+        <item>@*com.google.android.apps.messaging:color/google_orange100</item>
+        <item>@*com.google.android.apps.messaging:color/google_green100</item>
+        <item>@*com.google.android.apps.messaging:color/google_cyan100</item>
+    </array>
+    <array name="tile_letter_colors_m2">
         <item>@android:color/holo_red_light</item>
         <item>@android:color/holo_purple</item>
-        <item>@android:color/holo_blue_light</item>
-        <item>@android:color/holo_green_light</item>
         <item>@android:color/holo_orange_light</item>
-        <item>@*android:color/holo_gray_light</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@*android:color/holo_blue_light</item>
     </array>
     <array name="dark_tile_colors_m2">
         <item>@android:color/holo_red_light</item>
         <item>@android:color/holo_purple</item>
-        <item>@android:color/holo_blue_light</item>
-        <item>@android:color/holo_green_light</item>
         <item>@android:color/holo_orange_light</item>
-        <item>@*android:color/holo_gray_light</item>
-    </array>
-    <array name="tile_letter_colors_m2">
-        <item>#FFFFFF</item>
-        <item>#FFFFFF</item>
-        <item>#FFFFFF</item>
-        <item>#FFFFFF</item>
-        <item>#FFFFFF</item>
-        <item>#FFFFFF</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@*android:color/holo_blue_light</item>
     </array>
 </resources>
