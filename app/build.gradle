@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         targetSdkVersion 28
-        versionCode 22
-        versionName "23.4"
+        versionCode 23
+        versionName "24"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
