@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-   <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings">
-       <item name="android:colorSecondary">#FFFFFF</item>
-       <item name="android:windowBackground">@android:color/white</item>
-       <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
-    </style>
-</resources>
