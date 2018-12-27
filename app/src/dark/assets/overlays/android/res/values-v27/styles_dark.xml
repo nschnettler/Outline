@@ -2,4 +2,8 @@
 <resources>
     <!-- QuickSettings controlled in SystemUI Overlay, but needed for Brightness Dialog and SIM unlocked Dialog -->
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:Theme.DeviceDefault"/>
+
+    <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material.Settings">
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
 </resources>
