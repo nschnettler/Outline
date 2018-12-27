@@ -21,7 +21,4 @@
 
     <!-- Exposures -->
     <color name="toast_text_color">#FFFFFF</color>                                                  <!-- Toast Text -->
-
-    <!-- Redirect for Telegram X Maker -->
-    <color name="darker_gray">@*android:color/background_material_dark</color>
 </resources>

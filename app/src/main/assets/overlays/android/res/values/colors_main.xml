@@ -16,7 +16,4 @@
     <color name="primary_dark_material_light_light_status_bar">#FFF</color>                         <!-- StatusBar -->
     <color name="secondary_material_settings_light">#FFF</color>                                    <!-- Secondary -->
     <color name="background_material_light">#FFF</color>                                            <!-- Background -->
-
-    <!-- Redirect for Telegram X Maker -->
-    <color name="holo_blue_bright">@*android:color/accent_material_light</color>
 </resources>
