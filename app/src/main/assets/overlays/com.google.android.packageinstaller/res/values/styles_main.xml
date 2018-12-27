@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Actionbar -->
-    <style name="ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
-        <item name="android:background">@*android:drawable/ic_menu_end_conversation</item>
-        <item name="android:elevation">0.0dip</item>
+    <!-- Install - Oreo+ -->
+    <style name="DialogWhenLarge"  parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
     </style>
 </resources>
