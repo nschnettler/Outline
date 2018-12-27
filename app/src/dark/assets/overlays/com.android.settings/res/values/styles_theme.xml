@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nougat -->
+    <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings">
+        <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
+    </style>
+
+    <style name="Theme.DialogWhenLarge" parent="@*com.android.settings:style/Theme.SettingsBase"/>
+</resources>
