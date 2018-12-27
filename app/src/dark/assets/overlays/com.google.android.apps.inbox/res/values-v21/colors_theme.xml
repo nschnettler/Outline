@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification - Undo -->
+    <color name="bt_notification_undo_button_text">@android:color/holo_blue_bright</color>        <!-- Undo Button -->
+    <color name="bt_notification_undo_description_text">@android:color/holo_blue_bright</color>   <!-- Marked as done Message -->
+    <!-- Notification - Primary -->
+    <color name="bt_notification_highlight">@android:color/holo_blue_bright</color>
+</resources>

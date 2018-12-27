@@ -49,4 +49,12 @@
 		<item name="android:textColor">@*com.google.android.talk:color/quantum_black_secondary_text</item>
 		<item name="android:colorAccent">@*com.google.android.talk:color/quantum_googgreenA200</item>
 	</style>
+
+	<!-- Notifications -->
+	<style name="NotificationPrimaryText">
+		<item name="android:textColor">@android:color/holo_blue_bright</item>
+	</style>
+	<style name="NotificationSecondaryText">
+		<item name="android:textColor">@android:color/darker_gray</item>
+	</style>
 </resources>

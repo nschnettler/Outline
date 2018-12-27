@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color>   <!-- Dialog Background -->
+    <color name="primary_text_default_material_light">#FFFFFF</color>                                   <!-- Dialog Text -->
+
     <color name="primary">@*android:color/primary_material_dark</color>
     <color name="primary_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="grey600">@android:color/holo_blue_bright</color>                                   <!-- Notification Action Text/Icon -->
 </resources>

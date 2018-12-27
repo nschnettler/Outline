@@ -39,6 +39,7 @@
     <color name="snooze_dark_text">#FFFFFF</color>                                                  <!-- Snooze - Title -->
     <color name="snooze_faint_text">#b3FFFFFF</color>                                               <!-- Snooze - Subtitle -->
     <color name="conversation_view_banner_text_color">#FFFFFF</color>                               <!-- Mail - Banner Text -->
+    <color name="bt_dark_text">@android:color/holo_blue_bright</color>                              <!-- Notifications -->
 
 
     <!-- Divider -->
