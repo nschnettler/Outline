@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nougat -->
+    <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:colorPrimary">#FFF</item>
+        <item name="android:colorPrimaryDark">#FFF</item>
+        <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
+    </style>
+
+    <style name="Theme.DialogWhenLarge" parent="@*com.android.settings:style/Theme.SettingsBase">
+        <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
+        <item name="android:titleTextColor">#de000000</item>
+    </style>
+</resources>

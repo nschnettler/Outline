@@ -2,4 +2,9 @@
 <resources>
 	<!-- 8.1 only -->
     <color name="suggestion_condition_background">#FFFFFF</color>
+
+    <!-- Nougat -->
+    <color name="card_background">#FFF</color>                                                      <!-- Cards -->
+    <color name="text_color_white">#de000000</color>                                                <!-- Text -->
+    <color name="switchbar_background_color">#757575</color>                                        <!-- SwitchBar -->
 </resources>
