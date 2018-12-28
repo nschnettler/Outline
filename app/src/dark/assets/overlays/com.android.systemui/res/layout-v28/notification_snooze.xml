@@ -12,7 +12,7 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.android.systemui:dimen/snooze_snackbar_min_height">
         <TextView
-            android:textColor="@*android:color/notification_primary_text_color_light"
+            android:textColor="@android:color/holo_blue_bright"
             android:id="@*com.android.systemui:id/snooze_option_default"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             android:paddingTop="1.0dip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:tint="@*android:color/notification_primary_text_color_light"
+            android:tint="@android:color/holo_blue_bright"
             android:layout_centerVertical="true"
             android:layout_toEndOf="@*com.android.systemui:id/snooze_option_default" />
         <TextView
