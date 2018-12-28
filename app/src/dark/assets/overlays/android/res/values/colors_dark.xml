@@ -21,4 +21,8 @@
 
     <!-- Exposures -->
     <color name="toast_text_color">#FFFFFF</color>                                                  <!-- Toast Text -->
+
+    <!-- Notification Text - Hooks for 3rd Party Apps -->
+    <color name="holo_blue_bright">#de000000</color>                                                <!-- Primary -->
+    <color name="darker_gray">#80000000</color>                                                     <!-- Secondary -->
 </resources>
