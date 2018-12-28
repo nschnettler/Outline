@@ -8,4 +8,5 @@
     <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
     <color name="grey_850">@*android:color/background_material_dark</color>                         <!-- Primary -->
     <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialog -->
+    <color name="button_material_dark">@*android:color/background_material_dark</color>             <!-- Button -->
 </resources>
