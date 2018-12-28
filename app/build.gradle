@@ -9,7 +9,7 @@ android {
     defaultConfig {
         targetSdkVersion 28
         minSdkVersion 25
-        versionCode 26000 + 23
+        versionCode 260000 + 23
         versionName "24"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
