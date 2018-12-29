@@ -6,5 +6,6 @@
         <item>@android:color/holo_purple</item>
         <item>@android:color/holo_red_light</item>
         <item>@android:color/holo_orange_light</item>
+        <item>@*android:color/background_material_dark</item>
     </array>
 </resources>
