@@ -38,9 +38,40 @@
             android:textAppearance="@*com.brave.browser:style/BlackBodyDefault"
             android:id="@*com.brave.browser:id/page_info_connection_message"
             android:paddingTop="8.0dip"
+            android:visibility="gone"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="3.0dip" />
+
+        <View
+            android:id="@*com.brave.browser:id/page_info_separator"
+            android:visibility="gone"
+            android:layout_marginTop="16.0dip"
+            style="@*com.brave.browser:style/HorizontalDivider" />
+
+        <TextView
+            android:textAppearance="@*com.brave.browser:style/BlackTitle1"
+            android:id="@*com.brave.browser:id/page_info_preview_message"
+            android:paddingTop="14.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@*com.brave.browser:string/page_info_preview_message" />
+
+        <TextView
+            android:textAppearance="@*com.brave.browser:style/BlackCaption"
+            android:id="@*com.brave.browser:id/page_info_stale_preview_timestamp"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textAppearance="@*com.brave.browser:style/BlackTitle1"
+            android:id="@*com.brave.browser:id/page_info_preview_load_original"
+            android:paddingTop="12.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <org.chromium.ui.widget.ButtonCompat
