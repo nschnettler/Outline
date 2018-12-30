@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent Colors -->
+    <color name="google_blue600">@android:color/holo_blue_light</color>                             <!-- Accent -->
+    <color name="google_blue500">@android:color/holo_blue_light</color>
+    <color name="google_blue700">@android:color/holo_blue_light</color>
+
+    <!-- Colors -->
+    <color name="google_red500">@android:color/holo_red_light</color>
+    <color name="google_green500">@android:color/holo_green_light</color>
+    <color name="google_purple500">@android:color/holo_purple</color>
+    <color name="google_cyan500">@android:color/holo_blue_light</color>
+    <color name="quantum_googgreen500">@android:color/holo_green_light</color>
+
+    <!-- Other -->
+    <color name="storage_card_progress_background">#1a000000</color>
+</resources>
