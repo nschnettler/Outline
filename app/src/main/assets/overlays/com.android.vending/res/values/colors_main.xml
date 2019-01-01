@@ -11,6 +11,7 @@
 
     <!-- App Color (v1/2) -->
     <color name="play_apps_primary">@android:color/holo_green_light</color>
+    <color name="play_apps_secondary">@android:color/holo_green_light</color>
     <color name="play_apps_primary_v2">@android:color/holo_green_light</color>
 
     <!-- Reviews -->
