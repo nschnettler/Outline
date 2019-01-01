@@ -33,12 +33,16 @@ task prepareManifest(){
             sourceDestination = "/src/main/kotlin/com/schnettler/ethereal"
             break
     }
+    if (isDebug()){
+        sourceDestination += "/debug"
+    }
+
 
     //Prepare Manifest
     copy {
         from "/src/main/AndroidManifestTemplate.xml"
         into "/src/main/"
-        filter(ReplaceTokens, tokens: [theme: theme])
+        filter(ReplaceTokens, tokens: [theme: theme + (isDebug() ? ".debug" : "")])
         rename { String fileName ->
             fileName = "AndroidManifest.xml"
         }
@@ -49,7 +53,7 @@ task prepareManifest(){
     copy {
         from "/src/main/kotlinTemplates"
         into sourceDestination
-        filter(ReplaceTokens, tokens: [theme: theme])
+        filter(ReplaceTokens, tokens: [theme: theme + (isDebug() ? ".debug" : "")])
     }
 }
 
@@ -165,3 +169,10 @@ def getCurrentFlavor() {
         return ""
     }
 }
+
+    def isDebug() {
+        Gradle gradle = getGradle()
+        String  tskReqStr = gradle.getStartParameter().getTaskRequests().toString()
+
+        return tskReqStr.contains("Debug")
+    }
