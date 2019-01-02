@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme -->
+    <color name="colorPrimary">@android:color/transparent</color>
+    <color name="primary_material_dark">@android:color/transparent</color>
+
+    <!-- Background -->
+    <color name="main_screen_card_background">#0dFFFFFF</color>                                     <!-- Main Screen - Cards -->
+    <color name="theme_card_background">@*android:color/transparent</color>
+    <color name="theme_information_background">@*android:color/transparent</color>                  <!-- Theme Screen - Background -->
+    <color name="fab_menu_background_card">@*android:color/background_material_dark</color>         <!-- Fab Menu -->
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Bottom Sheet -->
+</resources>
