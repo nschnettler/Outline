@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Suggestion Card -->
+    <style name="SuggestionConditionStyle">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Header Backgrounds -->
+    <style name="EntityHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+</resources>

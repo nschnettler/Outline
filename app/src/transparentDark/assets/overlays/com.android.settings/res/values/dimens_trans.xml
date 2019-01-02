@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_default_elevation">0dip</dimen>
+    <dimen name="cardview_default_radius">8dip</dimen>
+
+    <!-- Extensions -->
+    <dimen name="card_elevation">0dip</dimen>
+    <dimen name="card_corner_radius">8dip</dimen>
+</resources>
