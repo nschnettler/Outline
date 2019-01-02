@@ -33,4 +33,14 @@
     <color name="homepage_skydragon_background">#0dFFFFFF</color>
     <color name="homepage_bootlegdump_background">#0dFFFFFF</color>
     <color name="omni_logo_color">#0dFFFFFF</color>
+
+    <color name="owlsnest_oval_advanced">#0dFFFFFF</color>
+    <color name="owlsnest_oval_buttons">#0dFFFFFF</color>
+    <color name="owlsnest_oval_gesture">#0dFFFFFF</color>
+    <color name="owlsnest_oval_lockscreen">#0dFFFFFF</color>
+    <color name="owlsnest_oval_nav">#0dFFFFFF</color>
+    <color name="owlsnest_oval_notif">#0dFFFFFF</color>
+    <color name="owlsnest_oval_qs">#0dFFFFFF</color>
+    <color name="owlsnest_oval_recents">#0dFFFFFF</color>
+    <color name="owlsnest_oval_status">#0dFFFFFF</color>
 </resources>
