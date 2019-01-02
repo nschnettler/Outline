@@ -2,6 +2,7 @@
 <resources>
     <!--Icons (custom) -->
     <color name="play_icon_default">#FFFFFF</color>
+    <color name="review_acquisition_stars_border_color">#FFFFFF</color>
 
     <!-- Text -->
     <color name="play_fg_primary">#FFFFFF</color>                                                   <!-- Primary Text Color, for example  Drawer unselected-->
@@ -16,6 +17,8 @@
     <color name="white_action_bar_icon_color">#FFF</color>
     <color name="white_action_bar_dark_title_color">#FFF</color>                                    <!-- Toolbar -->
     <color name="play_secondary_light">#b3FFFFFF</color>                                            <!-- Tab Inactive -->
+    <color name="entity_pivot_text_color">#FFF</color>
+    <color name="action_button_disabled_text_color">#61FFFFFF</color>
 
     <!-- Background -->
         <!-- What's New -->
@@ -34,6 +37,7 @@
     <color name="background_floating_material_light">@*android:color/background_material_dark</color>           <!-- Dialog -->
     <color name="detailed_permissions_footer_bg">@*android:color/background_material_dark</color>               <!-- Permission Footer -->
     <color name="play_white_half_transparent">@android:color/holo_green_light</color>
+    <color name="write_review_fragment_background_color">@*android:color/background_material_dark</color>
 
     <color name="play_drawer_separator">@*android:color/background_dark</color>                                 <!-- Drawer Seperator -->
     <color name="reviews_filtering_color">#FFFFFF</color>

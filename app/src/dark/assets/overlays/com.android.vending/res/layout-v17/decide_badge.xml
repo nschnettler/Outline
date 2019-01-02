@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.frameworkviews.DecideBadgeView android:orientation="vertical"
+    android:id="@*com.android.vending:id/decide_badge_view"
+    android:padding="@*com.android.vending:dimen/d30_decidebar_badge_padding"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="@*com.android.vending:drawable/focus_overlay"
+    android:minHeight="@*com.android.vending:dimen/d30_decidebar_min_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@*com.android.vending:id/decide_badge_icon_container"
+        android:paddingBottom="@*com.android.vending:dimen/d30_decidebar_badge_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@*com.android.vending:style/DiscoveryBadgeIconContainer">
+
+        <TextView
+            android:id="@*com.android.vending:id/title_text"
+            style="@*com.android.vending:style/D30DecideBarTitleText" />
+
+        <com.google.android.play.image.FifeImageView
+            android:layout_gravity="center_vertical"
+            android:id="@*com.android.vending:id/icon_image"
+            android:visibility="gone"
+            android:layout_width="@*com.android.vending:dimen/d30_decidebar_icon_size"
+            android:layout_height="@*com.android.vending:dimen/d30_decidebar_icon_size"
+            android:layout_marginLeft="@*com.android.vending:dimen/d30_decidebar_badge_padding"
+            android:layout_marginRight="0.0dip"
+            android:layout_marginStart="@*com.android.vending:dimen/d30_decidebar_badge_padding"
+            android:layout_marginEnd="0.0dip"
+            android:tint="#66FFFFFF"
+            android:tintMode="src_atop"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@*com.android.vending:id/subtitle_text"
+        style="@*com.android.vending:style/D30DecideBarSubTitleText" />
+</com.google.android.finsky.frameworkviews.DecideBadgeView>
