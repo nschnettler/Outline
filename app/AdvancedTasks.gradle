@@ -8,7 +8,8 @@ import javax.crypto.spec.SecretKeySpec
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
-String currentFlavor =  getCurrentFlavor().contains("light") ? "light" : "dark"
+String flavorString = getCurrentFlavor()
+String currentFlavor =  flavorString.contains("transparent") ? "transparent" :  (flavorString.contains("light") ? "light" : "dark")
 
 ext {
     byte[] key = new byte[16]
@@ -26,16 +27,15 @@ task prepareManifest(){
     switch (currentFlavor){
         case "light":
             theme = "outline"
-            sourceDestination = "/src/main/kotlin/com/schnettler/outline"
             break
         case "dark":
             theme = "ethereal"
-            sourceDestination = "/src/main/kotlin/com/schnettler/ethereal"
             break
+        case "transparent":
+            theme = "transparent"
+            break;
     }
-    if (isDebug()){
-        sourceDestination += "/debug"
-    }
+    sourceDestination = "/src/main/kotlin/com/schnettler/" + theme + (isDebug() ? "/debug" : "")
 
 
     //Prepare Manifest
