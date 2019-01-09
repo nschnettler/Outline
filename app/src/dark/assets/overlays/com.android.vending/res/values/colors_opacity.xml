@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card -->
+    <color name="whatsnew_apps">@*android:color/background_dark</color>
+    <color name="flat_card_cluster_light_background">@*android:color/background_material_dark</color>           <!-- New Flat Cards -->
+    <color name="play_card_light_background">@*android:color/background_material_dark</color>                   <!-- Card -->
+
+    <!-- Background -->
+    <color name="play_white">@*android:color/background_material_dark</color>
+    <color name="white">@*android:color/background_material_dark</color>
+</resources>
