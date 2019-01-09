@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer -->
+    <style name="PlayDrawerList">
+        <item name="android:background">@*android:color/background_material_dark</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:cacheColorHint">@*android:color/background_material_dark</item>
+        <item name="android:divider">@null</item>
+        <item name="android:choiceMode">none</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <!-- SearchBox -->
+    <style name="PlaySearchPlate">
+        <item name="android:background">#33FFFFFF</item>
+        <item name="android:paddingLeft">@*com.android.vending:dimen/play_search_plate_padding_side</item>
+        <item name="android:paddingRight">@*com.android.vending:dimen/play_search_plate_padding_side</item>
+    </style>
+
+    <!-- Settings -->
+    <style name="SettingsRedesignWhiteTheme" parent="@*com.android.vending:style/LeftNavRedesignWhiteTheme">
+        <item name="android:textColorPrimary">@*com.android.vending:color/play_primary_settings_set</item>
+        <item name="android:textColorSecondary">@*com.android.vending:color/play_fg_secondary</item>
+        <item name="android:layout">@*com.android.vending:layout/phonesky_preference_fragment</item>
+        <item name="android:divider">?android:dividerHorizontal</item>
+        <item name="android:textColorTertiary">@*com.android.vending:color/play_tertiary_settings_set</item>
+        <item name="android:textAppearanceListItem">@*com.android.vending:style/SettingsRedesignPreferenceText</item>
+        <item name="android:textAppearanceListItemSecondary">@*com.android.vending:style/SettingsRedesignPreferenceSummaryText</item>
+        <item name="*com.android.vending:allowDividerAfterLastItem">false</item>
+        <item name="*com.android.vending:checkBoxPreferenceStyle">@*com.android.vending:style/Preference.CheckBoxPreference.Material</item>
+        <item name="*com.android.vending:colorAccent">@*com.android.vending:color/play_apps_primary</item>
+        <item name="*com.android.vending:dialogPreferenceStyle">@*com.android.vending:style/Preference.DialogPreference.Material</item>
+        <item name="*com.android.vending:listPreferredItemPaddingLeft">@*com.android.vending:dimen/settings_side_padding</item>
+        <item name="*com.android.vending:preferenceCategoryStyle">@*com.android.vending:style/PreferenceCategoryStyle</item>
+        <item name="*com.android.vending:preferenceFragmentListStyle">@*com.android.vending:style/PreferenceFragmentList.Material</item>
+        <item name="*com.android.vending:preferenceScreenStyle">@*com.android.vending:style/Preference.PreferenceScreen.Material</item>
+        <item name="*com.android.vending:preferenceStyle">@*com.android.vending:style/Preference.Material</item>
+        <item name="*com.android.vending:switchPreferenceStyle">@*com.android.vending:style/Preference.SwitchPreference.Material</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+    </style>
+</resources>

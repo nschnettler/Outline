@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.search.PlaySearchSuggestionsList android:orientation="vertical"
+    android:id="@*com.android.vending:id/search_suggestions_list"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@*com.android.vending:id/search_suggestions_header"
+        android:background="@*com.android.vending:color/play_search_suggestion_divider_background"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@*com.android.vending:id/suggestion_list_recycler_view"
+        android:focusable="true"
+        android:visibility="gone"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:background="@*android:color/background_material_dark"/>
+</com.google.android.play.search.PlaySearchSuggestionsList>

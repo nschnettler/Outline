@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.ia2.SubNavContainerView android:gravity="center"
+    android:orientation="vertical"
+    android:id="@*com.android.vending:id/ia2_subnav_parent"
+    android:background="@*android:color/background_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@*com.android.vending:id/subnav_items_container"
+        android:paddingLeft="@*com.android.vending:dimen/card_look_edge_margins"
+        android:paddingRight="@*com.android.vending:dimen/card_look_edge_margins"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="@*com.android.vending:dimen/subnav_container_height"
+        android:overScrollMode="never"
+        android:paddingStart="@*com.android.vending:dimen/card_look_edge_margins"
+        android:paddingEnd="@*com.android.vending:dimen/card_look_edge_margins" />
+</com.google.android.finsky.ia2.SubNavContainerView>
