@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Backgrounds -->
-    <color name="background_material_dark">#BF202030</color>                                        <!-- Primary Background -->
-    <color name="background_dark">#80202030</color>                                                 <!-- Background Darker -->
+    <color name="background_material_dark">#E6202030</color>                                        <!-- Primary Background - 90% Opacity -->
+    <color name="background_dark">#bf202030</color>                                                 <!-- Background Darker 75% Opacity -->
  </resources>
