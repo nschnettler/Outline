@@ -3,10 +3,11 @@
     android:width="24.0dip"
     android:viewportWidth="24.0"
     android:viewportHeight="24.0"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="?android:colorControlNormal">
     <path
         android:name="chevron_02"
-        android:strokeColor="?android:colorControlNormal"
+        android:strokeColor="#FFF"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"

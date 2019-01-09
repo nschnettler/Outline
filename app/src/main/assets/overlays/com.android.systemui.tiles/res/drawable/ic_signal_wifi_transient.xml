@@ -3,7 +3,8 @@
     android:height="32dp"
     android:viewportWidth="24"
     android:viewportHeight="24"
-    android:alpha="0.5">
+    android:alpha="0.5"
+    android:tint="?android:colorControlNormal">
     <path
         android:name="wifi_1"
         android:strokeColor="#FFFFFF"
