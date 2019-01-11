@@ -20,4 +20,7 @@
     <!-- Divider -->
     <color name="google_grey200">#1a000000</color>
     <color name="google_grey300">#1a000000</color>                                                  <!-- Card -->
+
+    <!-- Other -->
+    <color name="file_picker_content_circle_dark_stroke_color">#b3FFFFFF</color>                    <!-- Selection Circle -->
 </resources>
