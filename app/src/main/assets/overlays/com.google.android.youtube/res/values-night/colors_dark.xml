@@ -7,5 +7,5 @@
     <color name="yt_grey3">#b3FFFFFF</color>
 
     <!-- Background -->
-    <color name="theme_watch_color_primary_dark">#000</color>
+    <color name="yt_black_pure">#000</color>
 </resources>
