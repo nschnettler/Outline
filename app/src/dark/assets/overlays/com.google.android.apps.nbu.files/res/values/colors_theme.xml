@@ -16,6 +16,7 @@
     <color name="darker_secondary_text">#B3FFFFFF</color>
     <color name="quantum_black_secondary_text">#B3FFFFFF</color>
     <color name="text_disabled_color">#80FFFFFF</color>
+    <color name="quantum_black_hint_text">#80FFFFFF</color>
 
     <!-- Divider -->
     <color name="google_grey200">#1a000000</color>
