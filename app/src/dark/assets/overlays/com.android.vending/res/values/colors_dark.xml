@@ -19,6 +19,7 @@
     <color name="play_secondary_light">#b3FFFFFF</color>                                            <!-- Tab Inactive -->
     <color name="entity_pivot_text_color">#FFF</color>
     <color name="action_button_disabled_text_color">#61FFFFFF</color>
+    <color name="play_uninstall_wizard_title_color">#FFF</color>
 
     <!-- Background -->
         <!-- What's New -->
