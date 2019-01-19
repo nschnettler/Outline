@@ -1,5 +1,0 @@
-<resources>
-    <!-- Icon -->
-    <color name="hero_background">#FFF</color>
-    <dimen name="hero_background_alpha">0.05</dimen>
-</resources>
