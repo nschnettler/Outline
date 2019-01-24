@@ -4,10 +4,10 @@
     <color name="status_bar_overlay">#00000000</color>
 
     <!-- App Colors (v3) -->
-    <color name="phonesky_apps_primary_v3">@android:color/holo_green_light</color>
-    <color name="phonesky_books_primary_v3">@android:color/holo_blue_light</color>
-    <color name="phonesky_movies_primary_v3">@android:color/holo_red_light</color>
-    <color name="phonesky_music_primary_v3">@android:color/holo_orange_light</color>
+    <color name="phonesky_apps_primary">@android:color/holo_green_light</color>
+    <color name="phonesky_books_primary">@android:color/holo_blue_light</color>
+    <color name="phonesky_movies_primary">@android:color/holo_red_light</color>
+    <color name="phonesky_music_primary">@android:color/holo_orange_light</color>
 
     <!-- App Color (v1/2) -->
     <color name="play_apps_primary">@android:color/holo_green_light</color>

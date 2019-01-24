@@ -18,13 +18,24 @@
         android:layout_height="wrap_content"
         style="@*com.android.vending:style/DiscoveryBadgeIconContainer">
 
+        <com.google.android.play.image.FifeImageView
+            android:layout_gravity="center_vertical"
+            android:id="@*com.android.vending:id/left_icon_image"
+            android:visibility="gone"
+            android:layout_width="@*com.android.vending:dimen/d30_decidebar_icon_size"
+            android:layout_height="@*com.android.vending:dimen/d30_decidebar_icon_size"
+            android:layout_marginLeft="0.0dip"
+            android:layout_marginRight="@*com.android.vending:dimen/d30_decidebar_badge_padding"
+            android:layout_marginStart="0.0dip"
+            android:layout_marginEnd="@*com.android.vending:dimen/d30_decidebar_badge_padding" />
+
         <TextView
             android:id="@*com.android.vending:id/title_text"
             style="@*com.android.vending:style/D30DecideBarTitleText" />
 
         <com.google.android.play.image.FifeImageView
             android:layout_gravity="center_vertical"
-            android:id="@*com.android.vending:id/icon_image"
+            android:id="@*com.android.vending:id/right_icon_image"
             android:visibility="gone"
             android:layout_width="@*com.android.vending:dimen/d30_decidebar_icon_size"
             android:layout_height="@*com.android.vending:dimen/d30_decidebar_icon_size"
