@@ -22,6 +22,7 @@
     <color name="status_bar_apps">@android:color/holo_green_light</color>
     <color name="status_bar_books">@android:color/holo_blue_light</color>
     <color name="status_bar_music">@android:color/holo_orange_light</color>
+    <color name="status_bar_movies">@android:color/holo_red_light</color>
 
     <!-- Reviews -->
     <color name="review_histogram_1_bar">@android:color/holo_red_light</color>
