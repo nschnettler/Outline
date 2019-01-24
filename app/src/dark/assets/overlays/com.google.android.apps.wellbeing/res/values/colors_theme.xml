@@ -7,6 +7,7 @@
     <!-- Background -->
     <color name="google_white">@*android:color/background_material_dark</color>                     <!-- Dashboard -->
     <color name="design_default_color_surface">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog -->
 
     <!-- Divider -->
     <color name="google_grey300">#1a000000</color>
