@@ -17,10 +17,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 
+    <ViewStub
+        android:id="@*com.instagram.android:id/reel_lightweight_reaction_toolbar_viewstub"
+        android:layout="@*com.instagram.android:layout/reel_story_feedback_tray"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.instagram.android:dimen/feedback_tray_message_composer_height" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="@*com.instagram.android:dimen/button_width">
+        android:layout_height="wrap_content"
+        android:minHeight="@*com.instagram.android:dimen/button_width">
 
         <FrameLayout
             android:layout_gravity="center_vertical"
@@ -36,11 +43,9 @@
                 android:id="@*com.instagram.android:id/reel_viewer_composer_button_camera"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@*com.instagram.android:drawable/button_icon_camera_gradient"
+                android:src="@*com.instagram.android:drawable/instagram_camera_filled_44"
                 android:scaleType="center"
-                android:contentDescription="@*com.instagram.android:string/camera_description"
-                app:active_alpha="@*com.instagram.android:color/white"
-                app:normal="@*com.instagram.android:color/white" />
+                android:contentDescription="@*com.instagram.android:string/camera_description" />
         </FrameLayout>
 
         <LinearLayout
@@ -48,33 +53,28 @@
             android:orientation="horizontal"
             android:id="@*com.instagram.android:id/reel_viewer_message_composer"
             android:layout_width="fill_parent"
-            android:layout_height="@*com.instagram.android:dimen/button_width">
+            android:layout_height="wrap_content"
+            android:minHeight="@*com.instagram.android:dimen/button_width">
 
             <EditText
                 android:textSize="@*com.instagram.android:dimen/font_medium"
                 android:textColor="#FFFFFF"
                 android:textColorHint="@*com.instagram.android:color/grey_5"
                 android:ellipsize="end"
+                android:gravity="center_vertical"
                 android:id="@*com.instagram.android:id/reel_viewer_message_composer_text"
                 android:background="@null"
+                android:paddingTop="@*com.instagram.android:dimen/row_text_padding"
+                android:paddingBottom="@*com.instagram.android:dimen/row_text_padding"
                 android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="4.0dip"
-                android:hint="@*com.instagram.android:string/reel_message_composer_text_hint"
                 android:maxLines="1"
                 android:maxLength="@*com.instagram.android:integer/max_message_length"
                 android:layout_weight="1.0"
-                android:inputType="textAutoCorrect|textCapSentences"
+                android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
                 android:imeOptions="actionSend"
                 android:layout_marginStart="4.0dip" />
-
-            <ImageView
-                android:id="@*com.instagram.android:id/reel_viewer_message_composer_send_btn"
-                android:background="@null"
-                android:layout_width="@*com.instagram.android:dimen/button_width"
-                android:layout_height="fill_parent"
-                android:src="@*com.instagram.android:drawable/check"
-                android:scaleType="center" />
 
             <TextView
                 android:textSize="@*com.instagram.android:dimen/font_medium"
