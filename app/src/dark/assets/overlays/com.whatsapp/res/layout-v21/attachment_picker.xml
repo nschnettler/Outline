@@ -70,20 +70,17 @@
                 android:visibility="gone"
                 style="@*com.whatsapp:style/AttachPickerItem">
 
-                <RelativeLayout
-                    android:id="@*com.whatsapp:id/pickfiletype_payment"
+                <com.whatsapp.payments.ui.PaymentsIconView
+                    android:textSize="24.0sp"
+                    android:textColor="@*com.whatsapp:color/white"
+                    android:gravity="center"
+                    android:id="@*com.whatsapp:id/pickfiletype_payment_text"
                     android:background="@*com.whatsapp:drawable/payment_attach_background"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4.0dip">
-
-                    <com.whatsapp.PaymentsIconView
-                        android:textSize="23.0dip"
-                        android:textColor="@*com.whatsapp:color/white"
-                        android:id="@*com.whatsapp:id/pickfiletype_payment_text"
-                        android:layout_centerInParent="true"
-                        style="@*com.whatsapp:style/AttachPickerIcon" />
-                </RelativeLayout>
+                    android:layout_marginTop="6.0dip"
+                    android:contentDescription="@*com.whatsapp:string/payment"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
 
                 <com.whatsapp.CondensedTextView
                     android:paddingTop="6.0dip"
