@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialtactsTheme" parent="@*com.android.dialer:style/DialtactsThemeBase">
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarColor">?android:windowBackground</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
+    </style>
+</resources>
