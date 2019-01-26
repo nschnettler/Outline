@@ -36,6 +36,7 @@
     <color name="detailed_permissions_footer_bg">@*android:color/background_material_dark</color>               <!-- Permission Footer -->
     <color name="play_white_half_transparent">@android:color/holo_green_light</color>
     <color name="write_review_fragment_background_color">@*android:color/background_material_dark</color>
+    <color name="review_reply_background">@android:color/background_dark</color>
 
     <color name="play_drawer_separator">@*android:color/background_dark</color>                                 <!-- Drawer Seperator -->
     <color name="reviews_filtering_color">#FFFFFF</color>
