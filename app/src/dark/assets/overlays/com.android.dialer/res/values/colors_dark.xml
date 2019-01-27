@@ -58,6 +58,7 @@
     <color name="section_header_text_color">#ffffffff</color>
     <color name="dialer_secondary_text_color">#FFFFFF</color>
     <color name="block_report_spam_primary_text_color">#FFFFFF</color>                              <!-- Block Dialog Text -->
+    <color name="dialtacts_primary_text_color">#FFFFFF</color>
 
 
     <!-- ROMs -->
