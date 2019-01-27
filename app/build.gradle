@@ -9,8 +9,8 @@ android {
     defaultConfig {
         targetSdkVersion 28
         minSdkVersion 25
-        versionCode 260000 + 26
-        versionName "25.1.1"
+        versionCode 260000 + 27
+        versionName "25.2"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
