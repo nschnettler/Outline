@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="accent_blue">@android:color/holo_red_light</color>
-    <color name="text_color_blue">@android:color/holo_red_light</color>
-    <color name="snack_bar_action_text_color">@android:color/holo_red_light</color>
-    <color name="snooze_orange">@android:color/holo_red_light</color>
-
-    <!-- Other -->
-    <color name="blue">@android:color/holo_red_light</color>
+    <color name="primary_color_red">@android:color/holo_red_light</color>
+    <color name="google_blue600">@android:color/holo_red_light</color>
+    <color name="google_yellow500">@android:color/holo_red_light</color>
     <color name="quantum_googblue500">@android:color/holo_red_light</color>
-    <color name="smart_reply_button_border">@android:color/holo_red_light</color>                  <!-- Smart Reply Border -->
+
+    <!-- Colors -->
+    <color name="google_green600">@android:color/holo_green_light</color>
+    <color name="google_orange500">@android:color/holo_orange_light</color>
+    <color name="google_yellow800">@android:color/holo_orange_light</color>
+    <color name="google_purple500">@android:color/holo_purple</color>
 
     <!-- Refresh -->
     <color name="swipe_refresh_color1">@android:color/holo_red_light</color>
