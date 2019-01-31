@@ -8,20 +8,13 @@
     android:layout_height="wrap_content"
     android:alpha="0.0"
     android:translationY="40.0dip"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/com.instagram.android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ViewStub
         android:id="@*com.instagram.android:id/reel_reaction_toolbar_viewstub"
         android:layout="@*com.instagram.android:layout/reel_reaction_toolbar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
-
-    <ViewStub
-        android:id="@*com.instagram.android:id/reel_lightweight_reaction_toolbar_viewstub"
-        android:layout="@*com.instagram.android:layout/reel_story_feedback_tray"
-        android:layout_width="fill_parent"
-        android:layout_height="@*com.instagram.android:dimen/feedback_tray_message_composer_height" />
 
     <LinearLayout
         android:orientation="horizontal"
