@@ -5,6 +5,7 @@
     <color name="google_default_color_background">@*android:color/background_material_dark</color>
     <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Card -->
     <color name="google_grey100">@android:color/background_dark</color>
+    <color name="quantum_grey200">@android:color/background_dark</color>
     <color name="quantum_white_100">@*android:color/background_material_dark</color>
 
     <!-- Text -->
@@ -17,6 +18,8 @@
     <color name="quantum_black_secondary_text">#B3FFFFFF</color>
     <color name="text_disabled_color">#80FFFFFF</color>
     <color name="quantum_black_hint_text">#80FFFFFF</color>
+    <color name="quantum_grey600_transparent">#89FFFFFF</color>
+    <color name="google_grey_800">#FFF</color>
 
     <!-- Divider -->
     <color name="google_grey200">#1a000000</color>

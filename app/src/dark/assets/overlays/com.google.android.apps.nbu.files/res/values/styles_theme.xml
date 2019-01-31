@@ -7,4 +7,8 @@
         <item name="*com.google.android.apps.nbu.files:tabTextColor">@*com.google.android.apps.nbu.files:color/google_tabs_icon_color_selector</item>
         <item name="*com.google.android.apps.nbu.files:tabIndicatorFullWidth">false</item>
     </style>
+
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textColor">#FFF</item>
+    </style>
 </resources>
