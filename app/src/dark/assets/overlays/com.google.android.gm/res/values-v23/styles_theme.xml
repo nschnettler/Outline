@@ -2,7 +2,6 @@
 <resources>
     <!-- Settings / Compose -->
     <style name="ColoredNavBarGeneralTheme" parent="@*com.google.android.gm:style/BaseGeneralTheme">
-        <item name="android:windowLightNavigationBar">false</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
         <item name="android:statusBarColor">?android:colorBackground</item>

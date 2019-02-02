@@ -3,17 +3,22 @@
     <!-- Main Style -->
     <style name="MailActivityTheme" parent="@*com.google.android.gm:style/ColoredNavBarMailActivityTheme">
         <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowTitleStyle">@*com.google.android.gm:style/GmailDialogTitleTextAppearance</item>
+        <item name="android:alertDialogTheme">@*com.google.android.gm:style/AlertDialogTheme</item>
+        <item name="android:borderlessButtonStyle">@*com.google.android.gm:style/GmailGoogleMaterialBorderlessButtonStyle</item>
+        <item name="android:colorAccent">@*com.google.android.gm:color/google_blue600</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@*com.google.android.gm:color/mail_activity_status_bar_color</item>
+        <item name="android:navigationBarColor">@*com.google.android.gm:color/navigation_bar_color</item>
+        <item name="android:timePickerDialogTheme">@*com.google.android.gm:style/GmailGoogleMaterialTimePickerDialogTheme</item>
+        <item name="android:datePickerDialogTheme">@*com.google.android.gm:style/GmailGoogleMaterialDatePickerDialogTheme</item>
         <item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
-        <item name="*com.google.android.gm:drawerArrowStyle">@*com.google.android.gm:style/ActionBarDrawerArrowDrawableStyle</item>
+        <item name="*com.google.android.gm:drawerArrowStyle">@*com.google.android.gm:style/Widget.AppCompat.DrawerArrowToggle</item>
         <item name="*com.google.android.gm:windowActionModeOverlay">true</item>
-        <item name="*com.google.android.gm:actionBarPopupTheme">@*com.google.android.gm:style/ThemeOverlay.AppCompat.Light</item>
-        <item name="*com.google.android.gm:actionModeBackground">@*com.google.android.gm:color/action_mode_background</item>
         <item name="*com.google.android.gm:popupMenuStyle">@*com.google.android.gm:style/MessageHeaderPopupStyle</item>
         <item name="*com.google.android.gm:colorPrimary">@*com.google.android.gm:color/primary_color</item>
         <item name="*com.google.android.gm:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
-        <item name="*com.google.android.gm:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+        <item name="*com.google.android.gm:colorControlNormal">@*com.google.android.gm:color/google_grey700</item>
         <item name="*com.google.android.gm:alertDialogTheme">@*com.google.android.gm:style/AlertDialogTheme</item>
     </style>
 </resources>

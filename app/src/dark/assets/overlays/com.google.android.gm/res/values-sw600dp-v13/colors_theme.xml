@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Divider -->
-    <color name="folder_list_divider_color">#00000000</color>                                                       <!-- Drawer -->
-    <!-- Background -->
-        <!-- Conversation List -->
-        <color name="loading_messages_background_color">@*android:color/background_material_dark</color>            <!-- Background Loading Messages -->
-</resources>

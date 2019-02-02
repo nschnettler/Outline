@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_undo_notification">@android:color/holo_blue_bright</color>
+    <color name="text_color_undo_notification_description">@android:color/darker_gray</color>
+    <color name="bt_notification_undo_button_text">@android:color/holo_blue_bright</color>
+    <color name="bt_notification_undo_description_text">@android:color/darker_gray</color>
+</resources>
