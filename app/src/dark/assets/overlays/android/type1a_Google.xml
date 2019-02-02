@@ -2,5 +2,5 @@
 <resources>
     <!-- Backgrounds -->
     <color name="background_material_dark">#202124</color>                                          <!-- Primary Background -->
-    <color name="background_dark">#1c1d20</color>                                                   <!-- Background Darker -->
+    <color name="background_dark">#2b2c2f</color>                                                   <!-- Background Lighter -->
 </resources>
