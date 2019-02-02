@@ -5,6 +5,7 @@
     <color name="primary_material_dark">@*android:color/background_material_dark</color>
 
     <!-- Background -->
-    <color name="main_screen_card_background">@*android:color/background_material_dark</color>      <!-- Main Screen - Cards -->
+    <color name="main_screen_card_background">@android:color/background_dark</color>                <!-- Main Screen - Cards -->
+    <color name="theme_card_background">@*android:color/background_material_dark</color>
     <color name="theme_information_background">@*android:color/background_material_dark</color>     <!-- Theme Screen - Background -->
 </resources>
