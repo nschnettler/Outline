@@ -7,7 +7,7 @@
     <color name="primary_dark_material_dark">@*android:color/background_material_dark</color>       <!-- Primary Dark -->
 
     <!-- Main | Background -->
-    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>    <!-- Floating | Dialogs, etc. -->
+    <color name="background_floating_material_dark">@*android:color/background_dark</color>         <!-- Floating | Dialogs, etc. -->
     <color name="material_grey_850">@*android:color/background_material_dark</color>                    <!-- Material Dark Stock -->
     <color name="input_method_navigation_guard">@*android:color/background_material_dark</color>        <!-- Keyboard - Navbar -->
 
