@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Colors -->
-    <color name="m_app_primary">@*android:color/primary_material_dark</color>
-    <color name="m_app_secondary">@*android:color/primary_material_dark</color>
-    <color name="quantum_grey400">@*android:color/primary_material_dark</color>
-    <color name="m_search_bar_background">@*android:color/primary_material_dark</color>
-    <color name="google_grey400">@android:color/holo_blue_light</color>                             <!-- Statusbar -->
+    <color name="m_app_primary">@*android:color/background_material_dark</color>
+    <color name="m_app_secondary">@*android:color/background_material_dark</color>
+    <color name="quantum_grey400">@*android:color/background_material_dark</color>
+    <color name="m_search_bar_background">@*android:color/background_material_dark</color>
+    <color name="google_grey400">@*android:color/background_material_dark</color>                   <!-- Statusbar -->
+    <color name="background_floating_material_light">@android:color/background_dark</color>         <!-- Dialog -->
 
     <!-- Icons -->
     <color name="secondary_text_default_material_light">#FFFFFF</color>                             <!-- Custom -->
@@ -50,7 +51,4 @@
     <color name="material_title">#FFFFFF</color>                                                    <!-- QuickAccess - Name -->
     <color name="quantum_black_100">#FFFFFF</color>
     <color name="billing_secondary_text">#b3FFFFFF</color>
-
-
-
 </resources>
