@@ -11,11 +11,9 @@
 
     <!-- Dark -->
     <color name="replay__background_color_dark">@*android:color/background_material_dark</color>    <!-- Main -->
-    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Tabs, BottomSheet NavBar -->
-    <color name="design_dark_default_color_surface">@*android:color/background_material_dark</color><!-- Overflow -->
-    <color name="replay__divider_color_dark">#1a000000</color>                                      <!-- Divider -->
-    <color name="replay__pal_gray_800">#1a000000</color>                                            <!-- Input Text -->
-    <color name="replay__pal_gray_900">#ff202124</color>                                            <!-- Fix Light Theme Text -->
+    <color name="google_dark_default_color_primary">@*android:color/background_material_dark</color><!-- Tabs -->
+    <color name="google_dark_default_color_surface">@*android:color/background_dark</color>         <!-- Overflow -->
+    <color name="replay__divider_color_dark">#0dFFFFFF</color>                                      <!-- Divider -->
 
     <!-- Other -->
     <color name="games_profile_edit_error_text_color">@android:color/holo_red_light</color>
