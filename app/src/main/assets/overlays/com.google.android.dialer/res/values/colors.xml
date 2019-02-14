@@ -17,4 +17,5 @@
     <color name="notification_action_accept">@android:color/holo_green_light</color>                <!-- Answer -->
     <color name="notification_action_answer_video">@android:color/holo_green_light</color>          <!-- Answer - Video -->
     <color name="dialer_red">@android:color/holo_red_light</color>                                  <!-- Missed -->
+    <color name="spam_contact_background">@android:color/holo_red_light</color>                     <!-- Spam -->
 </resources>
