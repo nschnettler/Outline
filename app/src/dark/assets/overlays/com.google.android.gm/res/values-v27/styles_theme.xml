@@ -8,4 +8,9 @@
         <item name="android:statusBarColor">?android:colorBackground</item>
     </style>
     <style name="ColoredNavBarMailActivityTheme" parent="@*com.google.android.gm:style/BaseMailActivityTheme"/>
+    <style name="ColoredNavBarGlifActivityTheme" parent="@*com.google.android.gm:style/SuwThemeGlif.Light">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">#0dFFFFFF</item>
+    </style>
 </resources>
