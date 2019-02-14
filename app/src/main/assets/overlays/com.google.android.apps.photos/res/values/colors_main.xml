@@ -12,4 +12,8 @@
     <color name="google_green500">@android:color/holo_green_light</color>
     <color name="google_purple500">@android:color/holo_purple</color>
     <color name="google_yellow500">@android:color/holo_orange_light</color>
+
+
+    <!-- Dark -->
+    <color name="google_dark_default_color_secondary">@android:color/holo_blue_light</color>
 </resources>
