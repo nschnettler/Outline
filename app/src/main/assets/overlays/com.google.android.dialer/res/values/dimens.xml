@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="favorites_star_icon_size">20dp</dimen>
     <dimen name="collapsed_search_bar_radius">26dp</dimen>
 </resources>
