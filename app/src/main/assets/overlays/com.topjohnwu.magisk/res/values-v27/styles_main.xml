@@ -9,7 +9,7 @@
 
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:navigationBarDividerColor">#1a000000</item>
+        <item name="android:navigationBarDividerColor">#0dFFFFFF</item>
     </style>
 
     <!-- Dark Theme -->

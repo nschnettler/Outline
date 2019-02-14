@@ -12,12 +12,12 @@
 
 
     <!-- Dark Theme -->
-    <color name="primary_dark_material_dark">@*android:color/primary_material_dark</color>
-    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_dark_material_dark">@*android:color/background_material_dark</color>
+    <color name="primary_material_dark">@*android:color/background_material_dark</color>
 
-    <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialog -->
+    <color name="material_grey_800">@android:color/background_dark</color>                          <!-- Dialog -->
     <color name="button_material_dark">@android:color/background_dark</color>                       <!-- Button -->
-    <color name="ripple_material_dark">@android:color/background_dark</color>                       <!-- Drawer Selected -->
-    <color name="design_snackbar_background_color">@*android:color/background_material_dark</color>
-    <color name="card_background_color_dark">@*android:color/background_material_dark</color>       <!-- Card -->
+    <color name="ripple_material_dark">#0dFFFFFF</color>                                            <!-- Drawer Selected -->
+    <color name="design_snackbar_background_color">@android:color/background_dark</color>
+    <color name="card_background_color_dark">@android:color/background_dark</color>                 <!-- Card -->
 </resources>
