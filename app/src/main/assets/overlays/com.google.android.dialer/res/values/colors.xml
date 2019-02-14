@@ -8,7 +8,7 @@
 
     <!-- Dark Theme -->
     <color name="google_grey_900">@*android:color/background_material_dark</color>                  <!-- Background - Main -->
-    <color name="google_grey_900_elevated">@*android:color/background_material_dark</color>         <!-- Background - Elevated -->
+    <color name="google_grey_900_elevated">@android:color/background_dark</color>         <!-- Background - Elevated -->
 
     <!-- Call -->
     <color name="dialer_call_green">@android:color/holo_blue_light</color>                          <!-- Start -->
