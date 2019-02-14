@@ -2,14 +2,14 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24.0"
-    android:viewportHeight="24.0">
+    android:viewportHeight="24.0"
+    android:tint="?android:colorControlNormal">
     <path
         android:strokeColor="@*com.google.android.apps.photos:color/secondary_text_default_material_light"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M 12 2.5 C 17.2467051234 2.5 21.5 6.75329487661 21.5 12 C 21.5
-  17.2467051234 17.2467051234 21.5 12 21.5 C 6.75329487661 21.5 2.5
-  17.2467051234 2.5 12 C 2.5 6.75329487661 6.75329487661 2.5 12 2.5
-  ZM7.5 12h9-9z" />
+        android:pathData="M8.702 5.702c1.268-1.268 3.328-1.268 4.596 0 1.268 1.268 1.268 3.328 0 4.596-1.268
+ 1.268-3.328 1.268-4.596 0-1.268-1.268-1.268-3.328 0-4.596zM3.76 18.063c0-1.84
+ 3.249-3.334 7.25-3.334m-7.25 3.334v1.187H11m3.35-2.85h5.3" />
 </vector>
