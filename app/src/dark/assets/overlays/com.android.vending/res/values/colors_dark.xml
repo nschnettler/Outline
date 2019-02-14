@@ -20,6 +20,7 @@
     <color name="entity_pivot_text_color">#FFF</color>
     <color name="action_button_disabled_text_color">#61FFFFFF</color>
     <color name="play_uninstall_wizard_title_color">#FFF</color>
+    <color name="review_filter_pill_text_color_selected">#FFF</color>                               <!-- Review Filter Selected -->
 
     <!-- Background -->
         <!-- What's New -->
@@ -37,6 +38,11 @@
     <color name="play_white_half_transparent">@android:color/holo_green_light</color>
     <color name="write_review_fragment_background_color">@*android:color/background_material_dark</color>
     <color name="review_reply_background">@android:color/background_dark</color>
+    <color name="all_reviews_filter_list_background">@*android:color/background_material_dark</color>           <!-- Review Filters -->
+
+    <!-- Divider -->
+    <color name="review_filter_pill_outline_color">#0dFFFFFF</color>                                            <!-- Review Filter Border -->
+    <color name="review_endorsement_border">#0dFFFFFF</color>                                                   <!-- Review Endorsement Border -->
 
     <color name="play_drawer_separator">@*android:color/background_dark</color>                                 <!-- Drawer Seperator -->
     <color name="reviews_filtering_color">#FFFFFF</color>
