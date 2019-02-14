@@ -39,6 +39,7 @@
     <color name="write_review_fragment_background_color">@*android:color/background_material_dark</color>
     <color name="review_reply_background">@android:color/background_dark</color>
     <color name="all_reviews_filter_list_background">@*android:color/background_material_dark</color>           <!-- Review Filters -->
+    <color name="play_histogram_background">@android:color/background_dark</color>
 
     <!-- Divider -->
     <color name="review_filter_pill_outline_color">#0dFFFFFF</color>                                            <!-- Review Filter Border -->
