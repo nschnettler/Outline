@@ -10,4 +10,11 @@
     <color name="google_blue700">@android:color/holo_blue_light</color>                             <!-- Add Attachement Button -->
     <color name="google_blue500">@android:color/holo_blue_light</color>                             <!-- Attachement Picker Categories -->
     <color name="google_dark_blue600">@android:color/holo_blue_light</color>
+
+
+    <!-- Dark Theme -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
+    <color name="background_material_dark">@*android:color/background_dark</color>                  <!-- Overflow -->
+    <color name="google_grey700">@android:color/background_dark</color>                             <!-- Compose, Stroke -->
+    <color name="google_grey800">@android:color/background_dark</color>                             <!-- Card -->
 </resources>

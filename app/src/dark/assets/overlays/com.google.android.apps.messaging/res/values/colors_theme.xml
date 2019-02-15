@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Background -->
-    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
-    <color name="background_material_dark">@*android:color/background_material_dark</color>         <!-- Overflow -->
-    <color name="google_grey700">@*android:color/background_dark</color>                            <!-- Compose, Stroke -->
-    <color name="google_grey800">@*android:color/background_dark</color>                            <!-- Card -->
-
     <!-- >Notification -->
     <color name="notification_sender_text">#FFFFFF</color>
     <color name="notification_secondary_text">#b3FFFFFF</color>
