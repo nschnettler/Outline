@@ -5,7 +5,7 @@
     android:viewportHeight="24.0"
     android:tint="?android:colorControlNormal">
     <path
-        android:strokeColor="#FFF"
+        android:strokeColor="#757575"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
@@ -21,7 +21,7 @@ M3.524 6.479l16.976.042" />
         android:pivotY="13"
         android:scaleY="-1">
         <path
-            android:strokeColor="#FFF"
+            android:strokeColor="#757575"
             android:strokeWidth="1.5"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"
