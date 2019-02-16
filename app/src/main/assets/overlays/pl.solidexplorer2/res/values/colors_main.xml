@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="indigo">@android:color/holo_blue_light</color>
-    <color name="light_blue">@*android:color/primary_material_light</color>
+    <color name="light_blue">@android:color/holo_blue_light</color>
     <color name="green">@android:color/holo_green_light</color>
     <color name="purple">@android:color/holo_purple</color>
+    <color name="deep_purple">@android:color/holo_purple</color>
     <color name="red">@android:color/holo_red_light</color>
     <color name="orange">@android:color/holo_orange_light</color>
-    <color name="blue_grey">@*android:color/holo_gray_light</color>
-    <color name="brown">@*android:color/holo_gray_light</color>
+    <color name="blue_grey">@android:color/holo_blue_light</color>
+    <color name="brown">@android:color/holo_red_light</color>
+
+    <color name="color_error">@android:color/holo_red_light</color>
+    <color name="color_success">@android:color/holo_green_light</color>
 
     <!-- Statusbar Overlay -->
     <color name="subcolor_light">#00000000</color>
