@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-    <color name="whiteFive">#FFF</color>                                                            <!-- Bottom Navigation -->
+    <color name="bottom_app_bar_background_color">#f2ffffff</color>
     <color name="fragment_background">#FFF</color>
     <color name="item_highlighted_background">#0d000000</color>
 </resources>
