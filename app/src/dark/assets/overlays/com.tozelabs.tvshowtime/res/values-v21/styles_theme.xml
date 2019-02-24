@@ -7,4 +7,22 @@
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@android:style/TextAppearance.Material.Large.Inverse">
         <item name="*com.tozelabs.tvshowtime:layout_constraintTop_toBottomOf">@*com.tozelabs.tvshowtime:id/seasonCard</item>
     </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@android:style/TextAppearance.Material.Medium.Inverse">
+        <item name="*com.tozelabs.tvshowtime:layout_constraintBottom_toTopOf">@*com.tozelabs.tvshowtime:id/emotionText</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintEnd_toEndOf">parent</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintStart_toStartOf">parent</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintTop_toTopOf">parent</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@android:style/TextAppearance.Material.Inverse" >
+        <item name="*com.tozelabs.tvshowtime:layout_constraintTop_toBottomOf">@*com.tozelabs.tvshowtime:id/emotionImageWrapper</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintEnd_toEndOf">parent</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintStart_toStartOf">parent</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse">
+        <item name="*com.tozelabs.tvshowtime:layout_constraintTop_toBottomOf">@*com.tozelabs.tvshowtime:id/emotionText</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintBottom_toBottomOf">parent</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintEnd_toEndOf">parent</item>
+        <item name="*com.tozelabs.tvshowtime:layout_constraintStart_toStartOf">parent</item>
+        <item name="*com.tozelabs.tvshowtime:textFont">@*com.tozelabs.tvshowtime:string/semi_bold_font</item>
+    </style>
 </resources>

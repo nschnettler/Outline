@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="kumera">@android:color/holo_orange_light</color>
+    <color name="status_bar_background_color">@android:color/holo_orange_light</color>
 
     <!-- Background -->
-    <color name="whiteFive">@*android:color/background_material_dark</color>                        <!-- Bottom Navigation -->
+    <color name="primary_background_color">@*android:color/background_material_dark</color>         <!-- Main -->
+    <color name="top_app_bar_background_color">@*android:color/background_material_dark</color>     <!-- Primary (Toolbar/Statusbar) -->
+    <color name="bottom_app_bar_background_color">@*android:color/background_material_dark</color>  <!-- Bottom Navigation -->
+    <color name="tab_background_color">@*android:color/background_material_dark</color>             <!-- Tab -->
+    <color name="card_background_color">@android:color/background_dark</color>                      <!-- Card -->
+    <color name="primary_divider_color">@android:color/background_dark</color>                      <!-- Divider -->
+
+    <color name="search_header_background">@android:color/background_dark</color>                   <!-- Searchbar -->
+    <color name="whiteSmoke">@android:color/background_dark</color>                                 <!-- Buttons -->
+    <color name="desertStorm">#0dFFFFFF</color>
+    <color name="mineShaft">#b3FFFFFF</color>
+    <color name="saffron_pressed">#0dFFFFFF</color>
+
     <color name="fragment_background">@*android:color/background_material_dark</color>
-    <color name="item_highlighted_background">#1a000000</color>
+    <color name="item_highlighted_background">#0dFFFFFF</color>
     <color name="white_background">@*android:color/background_material_dark</color>                 <!-- Main & Primary -->
     <color name="item_background">@*android:color/background_material_dark</color>
     <color name="settings_background">@*android:color/background_material_dark</color>
-    <color name="whiteSeven">@*android:color/background_material_dark</color>
     <color name="mineShaft1">@*android:color/background_material_dark</color>
     <color name="heavyMetal">@*android:color/background_material_dark</color>
     <color name="toolbar_background">@*android:color/background_material_dark</color>
     <color name="medium_black">@*android:color/background_material_dark</color>
-    <color name="blackThree">@*android:color/background_material_dark</color>
-    <color name="notification_item_background">@*android:color/background_material_dark</color>
     <color name="background_floating_material_light">@*android:color/background_material_dark</color><!-- Dialog -->
-    <color name="notification_item_highlighted_background">#1a000000</color>
-    <color name="alto1">@android:color/background_dark</color>
-    <color name="search_header_background">@android:color/background_dark</color>
-    <color name="whiteSix">#33000000</color>                                                        <!-- Poll - Other Votes -->
 
     <!-- Text -->
     <color name="primary_text_black">#FFFFFF</color>

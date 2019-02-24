@@ -4,7 +4,7 @@
     android:layout_margin="@*com.tozelabs.tvshowtime:dimen/item_spacing"
     android:maxWidth="@*com.tozelabs.tvshowtime:dimen/max_feed_width"
     android:shape="rectangle"
-    app:cardBackgroundColor="#f00"
+    android:backgroundTint="@*android:color/background_material_dark"
     app:cardCornerRadius="@*com.tozelabs.tvshowtime:dimen/episode_detail_card_radius"
     app:cardElevation="4.0dip"
     app:cardPreventCornerOverlap="false"
