@@ -16,4 +16,10 @@
         <item name="android:layout_marginBottom">@*com.google.android.keep:dimen/weblink_annotation_margin_top_bottom</item>
         <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
+    <style name="QebFloatingContainerStyle" parent="@*com.google.android.keep:style/QebContainerStyle">
+        <item name="android:background">@*com.google.android.keep:drawable/qeb_shadow_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="*com.google.android.keep:cardBackgroundColor">@*android:color/background_material_dark</item>
+    </style>
 </resources>

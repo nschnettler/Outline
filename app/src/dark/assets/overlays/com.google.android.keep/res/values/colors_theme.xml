@@ -3,18 +3,19 @@
     <color name="google_white">@*android:color/background_material_dark</color>
     <color name="google_dark_default_color_background">@*android:color/background_material_dark</color>
     <color name="action_mode_background_color">@*android:color/background_material_dark</color>     <!-- Action Mode -->
-    <color name="design_dark_default_color_surface">@*android:color/background_material_dark</color>
+    <color name="design_dark_default_color_surface">@android:color/background_dark</color>
     <color name="label_editor_rename_mode_color">@*android:color/background_material_dark</color>   <!-- New Label -->
     <color name="widget_background_color">@*android:color/background_material_dark</color>          <!-- Widget - Choose Account -->
     <color name="widget_header_account_background_color">@*android:color/background_material_dark</color><!-- Widget - Behind Account Name -->
     <color name="share_handler_account_selector">@*android:color/background_material_dark</color>
-    <color name="google_grey800">@*android:color/background_material_dark</color>
+    <color name="google_grey800">@*android:color/background_dark</color>                            <!-- Searchbar -->
     <color name="recurrence_picker_background">@*android:color/background_material_dark</color>
     <color name="share_handler_default_background">@*android:color/background_dark</color>
     <color name="zero_search_background_color">@*android:color/background_material_dark</color>     <!-- Search -->
     <color name="zero_search_light_background_color">#1a000000</color>                              <!-- Search 2 -->
-    <color name="google_grey200">#1a000000</color>                                                  <!-- Divider -->
-    <color name="google_grey300">#1a000000</color>                                                  <!-- Divider/Stroke -->
+    <color name="google_grey200">#0dFFFFFF</color>                                                  <!-- Divider -->
+    <color name="google_grey300">#0dFFFFFF</color>                                                  <!-- Divider/Stroke -->
+    <color name="annotation_background_color_translucent">#1AFFFFFF</color>
 
     <!-- Text -->
     <color name="google_grey900">#FFF</color>                                                       <!-- Main -->
