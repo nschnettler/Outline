@@ -3,6 +3,7 @@
     android:layout_gravity="top"
     android:id="@*com.whatsapp:id/emoji_view"
     android:visibility="gone"
+    android:clipChildren="false"
     android:layout_width="fill_parent"
     android:layout_height="230.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -126,7 +127,7 @@
             </FrameLayout>
         </LinearLayout>
 
-        <Button
+        <com.whatsapp.WaButton
             android:layout_gravity="bottom|center|right"
             android:id="@*com.whatsapp:id/ok"
             android:layout_width="wrap_content"
@@ -160,6 +161,7 @@
 
     <FrameLayout
         android:id="@*com.whatsapp:id/footer_toolbar_cont"
+        android:clipChildren="false"
         android:layout_width="fill_parent"
         android:layout_height="@*com.whatsapp:dimen/picker_footer_height"
         android:layout_alignParentBottom="true">
@@ -170,6 +172,8 @@
             android:paddingLeft="8.0dip"
             android:paddingRight="8.0dip"
             android:visibility="gone"
+            android:clipChildren="false"
+            android:clipToPadding="false"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
@@ -186,6 +190,7 @@
             <LinearLayout
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal"
+                android:clipChildren="false"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent">
 
@@ -214,6 +219,7 @@
                 <FrameLayout
                     android:id="@*com.whatsapp:id/sticker_tab"
                     android:visibility="gone"
+                    android:clipChildren="false"
                     android:layout_width="40.0dip"
                     android:layout_height="fill_parent">
 
@@ -225,17 +231,14 @@
                         android:contentDescription="@*com.whatsapp:string/sticker_tab_content_description"
                         style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-                    <View
-                        android:layout_gravity="center|right|top"
+                    <com.whatsapp.WaImageView
+                        android:layout_gravity="center"
                         android:id="@*com.whatsapp:id/sticker_onboarding_badge"
-                        android:background="@*com.whatsapp:drawable/sticker_update_badge"
                         android:visibility="gone"
-                        android:layout_width="9.0dip"
-                        android:layout_height="9.0dip"
-                        android:layout_marginLeft="4.0dip"
-                        android:layout_marginTop="6.0dip"
-                        android:layout_marginRight="4.0dip"
-                        android:layout_marginBottom="4.0dip" />
+                        android:clickable="false"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:src="@*com.whatsapp:drawable/sticker_store_halo_pulse" />
                 </FrameLayout>
             </LinearLayout>
 

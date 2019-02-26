@@ -128,20 +128,9 @@
                     android:id="@*com.whatsapp:id/date_wrapper"
                     android:paddingRight="0.0dip"
                     android:paddingBottom="3.0dip"
-                    android:layout_width="fill_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3.0dip">
-
-                    <com.whatsapp.WaTextView
-                        android:ellipsize="end"
-                        android:id="@*com.whatsapp:id/audio_title"
-                        android:layout_width="0.0dip"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="18.0dip"
-                        android:layout_marginRight="10.0dip"
-                        android:singleLine="true"
-                        android:layout_weight="1.0"
-                        style="@*com.whatsapp:style/ConversationDate" />
 
                     <com.whatsapp.WaTextView
                         android:id="@*com.whatsapp:id/date"

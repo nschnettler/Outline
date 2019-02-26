@@ -9,10 +9,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/com.whatsapp">
 
-    <LinearLayout
+    <com.whatsapp.stickers.StickerStoreRowHeaderLayout
         android:orientation="horizontal"
         android:id="@*com.whatsapp:id/sticker_pack_info"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16.0dip"
         android:layout_marginTop="12.0dip">
@@ -20,40 +20,64 @@
         <com.whatsapp.WaTextView
             android:textSize="16.0sp"
             android:textColor="@*com.whatsapp:color/black"
+            android:ellipsize="marquee"
             android:id="@*com.whatsapp:id/sticker_pack_title"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:singleLine="true" />
 
         <com.whatsapp.WaTextView
             android:textSize="12.0sp"
             android:ellipsize="marquee"
-            android:gravity="center_vertical"
             android:id="@*com.whatsapp:id/sticker_pack_author"
-            android:layout_width="0.0dip"
-            android:layout_height="fill_parent"
-            android:layout_marginLeft="10.0dip"
-            android:singleLine="true"
-            android:layout_weight="1.0" />
-
-        <com.whatsapp.WaTextView
-            android:gravity="center_vertical"
-            android:id="@*com.whatsapp:id/bullet_file_size"
-            android:visibility="gone"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            style="@*com.whatsapp:style/ConversationDocumentInfoBullet" />
-
-        <com.whatsapp.WaTextView
-            android:textSize="12.0sp"
-            android:gravity="center_vertical"
-            android:id="@*com.whatsapp:id/sticker_pack_filesize"
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_marginRight="10.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
             android:singleLine="true" />
-    </LinearLayout>
+
+        <LinearLayout
+            android:id="@*com.whatsapp:id/sticker_row_dont_clip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAlignedChildIndex="0">
+
+            <com.whatsapp.WaTextView
+                android:id="@*com.whatsapp:id/bullet_file_size"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                style="@*com.whatsapp:style/ConversationDocumentInfoBullet" />
+
+            <com.whatsapp.WaTextView
+                android:textSize="12.0sp"
+                android:id="@*com.whatsapp:id/sticker_pack_filesize"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:singleLine="true" />
+
+            <com.whatsapp.WaTextView
+                android:textSize="10.0sp"
+                android:textStyle="bold"
+                android:textColor="@*com.whatsapp:color/white"
+                android:layout_gravity="center_vertical"
+                android:id="@*com.whatsapp:id/new_pack_badge"
+                android:background="@*com.whatsapp:drawable/new_pack_bubble"
+                android:paddingLeft="8.0sp"
+                android:paddingTop="1.0sp"
+                android:paddingRight="8.0sp"
+                android:paddingBottom="1.0sp"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16.0dip"
+                android:text="@*com.whatsapp:string/sticker_new_pack_badge"
+                android:singleLine="true"
+                android:textAllCaps="true" />
+        </LinearLayout>
+    </com.whatsapp.stickers.StickerStoreRowHeaderLayout>
 
     <com.whatsapp.stickers.TouchDiscardLayout
         android:layout_width="fill_parent"
@@ -79,8 +103,6 @@
             android:layout_height="32.0dip"
             android:indeterminate="true"
             android:indeterminateOnly="true"
-            android:indeterminateTint="@*com.whatsapp:color/accent"
-            android:indeterminateTintMode="src_atop"
             app:cpbBackground="@*com.whatsapp:color/emoji_popup_body"
             app:cpbColor="@*com.whatsapp:color/accent"
             app:cpbStrokeWidthFactor="4.0" />
