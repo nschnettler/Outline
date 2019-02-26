@@ -5,12 +5,14 @@
     android:viewportHeight="24.0"
     android:tint="?android:colorControlNormal">
     <path
-        android:strokeColor="#FFF"
+        android:strokeColor="@android:color/holo_blue_light"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M7 22.5c-.828 0-1.5-.672-1.5-1.5V2.964c0-.393.156-.77.435-1.048.278-.278.656-.434
-  1.049-.433 2.497.003 7.512.011 10.018.015.828.001 1.498.672 1.498 1.5V21c0 .398-.158.779-.439
-  1.061-.282.281-.663.439-1.061.439H7z
-  M9.95 4.5h4.1m-2.8 15h1.5 M11.969 8.5V12m0 2.5v1" />
+        android:pathData="M13.504 7.671L15.79 6.63l1.027-2.302 1.071 2.288 2.258
+1.055-2.272 1.057-1.057 2.257-1.027-2.257-2.286-1.057z
+M13.354 3H8.251c-.465 0-.91.184-1.238.513-.328.328-.512.773-.512
+ 1.237v14.5c0 .464.184.909.512 1.237.328.329.773.513
+ 1.238.513h7.44c.967 0 1.75-.783 1.75-1.75v-5.009M11.25
+ 18.5h1.5" />
 </vector>
