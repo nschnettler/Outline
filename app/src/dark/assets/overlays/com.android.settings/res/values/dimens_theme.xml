@@ -2,6 +2,7 @@
 <resources>
     <dimen name="cardview_default_elevation">0dip</dimen>
     <dimen name="cardview_default_radius">8dip</dimen>
+    <dimen name="search_bar_corner_radius">8dip</dimen>
 
     <!-- Extensions -->
     <dimen name="card_elevation">0dip</dimen>
