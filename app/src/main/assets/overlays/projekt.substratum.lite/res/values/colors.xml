@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme -->
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorPrimaryVariant">#FFF</color>
+    <color name="colorSecondary">@android:color/holo_blue_light</color>
+    <color name="splash_bg">@android:color/holo_blue_light</color>
+
+    <color name="overlay_installed_list_entry">#7db694</color>
+    <color name="overlay_installed_list_entry_night">#7db694</color>
+    <color name="overlay_installed_not_active">#d37a7a</color>
+    <color name="overlay_installed_not_active_night">#d37a7a</color>
+    <color name="overlay_not_enabled_list_entry">#f2a56f</color>
+    <color name="overlay_not_enabled_list_entry_night">#f2a56f</color>
+</resources>

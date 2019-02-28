@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme -->
+    <color name="colorPrimary">@*android:color/background_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/background_material_dark</color>
+    <color name="colorPrimaryVariant">@*android:color/background_material_dark</color>
+    <color name="window_bg">@*android:color/background_material_dark</color>
+    <color name="popupColor">@android:color/background_dark</color>
+    <color name="splash_bg">@*android:color/background_material_dark</color>
+</resources>
