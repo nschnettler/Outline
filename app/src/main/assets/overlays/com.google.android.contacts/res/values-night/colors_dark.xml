@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Background -->
-    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Primary -->
-    <color name="google_grey800">@*android:color/background_material_dark</color>                   <!-- Drawer -->
-    <color name="elevated_surface_background_dark">@*android:color/background_material_dark</color> <!-- Overflow -->
-    <color name="google_grey700">@android:color/background_dark</color>                             <!-- Divider, Chip -->
-</resources>
