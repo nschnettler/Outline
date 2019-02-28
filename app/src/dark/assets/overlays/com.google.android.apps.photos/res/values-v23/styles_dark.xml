@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardView" parent="@*com.google.android.apps.photos:style/Base.CardView">
+        <item name="*com.google.android.apps.photos:cardBackgroundColor">?android:colorBackgroundFloating</item>
+        <item name="android:backgroundTint">?android:colorBackgroundFloating</item>
+    </style>
+</resources>

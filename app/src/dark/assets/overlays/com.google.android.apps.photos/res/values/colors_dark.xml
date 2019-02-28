@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Dark Theme -->
-    <color name="google_dark_default_color_primary_dark">@*android:color/background_material_dark</color><!-- StatusBar -->
-    <color name="background_floating_material_dark">@android:color/background_dark</color>          <!-- Dialog -->
-
     <!-- Background -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
+    <color name="photos_daynight_white">@*android:color/background_material_dark</color>
     <color name="quantum_white_100">@*android:color/background_material_dark</color>
-    <color name="google_white">@*android:color/background_material_dark</color>
-    <color name="photos_theme_fake_shadow_end_color">#1a000000</color>
-    <color name="photos_photoadapteritem_photo_placeholder">@*android:color/background_dark</color>
-    <color name="photos_photoeditor_commonui_toolbar_background">@*android:color/background_material_dark</color>
-    <color name="photos_photoeditor_adjustments_background">@*android:color/background_material_dark</color>
-    <color name="photos_photoeditor_crop_toolbar_background">@*android:color/background_material_dark</color>
-    <color name="google_grey50">@*android:color/background_material_dark</color>                    <!-- Photobook Statusbar -->
-    <color name="photos_theme_white_translucent_system_ui_color">#00000000</color>                  <!-- NavBar/Statusbar Overlay-->
+    <color name="photos_theme_white_translucent_system_ui_color">#00000000</color>
+
+    <!-- Background - Elevated -->
+    <color name="background_floating_material_dark">@android:color/background_dark</color>          <!-- Dialog -->
+    <color name="google_white">@android:color/background_dark</color>
+    <color name="photos_share_fragment_background">@*android:color/background_dark</color>
+    <color name="photos_gridlayers_zoom_fab_background">@android:color/background_dark</color>
+    <color name="sendkit_ui_default_background_color">@android:color/background_dark</color>
+
+    <!-- Divider -->
+    <color name="google_dark_default_color_hairline">#0dFFFFFF</color>
+    <color name="google_grey300">@android:color/background_dark</color>
+    <color name="quantum_grey300">@android:color/background_dark</color>
 
     <!-- Text -->
+    <color name="quantum_grey600">#FFF</color>
+    <color name="quantum_black_text">#FFF</color>
     <color name="google_grey600">#FFF</color>                                                       <!-- Header -->
     <color name="google_grey800">#FFF</color>                                                       <!-- Primary -->
     <color name="google_grey700">#b3FFFFFF</color>                                                  <!-- Secondary -->
     <color name="quantum_grey900">#FFF</color>                                                      <!-- Drawer -->
     <color name="photos_assistant_cardui_header_dark_title">#b3FFFFFF</color>                       <!-- Card - Header -->
     <color name="sendkit_ui_default_primary_color">#FFF</color>                                     <!-- Share - Primary -->
-    <color name="sendkit_ui_default_secondary_color">#b3FFFFFF</color><!-- Share Secondary -->
-    <color name="quantum_black_text">#FFF</color>
-    <color name="quantum_black_secondary_text">#b3FFFFFF</color>
-    <color name="quantum_black_hint_text">#b3FFFFFF</color>
-    <color name="quantum_black_100">#FFF</color>
-    <color name="google_grey900">#FFF</color>
-    <color name="photos_list_fastscroll_new_scrubber_scale_label_text">#FFF</color>
-    <color name="text_black_87_percent">#FFF</color>
-    <color name="photos_list_fastscroll_new_scrubber_label_text">#80000000</color>
+    <color name="sendkit_ui_default_secondary_color">#b3FFFFFF</color>                              <!-- Share Secondary -->
     <color name="text_black_26_percent">#80FFFFFF</color>                                           <!-- Settings Disabled -->
-
-    <!-- Icon -->
-    <color name="secondary_text_default_material_light">#FFFFFF</color>
-    <color name="quantum_grey600">#b3FFFFFF</color>
+    <color name="secondary_text_default_material_light">#FFF</color>
+    <color name="photos_list_fastscroll_new_scrubber_label_text">#80000000</color>
+    <color name="quantum_black_secondary_text">#b3FFFFFF</color>
 </resources>
