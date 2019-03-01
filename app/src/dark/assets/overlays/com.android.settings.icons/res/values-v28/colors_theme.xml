@@ -40,6 +40,7 @@
     <color name="homepage_aicpextras_background">#0dFFFFFF</color>
     <color name="omni_logo_color">#0dFFFFFF</color>
 
+    <!-- Owls Nest -->
     <color name="owlsnest_oval_advanced">#0dFFFFFF</color>
     <color name="owlsnest_oval_buttons">#0dFFFFFF</color>
     <color name="owlsnest_oval_gesture">#0dFFFFFF</color>
@@ -49,4 +50,18 @@
     <color name="owlsnest_oval_qs">#0dFFFFFF</color>
     <color name="owlsnest_oval_recents">#0dFFFFFF</color>
     <color name="owlsnest_oval_status">#0dFFFFFF</color>
+
+    <!-- DotOS -->
+    <color name="icon_color_dotextras">#0dFFFFFF</color>
+    <color name="dot_dashboard_wireless">#0dFFFFFF</color>
+    <color name="dot_dashboard_devices_other">#0dFFFFFF</color>
+    <color name="dot_dashboard_apps">#0dFFFFFF</color>
+    <color name="dot_dashboard_battery">#0dFFFFFF</color>
+    <color name="dot_dashboard_display">#0dFFFFFF</color>
+    <color name="dot_dashboard_sound">#0dFFFFFF</color>
+    <color name="dot_dashboard_storage">#0dFFFFFF</color>
+    <color name="dot_dashboard_security">#0dFFFFFF</color>
+    <color name="dot_dashboard_accounts">#0dFFFFFF</color>
+    <color name="dot_dashboard_accessibility">#0dFFFFFF</color>
+    <color name="dot_dashboard_system">#0dFFFFFF</color>
 </resources>
