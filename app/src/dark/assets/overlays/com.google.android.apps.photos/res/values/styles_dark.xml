@@ -26,4 +26,9 @@
         <item name="android:lineSpacingMultiplier">@*com.google.android.apps.photos:dimen/bt_toastbar_line_spacing_multiplier</item>
         <item name="android:inputType">textMultiLine|textNoSuggestions</item>
     </style>
+
+    <style name="Photos.Album.Titlecard.CollectionTitle" parent="">
+        <item name="android:textAppearance">@*com.google.android.apps.photos:style/TextAppearance.Photos.Headline3</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
 </resources>
