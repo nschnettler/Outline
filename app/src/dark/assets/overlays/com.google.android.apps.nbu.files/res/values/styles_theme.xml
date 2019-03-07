@@ -2,6 +2,7 @@
 <resources>
     <!-- Tabbar -->
     <style name="Widget.GoogleMaterial.TabLayout" parent="@*com.google.android.apps.nbu.files:style/Widget.MaterialComponents.TabLayout">
+        <item name="android:background">?android:colorBackground</item>
         <item name="*com.google.android.apps.nbu.files:tabIndicator">@*com.google.android.apps.nbu.files:drawable/google_tabs_rounded_line_indicator</item>
         <item name="*com.google.android.apps.nbu.files:tabIndicatorColor">?android:colorAccent</item>
         <item name="*com.google.android.apps.nbu.files:tabTextColor">@*com.google.android.apps.nbu.files:color/google_tabs_icon_color_selector</item>
