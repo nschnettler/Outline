@@ -11,6 +11,8 @@
     <color name="google_purple500">@android:color/holo_purple</color>
     <color name="google_cyan500">@android:color/holo_blue_light</color>
     <color name="quantum_googgreen500">@android:color/holo_green_light</color>
+    <color name="quantum_grey700">@android:color/holo_green_light</color>                           <!-- Phone -->
+    <color name="color_apps">@android:color/holo_red_light</color>
 
     <!-- Other -->
     <color name="storage_card_progress_background">#1a000000</color>

@@ -2,6 +2,7 @@
 <resources>
     <!-- Bottomnav -->
     <style name="Widget.GoogleMaterial.BottomNavigationView" parent="@*com.google.android.apps.nbu.files:style/Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">?android:colorBackground</item>
         <item name="*com.google.android.apps.nbu.files:itemIconTint">@*com.google.android.apps.nbu.files:color/google_bottom_nav_icon_tint</item>
         <item name="*com.google.android.apps.nbu.files:itemTextColor">@*com.google.android.apps.nbu.files:color/google_bottom_nav_text_color</item>
     </style>
