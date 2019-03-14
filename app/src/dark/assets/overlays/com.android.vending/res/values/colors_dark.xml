@@ -6,7 +6,9 @@
 
     <!-- Text -->
     <color name="play_fg_primary">#FFFFFF</color>                                                   <!-- Primary Text Color, for example  Drawer unselected-->
-    <color name="play_fg_secondary">#b3FFFFFF</color>                                                 <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
+    <color name="play_fg_secondary">#b3FFFFFF</color>                                               <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
+    <color name="replay__pal_gray_900">#FFF</color>                                                 <!-- Card Title -->
+    <color name="replay__pal_gray_700">#b3FFFFFF</color>                                            <!-- Card Subtitle -->
     <color name="primary_text_default_material_light">#FFF</color>
     <color name="detailed_permissions_footer_text">#b3FFFFFF</color>
     <color name="play_icon_selected">#FFFFFF</color>                                                <!-- Drawer Selected -->
@@ -44,6 +46,7 @@
     <!-- Divider -->
     <color name="review_filter_pill_outline_color">#0dFFFFFF</color>                                            <!-- Review Filter Border -->
     <color name="review_endorsement_border">#0dFFFFFF</color>                                                   <!-- Review Endorsement Border -->
+    <color name="flat_card_consolidated_separator_color">#0dFFFFFF</color>
 
     <color name="play_drawer_separator">@*android:color/background_dark</color>                                 <!-- Drawer Seperator -->
     <color name="reviews_filtering_color">#FFFFFF</color>
@@ -65,4 +68,8 @@
     <color name="ripple_material_light">#ff9e9e9e</color>
     <color name="play_reason_separator">@*android:color/background_material_dark</color>
     <color name="play_fg_tertiary">#ffbbbbbb</color>
+
+
+
+    <color name="google_default_color_primary">#f00</color>
 </resources>

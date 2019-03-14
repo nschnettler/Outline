@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.frameworkviews.DecideBadgeView android:orientation="vertical"
+<com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeView android:orientation="vertical"
     android:id="@*com.android.vending:id/decide_badge_view"
     android:padding="@*com.android.vending:dimen/d30_decidebar_badge_padding"
     android:descendantFocusability="blocksDescendants"
@@ -51,4 +51,4 @@
         android:layout_gravity="center_horizontal"
         android:id="@*com.android.vending:id/subtitle_text"
         style="@*com.android.vending:style/D30DecideBarSubTitleText" />
-</com.google.android.finsky.frameworkviews.DecideBadgeView>
+</com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeView>
