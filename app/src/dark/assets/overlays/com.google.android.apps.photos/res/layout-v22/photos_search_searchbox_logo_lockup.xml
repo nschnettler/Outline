@@ -20,7 +20,7 @@
 
         <TextView
             android:textSize="19.0sp"
-            android:textColor="@*com.google.android.apps.photos:color/quantum_grey600"
+            android:textColor="@*com.google.android.apps.photos:color/photos_daynight_grey600"
             android:gravity="center_vertical"
             android:id="@*com.google.android.apps.photos:id/lockup_product_name_separator"
             android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
 
         <TextView
             android:textSize="19.0sp"
-            android:textColor="@*com.google.android.apps.photos:color/quantum_grey600"
+            android:textColor="@*com.google.android.apps.photos:color/photos_daynight_grey600"
             android:gravity="center_vertical"
             android:id="@*com.google.android.apps.photos:id/lockup_product_name"
             android:paddingLeft="4.0dip"
@@ -44,12 +44,4 @@
             android:fontFamily="sans-serif"
             android:hyphenationFrequency="none" />
     </LinearLayout>
-
-    <View
-        android:layout_gravity="end"
-        android:id="@*com.google.android.apps.photos:id/search_box_branding_gradient"
-        android:background="@*com.google.android.apps.photos:drawable/branding_gradient"
-        android:visibility="gone"
-        android:layout_width="16.0dip"
-        android:layout_height="fill_parent" />
 </FrameLayout>

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
-    <color name="photos_daynight_white">@*android:color/background_material_dark</color>
-    <color name="quantum_white_100">@*android:color/background_material_dark</color>
+    <color name="photos_daynight_white">@*android:color/background_material_dark</color>            <!-- Main -->
+    <color name="quantum_white_100">@*android:color/background_material_dark</color>                <!-- Splash -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Some Background (temp) -->
+    <color name="sendkit_ui_default_background_color">@*android:color/background_material_dark</color>
+    <color name="photos_share_fragment_background">@*android:color/background_material_dark</color>
     <color name="photos_theme_white_translucent_system_ui_color">#00000000</color>
 
     <!-- Background - Elevated -->
+    <color name="google_dark_default_color_surface">@android:color/background_dark</color>          <!-- Overflow -->
     <color name="background_floating_material_dark">@android:color/background_dark</color>          <!-- Dialog -->
     <color name="google_white">@android:color/background_dark</color>
-    <color name="photos_share_fragment_background">@*android:color/background_dark</color>
     <color name="photos_gridlayers_zoom_fab_background">@android:color/background_dark</color>
-    <color name="sendkit_ui_default_background_color">@android:color/background_dark</color>
 
     <!-- Divider -->
     <color name="google_dark_default_color_hairline">#0dFFFFFF</color>
-    <color name="google_grey300">@android:color/background_dark</color>
+    <color name="photos_daynight_grey300">@android:color/background_dark</color>
     <color name="quantum_grey300">@android:color/background_dark</color>
 
     <!-- Text -->
-    <color name="quantum_grey600">#FFF</color>
-    <color name="quantum_black_text">#FFF</color>
-    <color name="google_grey600">#FFF</color>                                                       <!-- Header -->
-    <color name="google_grey800">#FFF</color>                                                       <!-- Primary -->
-    <color name="google_grey700">#b3FFFFFF</color>                                                  <!-- Secondary -->
+    <color name="photos_daynight_grey800">#FFF</color>                                              <!-- Primary -->
+    <color name="photos_daynight_grey900">#FFF</color>                                              <!-- Header -->
+    <color name="photos_daynight_grey600">#b3FFFFFF</color>                                         <!-- Secondary -->
+    <color name="photos_daynight_grey700">#b3FFFFFF</color>                                         <!-- Secondary -->
     <color name="quantum_grey900">#FFF</color>                                                      <!-- Drawer -->
-    <color name="photos_assistant_cardui_header_dark_title">#b3FFFFFF</color>                       <!-- Card - Header -->
+    <color name="quantum_grey600">#FFF</color>                                                      <!-- Bottomnav -->
+    <color name="photos_assistant_cardui_header_dark_title">#FFF</color>                            <!-- Card - Header -->
+    <color name="quantum_black_text">#FFF</color>
+    <color name="quantum_black_secondary_text">#b3FFFFFF</color>
     <color name="sendkit_ui_default_primary_color">#FFF</color>                                     <!-- Share - Primary -->
     <color name="sendkit_ui_default_secondary_color">#b3FFFFFF</color>                              <!-- Share Secondary -->
-    <color name="text_black_26_percent">#80FFFFFF</color>                                           <!-- Settings Disabled -->
-    <color name="secondary_text_default_material_light">#FFF</color>
     <color name="photos_list_fastscroll_new_scrubber_label_text">#80000000</color>
-    <color name="quantum_black_secondary_text">#b3FFFFFF</color>
 </resources>

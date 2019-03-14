@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="CardView" parent="@*com.google.android.apps.photos:style/Base.CardView">
-        <item name="*com.google.android.apps.photos:cardBackgroundColor">?android:colorBackgroundFloating</item>
+        <item name="android:backgroundTint">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="AssistantCardIcon">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">0.0</item>
         <item name="android:backgroundTint">?android:colorBackgroundFloating</item>
     </style>
 </resources>

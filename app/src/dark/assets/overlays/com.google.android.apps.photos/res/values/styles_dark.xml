@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Dark Theme -->
-    <style name="Base.Theme.Photos.DayNight" parent="@*com.google.android.apps.photos:style/Base.Theme.Photos.Dark">
-        <item name="android:windowLightStatusBar">false</item>
-    </style>
-
+    <style name="Base.Theme.Photos.DayNight" parent="@*com.google.android.apps.photos:style/Base.Theme.Photos.Dark"/>
     <style name="Theme.Photos.DayNight.Dialog.Alert" parent="@*com.google.android.apps.photos:style/Theme.AppCompat.Dialog.Alert" />
-
-    <!-- BottomSheet -->
-    <style name="Widget.GoogleMaterial.BottomSheet.Modal" parent="@*com.google.android.apps.photos:style/Widget.MaterialComponents.BottomSheet.Modal">
-        <item name="*com.google.android.apps.photos:shapeAppearanceOverlay">@*com.google.android.apps.photos:style/ShapeAppearanceOverlay.GoogleMaterial.BottomSheet.Modal</item>
-        <item name="*com.google.android.apps.photos:enforceMaterialTheme">true</item>
-        <item name="*com.google.android.apps.photos:backgroundTint">?android:colorBackground</item>
-    </style>
 
     <!-- Toast -->
     <style name="PhotosActionableToastText">
@@ -25,10 +15,5 @@
         <item name="android:maxLines">@*com.google.android.apps.photos:integer/photos_actionabletoast_text_max_lines</item>
         <item name="android:lineSpacingMultiplier">@*com.google.android.apps.photos:dimen/bt_toastbar_line_spacing_multiplier</item>
         <item name="android:inputType">textMultiLine|textNoSuggestions</item>
-    </style>
-
-    <style name="Photos.Album.Titlecard.CollectionTitle" parent="">
-        <item name="android:textAppearance">@*com.google.android.apps.photos:style/TextAppearance.Photos.Headline3</item>
-        <item name="android:textColor">#FFF</item>
     </style>
 </resources>

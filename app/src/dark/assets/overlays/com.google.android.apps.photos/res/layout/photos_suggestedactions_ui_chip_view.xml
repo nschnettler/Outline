@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@*com.google.android.apps.photos:drawable/photos_suggestedactions_ui_chip_background"
+    android:padding="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_touch_area_padding"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@*com.google.android.apps.photos:id/action_image"
+        android:padding="4.0dip"
+        android:layout_width="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
+        android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
+        android:scaleType="centerInside"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no" />
+
+    <com.google.android.apps.photos.suggestedactions.ui.AlternateTextView
+        android:textColor="#FFF"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@*com.google.android.apps.photos:id/action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_height"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginStart="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
+        android:layout_marginEnd="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
+        style="@*com.google.android.apps.photos:style/photos_suggestedactions_ui_chip_text" />
+
+    <ImageView
+        android:layout_gravity="end"
+        android:id="@*com.google.android.apps.photos:id/close_button"
+        android:layout_width="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
+        android:layout_height="@*com.google.android.apps.photos:dimen/photos_suggestedactions_ui_chip_button_size"
+        android:src="@*com.google.android.apps.photos:drawable/photos_suggestedactions_ui_close_icon"
+        android:scaleType="center"
+        android:contentDescription="@*com.google.android.apps.photos:string/photos_suggestedactions_ui_dismiss_button_description" />
+</FrameLayout>
