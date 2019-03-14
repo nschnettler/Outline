@@ -2,6 +2,7 @@
 <resources>
     <style name="Theme.DeskClock" parent="@*com.google.android.deskclock:style/Theme.GoogleMaterial.Dark.NoActionBar.Bridge">
         <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.deskclock:colorPrimaryDark">?android:colorBackground</item>
+        <item name="*com.google.android.deskclock:colorAccent">@android:color/holo_blue_light</item>
     </style>
 </resources>

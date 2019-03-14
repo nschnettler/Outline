@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="google_dark_blue600">@android:color/holo_blue_light</color>
     <color name="google_dark_blue500">@android:color/holo_blue_light</color>
 
     <!-- Background -->
     <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
     <color name="grey_850">@*android:color/background_material_dark</color>                         <!-- Primary -->
-    <color name="material_grey_800">@*android:color/background_material_dark</color>                <!-- Dialog -->
+    <color name="material_grey_800">@android:color/background_dark</color>                          <!-- Dialog -->
     <color name="button_material_dark">@*android:color/background_material_dark</color>             <!-- Button -->
+    <color name="design_snackbar_background_color">@android:color/background_dark</color>
 </resources>
