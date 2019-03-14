@@ -2,5 +2,5 @@
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@*com.google.android.apps.photos:drawable/photos_printingskus_photobook_storefront_dashed_square" />
-    <item android:drawable="@*com.google.android.apps.photos:drawable/photos_printingskus_photobook_storefront_create_book_icon" android:gravity="center"/>
+    <item android:drawable="@*com.google.android.apps.photos:drawable/quantum_gm_ic_add_gm_blue_24" android:gravity="center"/>
 </layer-list>
