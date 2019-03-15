@@ -28,6 +28,7 @@
     <color name="selection_check_background">@*com.whatsapp:color/accent</color>
     <color name="status_unseen">@*com.whatsapp:color/accent</color>
     <color name="picker_underline_color">@*com.whatsapp:color/accent</color>
+    <color name="settings_title_accent">@*com.whatsapp:color/accent</color>
     <!-- Action Mode -->
     <color name="action_mode_dark">@android:color/holo_green_light</color>
     <color name="action_mode">@android:color/holo_green_light</color>
