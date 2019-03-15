@@ -2,6 +2,8 @@
 <resources>
     <!-- ICONS -->
     <color name="material_grey_600">#FFFFFF</color>
+    <color name="settings_icon">#FFF</color>                                                        <!-- Settings Icon -->
+    <color name="settings_gray_edit_btn">#FFF</color>
 
     <!-- Background -->
     <color name="conversation_background">@*android:color/background_material_dark</color>          <!-- Chat Bg -->
@@ -14,6 +16,7 @@
     <color name="emoji_popup_body">@*android:color/background_material_dark</color>
     <color name="emoji_popup_header">@*android:color/background_material_dark</color>
     <color name="material_grey_800">@*android:color/background_material_dark</color>
+    <color name="settings_divider">@android:color/background_dark</color>                           <!-- Settings Divider -->
 
     <!-- Butoons -->
     <color name="btn_gray_pressed">@*android:color/background_dark</color>
@@ -44,6 +47,10 @@
     <color name="edit_text_counter">#b3FFFFFF</color>                                               <!-- Rename counter -->
     <color name="conversation_divider_text">#FFFFFFFF</color>                                       <!-- Date Bubble -->
     <color name="search_text_color_light">#FFF</color>                                              <!-- Searchbar -->
+    <color name="settings_item_title_text">#FFF</color>                                             <!-- Settings Primary -->
+    <color name="settings_item_subtitle_text">#b3FFFFFF</color>                                     <!-- Settings Secondary -->
+    <color name="settings_network_usage_arrow_tint">#b3FFFFFF</color>
+    <color name="settings_network_usage_up_down_text_color">#b3FFFFFF</color>
 
     <!-- Statusbar -->
      <color name="about_statusbar">@*android:color/background_material_dark</color>

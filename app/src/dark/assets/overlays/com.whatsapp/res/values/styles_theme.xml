@@ -33,6 +33,21 @@
         <item name="*com.whatsapp:pstsShouldExpand">true</item>
     </style>
 
+    <!-- Settings -->
+    <style name="Theme.App.SettingsLight" parent="@*com.whatsapp:style/Theme.Prefs">
+        <item name="*com.whatsapp:settingsBackgroundColor">@*android:color/background_material_dark</item>
+        <item name="*com.whatsapp:settingsDividerColor">@*com.whatsapp:color/settings_divider</item>
+        <item name="*com.whatsapp:settingsIconColor">@*com.whatsapp:color/settings_icon</item>
+        <item name="*com.whatsapp:settingsProfilePhotoOutlineColor">@*com.whatsapp:color/settings_profile_photo_outline</item>
+        <item name="*com.whatsapp:settingsSubtitleTextColor">@*com.whatsapp:color/settings_item_subtitle_text</item>
+        <item name="*com.whatsapp:settingsTitleTextColor">@*com.whatsapp:color/settings_item_title_text</item>
+    </style>
+    <style name="Theme.Prefs" parent="@*com.whatsapp:style/Theme.App">
+        <item name="android:icon">@null</item>
+        <item name="*com.whatsapp:icon">@null</item>
+        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
+    </style>
+
     <!-- Gallery -->
     <style name="Theme.App.GalleryPicker" parent="@*com.whatsapp:style/Theme.App">
         <item name="android:windowBackground">@*android:color/background_material_dark</item>
