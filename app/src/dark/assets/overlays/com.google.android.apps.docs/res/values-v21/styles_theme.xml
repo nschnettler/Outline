@@ -20,4 +20,10 @@
         <item name="*com.google.android.apps.docs:height">@*com.google.android.apps.docs:dimen/viewer_action_bar_height</item>
         <item name="*com.google.android.apps.docs:background">@*android:color/primary_material_dark</item>
     </style>
+
+    <style name="Theme.GoogleMaterial.Light.NoActionBar" parent="@*com.google.android.apps.docs:style/Theme.GoogleMaterial.Dark">
+        <item name="*com.google.android.apps.docs:windowActionBar">false</item>
+        <item name="*com.google.android.apps.docs:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
 </resources>

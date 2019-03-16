@@ -34,6 +34,9 @@
     <color name="m_material_grey_200">@*android:color/background_material_dark</color>
     <color name="m_material_grey_100">@*android:color/background_material_dark</color>
     <color name="m_material_snackbar_bg">@*android:color/background_material_dark</color>
+    <color name="google_dark_default_color_background">@*android:color/background_material_dark</color>
+    <color name="google_dark_default_color_primary_dark">@*android:color/background_material_dark</color>
+    <color name="google_dark_default_color_surface">@android:color/background_dark</color>
 
 
     <!-- Text -->
