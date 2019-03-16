@@ -6,6 +6,7 @@
     <color name="background_dialer_results">@*android:color/background_material_dark</color>        <!-- Search Results -->
     <color name="setting_background_color">@*android:color/background_material_dark</color>         <!-- Settings -->
     <color name="material_grey_50">@*android:color/background_material_dark</color>                 <!-- Call List Overflow -->
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>    <!-- Snackbar -->
 
     <!-- Dialpad -->
     <color name="background_dialpad">@*android:color/background_material_dark</color>               <!-- Background -->
