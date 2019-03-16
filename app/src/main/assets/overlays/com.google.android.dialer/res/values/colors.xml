@@ -7,8 +7,9 @@
     <color name="dialer_snackbar_action_text_color">@android:color/holo_blue_light</color>
 
     <!-- Dark Theme -->
-    <color name="google_grey_900">@*android:color/background_material_dark</color>                  <!-- Background - Main -->
-    <color name="google_grey_900_elevated">@android:color/background_dark</color>         <!-- Background - Elevated -->
+    <color name="google_grey_900">@*android:color/background_material_dark</color>                              <!-- Background - Main -->
+    <color name="google_grey_900_elevated">@*android:color/background_floating_material_dark</color>            <!-- Background - Elevated -->
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>    <!-- Background - Elevated -->
 
     <!-- Call -->
     <color name="dialer_call_green">@android:color/holo_blue_light</color>                          <!-- Start -->
