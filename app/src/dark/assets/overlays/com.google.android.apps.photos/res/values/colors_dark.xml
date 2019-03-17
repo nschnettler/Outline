@@ -32,4 +32,5 @@
     <color name="sendkit_ui_default_primary_color">#FFF</color>                                     <!-- Share - Primary -->
     <color name="sendkit_ui_default_secondary_color">#b3FFFFFF</color>                              <!-- Share Secondary -->
     <color name="photos_list_fastscroll_new_scrubber_label_text">#80000000</color>
+    <color name="text_black_26_percent">#80FFFFFF</color>                                           <!-- Settings Disabled -->
 </resources>
