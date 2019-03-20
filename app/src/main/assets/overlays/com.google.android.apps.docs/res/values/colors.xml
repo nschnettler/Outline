@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="google_blue600">@android:color/holo_blue_light</color>                             <!-- Accent -->
+    <color name="google_blue700">@android:color/holo_blue_light</color>
+    <color name="google_blue800">@android:color/holo_blue_light</color>
+    <color name="google_blue500">@android:color/holo_blue_light</color>
+
+    <!-- Colors -->
+    <color name="quantum_googblue500">@android:color/holo_blue_light</color>
+    <color name="quantum_googred500">@android:color/holo_red_light</color>
+    <color name="quantum_purple400">@android:color/holo_purple</color>
+    <color name="quantum_googgreen500">@android:color/holo_green_light</color>
+    <color name="quantum_orange400">@android:color/holo_orange_light</color>
+
+    <color name="google_green500">@android:color/holo_green_light</color>
+</resources>

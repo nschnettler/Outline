@@ -2,11 +2,12 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24.0"
-    android:viewportHeight="24.0">
+    android:viewportHeight="24.0"
+    android:tint="?android:colorControlNormal">
     <path
-        android:strokeColor="#FFFFFF"
+        android:strokeColor="#FFF"
         android:strokeWidth="1.5"
-        android:fillColor="#FFFFFF"
+        android:fillColor="#FFF"
         android:fillAlpha="0.6"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
