@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <style name="Theme.GoogleMaterial.DayNight" parent="@*com.google.android.apps.docs:style/Theme.GoogleMaterial.Dark">
+        <item name="android:navigationBarColor">#00000000</item>
+    </style>
+    <!-- Main -->
+    <style name="Theme.GoogleMaterial.DayNight.NoActionBar" parent="@*com.google.android.apps.docs:style/Theme.GoogleMaterial.Dark.NoActionBar">
+        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
+    </style>
+    <!-- Bottomsheet -->
+    <style name="Theme.GoogleMaterial.Dark.BottomSheetDialog" parent="@*com.google.android.apps.docs:style/Base.Theme.GoogleMaterial.Dark.BottomSheetDialog">
+        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
+    </style>
+    <!-- Toolbar Text -->
+    <style name="ToolbarTitleCollectionName" parent="@*com.google.android.apps.docs:style/TextAppearance.GoogleMaterial.Headline6">
+        <item name="android:textColor">#FFF</item>
+    </style>
+    <!-- Dialog -->
+    <style name="Base.Theme.GoogleMaterial.Light.Dialog" parent="@*com.google.android.apps.docs:style/Base.Theme.GoogleMaterial.Dark.Dialog" />
+    <style name="ThemeOverlay.GoogleMaterial.Snackbar" parent="">
+        <item name="android:textColor">#f00</item>
+    </style>
+
+
+    <!-- Google One -->
+    <style name="Theme.GoogleMaterial.Light.NoActionBar" parent="@*com.google.android.apps.docs:style/Theme.GoogleMaterial.Dark">
+        <item name="*com.google.android.apps.docs:windowActionBar">false</item>
+        <item name="*com.google.android.apps.docs:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+    <!-- Backup -->
+    <style name="CakemixTheme.AppCompatActivity.NoActionBar.Carbon" parent="@*com.google.android.apps.docs:style/Theme.GoogleMaterial.Light.NoActionBar"/>
+    <style name="CakemixTheme.Preferences" parent="@*android:style/Theme.Material">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+    <!-- File Picker -->
+    <style name="Theme.GoogleMaterial.Light.DialogWhenLarge" parent="@*com.google.android.apps.docs:style/Theme.GoogleMaterial.Dark">
+        <item name="android:backgroundTint">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+</resources>
