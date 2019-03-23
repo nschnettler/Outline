@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BugleBaseThemeDark.NoActionBar" parent="@*com.google.android.apps.messaging:style/BugleBaseThemeDark">
+        <item name="*com.google.android.apps.messaging:actionBarBackgroundColorM2">@*android:color/background_material_dark</item>
+        <item name="*com.google.android.apps.messaging:zeroStateSearchBoxBackground">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.apps.messaging:bannerBackgroundM2">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@*com.google.android.apps.messaging:color/dark_navigation_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@*com.google.android.apps.messaging:color/dark_navigation_bar_divider_color</item>
+        <item name="*com.google.android.apps.messaging:windowActionBar">false</item>
+        <item name="*com.google.android.apps.messaging:windowNoTitle">true</item>
+    </style>
+</resources>
