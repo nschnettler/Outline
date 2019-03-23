@@ -16,6 +16,8 @@
     <!-- Exposures -->
     <color name="sender_text_color">#FFFFFF</color>                                                 <!-- Notification sender text color -->
     <color name="notification_text_default_color">@*android:color/accent_material_light</color>     <!-- Ambient Notification icon/text dynamic tint -->
+    <color name="notification_snooze_text">#FFFFFF</color>                                          <!-- Notification Snooze, Channel Name -->
+    <color name="theme_text1">#FFFFFF</color>                                                       <!-- Notification Confirmation -->
 
     <!-- Notification Text - Hooks for 3rd Party Apps -->
     <color name="holo_blue_bright">#FFFFFFFF</color>                                                <!-- Primary -->
