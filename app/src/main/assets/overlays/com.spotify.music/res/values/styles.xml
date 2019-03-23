@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Glue.Launcher" parent="@*com.spotify.music:style/Theme.Glue">
+        <item name="android:windowBackground">@*com.spotify.music:drawable/launcher_screen</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+</resources>
