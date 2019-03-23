@@ -23,6 +23,8 @@
     <color name="action_button_disabled_text_color">#61FFFFFF</color>
     <color name="play_uninstall_wizard_title_color">#FFF</color>
     <color name="review_filter_pill_text_color_selected">#FFF</color>                               <!-- Review Filter Selected -->
+    <color name="flat_card_title_text_color">#FFF</color>                                           <!-- Card Title -->
+    <color name="flat_card_subtitle_text_color">#b3FFFFFF</color>                                   <!-- Card Subtitle -->
 
     <!-- Background -->
         <!-- What's New -->

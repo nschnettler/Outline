@@ -48,7 +48,11 @@
     </LinearLayout>
 
     <TextView
+        android:textColor="@*com.android.vending:color/play_secondary_text"
+        android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
         android:id="@*com.android.vending:id/subtitle_text"
-        style="@*com.android.vending:style/D30DecideBarSubTitleText" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@*com.android.vending:style/TextAppearance.GoogleMaterial.Caption" />
 </com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeView>
