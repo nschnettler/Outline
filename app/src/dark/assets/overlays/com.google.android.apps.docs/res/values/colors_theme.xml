@@ -6,6 +6,7 @@
     <color name="open_search_bar_bg_color">@*android:color/background_floating_material_dark</color>            <!-- Searchbar -->
     <color name="doclist_folder_transition_snapshot_bg">@*android:color/background_material_dark</color>        <!-- Folder Animation -->
     <color name="og_background">@*android:color/background_floating_material_dark</color>                       <!-- Account Switcher -->
+    <color name="swipe_refresh_spinnner_bg">@*android:color/background_floating_material_dark</color>
 
     <!-- Text & Icons -->
     <color name="og_default_icon_color_light">#FFF</color>
@@ -25,7 +26,9 @@
     <color name="quantum_grey900">#FFF</color>
     <color name="material_grey_600">#b3FFFFFF</color>
     <color name="m_icon_secondary_tint">#b3FFFFFF</color>
+    <color name="m_entry_text_primary">#FFF</color>
+    <color name="m_entry_text_secondary">#b3FFFFFF</color>
     <color name="m_entry">@*android:color/background_material_dark</color>
     <color name="m_doclist_background">@*android:color/background_material_dark</color>
-    <color name="background_floating_material_light">#f00</color>
+    <color name="m_app_background">@*android:color/background_material_dark</color>
 </resources>
