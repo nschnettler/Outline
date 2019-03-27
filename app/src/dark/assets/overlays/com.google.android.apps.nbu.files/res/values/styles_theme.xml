@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Tabbar -->
-    <style name="Widget.GoogleMaterial.TabLayout" parent="@*com.google.android.apps.nbu.files:style/Widget.MaterialComponents.TabLayout">
-        <item name="android:background">?android:colorBackground</item>
-        <item name="*com.google.android.apps.nbu.files:tabIndicator">@*com.google.android.apps.nbu.files:drawable/google_tabs_rounded_line_indicator</item>
-        <item name="*com.google.android.apps.nbu.files:tabIndicatorColor">?android:colorAccent</item>
-        <item name="*com.google.android.apps.nbu.files:tabTextColor">@*com.google.android.apps.nbu.files:color/google_tabs_icon_color_selector</item>
-        <item name="*com.google.android.apps.nbu.files:tabIndicatorFullWidth">false</item>
+    <!-- Homescreen -->
+    <style name="HomeScreenTheme" parent="@*com.google.android.apps.nbu.files:style/Theme.GoogleMaterial.Dark.NoActionBar">
+        <item name="*com.google.android.apps.nbu.files:actionModeCloseDrawable">@*com.google.android.apps.nbu.files:drawable/quantum_ic_close_vd_theme_24</item>
+        <item name="*com.google.android.apps.nbu.files:actionModeStyle">@*com.google.android.apps.nbu.files:style/WhiteThemeActionModeStyle</item>
+        <item name="*com.google.android.apps.nbu.files:windowActionModeOverlay">true</item>
+        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
     </style>
 
-    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@android:style/TextAppearance.Material.Subhead" >
+    <!-- File Browser -->
+    <style name="WhiteTheme" parent="@*com.google.android.apps.nbu.files:style/HomeScreenTheme">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+
+    <!-- Settings -->
+    <style name="PreferencesTheme" parent="@*com.google.android.apps.nbu.files:style/HomeScreenTheme">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="*com.google.android.apps.nbu.files:preferenceTheme">@*com.google.android.apps.nbu.files:style/FilesGoPreferenceTheme</item>
+    </style>
+
+    <!-- Share -->
+    <style name="Theme.Files.Utility" parent="@*com.google.android.apps.nbu.files:style/Theme.GoogleMaterial.Dark.NoActionBar"/>
+
+    <style name="WhiteActionModeTextStyle" parent="@*com.google.android.apps.nbu.files:style/TextAppearance.GoogleMaterial.Headline6">
         <item name="android:textColor">#FFF</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:colorControlNormal">#FFF</item>
     </style>
 </resources>

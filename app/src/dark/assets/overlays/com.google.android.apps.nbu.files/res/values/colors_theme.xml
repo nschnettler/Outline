@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary -->
+    <color name="google_dark_default_color_primary">@*android:color/background_material_dark</color>
+    <color name="google_dark_default_color_primary_dark">@*android:color/background_material_dark</color>
+    <color name="google_blue300">@android:color/holo_blue_light</color>
+
     <!-- Background -->
-    <color name="google_white">@*android:color/background_material_dark</color>
-    <color name="google_default_color_surface">@*android:color/background_dark</color>              <!-- Elevated -->
-    <color name="background_floating_material_light">@android:color/background_dark</color>
+    <color name="google_dark_default_color_background">@*android:color/background_material_dark</color>         <!-- Main -->
+    <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>   <!-- Surface -->
+    <color name="quantum_white_100">@*android:color/background_material_dark</color>                            <!-- Drawer -->
+    <color name="google_white">@*android:color/background_material_dark</color>                                 <!-- File Browser -->
+    <color name="google_dark_default_color_hairline">#0dFFFFFF</color>                                          <!-- Card Stroke -->
     <color name="google_grey100">@android:color/background_dark</color>
     <color name="quantum_grey200">@android:color/background_dark</color>
-    <color name="quantum_white_100">@*android:color/background_material_dark</color>
 
     <!-- Text -->
     <color name="google_grey900">#FFFFFFFF</color>
     <color name="google_grey800">#FFFFFFFF</color>
     <color name="google_grey700">#B3FFFFFF</color>
     <color name="quantum_black_text">#FFFFFFFF</color>
+    <color name="quantum_black_secondary_text">#B3FFFFFF</color>
+    <color name="quantum_black_hint_text">#80FFFFFF</color>
     <color name="quantum_black_100">#FFFFFFFF</color>
     <color name="darker_secondary_text">#B3FFFFFF</color>
-    <color name="quantum_black_secondary_text">#B3FFFFFF</color>
     <color name="text_disabled_color">#80FFFFFF</color>
-    <color name="quantum_black_hint_text">#80FFFFFF</color>
-    <color name="quantum_grey600_transparent">#89FFFFFF</color>
-    <color name="google_grey_800">#FFF</color>
 
     <!-- Divider -->
     <color name="google_grey200">#0dFFFFFF</color>
-    <color name="google_grey300">#0dFFFFFF</color>                                                  <!-- Card -->
+    <color name="google_grey300">#0dFFFFFF</color>
 
     <!-- Other -->
     <color name="file_picker_content_circle_dark_stroke_color">#b3FFFFFF</color>                    <!-- Selection Circle -->

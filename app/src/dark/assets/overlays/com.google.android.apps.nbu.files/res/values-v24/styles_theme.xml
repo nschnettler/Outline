@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LauncherTheme" parent="@*com.google.android.apps.nbu.files:style/HomeScreenTheme">
+        <item name="android:windowBackground">@*com.google.android.apps.nbu.files:drawable/launch_screen</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+</resources>
