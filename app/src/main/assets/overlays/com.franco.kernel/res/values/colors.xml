@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="fkColorAccent">@android:color/holo_green_light</color>                                         <!-- Accent -->
+    <color name="teal_a700">@android:color/holo_green_light</color>                                             <!-- Accent -->
+
+    <!-- Background -->
+    <color name="md_grey_950">@*android:color/background_material_dark</color>                                  <!-- Secondary -->
+    <color name="md_grey_850">@*android:color/background_floating_material_dark</color>                         <!-- Drawer -->
+    <color name="md_grey_1000">@*android:color/background_floating_material_dark</color>                        <!-- Dialog -->
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog (2) -->
+    <color name="md_grey_900">#0dFFFFFF</color>                                                                 <!-- Drawer Selected -->
+    <color name="design_dark_default_color_surface">@*android:color/background_floating_material_dark</color>   <!-- Card -->
+
+    <!-- Text / Icon -->
+    <color name="design_dark_default_color_on_secondary">#FFF</color>                                           <!-- Fab -->
+</resources>
