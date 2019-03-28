@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-
-    Image Gallery - Title (Date)
-
--->
 <FrameLayout android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:minHeight="40.0dip"
+    android:minHeight="@*com.whatsapp:dimen/media_section_height"
     android:backgroundTint="@*android:color/background_material_dark"
     xmlns:android="http://schemas.android.com/apk/res/android">
 

@@ -47,6 +47,44 @@
 
     <include layout="@*com.whatsapp:layout/actions_card" />
 
+    <com.whatsapp.InfoCard
+        android:orientation="vertical"
+        android:id="@*com.whatsapp:id/invites_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@*com.whatsapp:style/InfoCard">
+
+        <View
+            android:background="@*com.whatsapp:drawable/list_separator_bot"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+
+        <FrameLayout
+            android:background="@*android:color/background_material_dark"
+            android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding"
+            style="@*com.whatsapp:style/FlatCardHeader">
+
+            <com.whatsapp.WaTextView
+                android:ellipsize="end"
+                android:paddingRight="32.0dip"
+                android:text="@*com.whatsapp:string/invites_title"
+                android:singleLine="true"
+                style="@*com.whatsapp:style/FlatCardTitle" />
+
+            <com.whatsapp.WaTextView
+                android:id="@*com.whatsapp:id/invites_info"
+                style="@*com.whatsapp:style/FlatCardInfo" />
+        </FrameLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@*com.whatsapp:id/invites_recycler_view"
+            android:background="@*android:color/background_material_dark"
+            android:paddingTop="6.0dip"
+            android:paddingBottom="12.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.whatsapp.InfoCard>
+
     <LinearLayout
         android:orientation="vertical"
         android:id="@*com.whatsapp:id/participants_card"

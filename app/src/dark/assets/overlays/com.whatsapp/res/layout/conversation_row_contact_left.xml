@@ -4,7 +4,7 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="@*com.whatsapp:dimen/conversation_share_contact_width"
+        android:layout_width="@*com.whatsapp:dimen/conversation_row_width"
         android:layout_height="wrap_content">
 
         <LinearLayout

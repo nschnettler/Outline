@@ -40,12 +40,8 @@
         <item name="*com.whatsapp:settingsIconColor">@*com.whatsapp:color/settings_icon</item>
         <item name="*com.whatsapp:settingsProfilePhotoOutlineColor">@*com.whatsapp:color/settings_profile_photo_outline</item>
         <item name="*com.whatsapp:settingsSubtitleTextColor">@*com.whatsapp:color/settings_item_subtitle_text</item>
+        <item name="*com.whatsapp:settingsTitleAccentColor">@*com.whatsapp:color/settings_title_accent</item>
         <item name="*com.whatsapp:settingsTitleTextColor">@*com.whatsapp:color/settings_item_title_text</item>
-    </style>
-    <style name="Theme.Prefs" parent="@*com.whatsapp:style/Theme.App">
-        <item name="android:icon">@null</item>
-        <item name="*com.whatsapp:icon">@null</item>
-        <item name="android:backgroundTint">@*android:color/background_material_dark</item>
     </style>
 
     <!-- Gallery -->
