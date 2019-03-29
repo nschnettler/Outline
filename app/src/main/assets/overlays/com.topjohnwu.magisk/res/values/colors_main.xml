@@ -8,6 +8,7 @@
     <!-- Various Colors -->
     <color name="green500">@android:color/holo_green_light</color>
     <color name="red500">@android:color/holo_red_light</color>
+    <color name="blue500">@android:color/holo_blue_light</color>
     <color name="grey500">@*android:color/holo_gray_light</color>
 
 
