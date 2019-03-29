@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Color -->
+    <color name="primary">@android:color/holo_red_light</color>
+    <color name="primaryVariant">@android:color/holo_red_light</color>
+    <color name="lightPrimary">@android:color/holo_red_light</color>
+    <color name="lightPrimaryVariant">@android:color/holo_red_light</color>
+
+    <!-- Background -->
+    <color name="design_dark_default_color_background">@*android:color/background_material_dark</color>
+    <color name="design_dark_default_color_surface">@*android:color/background_floating_material_dark</color>
+</resources>
