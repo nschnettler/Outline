@@ -3,12 +3,21 @@
     <!-- Accent-->
     <color name="saffron">@android:color/holo_orange_light</color>
     <color name="bostonBlue">@android:color/holo_orange_light</color>
+    <color name="deepSkyBlue">@android:color/holo_orange_light</color>
 
     <!-- Colors -->
     <color name="atlantis">@android:color/holo_green_light</color>
     <color name="sky">@android:color/holo_blue_light</color>
     <color name="cinnabar">@android:color/holo_red_light</color>
-    <color name="alto">@*android:color/holo_gray_light</color>
     <color name="chambray">@android:color/holo_blue_light</color>
     <color name="tallPoppy">@android:color/holo_red_light</color>
+
+    <!-- Background -->
+    <color name="bottom_app_bar_background_color">#FFF</color>
+    <color name="fragment_background">#FFF</color>
+    <color name="secondary_background_color">#FFF</color>
+    <color name="dark_fragment_background">#FFF</color>
+
+    <!-- Ripple -->
+    <color name="saffron_pressed">#1f000000</color>
 </resources>

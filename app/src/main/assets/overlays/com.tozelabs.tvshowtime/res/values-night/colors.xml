@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="primary_background_color">@*android:color/background_material_dark</color>                 <!-- Main -->
+    <color name="secondary_background_color">@*android:color/background_material_dark</color>
+    <color name="tab_background_color">@*android:color/background_material_dark</color>                     <!-- Tab -->
+    <color name="top_app_bar_background_color">@*android:color/background_material_dark</color>             <!-- Statusbar -->
+    <color name="bottom_app_bar_background_color">@*android:color/background_floating_material_dark</color> <!-- Bottom Appbar -->
+    <color name="primary_card_background_color">@*android:color/background_floating_material_dark</color>   <!-- Card -->
+    <color name="secondary_card_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="primary_button_background_color">@*android:color/background_floating_material_dark</color> <!-- Button -->
+    <color name="secondary_button_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="header_background_color">@*android:color/background_floating_material_dark</color>         <!-- Header Chip -->
+    <color name="vote_background_color">@*android:color/background_floating_material_dark</color>           <!-- Episode Vote Button -->
+    <color name="background_material_dark">@*android:color/background_material_dark</color>
+    <color name="dark_fragment_background">@*android:color/background_material_dark</color>
+    <color name="input_background_color">#0dFFFFFF</color>
+    <color name="highlighted_background_color">#0dFFFFFF</color>
+    <color name="progress_selected_background_color">#0dFFFFFF</color>
+    <color name="progress_unselected_background_color">#0dFFFFFF</color>
+    <color name="primary_graphic_stroke_color">#d0FFFFFF</color>
+
+    <!-- Text -->
+    <color name="secondary_button_text_color">#FFF</color>
+
+    <!-- Ripple -->
+    <color name="saffron_pressed">#33ffffff</color>
+</resources>

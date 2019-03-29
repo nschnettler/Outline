@@ -5,7 +5,7 @@
 
     <item>
         <shape>
-            <solid android:color="@*com.tozelabs.tvshowtime:color/white_background" />
+            <solid android:color="?android:colorBackground" />
         </shape>
     </item>
     <item android:gravity="center|center_vertical">

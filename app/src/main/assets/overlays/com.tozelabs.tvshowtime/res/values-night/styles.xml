@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launchscreen -->
+    <style name="AppBrandedTheme" parent="@*com.tozelabs.tvshowtime:style/AppBrandedThemeBase">
+        <item name="*com.tozelabs.tvshowtime:colorPrimary">?android:colorBackground</item>
+        <item name="*com.tozelabs.tvshowtime:colorPrimaryDark">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+</resources>
