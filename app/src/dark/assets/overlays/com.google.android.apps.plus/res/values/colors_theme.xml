@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Primary - Main -->
-    <color name="status_bar_color">@*android:color/background_material_dark</color>
-    <!-- Background -->
-    <color name="quantum_grey200">@*android:color/background_material_dark</color>
-    <color name="host_background">@*android:color/background_material_dark</color>
-</resources>

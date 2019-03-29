@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Main Page - Statusbar -->
-    <color name="status_bar_color">#FFFFFF</color>
-
-    <!-- Background -->
-    <color name="quantum_grey200">#FAFAFA</color>
-    <color name="host_background">#FAFAFA</color>
-</resources>
