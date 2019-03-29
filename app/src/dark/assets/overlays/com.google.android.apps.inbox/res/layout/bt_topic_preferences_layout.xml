@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@*com.google.android.apps.inbox:id/cluster_preferences_container" android:padding="@*com.google.android.apps.inbox:dimen/bt_edit_cluster_generic_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@*com.google.android.apps.inbox:layout/bt_bundling_preference" />
-        <include android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@*com.google.android.apps.inbox:layout/bt_sync_messages_preference_layout" />
-    </LinearLayout>
-</FrameLayout>

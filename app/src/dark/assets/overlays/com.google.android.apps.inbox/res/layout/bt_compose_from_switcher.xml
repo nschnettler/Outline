@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@*com.google.android.apps.inbox:dimen/bt_compose_message_from_font_size" android:textColor="@*com.google.android.apps.inbox:color/bt_compose_from_font" android:id="@*com.google.android.apps.inbox:id/account_address" android:background="@*android:color/background_material_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
-
