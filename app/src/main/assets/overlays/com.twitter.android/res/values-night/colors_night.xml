@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Primary -->
-    <color name="toolbar_bg_color">#202030</color>
-
-    <!-- Background -->
-    <color name="app_background">#202030</color>
-    <color name="faded_gray">#202030</color>
-</resources>
