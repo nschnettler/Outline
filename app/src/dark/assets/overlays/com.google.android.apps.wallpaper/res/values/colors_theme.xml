@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="primary_color">@*android:color/background_material_dark</color>
+    <color name="status_bar_color">@*android:color/background_material_dark</color>
+
+    <!-- Background -->
+    <color name="category_picker_background_color">@*android:color/background_material_dark</color>
+    <color name="secondary_color">@*android:color/background_floating_material_dark</color>
+    <color name="individual_picker_background_color">@*android:color/background_material_dark</color>
+    <color name="category_title_scrim_color">@*android:color/background_floating_material_dark</color>
+    <color name="category_title_scrim_color_no_thumbnail">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+</resources>

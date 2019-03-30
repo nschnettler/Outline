@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WallpaperTheme" parent="@*com.google.android.apps.wallpaper:style/Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@*com.google.android.apps.wallpaper:color/status_bar_color</item>
+        <item name="*com.google.android.apps.wallpaper:colorControlNormal">@*com.google.android.apps.wallpaper:color/accent_color</item>
+        <item name="*com.google.android.apps.wallpaper:colorControlActivated">?android:colorPrimary</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@*com.google.android.apps.wallpaper:style/Base.V21.Theme.AppCompat.Dialog" />
+</resources>
