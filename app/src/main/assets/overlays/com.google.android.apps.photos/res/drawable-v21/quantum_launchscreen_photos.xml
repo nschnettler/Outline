@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
-    android:opacity="opaque"
-    android:paddingMode="nest">
-    <item>
-        <shape>
-            <solid android:color="@*com.google.android.apps.photos:color/quantum_white_100" />
-        </shape>
-    </item>
-    <item android:gravity="center|center_vertical">
-        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+<layer-list android:opacity="opaque"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?android:colorBackground" />
+    <item android:gravity="center" android:bottom="@*com.google.android.apps.photos:dimen/launchscreens_product_logo_bottom">
+        <vector
             android:width="144dp"
             android:height="144dp"
             android:viewportWidth="24"
@@ -27,5 +22,8 @@
   2.5-2.5 2.5S9.5 13.4 9.5 12s1.1-2.5 2.5-2.5 2.5
   1.1 2.5 2.5z" />
         </vector>
+    </item>
+    <item android:id="@*com.google.android.apps.photos:id/launchscreens_logo_text" android:bottom="@*com.google.android.apps.photos:dimen/launchscreens_google_logo_bottom">
+        <bitmap android:gravity="bottom|center" android:src="@*com.google.android.apps.photos:drawable/googlelogo_dark20_color_132x44" android:tint="?android:textColorPrimary" />
     </item>
 </layer-list>
