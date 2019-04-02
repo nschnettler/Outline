@@ -3,17 +3,4 @@
     <!-- Dark Theme -->
     <style name="Base.Theme.Photos.DayNight" parent="@*com.google.android.apps.photos:style/Base.Theme.Photos.Dark"/>
     <style name="Theme.Photos.DayNight.Dialog.Alert" parent="@*com.google.android.apps.photos:style/Theme.AppCompat.Dialog.Alert" />
-
-    <!-- Toast -->
-    <style name="PhotosActionableToastText">
-        <item name="android:textAppearance">@*com.google.android.apps.photos:style/TextAppearance.Photos.Body2</item>
-        <item name="android:textColor">#FFF</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">@*com.google.android.apps.photos:dimen/bt_toastbar_horizontal_padding</item>
-        <item name="android:paddingRight">@*com.google.android.apps.photos:dimen/bt_toastbar_horizontal_padding</item>
-        <item name="android:maxLines">@*com.google.android.apps.photos:integer/photos_actionabletoast_text_max_lines</item>
-        <item name="android:lineSpacingMultiplier">@*com.google.android.apps.photos:dimen/bt_toastbar_line_spacing_multiplier</item>
-        <item name="android:inputType">textMultiLine|textNoSuggestions</item>
-    </style>
 </resources>
