@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Circle Background -->
-    <color name="homepage_accessibility_background">#0d000000</color>
-    <color name="homepage_accounts_background">#0d000000</color>
+    <!-- AOSP -->
+    <color name="homepage_network_background">#0d000000</color>
+    <color name="homepage_connected_device_background">#0d000000</color>
     <color name="homepage_app_and_notification_background">#0d000000</color>
     <color name="homepage_battery_background">#0d000000</color>
-    <color name="homepage_connected_device_background">#0d000000</color>
     <color name="homepage_display_background">#0d000000</color>
-    <color name="homepage_generic_icon_background">#0d000000</color>
-    <color name="homepage_network_background">#0d000000</color>
-    <color name="homepage_security_background">#0d000000</color>
     <color name="homepage_sound_background">#0d000000</color>
     <color name="homepage_storage_background">#0d000000</color>
-    <color name="homepage_support_background">#0d000000</color>
+    <color name="homepage_privacy_background">#0d000000</color>
+    <color name="homepage_location_background">#0d000000</color>
+    <color name="homepage_security_background">#0d000000</color>
+    <color name="homepage_accounts_background">#0d000000</color>
+    <color name="homepage_accessibility_background">#0d000000</color>
     <color name="homepage_system_background">#0d000000</color>
     <color name="homepage_about_background">#0d000000</color>
-    <color name="oneplus_settings_dashboard_icon_bg_color">#0d000000</color>                        <!-- OxygenOS -->
+    <color name="homepage_support_background">#0d000000</color>
+    <color name="homepage_generic_icon_background">#0d000000</color>
+
+    <!-- OxygenOS -->
+    <color name="oneplus_settings_dashboard_icon_bg_color">#0d000000</color>
 
     <!-- Custom ROM -->
     <color name="homepage_nitrogen_background">#0d000000</color>
