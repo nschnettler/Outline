@@ -36,7 +36,7 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        flavorDimensions  "style", "theme"
+        flavorDimensions  "theme"
         productFlavors {
             dark {
                 dimension "theme"
@@ -51,16 +51,6 @@ android {
 
                 buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
                 buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
-            }
-            transparent {
-                dimension "style"
-                applicationId "com.schnettler.transparent"
-
-                buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + ETHEREAL_BASE_64_LICENSE_KEY + "\""
-                buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + ETHEREAL_APK_SIGNATURE_PRODUCTION + "\""
-            }
-            solid {
-                dimension "style"
             }
         }
     }
