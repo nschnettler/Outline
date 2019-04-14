@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- QuickSettings -->
+    <array name="qs_theme_color_black">
+        <item>#b2ffffff</item>
+        <item>#ffffffff</item>
+        <item>#b3FFFFFF</item>
+        <item>#3dffffff</item>
+        <item>#14ffffff</item>
+        <item>@*android:color/background_material_dark</item>
+        <item>@*android:color/background_material_dark</item>
+        <item>#89ffffff</item>
+        <item>#3dffffff</item>
+        <item>#89ffffff</item>
+        <item>#42ffffff</item>
+        <item>#1effffff</item>
+        <item>@*android:color/background_material_dark</item>
+        <item>@*android:color/background_material_dark</item>
+        <item>#1effffff</item>
+    </array>
+</resources>

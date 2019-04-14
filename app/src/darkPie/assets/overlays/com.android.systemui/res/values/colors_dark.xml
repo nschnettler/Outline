@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notifications - Backgrounds -->
+    <color name="notification_material_background_color">@*android:color/notification_material_background_color</color>             <!-- Normal, not on lockscreen -->
+    <color name="notification_material_background_dimmed_color">@*android:color/notification_material_background_color</color>      <!-- Dimmed -->
+    <color name="notification_material_background_low_priority_color">@*android:color/notification_action_list</color>              <!-- Low Priority -->
+    <color name="notification_shade_background_color">@*android:color/notification_action_list</color>                              <!-- Behind the notifications -->
+    <color name="notification_guts_bg_color">@*android:color/notification_material_background_color</color>                         <!-- When long clicking a notification -->
+
+    <!-- Notifications  -->
+    <color name="notification_gear_color">@android:color/darker_gray</color>                        <!-- Settings Icon -->
+    <color name="notification_guts_buttons">@android:color/darker_gray</color>                      <!-- Nougat - Preferences Radio Button -->
+
+    <!-- ROM Colors -->
+    <color name="qs_edit_item_decoration_bg">@*android:color/background_material_dark</color>
+    <color name="system_primary_color">@*android:color/background_material_dark</color>
+</resources>
