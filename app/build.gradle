@@ -9,7 +9,7 @@ android {
     defaultConfig {
         targetSdkVersion 28
         versionCode 260000 + 34
-        versionName "30"
+        versionName "31"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -54,10 +54,12 @@ android {
             pie {
                 dimension "android"
                 minSdkVersion 25
+                versionNameSuffix 'P'
             }
             q {
                 dimension "android"
                 minSdkVersion 28
+                versionNameSuffix 'Q'
             }
         }
     }

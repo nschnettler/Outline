@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AOSP -->
+    <color name="homepage_network_background">#F3F3F3</color>
+    <color name="homepage_connected_device_background">#F3F3F3</color>
+    <color name="homepage_app_and_notification_background">#F3F3F3</color>
+    <color name="homepage_battery_background">#F3F3F3</color>
+    <color name="homepage_display_background">#F3F3F3</color>
+    <color name="homepage_sound_background">#F3F3F3</color>
+    <color name="homepage_storage_background">#F3F3F3</color>
+    <color name="homepage_privacy_background">#F3F3F3</color>
+    <color name="homepage_location_background">#F3F3F3</color>
+    <color name="homepage_security_background">#F3F3F3</color>
+    <color name="homepage_accounts_background">#F3F3F3</color>
+    <color name="homepage_accessibility_background">#F3F3F3</color>
+    <color name="homepage_system_background">#F3F3F3</color>
+    <color name="homepage_about_background">#F3F3F3</color>
+    <color name="homepage_support_background">#F3F3F3</color>
+    <color name="homepage_generic_icon_background">#F3F3F3</color>
+</resources>
