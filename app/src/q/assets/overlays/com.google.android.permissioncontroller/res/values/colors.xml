@@ -1,0 +1,3 @@
+<resources>
+    <color name="google_grey_800">@*android:color/background_floating_material_dark</color>
+</resources>
