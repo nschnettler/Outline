@@ -24,7 +24,6 @@ android {
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            versionNameSuffix ' - '+  new Date().format('dd.MM HH:mm')
             applicationIdSuffix ".debug"
 
             buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "false"
