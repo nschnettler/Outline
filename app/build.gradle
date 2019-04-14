@@ -59,7 +59,7 @@ android {
             q {
                 dimension "android"
                 minSdkVersion 28
-                versionCode 2900 + android.defaultConfig.versionCode
+                versionCode 290000 + android.defaultConfig.versionCode
                 versionNameSuffix 'Q'
             }
         }
