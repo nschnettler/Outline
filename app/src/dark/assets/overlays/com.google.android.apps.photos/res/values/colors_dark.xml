@@ -6,6 +6,7 @@
     <color name="sendkit_ui_default_background_color">@*android:color/background_material_dark</color>              <!-- Share -->
     <color name="photos_daynight_white_elevation_3dp">@*android:color/background_material_dark</color>              <!-- Bottomnav -->
     <color name="photos_theme_white_translucent_system_ui_color">@*android:color/background_material_dark</color>   <!-- Status- & Navbar -->
+    <color name="og_background_light">@*android:color/background_material_dark</color>
 
     <!-- Background - Elevated -->
     <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>       <!-- Overflow -->
@@ -34,4 +35,6 @@
     <color name="text_black_54_percent">#89FFFFFF</color>
     <color name="text_black_87_percent">#ddFFFFFF</color>
     <color name="quantum_black_100">#FFF</color>
+    <color name="og_item_text_color_light">#FFF</color>
+    <color name="og_account_text_color_light">#b3FFFFFF</color>
 </resources>
