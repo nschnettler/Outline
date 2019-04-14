@@ -8,7 +8,6 @@ android {
 
     defaultConfig {
         targetSdkVersion 28
-        minSdkVersion 25
         versionCode 260000 + 34
         versionName "30"
 
@@ -36,7 +35,7 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        flavorDimensions  "theme"
+        flavorDimensions  "theme", "android"
         productFlavors {
             dark {
                 dimension "theme"
@@ -51,6 +50,14 @@ android {
 
                 buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
                 buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
+            }
+            pie {
+                dimension "android"
+                minSdkVersion 25
+            }
+            q {
+                dimension "android"
+                minSdkVersion 28
             }
         }
     }
