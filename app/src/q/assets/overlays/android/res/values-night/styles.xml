@@ -2,7 +2,7 @@
 <resources>
     <!-- QuickSettings -->
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:panelColorBackground">@*android:color/material_grey_800</item>
+        <item name="android:panelColorBackground">@*android:color/background_floating_material_dark</item>
         <item name="android:alertDialogTheme">@*android:style/Theme.DeviceDefault.Dialog.Alert</item>
         <item name="android:colorControlNormal">?android:textColorPrimary</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_device_default_settings</item>
