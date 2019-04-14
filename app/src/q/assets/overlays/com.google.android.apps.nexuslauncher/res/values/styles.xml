@@ -8,6 +8,4 @@
         <item name="*com.google.android.apps.nexuslauncher:folderIconBorderColor">@*android:color/background_floating_material_dark</item>
         <item name="*com.google.android.apps.nexuslauncher:allAppsNavBarScrimColor">#0dFFFFFF</item>
     </style>
-    <!-- Dark -->
-    <color name="all_apps_prediction_row_separator_dark">#0dFFFFFF</color>
 </resources>
