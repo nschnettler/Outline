@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification - Background (Q)-->
+    <color name="notification_material_background_color">@*android:color/background_material_dark</color>           <!-- Main -->
+    <color name="notification_material_background_dimmed_color">@*android:color/background_material_dark</color>    <!-- LockScreen -->
+    <color name="notification_shade_background_color">@*android:color/background_floating_material_dark</color>     <!-- Shade -->
+    <color name="notification_guts_bg_color">@*android:color/background_floating_material_dark</color>              <!-- Selected -->
+
+    <!-- Notification - Icons -->
+    <color name="notification_gear_color">#FFF</color>
+</resources> 
