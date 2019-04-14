@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SubSettings" parent="@*com.android.settings:style/Theme.SubSettings.Base">
+        <item name="android:colorControlNormal">#FFF</item>
+    </style>
+</resources>
