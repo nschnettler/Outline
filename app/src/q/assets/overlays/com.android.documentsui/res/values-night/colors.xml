@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Color -->
+    <color name="accent">@android:color/holo_blue_light</color>
+
+    <!-- Background -->
+    <color name="app_background_color">@*android:color/background_material_dark</color>                         <!-- Main -->
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>   <!-- Card, Searchbar -->
+    <color name="design_dark_default_color_background">@*android:color/background_material_dark</color>         <!-- Bottomsheet -->
+    <color name="design_dark_default_color_surface">@*android:color/background_floating_material_dark</color>
+</resources>
