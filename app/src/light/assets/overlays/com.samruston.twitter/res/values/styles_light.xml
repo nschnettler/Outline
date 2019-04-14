@@ -10,7 +10,7 @@
         <item name="*com.samruston.twitter:toolbarStyle">@*com.samruston.twitter:style/Flamingo_Toolbar</item>
         <item name="*com.samruston.twitter:colorPrimary">@*android:color/background_material_light</item>
         <item name="*com.samruston.twitter:colorPrimaryDark">@*android:color/background_material_light</item>
-        <item name="*com.samruston.twitter:colorAccent">@android:color/holo_red_dark</item>
+        <item name="*com.samruston.twitter:colorAccent">@android:color/holo_blue_light</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
 </resources>

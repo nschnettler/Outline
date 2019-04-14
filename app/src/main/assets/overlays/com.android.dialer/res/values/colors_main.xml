@@ -9,9 +9,9 @@
     <color name="material_grey_600">@android:color/holo_blue_light</color>
 
     <!-- Accent -->
-    <color name="dialer_secondary_color">@android:color/holo_blue_dark</color>
-    <color name="tab_selected_underline_color">@android:color/holo_blue_dark</color>
-    <color name="tab_unread_count_background_color">@android:color/holo_blue_dark</color>
+    <color name="dialer_secondary_color">@android:color/holo_red_light</color>
+    <color name="tab_selected_underline_color">@android:color/holo_red_light</color>
+    <color name="tab_unread_count_background_color">@android:color/holo_red_light</color>
 
     <!-- Fab -->
     <color name="dialpad_fab_green">@android:color/holo_green_light</color>

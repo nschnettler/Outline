@@ -3,7 +3,7 @@
     <style name="Theme.Gallery" parent="@android:style/Theme.Material.Light.DarkActionBar">
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
         <item name="android:colorPrimaryDark">@android:color/holo_blue_light</item>
-        <item name="android:colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@android:color/holo_red_light</item>
         <item name="android:actionModeBackground">@android:color/holo_blue_light</item>
         <item name="android:actionMenuTextColor">#FFF</item>
         <item name="android:popupTheme">@*com.android.gallery3d:style/PopupThemePrimary</item>

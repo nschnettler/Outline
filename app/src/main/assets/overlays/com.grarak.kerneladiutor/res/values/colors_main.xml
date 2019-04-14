@@ -2,7 +2,7 @@
 <resources>
     <color name="defaultPrimary">@android:color/holo_blue_light</color>
     <color name="defaultPrimaryDark">@android:color/holo_blue_light</color>
-    <color name="pinkAccent">@android:color/holo_blue_dark</color>
+    <color name="pinkAccent">@android:color/holo_red_light</color>
 
     <color name="green">@android:color/holo_green_light</color>
     <color name="red">@android:color/holo_red_light</color>

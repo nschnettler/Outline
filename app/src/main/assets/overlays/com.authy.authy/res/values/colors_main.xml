@@ -5,17 +5,17 @@
     <color name="primary_dark">@android:color/holo_red_light</color>
 
     <!-- Accent -->
-    <color name="accent">@android:color/holo_red_dark</color>
-    <color name="secondary">@android:color/holo_red_dark</color>
-    <color name="secondary_dark">@android:color/holo_red_dark</color>
-    <color name="button_secondary">@android:color/holo_red_dark</color>
-    <color name="button_secondary_dark">@android:color/holo_red_dark</color>
-    <color name="button_tertiary">@android:color/holo_red_dark</color>
-    <color name="button_tertiary_dark">@android:color/holo_red_dark</color>
-    <color name="holo_blue">@android:color/holo_red_dark</color>
-    <color name="holo_blue_dark">@android:color/holo_red_dark</color>
-    <color name="holo_blue_light">@android:color/holo_red_dark</color>
-    <color name="ga_link">@android:color/holo_red_dark</color>
+    <color name="accent">@android:color/holo_blue_light</color>
+    <color name="secondary">@android:color/holo_blue_light</color>
+    <color name="secondary_dark">@android:color/holo_blue_light</color>
+    <color name="button_secondary">@android:color/holo_blue_light</color>
+    <color name="button_secondary_dark">@android:color/holo_blue_light</color>
+    <color name="button_tertiary">@android:color/holo_blue_light</color>
+    <color name="button_tertiary_dark">@android:color/holo_blue_light</color>
+    <color name="holo_blue">@android:color/holo_blue_light</color>
+    <color name="holo_blue_dark">@android:color/holo_blue_light</color>
+    <color name="holo_blue_light">@android:color/holo_blue_light</color>
+    <color name="ga_link">@android:color/holo_blue_light</color>
 
     <!-- Green -->
     <color name="backed_up">@android:color/holo_green_light</color>

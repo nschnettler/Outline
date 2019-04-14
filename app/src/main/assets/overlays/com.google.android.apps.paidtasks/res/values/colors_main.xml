@@ -5,7 +5,7 @@
     <color name="primary_dark">@*android:color/holo_blue_light</color>
 
     <!-- Accent -->
-    <color name="accent">@*android:color/holo_blue_dark</color>
+    <color name="accent">@*android:color/holo_red_light</color>
 
     <!-- Other -->
     <color name="blue_grey_500">@*android:color/holo_blue_light</color>                             <!-- Drawer Header -->

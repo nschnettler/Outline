@@ -4,7 +4,7 @@
     <color name="activity_background">@*android:color/background_material_dark</color>              <!-- Main -->
     <color name="gray_lighter">@*android:color/background_material_dark</color>                     <!-- Toke Grid -->
     <color name="white">@*android:color/background_material_dark</color>                            <!-- Main 2 -->
-    <color name="button_dark">@*android:color/holo_red_dark</color>
+    <color name="button_dark">@*android:color/holo_blue_light</color>
 
 
     <!-- Text -->

@@ -13,6 +13,6 @@
         <item name="*com.samruston.twitter:md_widget_color">#4caf50</item>
     </style>
     <style name="LightDialogTheme" parent="@*com.samruston.twitter:style/Theme.AppCompat.Dialog.Alert">
-        <item name="*com.samruston.twitter:colorAccent">@android:color/holo_blue_dark</item>
+        <item name="*com.samruston.twitter:colorAccent">@android:color/holo_red_light</item>
     </style>
 </resources>

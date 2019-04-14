@@ -8,11 +8,11 @@
         <color name="lightColorPrimaryDark">@*android:color/holo_red_light</color>
         <color name="darkColorPrimaryDark">@*android:color/holo_red_light</color>
         <!-- Accent -->
-        <color name="lightColorAccent">@android:color/holo_red_dark</color>
-        <color name="darkColorAccent">@android:color/holo_red_dark</color>
-        <color name="lightColorControlActivated">@android:color/holo_red_dark</color>
-        <color name="darkColorControlActivated">@android:color/holo_red_dark</color>
-        <color name="button_background">@android:color/holo_red_dark</color>
+        <color name="lightColorAccent">@android:color/holo_blue_light</color>
+        <color name="darkColorAccent">@android:color/holo_blue_light</color>
+        <color name="lightColorControlActivated">@android:color/holo_blue_light</color>
+        <color name="darkColorControlActivated">@android:color/holo_blue_light</color>
+        <color name="button_background">@android:color/holo_blue_light</color>
 
     <!-- Other -->
     <color name="darkSettingsIconColor">#FFFFFF</color>

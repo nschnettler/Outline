@@ -5,10 +5,10 @@
     <color name="primary_dark">@android:color/holo_blue_light</color>
 
     <!-- Accent -->
-    <color name="accent">@android:color/holo_blue_dark</color>
-    <color name="info_messages_title_color">@android:color/holo_blue_dark</color>
-    <color name="material_deep_teal_500">@android:color/holo_blue_dark</color>
-    <color name="app_pinned_button_icon">@android:color/holo_blue_dark</color>
+    <color name="accent">@android:color/holo_red_light</color>
+    <color name="info_messages_title_color">@android:color/holo_red_light</color>
+    <color name="material_deep_teal_500">@android:color/holo_red_light</color>
+    <color name="app_pinned_button_icon">@android:color/holo_red_light</color>
 
     <!-- Release Categories -->
     <color name="release_track_icon_alpha">@android:color/holo_blue_light</color>

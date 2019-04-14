@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="blue">@android:color/holo_blue_dark</color>
-    <color name="accentColor">@android:color/holo_blue_dark</color>
+    <color name="blue">@android:color/holo_red_light</color>
+    <color name="accentColor">@android:color/holo_red_light</color>
 </resources>

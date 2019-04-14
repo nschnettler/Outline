@@ -8,11 +8,11 @@
     <color name="oneplus_primary_color_dark">@android:color/holo_blue_light</color>
 
     <!-- Accent -->
-    <color name="oneplus_contact_list_title_text_color">@android:color/holo_blue_dark</color>
-    <color name="oneplus_section_header_text_color">@android:color/holo_blue_dark</color>
-    <color name="oneplus_accent_color">@android:color/holo_blue_dark</color>
-    <color name="oneplus_contact_icon_focus_tint_color">@android:color/holo_blue_dark</color>
-    <color name="quick_index_bar_select_color">@android:color/holo_blue_dark</color>
-    <color name="oneplus_contacts_control_activated_color">@android:color/holo_blue_dark</color>
-    <color name="oneplus_contact_edit_focus_color">@android:color/holo_blue_dark</color>
+    <color name="oneplus_contact_list_title_text_color">@android:color/holo_red_light</color>
+    <color name="oneplus_section_header_text_color">@android:color/holo_red_light</color>
+    <color name="oneplus_accent_color">@android:color/holo_red_light</color>
+    <color name="oneplus_contact_icon_focus_tint_color">@android:color/holo_red_light</color>
+    <color name="quick_index_bar_select_color">@android:color/holo_red_light</color>
+    <color name="oneplus_contacts_control_activated_color">@android:color/holo_red_light</color>
+    <color name="oneplus_contact_edit_focus_color">@android:color/holo_red_light</color>
 </resources>

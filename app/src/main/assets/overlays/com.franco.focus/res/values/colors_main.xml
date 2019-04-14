@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="drawerItemSelected">@android:color/holo_blue_dark</color>
-    <color name="accent">@android:color/holo_blue_dark</color>
-    <color name="accentDark">@android:color/holo_blue_dark</color>
-    <color name="material_deep_teal_200">@android:color/holo_blue_dark</color>
+    <color name="drawerItemSelected">@android:color/holo_red_light</color>
+    <color name="accent">@android:color/holo_red_light</color>
+    <color name="accentDark">@android:color/holo_red_light</color>
+    <color name="material_deep_teal_200">@android:color/holo_red_light</color>
     <!-- Primary -->
     <color name="actionModeBg">@android:color/holo_blue_light</color>
     <color name="actionModeStatusBar">@android:color/holo_blue_light</color>

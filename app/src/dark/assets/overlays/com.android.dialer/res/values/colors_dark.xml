@@ -11,10 +11,10 @@
     <!-- Dialpad -->
     <color name="background_dialpad">@*android:color/background_material_dark</color>               <!-- Background -->
     <color name="dialpad_primary_text_color">#ffffff</color>
-    <color name="dialpad_secondary_text_color">@*android:color/holo_blue_dark</color>               <!-- Text below Digits -->
+    <color name="dialpad_secondary_text_color">@*android:color/holo_red_light</color>               <!-- Text below Digits -->
     <color name="dialpad_digits_text_color">#ffffffff</color>                                       <!-- Digit Text -->
     <color name="dialpad_icon_tint">#FFFFFF</color>
-    <color name="dialpad_voicemail_tint">@*android:color/holo_blue_dark</color>
+    <color name="dialpad_voicemail_tint">@*android:color/holo_red_light</color>
     <color name="dialer_dialpad_touch_tint">@*android:color/background_dark</color>
 
     <!-- Searchbox -->
