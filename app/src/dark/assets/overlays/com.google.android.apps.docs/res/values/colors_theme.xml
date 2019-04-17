@@ -5,8 +5,9 @@
     <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>   <!-- Surface -->
     <color name="open_search_bar_bg_color">@*android:color/background_floating_material_dark</color>            <!-- Searchbar -->
     <color name="doclist_folder_transition_snapshot_bg">@*android:color/background_material_dark</color>        <!-- Folder Animation -->
-    <color name="og_background">@*android:color/background_floating_material_dark</color>                       <!-- Account Switcher -->
+    <color name="og_background_light">@*android:color/background_floating_material_dark</color>                       <!-- Account Switcher -->
     <color name="swipe_refresh_spinnner_bg">@*android:color/background_floating_material_dark</color>
+    <color name="og_account_menu_divider_color_light">#0dFFFFFF</color>
 
     <!-- Text & Icons -->
     <color name="og_default_icon_color_light">#FFF</color>
@@ -15,6 +16,8 @@
     <color name="quantum_black_text">#FFF</color>                                                   <!-- Search Items -->
     <color name="quantum_grey600">#FFF</color>                                                      <!-- Sheet Icons -->
     <color name="google_grey700">#b3FFFFFF</color>                                                  <!-- Sheet Icons Inactive -->
+    <color name="google_grey500">#b3FFFFFF</color>
+    <color name="google_grey600">#b3FFFFFF</color>
 
     <!-- Divider, Cards & Ripple -->
     <color name="google_grey200">#0dFFFFFF</color>
