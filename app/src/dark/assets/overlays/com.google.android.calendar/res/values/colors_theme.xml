@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Icons -->
-    <color name="material_grey_600">#FFFFFF</color>
-    <color name="google_grey700">#FFF</color>
-
     <!-- Background -->
-    <color name="background_floating_material_light">@*android:color/background_material_dark</color>
-    <color name="quantum_grey100">@*android:color/background_dark</color>
-    <color name="google_grey100">@android:color/background_dark</color>                             <!-- Time-Picker -->
+    <color name="calendar_day_background">@*android:color/background_material_dark</color>          <!-- Main -->
+    <color name="calendar_day_hairline">#0dFFFFFF</color>                                           <!-- Hairline -->
+    <color name="calendar_day_navigation_bar">@*android:color/background_material_dark</color>
+    <color name="calendar_night_background_elevation_2">@*android:color/background_material_dark</color>
+    <color name="calendar_day_background_100">@*android:color/background_floating_material_dark</color>
+    <color name="calendar_day_background_200">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>
+    <color name="calendar_day_background_50">@*android:color/background_material_dark</color>
+    <color name="speed_dial_fade_color_gm">@*android:color/background_floating_material_dark</color>
 
     <!-- Text -->
-    <color name="primary_tile_text_color">#FFF</color>
-    <color name="google_grey650">#FFF</color>
-    <color name="google_grey800">#FFF</color>
-    <color name="actionbar_title_text_color">#FFF</color>
-    <color name="google_grey900">#FFF</color>
-    <color name="groove_wizard_button_black">#FFF</color>
-    <color name="quantum_grey900">#FFF</color>
-    <color name="drawer_logo_lockup_product_name_color">#FFF</color>
-    <color name="primary_text_default_material_light">#FFF</color>
-
-    <!-- Divider -->
-    <color name="google_grey200">#1a000000</color>
+    <color name="calendar_day_primary">#FFF</color>
+    <color name="calendar_day_secondary_600">#b3FFFFFF</color>
+    <color name="calendar_day_secondary_650">#b3FFFFFF</color>
+    <color name="calendar_secondary_700">#b3FFFFFF</color>
+    <color name="calendar_primary_900">#80FFFFFF</color>
 </resources>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true" android:color="@*com.google.android.calendar:color/drawer_selected_item_background_color" />
-    <item android:color="@*android:color/background_material_dark" />
-</selector>

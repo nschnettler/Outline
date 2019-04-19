@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="TextAppearance.Tile" parent="@*com.google.android.calendar:style/TextAppearance">
-        <item name="android:backgroundTint">@null</item>
-    </style>
-    <style name="Widget.AppCompat.Button" parent="@*com.google.android.calendar:style/Base.Widget.AppCompat.Button">
-        <item name="android:backgroundTint">@null</item>
-    </style>
-
-    <style name="GrooveCreationWizardTitle" parent="@android:style/Widget.Holo.TextView">
-        <item name="android:textSize">@*com.google.android.calendar:dimen/groove_selection_title_text_size</item>
-        <item name="android:textColor">#FFF</item>
-        <item name="android:paddingTop">@*com.google.android.calendar:dimen/groove_selection_title_padding_top</item>
-        <item name="android:paddingBottom">@*com.google.android.calendar:dimen/groove_selection_title_padding_bottom</item>
-        <item name="android:focusable">true</item>
-        <item name="android:focusableInTouchMode">true</item>
-        <item name="android:textAlignment">viewStart</item>
-        <item name="android:paddingStart">@*com.google.android.calendar:dimen/groove_selection_padding_horizontal</item>
-    </style>
-
-    <style name="GrooveSummaryText" parent="@android:style/Widget.Holo.TextView">
-        <item name="android:textSize">@*com.google.android.calendar:dimen/groove_summary_text_text_size</item>
-        <item name="android:textColor">#FFF</item>
-    </style>
-
-    <style name="EventInfoActionBar" parent="@android:style/ThemeOverlay.Material.Light">
-        <item name="android:actionOverflowButtonStyle">@*com.google.android.calendar:style/EventInfoActionBarOverflow</item>
-        <item name="android:textColor">#FFF</item>
-    </style>
+    <style name="CalendarGmTheme.AbstractNoActionBar.Base" parent="@*com.google.android.calendar:style/Theme.GoogleMaterial.Dark.NoActionBar.Bridge" />
+    <style name="CalendarTheme.AbstractNoActionBar" parent="@*com.google.android.calendar:style/Theme.GoogleMaterial.Dark.NoActionBar.Bridge" />
 </resources>
