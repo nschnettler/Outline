@@ -1,5 +1,9 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.github.triplet.play' version '2.2.0'
+}
+
 apply from: 'ThemerConstants.gradle'
 apply from: 'AdvancedTasks.gradle'
 
@@ -8,8 +12,8 @@ android {
 
     defaultConfig {
         targetSdkVersion 28
-        versionCode 35
-        versionName "31"
+        versionCode 36
+        versionName "31.1"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -20,11 +24,63 @@ android {
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
     }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+        }
+        etherealRelease {
+            storeFile file("EtherealKey.jks")
+            storePassword System.getenv("SIGNING_KEY_PASSWORD") // ANDROID_STORE_PASSWORD
+            keyAlias "outlinedark"
+            keyPassword System.getenv("SIGNING_KEY_PASSWORD") // ANDROID_KEY_PASSWORD
+        }
+        outlineRelease {
+            storeFile file("OutlineKey.jks")
+            storePassword System.getenv("SIGNING_KEY_PASSWORD") // ANDROID_STORE_PASSWORD
+            keyAlias "outlinekey"
+            keyPassword System.getenv("SIGNING_KEY_PASSWORD") // ANDROID_KEY_PASSWORD
+        }
+    }
+
+    flavorDimensions  "theme", "android"
+    productFlavors {
+        dark {
+            dimension "theme"
+            applicationId "com.schnettler.ethereal"
+            signingConfig signingConfigs.etherealRelease
+
+            buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + ETHEREAL_BASE_64_LICENSE_KEY + "\""
+            buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + ETHEREAL_APK_SIGNATURE_PRODUCTION + "\""
+        }
+        light {
+            dimension "theme"
+            applicationId "com.schnettler.outline"
+            signingConfig signingConfigs.outlineRelease
+
+            buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
+            buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
+        }
+        pie {
+            dimension "android"
+            minSdkVersion 25
+            versionCode 260000 + android.defaultConfig.versionCode
+            versionNameSuffix 'P'
+        }
+        q {
+            dimension "android"
+            minSdkVersion 28
+            versionCode 290000 + android.defaultConfig.versionCode
+            versionNameSuffix 'Q'
+        }
+    }
+
     buildTypes {
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationIdSuffix ".debug"
+            signingConfig signingConfigs.debug
 
             buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "false"
             buildConfigField "String", "BASE_64_LICENSE_KEY", "\"\""
@@ -34,50 +90,22 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        flavorDimensions  "theme", "android"
-        productFlavors {
-            dark {
-                dimension "theme"
-                applicationId "com.schnettler.ethereal"
-
-                buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + ETHEREAL_BASE_64_LICENSE_KEY + "\""
-                buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + ETHEREAL_APK_SIGNATURE_PRODUCTION + "\""
-            }
-            light {
-                dimension "theme"
-                applicationId "com.schnettler.outline"
-
-                buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
-                buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
-            }
-            pie {
-                dimension "android"
-                minSdkVersion 25
-                versionCode 260000 + android.defaultConfig.versionCode
-                versionNameSuffix 'P'
-            }
-            q {
-                dimension "android"
-                minSdkVersion 28
-                versionCode 290000 + android.defaultConfig.versionCode
-                versionNameSuffix 'Q'
-            }
-        }
     }
+
+    play {
+        serviceAccountCredentials = file("PlayAPI.json")
+        track = "internal"
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
-    }
-    signingConfigs {
-        debug {
-            storeFile file("debug.keystore")
-        }
     }
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.github.javiersantos:PiracyChecker:1.2.4'
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.30") {
         transitive = true
     }
 }
