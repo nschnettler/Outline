@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Primary -->
-    <color name="play_movies_primary">@android:color/holo_red_light</color>
-    <color name="play_movies_primary_v2">@android:color/holo_red_light</color>
-    <color name="play_movies_details_button">@android:color/holo_red_light</color>
-    <color name="play_movies_action_bar_background">@android:color/holo_red_light</color>
-    <color name="play_movies_system_bar_background">@android:color/holo_red_light</color>
-</resources>

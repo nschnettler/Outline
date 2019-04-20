@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="play_movies_primary">@android:color/holo_red_light</color>
+    <color name="replay__pal_movies_dark_600">@android:color/holo_red_light</color>
+    <color name="replay__pal_movies_dark_400">@android:color/holo_red_light</color>
+    <color name="replay__pal_movies_dark_800">@android:color/holo_red_light</color>
+
+    <!-- Background -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!--Main -->
+    <color name="google_grey800">@*android:color/background_floating_material_dark</color>
+    <color name="play_movies_card_background">@*android:color/background_material_dark</color>      <!-- Primary -->
+    <color name="play_movies_main_background">@*android:color/background_material_dark</color>
+    <color name="play_movies_thumbnail_placeholder">@*android:color/background_floating_material_dark</color>
+
+    <!-- Text -->
+    <color name="replay__pal_gray_600">#b3FFFFFF</color>
+    <color name="google_dark_default_color_on_surface_variant">#b3FFFFFF</color>
+</resources>
