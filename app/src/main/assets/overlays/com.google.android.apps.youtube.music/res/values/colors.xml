@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Color -->
+    <color name="yt_red">@android:color/holo_red_light</color>                                      <!-- Accent -->
+    <color name="subscribe_font_color">@android:color/holo_red_light</color>
+    <color name="ytm_color_blue_01">@android:color/holo_red_light</color>
+
+    <!-- Background -->
+    <color name="ytm_theme_main_color_primary">@*android:color/background_material_dark</color>     <!-- Primary -->
+    <color name="ytm_color_black">@*android:color/background_material_dark</color>                  <!-- Main -->
+    <color name="yt_music_background">@*android:color/background_material_dark</color>              <!-- Splash -->
+    <color name="remix_player_section1_color">@*android:color/background_material_dark</color>      <!-- Mini Player -->
+    <color name="ytm_color_grey_12">@*android:color/background_floating_material_dark</color>       <!-- Bottomnav -->
+    <color name="yt_black1">@*android:color/background_material_dark</color>                        <!-- Quality Bottomsheet -->
+    <color name="ytm_theme_main_color_secondary">@*android:color/background_material_dark</color>   <!-- SnackBar -->
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+
+    <!-- Divider -->
+    <color name="dark_grey">@*android:color/background_floating_material_dark</color>
+
+    <!-- Text & Icons-->
+    <color name="ytm_color_grey_08">#b3FFFFFF</color>
+    <color name="ytm_color_control_normal">#FFF</color>                                             <!-- ColorControlNormal -->
+    <color name="quantum_grey600">#FFF</color>
+</resources>
