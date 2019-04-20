@@ -6,8 +6,8 @@
     <color name="theme_color_primary_dark">@android:color/holo_orange_light</color>
 
     <color name="theme_dark_color_accent">@android:color/holo_blue_light</color>
-    <color name="theme_dark_color_primary">@android:color/holo_orange_light</color>
-    <color name="theme_dark_color_primary_dark">@android:color/holo_orange_light</color>
+    <color name="theme_dark_color_primary">@*android:color/background_material_dark</color>
+    <color name="theme_dark_color_primary_dark">@*android:color/background_material_dark</color>
 
 
     <!-- Other -->
