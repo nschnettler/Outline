@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Drawer -->
-    <style name="Widget.AppCompat.DrawerArrowToggle" parent="@*com.google.android.videos:style/Base.Widget.AppCompat.DrawerArrowToggle">
-        <item name="*com.google.android.videos:color">#FFFFFF</item>
-    </style>
-</resources>
