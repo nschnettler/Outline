@@ -95,3 +95,4 @@ AndroidManifest.xml
 LoadingProcess.h
 app/src/main/kotlin/
 LoadingProcess.c
+*.jks
