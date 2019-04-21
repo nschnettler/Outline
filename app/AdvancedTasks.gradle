@@ -35,14 +35,14 @@ task prepareManifest(){
             theme = "transparent"
             break;
     }
-    sourceDestination = "/src/main/kotlin/com/schnettler/" + theme + (isDebug() ? "/debug" : "")
+    sourceDestination = "/src/main/kotlin/com/schnettler/" + theme
 
 
     //Prepare Manifest
     copy {
         from "/src/main/AndroidManifestTemplate.xml"
         into "/src/main/"
-        filter(ReplaceTokens, tokens: [theme: theme + (isDebug() ? ".debug" : "")])
+        filter(ReplaceTokens, tokens: [theme: theme])
         rename { String fileName ->
             fileName = "AndroidManifest.xml"
         }
@@ -53,7 +53,7 @@ task prepareManifest(){
     copy {
         from "/src/main/kotlinTemplates"
         into sourceDestination
-        filter(ReplaceTokens, tokens: [theme: theme + (isDebug() ? ".debug" : "")])
+        filter(ReplaceTokens, tokens: [theme: theme])
     }
 }
 
@@ -154,25 +154,24 @@ def getCurrentFlavor() {
 
     Pattern pattern
 
-    if( tskReqStr.contains( "assemble" ) )
+    if(tskReqStr.contains( "assemble")) {
         pattern = Pattern.compile("assemble(\\w+)(Release|Debug)")
-    else
-        pattern = Pattern.compile("generate(\\w+)(Release|Debug)")
+    } else {
+        if(tskReqStr.contains( "generate")) {
+            pattern = Pattern.compile("generate(\\w+)(Release|Debug)")
+        } else {
+            pattern = Pattern.compile("publish(\\w+)(Release|Debug)")
+        }
+    }
 
     Matcher matcher = pattern.matcher( tskReqStr )
 
-    if( matcher.find() )
+    if( matcher.find() ) {
+        println"Current Flavor - " + matcher.group(1).toLowerCase()
         return matcher.group(1).toLowerCase()
-    else
-    {
+    }
+    else {
         println "NO MATCH FOUND"
         return ""
     }
 }
-
-    def isDebug() {
-        Gradle gradle = getGradle()
-        String  tskReqStr = gradle.getStartParameter().getTaskRequests().toString()
-
-        return tskReqStr.contains("Debug")
-    }
