@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>
+
+    <!-- Text & Icons -->
+    <color name="google_grey500">#b3FFFFFF</color>
+</resources>
