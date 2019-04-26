@@ -76,7 +76,7 @@
                 style="@*com.whatsapp:style/FlatCardInfo" />
         </FrameLayout>
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@*com.whatsapp:id/invites_recycler_view"
             android:background="@*android:color/background_material_dark"
             android:paddingTop="6.0dip"

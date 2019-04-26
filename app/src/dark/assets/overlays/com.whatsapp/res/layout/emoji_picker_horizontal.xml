@@ -35,18 +35,18 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
-            <android.support.v4.view.ViewPager
+            <androidx.viewpager.widget.ViewPager
                 android:id="@*com.whatsapp:id/pager"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
 
-            <android.support.v4.view.ViewPager
+            <androidx.viewpager.widget.ViewPager
                 android:id="@*com.whatsapp:id/sticker_pager"
                 android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
 
-            <android.support.v4.view.ViewPager
+            <androidx.viewpager.widget.ViewPager
                 android:id="@*com.whatsapp:id/gif_pager"
                 android:visibility="gone"
                 android:layout_width="fill_parent"
@@ -150,7 +150,7 @@
             android:layout_width="fill_parent"
             android:layout_height="1.0dip" />
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@*com.whatsapp:id/gif_trending_grid"
             android:background="@*android:color/background_material_dark"
             android:paddingLeft="4.0dip"
@@ -261,7 +261,7 @@
         android:layout_above="@*com.whatsapp:id/footer_toolbar_cont">
 
         <View
-            android:background="@*android:color/background_dark"
+            android:background="#ffedf1f0"
             android:layout_width="fill_parent"
             android:layout_height="1.0dip" />
 

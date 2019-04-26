@@ -36,6 +36,8 @@
     <!-- Settings -->
     <style name="Theme.App.SettingsLight" parent="@*com.whatsapp:style/Theme.App.SettingsDark"/>
 
+    <style name="Theme.Prefs.Dark" parent="@*com.whatsapp:style/Theme.Prefs"/>
+
     <!-- Gallery -->
     <style name="Theme.App.GalleryPicker" parent="@*com.whatsapp:style/Theme.App">
         <item name="android:windowBackground">@*android:color/background_material_dark</item>

@@ -4,7 +4,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:id="@*com.whatsapp:id/content"
-        android:layout_width="@*com.whatsapp:dimen/conversation_row_document_height"
+        android:layout_width="@*com.whatsapp:dimen/conversation_row_document_width"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@*com.whatsapp:dimen/conversation_row_margin_large">
 
@@ -35,14 +35,14 @@
 
                 <View
                     android:id="@*com.whatsapp:id/preview_separator"
-                    android:background="#11000000"
+                    android:background="@*com.whatsapp:color/conversation_row_preview_separator_color"
                     android:layout_width="fill_parent"
                     android:layout_height="0.30000007dip" />
 
                 <LinearLayout
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:background="#08000000"
+                    android:background="@*com.whatsapp:color/share_preview_container_background"
                     android:paddingLeft="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
                     android:paddingRight="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
                     android:layout_width="fill_parent"

@@ -4,9 +4,9 @@
     <LinearLayout
         android:orientation="vertical"
         android:id="@*com.whatsapp:id/content"
-        android:layout_width="262.0dip"
+        android:layout_width="@*com.whatsapp:dimen/conversation_row_document_width"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40.0dip">
+        android:layout_marginLeft="@*com.whatsapp:dimen/conversation_row_margin_large">
 
         <FrameLayout
             android:id="@*com.whatsapp:id/quoted_message_holder"
@@ -19,7 +19,7 @@
             android:id="@*com.whatsapp:id/map_frame"
             android:padding="@*com.whatsapp:dimen/conversation_video_thumb_padding"
             android:layout_width="fill_parent"
-            android:layout_height="147.0dip">
+            android:layout_height="@*com.whatsapp:dimen/conversation_row_location_map_height">
 
             <com.whatsapp.WaImageView
                 android:id="@*com.whatsapp:id/thumb"
@@ -32,7 +32,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
 
-            <Button
+            <com.whatsapp.WaButton
                 android:id="@*com.whatsapp:id/thumb_button"
                 android:background="@*com.whatsapp:drawable/selector_orange_gradient"
                 android:layout_width="fill_parent"
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <Button
+                <com.whatsapp.WaButton
                     android:textColor="@*com.whatsapp:color/conversation_row_image_text"
                     android:ellipsize="none"
                     android:layout_gravity="center"
@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:singleLine="true"
                     android:drawableLeft="@*com.whatsapp:drawable/btn_upload"
-                    android:drawablePadding="8.0dip"
+                    android:drawablePadding="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
                     android:stateListAnimator="@null" />
 
                 <ProgressBar
@@ -86,8 +86,8 @@
                 android:textColor="#ffffffff"
                 android:ellipsize="end"
                 android:id="@*com.whatsapp:id/place_name"
-                android:paddingLeft="8.0dip"
-                android:paddingRight="8.0dip"
+                android:paddingLeft="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
+                android:paddingRight="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
                 android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -100,8 +100,8 @@
                 android:ellipsize="end"
                 android:gravity="left"
                 android:id="@*com.whatsapp:id/place_address"
-                android:paddingLeft="8.0dip"
-                android:paddingRight="8.0dip"
+                android:paddingLeft="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
+                android:paddingRight="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
                 android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -112,8 +112,8 @@
                 android:textColor="#b3FFFFFF"
                 android:ellipsize="start"
                 android:id="@*com.whatsapp:id/host_view"
-                android:paddingLeft="8.0dip"
-                android:paddingRight="8.0dip"
+                android:paddingLeft="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
+                android:paddingRight="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
                 android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
