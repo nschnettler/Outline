@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
-    android:opacity="opaque"
-    android:paddingMode="nest">
-
-    <item>
-        <shape>
-            <solid android:color="?android:colorBackground" />
-        </shape>
-    </item>
+<layer-list android:opacity="opaque"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?android:colorBackground" />
     <item android:gravity="center|center_vertical">
         <vector
             android:width="144dp"
             android:height="144dp"
             android:viewportWidth="24"
-            android:viewportHeight="24">
-
+            android:viewportHeight="24"
+            android:tint="?android:colorControlNormal">
             <path
-                android:strokeColor="?android:colorControlNormal"
+                android:strokeColor="#FFF"
                 android:strokeWidth="1.5"
                 android:strokeLineCap="round"
                 android:strokeLineJoin="round"
@@ -28,5 +22,13 @@
 9.286 15.5 12 15.5c2.714 0 5.133 1.125
  6.69 2.875" />
         </vector>
+    </item>
+    <item
+        android:id="@*com.google.android.contacts:id/launchscreens_logo_text"
+        android:bottom="@*com.google.android.contacts:dimen/launchscreens_google_logo_bottom">
+        <bitmap
+            android:gravity="bottom|center"
+            android:src="@*com.google.android.contacts:drawable/googlelogo_dark20_color_132x44"
+            android:tint="?android:textColorPrimary" />
     </item>
 </layer-list>

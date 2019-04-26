@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Primary -->
-    <color name="google_grey800">@*android:color/background_material_dark</color>                   <!-- Drawer -->
-    <color name="google_dark_default_color_surface">@android:color/background_dark</color>          <!-- Elevated -->
-    <color name="background_floating_material_dark">@android:color/background_dark</color>          <!-- Dialog -->
-    <color name="google_grey700">@android:color/background_dark</color>                             <!-- Divider -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                               <!-- Primary -->
+    <color name="google_grey800">@*android:color/background_material_dark</color>                               <!-- Drawer -->
+    <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>   <!-- Elevated -->
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog -->
+    <color name="og_background_dark">@*android:color/background_floating_material_dark</color>                  <!-- Account Switcher -->
+    <color name="google_grey700">#0dFFFFFF</color>                                                              <!-- Divider -->
+    <color name="google_divider">#0dFFFFFF</color>
 </resources>
