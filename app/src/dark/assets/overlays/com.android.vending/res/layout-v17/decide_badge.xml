@@ -25,13 +25,15 @@
             android:layout_width="@*com.android.vending:dimen/d30_decidebar_icon_size"
             android:layout_height="@*com.android.vending:dimen/d30_decidebar_icon_size"
             android:layout_marginLeft="0.0dip"
-            android:layout_marginRight="@*com.android.vending:dimen/d30_decidebar_badge_padding"
-            android:layout_marginStart="0.0dip"
-            android:layout_marginEnd="@*com.android.vending:dimen/d30_decidebar_badge_padding" />
+            android:layout_marginRight="@*com.android.vending:dimen/d30_decidebar_badge_padding" />
 
         <TextView
+            android:textColor="#FFF"
             android:id="@*com.android.vending:id/title_text"
-            style="@*com.android.vending:style/D30DecideBarTitleText" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="@*com.android.vending:style/TextAppearanceSubhead2.Medium" />
 
         <com.google.android.play.image.FifeImageView
             android:layout_gravity="center_vertical"
@@ -41,14 +43,12 @@
             android:layout_height="@*com.android.vending:dimen/d30_decidebar_icon_size"
             android:layout_marginLeft="@*com.android.vending:dimen/d30_decidebar_badge_padding"
             android:layout_marginRight="0.0dip"
-            android:layout_marginStart="@*com.android.vending:dimen/d30_decidebar_badge_padding"
-            android:layout_marginEnd="0.0dip"
             android:tint="#66FFFFFF"
             android:tintMode="src_atop"/>
     </LinearLayout>
 
     <TextView
-        android:textColor="@*com.android.vending:color/play_secondary_text"
+        android:textColor="#b3FFFFFF"
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
         android:id="@*com.android.vending:id/subtitle_text"
