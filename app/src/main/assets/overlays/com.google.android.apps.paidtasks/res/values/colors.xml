@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="quantum_googblue500">@android:color/holo_blue_light</color>
+
+    <color name="google_red500">@android:color/holo_red_light</color>
+</resources>
