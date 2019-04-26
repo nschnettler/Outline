@@ -25,6 +25,8 @@
     <color name="primary_text_default_material_light">#FFF</color>
     <color name="dark_icons">#FFF</color>
     <color name="darktrans_icons">#b3FFFFFF</color>
+    <color name="annotation_title_color">#FFF</color>
+    <color name="annotation_url_color">#b3FFFFFF</color>
 
     <!-- Other -->
     <color name="material_gray">#FFFFFF</color>                                                     <!-- Checkbox -->
