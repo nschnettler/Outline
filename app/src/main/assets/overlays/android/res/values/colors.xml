@@ -9,4 +9,8 @@
 
     <!-- Background -->
     <color name="background_dark">@*android:color/background_floating_material_dark</color>
+
+    <!-- Telegram X Generator on some ROMS -->
+    <color name="background_leanback_dark">@*android:color/background_material_dark</color>
+    <color name="background_leanback_light">@*android:color/background_material_dark</color>
 </resources>
