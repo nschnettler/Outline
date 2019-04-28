@@ -14,4 +14,7 @@
     <!-- ROM Colors -->
     <color name="qs_edit_item_decoration_bg">@*android:color/background_material_dark</color>
     <color name="system_primary_color">@*android:color/background_material_dark</color>
+
+    <!-- Sony -->
+    <color name="somc_keyguard_theme_color_notification_background">@*android:color/notification_material_background_color</color>
 </resources>

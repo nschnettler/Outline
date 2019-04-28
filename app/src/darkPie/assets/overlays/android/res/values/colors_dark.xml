@@ -17,6 +17,7 @@
     <color name="primary_device_default_settings">@*android:color/primary_material_dark</color>             <!-- Primary -->
     <color name="primary_dark_device_default_settings">@*android:color/primary_dark_material_dark</color>   <!-- Primary Dark -->
     <color name="secondary_device_default_settings">@*android:color/background_material_dark</color>        <!-- Secondary -->
+    <color name="background_floating_device_default_settings_light">@*android:color/background_floating_material_dark</color>   <!-- Sony - Dialog -->
 
     <!-- Exposures -->
     <color name="toast_text_color">#FFFFFF</color>                                                  <!-- Toast Text -->
