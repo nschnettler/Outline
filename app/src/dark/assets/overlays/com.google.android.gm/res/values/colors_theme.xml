@@ -9,6 +9,7 @@
     <color name="action_mode_statusbar_color">@android:color/holo_red_light</color>
     <color name="message_header_background_color">@*android:color/background_material_dark</color>
     <color name="suw_glif_background_color_light">@*android:color/background_material_dark</color>
+    <color name="promo_card">@*android:color/background_material_dark</color>
     <color name="google_default_color_surface">@android:color/background_dark</color>               <!-- Search -->
     <color name="snack_bar_background_color">@android:color/background_dark</color>                 <!-- Snackbar -->
     <color name="item_grey_pressed_color">#0dFFFFFF</color>
