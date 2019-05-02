@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="default_bg_color_dark">@*android:color/background_material_dark</color>                    <!-- Main -->
+    <color name="default_bg_color_dark_elev_2">@*android:color/background_floating_material_dark</color>
+    <color name="default_bg_color_dark_elev_3">@*android:color/background_material_dark</color>
+    <color name="bottom_system_nav_color">@*android:color/background_material_dark</color>                  <!-- Navbar -->
+    <color name="bottom_system_nav_divider_color">@*android:color/background_floating_material_dark</color> <!-- Navbar Divider -->
+    <color name="modern_secondary_color">@*android:color/background_floating_material_dark</color>
+    <color name="toolbar_text_box_background">@*android:color/background_floating_material_dark</color>     <!-- Searchbar -->
+    <color name="omnibox_focused_fading_background_color_light">#00000000</color>                           <!-- Overlay -->
+
+    <!-- Text -->
+    <color name="compositor_tab_title_bar_text">#FFF</color>
+</resources>

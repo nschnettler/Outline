@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
+    <!-- Accent -->
     <color name="modern_blue_600">@android:color/holo_blue_light</color>
+    <color name="modern_blue_300">@android:color/holo_blue_light</color>
 
     <!-- Security -->
     <color name="google_green_700">@android:color/holo_green_light</color>
