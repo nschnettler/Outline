@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="google_blue600">@android:color/holo_blue_light</color>                             <!-- Light -->
+    <color name="google_blue300">@android:color/holo_blue_light</color>                             <!-- Dark -->
+    <color name="google_blue900">@android:color/holo_blue_light</color>                             <!-- Dark 2-->
+
+    <!-- Background -->
+    <color name="pad_background_color">#FFF</color>                                                 <!-- Keypad -->
+
+    <!-- Other -->
+    <color name="calculator_error_flood">@android:color/holo_red_light</color>
+    <color name="calculator_error_text_color">@android:color/holo_red_light</color>
+    <color name="calculator_clear_flood">@android:color/holo_blue_light</color>
+</resources>

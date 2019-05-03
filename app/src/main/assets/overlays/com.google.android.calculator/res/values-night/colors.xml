@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="pad_background_color">@*android:color/background_material_dark</color>                             <!-- Keypad -->
+    <color name="nav_bar_color">@*android:color/background_material_dark</color>                                    <!-- NavBar -->
+    <color name="display_background_color">@*android:color/background_floating_material_dark</color>                <!-- Result -->
+    <color name="history_background_color">@*android:color/background_floating_material_dark</color>                <!-- History -->
+    <color name="google_dark_default_color_background">@*android:color/background_floating_material_dark</color>    <!-- Dialog -->
+    <color name="background_material_dark">@*android:color/background_material_dark</color>                         <!-- History Overflow -->
+    <color name="hairline_color">#0dFFFFFF</color>                                                                  <!-- Divider -->
+    <color name="status_bar_color">#00000000</color>                                                                <!-- Statusbar -->
+
+    <!-- Other -->
+    <color name="calculator_clear_flood">@android:color/holo_blue_light</color>
+    <color name="calculator_error_flood">@android:color/holo_red_light</color>
+    <color name="calculator_error_text_color">@android:color/holo_red_light</color>
+</resources>

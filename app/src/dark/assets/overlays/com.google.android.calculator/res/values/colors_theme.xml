@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Background -->
-    <color name="google_gray_100">@*android:color/background_material_dark</color>
-
-    <!-- Text -->
-    <color name="google_gray_900">#FFF</color>
-    <color name="primary_text_default_material_light">#FFF</color>
-</resources>
