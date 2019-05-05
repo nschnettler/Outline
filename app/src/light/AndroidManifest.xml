@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.schnettler.common"
+    android:installLocation="internalOnly">
+
+    <application
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:node="merge">
+
+        <activity android:name="com.schnettler.outline.SubstratumLauncher">
+            <intent-filter>
+                <action android:name="projekt.substratum.THEME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="projekt.substratum.lite.THEME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="projekt.substratum.GET_KEYS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

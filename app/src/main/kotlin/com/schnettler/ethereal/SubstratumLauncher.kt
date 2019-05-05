@@ -1,6 +1,6 @@
 @file:Suppress("ConstantConditionIf")
 
-package com.schnettler.@theme@
+package com.schnettler.ethereal
 
 import android.app.Activity
 import android.content.Context
@@ -13,14 +13,16 @@ import android.widget.Toast
 import com.github.javiersantos.piracychecker.*
 import com.github.javiersantos.piracychecker.enums.*
 import com.github.javiersantos.piracychecker.utils.apkSignature
-import com.schnettler.@theme@.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
-import com.schnettler.@theme@.AdvancedConstants.OTHER_THEME_SYSTEMS
-import com.schnettler.@theme@.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
-import com.schnettler.@theme@.AdvancedConstants.SHOW_LAUNCH_DIALOG
-import com.schnettler.@theme@.ThemeFunctions.checkApprovedSignature
-import com.schnettler.@theme@.ThemeFunctions.getSelfSignature
-import com.schnettler.@theme@.ThemeFunctions.getSelfVerifiedPirateTools
-import com.schnettler.@theme@.ThemeFunctions.isCallingPackageAllowed
+import com.schnettler.common.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
+import com.schnettler.common.AdvancedConstants.OTHER_THEME_SYSTEMS
+import com.schnettler.common.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
+import com.schnettler.common.AdvancedConstants.SHOW_LAUNCH_DIALOG
+import com.schnettler.common.ThemeFunctions.checkApprovedSignature
+import com.schnettler.common.ThemeFunctions.getSelfSignature
+import com.schnettler.common.ThemeFunctions.getSelfVerifiedPirateTools
+import com.schnettler.common.ThemeFunctions.isCallingPackageAllowed
+import com.schnettler.common.BuildConfig
+import com.schnettler.common.R
 
 class SubstratumLauncher : Activity() {
 

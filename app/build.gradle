@@ -3,17 +3,24 @@ plugins {
     id 'kotlin-android'
     id 'com.github.triplet.play' version '2.2.0'
 }
-
 apply from: 'ThemerConstants.gradle'
-apply from: 'AdvancedTasks.gradle'
+
+ext {
+    byte[] key = new byte[16]
+    new Random().nextBytes(key)
+    KEY = key
+    byte[] iv = new byte[16]
+    new Random().nextBytes(iv)
+    IV_KEY = iv
+}
 
 android {
     compileSdkVersion 28
 
     defaultConfig {
         targetSdkVersion 28
-        versionCode 41
-        versionName "32"
+        versionCode 44
+        versionName "32.1"
 
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -116,9 +123,9 @@ dependencies {
     }
 }
 
-project.afterEvaluate {
+/*project.afterEvaluate {
     preBuild.dependsOn prepareManifest
-}
+} */
 
 boolean shouldEncrypt() {
     ArrayList<String> tasks = project.gradle.startParameter.taskNames

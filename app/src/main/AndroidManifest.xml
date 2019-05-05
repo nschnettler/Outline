@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.schnettler.@theme@"
+    package="com.schnettler.common"
     android:installLocation="internalOnly">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-feature
-        android:name="projekt.substratum.theme"
-        android:required="false" /> <!-- Set to true for OMS-rom only block to be enabled -->
 
     <application
         android:allowBackup="false"
@@ -17,28 +13,8 @@
         android:label="@string/ThemeName"
         android:supportsRtl="true"
         android:theme="@style/DialogStyle"
-        tools:node="replace"
         tools:ignore="GoogleAppIndexingWarning"
         android:extractNativeLibs="false">
-
-        <activity android:name="${applicationId}.SubstratumLauncher">
-            <intent-filter>
-                <action android:name="projekt.substratum.THEME"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="projekt.substratum.lite.THEME"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="projekt.substratum.GET_KEYS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-            </intent-filter>
-        </activity>
-
         <meta-data
             android:name="Substratum_Legacy"
             android:value="@bool/ThemeSupportLegacy"/>

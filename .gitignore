@@ -91,9 +91,9 @@ app/release/output\.json
 #############################################################################
 app/.externalNativeBuild
 
-AndroidManifest.xml
-LoadingProcess.h
-app/src/main/kotlin/
-LoadingProcess.c
+#############################################################################
+#Keystores, Changelogs & API Keys
+#############################################################################
 *.jks
-app/src/main/play/release-notes/
+app/src/main/play/release-notes
+PlayAPI.json

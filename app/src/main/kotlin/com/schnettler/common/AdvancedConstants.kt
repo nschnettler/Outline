@@ -1,4 +1,4 @@
-package com.schnettler.@theme@
+package com.schnettler.common
 
 object AdvancedConstants {
 

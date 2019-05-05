@@ -1,13 +1,13 @@
-package com.schnettler.@theme@
+package com.schnettler.common
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
 import android.content.pm.Signature
 import android.os.RemoteException
-import com.schnettler.@theme@.AdvancedConstants.BLACKLISTED_APPLICATIONS
-import com.schnettler.@theme@.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
-import com.schnettler.@theme@.AdvancedConstants.OTHER_THEME_SYSTEMS
+import com.schnettler.common.AdvancedConstants.BLACKLISTED_APPLICATIONS
+import com.schnettler.common.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
+import com.schnettler.common.AdvancedConstants.OTHER_THEME_SYSTEMS
 
 @Suppress("ConstantConditionIf")
 object ThemeFunctions {
