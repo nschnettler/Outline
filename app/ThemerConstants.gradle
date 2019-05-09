@@ -1,20 +1,7 @@
 ext {
-    // Encryption
-    SHOULD_ENCRYPT_ASSETS = false
-
-    // 3rd party Theme Engines
-    SUPPORTS_THIRD_PARTY_SYSTEMS = false
-
     // AntiPiracy
     ETHEREAL_APK_SIGNATURE_PRODUCTION = "***REMOVED***"
     ETHEREAL_BASE_64_LICENSE_KEY = "***REMOVED***"
     OUTLINE_APK_SIGNATURE_PRODUCTION = "***REMOVED***"
     OUTLINE_BASE_64_LICENSE_KEY = "***REMOVED***"
-
-    // Piracy library configurations
-    ENABLE_APP_BLACKLIST_CHECK = false
-    ENFORCE_GOOGLE_PLAY_INSTALL = true
-
-    // Allow third party substratum builds
-    ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS = true
 }

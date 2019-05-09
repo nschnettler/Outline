@@ -1,6 +1,6 @@
 @file:Suppress("ConstantConditionIf")
 
-package com.schnettler.ethereal
+package com.schnettler.outline
 
 import android.app.Activity
 import android.content.Context
@@ -134,8 +134,8 @@ class SubstratumLauncher : Activity() {
                         returnIntent.putExtra("theme_pid", themePid)
                         returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
                         returnIntent.putExtra("theme_piracy_check", themePiracyCheck)
-                        returnIntent.putExtra("encryption_key", BuildConfig.DECRYPTION_KEY)
-                        returnIntent.putExtra("iv_encrypt_key", BuildConfig.IV_KEY)
+                        returnIntent.putExtra("encryption_key", "")
+                        returnIntent.putExtra("iv_encrypt_key", "")
 
                         val callingPackage = intent.getStringExtra("calling_package_name")
                         if (!isCallingPackageAllowed(callingPackage)) {
