@@ -6,12 +6,14 @@
 
     <path
         android:name="Cutout"
-        android:fillColor="@color/icon_mask_v2"
+        android:fillColor="@color/icon_accent"
         android:pathData="M108 0v108H0V0h108zM54 24c-16.56 0-30 13.44-30 30 0 16.56 13.44 30 30 30 16.56 0 30-13.44 30-30 0-16.56-13.44-30-30-30z"/>
 
     <path
         android:name="Icon"
-        android:strokeColor="@color/icon_foreground_v2"
-        android:strokeWidth="5"
-        android:pathData="M45.91 47.992c-4.458 4.458-4.458 11.705 0 16.164C48.141 66.385 51.07 67.5 54 67.5c2.93 0 5.859-1.115 8.09-3.344 4.458-4.459 4.458-11.706 0-16.164l-7.076-7.074c-.556-.558-1.457-.558-2.015 0l-7.089 7.074z"/>
+        android:strokeColor="@color/icon_icon"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="@string/icon_icon_path"/>
 </vector>

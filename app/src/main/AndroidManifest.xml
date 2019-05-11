@@ -31,9 +31,6 @@
             android:name="Substratum_Samsung"
             android:value="@bool/ThemeSupportSamsung"/>
         <meta-data
-            android:name="Substratum_Wallpapers"
-            android:value="@string/ThemeWallpaperSource"/>
-        <meta-data
             android:name="Substratum_HeroOverride"
             android:value="@string/ThemeHeroOverride"/>
 

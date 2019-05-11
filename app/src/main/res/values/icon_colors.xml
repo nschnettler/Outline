@@ -1,0 +1,12 @@
+<resources>
+    <!-- Icon - Outline -->
+    <color name="icon_accent">#e19e9e</color>
+    <color name="icon_foreground">#f6cfd3</color>
+    <color name="icon_icon">@color/icon_accent</color>
+
+    <!-- Hero - Outline -->
+    <color name="hero_background">#fbecee</color>
+    <color name="hero_foreground">#f6cfd3</color>
+    <color name="hero_accent">@color/icon_accent</color>
+    <color name="hero_icon">@color/hero_accent</color>
+ </resources>

@@ -18,10 +18,9 @@
     V314.8L842,500H1024z"/>
 
     <path
-        android:strokeWidth="24"
-        android:strokeAlpha="@dimen/hero_foreground_drop_opacity"
+        android:strokeWidth="20"
         android:strokeColor="@color/hero_icon"
-        android:pathData="M269.862 215.4c-26.418 26.418-26.418 69.36 0 95.787C283.08
-        324.396 300.44 331 317.8 331c17.36 0 34.72-6.604 47.938-19.813 26.418-26.427 26.418-69.369
-        0-95.787l-41.929-41.92c-3.298-3.307-8.631-3.307-11.938 0l-42.009 41.92z"/>
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="@string/hero_icon_path"/>
 </vector>

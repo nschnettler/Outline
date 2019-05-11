@@ -1,0 +1,5 @@
+<resources>
+    <!-- Dark Theme -->
+    <color name="icon_foreground">@*android:color/background_floating_material_dark</color>
+    <color name="icon_icon">#ccFFFFFF</color>
+ </resources>

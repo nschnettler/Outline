@@ -1,0 +1,11 @@
+<resources>
+    <!-- Ethereal -->
+    <color name="icon_accent">#a2abdc</color>
+    <color name="icon_foreground">#c7ccea</color>
+
+    <!-- Hero - Ethereal -->
+    <color name="hero_background">#2b2b3b</color>
+    <color name="hero_foreground">#0dFFFFFF</color>
+    <color name="hero_accent">#1aFFFFFF</color>
+    <color name="hero_icon">#ccFFFFFF</color>
+ </resources>
