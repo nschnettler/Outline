@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeView android:orientation="vertical"
+<com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeViewLegacy android:orientation="vertical"
     android:id="@*com.android.vending:id/decide_badge_view"
     android:padding="@*com.android.vending:dimen/d30_decidebar_badge_padding"
     android:descendantFocusability="blocksDescendants"
@@ -25,7 +25,9 @@
             android:layout_width="@*com.android.vending:dimen/d30_decidebar_icon_size"
             android:layout_height="@*com.android.vending:dimen/d30_decidebar_icon_size"
             android:layout_marginLeft="0.0dip"
-            android:layout_marginRight="@*com.android.vending:dimen/d30_decidebar_badge_padding" />
+            android:layout_marginRight="@*com.android.vending:dimen/d30_decidebar_badge_padding"
+            android:layout_marginStart="0.0dip"
+            android:layout_marginEnd="@*com.android.vending:dimen/d30_decidebar_badge_padding" />
 
         <TextView
             android:textColor="#FFF"
@@ -43,6 +45,8 @@
             android:layout_height="@*com.android.vending:dimen/d30_decidebar_icon_size"
             android:layout_marginLeft="@*com.android.vending:dimen/d30_decidebar_badge_padding"
             android:layout_marginRight="0.0dip"
+            android:layout_marginStart="@*com.android.vending:dimen/d30_decidebar_badge_padding"
+            android:layout_marginEnd="0.0dip"
             android:tint="#66FFFFFF"
             android:tintMode="src_atop"/>
     </LinearLayout>
@@ -55,4 +59,4 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@*com.android.vending:style/TextAppearance.GoogleMaterial.Caption" />
-</com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeView>
+</com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeViewLegacy>

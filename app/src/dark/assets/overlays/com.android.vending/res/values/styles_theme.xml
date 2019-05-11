@@ -10,7 +10,7 @@
     </style>
 
     <style name="SettingsRedesignPreferenceText">
-        <item name="android:textSize">@*com.android.vending:dimen/settings_preference_text_size</item>
+        <item name="android:textSize">@*com.android.vending:dimen/subtitle1_font_size_scaling</item>
         <item name="android:textColor">#FFF</item>
     </style>
 </resources>

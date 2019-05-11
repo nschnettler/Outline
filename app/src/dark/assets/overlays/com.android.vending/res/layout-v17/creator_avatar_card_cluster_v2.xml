@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.stream.controllers.view.FlatCardCreatorAvatarClusterView android:id="@*com.android.vending:id/flat_card_cluster_container"
+<com.google.android.finsky.stream.controllers.view.CreatorAvatarCardClusterViewV2 android:id="@*com.android.vending:id/flat_card_cluster_container"
     android:paddingTop="@*com.android.vending:dimen/flat_creator_avatar_cluster_padding_top"
     android:clipToPadding="false"
     android:layout_width="fill_parent"
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.google.android.finsky.layout.play.FlatCardLeadingGapClusterViewContent
+    <com.google.android.finsky.horizontalrecyclerview.HorizontalClusterRecyclerView
         android:id="@*com.android.vending:id/cluster_content"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
@@ -32,8 +32,7 @@
         android:id="@*com.android.vending:id/developer_icon_grouping"
         android:focusable="true"
         android:layout_width="0.0dip"
-        android:layout_height="0.0dip"
-        android:foreground="@*com.android.vending:drawable/focus_overlay">
+        android:layout_height="0.0dip">
 
         <com.google.android.play.image.FifeImageView
             android:id="@*com.android.vending:id/avatar_image"
@@ -43,7 +42,7 @@
             style="@*com.android.vending:style/Base.TextAppearance.AppCompat.Medium.Inverse"/>
 
         <com.google.android.play.layout.PlayTextView
-            android:textSize="@*com.android.vending:dimen/flat_creator_title_text_size"
+            android:textSize="@*com.android.vending:dimen/subhead2_font_size_scaling"
             android:textColor="#FFF"
             android:ellipsize="end"
             android:id="@*com.android.vending:id/developer_title"
@@ -52,12 +51,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@*com.android.vending:dimen/flat_creator_avatar_text_gap"
-            android:paddingStart="@*com.android.vending:dimen/flat_creator_icon_grouping_title_xpadding"
-            android:paddingEnd="@*com.android.vending:dimen/flat_creator_icon_grouping_title_xpadding"
             style="@*com.android.vending:style/PlayClusterTitle" />
 
         <com.google.android.play.layout.PlayTextView
-            android:textSize="@*com.android.vending:dimen/flat_creator_button_text_size"
+            android:textSize="@*com.android.vending:dimen/caption_font_size_scaling"
             android:textColor="#FFF"
             android:id="@*com.android.vending:id/developer_button"
             android:background="@*com.android.vending:drawable/flat_more_button_shape"
@@ -70,8 +67,6 @@
             android:layout_marginTop="@*com.android.vending:dimen/flat_creator_avatar_text_gap"
             android:maxLines="1"
             android:textAllCaps="true"
-            android:paddingStart="@*com.android.vending:dimen/flat_creator_button_xpadding"
-            android:paddingEnd="@*com.android.vending:dimen/flat_creator_button_xpadding"
             style="@*com.android.vending:style/PlayMediumPlainText" />
     </LinearLayout>
-</com.google.android.finsky.stream.controllers.view.FlatCardCreatorAvatarClusterView>
+</com.google.android.finsky.stream.controllers.view.CreatorAvatarCardClusterViewV2>
