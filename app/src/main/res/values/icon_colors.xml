@@ -1,8 +1,9 @@
 <resources>
     <!-- Icon - Outline -->
     <color name="icon_accent">#e19e9e</color>
-    <color name="icon_foreground">#f6cfd3</color>
+    <color name="icon_foreground">@color/icon_accent</color>
     <color name="icon_icon">@color/icon_accent</color>
+    <dimen name="icon_foreground_overlay">0.2</dimen>
 
     <!-- Hero - Outline -->
     <color name="hero_background">#fbecee</color>

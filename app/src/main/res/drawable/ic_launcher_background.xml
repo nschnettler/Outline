@@ -4,6 +4,10 @@
     android:viewportHeight="108.0"
     android:viewportWidth="108.0">
     <path
+        android:fillColor="#FFF"
+        android:pathData="M108,108H0V0h108V108z"/>
+    <path
         android:fillColor="@color/icon_foreground"
+        android:fillAlpha="@dimen/icon_foreground_overlay"
         android:pathData="M108,108H0V0h108V108z"/>
 </vector>
