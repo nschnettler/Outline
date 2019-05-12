@@ -5,6 +5,7 @@
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog -->
     <color name="homepage_status_bar_color">#00000000</color>                                                   <!-- StatusBar -->
     <color name="homepage_card_stroke_color">#0dFFFFFF</color>
+    <color name="homepage_card_dismissal_background">#0dFFFFFF</color>
 
     <!-- Icon & Text -->
     <color name="switchbar_switch_thumb_tint">#FFF</color>
