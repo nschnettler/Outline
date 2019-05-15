@@ -13,6 +13,7 @@
 
         <FrameLayout
             android:id="@*com.whatsapp:id/large_thumb_frame"
+            android:visibility="gone"
             android:layout_width="fill_parent"
             android:layout_height="1.0dip">
 
