@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Making a dark theme? You know what to do! -->
-    <style name="DialogStyle" parent="@style/Theme.AppCompat.Light.Dialog.Alert" />
+    <style name="DialogStyle" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert" />
     <!--
       ~ Custom dialog message on theme launch.
       ~ Add word in launch_dialog_negative to add a cancel button on the dialog
       -->
-    <string name="launch_dialog_title">Dialog title</string>
-    <string name="launch_dialog_content">Dialog content</string>
-    <string name="launch_dialog_positive">OK</string>
-    <string name="launch_dialog_negative" />
-    <string name="launch_dialog_negative_url" />
+    <string name="launch_dialog_title">Version Mismatch</string>
+    <string name="launch_q">This theme version is designed for Android Q. It will not work correctly on your Device. \n\nPlease leave the Beta-Channel.</string>
+    <string name="launch_p">This theme version is designed for Android Nougat/Oreo/Pie. It will not work correctly on your Device. \n\nPlease join the Beta-Channel for Android Q Support.</string>
+    <string name="launch_dialog_positive">PlayStore</string>
+    <string name="launch_dialog_negative">Ignore</string>
+    <string name="launch_dialog_negative_url">https://play.google.com/store/apps/details?id=com.schnettler.</string>
 </resources>
