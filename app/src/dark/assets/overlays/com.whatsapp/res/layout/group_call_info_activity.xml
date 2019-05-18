@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@*android:color/background_material_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip">
+
+        <com.whatsapp.coreui.MultiContactThumbnail
+            android:layout_gravity="center"
+            android:id="@*com.whatsapp:id/multi_contact_photo"
+            android:layout_width="@*com.whatsapp:dimen/small_avatar_size"
+            android:layout_height="@*com.whatsapp:dimen/small_avatar_size"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            whatsapp:mctPhotoSpacing="0.75dip"
+            whatsapp:mctRadius="27.0dip" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.whatsapp.WaTextView
+                android:textSize="17.0sp"
+                android:textColor="#FFF"
+                android:id="@*com.whatsapp:id/call_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:drawablePadding="4.0dip"
+                whatsapp:fontFamily="sans-serif" />
+
+            <com.whatsapp.WaTextView
+                android:textSize="14.0sp"
+                android:textColor="#b3FFFFFF"
+                android:id="@*com.whatsapp:id/call_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@*com.whatsapp:id/stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.whatsapp.WaTextView
+                    android:textSize="14.0sp"
+                    android:textColor="#b3FFFFFF"
+                    android:id="@*com.whatsapp:id/call_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:id="@*com.whatsapp:id/dot"
+                    android:background="@*com.whatsapp:drawable/dot_divider"
+                    android:layout_width="3.0dip"
+                    android:layout_height="3.0dip"
+                    android:layout_marginLeft="4.0dip" />
+
+                <com.whatsapp.WaTextView
+                    android:id="@*com.whatsapp:id/call_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@*com.whatsapp:id/divider"
+        android:background="#0dFFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16.0dip" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@*com.whatsapp:id/participants_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8.0dip" />
+</LinearLayout>
