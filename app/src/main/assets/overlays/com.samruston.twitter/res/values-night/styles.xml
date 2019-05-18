@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightDialogTheme" parent="@*com.samruston.twitter:style/Theme.AppCompat.Dialog.Alert">
+        <item name="*com.samruston.twitter:colorAccent">@android:color/holo_red_light</item>
+    </style>
+</resources>

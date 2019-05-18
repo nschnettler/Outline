@@ -3,4 +3,8 @@
     <!-- Accent -->
     <color name="blue">@android:color/holo_red_light</color>
     <color name="accentColor">@android:color/holo_red_light</color>
+
+    <!-- Background -->
+    <color name="boot">#FFF</color>                                                                 <!-- Launchscreen -->
+    <color name="settings_light_background">#FFF</color>
 </resources>
