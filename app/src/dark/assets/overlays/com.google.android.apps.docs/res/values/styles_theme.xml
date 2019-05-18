@@ -39,4 +39,9 @@
         <item name="android:backgroundTint">?android:colorBackground</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
     </style>
+
+    <style name="Upload.Button.Spinner.Daynight" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
