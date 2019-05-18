@@ -25,6 +25,7 @@
     <color name="review_filter_pill_text_color_selected">#FFF</color>                               <!-- Review Filter Selected -->
     <color name="flat_card_title_text_color">#FFF</color>                                           <!-- Card Title -->
     <color name="flat_card_subtitle_text_color">#b3FFFFFF</color>                                   <!-- Card Subtitle -->
+    <color name="google_grey700">#FFF</color>                                                       <!-- Drawer Item -->
 
     <!-- Background -->
         <!-- What's New -->
@@ -49,6 +50,8 @@
     <color name="review_filter_pill_outline_color">#0dFFFFFF</color>                                            <!-- Review Filter Border -->
     <color name="review_endorsement_border">#0dFFFFFF</color>                                                   <!-- Review Endorsement Border -->
     <color name="flat_card_consolidated_separator_color">#0dFFFFFF</color>
+    <color name="d30_discover_tag_pill_outline_color">#0dFFFFFF</color>                                         <!-- App Tags -->
+    <color name="google_grey300">#0dFFFFFF</color>                                                              <!-- Review Useful -->
 
     <color name="play_drawer_separator">@*android:color/background_dark</color>                                 <!-- Drawer Seperator -->
     <color name="reviews_filtering_color">#FFFFFF</color>
