@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="CalendarGmTheme.AbstractNoActionBar.Base" parent="@*com.google.android.calendar:style/Theme.GoogleMaterial.Dark.NoActionBar.Bridge" />
-    <style name="CalendarTheme.AbstractNoActionBar" parent="@*com.google.android.calendar:style/Theme.GoogleMaterial.Dark.NoActionBar.Bridge" />
-</resources>

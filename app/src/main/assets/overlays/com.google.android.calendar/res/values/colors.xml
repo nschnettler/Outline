@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="calendar_day_blue">@android:color/holo_blue_light</color>
+    <color name="calendar_night_blue">@android:color/holo_blue_light</color>
+
+    <!-- Light Theme -->
+    <color name="calendar_day_navigation_bar">#FFF</color>
+
+    <!-- Dark Theme -->
+    <color name="calendar_night_background">@*android:color/background_material_dark</color>                        <!-- Main -->
+    <color name="calendar_night_background_50">@*android:color/background_material_dark</color>
+    <color name="calendar_night_background_100">@*android:color/background_floating_material_dark</color>
+    <color name="calendar_night_background_200">@*android:color/background_floating_material_dark</color>
+    <color name="calendar_night_navigation_bar">@*android:color/background_material_dark</color>                    <!-- Navbar -->
+    <color name="calendar_night_background_elevation_2">@*android:color/background_material_dark</color>            <!-- AppBar -->
+    <color name="calendar_night_background_elevation_3">@*android:color/background_material_dark</color>            <!-- Drawer -->
+    <color name="calendar_night_background_elevation_5">@*android:color/background_floating_material_dark</color>   <!-- Small Fab -->
+    <color name="calendar_night_hairline">#0dFFFFFF</color>                                                         <!-- Hairline -->
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="google_dark_default_color_surface">@*android:color/background_material_dark</color>
+    <color name="calendar_night_background_scrim">#00000000</color>
+    <color name="calendar_night_secondary_650">#b3FFFFFF</color>
+    <color name="calendar_night_secondary_700">#ccFFFFFF</color>
+</resources>

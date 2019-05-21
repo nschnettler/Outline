@@ -3,7 +3,7 @@
     android:height="24dp"
     android:viewportWidth="24.0"
     android:viewportHeight="24.0"
-    android:tint="@*com.google.android.calendar:color/material_grey_600">
+    android:tint="?android:colorControlNormal">
     <path
         android:strokeColor="#FFF"
         android:strokeWidth="1.5"
