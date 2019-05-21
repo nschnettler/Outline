@@ -2,20 +2,8 @@
 <resources>
     <!-- Light Theme -->
     <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:colorBackground">@android:color/white</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="*com.topjohnwu.magisk:itemIconTint">@*com.topjohnwu.magisk:color/abc_tint_default</item>
-        <item name="*com.topjohnwu.magisk:itemTextColor">@*com.topjohnwu.magisk:color/abc_tint_default</item>
-
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:navigationBarDividerColor">#0dFFFFFF</item>
-    </style>
-
-    <!-- Dark Theme -->
-    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">#1a000000</item>
     </style>
 </resources>

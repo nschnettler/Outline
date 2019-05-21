@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="primary">@*android:color/background_material_dark</color>                          <!-- Primary -->
+    <color name="colorPrimaryDark">@*android:color/background_material_dark</color>                 <!-- Primary Dark -->
+    <color name="colorSecondary">@android:color/holo_red_light</color>                              <!-- Accent -->
+
+    <!-- Background -->
+    <color name="design_dark_default_color_surface">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+</resources>
