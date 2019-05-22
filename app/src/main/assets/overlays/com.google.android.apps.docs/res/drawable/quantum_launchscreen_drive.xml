@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
     android:opacity="opaque">
-    <item android:drawable="?android:colorBackground" />
+    <item android:drawable="?android:colorBackgroundFloating" />
     <item android:gravity="center|center_vertical" android:bottom="@*com.google.android.apps.docs:dimen/launchscreens_product_logo_bottom">
         <vector xmlns:android="http://schemas.android.com/apk/res/android"
             android:width="144dp"
             android:height="144dp"
             android:viewportWidth="24"
-            android:viewportHeight="24">
+            android:viewportHeight="24"
+            android:tint="?android:colorControlNormal">
             <path
-                android:strokeColor="?android:colorControlNormal"
+                android:strokeColor="#FFF"
                 android:strokeWidth="1.5"
                 android:strokeLineCap="round"
                 android:strokeLineJoin="round"

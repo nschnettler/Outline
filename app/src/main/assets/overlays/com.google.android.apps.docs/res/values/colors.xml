@@ -13,6 +13,6 @@
     <color name="quantum_purple400">@android:color/holo_purple</color>
     <color name="quantum_googgreen500">@android:color/holo_green_light</color>
     <color name="quantum_orange400">@android:color/holo_orange_light</color>
-
     <color name="google_green500">@android:color/holo_green_light</color>
+    <color name="out_of_storage_red">@android:color/holo_red_light</color>
 </resources>
