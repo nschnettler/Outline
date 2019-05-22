@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="google_grey900">@*android:color/background_material_dark</color> <!-- Main -->
-    <color name="google_grey800">@*android:color/background_floating_material_dark</color><!-- Card Placeholder -->
-    <color name="material_color_elevation_plusthree">@*android:color/background_material_dark</color><!--Details Toolbar -->
+    <!-- Background -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                           <!-- Main -->
+    <color name="google_grey800">@*android:color/background_floating_material_dark</color>                  <!-- Card Placeholder -->
+    <color name="material_color_elevation_plusthree">@*android:color/background_material_dark</color>       <!--Details Toolbar -->
     <color name="material_color_elevation_plustwo">@*android:color/background_floating_material_dark</color><!--Searchbar -->
-    <color name="google_dark_default_color_surface">@*android:color/background_material_dark</color><!-- Bottomsheet, Bottomnav, Settings Toolbar -->
-    <color name="og_elevation_dark_2">@*android:color/background_floating_material_dark</color><!--Accounts -->
-    <color name="google_grey700">#0dFFFFFF</color>
+    <color name="google_dark_default_color_surface">@*android:color/background_material_dark</color>        <!-- Bottomsheet, Bottomnav, Settings Toolbar -->
+    <color name="og_elevation_dark_2">@*android:color/background_floating_material_dark</color>             <!--Accounts -->
+    <color name="google_grey700">#0dFFFFFF</color>                                                          <!-- Hairline -->
 </resources>
