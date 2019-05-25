@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Settings -->
+    <style name="Theme.App.Settings.DayNight" parent="@*com.whatsapp:style/Theme.App.Settings.Dark" />
+    <style name="Theme.App.Settings.Dark" parent="@*com.whatsapp:style/Theme.App.Settings.Light">
+        <item name="*com.whatsapp:toolbarStyle">@*com.whatsapp:style/NightModeToolBarStyle</item>
+    </style>
+    <style name="NightModeToolBarStyle" parent="@*com.whatsapp:style/Widget.Styled.Toolbar">
+        <item name="*com.whatsapp:titleTextColor">@*com.whatsapp:color/settings_item_title_text</item>
+    </style>
+
     <!-- Main Theme -->
     <style name="Theme.App" parent="@*com.whatsapp:style/Theme.AppCompat">
         <item name="android:windowBackground">@*android:color/background_material_dark</item>
@@ -32,11 +41,6 @@
         <item name="*com.whatsapp:pstsTabPaddingLeftRight">8.0dip</item>
         <item name="*com.whatsapp:pstsShouldExpand">true</item>
     </style>
-
-    <!-- Settings -->
-    <style name="Theme.App.SettingsLight" parent="@*com.whatsapp:style/Theme.App.SettingsDark"/>
-
-    <style name="Theme.Prefs.Dark" parent="@*com.whatsapp:style/Theme.Prefs"/>
 
     <!-- Gallery -->
     <style name="Theme.App.GalleryPicker" parent="@*com.whatsapp:style/Theme.App">
