@@ -10,8 +10,8 @@ android {
 
     defaultConfig {
         targetSdkVersion 28
-        versionCode 47
-        versionName "32.3"
+        versionCode 49
+        versionName "32.4"
 
         buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "true"
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "false"
