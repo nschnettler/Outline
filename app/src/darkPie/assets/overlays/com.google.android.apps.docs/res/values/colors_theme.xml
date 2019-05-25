@@ -3,7 +3,7 @@
     <!-- Background -->
     <color name="google_grey900">@*android:color/background_material_dark</color>                               <!-- Main -->
     <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>   <!-- Surface -->
-    <color name="open_search_bar_bg_color">@*android:color/background_floating_material_dark</color>            <!-- Searchbar -->
+    <color name="material_color_elevation_plustwo">@*android:color/background_floating_material_dark</color>    <!-- Searchbar -->
     <color name="doclist_folder_transition_snapshot_bg">@*android:color/background_material_dark</color>        <!-- Folder Animation -->
     <color name="og_background_light">@*android:color/background_floating_material_dark</color>                 <!-- Account Switcher -->
     <color name="swipe_refresh_spinnner_bg">@*android:color/background_floating_material_dark</color>
@@ -30,6 +30,7 @@
     <color name="detail_card_title_text_daynight">#FFF</color>
     <color name="uploadmenu_on_primary_daynight">#FFF</color>
     <color name="uploadmenu_actionbar_title">#FFF</color>
+    <color name="google_grey800">#FFF</color>
 
     <!-- Divider, Cards & Ripple -->
     <color name="google_grey200">#0dFFFFFF</color>
