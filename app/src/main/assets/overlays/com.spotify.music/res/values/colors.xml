@@ -8,6 +8,8 @@
     <color name="glue_gray_background">@*android:color/background_floating_material_dark</color>    <!-- Devices -->
     <color name="black">@*android:color/background_material_dark</color>                            <!-- Get Premium -->
     <color name="cat_grayscale_8">@*android:color/background_material_dark</color>
+    <color name="bg_filter">@*android:color/background_material_dark</color>
+    <color name="cat_grayscale_12">@*android:color/background_material_dark</color>
 
     <!-- Accent -->
     <color name="glue_green">@android:color/holo_green_light</color>                                <!-- Main -->
