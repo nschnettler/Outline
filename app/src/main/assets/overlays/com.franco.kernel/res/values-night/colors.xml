@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="fkColorAccent">@android:color/holo_green_light</color>                             <!-- Accent -->
+
+    <!-- Background -->
+    <color name="cardview_color">@*android:color/background_floating_material_dark</color>          <!-- Card -->
+    <color name="nav_drawer_color">@*android:color/background_floating_material_dark</color>        <!-- Drawer -->
+    <color name="navbar_color">@*android:color/background_floating_material_dark</color>            <!-- NavBar -->
+    <color name="statusbar_color">@*android:color/background_material_dark</color>                  <!-- StatusBar -->
+    <color name="md_grey_900">@*android:color/background_floating_material_dark</color>             <!-- Dialog -->
+    <color name="md_grey_700">#0dFFFFFF</color>                                                     <!-- Card Stroke -->
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+</resources>
