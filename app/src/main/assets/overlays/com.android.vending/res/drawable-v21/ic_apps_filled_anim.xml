@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@*com.android.vending:drawable/ic_apps"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

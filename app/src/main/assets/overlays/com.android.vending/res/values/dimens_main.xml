@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Card Corner Radius -->
-    <dimen name="play_card_default_radius">8dip</dimen>
-</resources>
