@@ -13,7 +13,7 @@
         android:soundEffectsEnabled="false"
         android:importantForAccessibility="no" />
 
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_gravity="center_horizontal"
         android:id="@*com.android.vending:id/coordinator"
         android:background="@android:color/transparent"
@@ -112,5 +112,5 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
         </FrameLayout>
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </FrameLayout>

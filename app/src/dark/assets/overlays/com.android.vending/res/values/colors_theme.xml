@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Background -->
-    <color name="play_main_background">@*android:color/background_material_dark</color>             <!-- Main -->
-</resources>

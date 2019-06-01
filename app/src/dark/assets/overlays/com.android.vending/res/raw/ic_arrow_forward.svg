@@ -3,12 +3,8 @@
     viewBox="0 0 24 24">
     <path fill="none"
         stroke="#FFFFFF"
-        stroke-opacity="0.8"
         stroke-width="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"
-        d="M4.75 16.03v2.72c0 .828.672 1.5 1.5 1.5h11.5c.828 0
- 1.5-.672 1.5-1.5V5.25c0-.828-.672-1.5-1.5-1.5H6.25c-.828
- 0-1.5.672-1.5 1.5v2.78m0 4.001L9.444 12
-M9.875 9l3.25 2.969L9.875 15V9z"/>
+        d="M5.25 12h14.5m0 0l-7.024 7.024M19.75 12L12.7 5"/>
 </svg>

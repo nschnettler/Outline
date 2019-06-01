@@ -3,12 +3,14 @@
     <!--Icons (custom) -->
     <color name="play_icon_default">#FFFFFF</color>
     <color name="review_acquisition_stars_border_color">#FFFFFF</color>
+    <color name="d30_header_banner_bg">#f00</color>
 
     <!-- Text -->
     <color name="play_fg_primary">#FFFFFF</color>                                                   <!-- Primary Text Color, for example  Drawer unselected-->
     <color name="play_fg_secondary">#b3FFFFFF</color>                                               <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
-    <color name="replay__pal_gray_900">#FFF</color>                                                 <!-- Card Title -->
+    <color name="google_grey900">#FFF</color>                                                       <!-- Card Title -->
     <color name="replay__pal_gray_700">#b3FFFFFF</color>                                            <!-- Card Subtitle -->
+    <color name="google_grey800">#FFF</color>
     <color name="primary_text_default_material_light">#FFF</color>
     <color name="detailed_permissions_footer_text">#b3FFFFFF</color>
     <color name="play_icon_selected">#FFFFFF</color>                                                <!-- Drawer Selected -->
@@ -26,9 +28,12 @@
     <color name="flat_card_title_text_color">#FFF</color>                                           <!-- Card Title -->
     <color name="flat_card_subtitle_text_color">#b3FFFFFF</color>                                   <!-- Card Subtitle -->
     <color name="google_grey700">#FFF</color>                                                       <!-- Drawer Item -->
+    <color name="family_sharing_switch_thumb_disabled">#b3FFFFFF</color>
+    <color name="family_sharing_switch_track_disabled">#1aFFFFFF</color>
 
     <!-- Background -->
         <!-- What's New -->
+        <color name="whatsnew_apps">@*android:color/background_dark</color>
         <color name="whatsnew_books">@*android:color/background_dark</color>
         <color name="whatsnew_movies">@*android:color/background_dark</color>
         <color name="whatsnew_music">@*android:color/background_dark</color>
@@ -45,6 +50,12 @@
     <color name="review_reply_background">@android:color/background_dark</color>
     <color name="all_reviews_filter_list_background">@*android:color/background_material_dark</color>           <!-- Review Filters -->
     <color name="play_histogram_background">@android:color/background_dark</color>
+    <color name="play_white">@*android:color/background_material_dark</color>
+    <color name="white">@*android:color/background_material_dark</color>
+    <color name="google_white">@*android:color/background_material_dark</color>
+    <color name="flat_card_cluster_light_background">@*android:color/background_material_dark</color>           <!-- New Flat Cards -->
+    <color name="play_card_light_background">@*android:color/background_material_dark</color>                   <!-- Card -->
+    <color name="play_main_background">@*android:color/background_material_dark</color>
 
     <!-- Divider -->
     <color name="review_filter_pill_outline_color">#0dFFFFFF</color>                                            <!-- Review Filter Border -->

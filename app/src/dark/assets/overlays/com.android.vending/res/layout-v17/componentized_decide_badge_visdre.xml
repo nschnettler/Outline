@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeView android:orientation="vertical"
+    android:id="@*com.android.vending:id/decide_badge_view"
+    android:paddingTop="@*com.android.vending:dimen/small_padding"
+    android:paddingBottom="@*com.android.vending:dimen/small_padding"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="@*com.android.vending:drawable/focus_overlay"
+    android:minHeight="@*com.android.vending:dimen/componentized_decide_badge_min_height"
+    android:paddingEnd="@*com.android.vending:dimen/medium_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_gravity="start|center"
+        android:orientation="horizontal"
+        android:id="@*com.android.vending:id/decide_badge_icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="@*com.android.vending:dimen/componentized_decide_badge_icon_size"
+        android:layout_marginBottom="2.0dip">
+
+        <com.google.android.play.image.FifeImageView
+            android:id="@*com.android.vending:id/left_icon_image"
+            android:visibility="gone"
+            android:layout_width="@*com.android.vending:dimen/componentized_decide_badge_icon_size"
+            android:layout_height="@*com.android.vending:dimen/componentized_decide_badge_icon_size"
+            android:layout_marginLeft="0.0dip"
+            android:layout_marginRight="@*com.android.vending:dimen/componentized_decide_badge_icon_margin_to_text"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0.0dip"
+            android:layout_marginEnd="@*com.android.vending:dimen/componentized_decide_badge_icon_margin_to_text" />
+
+        <TextView
+            android:textColor="@*com.android.vending:color/google_grey800"
+            android:ellipsize="end"
+            android:id="@*com.android.vending:id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_toRightOf="@*com.android.vending:id/left_icon_image"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@*com.android.vending:id/left_icon_image"
+            style="@*com.android.vending:style/TextAppearanceSubhead2.Medium" />
+
+        <com.google.android.play.image.FifeImageView
+            android:id="@*com.android.vending:id/right_icon_image"
+            android:visibility="gone"
+            android:layout_width="@*com.android.vending:dimen/componentized_decide_badge_icon_size"
+            android:layout_height="@*com.android.vending:dimen/componentized_decide_badge_icon_size"
+            android:layout_marginLeft="@*com.android.vending:dimen/componentized_decide_badge_icon_margin_to_text"
+            android:layout_marginRight="0.0dip"
+            android:layout_toRightOf="@*com.android.vending:id/title_text"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@*com.android.vending:dimen/componentized_decide_badge_icon_margin_to_text"
+            android:layout_marginEnd="0.0dip"
+            android:layout_toEndOf="@*com.android.vending:id/title_text" android:tint="#66FFFFFF"
+            android:tintMode="src_atop"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_gravity="start|center"
+        android:id="@*com.android.vending:id/subtitle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@*com.android.vending:style/TextAppearance.GoogleMaterial.Caption" />
+</com.google.android.finsky.uicomponents.decidebar.view.DecideBadgeView>
