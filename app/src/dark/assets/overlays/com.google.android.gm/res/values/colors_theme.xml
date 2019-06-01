@@ -6,7 +6,6 @@
     <color name="list_background_color">@*android:color/background_material_dark</color>                        <!-- Drawer -->
     <color name="conversation_view_overlay_background_color">@*android:color/background_material_dark</color>   <!-- Mail -->
     <color name="attachment_bg_color">@*android:color/background_material_dark</color>
-    <color name="action_mode_statusbar_color">@android:color/holo_red_light</color>
     <color name="message_header_background_color">@*android:color/background_material_dark</color>
     <color name="suw_glif_background_color_light">@*android:color/background_material_dark</color>
     <color name="promo_card">@*android:color/background_material_dark</color>
