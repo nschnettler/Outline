@@ -56,6 +56,8 @@
     <color name="flat_card_cluster_light_background">@*android:color/background_material_dark</color>           <!-- New Flat Cards -->
     <color name="play_card_light_background">@*android:color/background_material_dark</color>                   <!-- Card -->
     <color name="play_main_background">@*android:color/background_material_dark</color>
+    <color name="replay__pal_gray_100">@*android:color/background_floating_material_dark</color>                <!-- Button Disabled -->
+
 
     <!-- Divider -->
     <color name="review_filter_pill_outline_color">#0dFFFFFF</color>                                            <!-- Review Filter Border -->
