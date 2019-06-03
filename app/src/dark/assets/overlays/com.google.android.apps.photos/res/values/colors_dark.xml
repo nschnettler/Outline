@@ -13,6 +13,7 @@
     <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>       <!-- Overflow -->
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>       <!-- Dialog -->
     <color name="photos_daynight_white_elevation_6dp">@*android:color/background_floating_material_dark</color>     <!-- Searchbar -->
+    <color name="photos_daynight_grey100">@*android:color/background_floating_material_dark</color>
 
     <!-- Divider -->
     <color name="google_dark_default_color_hairline">#0dFFFFFF</color>
