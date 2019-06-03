@@ -40,6 +40,7 @@
     <color name="homepage_aicpextras_background">#0dFFFFFF</color>
     <color name="homepage_evolution_background">#0dFFFFFF</color>
     <color name="homepage_cosp_background">#0dFFFFFF</color>
+	<color name="abc_settings_icon_background">#0dFFFFFF</color>
     <color name="omni_logo_color">#0dFFFFFF</color>
 
     <!-- Owls Nest -->
