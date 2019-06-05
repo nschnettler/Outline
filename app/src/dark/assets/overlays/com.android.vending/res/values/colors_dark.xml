@@ -45,7 +45,7 @@
     <color name="play_search_suggestion_divider_background">@*android:color/background_material_dark</color>    <!-- Search Divider -->
     <color name="background_floating_material_light">@*android:color/background_material_dark</color>           <!-- Dialog -->
     <color name="detailed_permissions_footer_bg">@*android:color/background_material_dark</color>               <!-- Permission Footer -->
-    <color name="play_white_half_transparent">@android:color/holo_green_light</color>
+    <color name="play_white_half_transparent">@*android:color/background_material_dark</color>
     <color name="write_review_fragment_background_color">@*android:color/background_material_dark</color>
     <color name="review_reply_background">@android:color/background_dark</color>
     <color name="all_reviews_filter_list_background">@*android:color/background_material_dark</color>           <!-- Review Filters -->

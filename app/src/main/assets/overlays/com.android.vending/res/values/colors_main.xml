@@ -13,4 +13,5 @@
 
     <!-- Other -->
     <color name="testing_program_cap_reached_message_fg">@android:color/holo_red_light</color>
+    <color name="status_bar_overlay">#00000000</color>
 </resources>
