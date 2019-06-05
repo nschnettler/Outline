@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="toolbarStyle" format="reference" />
+    <attr name="preserveIconSpacing" format="boolean" />
+    <attr name="titleTextAppearance" format="reference" />
+    <attr name="subtitleTextAppearance" format="reference" />
+    <attr name="title" format="string" />
+    <attr name="subtitle" format="string" />
+    <attr name="titleMargin" format="dimension" />
+    <attr name="titleMarginStart" format="dimension" />
+    <attr name="titleMarginEnd" format="dimension" />
+    <attr name="titleMarginTop" format="dimension" />
+    <attr name="titleMarginBottom" format="dimension" />
+    <attr name="subTitleMarginBottom" format="dimension" />
+    <attr name="titleMargins" format="dimension" />
+    <attr name="contentInsetStart" format="dimension" />
+    <attr name="contentInsetEnd" format="dimension" />
+    <attr name="contentInsetLeft" format="dimension" />
+    <attr name="contentInsetRight" format="dimension" />
+    <attr name="contentInsetStartWithNavigation" format="dimension" />
+    <attr name="contentInsetEndWithActions" format="dimension" />
+    <attr name="maxButtonHeight" format="dimension" />
+    <attr name="opButtonGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="collapseIcon" format="reference" />
+    <attr name="collapseContentDescription" format="string" />
+    <attr name="navigationIcon" format="reference" />
+    <attr name="navigationContentDescription" format="string" />
+    <attr name="logoDescription" format="string" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="subtitleTextColor" format="color" />
+    <attr name="actionIconSpace" format="dimension" />
+    <attr name="paddingLeftWithNavIcon" format="dimension" />
+    <attr name="realPaddingBottom" format="dimension" />
+    <attr name="realTitleMarginBottom" format="dimension" />
+    <attr name="op_collapsible" format="boolean" />
+    <attr name="closeItemLayout" format="reference" />
     <attr name="op_allowStacking" format="boolean" />
     <attr name="cardBackgroundColor" format="color" />
     <attr name="cardCornerRadius" format="dimension" />
@@ -13,6 +50,8 @@
     <attr name="contentPaddingTop" format="dimension" />
     <attr name="contentPaddingBottom" format="dimension" />
     <attr name="cardBackgroundColorMask" format="color" />
+    <attr name="threeState" format="boolean" />
+    <attr name="indeterminate" format="boolean" />
     <attr name="op_backgroundTintMode">
         <enum name="add" value="16" />
         <enum name="multiply" value="14" />
@@ -53,6 +92,36 @@
     <attr name="op_tabPaddingEnd" format="dimension" />
     <attr name="op_tabPaddingBottom" format="dimension" />
     <attr name="op_tabPadding" format="dimension" />
+    <attr name="numberPickerStyle" format="reference" />
+    <attr name="timePickerStyle" format="reference" />
+    <attr name="opTextColorPrimaryActivated" format="color" />
+    <attr name="opTextColorSecondaryActivated" format="color" />
+    <attr name="opPickerColorActivated" format="color" />
+    <attr name="opPickerColorUnActivated" format="color" />
+    <attr name="opPickerInputLabelUnActivated" format="color" />
+    <attr name="opTextColorCalendarDayActivated" format="color" />
+    <attr name="internalLayout" format="reference" />
+    <attr name="headerTextColor" format="color" />
+    <attr name="yearListItemActivatedTextAppearance" format="reference" />
+    <attr name="calendarTextColor" format="color" />
+    <attr name="dialogMode" format="boolean" />
+    <attr name="opsolidColor" format="color" />
+    <attr name="selectionDivider" format="reference" />
+    <attr name="selectionDividerHeight" format="dimension" />
+    <attr name="selectionDividerWidth" format="dimension" />
+    <attr name="selectionDividersDistance" format="dimension" />
+    <attr name="internalMinHeight" format="dimension" />
+    <attr name="internalMaxHeight" format="dimension" />
+    <attr name="internalMinWidth" format="dimension" />
+    <attr name="internalMaxWidth" format="dimension" />
+    <attr name="virtualButtonPressedDrawable" format="reference" />
+    <attr name="hideWheelUntilFocused" format="boolean" />
+    <attr name="selectionOtherNumberColor" format="color" />
+    <attr name="headerSelectedTextColor" format="color" />
+    <attr name="headerAmPmTextAppearance" format="reference" />
+    <attr name="legacyLayout" format="reference" />
+    <attr name="numbersTextColor" format="color" />
+    <attr name="numbersInnerTextColor" format="color" />
     <attr name="op_preferenceScreenStyle" format="reference" />
     <attr name="op_preferenceActivityStyle" format="reference" />
     <attr name="op_preferenceFragmentStyle" format="reference" />
@@ -68,6 +137,8 @@
     <attr name="op_preferenceFragmentListStyle" format="reference" />
     <attr name="op_switchPreferenceStyle" format="reference" />
     <attr name="op_seekBarPreferenceStyle" format="reference" />
+    <attr name="opUseAvatarIcon" format="boolean" />
+    <attr name="opOnlyDarkTheme" format="boolean" />
     <attr name="oneplusHeaderLayout" format="reference" />
     <attr name="headerRemoveIconIfEmpty" format="boolean" />
     <attr name="OPListViewStyle" format="reference" />
@@ -76,8 +147,6 @@
     <attr name="OPAlertDialogStyle" format="reference" />
     <attr name="op_buttonPanelSideLayout" format="reference" />
     <attr name="op_listLayout" format="reference" />
-    <attr name="progressLayout" format="reference" />
-    <attr name="horizontalProgressLayout" format="reference" />
     <attr name="op_listItemLayout" format="reference" />
     <attr name="op_multiChoiceItemLayout" format="reference" />
     <attr name="op_singleChoiceItemLayout" format="reference" />
@@ -87,18 +156,25 @@
     <attr name="op_elevation" format="reference|dimension" />
     <attr name="op_pressedTranslationZ" format="reference|dimension" />
     <attr name="op_borderWidth" format="reference|dimension" />
+    <attr name="OPSwitchFloatingActionButtonStyle" format="reference" />
+    <attr name="OPRectangleFloatingActionButtonStyle" format="reference" />
+    <attr name="op_image" format="reference" />
+    <attr name="op_tint_color" format="color" />
     <attr name="OPToastStyle" format="reference" />
     <attr name="OPSeekBarStyle" format="reference" />
     <attr name="OPProgressBarStyle" format="reference" />
     <attr name="textAppearanceOPNumberPickerUnit" format="reference" />
     <attr name="OPTabLayoutStyle" format="reference" />
+    <attr name="OPImageCheckboxStyle" format="reference" />
     <attr name="onePlusBaseColor" format="reference|color" />
     <attr name="onePlusTextColor" format="reference|color" />
     <attr name="onePlusSecondaryTextColor" format="reference|color" />
     <attr name="onePlusDisabledTextColor" format="reference|color" />
     <attr name="onePlusDisabledColor" format="reference|color" />
     <attr name="onePlusPrimaryColor" format="reference|color" />
+    <attr name="onePlusDialogPrimaryColor" format="reference|color" />
     <attr name="onePlusAccentColor" format="reference|color" />
+    <attr name="onePlusColorButtonNormal" format="reference|color" />
     <attr name="onePlusActionbarTitleColor" format="reference|color" />
     <attr name="onePlusActionbarSubtitleColor" format="reference|color" />
     <attr name="onePlusTabTextColor" format="reference|color" />
@@ -114,11 +190,170 @@
     <attr name="onePlusTabTextSelectedAlpha" format="float" />
     <attr name="onePlusActionbarIconAlpha" format="float" />
     <attr name="onePlusColorControlHighlight" format="color" />
+    <attr name="onePlusSearchIconColor" format="reference|color" />
+    <attr name="onePlusSearchIconInActiveColor" format="reference|color" />
+    <attr name="maxActionInlineWidth" format="dimension" />
+    <attr name="opTextAppearancePopupMenuHeader" format="reference" />
+    <attr name="opNavigationButtonStyle" format="reference" />
+    <attr name="opPanelMenuListWidth" format="dimension" />
+    <attr name="opDropdownListPreferredItemHeight" format="dimension" />
+    <attr name="opDropdownListItemSelectedColor" format="color" />
+    <attr name="windowActionBar" format="boolean" />
+    <attr name="windowNoTitle" format="boolean" />
+    <attr name="windowActionBarOverlay" format="boolean" />
+    <attr name="windowActionModeOverlay" format="boolean" />
+    <attr name="windowFixedWidthMajor" format="dimension|fraction" />
+    <attr name="windowFixedHeightMinor" format="dimension|fraction" />
+    <attr name="windowFixedWidthMinor" format="dimension|fraction" />
+    <attr name="windowFixedHeightMajor" format="dimension|fraction" />
+    <attr name="windowMinWidthMajor" format="dimension|fraction" />
+    <attr name="windowMinWidthMinor" format="dimension|fraction" />
+    <attr name="actionBarTabStyle" format="reference" />
+    <attr name="actionBarTabBarStyle" format="reference" />
+    <attr name="actionBarTabTextStyle" format="reference" />
+    <attr name="actionOverflowButtonStyle" format="reference" />
+    <attr name="actionOverflowMenuStyle" format="reference" />
+    <attr name="actionBarPopupTheme" format="reference" />
+    <attr name="actionBarStyle" format="reference" />
+    <attr name="actionBarSplitStyle" format="reference" />
+    <attr name="actionBarTheme" format="reference" />
+    <attr name="actionBarWidgetTheme" format="reference" />
+    <attr name="actionBarDivider" format="reference" />
+    <attr name="actionBarItemBackground" format="reference" />
+    <attr name="actionMenuTextAppearance" format="reference" />
+    <attr name="actionMenuTextColor" format="reference|color" />
+    <attr name="actionModeStyle" format="reference" />
+    <attr name="actionModeCloseButtonStyle" format="reference" />
+    <attr name="actionModeBackground" format="reference" />
+    <attr name="actionModeSplitBackground" format="reference" />
+    <attr name="actionModeCloseDrawable" format="reference" />
+    <attr name="actionModeCutDrawable" format="reference" />
+    <attr name="actionModeCopyDrawable" format="reference" />
+    <attr name="actionModePasteDrawable" format="reference" />
+    <attr name="actionModeSelectAllDrawable" format="reference" />
+    <attr name="actionModeShareDrawable" format="reference" />
+    <attr name="actionModeFindDrawable" format="reference" />
+    <attr name="actionModeWebSearchDrawable" format="reference" />
+    <attr name="actionModePopupWindowStyle" format="reference" />
+    <attr name="textAppearanceLargePopupMenu" format="reference" />
+    <attr name="textAppearanceSmallPopupMenu" format="reference" />
+    <attr name="textAppearancePopupMenuHeader" format="reference" />
+    <attr name="dialogTheme" format="reference" />
+    <attr name="dialogPreferredPadding" format="dimension" />
+    <attr name="listDividerAlertDialog" format="reference" />
+    <attr name="actionDropDownStyle" format="reference" />
+    <attr name="dropdownListPreferredItemHeight" format="dimension" />
+    <attr name="spinnerDropDownItemStyle" format="reference" />
+    <attr name="homeAsUpIndicator" format="reference" />
+    <attr name="actionButtonStyle" format="reference" />
+    <attr name="buttonBarStyle" format="reference" />
+    <attr name="buttonBarButtonStyle" format="reference" />
+    <attr name="selectableItemBackground" format="reference" />
+    <attr name="selectableItemBackgroundBorderless" format="reference" />
+    <attr name="borderlessButtonStyle" format="reference" />
+    <attr name="dividerVertical" format="reference" />
+    <attr name="dividerHorizontal" format="reference" />
+    <attr name="activityChooserViewStyle" format="reference" />
+    <attr name="toolbarNavigationButtonStyle" format="reference" />
+    <attr name="popupMenuStyle" format="reference" />
+    <attr name="popupWindowStyle" format="reference" />
+    <attr name="editTextColor" format="reference|color" />
+    <attr name="editTextBackground" format="reference" />
+    <attr name="imageButtonStyle" format="reference" />
+    <attr name="textAppearanceSearchResultTitle" format="reference" />
+    <attr name="textAppearanceSearchResultSubtitle" format="reference" />
+    <attr name="textColorSearchUrl" format="reference|color" />
+    <attr name="searchViewStyle" format="reference" />
+    <attr name="listPreferredItemHeight" format="dimension" />
+    <attr name="listPreferredItemHeightSmall" format="dimension" />
+    <attr name="listPreferredItemHeightLarge" format="dimension" />
+    <attr name="listPreferredItemPaddingLeft" format="dimension" />
+    <attr name="listPreferredItemPaddingRight" format="dimension" />
+    <attr name="dropDownListViewStyle" format="reference" />
+    <attr name="listPopupWindowStyle" format="reference" />
+    <attr name="textAppearanceListItem" format="reference" />
+    <attr name="textAppearanceListItemSmall" format="reference" />
+    <attr name="panelBackground" format="reference" />
+    <attr name="panelMenuListWidth" format="dimension" />
+    <attr name="panelMenuListTheme" format="reference" />
+    <attr name="listChoiceBackgroundIndicator" format="reference" />
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="colorControlNormal" format="color" />
+    <attr name="colorControlActivated" format="color" />
+    <attr name="colorControlHighlight" format="color" />
+    <attr name="colorButtonNormal" format="color" />
+    <attr name="colorSwitchThumbNormal" format="color" />
+    <attr name="controlBackground" format="reference" />
+    <attr name="colorBackgroundFloating" format="color" />
+    <attr name="alertDialogStyle" format="reference" />
+    <attr name="alertDialogButtonGroupStyle" format="reference" />
+    <attr name="alertDialogCenterButtons" format="boolean" />
+    <attr name="alertDialogTheme" format="reference" />
+    <attr name="textColorAlertDialogListItem" format="reference|color" />
+    <attr name="buttonBarPositiveButtonStyle" format="reference" />
+    <attr name="buttonBarNegativeButtonStyle" format="reference" />
+    <attr name="buttonBarNeutralButtonStyle" format="reference" />
+    <attr name="autoCompleteTextViewStyle" format="reference" />
+    <attr name="buttonStyle" format="reference" />
+    <attr name="buttonStyleSmall" format="reference" />
+    <attr name="checkboxStyle" format="reference" />
+    <attr name="checkedTextViewStyle" format="reference" />
+    <attr name="editTextStyle" format="reference" />
+    <attr name="radioButtonStyle" format="reference" />
+    <attr name="ratingBarStyle" format="reference" />
+    <attr name="ratingBarStyleIndicator" format="reference" />
+    <attr name="ratingBarStyleSmall" format="reference" />
+    <attr name="seekBarStyle" format="reference" />
+    <attr name="spinnerStyle" format="reference" />
+    <attr name="switchStyle" format="reference" />
+    <attr name="listMenuViewStyle" format="reference" />
+    <attr name="op_navigationMode">
+        <enum name="normal" value="0" />
+        <enum name="listMode" value="1" />
+        <enum name="tabMode" value="2" />
+    </attr>
+    <attr name="op_displayOptions">
+        <flag name="disableHome" value="0x00000020" />
+        <flag name="homeAsUp" value="0x00000004" />
+        <flag name="none" value="0x00000000" />
+        <flag name="showCustom" value="0x00000010" />
+        <flag name="showHome" value="0x00000002" />
+        <flag name="showTitle" value="0x00000008" />
+        <flag name="useLogo" value="0x00000001" />
+    </attr>
+    <attr name="titleTextStyle" format="reference" />
+    <attr name="subtitleTextStyle" format="reference" />
+    <attr name="icon" format="reference" />
+    <attr name="logo" format="reference" />
+    <attr name="divider" format="reference" />
+    <attr name="background" format="reference" />
+    <attr name="backgroundStacked" format="reference|color" />
+    <attr name="backgroundSplit" format="reference|color" />
+    <attr name="customNavigationLayout" format="reference" />
+    <attr name="homeLayout" format="reference" />
+    <attr name="progressBarStyle" format="reference" />
+    <attr name="indeterminateProgressStyle" format="reference" />
+    <attr name="progressBarPadding" format="dimension" />
+    <attr name="itemPadding" format="dimension" />
+    <attr name="hideOnContentScroll" format="boolean" />
+    <attr name="elevation" format="dimension" />
+    <attr name="height" format="dimension" />
+    <attr name="alpha" format="float" />
+    <attr name="theme" format="reference" />
+    <attr name="actionLayout" format="reference" />
+    <attr name="actionViewClass" format="string" />
+    <attr name="actionProviderClass" format="string" />
+    <attr name="contentDescription" format="string" />
+    <attr name="tooltipText" format="string" />
+    <attr name="iconTint" format="color" />
     <attr name="opExpandedTitleMargin" format="dimension" />
     <attr name="opExpandedTitleMarginStart" format="dimension" />
     <attr name="opExpandedTitleMarginTop" format="dimension" />
     <attr name="opExpandedTitleMarginEnd" format="dimension" />
     <attr name="opExpandedTitleMarginBottom" format="dimension" />
+    <attr name="opCollapsedTitleMarginBottom" format="dimension" />
     <attr name="opExpandedTitleTextAppearance" format="reference" />
     <attr name="opCollapsedTitleTextAppearance" format="reference" />
     <attr name="opContentScrim" format="color" />
@@ -210,27 +445,42 @@
     </attr>
     <attr name="op_layout_scrollInterpolator" format="reference" />
     <attr name="op_behavior_autoHide" format="boolean" />
-    <attr name="layoutManager" format="string" />
-    <attr name="spanCount" format="integer" />
-    <attr name="reverseLayout" format="boolean" />
-    <attr name="stackFromEnd" format="boolean" />
-    <attr name="fastScrollEnabled" format="boolean" />
-    <attr name="fastScrollVerticalThumbDrawable" format="reference" />
-    <attr name="fastScrollVerticalTrackDrawable" format="reference" />
-    <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
-    <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+    <attr name="opTextColorError" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="opColorError" format="reference|color" />
+    <attr name="opHintTextAppearance" format="reference" />
+    <attr name="opHintEnabled" format="boolean" />
+    <attr name="opErrorEnabled" format="boolean" />
+    <attr name="opErrorTextAppearance" format="reference" />
+    <attr name="opCounterEnabled" format="boolean" />
+    <attr name="opCounterMaxLength" format="integer" />
+    <attr name="opCounterTextAppearance" format="reference" />
+    <attr name="opCounterOverflowTextAppearance" format="reference" />
+    <attr name="opHintAnimationEnabled" format="boolean" />
+    <attr name="opPasswordToggleEnabled" format="boolean" />
+    <attr name="opPasswordToggleDrawable" format="reference" />
+    <attr name="opPasswordToggleContentDescription" format="string" />
+    <attr name="opPasswordToggleTint" format="color" />
+    <attr name="opPasswordToggleTintMode">
+        <enum name="op_multiply" value="14" />
+        <enum name="op_screen" value="15" />
+        <enum name="op_src_atop" value="9" />
+        <enum name="op_src_in" value="5" />
+        <enum name="op_src_over" value="3" />
+    </attr>
+    <attr name="defaultQueryHint" format="string" />
+    <attr name="interpolatorX" format="reference" />
+    <attr name="interpolatorY" format="reference" />
+    <attr name="interpolatorZ" format="reference" />
+    <attr name="monthTextAppearance" format="reference" />
+    <attr name="weekDayTextAppearance" format="reference" />
+    <attr name="dateTextAppearance" format="reference" />
+    <attr name="daySelectorColor" format="color" />
+    <attr name="state_indeterminate" format="boolean" />
     <attr name="letter_color_1" format="color" />
     <attr name="letter_color_2" format="color" />
     <attr name="letter_color_3" format="color" />
     <attr name="letter_color_4" format="color" />
-    <attr name="dialpad_key_button_touch_tint" format="color" />
-    <attr name="resizing_text_min_size" format="dimension" />
-    <attr name="dialpad_text_color" format="color" />
-    <attr name="dialpad_text_color_primary" format="color" />
-    <attr name="dialpad_text_color_secondary" format="color" />
-    <attr name="dialpad_icon_tint" format="color" />
-    <attr name="dialpad_voicemail_tint" format="color" />
-    <attr name="dialpad_background" format="color" />
+    <attr name="contacts_default_avatar_bg_color" format="color" />
     <attr name="list_item_height" format="dimension" />
     <attr name="list_section_header_height" format="dimension" />
     <attr name="activated_background" format="reference" />
@@ -271,26 +521,29 @@
     <attr name="favorites_padding_bottom" format="dimension" />
     <attr name="display_image" format="boolean" />
     <attr name="min_height" format="dimension" />
+    <attr name="with_illustration" format="boolean" />
     <attr name="maxHeight" format="dimension" />
     <attr name="miniHeight" format="dimension" />
     <attr name="gapHeight" format="dimension" />
     <attr name="textSize" format="dimension" />
-    <attr name="paddingLeft" format="dimension" />
-    <attr name="paddingRight" format="dimension" />
-    <attr name="paddingTop" format="dimension" />
-    <attr name="paddingBottom" format="dimension" />
+    <attr name="indexBarPaddingLeft" format="dimension" />
+    <attr name="indexBarPaddingRight" format="dimension" />
+    <attr name="indexBarPaddingTop" format="dimension" />
+    <attr name="indexBarPaddingBottom" format="dimension" />
     <attr name="textColor" format="color" />
     <attr name="selectColor" format="color" />
     <attr name="previewMinWidth" format="dimension" />
     <attr name="previewMinHeight" format="dimension" />
     <attr name="previewMarginEnd" format="dimension" />
     <attr name="previewTextSize" format="dimension" />
+    <attr name="previewTextColor" format="color" />
     <attr name="previewTextMargin" format="dimension" />
     <attr name="previewHeightTopPaddingRatio" format="float" />
     <attr name="showPreview" format="boolean" />
+    <attr name="checkedAvdDrawable" format="integer" />
+    <attr name="unCheckedAvdDrawable" format="integer" />
     <attr name="mimeType" format="string" />
     <attr name="remoteViews" format="reference" />
-    <attr name="icon" format="reference" />
     <attr name="summaryColumn" format="string" />
     <attr name="detailColumn" format="string" />
     <attr name="edgeWidth" format="dimension" />

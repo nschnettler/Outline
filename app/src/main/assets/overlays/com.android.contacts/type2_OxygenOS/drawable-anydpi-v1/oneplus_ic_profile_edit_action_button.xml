@@ -2,14 +2,18 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24.0"
-    android:viewportHeight="24.0">
+    android:viewportHeight="24.0"
+    android:tint="?onePlusActionbarIconColor">
     <path
-        android:strokeColor="?onePlusActionbarIconColor"
+        android:strokeColor="#FFF"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M18.207 4.207c-.187-.187-.442-.293-.707-.293-.265 0-.52.106-.707.293C13.95
- 7.051 3.504 17.5 3.504 17.5l-.004 3 3.026-.003s10.43-10.447
- 13.268-13.29c.39-.391.39-1.023-.001-1.414l-1.586-1.586zM14.963
-6.038l3.001 3.002"/>
+        android:pathData="M3.75 20.25v-3.194S13.817 7.014 16.959
+3.881c.245-.245.577-.381.922-.38.346.001.677.14.92.386.419.423.913.923
+1.33 1.345.502.509.5 1.327-.006 1.833C17.002
+10.189 6.942 20.25 6.942 20.25H3.75zM14.66
+6.173l3.21 3.148M15.66 5.173l3.21 3.148M16.66
+4.173l3.21 3.148M17.66 4.173l2.21
+2.148"/>
 </vector>
