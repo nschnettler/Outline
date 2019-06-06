@@ -1,7 +1,9 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:height="40dp" android:width="40dp"  android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#40ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
         <shape android:shape="oval">
             <solid android:color="@android:color/holo_green_light"/>
         </shape>
     </item>
-</layer-list>
+</ripple>
