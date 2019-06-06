@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="primary">@*android:color/background_floating_material_dark</color>
+    <color name="primary_dark">@*android:color/background_floating_material_dark</color>
+
+    <!-- Background -->
+    <color name="primary_background">@*android:color/background_material_dark</color>               <!-- Main -->
+    <color name="settings_background">@*android:color/background_material_dark</color>              <!-- Settings -->
+    <color name="list_section_background">@*android:color/background_material_dark</color>
+    <color name="chat_info_activity">@*android:color/background_material_dark</color>
+
+    <!-- Text & Icons -->
+    <color name="list_item_title">#FFF</color>                                                      <!-- Chat List - Name -->
+    <color name="list_item_sub_title">#b3FFFFFF</color>                                             <!-- Chat List: Message, Date -->
+    <color name="list_item_info">#b3FFFFFF</color>
+    <color name="list_section_title">#FFF</color>
+    <color name="settings_item_title_text">#FFF</color>
+    <color name="settings_item_subtitle_text">#b3FFFFFF</color>
+    <color name="settings_disabled_text">#66FFFFFF</color>
+    <color name="settings_icon">#FFF</color>
+    <color name="icon_color">#FFF</color>
+
+    <!-- Divider -->
+    <color name="settings_divider">#0dFFFFFF</color>
+    <color name="list_section_divider">#0dFFFFFF</color>
+
+    <!-- Other -->
+    <color name="settings_profile_photo_outline">#0dFFFFFF</color>
+    <color name="radio_button_unchecked">#8affffff</color>
+</resources>
