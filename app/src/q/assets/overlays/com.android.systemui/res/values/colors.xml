@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Notification Types -->
-    <color name="GM2_yellow_500">@android:color/holo_orange_light</color>
-    <color name="GM2_green_500">@android:color/holo_green_light</color>
+    <color name="notification_alert_color">@android:color/holo_orange_light</color>
+    <color name="notification_silence_color">@android:color/holo_blue_light</color>
 </resources> 

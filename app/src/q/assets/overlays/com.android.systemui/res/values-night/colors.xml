@@ -6,7 +6,7 @@
     <color name="notification_shade_background_color">@*android:color/background_floating_material_dark</color>     <!-- Shade -->
     <color name="notification_guts_bg_color">@*android:color/background_floating_material_dark</color>              <!-- Selected -->
     <color name="notification_guts_selection_bg">@*android:color/background_floating_material_dark</color>
-    <color name="notification_guts_selection_border">#0dFFFFFF</color>
+    <color name="GM2_grey_300">#0dFFFFFF</color>
 
     <!-- QuickSettings - Edit -->
     <color name="qs_customize_background">@*android:color/background_material_dark</color>
