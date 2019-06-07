@@ -6,10 +6,10 @@ plugins {
 apply from: 'ThemerConstants.gradle'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
     defaultConfig {
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 49
         versionName "32.4"
 
@@ -63,7 +63,7 @@ android {
         }
         q {
             dimension "android"
-            minSdkVersion 28
+            minSdkVersion 29
             versionCode 290000 + android.defaultConfig.versionCode
             versionNameSuffix 'Q'
         }
@@ -82,13 +82,6 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-
-    playConfigs {
-        q {
-            track = "beta"
-            //enabled = false
         }
     }
 }
