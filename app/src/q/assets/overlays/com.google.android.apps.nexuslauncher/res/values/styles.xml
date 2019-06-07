@@ -2,10 +2,12 @@
     <!-- Dark -->
     <style name="AppTheme.Dark" parent="@*com.google.android.apps.nexuslauncher:style/LauncherTheme.Dark">
         <item name="*com.google.android.apps.nexuslauncher:hotseatQsbFillColor">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.apps.nexuslauncher:popupColorPrimary">@*android:color/background_material_dark</item>
         <item name="*com.google.android.apps.nexuslauncher:popupColorSecondary">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.apps.nexuslauncher:popupColorTertiary">@*android:color/background_floating_material_dark</item>
         <item name="android:colorPrimary">@*android:color/background_material_dark</item>
         <item name="*com.google.android.apps.nexuslauncher:allAppsScrimColor">@*android:color/background_material_dark</item>
         <item name="*com.google.android.apps.nexuslauncher:folderIconBorderColor">@*android:color/background_floating_material_dark</item>
-        <item name="*com.google.android.apps.nexuslauncher:allAppsNavBarScrimColor">#0dFFFFFF</item>
+        <item name="*com.google.android.apps.nexuslauncher:allAppsNavBarScrimColor">#00FFFFFF</item>
     </style>
 </resources>
