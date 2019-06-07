@@ -14,4 +14,8 @@
 
     <!-- Notification - Icons -->
     <color name="notification_gear_color">#FFF</color>
+
+    <!-- PowerMenu -->
+    <color name="global_actions_grid_background">@*android:color/background_floating_material_dark</color>
+    <color name="global_actions_separated_background">@*android:color/background_floating_material_dark</color>
 </resources> 
