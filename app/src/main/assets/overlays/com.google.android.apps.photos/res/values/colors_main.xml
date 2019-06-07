@@ -5,15 +5,19 @@
     <color name="quantum_googblue700">@android:color/holo_blue_light</color>
     <color name="quantum_googred500">@android:color/holo_blue_light</color>
     <color name="google_blue600">@android:color/holo_blue_light</color>
-    <color name="google_blue300">@android:color/holo_blue_light</color>
     <color name="google_red600">@android:color/holo_blue_light</color>
 
     <!-- New ... Buttons -->
     <color name="google_red500">@android:color/holo_red_light</color>
+    <color name="google_red200">@android:color/holo_red_light</color>
     <color name="google_blue500">@android:color/holo_blue_light</color>
+    <color name="google_blue300">@android:color/holo_blue_light</color>
     <color name="google_green500">@android:color/holo_green_light</color>
+    <color name="google_green300">@android:color/holo_green_light</color>
     <color name="google_purple500">@android:color/holo_purple</color>
+    <color name="google_purple300">@android:color/holo_purple</color>
     <color name="google_yellow500">@android:color/holo_orange_light</color>
+    <color name="google_yellow300">@android:color/holo_orange_light</color>
 
 
     <!-- Dark -->
