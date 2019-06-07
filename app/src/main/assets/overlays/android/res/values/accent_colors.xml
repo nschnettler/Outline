@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="accent_material_light">@android:color/holo_red_light</color>
+    <color name="accent_material_light">@android:color/holo_blue_light</color>
 
     <!-- Secondary -->
     <color name="holo_red_dark">@android:color/holo_red_light</color>
