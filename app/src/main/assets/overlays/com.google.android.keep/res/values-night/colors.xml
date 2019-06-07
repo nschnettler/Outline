@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="google_blue300">@android:color/holo_orange_light</color>
+
+    <!-- Background -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
+    <color name="qeb_background_color">@*android:color/background_material_dark</color>             <!-- Quick Create Bar -->
+    <color name="og_elevation_dark_2">@*android:color/background_floating_material_dark</color>     <!-- Accounts -->
+    <color name="keep_default_color">@*android:color/background_floating_material_dark</color>
+
+    <!-- Text & Icons -->
+    <color name="google_grey500">#b3FFFFFF</color>
+
+    <!-- Notes Background Options -->
+    <color name="keep_red">@android:color/holo_red_light</color>
+    <color name="keep_orange">@android:color/holo_orange_light</color>
+    <color name="keep_yellow">@android:color/holo_orange_light</color>
+    <color name="keep_green">@android:color/holo_green_light</color>
+    <color name="keep_teal">@android:color/holo_green_light</color>
+    <color name="keep_lightblue">@android:color/holo_blue_light</color>
+    <color name="keep_cerulean">@android:color/holo_blue_light</color>
+    <color name="keep_purple">@android:color/holo_purple</color>
+    <color name="keep_pink">@android:color/holo_red_light</color>
+    <color name="keep_brown">@*android:color/holo_gray_light</color>
+    <color name="keep_gray">@*android:color/holo_gray_light</color>
+</resources>
