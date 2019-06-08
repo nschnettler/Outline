@@ -10,6 +10,7 @@
     <color name="play_fg_secondary">#b3FFFFFF</color>                                               <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
     <color name="google_grey900">#FFF</color>                                                       <!-- Card Title -->
     <color name="replay__pal_gray_700">#b3FFFFFF</color>                                            <!-- Card Subtitle -->
+    <color name="play_install_bar_title_text_color">#FFF</color>
     <color name="google_grey800">#FFF</color>
     <color name="primary_text_default_material_light">#FFF</color>
     <color name="detailed_permissions_footer_text">#b3FFFFFF</color>
