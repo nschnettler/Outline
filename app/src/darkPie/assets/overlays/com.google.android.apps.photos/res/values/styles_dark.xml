@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Dark Theme -->
-    <style name="Base.Theme.Photos.DayNight" parent="@*com.google.android.apps.photos:style/Base.Theme.Photos.Dark"/>
-    <style name="Theme.Photos.DayNight.Dialog.Alert" parent="@*com.google.android.apps.photos:style/Theme.AppCompat.Dialog.Alert" />
-</resources>
