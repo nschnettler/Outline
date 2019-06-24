@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GoogleMaterial.Light" parent="@*com.google.android.apps.nbu.files:style/Base.Theme.GoogleMaterial.Light">
+        <item name="android:navigationBarColor">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
