@@ -9,6 +9,7 @@
     <color name="settings_background">@*android:color/background_material_dark</color>              <!-- Settings -->
     <color name="list_section_background">@*android:color/background_material_dark</color>
     <color name="chat_info_activity">@*android:color/background_material_dark</color>
+    <color name="dimmed_background">@*android:color/background_material_dark</color>
 
     <!-- Text & Icons -->
     <color name="list_item_title">#FFF</color>                                                      <!-- Chat List - Name -->

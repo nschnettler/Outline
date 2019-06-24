@@ -14,6 +14,7 @@
 
         <com.whatsapp.WaTextView
             android:layout_gravity="center"
+            android:id="@*com.whatsapp:id/register_phone_toolbar_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@*com.whatsapp:string/register_phone_header"
@@ -36,9 +37,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <com.whatsapp.WaTextView
+            <com.whatsapp.TextEmojiLabel
                 android:textSize="14.0sp"
                 android:gravity="center_horizontal"
+                android:id="@*com.whatsapp:id/description"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@*com.whatsapp:string/register_phone_number_code_confirm"
@@ -126,12 +128,24 @@
 
             <com.whatsapp.WaTextView
                 android:textSize="14.0sp"
-                android:textColorLink="#ff1976d2"
+                android:textColorLink="@*com.whatsapp:color/text_link_color"
                 android:gravity="center_horizontal"
                 android:id="@*com.whatsapp:id/mistyped_undercard_text"
                 android:paddingBottom="8.0dip"
                 android:layout_width="fill_parent"
                 android:text="@*com.whatsapp:string/register_number_mistyped_suggestion"
+                style="@*com.whatsapp:style/Text.Description" />
+
+            <com.whatsapp.WaTextView
+                android:textSize="14.0sp"
+                android:textColor="@*com.whatsapp:color/conversations_text_gray"
+                android:gravity="center_horizontal"
+                android:id="@*com.whatsapp:id/sms_charge_warning"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:text="@*com.whatsapp:string/register_phone_number_sms_charge_warning"
                 style="@*com.whatsapp:style/Text.Description" />
 
             <androidx.legacy.widget.Space
