@@ -3,6 +3,7 @@
     <!-- P -->
     <dimen name="dashboard_tile_image_size">40dp</dimen>
     <dimen name="dashboard_tile_foreground_image_inset">8dip</dimen>
+    <dimen name="oneplus_dashboard_tile_image_size">48dp</dimen>
 
     <!-- StatiXOS -->
     <dimen name="sparks_tile_foreground_image_size">24dp</dimen>

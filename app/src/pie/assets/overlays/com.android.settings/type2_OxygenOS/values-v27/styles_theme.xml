@@ -9,6 +9,7 @@
         <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:onePlusActionbarBackgroundColor">@*com.android.settings:color/oneplus_main_home_bg_ab</item>
-        <item name="android:navigationBarDividerColor">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor">@*com.android.settings:color/oneplus_settings_dashboard_icon_bg_color</item>
     </style>
 </resources>
