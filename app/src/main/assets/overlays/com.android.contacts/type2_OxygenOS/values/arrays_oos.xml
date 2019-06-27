@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="texture_bg_color_array">
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_red_light</item>
+    </array>
+</resources>

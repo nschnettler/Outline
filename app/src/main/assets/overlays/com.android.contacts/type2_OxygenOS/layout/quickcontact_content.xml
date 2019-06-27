@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.widget.TouchlessScrollView android:id="@*com.android.contacts:id/content_scroller"
+    android:background="?android:colorBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@*com.android.contacts:id/card_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@*com.android.contacts:id/quickContactTitleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.android.contacts:dimen/oneplus_contorl_padding_space5"
+            android:layout_marginBottom="@*com.android.contacts:dimen/oneplus_contorl_padding_space5"
+            android:layout_marginStart="@*com.android.contacts:dimen/oneplus_contorl_layout_margin_left4"
+            android:layout_marginEnd="@*com.android.contacts:dimen/oneplus_contorl_layout_margin_right2">
+
+            <TextView
+                android:textColor="@*com.android.contacts:color/oneplus_contorl_text_color_primary_default"
+                android:ellipsize="end"
+                android:id="@*com.android.contacts:id/large_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart"
+                android:layout_marginEnd="@*com.android.contacts:dimen/oneplus_contorl_layout_margin_right2"
+                style="@*com.android.contacts:style/oneplus_contorl_text_style_headline" />
+
+            <ImageView
+                android:id="@*com.android.contacts:id/qrCodeButton"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:layout_width="@*com.android.contacts:dimen/oneplus_contorl_icon_size_list"
+                android:layout_height="@*com.android.contacts:dimen/oneplus_contorl_icon_size_list"
+                android:src="@*com.android.contacts:drawable/oneplus_contact_qrcode" />
+        </LinearLayout>
+
+        <ViewStub
+            android:id="@*com.android.contacts:id/noDataCardStub"
+            android:layout="@*com.android.contacts:layout/oneplus_quickcontact_contentcard"
+            android:inflatedId="@*com.android.contacts:id/no_contact_data_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ViewStub
+            android:id="@*com.android.contacts:id/contactCardStub"
+            android:layout="@*com.android.contacts:layout/oneplus_quickcontact_contentcard"
+            android:inflatedId="@*com.android.contacts:id/communication_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ViewStub
+            android:id="@*com.android.contacts:id/recentCardStub"
+            android:layout="@*com.android.contacts:layout/oneplus_quickcontact_contentcard"
+            android:inflatedId="@*com.android.contacts:id/recent_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.android.contacts:dimen/oneplus_contorl_padding_space3" />
+
+        <ViewStub
+            android:id="@*com.android.contacts:id/aboutCardStub"
+            android:layout="@*com.android.contacts:layout/oneplus_quickcontact_contentcard"
+            android:inflatedId="@*com.android.contacts:id/about_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ViewStub
+            android:id="@*com.android.contacts:id/linkedContactsViewStub"
+            android:layout="@*com.android.contacts:layout/oneplus_quickcontact_accounts_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.android.contacts:dimen/oneplus_contorl_padding_space3" />
+
+        <ViewStub
+            android:id="@*com.android.contacts:id/collapsedSuggestionCardViewStub"
+            android:layout="@*com.android.contacts:layout/oneplus_quickcontact_collapsed_suggestion_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.android.contacts:dimen/oneplus_contorl_padding_space3"
+            android:layout_marginBottom="@*com.android.contacts:dimen/oneplus_contorl_margin_bottom2" />
+
+        <ViewStub
+            android:id="@*com.android.contacts:id/expandSuggestionCardViewStub"
+            android:layout="@*com.android.contacts:layout/oneplus_quickcontact_expand_suggestion_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@*com.android.contacts:dimen/oneplus_contorl_padding_space3" />
+    </LinearLayout>
+</com.android.contacts.widget.TouchlessScrollView>

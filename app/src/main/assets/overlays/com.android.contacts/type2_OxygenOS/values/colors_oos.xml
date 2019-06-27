@@ -13,22 +13,11 @@
     <color name="oneplus_contorl_bg_color_dark">@*android:color/background_material_dark</color>                    <!-- Background -->
     <color name="oneplus_contorl_bg_color_dialogs_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog -->
     <color name="oneplus_contorl_bg_color_menu_dark">@*android:color/background_floating_material_dark</color>      <!-- Overflow -->
+    <color name="oneplus_contorl_bg_color_cardview_dark">@*android:color/background_floating_material_dark</color>
     <color name="oneplus_contorl_divider_color_dark">#0dFFFFFF</color>                                              <!-- Divider -->
     <color name="oneplus_contorl_text_color_secondary_dark">#b3FFFFFF</color>
 
     <!-- Light -->
     <color name="oneplus_contorl_bg_color_light">#FFF</color>
     <color name="oneplus_contorl_bg_color_appbar_light">#FFF</color>
-
-    <!-- Colors -->
-    <color name="avatar_bg_red">@android:color/holo_red_light</color>
-    <color name="avatar_bg_sky_blue">@android:color/holo_blue_light</color>
-    <color name="avatar_bg_yellow">@android:color/holo_orange_light</color>
-    <color name="avatar_bg_blue">@android:color/holo_blue_light</color>
-    <color name="avatar_bg_yellow_green">@android:color/holo_orange_light</color>
-    <color name="avatar_bg_blue_violet">@android:color/holo_purple</color>
-    <color name="avatar_bg_green">@android:color/holo_green_light</color>
-    <color name="avatar_bg_magenta">@android:color/holo_purple</color>
-    <color name="avatar_bg_green_blue">@android:color/holo_green_light</color>
-    <color name="avatar_bg_gray">@android:color/holo_red_light</color>
 </resources>
