@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="oneplus_fab_bg_color">@android:color/holo_blue_light</color>
+    <color name="oneplus_contact_list_title_text_color">@android:color/holo_blue_light</color>
+    <color name="oneplus_section_header_text_color">@android:color/holo_blue_light</color>
+    <color name="quick_index_bar_select_color">@android:color/holo_blue_light</color>
+    <color name="oneplus_contact_main_theme">@android:color/holo_blue_light</color>
+    <color name="quick_index_bar_preview_bg_color">@android:color/holo_blue_light</color>
+
+    <!-- Dark -->
+    <color name="oneplus_contorl_bg_color_appbar_dark">@*android:color/background_material_dark</color>             <!-- Primary -->
+    <color name="oneplus_contorl_bg_color_dark">@*android:color/background_material_dark</color>                    <!-- Background -->
+    <color name="oneplus_contorl_bg_color_dialogs_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog -->
+    <color name="oneplus_contorl_bg_color_menu_dark">@*android:color/background_floating_material_dark</color>      <!-- Overflow -->
+    <color name="oneplus_contorl_divider_color_dark">#0dFFFFFF</color>                                              <!-- Divider -->
+    <color name="oneplus_contorl_text_color_secondary_dark">#b3FFFFFF</color>
+
+    <!-- Light -->
+    <color name="oneplus_contorl_bg_color_light">#FFF</color>
+    <color name="oneplus_contorl_bg_color_appbar_light">#FFF</color>
+
+    <!-- Colors -->
+    <color name="avatar_bg_red">@android:color/holo_red_light</color>
+    <color name="avatar_bg_sky_blue">@android:color/holo_blue_light</color>
+    <color name="avatar_bg_yellow">@android:color/holo_orange_light</color>
+    <color name="avatar_bg_blue">@android:color/holo_blue_light</color>
+    <color name="avatar_bg_yellow_green">@android:color/holo_orange_light</color>
+    <color name="avatar_bg_blue_violet">@android:color/holo_purple</color>
+    <color name="avatar_bg_green">@android:color/holo_green_light</color>
+    <color name="avatar_bg_magenta">@android:color/holo_purple</color>
+    <color name="avatar_bg_green_blue">@android:color/holo_green_light</color>
+    <color name="avatar_bg_gray">@android:color/holo_red_light</color>
+</resources>
