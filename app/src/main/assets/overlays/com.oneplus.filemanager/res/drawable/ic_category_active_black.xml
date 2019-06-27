@@ -5,10 +5,12 @@
     android:viewportHeight="24.0"
     android:tint="?android:colorControlNormal">
     <path
-        android:strokeColor="@android:color/holo_green_light"
+        android:strokeColor="#FFF"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M8.728 10.089l3.314-4.339 9.458
- 12.5h-19l4.1-5.373 3.796 5.043" />
+        android:pathData="M12 3.5l-4.25 6.75h8.5L12 3.5zM3.733 14.25h6.5v6.5h-6.5zM14.848
+ 14.848c1.464-1.463 3.84-1.463 5.304 0 1.463 1.464 1.463 3.84 0
+ 5.304-1.464 1.463-3.84 1.463-5.304 0-1.463-1.464-1.463-3.84
+0-5.304z" />
 </vector>

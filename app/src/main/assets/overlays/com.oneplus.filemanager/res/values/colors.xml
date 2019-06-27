@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="actionbar_background">@android:color/holo_blue_light</color>
+    <color name="new_app_accent">@android:color/holo_blue_light</color>
+
+    <!-- Colors -->
+    <color name="recent_fill_base">@android:color/holo_green_light</color>
+    <color name="video_fill_base">@android:color/holo_purple</color>
+    <color name="audio_fill_base">@android:color/holo_orange_light</color>
+    <color name="down_fill_base">@android:color/holo_red_light</color>
+    <color name="picture_fill_base">@android:color/holo_green_light</color>
+    <color name="doc_fill_base">@android:color/holo_blue_light</color>
+
+    <!-- Light -->
+    <color name="oneplus_contorl_bg_color_light">#FFF</color>
+    <color name="oneplus_contorl_bg_color_appbar_light">#FFF</color>
+
+    <!-- Dark -->
+    <color name="oneplus_contorl_bg_color_appbar_dark">@*android:color/background_material_dark</color>             <!-- Primary -->
+    <color name="oneplus_contorl_bg_color_dark">@*android:color/background_material_dark</color>                    <!-- Background -->
+    <color name="oneplus_contorl_bg_color_dialogs_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog -->
+    <color name="oneplus_contorl_bg_color_menu_dark">@*android:color/background_floating_material_dark</color>      <!-- Overflow -->
+    <color name="oneplus_contorl_divider_color_dark">#0dFFFFFF</color>                                              <!-- Divider -->
+    <color name="oneplus_contorl_bg_color_cardview_dark">@*android:color/background_floating_material_dark</color>  <!-- CardView -->
+    <color name="color_card_box_gradient_end_dark">@*android:color/background_material_dark</color>
+</resources>

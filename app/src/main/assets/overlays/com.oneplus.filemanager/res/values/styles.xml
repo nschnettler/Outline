@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@*com.oneplus.filemanager:style/Oneplus.Theme.DeviceDefault">
+        <item name="android:windowBackground">@*com.oneplus.filemanager:color/new_window_background</item>
+        <item name="android:listDivider">@*com.oneplus.filemanager:drawable/smart_list_divider_material</item>
+        <item name="android:alertDialogTheme">@*com.oneplus.filemanager:style/Oneplus.AlertDialog</item>
+        <item name="android:colorPrimary">@*com.oneplus.filemanager:color/actionbar_background</item>
+        <item name="android:colorPrimaryDark">@*com.oneplus.filemanager:color/actionbar_background</item>
+        <item name="android:colorEdgeEffect">@android:color/holo_blue_light</item>
+        <item name="android:windowLightStatusBar">@*com.oneplus.filemanager:bool/statusbar_black_conent</item>
+        <item name="*com.oneplus.filemanager:OPTabLayoutStyle">@*com.oneplus.filemanager:style/TabLayoutStyle</item>
+        <item name="*com.oneplus.filemanager:fileButtonStyle">@*com.oneplus.filemanager:style/FileButtonStyle</item>
+        <item name="*com.oneplus.filemanager:onePlusActionbarBackgroundColor">@*com.oneplus.filemanager:color/actionbar_background</item>
+        <item name="*com.oneplus.filemanager:onePlusPrimaryColor">@android:color/holo_blue_light</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+    <style name="Oneplus.AlertDialog" parent="@*com.oneplus.filemanager:style/Oneplus.Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:colorAccent">@android:color/holo_blue_light</item>
+        <item name="*com.oneplus.filemanager:onePlusPrimaryColor">@android:color/holo_blue_light</item>
+    </style>
+</resources>
