@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Accent -->
-    <color name="actionbar_background">@android:color/holo_blue_light</color>
-    <color name="new_app_accent">@android:color/holo_blue_light</color>
-
     <!-- Colors -->
     <color name="recent_fill_base">@android:color/holo_green_light</color>
     <color name="video_fill_base">@android:color/holo_purple</color>

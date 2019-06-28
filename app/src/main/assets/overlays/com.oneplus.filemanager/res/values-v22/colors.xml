@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="new_app_accent">@android:color/holo_blue_light</color>
+    <color name="progress_flag">@android:color/holo_blue_light</color>
+</resources>
