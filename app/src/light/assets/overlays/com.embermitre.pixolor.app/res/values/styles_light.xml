@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="AppTheme" parent="@*com.embermitre.pixolor.app:style/Theme.AppCompat.Light">
-        <item name="*com.embermitre.pixolor.app:colorPrimary">@*com.embermitre.pixolor.app:color/primary</item>
-        <item name="*com.embermitre.pixolor.app:colorPrimaryDark">@*com.embermitre.pixolor.app:color/primary_dark</item>
-        <item name="*com.embermitre.pixolor.app:colorAccent">@*com.embermitre.pixolor.app:color/accent</item>
-        <item name="android:windowLightStatusBar">true</item>
-    </style>
-</resources>
