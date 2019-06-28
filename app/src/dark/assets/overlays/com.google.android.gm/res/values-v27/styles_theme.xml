@@ -6,6 +6,8 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
         <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
     </style>
     <style name="ColoredNavBarMailActivityTheme" parent="@*com.google.android.gm:style/BaseMailActivityTheme"/>
     <style name="ColoredNavBarGlifActivityTheme" parent="@*com.google.android.gm:style/SudThemeGlif.Light">
