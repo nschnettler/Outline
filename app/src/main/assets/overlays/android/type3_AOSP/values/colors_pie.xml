@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <color name="primary_device_default_settings_light">#FFF</color>                                <!-- Primary -->
+    <color name="primary_dark_device_default_settings_light">#FFF</color>                           <!-- Primary Dark -->
+    <color name="primary_dark_material_light_light_status_bar">#FFF</color>                         <!-- StatusBar -->
+    <color name="secondary_material_settings_light">#FFF</color>                                    <!-- Secondary -->
+    <color name="background_material_light">#FFF</color>                                            <!-- Background -->
+
+    <!-- Statusbar Overlay -->
+    <color name="system_bar_background_semi_transparent">#00000000</color>
+
+    <!-- ROM -->
+    <color name="gradient_end_light">@*android:color/accent_material_light</color>
+    <color name="gradient_end_dark">@*android:color/accent_material_light</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ToolBar Text, Icons -->
+    <style name="ActionBarTheme" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:textColorPrimary">#de000000</item>
+        <item name="android:colorControlNormal">#de000000</item>
+        <item name="android:textColorHint">#80000000</item>
+    </style>
+
+    <!-- Main Theme -->
+    <style name="DocumentsTheme" parent="@*com.android.documentsui:style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="*com.android.documentsui:actionBarWidgetTheme">@null</item>
+        <item name="*com.android.documentsui:actionBarTheme">@*com.android.documentsui:style/ActionBarTheme</item>
+        <item name="*com.android.documentsui:actionBarPopupTheme">@*com.android.documentsui:style/ActionBarPopupTheme</item>
+        <item name="android:windowBackground">@*com.android.documentsui:color/window_background</item>
+        <item name="android:colorPrimaryDark">#FFFFFF</item>
+        <item name="android:colorPrimary">#FFFFFF</item>
+        <item name="android:colorAccent">@*com.android.documentsui:color/accent</item>
+        <item name="android:colorControlActivated">?android:colorAccent</item>
+        <item name="android:queryBackground">@*com.android.documentsui:color/menu_search_background</item>
+        <item name="android:listDivider">@*android:drawable/list_divider_material</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+    </style>
+</resources>

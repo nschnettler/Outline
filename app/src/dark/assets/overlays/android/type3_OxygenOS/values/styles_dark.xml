@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme for the dialog shown when an app crashes or ANRs. -->
+    <style name="Theme.Dialog.AppError" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>

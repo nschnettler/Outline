@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Settings" parent="@android:style/Theme.Material.Light.LightStatusBar">
+        <item name="android:colorPrimaryDark">#FFF</item>
+        <item name="android:colorPrimary">#FFF</item>
+        <item name="android:textColorPrimaryInverse">#de000000</item>
+    </style>
+</resources>

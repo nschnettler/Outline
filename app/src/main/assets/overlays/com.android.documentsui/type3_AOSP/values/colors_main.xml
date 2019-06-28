@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary">@android:color/holo_blue_light</color>
+    <color name="primary_dark">@android:color/holo_blue_light</color>
+    <!-- Accent -->
+    <color name="root_activated_color">@android:color/holo_red_light</color>
+    <color name="accent">@android:color/holo_red_light</color>
+    <color name="text_handle">@android:color/holo_red_light</color>
+    <color name="text_highlight">@android:color/holo_red_light</color>
+    <color name="text_cursor">@android:color/holo_red_light</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Install - Oreo+ -->
+    <style name="DialogWhenLarge"  parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
+    </style>
+</resources>

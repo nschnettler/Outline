@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Oreo+ -->
+    <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings">
+       <item name="android:colorControlNormal">@*com.android.settings:color/icon_accent</item>
+    </style>
+</resources>

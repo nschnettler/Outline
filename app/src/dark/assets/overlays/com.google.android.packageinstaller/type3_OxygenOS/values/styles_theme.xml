@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Uninstall Dialog -->
+    <style name="AlertDialogActivity" parent="@android:style/Theme.DeviceDefault.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Settings" parent="@android:style/Theme.DeviceDefault.Settings"/>
+</resources>
