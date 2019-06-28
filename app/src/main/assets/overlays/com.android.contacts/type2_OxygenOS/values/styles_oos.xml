@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Oneplus.Theme.Material" parent="@*com.android.contacts:style/OneplusThemeBase">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+    </style>
+    <style name="Oneplus.Theme.Material.Light" parent="@*com.android.contacts:style/OneplusThemeLightBase">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+    </style>
+</resources>

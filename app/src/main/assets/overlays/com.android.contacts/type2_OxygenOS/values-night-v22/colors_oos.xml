@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="oneplus_card_margin_color">@*android:color/background_material_dark</color>
+    <color name="vcard_qrcode_bg_color">@*android:color/background_floating_material_dark</color>
+</resources>
