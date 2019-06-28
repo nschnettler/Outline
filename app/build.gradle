@@ -10,7 +10,8 @@ android {
 
     defaultConfig {
         targetSdkVersion 29
-        versionCode 51
+        minSdkVersion 25
+        versionCode 290052
         versionName "33"
 
         buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "true"
@@ -37,7 +38,7 @@ android {
         }
     }
 
-    flavorDimensions  "theme", "android"
+    flavorDimensions  "theme"
     productFlavors {
         dark {
             dimension "theme"
@@ -54,18 +55,6 @@ android {
 
             buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
             buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
-        }
-        pie {
-            dimension "android"
-            minSdkVersion 25
-            versionCode 260000 + android.defaultConfig.versionCode
-            versionNameSuffix 'P'
-        }
-        q {
-            dimension "android"
-            minSdkVersion 29
-            versionCode 290000 + android.defaultConfig.versionCode
-            versionNameSuffix 'Q'
         }
     }
 
@@ -84,18 +73,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    playConfigs {
-        q {
-            commit = true
-        }
-    }
 }
 
 play {
     serviceAccountCredentials = file("PlayAPI.json")
     track = "production"
-    commit = false
 }
 
 dependencies {
