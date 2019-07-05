@@ -4,4 +4,5 @@
     <string name="ThemeHeroOverride">auto</string>
     <bool name="ThemeSupportLegacy">true</bool>
     <bool name="ThemeSupportSamsung">false</bool>
+    <bool name="ThemeHideDefaultType3Option">true</bool>
 </resources>
