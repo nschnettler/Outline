@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="oneplus_dialer_main_theme_color">@android:color/holo_blue_light</color>
+</resources>
