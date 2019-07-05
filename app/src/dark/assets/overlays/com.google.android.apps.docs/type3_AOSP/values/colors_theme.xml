@@ -11,6 +11,13 @@
     <color name="detail_card_preview_bg_daynight">@*android:color/background_floating_material_dark</color>
     <color name="shared_thumb_bg">@*android:color/background_floating_material_dark</color>
     <color name="uploadmenu_actionbar_bg">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="temaki_surface_daynight">@*android:color/background_material_dark</color>
+    <color name="m_app_primary">@*android:color/background_material_dark</color>
+    <color name="quantum_white_100">@*android:color/background_material_dark</color>
+    <color name="chip_background">@*android:color/background_floating_material_dark</color>
+    <color name="add_collaborator_background">@*android:color/background_floating_material_dark</color>
+    <color name="temaki_primary_daynight">@*android:color/background_floating_material_dark</color>
     <color name="shared_thumb_hairline">#0dFFFFFF</color>
     <color name="og_account_menu_divider_color_light">#0dFFFFFF</color>
     <color name="detail_card_divider_daynight">#0dFFFFFF</color>
@@ -31,6 +38,9 @@
     <color name="uploadmenu_on_primary_daynight">#FFF</color>
     <color name="uploadmenu_actionbar_title">#FFF</color>
     <color name="google_grey800">#FFF</color>
+    <color name="sharing_actionbar_title">#FFF</color>
+    <color name="m_cool_grey_70">#FFF</color>
+    <color name="temaki_on_primary_daynight">#FFF</color>
 
     <!-- Divider, Cards & Ripple -->
     <color name="google_grey200">#0dFFFFFF</color>
