@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="op_btn_volume_media_icon_bg_dark">#0dFFFFFF</color>
+    <color name="oneplus_contorl_icon_color_active_light">#de000000</color>
 </resources>
