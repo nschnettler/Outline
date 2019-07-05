@@ -9,8 +9,6 @@
     <color name="google_blue800">@android:color/holo_blue_light</color>                             <!-- Dark Theme -->
     <color name="google_blue700">@android:color/holo_blue_light</color>                             <!-- Add Attachement Button -->
     <color name="google_blue500">@android:color/holo_blue_light</color>                             <!-- Attachement Picker Categories -->
-    <color name="google_dark_blue600">@android:color/holo_blue_light</color>
-
 
     <!-- Dark Theme -->
     <color name="google_grey900">@*android:color/background_material_dark</color>                   <!-- Main -->
