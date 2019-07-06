@@ -3,6 +3,8 @@
     <!-- App Colors -->
     <color name="primary">@*android:color/background_floating_material_dark</color>
     <color name="primary_dark">@*android:color/background_floating_material_dark</color>
+    <color name="neutral_primary">@*android:color/background_floating_material_dark</color>
+    <color name="neutral_primary_dark">@*android:color/background_floating_material_dark</color>
 
     <!-- Background -->
     <color name="primary_background">@*android:color/background_material_dark</color>               <!-- Main -->
@@ -21,6 +23,9 @@
     <color name="settings_disabled_text">#66FFFFFF</color>
     <color name="settings_icon">#FFF</color>
     <color name="icon_color">#FFF</color>
+    <color name="neutral_toolbar_title_text">#FFF</color>
+    <color name="status_normal">#b3FFFFFF</color>
+    <color name="text_description">#deFFFFFF</color>
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>

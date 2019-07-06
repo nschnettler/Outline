@@ -80,7 +80,7 @@
                 android:layout_marginRight="16.0dip"
                 android:requiresFadingEdge="vertical" />
 
-            <com.whatsapp.WaImageView
+            <com.whatsapp.stickers.StickerView
                 android:id="@*com.whatsapp:id/sticker_preview_expanded_sticker"
                 android:visibility="invisible"
                 android:layout_width="@*com.whatsapp:dimen/sticker_store_pack_item_preview_expanded"

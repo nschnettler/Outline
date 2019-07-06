@@ -4,4 +4,7 @@
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@*com.whatsapp:style/Theme.AppCompat">
         <item name="android:navigationBarColor">?android:colorBackground</item>
     </style>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@*com.whatsapp:style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@*com.whatsapp:style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@*com.whatsapp:style/Theme.AppCompat.NoActionBar" />
 </resources>
