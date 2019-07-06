@@ -3,9 +3,8 @@
     <style name="FKKernelManagerTheme" parent="@*com.franco.kernel:style/Theme.MaterialComponents.NoActionBar">
         <item name="android:windowBackground">@*android:color/background_material_dark</item>
         <item name="android:navigationBarColor">@*android:color/background_floating_material_dark</item>
-        <item name="*com.franco.kernel:alertDialogTheme">@*com.franco.kernel:style/Dialogs</item>
         <item name="*com.franco.kernel:colorAccent">@*com.franco.kernel:color/fkColorAccent</item>
-        <item name="*com.franco.kernel:colorPrimary">@*android:color/background_material_dark</item>
+        <item name="*com.franco.kernel:colorPrimary">@*com.franco.kernel:color/fkColorAccent</item>
         <item name="*com.franco.kernel:colorPrimaryDark">@*android:color/background_material_dark</item>
         <item name="*com.franco.kernel:colorSecondary">@*com.franco.kernel:color/fkColorAccent</item>
         <item name="*com.franco.kernel:preferenceTheme">@*com.franco.kernel:style/Prefs</item>
