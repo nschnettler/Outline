@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="language_picker_text_color">#FFFFFF</color>
+
+    <!-- Dark -->
+    <color name="google_blue300">@*android:color/accent_material_light</color>
+    <color name="google_grey900">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="google_dark_default_color_primary">@*android:color/background_floating_material_dark</color>
 </resources>
