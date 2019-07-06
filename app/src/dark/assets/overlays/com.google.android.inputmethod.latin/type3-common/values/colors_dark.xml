@@ -3,4 +3,5 @@
     <!-- Background -->
     <color name="popup_background_material_dark_theme">@*android:color/background_dark</color>              <!-- Dark | Key Popup -->
     <color name="label_popup_pressed_material_dark_theme">@*android:color/accent_material_light</color>     <!-- Dark | Key Popup Selected -->
+    <color name="google_grey50">@*android:color/background_material_dark</color>
 </resources>

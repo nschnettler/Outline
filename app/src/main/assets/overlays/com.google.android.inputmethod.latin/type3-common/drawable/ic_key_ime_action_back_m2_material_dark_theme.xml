@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" android:tint="@*android:color/accent_material_dark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8.0dip" />
+    <size android:height="@*com.google.android.inputmethod.latin:dimen/softkey_bg_action_m2_height" android:width="@*com.google.android.inputmethod.latin:dimen/softkey_bg_action_m2_width" />
+    <solid android:color="#CCFFFFFF" />
+</shape>
