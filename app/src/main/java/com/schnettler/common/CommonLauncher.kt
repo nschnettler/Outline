@@ -71,14 +71,8 @@ object CommonLauncher {
             Log.d(tag, "'$action' has been authorized to launch this theme. (Phase 2)")
         }
 
-
         /* STEP 3: Do da thang */
-        if ((BuildConfig.FLAVOR_android.equals("q") and (android.os.Build.VERSION.RELEASE != "10")) or
-                (BuildConfig.FLAVOR_android.equals("pie") and (android.os.Build.VERSION.RELEASE == "10"))) run {
-            showDialog(ctx)
-        } else {
-                startAntiPiracyCheck(ctx)
-        }
+        startAntiPiracyCheck(ctx)
     }
 
     private fun startAntiPiracyCheck(ctx : Activity) {
@@ -151,19 +145,5 @@ object CommonLauncher {
             Toast.makeText(ctx, R.string.unauthorized, Toast.LENGTH_LONG).show()
             ctx.finish()
         }
-    }
-
-    private fun showDialog(ctx: Activity) {
-        val dialog = AlertDialog.Builder(ctx, R.style.DialogStyle)
-                .setCancelable(true)
-                .setIcon(R.mipmap.ic_launcher)
-                .setTitle(R.string.launch_dialog_title)
-                .setMessage(if (BuildConfig.FLAVOR_android.equals("q")) R.string.launch_q else R.string.launch_p)
-                .setPositiveButton(R.string.launch_dialog_positive) { _, _ ->
-                    ctx.startActivity(Intent(Intent.ACTION_VIEW,
-                            Uri.parse(ctx.getString(R.string.launch_dialog_negative_url) + (if (BuildConfig.FLAVOR_theme.equals("dark")) "ethereal" else  "outline"))))
-                    ctx.finish()}
-                .setNegativeButton(R.string.launch_dialog_negative) { _, _ -> startAntiPiracyCheck(ctx) }
-        dialog.show()
     }
 }
