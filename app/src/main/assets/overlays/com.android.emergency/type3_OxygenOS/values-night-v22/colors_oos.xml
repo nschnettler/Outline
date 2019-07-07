@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark -->
+    <color name="oneplus_emergency_toolbar_bg">@*android:color/background_material_dark</color>
+    <color name="oneplus_emergency_toolbar_bg_for_accent">@*android:color/background_material_dark</color>
+</resources>

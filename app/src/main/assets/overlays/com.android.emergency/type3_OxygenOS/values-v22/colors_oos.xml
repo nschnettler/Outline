@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="oneplus_contact_main_theme">@android:color/holo_red_light</color>
+    <color name="oneplus_tab_indicator_color">@android:color/holo_red_light</color>
+    <color name="oneplus_emergency_color">@android:color/holo_red_light</color>
+</resources>
