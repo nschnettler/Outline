@@ -9,6 +9,8 @@
         M12,12m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
         android:strokeColor="#ff000000"
         android:strokeWidth="1.75"
+        android:fillColor="#ff000000"
+        android:fillAlpha="0.6"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
 </vector>
