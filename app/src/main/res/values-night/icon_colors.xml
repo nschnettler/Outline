@@ -1,6 +1,6 @@
 <resources>
     <!-- Dark Theme -->
-    <color name="icon_foreground">@*android:color/background_floating_material_dark</color>
+    <color name="icon_foreground">#2B2B3B</color>
     <color name="icon_icon">#ccFFFFFF</color>
     <dimen name="icon_foreground_overlay">1</dimen>
  </resources>
