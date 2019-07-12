@@ -31,6 +31,8 @@
     <color name="google_grey700">#FFF</color>                                                       <!-- Drawer Item -->
     <color name="family_sharing_switch_thumb_disabled">#b3FFFFFF</color>
     <color name="family_sharing_switch_track_disabled">#1aFFFFFF</color>
+    <color name="protect_secondary_text_color">#b3FFFFFF</color>
+    <color name="protect_title_text_color">#FFF</color>
 
     <!-- Background -->
         <!-- What's New -->
