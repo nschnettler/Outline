@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Oneplus.Theme.Material" parent="@*com.oneplus.security:style/OneplusThemeBase">
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+</resources>
