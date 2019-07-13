@@ -3,4 +3,7 @@
     <color name="icon_foreground">#2B2B3B</color>
     <color name="icon_icon">#ccFFFFFF</color>
     <dimen name="icon_foreground_overlay">1</dimen>
+
+    <!-- Dialog -->
+    <color name="dialog_background">#2b2b3b</color>
  </resources>

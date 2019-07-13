@@ -5,7 +5,6 @@ package com.schnettler.common
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.support.v7.app.AlertDialog
 import android.util.Log
 import android.widget.Toast
@@ -14,8 +13,6 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.utils.apkSignature
 import com.schnettler.common.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
 import com.schnettler.common.AdvancedConstants.OTHER_THEME_SYSTEMS
-import com.schnettler.common.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
-import com.schnettler.common.AdvancedConstants.SHOW_LAUNCH_DIALOG
 import com.schnettler.common.ThemeFunctions.checkApprovedSignature
 import com.schnettler.common.ThemeFunctions.getSelfSignature
 import com.schnettler.common.ThemeFunctions.isCallingPackageAllowed
@@ -72,7 +69,13 @@ object CommonLauncher {
         }
 
         /* STEP 3: Do da thang */
-        startAntiPiracyCheck(ctx)
+        val sharedPref = ctx.getSharedPreferences(null, 0)
+        if( !sharedPref.getBoolean("dialog_showed", false)) {
+            showDialog(ctx)
+            sharedPref.edit().putBoolean("dialog_showed", true).apply()
+        } else {
+            startAntiPiracyCheck(ctx)
+        }
     }
 
     private fun startAntiPiracyCheck(ctx : Activity) {
@@ -145,5 +148,14 @@ object CommonLauncher {
             Toast.makeText(ctx, R.string.unauthorized, Toast.LENGTH_LONG).show()
             ctx.finish()
         }
+    }
+
+    private fun showDialog(ctx: Activity) {
+        val dialog = AlertDialog.Builder(ctx, R.style.DialogStyle)
+                .setCancelable(false)
+                .setTitle(R.string.launch_dialog_title)
+                .setMessage(R.string.launch_dialog_content)
+                .setPositiveButton(android.R.string.ok) { _, _ -> startAntiPiracyCheck(ctx) }
+        dialog.show()
     }
 }
