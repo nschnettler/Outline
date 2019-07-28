@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="start|center"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@*com.instagram.android:drawable/nav_logo_whiteout"
-    android:tint="#ffffffff"
-    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:minHeight="@*com.instagram.android:dimen/button_width">
 
-            <EditText
+            <com.instagram.common.ui.base.IgEditText
                 android:textSize="@*com.instagram.android:dimen/font_medium"
                 android:textColor="#FFFFFF"
                 android:textColorHint="@*com.instagram.android:color/grey_5"
@@ -62,14 +62,14 @@
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4.0dip"
-                android:maxLines="1"
+                android:maxLines="@*com.instagram.android:integer/direct_composer_max_lines"
                 android:maxLength="@*com.instagram.android:integer/max_message_length"
                 android:layout_weight="1.0"
                 android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
-                android:imeOptions="actionSend"
+                android:imeOptions="actionNone"
                 android:layout_marginStart="4.0dip" />
 
-            <TextView
+            <com.instagram.common.ui.base.IgTextView
                 android:textSize="@*com.instagram.android:dimen/font_medium"
                 android:textColor="@*com.instagram.android:color/reply_composer_text_button_colors"
                 android:gravity="center_vertical"
