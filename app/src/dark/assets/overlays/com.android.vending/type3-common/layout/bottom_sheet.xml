@@ -25,7 +25,8 @@
             android:id="@*com.android.vending:id/background"
             android:background="@*com.android.vending:color/white"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:importantForAccessibility="no">
 
             <LinearLayout
                 android:orientation="vertical"
