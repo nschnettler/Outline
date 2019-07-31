@@ -19,7 +19,7 @@
     <color name="calendar_night_hairline">#0dFFFFFF</color>                                                         <!-- Hairline -->
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
     <color name="google_dark_default_color_surface">@*android:color/background_material_dark</color>
-    <color name="calendar_night_background_scrim">#00000000</color>
+    <color name="calendar_night_background_scrim">#33000000</color>
     <color name="calendar_night_secondary_650">#b3FFFFFF</color>
     <color name="calendar_night_secondary_700">#ccFFFFFF</color>
 </resources>
