@@ -42,6 +42,7 @@
 	<color name="abc_settings_icon_background">#0dFFFFFF</color>
 	<color name="homepage_descendant_utility_background">#0dFFFFFF</color>
     <color name="homepage_gestures_app_background">#0dFFFFFF</color>
+    <color name="homepage_colt_background">#0dFFFFFF</color>
     <color name="omni_logo_color">#0dFFFFFF</color>
 
     <!-- Owls Nest -->
