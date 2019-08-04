@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-
-    Floating Contact/Group Info
-
--->
+<?xml version="1.0" encoding="utf-8"?>
 <view android:id="@*com.whatsapp:id/floating_layout"
     android:focusable="true"
     android:focusableInTouchMode="true"
@@ -59,9 +55,7 @@
 
         <View
             android:id="@*com.whatsapp:id/quick_contact_divider"
-            android:background="@*com.whatsapp:color/divider_gray"
-            android:layout_width="fill_parent"
-            android:layout_height="1.0dip" />
+            style="@*com.whatsapp:style/SectionDivider.Heavy" />
 
         <com.whatsapp.WaTextView
             android:textColor="#b3FFFFFF"
@@ -80,7 +74,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <ImageButton
+            <com.whatsapp.WaImageButton
                 android:ellipsize="end"
                 android:id="@*com.whatsapp:id/message_btn"
                 android:layout_width="0.0dip"
@@ -91,7 +85,7 @@
                 android:contentDescription="@*com.whatsapp:string/message_contact"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-            <ImageButton
+            <com.whatsapp.WaImageButton
                 android:ellipsize="end"
                 android:id="@*com.whatsapp:id/audio_call_btn"
                 android:layout_width="0.0dip"
@@ -102,7 +96,7 @@
                 android:contentDescription="@*com.whatsapp:string/audio_call"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-            <ImageButton
+            <com.whatsapp.WaImageButton
                 android:ellipsize="end"
                 android:id="@*com.whatsapp:id/video_call_btn"
                 android:visibility="gone"
@@ -114,7 +108,7 @@
                 android:contentDescription="@*com.whatsapp:string/video_call"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
 
-            <ImageButton
+            <com.whatsapp.WaImageButton
                 android:ellipsize="end"
                 android:id="@*com.whatsapp:id/info_btn"
                 android:layout_width="0.0dip"
@@ -126,7 +120,7 @@
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
         </LinearLayout>
 
-        <Button
+        <com.whatsapp.WaButton
             android:textColor="@*com.whatsapp:color/accent"
             android:gravity="center"
             android:id="@*com.whatsapp:id/direction_btn"

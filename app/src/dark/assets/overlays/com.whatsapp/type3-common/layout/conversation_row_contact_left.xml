@@ -94,9 +94,7 @@
 
         <View
             android:id="@*com.whatsapp:id/button_div"
-            android:background="@*com.whatsapp:color/divider_gray"
-            android:layout_width="fill_parent"
-            android:layout_height="1.0dip" />
+            style="@*com.whatsapp:style/SectionDivider.Heavy" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -114,9 +112,7 @@
 
             <View
                 android:id="@*com.whatsapp:id/button_vert_div"
-                android:background="@*com.whatsapp:color/divider_gray"
-                android:layout_width="1.0dip"
-                android:layout_height="fill_parent" />
+                style="@*com.whatsapp:style/SectionDivider.Vertical" />
 
             <com.whatsapp.TextEmojiLabel
                 android:textColor="@*com.whatsapp:drawable/flat_button_link_color_incoming"

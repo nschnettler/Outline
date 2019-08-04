@@ -223,13 +223,6 @@
                 android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
-
-            <com.whatsapp.stickers.StickerSearchContainer
-                android:id="@*com.whatsapp:id/sticker_search_container"
-                android:visibility="gone"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="@*com.whatsapp:dimen/gif_search_size" />
         </LinearLayout>
     </com.whatsapp.util.ClippingLayout>
 

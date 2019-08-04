@@ -172,11 +172,9 @@
 
             <View
                 android:id="@*com.whatsapp:id/divider"
-                android:background="@*com.whatsapp:color/divider_gray"
-                android:layout_width="fill_parent"
-                android:layout_height="0.5dip"
                 android:layout_marginLeft="72.0dip"
-                android:layout_alignParentBottom="true" />
+                android:layout_alignParentBottom="true"
+                style="@*com.whatsapp:style/SectionDivider" />
         </RelativeLayout>
     </LinearLayout>
 </FrameLayout>

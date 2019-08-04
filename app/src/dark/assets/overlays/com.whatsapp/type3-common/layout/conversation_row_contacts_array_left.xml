@@ -143,9 +143,7 @@
 
         <View
             android:id="@*com.whatsapp:id/button_div"
-            android:background="@*com.whatsapp:color/divider_gray"
-            android:layout_width="fill_parent"
-            android:layout_height="1.0dip" />
+            style="@*com.whatsapp:style/SectionDivider.Heavy" />
 
         <LinearLayout
             android:orientation="horizontal"
