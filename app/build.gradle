@@ -11,8 +11,8 @@ android {
     defaultConfig {
         targetSdkVersion 29
         minSdkVersion 25
-        versionCode 290056
-        versionName "35"
+        versionCode 290058
+        versionName "35.1"
 
         buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "true"
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "false"
