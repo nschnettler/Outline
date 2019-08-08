@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-    <color name="google_white">@*android:color/background_material_dark</color>
-    <color name="transparent_white">@*android:color/background_material_dark</color>
-    <color name="list_background_color">@*android:color/background_material_dark</color>                        <!-- Drawer -->
-    <color name="conversation_view_overlay_background_color">@*android:color/background_material_dark</color>   <!-- Mail -->
-    <color name="attachment_bg_color">@*android:color/background_material_dark</color>
-    <color name="message_header_background_color">@*android:color/background_material_dark</color>
-    <color name="suw_glif_background_color_light">@*android:color/background_material_dark</color>
-    <color name="promo_card">@*android:color/background_material_dark</color>
-    <color name="google_default_color_surface">@android:color/background_dark</color>               <!-- Search -->
-    <color name="snack_bar_background_color">@android:color/background_dark</color>                 <!-- Snackbar -->
-    <color name="item_grey_pressed_color">#0dFFFFFF</color>
-    <color name="google_grey300">#0dFFFFFF</color>                                                  <!-- Divider / Stroke -->
+    <color name="ag_abs_white">@*android:color/background_material_dark</color>                             <!-- Main -->
+    <color name="google_white">@*android:color/background_material_dark</color>                             <!-- Settings -->
+    <color name="ag_status_nav_bars_translucent">@*android:color/background_material_dark</color>
+    <color name="google_default_color_surface">@*android:color/background_floating_material_dark</color>    <!-- Search -->
+    <color name="ag_abs_grey200">@*android:color/background_floating_material_dark</color>                  <!-- Card -->
+    <color name="ag_abs_grey300">#0dFFFFFF</color>                                                          <!-- Divider -->
+    <color name="snack_bar_background_color">#FFF</color>                                                   <!-- Snackbar -->
+
+    <!-- Drawer Selection -->
+    <color name="google_grey300">#0dFFFFFF</color>
     <color name="google_blue50">#0dFFFFFF</color>
     <color name="google_red50">#0dFFFFFF</color>
     <color name="google_green50">#0dFFFFFF</color>

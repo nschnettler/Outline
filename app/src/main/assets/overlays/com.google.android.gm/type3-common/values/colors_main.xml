@@ -5,6 +5,7 @@
     <color name="google_blue600">@android:color/holo_red_light</color>
     <color name="google_yellow500">@android:color/holo_red_light</color>
     <color name="quantum_googblue500">@android:color/holo_red_light</color>
+    <color name="snack_bar_text_action_color">@android:color/holo_red_light</color>
 
     <!-- Colors -->
     <color name="google_green600">@android:color/holo_green_light</color>
