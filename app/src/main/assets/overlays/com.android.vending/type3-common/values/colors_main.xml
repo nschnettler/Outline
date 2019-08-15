@@ -4,25 +4,21 @@
     <color name="phonesky_apps_primary">@android:color/holo_green_light</color>
     <color name="play_apps_secondary">@android:color/holo_green_light</color>
     <color name="apps_primary_light">@android:color/holo_green_light</color>
-    <color name="apps_3_light">@android:color/holo_green_light</color>
     <color name="apps_2_light">#FFF</color>
 
     <!-- Books -->
     <color name="phonesky_books_primary">@android:color/holo_blue_light</color>
     <color name="books_primary_light">@android:color/holo_blue_light</color>
-    <color name="books_3_light">@android:color/holo_blue_light</color>
     <color name="books_2_light">#FFF</color>
 
     <!-- Movies -->
     <color name="phonesky_movies_primary">@android:color/holo_red_light</color>
     <color name="movies_primary_light">@android:color/holo_red_light</color>
-    <color name="movies_3_light">@android:color/holo_red_light</color>
     <color name="movies_2_light">#FFF</color>
 
     <!-- Music -->
     <color name="phonesky_music_primary">@android:color/holo_orange_light</color>
     <color name="music_primary_light">@android:color/holo_orange_light</color>
-    <color name="music_3_light">@android:color/holo_orange_light</color>
     <color name="music_2_light">#FFF</color>
 
     <!-- Other -->

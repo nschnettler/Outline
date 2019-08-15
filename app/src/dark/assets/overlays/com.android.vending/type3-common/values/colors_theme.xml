@@ -10,14 +10,10 @@
     <color name="play_fg_secondary">#b3FFFFFF</color>                                               <!-- Name of app when choosing to "read more", Name of Developer and rating when selecting an app -->
     <color name="google_grey900">#FFF</color>                                                       <!-- Card Title -->
     <color name="replay__pal_gray_700">#b3FFFFFF</color>                                            <!-- Card Subtitle -->
-    <color name="play_install_bar_title_text_color">#FFF</color>
     <color name="google_grey800">#FFF</color>
     <color name="primary_text_default_material_light">#FFF</color>
-    <color name="play_icon_selected">#FFFFFF</color>                                                <!-- Drawer Selected -->
     <color name="flat_card_cluster_header_title_text_color">#FFFFFF</color>
     <color name="flat_card_cluster_header_title_text_color_black">#FFFFFF</color>
-    <color name="account_email_dark_text_color">#FFFFFF</color>                                     <!-- Email Settings - Title -->
-    <color name="account_email_light_text_color">#b3FFFFFF</color>                                  <!-- Email Settings - SubTitle -->
     <color name="white_action_bar_icon_color">#FFF</color>
     <color name="white_action_bar_dark_title_color">#FFF</color>                                    <!-- Toolbar -->
     <color name="play_secondary_light">#b3FFFFFF</color>                                            <!-- Tab Inactive -->
@@ -39,7 +35,8 @@
     <color name="play_white_half_transparent">@*android:color/background_material_dark</color>
     <color name="review_reply_background">@android:color/background_dark</color>
     <color name="all_reviews_filter_list_background_deprecated">@*android:color/background_material_dark</color><!-- Review Filters -->
-    <color name="play_histogram_background">@android:color/background_dark</color>
+    <color name="google_grey100">@*android:color/background_floating_material_dark</color>
+    <color name="google_grey50">@*android:color/background_floating_material_dark</color>
     <color name="play_white">@*android:color/background_material_dark</color>
     <color name="white">@*android:color/background_material_dark</color>
     <color name="google_white">@*android:color/background_material_dark</color>
@@ -58,4 +55,10 @@
 
     <!-- Cards Overflow -->
     <color name="flat_overflow_menu_fill_color">#FFFFFF</color>
+
+    <!-- Whats New -->
+    <color name="apps_3_light">#0dFFFFFF</color>
+    <color name="books_3_light">#0dFFFFFF</color>
+    <color name="movies_3_light">#0dFFFFFF</color>
+    <color name="music_3_light">#0dFFFFFF</color>
 </resources>
