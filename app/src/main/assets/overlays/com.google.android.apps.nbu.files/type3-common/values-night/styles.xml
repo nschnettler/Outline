@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.MaterialComponents.Bridge" parent="@*com.google.android.apps.nbu.files:style/Base.V14.Theme.MaterialComponents.Bridge" >
+        <item name="*com.google.android.apps.nbu.files:elevationOverlayEnabled">false</item>
+        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="google_black">@*android:color/background_material_dark</color>
+    <color name="blob_view_floor_color">@*android:color/background_material_dark</color>
+    <color name="card_thumbnail_default_color">@*android:color/background_material_dark</color>
+    <color name="more_files_thumbnail_overlay">@*android:color/background_floating_material_dark</color>
+    <color name="square_item_default_background">@*android:color/background_floating_material_dark</color>
+    <color name="dialog_background">@*android:color/background_floating_material_dark</color>
+    <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>       <!-- Elevated -->
+    <color name="google_dark_default_color_primary_dark">@*android:color/background_floating_material_dark</color>  <!-- Primary Dark -->
+    <color name="item_border_color">#0dFFFFFF</color>                                                               <!-- Divider -->
+
+    <!-- Other -->
+    <color name="color_apps">@android:color/holo_red_light</color>
+    <color name="color_audio">@android:color/holo_purple</color>
+    <color name="color_documents">@android:color/holo_blue_light</color>
+    <color name="color_downloads">@android:color/holo_blue_light</color>
+    <color name="color_images">@android:color/holo_red_light</color>
+    <color name="color_videos">@android:color/holo_green_light</color>
+    <color name="storage_card_progress">@android:color/holo_blue_light</color>
+    <color name="storage_card_progress_background">#0dFFFFFF</color>
+</resources>
