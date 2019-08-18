@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Accent -->
-    <color name="ColorChordedTrackMaterialDarkTheme">@*android:color/accent_material_light</color>
-    <color name="ColorGestureTrackMaterialDarkTheme">@*android:color/accent_material_light</color>
-    <color name="language_picker_radio_button_tint">@*android:color/accent_material_light</color>
-</resources>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="platformDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog" />
-    <style name="SettingsThemeM2" parent="@*com.google.android.inputmethod.latin:style/Theme.GoogleMaterial.Dark">
-        <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="android:statusBarColor">?android:colorPrimary</item>
-    </style>
-</resources>

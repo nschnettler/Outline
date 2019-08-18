@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="ColorChordedTrackMaterialDarkTheme">@*android:color/accent_material_light</color>
+    <color name="ColorGestureTrackMaterialDarkTheme">@*android:color/accent_material_light</color>
+    <color name="language_picker_radio_button_tint">@*android:color/accent_material_light</color>
+
+    <!-- Dark -->
+    <color name="google_blue300">@*android:color/accent_material_light</color>
+    <color name="google_grey900">@*android:color/background_material_dark</color>
+    <color name="google_dark_default_color_primary">@*android:color/background_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+</resources>
