@@ -59,16 +59,6 @@
         <item name="android:lineSpacingMultiplier">1.25</item>
     </style>
 
-    <!--
-    <style name="Theme.MediaView" parent="@*com.whatsapp:style/Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="*com.whatsapp:actionBarStyle">@*com.whatsapp:style/Widget.Styled.ActionBar.MediaView</item>
-        <item name="*com.whatsapp:actionBarSize">@*com.whatsapp:dimen/actionbar_height</item>
-        <item name="*com.whatsapp:toolbarStyle">@*com.whatsapp:style/Widget.Styled.Toolbar</item>
-        <item name="*com.whatsapp:colorAccent">@*com.whatsapp:color/accent</item>
-    </style> -->
-
     <!-- Edit Dialog (FullScreen) Buttons -->
     <style name="ActionBarButtonStyle" parent="@*com.whatsapp:style/Widget.AppCompat.ActionButton" >
         <item name="android:textColor">#FFFFFF</item>

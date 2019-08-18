@@ -26,6 +26,8 @@
     <color name="neutral_toolbar_title_text">#FFF</color>
     <color name="status_normal">#b3FFFFFF</color>
     <color name="text_description">#deFFFFFF</color>
+    <color name="group_name_push_name">#FFF</color>
+
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>

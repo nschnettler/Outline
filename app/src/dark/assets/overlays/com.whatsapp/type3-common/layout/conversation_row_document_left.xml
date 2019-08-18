@@ -8,43 +8,9 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="@*com.whatsapp:dimen/conversation_row_margin_large">
 
-        <LinearLayout
-            android:layout_gravity="left"
-            android:orientation="horizontal"
-            android:id="@*com.whatsapp:id/name_in_group"
-            android:paddingLeft="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
-            android:paddingTop="3.0dip"
-            android:paddingRight="@*com.whatsapp:dimen/conversation_row_inner_item_padding"
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <include layout="@*com.whatsapp:layout/conversation_row_participant_header" />
 
-            <com.whatsapp.TextEmojiLabel
-                android:textSize="@*com.whatsapp:dimen/conversation_participant_name_tv"
-                android:textColor="#ffffffff"
-                android:id="@*com.whatsapp:id/name_in_group_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:lines="1"
-                android:singleLine="true" />
-
-            <com.whatsapp.TextEmojiLabel
-                android:textSize="@*com.whatsapp:dimen/conversation_participant_name_tv"
-                android:textColor="#b3FFFFFF"
-                android:id="@*com.whatsapp:id/pushname_in_group_tv"
-                android:paddingLeft="12.0sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:lines="1"
-                android:singleLine="true" />
-        </LinearLayout>
-
-        <FrameLayout
-            android:id="@*com.whatsapp:id/quoted_message_holder"
-            android:visibility="gone"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            style="@*com.whatsapp:style/QuotedFrame" />
+        <include layout="@*com.whatsapp:layout/conversation_row_quoted_frame" />
 
         <FrameLayout
             android:layout_width="fill_parent"

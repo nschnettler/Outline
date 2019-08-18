@@ -11,12 +11,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <FrameLayout
-                android:id="@*com.whatsapp:id/quoted_message_holder"
-                android:visibility="gone"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                style="@*com.whatsapp:style/QuotedFrame" />
+            <include layout="@*com.whatsapp:layout/conversation_row_quoted_frame" />
 
             <FrameLayout
                 android:id="@*com.whatsapp:id/media_container"
