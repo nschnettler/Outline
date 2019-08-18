@@ -6,8 +6,8 @@
     </style>
 
     <style name="BugleToolbarThemeDark" parent="@*com.google.android.apps.messaging:style/BugleBaseThemeDark.NoActionBar">
-        <item name="android:dialogTheme">@*com.google.android.apps.messaging:style/AlertDialogDark</item>
-        <item name="android:alertDialogTheme">@*com.google.android.apps.messaging:style/AlertDialogDark</item>
+        <item name="android:dialogTheme">@*com.google.android.apps.messaging:style/AlertDialog</item>
+        <item name="android:alertDialogTheme">@*com.google.android.apps.messaging:style/AlertDialog</item>
         <item name="android:actionBarWidgetTheme">@*com.google.android.apps.messaging:style/BuglePlacePickerSearchViewStyle</item>
         <item name="*com.google.android.apps.messaging:actionBarStyle">@*com.google.android.apps.messaging:style/BugleToolbarDark</item>
 
