@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.MaterialComponents.Bridge" parent="@*com.google.android.apps.docs:style/Base.V14.Theme.MaterialComponents.Bridge" >
+        <item name="*com.google.android.apps.docs:elevationOverlayEnabled">false</item>
+    </style>
+
+    <style name="Base.Theme.MaterialComponents.Dialog.Bridge" parent="@*com.google.android.apps.docs:style/Base.V14.Theme.MaterialComponents.Dialog.Bridge">
+        <item name="*com.google.android.apps.docs:elevationOverlayEnabled">false</item>
+    </style>
+</resources>
