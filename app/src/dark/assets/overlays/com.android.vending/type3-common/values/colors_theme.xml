@@ -24,13 +24,14 @@
     <color name="family_sharing_switch_thumb_disabled">#b3FFFFFF</color>
     <color name="family_sharing_switch_track_disabled">#1aFFFFFF</color>
     <color name="protect_secondary_text_color">#b3FFFFFF</color>
+    <color name="google_grey500">#b3FFFFFF</color>                                                  <!-- Search Hint -->
 
     <!-- Background -->
     <color name="flat_card_stroke_color">#0dFFFFFF</color>                                                      <!-- Flat Cards Divider -->
     <color name="material_grey_50">@*android:color/background_material_dark</color>                             <!-- Drawer Background (item) -->
     <color name="background_material_light">@*android:color/background_material_dark</color>                    <!-- Overflow -->
     <color name="play_search_suggestion_divider_background">@*android:color/background_material_dark</color>    <!-- Search Divider -->
-    <color name="background_floating_material_light">@*android:color/background_material_dark</color>           <!-- Dialog -->
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>           <!-- Dialog -->
     <color name="detailed_permissions_footer_bg">@*android:color/background_material_dark</color>               <!-- Permission Footer -->
     <color name="play_white_half_transparent">@*android:color/background_material_dark</color>
     <color name="review_reply_background">@android:color/background_dark</color>

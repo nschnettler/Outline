@@ -8,4 +8,8 @@
         <item name="android:textColorSecondary">#8A000000</item>
         <item name="android:textColorHint">#61000000</item>
     </style>
+
+    <style name="Base.Theme.Replay.Apps.DayNight.NoActionBar" parent="@*com.android.vending:style/Theme.Replay.Apps.Light.NoActionBar">
+        <item name="*com.android.vending:blankUniformIcon">@*android:color/background_floating_material_dark</item>
+    </style>
 </resources>
