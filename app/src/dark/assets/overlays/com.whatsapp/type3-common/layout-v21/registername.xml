@@ -49,7 +49,7 @@
                     android:id="@*com.whatsapp:id/change_photo_btn"
                     android:layout_width="@*com.whatsapp:dimen/registration_profile_photo_size"
                     android:layout_height="@*com.whatsapp:dimen/registration_profile_photo_size"
-                    android:src="@*com.whatsapp:drawable/ic_addphoto"
+                    android:src="@*com.whatsapp:drawable/ic_reg_addphoto"
                     android:scaleType="fitCenter"
                     android:contentDescription="@*com.whatsapp:string/profile_photo"
                     whatsapp:tbtnRadius="-1.0dip" />
@@ -117,19 +117,17 @@
         <View
             android:id="@*com.whatsapp:id/spacer"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0.0dip"
             android:layout_weight="1.0" />
 
         <com.whatsapp.WaButton
             android:gravity="center"
             android:layout_gravity="bottom|center"
             android:id="@*com.whatsapp:id/register_name_accept"
-            android:layout_width="wrap_content"
-            android:layout_height="36.0dip"
             android:layout_marginTop="8.0dip"
             android:layout_marginBottom="24.0dip"
             android:text="@*com.whatsapp:string/next"
-            style="@*com.whatsapp:style/RegistrationButton" />
+            style="@*com.whatsapp:style/WhatsAppButton.Registration" />
 
         <RelativeLayout
             android:layout_gravity="bottom"

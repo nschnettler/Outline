@@ -2,7 +2,8 @@
 <FrameLayout android:id="@*com.whatsapp:id/root_view"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
 
     <FrameLayout
         android:layout_gravity="bottom"
@@ -34,7 +35,7 @@
 
             <com.whatsapp.WaTextView
                 android:textSize="17.0sp"
-                android:textColor="@android:color/white"
+                android:textColor="@*com.whatsapp:color/callBannerText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@*com.whatsapp:string/tap_to_return_to_call"
@@ -43,7 +44,7 @@
 
             <com.whatsapp.WaTextView
                 android:textSize="16.0sp"
-                android:textColor="@android:color/white"
+                android:textColor="@*com.whatsapp:color/callBannerText"
                 android:gravity="center_vertical"
                 android:id="@*com.whatsapp:id/call_notification_timer"
                 android:layout_width="wrap_content"
@@ -77,11 +78,18 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
-                <include layout="@*com.whatsapp:layout/toolbar" />
+                <com.whatsapp.BidiToolbar
+                    android:id="@*com.whatsapp:id/toolbar"
+                    android:background="?android:colorPrimary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?android:actionBarSize"
+                    android:minHeight="?android:actionBarSize"
+                    whatsapp:popupTheme="@*com.whatsapp:style/Toolbar.Popup"
+                    whatsapp:theme="@*com.whatsapp:style/Toolbar.HomeActivity" />
 
                 <com.whatsapp.HomePagerSlidingTabStrip
                     android:id="@*com.whatsapp:id/tabs"
-                    android:background="@*com.whatsapp:color/primary"
+                    android:background="?android:colorPrimary"
                     android:layout_width="fill_parent"
                     android:layout_height="@*com.whatsapp:dimen/tab_height"
                     style="@*com.whatsapp:style/Base.TextAppearance.AppCompat.Large.Inverse" />
@@ -91,8 +99,7 @@
                 android:id="@*com.whatsapp:id/search_holder"
                 android:visibility="invisible"
                 android:layout_width="fill_parent"
-                android:layout_height="@*com.whatsapp:dimen/abc_action_bar_default_height_material"
-                android:elevation="@*com.whatsapp:dimen/actionbar_elevation" />
+                android:layout_height="@*com.whatsapp:dimen/abc_action_bar_default_height_material" />
 
             <ViewStub
                 android:layout_gravity="center|right|top"
@@ -108,21 +115,20 @@
                 android:layout_width="@*com.whatsapp:dimen/submit_button_size"
                 android:layout_height="@*com.whatsapp:dimen/submit_button_size"
                 android:layout_margin="16.0dip"
-                android:scaleType="center"
-                android:elevation="4.0dip" />
+                android:scaleType="center" />
 
             <com.whatsapp.WaImageView
                 android:layout_gravity="bottom|center|right"
                 android:id="@*com.whatsapp:id/fab_aux"
-                android:background="@*com.whatsapp:drawable/input_circle_grey"
+                android:background="@*com.whatsapp:drawable/secondary_fab_circular_background"
                 android:visibility="gone"
                 android:layout_width="46.0dip"
                 android:layout_height="46.0dip"
                 android:layout_marginRight="21.0dip"
-                android:layout_marginBottom="88.0dip"
+                android:layout_marginBottom="@*com.whatsapp:dimen/fab_aux_margin_bottom"
                 android:scaleType="center"
-                android:contentDescription="@*com.whatsapp:string/menuitem_new_text_status"
-                android:elevation="4.0dip" />
+                android:tint="@*com.whatsapp:color/fabSecondaryContent"
+                android:contentDescription="@*com.whatsapp:string/menuitem_new_text_status" />
         </FrameLayout>
     </LinearLayout>
 

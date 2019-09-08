@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Colors -->
+    <!-- Primary -->
+    <color name="primary_light">@android:color/holo_green_light</color>
     <color name="accent">@android:color/holo_green_light</color>
 
-    <!-- Based on App Colors -->
     <color name="unread_indicator">@android:color/holo_green_light</color>
     <color name="accent_light">@*com.whatsapp:color/accent</color>
     <color name="material_deep_teal_500">@*com.whatsapp:color/accent</color>
@@ -49,6 +49,7 @@
         <!-- Red -->
         <color name="red_button_text">@android:color/holo_red_light</color>
         <color name="status_error">@android:color/holo_red_light</color>
+        <color name="settings_dangerous_text">@android:color/holo_red_light</color>
 
     <!-- Text -->
     <color name="conversation_row_date">#ccffffff</color>

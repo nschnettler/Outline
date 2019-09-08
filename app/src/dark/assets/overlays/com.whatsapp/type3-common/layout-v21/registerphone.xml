@@ -67,8 +67,7 @@
                 android:orientation="horizontal"
                 android:id="@*com.whatsapp:id/registration_fields"
                 android:layout_width="260.0dip"
-                android:layout_height="45.0dip"
-                android:layoutDirection="ltr">
+                android:layout_height="45.0dip">
 
                 <RelativeLayout
                     android:gravity="center_vertical"
@@ -157,12 +156,10 @@
                 android:gravity="center"
                 android:layout_gravity="bottom|center"
                 android:id="@*com.whatsapp:id/registration_submit"
-                android:layout_width="wrap_content"
-                android:layout_height="36.0dip"
                 android:layout_marginTop="8.0dip"
                 android:layout_marginBottom="14.0dip"
                 android:text="@*com.whatsapp:string/next"
-                style="@*com.whatsapp:style/RegistrationButton" />
+                style="@*com.whatsapp:style/WhatsAppButton.Registration" />
 
             <com.whatsapp.TextEmojiLabel
                 android:textSize="12.0sp"

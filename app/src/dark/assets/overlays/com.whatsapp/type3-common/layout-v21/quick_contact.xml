@@ -27,8 +27,7 @@
                 android:layout_height="@*com.whatsapp:dimen/quick_contact_profile_photo_size"
                 android:src="@*com.whatsapp:drawable/avatar_contact_large"
                 android:scaleType="centerCrop"
-                android:contentDescription="@*com.whatsapp:string/profile_photo"
-                android:transitionName="@*com.whatsapp:string/transition_photo" />
+                android:contentDescription="@*com.whatsapp:string/profile_photo" />
 
             <FrameLayout
                 android:background="#33000000"
@@ -80,7 +79,7 @@
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_action_message"
-                android:tint="@*com.whatsapp:color/accent"
+                android:tint="@*com.whatsapp:color/primary_light"
                 android:layout_weight="0.5"
                 android:contentDescription="@*com.whatsapp:string/message_contact"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
@@ -91,7 +90,7 @@
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_action_call"
-                android:tint="@*com.whatsapp:color/accent"
+                android:tint="@*com.whatsapp:color/primary_light"
                 android:layout_weight="0.5"
                 android:contentDescription="@*com.whatsapp:string/audio_call"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
@@ -103,7 +102,7 @@
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_action_videocall"
-                android:tint="@*com.whatsapp:color/accent"
+                android:tint="@*com.whatsapp:color/primary_light"
                 android:layout_weight="0.5"
                 android:contentDescription="@*com.whatsapp:string/video_call"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
@@ -114,14 +113,14 @@
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:src="@*com.whatsapp:drawable/ic_action_info"
-                android:tint="@*com.whatsapp:color/accent"
+                android:tint="@*com.whatsapp:color/primary_light"
                 android:layout_weight="0.5"
                 android:contentDescription="@*com.whatsapp:string/info"
                 style="@*com.whatsapp:style/ActionBarButtonStyle" />
         </LinearLayout>
 
         <com.whatsapp.WaButton
-            android:textColor="@*com.whatsapp:color/accent"
+            android:textColor="@*com.whatsapp:color/primary_light"
             android:gravity="center"
             android:id="@*com.whatsapp:id/direction_btn"
             android:background="#fff3f3f3"
