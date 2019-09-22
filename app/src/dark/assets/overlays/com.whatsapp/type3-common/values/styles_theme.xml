@@ -36,19 +36,6 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
-    <style name="DateDivider">
-        <item name="android:textSize">13.0sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:background">@*com.whatsapp:drawable/date_balloon</item>
-        <item name="android:visibility">gone</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">@*com.whatsapp:dimen/conversation_date_divider_marginbottom</item>
-        <item name="android:layout_alignParentTop">true</item>
-        <item name="android:layout_centerInParent">true</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-
     <!-- Expl: POermission Dialog Text -->
     <style name="Text" parent="@*android:style/TextAppearance">
         <item name="android:textColor">#ffffffff</item>

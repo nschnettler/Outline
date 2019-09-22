@@ -135,7 +135,7 @@
                         android:id="@*com.whatsapp:id/date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        style="@*com.whatsapp:style/ConversationDate" />
+                        style="@*com.whatsapp:style/WA.TextAppearance.ConversationRowDate" />
                 </LinearLayout>
             </com.whatsapp.TextAndDateLayout>
         </LinearLayout>

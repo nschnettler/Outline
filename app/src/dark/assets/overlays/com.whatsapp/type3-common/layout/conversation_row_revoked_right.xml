@@ -42,10 +42,9 @@
 
                 <com.whatsapp.WaTextView
                     android:id="@*com.whatsapp:id/date"
-                    android:paddingRight="4.0dip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="@*com.whatsapp:style/ConversationDate" />
+                    style="@*com.whatsapp:style/WA.TextAppearance.ConversationRowDate" />
 
                 <com.whatsapp.WaImageView
                     android:id="@*com.whatsapp:id/status"

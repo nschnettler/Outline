@@ -6,4 +6,6 @@
 
     <!-- Background -->
     <color name="conversation_background">#FFF</color>
+    <color name="bubble_color_outgoing">#FFF</color>
+    <color name="bubble_color_outgoing_pressed">#FFF</color>
 </resources>

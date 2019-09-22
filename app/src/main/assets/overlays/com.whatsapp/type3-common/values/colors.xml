@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Group -->
+    <color name="group_olive">@android:color/holo_green_light</color>
+    <color name="group_light_purple">@android:color/holo_purple</color>
+    <color name="group_orange">@android:color/holo_orange_light</color>
+    <color name="group_blue">@android:color/holo_blue_light</color>
+    <color name="group_sand">@android:color/holo_orange_light</color>
+    <color name="group_navy">@android:color/holo_blue_light</color>
+    <color name="group_pink">@android:color/holo_red_light</color>
+    <color name="group_army_green">@android:color/holo_green_light</color>
+    <color name="group_dark_purple">@android:color/holo_purple</color>
+    <color name="group_brown">@android:color/holo_red_light</color>
+    <color name="group_red">@android:color/holo_red_light</color>
+    <color name="group_green">@android:color/holo_green_light</color>
+    <color name="group_salmon">@android:color/holo_orange_light</color>
+    <color name="group_iris">@android:color/holo_blue_light</color>
+    <color name="group_jazzberry_jam">@android:color/holo_red_light</color>
+    <color name="group_sky_blue">@android:color/holo_blue_light</color>
+    <color name="group_kenyan">@android:color/holo_orange_light</color>
+    <color name="group_vermilion">@android:color/holo_purple</color>
+    <color name="group_royal_purple">@android:color/holo_purple</color>
+    <color name="group_ruddy">@android:color/holo_red_light</color>
+</resources>

@@ -13,6 +13,12 @@
     <color name="chat_info_activity">@*android:color/background_material_dark</color>
     <color name="dimmed_background">@*android:color/background_material_dark</color>
 
+    <!-- Bubble -->
+    <color name="bubble_color_incoming">@*android:color/background_floating_material_dark</color>
+    <color name="bubble_color_incoming_pressed">@*android:color/background_floating_material_dark</color>
+    <color name="bubble_color_outgoing">@android:color/holo_green_light</color>
+    <color name="bubble_color_outgoing_pressed">@android:color/holo_green_light</color>
+
     <!-- Text & Icons -->
     <color name="list_item_title">#FFF</color>                                                      <!-- Chat List - Name -->
     <color name="list_item_sub_title">#b3FFFFFF</color>                                             <!-- Chat List: Message, Date -->
@@ -27,7 +33,8 @@
     <color name="status_normal">#b3FFFFFF</color>
     <color name="text_description">#deFFFFFF</color>
     <color name="group_name_push_name">#FFF</color>
-
+    <color name="conversation_row_date">#deFFFFFF</color>
+    <color name="conversation_divider_text">#FFF</color>
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>
