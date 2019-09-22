@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nine-patch android:src="@*com.whatsapp:drawable/security_balloon_normal"
+    android:tint="@android:color/holo_red_light"
+    android:alpha="0.4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
