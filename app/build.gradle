@@ -11,8 +11,8 @@ android {
     defaultConfig {
         targetSdkVersion 29
         minSdkVersion 25
-        versionCode 290060
-        versionName "35.3 - RC"
+        versionCode 290061
+        versionName "35.4"
 
         buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "true"
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "false"
@@ -77,7 +77,7 @@ android {
 
 play {
     serviceAccountCredentials = file("PlayAPI.json")
-    track = "production"
+    track = "internal"
 }
 
 dependencies {
