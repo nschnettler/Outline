@@ -1,0 +1,10 @@
+35.3 - Release Candidate
+ 
+Updates
+• Drive 2.19.332
+• WhatsApp 2.19.244
+
+Improvements
+• PlayStore
+• Settings (DNS, Gestures, Gaming, XenonHD)
+• AOSIP Device Settings
