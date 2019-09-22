@@ -34,6 +34,7 @@
     <color name="text_description">#deFFFFFF</color>
     <color name="group_name_push_name">#FFF</color>
     <color name="conversation_row_date">#deFFFFFF</color>
+    <color name="primary_text">#FFF</color>
     <color name="conversation_divider_text">#FFF</color>
 
     <!-- Divider -->

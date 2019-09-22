@@ -50,7 +50,4 @@
         <color name="red_button_text">@android:color/holo_red_light</color>
         <color name="status_error">@android:color/holo_red_light</color>
         <color name="settings_dangerous_text">@android:color/holo_red_light</color>
-
-    <!-- Text -->
-    <color name="conversation_row_date">#ccffffff</color>
 </resources>
