@@ -6,6 +6,6 @@
         <item name="*com.topjohnwu.magisk:colorAccentFallback">@*com.topjohnwu.magisk:color/accentFallback</item>
         <item name="android:windowBackground">@*android:color/background_material_dark</item>
         <item name="android:navigationBarColor">@*android:color/background_material_dark</item>
-        <item name="*com.topjohnwu.magisk:elevationOverlaysEnabled">false</item>
+        <item name="*com.topjohnwu.magisk:elevationOverlayEnabled">false</item>
     </style>
 </resources>
