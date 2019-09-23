@@ -1,12 +1,5 @@
-Release 35.1
+Release 35.4
 
 Updates
-• Instagram 104
-• PlayStore 16.0.15
-• Play Console 8.2.027
-• Calendar 6.0.44
-• WhatsApp 2.19.203
-
-Improvements
-• Magisk
-• Settings
+• WhatsApp 2.19.258
+• Magisk 7.3.4
