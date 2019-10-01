@@ -2,7 +2,9 @@
 <resources>
     <!-- Dark Theme -->
     <style name="BaseTheme" parent="@*com.patreon.android:style/Theme.Design.NoActionBar">
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#b3FFFFFF</item>
+        <item name="android:colorControlNormal">#b3FFFFFF</item>
         <item name="android:windowContentTransitions">true</item>
         <item name="android:colorPrimary">@*android:color/background_material_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/background_material_dark</item>

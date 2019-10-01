@@ -5,5 +5,8 @@
     <color name="smoke">#FFFFFF</color>
 
     <!-- Background -->
-    <color name="snow">@*android:color/background_material_dark</color>
+    <color name="snow">@*android:color/background_floating_material_dark</color>
+    <color name="gray2">#b3FFFFFF</color>
+    <color name="gray4">#0dFFFFFF</color>
+    <color name="blue_light">#0dFFFFFF</color>
 </resources>

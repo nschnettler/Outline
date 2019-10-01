@@ -3,6 +3,9 @@
     <!-- App Colors -->
     <color name="coral">@android:color/holo_orange_light</color>
     <color name="blue">@android:color/holo_orange_light</color>
+    <color name="gray1">@android:color/holo_orange_light</color>
+    <color name="accent_material_light">@android:color/holo_orange_light</color>
+    <color name="accent_material_dark">@android:color/holo_orange_light</color>
 
     <!-- Other -->
     <color name="green">@android:color/holo_green_light</color>
