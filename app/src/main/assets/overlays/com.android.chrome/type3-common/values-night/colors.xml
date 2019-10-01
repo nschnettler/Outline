@@ -4,6 +4,7 @@
     <color name="default_bg_color_dark">@*android:color/background_material_dark</color>                    <!-- Main -->
     <color name="default_bg_color_dark_elev_2">@*android:color/background_floating_material_dark</color>
     <color name="default_bg_color_dark_elev_3">@*android:color/background_material_dark</color>
+    <color name="default_bg_color_dark_elev_4">@*android:color/background_floating_material_dark</color>
     <color name="bottom_system_nav_color">@*android:color/background_material_dark</color>                  <!-- Navbar -->
     <color name="bottom_system_nav_divider_color">@*android:color/background_floating_material_dark</color> <!-- Navbar Divider -->
     <color name="modern_secondary_color">@*android:color/background_floating_material_dark</color>
