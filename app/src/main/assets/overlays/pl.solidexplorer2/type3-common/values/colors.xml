@@ -23,5 +23,10 @@
     <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
     <color name="background_material_dark_lighter">@*android:color/background_material_dark</color> <!-- Settings Overflow Background -->
     <color name="background_material_dark_darker">@*android:color/background_material_dark</color>
-    <color name="divider_color_dark">@*android:color/background_dark</color>                        <!-- Divider -->
+    <color name="divider_color_dark">#0dFFFFFF</color>                                              <!-- Divider -->
+
+    <!-- Onyx -->
+    <color name="almost_black">@*android:color/background_floating_material_dark</color>
+    <color name="almost_black_popups">@*android:color/background_floating_material_dark</color>
+    <color name="black">@*android:color/background_material_dark</color>
 </resources>
