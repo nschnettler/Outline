@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Battery -->
+    <string name="config_batterymeterPerimeterPath" translatable="false">
+        M4.25 2.75h3.5 M4.58 1.721h2.822 M4.25.75v2h-2.9c-.331 0-.6.269-.6.6v15.3c0 .331.269.6.6.6h9.3c.331 0 .6-.269.6-.6V3.35c0-.159-.063-.312-.176-.424-.112-.113-.265-.176-.424-.176h-2.9v-2h-3.5z
+    </string>
+    <string name="config_batterymeterFillMask" translatable="false">
+        M1.5 3.5h9v15h-9z
+    </string>
+    <string name="config_batterymeterBoltPath" translatable="false">
+        M6.266 7.453L4.25 11.25h1.5v3.25l2-3.75h-1.5l.016-3.297z
+    </string>
+    <string name="config_batterymeterPowersavePath" translatable="false">
+        M6 9v4 M4 11h4
+    </string>
+</resources> 
