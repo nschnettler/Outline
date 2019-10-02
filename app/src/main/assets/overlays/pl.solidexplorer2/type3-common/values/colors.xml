@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Colors -->
     <color name="indigo">@android:color/holo_blue_light</color>
     <color name="light_blue">@android:color/holo_blue_light</color>
     <color name="green">@android:color/holo_green_light</color>
@@ -10,9 +11,17 @@
     <color name="blue_grey">@android:color/holo_blue_light</color>
     <color name="brown">@android:color/holo_red_light</color>
 
+    <!-- Error -->
     <color name="color_error">@android:color/holo_red_light</color>
     <color name="color_success">@android:color/holo_green_light</color>
 
-    <!-- Statusbar Overlay -->
+    <!-- StatusBar Overlay -->
     <color name="subcolor_light">#00000000</color>
+
+    <!-- Dark Theme -->
+    <color name="background_material_dark">@*android:color/background_material_dark</color>         <!-- Background -->
+    <color name="background_floating_material_dark">@*android:color/background_material_dark</color>
+    <color name="background_material_dark_lighter">@*android:color/background_material_dark</color> <!-- Settings Overflow Background -->
+    <color name="background_material_dark_darker">@*android:color/background_material_dark</color>
+    <color name="divider_color_dark">@*android:color/background_dark</color>                        <!-- Divider -->
 </resources>
