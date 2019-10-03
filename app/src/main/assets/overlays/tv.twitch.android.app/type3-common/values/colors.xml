@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="purple_4">@android:color/holo_purple</color>
+    <color name="purple_5">@android:color/holo_purple</color>
+    <color name="purple_6">@android:color/holo_purple</color>
+    <color name="purple_7">@android:color/holo_purple</color>
+    <color name="purple_8">@android:color/holo_purple</color>
+    <color name="purple_9">@android:color/holo_purple</color>
+    <color name="purple_10">@android:color/holo_purple</color>
+    <color name="purple_11">@android:color/holo_purple</color>                                      <!-- Dark - BottomBar Selected -->
+    <color name="brand">@android:color/holo_purple</color>
+
+    <!-- Other -->
+    <color name="red">@android:color/holo_red_light</color>
+</resources>

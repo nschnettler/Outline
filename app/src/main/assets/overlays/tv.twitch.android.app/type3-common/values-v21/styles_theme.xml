@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Remove NavBar Color -->
-    <style name="Theme.Twitch" parent="@*tv.twitch.android.app:style/Theme.TwitchBase"/>
-</resources>
