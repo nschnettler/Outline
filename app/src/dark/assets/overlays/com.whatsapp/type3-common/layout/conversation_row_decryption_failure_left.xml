@@ -37,7 +37,7 @@
 
             <com.whatsapp.WaImageView
                 android:layout_gravity="center|left"
-                android:background="@*com.whatsapp:drawable/white_circle"
+                android:background="@*com.whatsapp:drawable/primary_color_circle"
                 android:layout_width="30.0dip"
                 android:layout_height="30.0dip"
                 android:layout_marginLeft="10.0dip"
@@ -52,7 +52,7 @@
                 <com.whatsapp.TextEmojiLabel
                     android:textSize="14.0sp"
                     android:textStyle="italic"
-                    android:textColor="#ffdddddd"
+                    android:textColor="#b3FFFFFF"
                     android:layout_gravity="left"
                     android:id="@*com.whatsapp:id/message_text"
                     android:paddingLeft="8.0dip"

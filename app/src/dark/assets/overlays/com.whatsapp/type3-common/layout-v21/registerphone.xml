@@ -59,7 +59,7 @@
                 android:hint="@*com.whatsapp:string/pick_a_country"
                 android:singleLine="true"
                 android:inputType="none"
-                android:backgroundTint="@*com.whatsapp:color/accent"
+                android:backgroundTint="@*com.whatsapp:color/primary_light"
                 style="@*com.whatsapp:style/Base.Widget.AppCompat.Spinner.Underlined" />
 
             <LinearLayout
@@ -67,7 +67,8 @@
                 android:orientation="horizontal"
                 android:id="@*com.whatsapp:id/registration_fields"
                 android:layout_width="260.0dip"
-                android:layout_height="45.0dip">
+                android:layout_height="45.0dip"
+                android:layoutDirection="ltr">
 
                 <RelativeLayout
                     android:gravity="center_vertical"
@@ -102,7 +103,7 @@
                         android:layout_centerVertical="true"
                         android:inputType="phone"
                         android:imeOptions="actionDone"
-                        android:backgroundTint="@*com.whatsapp:color/accent" />
+                        android:backgroundTint="@*com.whatsapp:color/primary_light" />
                 </RelativeLayout>
 
                 <com.whatsapp.WaEditText
@@ -122,7 +123,7 @@
                     android:layout_weight="1.0"
                     android:inputType="phone"
                     android:imeOptions="actionDone"
-                    android:backgroundTint="@*com.whatsapp:color/accent" />
+                    android:backgroundTint="@*com.whatsapp:color/primary_light" />
             </LinearLayout>
 
             <com.whatsapp.WaTextView
@@ -147,7 +148,7 @@
                 android:text="@*com.whatsapp:string/register_phone_number_sms_charge_warning"
                 style="@*com.whatsapp:style/Text.Description" />
 
-            <androidx.legacy.widget.Space
+            <Space
                 android:layout_width="fill_parent"
                 android:layout_height="0.0dip"
                 android:layout_weight="1.0" />

@@ -74,7 +74,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:id="@*com.whatsapp:id/header"
-
+                android:background="?android:colorPrimary"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content">
 
@@ -99,7 +99,8 @@
                 android:id="@*com.whatsapp:id/search_holder"
                 android:visibility="invisible"
                 android:layout_width="fill_parent"
-                android:layout_height="@*com.whatsapp:dimen/abc_action_bar_default_height_material" />
+                android:layout_height="@*com.whatsapp:dimen/abc_action_bar_default_height_material"
+                android:elevation="@*com.whatsapp:dimen/actionbar_elevation" />
 
             <ViewStub
                 android:layout_gravity="center|right|top"
@@ -115,7 +116,8 @@
                 android:layout_width="@*com.whatsapp:dimen/submit_button_size"
                 android:layout_height="@*com.whatsapp:dimen/submit_button_size"
                 android:layout_margin="16.0dip"
-                android:scaleType="center" />
+                android:scaleType="center"
+                android:elevation="4.0dip" />
 
             <com.whatsapp.WaImageView
                 android:layout_gravity="bottom|center|right"
@@ -128,7 +130,8 @@
                 android:layout_marginBottom="@*com.whatsapp:dimen/fab_aux_margin_bottom"
                 android:scaleType="center"
                 android:tint="@*com.whatsapp:color/fabSecondaryContent"
-                android:contentDescription="@*com.whatsapp:string/menuitem_new_text_status" />
+                android:contentDescription="@*com.whatsapp:string/menuitem_new_text_status"
+                android:elevation="4.0dip" />
         </FrameLayout>
     </LinearLayout>
 

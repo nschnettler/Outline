@@ -22,9 +22,5 @@
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large.Inverse">
         <item name="*com.whatsapp:pstsIndicatorColor">@*com.whatsapp:color/tab_indicator</item>
         <item name="*com.whatsapp:pstsDividerColor">@android:color/transparent</item>
-        <item name="*com.whatsapp:pstsIndicatorHeight">3.0dip</item>
-        <item name="*com.whatsapp:pstsUnderlineHeight">1.0dip</item>
-        <item name="*com.whatsapp:pstsTabPaddingLeftRight">8.0dip</item>
-        <item name="*com.whatsapp:pstsShouldExpand">true</item>
     </style>
 </resources>
