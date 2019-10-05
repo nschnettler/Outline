@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Light Theme -->
-    <color name="yt_status_bar_background_light">#FFF</color>                                       <!-- StatusBar Background -->
-    <color name="theme_main_color_primary_dark">#FFF</color>                                        <!-- Settings StatusBar -->
-    <color name="yt_black_pure">#FFF</color>
-    <color name="quantum_grey">#FFF</color>                                                         <!-- Launch Statusbar -->
-</resources>
