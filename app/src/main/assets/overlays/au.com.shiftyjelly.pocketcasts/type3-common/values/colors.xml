@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="searchBoxDark">@*android:color/background_floating_material_dark</color>
+    <color name="darktheme_background">@*android:color/background_floating_material_dark</color>
+</resources>

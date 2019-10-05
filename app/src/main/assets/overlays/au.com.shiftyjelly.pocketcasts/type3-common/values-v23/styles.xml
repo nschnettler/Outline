@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeDark" parent="@*au.com.shiftyjelly.pocketcasts:style/ThemeBaseDark">
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_ui_01">@*android:color/background_material_dark</item><!-- MainBackground1 -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_ui_02">@*android:color/background_material_dark</item> <!-- ListBackground -->
+        <item name="*au.com.shiftyjelly.pocketcasts:secondary_ui_01">@*android:color/background_floating_material_dark</item><!-- Toolbar & StatusBar -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_ui_03">@*android:color/background_floating_material_dark</item><!-- BottomAppBar -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_ui_04">@*android:color/background_material_dark</item><!-- MainBackground2 -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_ui_05">@*android:color/background_floating_material_dark</item><!--Divider -->
+
+        <item name="*au.com.shiftyjelly.pocketcasts:support_09">@*android:color/background_material_dark</item><!--FlashWhenLoadingPodcast -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_icon_01">@android:color/holo_red_light</item><!-- ListIcon -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_icon_02_selected">@android:color/holo_red_light</item><!--BottomAppBarIcon -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_interactive_01">@android:color/holo_red_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:secondary_icon_01">@android:color/holo_red_light</item><!-- ToolbarIcon -->
+        <item name="*au.com.shiftyjelly.pocketcasts:support_01">@android:color/holo_red_light</item><!-- StatsText -->
+
+
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_01">@android:color/holo_red_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_02">@android:color/holo_orange_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_03">@android:color/holo_orange_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_04">@android:color/holo_green_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_05">@android:color/holo_blue_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_06">@android:color/holo_purple</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_07">@android:color/holo_red_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_08">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="ThemeLight" parent="@*au.com.shiftyjelly.pocketcasts:style/ThemeBaseLight">
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_icon_01">@android:color/holo_red_light</item><!-- ListIcon -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_icon_02_selected">@android:color/holo_red_light</item><!--BottomAppBarIcon -->
+        <item name="*au.com.shiftyjelly.pocketcasts:primary_interactive_01">@android:color/holo_red_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:secondary_icon_01">@android:color/holo_red_light</item><!-- ToolbarIcon -->
+        <item name="*au.com.shiftyjelly.pocketcasts:support_01">@android:color/holo_red_light</item><!-- StatsText -->
+
+
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_01">@android:color/holo_red_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_02">@android:color/holo_orange_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_03">@android:color/holo_orange_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_04">@android:color/holo_green_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_05">@android:color/holo_blue_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_06">@android:color/holo_purple</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_07">@android:color/holo_red_light</item>
+        <item name="*au.com.shiftyjelly.pocketcasts:filter_08">@android:color/holo_blue_light</item>
+    </style>
+</resources>
