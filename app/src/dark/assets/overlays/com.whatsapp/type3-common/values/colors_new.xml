@@ -16,8 +16,6 @@
     <!-- Bubble -->
     <color name="bubble_color_incoming">@*android:color/background_floating_material_dark</color>
     <color name="bubble_color_incoming_pressed">@*android:color/background_floating_material_dark</color>
-    <color name="bubble_color_outgoing">@android:color/holo_green_light</color>
-    <color name="bubble_color_outgoing_pressed">@android:color/holo_green_light</color>
 
     <!-- Text & Icons -->
     <color name="list_item_title">#FFF</color>                                                      <!-- Chat List - Name -->
@@ -44,4 +42,5 @@
     <!-- Other -->
     <color name="settings_profile_photo_outline">#0dFFFFFF</color>
     <color name="radio_button_unchecked">#8affffff</color>
+	<color name="voice_note_scrubber_grey">#FFFFFF</color>
 </resources>
