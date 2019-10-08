@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="black">@*android:color/background_material_dark</color>                                    <!-- Main -->
+    <color name="grey_9">@*android:color/background_floating_material_dark</color>                          <!-- BottomSheet -->
+    <color name="grey_10">@*android:color/background_floating_material_dark</color>                         <!-- Elevated -->
+    <color name="status_bar_background_night">@*android:color/background_floating_material_dark</color>     <!-- StatusBar -->
+
+    <!-- Divider & Selection -->
+    <color name="grey_7">#0dFFFFFF</color>                                                          <!-- Divider -->
+    <color name="grey_8">#0dFFFFFF</color>                                                          <!-- Pressed -->
+
+    <!-- Text -->
+    <color name="grey_5">#b3FFFFFF</color>                                                          <!-- Secondary -->
+</resources>
