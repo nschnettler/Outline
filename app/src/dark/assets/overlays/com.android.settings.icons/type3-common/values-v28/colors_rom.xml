@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom ROM -->
+    <color name="homepage_nitrogen_background">#0dFFFFFF</color>
+    <color name="homepage_cf_background">#0dFFFFFF</color>
+    <color name="homepage_crdroid_background">#0dFFFFFF</color>
+    <color name="homepage_extensions_background">#0dFFFFFF</color>
+    <color name="homepage_owlsnest_background">#0dFFFFFF</color>
+    <color name="homepage_liquid_background">#0dFFFFFF</color>
+    <color name="homepage_havoc_background">#0dFFFFFF</color>
+    <color name="homepage_syberia_background">#0dFFFFFF</color>
+    <color name="homepage_mcaosp_background">#0dFFFFFF</color>
+    <color name="homepage_sparks_background">#0dFFFFFF</color>
+    <color name="homepage_customsquash_background">#0dFFFFFF</color>
+    <color name="homepage_xtensions_background">#0dFFFFFF</color>
+    <color name="homepage_pixys_background">#0dFFFFFF</color>
+    <color name="homepage_skydragon_background">#0dFFFFFF</color>
+    <color name="homepage_bootlegdump_background">#0dFFFFFF</color>
+    <color name="homepage_rr_background">#0dFFFFFF</color>
+    <color name="homepage_du_background">#0dFFFFFF</color>
+    <color name="homepage_pewdiepie_background">#0dFFFFFF</color>
+    <color name="homepage_venom_background">#0dFFFFFF</color>
+    <color name="homepage_aicpextras_background">#0dFFFFFF</color>
+    <color name="homepage_evolution_background">#0dFFFFFF</color>
+    <color name="homepage_cosp_background">#0dFFFFFF</color>
+	<color name="abc_settings_icon_background">#0dFFFFFF</color>
+	<color name="homepage_descendant_utility_background">#0dFFFFFF</color>
+    <color name="homepage_gestures_app_background">#0dFFFFFF</color>
+    <color name="homepage_colt_background">#0dFFFFFF</color>
+    <color name="homepage_xenonhd_background">#0dFFFFFF</color>
+    <color name="omni_logo_color">#0dFFFFFF</color>
+
+    <!-- Owls Nest -->
+    <color name="owlsnest_oval_advanced">#0dFFFFFF</color>
+    <color name="owlsnest_oval_buttons">#0dFFFFFF</color>
+    <color name="owlsnest_oval_gesture">#0dFFFFFF</color>
+    <color name="owlsnest_oval_lockscreen">#0dFFFFFF</color>
+    <color name="owlsnest_oval_nav">#0dFFFFFF</color>
+    <color name="owlsnest_oval_notif">#0dFFFFFF</color>
+    <color name="owlsnest_oval_qs">#0dFFFFFF</color>
+    <color name="owlsnest_oval_recents">#0dFFFFFF</color>
+    <color name="owlsnest_oval_status">#0dFFFFFF</color>
+
+    <!-- DotOS -->
+    <color name="icon_color_dotextras">#0dFFFFFF</color>
+    <color name="dot_dashboard_wireless">#0dFFFFFF</color>
+    <color name="dot_dashboard_devices_other">#0dFFFFFF</color>
+    <color name="dot_dashboard_apps">#0dFFFFFF</color>
+    <color name="dot_dashboard_battery">#0dFFFFFF</color>
+    <color name="dot_dashboard_display">#0dFFFFFF</color>
+    <color name="dot_dashboard_sound">#0dFFFFFF</color>
+    <color name="dot_dashboard_storage">#0dFFFFFF</color>
+    <color name="dot_dashboard_security">#0dFFFFFF</color>
+    <color name="dot_dashboard_accounts">#0dFFFFFF</color>
+    <color name="dot_dashboard_accessibility">#0dFFFFFF</color>
+    <color name="dot_dashboard_system">#0dFFFFFF</color>
+</resources>
