@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Whats New -->
-    <color name="apps_3_light">#0d000000</color>
-    <color name="books_3_light">#0d000000</color>
-    <color name="movies_3_light">#0d000000</color>
-    <color name="music_3_light">#0d000000</color>
-</resources>

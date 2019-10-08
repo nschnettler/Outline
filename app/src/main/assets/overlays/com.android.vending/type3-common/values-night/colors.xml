@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="apps_primary_dark">@android:color/holo_green_light</color>
+    <color name="books_primary_dark">@android:color/holo_blue_light</color>
+    <color name="movies_primary_dark">@android:color/holo_red_light</color>
+    <color name="music_primary_dark">@android:color/holo_orange_light</color>
+
+    <color name="apps_2_dark">@android:color/holo_green_light</color>
+    <color name="books_2_dark">@android:color/holo_blue_light</color>
+    <color name="movies_2_dark">@android:color/holo_red_light</color>
+    <color name="music_2_dark">@android:color/holo_orange_light</color>
+    
+    <!-- Accent -->
+    <color name="accent_material_dark">@android:color/holo_green_light</color>
+
+    <!-- Background -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                               <!-- Main -->
+    <color name="grey_850">@*android:color/background_floating_material_dark</color>                            <!-- Elevated -->
+    <color name="google_grey800">@*android:color/background_floating_material_dark</color>                      <!-- Placeholder -->
+    <color name="google_grey700">@*android:color/background_floating_material_dark</color>                      <!-- Divider -->
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog -->
+
+    <!-- Text -->
+    <color name="google_grey500">#b3FFFFFF</color>
+
+    <!-- Whats New -->
+    <color name="apps_3_dark">#0dFFFFFF</color>
+    <color name="books_3_dark">#0dFFFFFF</color>
+    <color name="movies_3_dark">#0dFFFFFF</color>
+    <color name="music_3_dark">#0dFFFFFF</color>
+</resources>
