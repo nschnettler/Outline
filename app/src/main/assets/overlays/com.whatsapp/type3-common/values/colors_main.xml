@@ -40,7 +40,6 @@
     <!-- Other -->
     <color name="switch_thumb_normal_material_light">#757575</color>
     <color name="divider_gray">#00ffffff</color>                                                    <!-- Hide Divider -->
-    <color name="link_color_outgoing">#FFFFFF</color>
     <color name="link_color_incoming">@android:color/holo_green_light</color>
         <!-- Call -->
         <color name="call_answer">@android:color/holo_green_light</color>

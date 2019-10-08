@@ -13,4 +13,5 @@
 
     <!-- Other -->
     <color name="voice_note_scrubber_grey">#757575</color>
+    <color name="link_color_outgoing">@android:color/holo_green_light</color>
 </resources>

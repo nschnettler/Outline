@@ -43,4 +43,5 @@
     <color name="settings_profile_photo_outline">#0dFFFFFF</color>
     <color name="radio_button_unchecked">#8affffff</color>
 	<color name="voice_note_scrubber_grey">#FFFFFF</color>
+    <color name="link_color_outgoing">#FFFFFF</color>
 </resources>
