@@ -6,15 +6,15 @@
         android:interpolator="@*android:interpolator/transient_interpolator"
         android:propertyName="strokeAlpha"
         android:startOffset="0"
-        android:valueFrom="0.4"
-        android:valueTo="0.4"
+        android:valueFrom="0.3"
+        android:valueTo="0.3"
         android:valueType="floatType" />
     <objectAnimator
         android:duration="17"
         android:interpolator="@*android:interpolator/transient_interpolator"
         android:propertyName="strokeAlpha"
         android:startOffset="317"
-        android:valueFrom="0.4"
+        android:valueFrom="0.3"
         android:valueTo="1"
         android:valueType="floatType" />
     <objectAnimator
@@ -31,6 +31,6 @@
         android:propertyName="strokeAlpha"
         android:startOffset="817"
         android:valueFrom="1"
-        android:valueTo="0.4"
+        android:valueTo="0.3"
         android:valueType="floatType" />
 </set>
