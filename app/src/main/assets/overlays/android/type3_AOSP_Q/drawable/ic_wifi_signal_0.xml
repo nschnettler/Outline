@@ -5,7 +5,7 @@
     android:viewportHeight="24">
     <path
         android:strokeColor="#FFF"
-        android:strokeAlpha="0.4"
+        android:strokeAlpha="0.3"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
@@ -14,7 +14,7 @@
 
     <path
         android:strokeColor="#FFF"
-        android:strokeAlpha="0.4"
+        android:strokeAlpha="0.3"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
@@ -22,7 +22,7 @@
 
     <path
         android:strokeColor="#FFF"
-        android:strokeAlpha="0.4"
+        android:strokeAlpha="0.3"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
@@ -30,7 +30,7 @@
 
     <path
         android:strokeColor="#FFF"
-        android:strokeAlpha="0.4"
+        android:strokeAlpha="0.3"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
