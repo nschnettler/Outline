@@ -13,4 +13,13 @@
     <color name="ali_blue">@android:color/holo_blue_light</color>                                   <!-- Light - Link -->
     <color name="twitter_green">@android:color/holo_green_light</color>                             <!-- Dark - Sticky -->
     <color name="LightBlue300">@android:color/holo_blue_light</color>                               <!-- Dark - Link -->
+
+
+    <!-- Dark Theme -->
+    <color name="twitter_light_blue">@*android:color/background_material_dark</color>                       <!-- Primary, Background -->
+    <color name="twitter_dark_blue">@*android:color/background_material_dark</color>                        <!-- Primary Dark -->
+    <color name="twitter_darker_blue">@*android:color/background_material_dark</color>                      <!-- Content Background -->
+    <color name="background_material_dark">@*android:color/background_floating_material_dark</color>        <!-- Overflow Background -->
+    <color name="primary_material_dark">@*android:color/background_material_dark</color>                    <!-- Overview -->
+    <color name="twitter_line">#0dFFFFFF</color>
 </resources>
