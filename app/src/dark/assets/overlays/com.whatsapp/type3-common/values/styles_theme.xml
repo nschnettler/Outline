@@ -22,32 +22,4 @@
         <item name="*com.whatsapp:windowActionModeOverlay">true</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
     </style>
-
-    <!-- Expl: Anzahl Gruppenmitglieder -->
-    <style name="FlatCardInfo" parent="@*android:style/Widget.TextView">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:layout_gravity">center|right</item>
-        <item name="android:paddingLeft">16.0dip</item>
-        <item name="android:paddingRight">16.0dip</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:drawablePadding">4.0dip</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-
-    <!-- Expl: POermission Dialog Text -->
-    <style name="Text" parent="@*android:style/TextAppearance">
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:shadowColor">#ff000000</item>
-        <item name="android:shadowDx">1.0</item>
-        <item name="android:shadowDy">1.0</item>
-        <item name="android:shadowRadius">0.0</item>
-        <item name="android:lineSpacingMultiplier">1.25</item>
-    </style>
-
-    <!-- Edit Dialog (FullScreen) Buttons -->
-    <style name="ActionBarButtonStyle" parent="@*com.whatsapp:style/Widget.AppCompat.ActionButton" >
-        <item name="android:textColor">#FFFFFF</item>
-    </style>
 </resources>
