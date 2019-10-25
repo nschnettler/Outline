@@ -20,4 +20,35 @@
     <color name="homepage_about_background">@*android:color/background_floating_material_dark</color>
     <color name="homepage_support_background">@*android:color/background_floating_material_dark</color>
     <color name="homepage_generic_icon_background">@*android:color/background_floating_material_dark</color>
+
+
+    <!-- ROMs -->
+    <color name="homepage_nitrogen_background">#0dFFFFFF</color>
+    <color name="homepage_cf_background">#0dFFFFFF</color>
+    <color name="homepage_crdroid_background">#0dFFFFFF</color>
+    <color name="homepage_extensions_background">#0dFFFFFF</color>
+    <color name="homepage_owlsnest_background">#0dFFFFFF</color>
+    <color name="homepage_liquid_background">#0dFFFFFF</color>
+    <color name="homepage_havoc_background">#0dFFFFFF</color>
+    <color name="homepage_syberia_background">#0dFFFFFF</color>
+    <color name="homepage_mcaosp_background">#0dFFFFFF</color>
+    <color name="homepage_sparks_background">#0dFFFFFF</color>
+    <color name="homepage_customsquash_background">#0dFFFFFF</color>
+    <color name="homepage_xtensions_background">#0dFFFFFF</color>
+    <color name="homepage_pixys_background">#0dFFFFFF</color>
+    <color name="homepage_skydragon_background">#0dFFFFFF</color>
+    <color name="homepage_bootlegdump_background">#0dFFFFFF</color>
+    <color name="homepage_rr_background">#0dFFFFFF</color>
+    <color name="homepage_du_background">#0dFFFFFF</color>
+    <color name="homepage_pewdiepie_background">#0dFFFFFF</color>
+    <color name="homepage_venom_background">#0dFFFFFF</color>
+    <color name="homepage_aicpextras_background">#0dFFFFFF</color>
+    <color name="homepage_evolution_background">#0dFFFFFF</color>
+    <color name="homepage_cosp_background">#0dFFFFFF</color>
+    <color name="abc_settings_icon_background">#0dFFFFFF</color>
+    <color name="homepage_descendant_utility_background">#0dFFFFFF</color>
+    <color name="homepage_gestures_app_background">#0dFFFFFF</color>
+    <color name="homepage_colt_background">#0dFFFFFF</color>
+    <color name="homepage_xenonhd_background">#0dFFFFFF</color>
+    <color name="omni_logo_color">#0dFFFFFF</color>
 </resources>
