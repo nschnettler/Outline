@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40.0dip">
+
+        <LinearLayout
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@*com.whatsapp:layout/conversation_row_participant_header" />
+
+            <include layout="@*com.whatsapp:layout/conversation_row_quoted_frame" />
+
+            <FrameLayout
+                android:id="@*com.whatsapp:id/media_container"
+                android:padding="@*com.whatsapp:dimen/conversation_video_thumb_padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <view
+                    android:id="@*com.whatsapp:id/thumb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="centerCrop"
+                    class="com.whatsapp.conversationrow.ConversationRowVideo$RowVideoView" />
+
+                <com.whatsapp.WaTextView
+                    android:textSize="12.5sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="bottom|center|left"
+                    android:id="@*com.whatsapp:id/info"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingBottom="4.0dip"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:drawablePadding="4.0dip" />
+
+                <FrameLayout
+                    android:layout_gravity="center"
+                    android:id="@*com.whatsapp:id/control_frame"
+                    android:background="@*com.whatsapp:drawable/download_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.whatsapp.CircularProgressBar
+                        android:layout_gravity="center"
+                        android:id="@*com.whatsapp:id/progress_bar"
+                        android:visibility="gone"
+                        android:layout_width="64.0dip"
+                        android:layout_height="64.0dip"
+                        android:indeterminateOnly="false"
+                        android:indeterminateTint="@android:color/white"
+                        android:indeterminateTintMode="src_atop" />
+
+                    <com.whatsapp.WaImageView
+                        android:layout_gravity="center"
+                        android:id="@*com.whatsapp:id/button_image"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@*com.whatsapp:drawable/btn_cancel" />
+
+                    <com.whatsapp.WaButton
+                        android:textColor="@*com.whatsapp:color/conversation_row_image_text"
+                        android:ellipsize="none"
+                        android:layout_gravity="center"
+                        android:id="@*com.whatsapp:id/control_btn"
+                        android:background="@null"
+                        android:paddingLeft="20.0dip"
+                        android:paddingRight="20.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:drawableLeft="@*com.whatsapp:drawable/btn_download"
+                        android:drawablePadding="8.0dip"
+                        android:stateListAnimator="@null" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@*com.whatsapp:id/suspicious_link_indicator_holder"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:paddingBottom="2.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <com.whatsapp.TextAndDateLayout
+                android:id="@*com.whatsapp:id/text_and_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.whatsapp.TextEmojiLabel
+                    android:textSize="@*com.whatsapp:dimen/conversation_text_row_tv"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="left"
+                    android:id="@*com.whatsapp:id/caption"
+                    android:paddingLeft="8.0dip"
+                    android:paddingRight="8.0dip"
+                    android:paddingBottom="@*com.whatsapp:dimen/conversation_video_thumb_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-1.0dip" />
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_gravity="bottom|center|right"
+                    android:orientation="horizontal"
+                    android:id="@*com.whatsapp:id/date_wrapper"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.whatsapp.WaTextView
+                        android:textColor="@*com.whatsapp:color/conversation_row_image_text"
+                        android:id="@*com.whatsapp:id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@*com.whatsapp:style/WA.TextAppearance.ConversationRowDate" />
+                </LinearLayout>
+            </com.whatsapp.TextAndDateLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.whatsapp.WaImageView
+        android:id="@*com.whatsapp:id/forward"
+        style="@*com.whatsapp:style/ForwardButton" />
+</merge>

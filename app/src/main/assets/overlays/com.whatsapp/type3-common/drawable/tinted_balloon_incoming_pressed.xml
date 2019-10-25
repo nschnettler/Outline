@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nine-patch android:src="@*com.whatsapp:drawable/balloon_incoming_pressed"
+    android:tint="@*com.whatsapp:color/bubble_color_incoming_pressed"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

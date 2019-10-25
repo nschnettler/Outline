@@ -6,10 +6,10 @@
 
     <!-- Background -->
     <color name="conversation_background">#FFF</color>
-    <color name="bubbleOutgoingTint">#F2F3F4</color>
-    <color name="bubbleSystemPressedTint">#F2F3F4</color>
-    <color name="bubbleIncomingTint">#F2F3F4</color>
-    <color name="bubbleIncomingPressedTint">#F2F3F4</color>
+    <color name="bubble_color_outgoing">#F2F3F4</color>
+    <color name="bubble_color_outgoing_pressed">#F2F3F4</color>
+    <color name="bubble_color_incoming">#F2F3F4</color>
+    <color name="bubble_color_incoming_pressed">#F2F3F4</color>
 
     <!-- Other -->
     <color name="voice_note_scrubber_grey">#757575</color>

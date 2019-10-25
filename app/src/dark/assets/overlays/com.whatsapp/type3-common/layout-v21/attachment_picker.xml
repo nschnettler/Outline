@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.CircularRevealView android:layout_gravity="center_horizontal"
+    android:id="@*com.whatsapp:id/paper_clip_layout"
+    android:backgroundTint="@*android:color/background_floating_material_dark"
+    android:paddingBottom="4.0dip"
+    android:visibility="gone"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1.5dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/com.whatsapp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@*com.whatsapp:id/content"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@*com.whatsapp:id/attach_picker_first_row"
+            android:paddingTop="@*com.whatsapp:dimen/attach_popup_vertical_padding"
+            android:paddingBottom="8.0dip"
+            android:clipChildren="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_document_holder"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_document"
+                    android:src="@*com.whatsapp:drawable/attach_document"
+                    android:contentDescription="@*com.whatsapp:string/attach_document"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_document"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_camera_holder"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_camera"
+                    android:src="@*com.whatsapp:drawable/attach_camera"
+                    android:contentDescription="@*com.whatsapp:string/attach_camera"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_camera"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_payment_holder"
+                android:visibility="gone"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.payments.ui.PaymentsIconView
+                    android:textSize="24.0sp"
+                    android:textColor="@*com.whatsapp:color/white"
+                    android:gravity="center"
+                    android:id="@*com.whatsapp:id/pickfiletype_payment_text"
+                    android:background="@*com.whatsapp:drawable/payment_attach_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6.0dip"
+                    android:contentDescription="@*com.whatsapp:string/payment"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:paddingTop="6.0dip"
+                    android:text="@*com.whatsapp:string/payment"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_gallery_holder"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_gallery"
+                    android:src="@*com.whatsapp:drawable/attach_gallery"
+                    android:contentDescription="@*com.whatsapp:string/attach_picture_from_gallery"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_picture_from_gallery"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_product_holder"
+                android:visibility="gone"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_product"
+                    android:contentDescription="@*com.whatsapp:string/attach_product"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_product"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@*com.whatsapp:id/attach_picker_second_row"
+            android:paddingBottom="@*com.whatsapp:dimen/attach_popup_vertical_padding"
+            android:clipChildren="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_audio_holder"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_audio"
+                    android:src="@*com.whatsapp:drawable/attach_audio"
+                    android:contentDescription="@*com.whatsapp:string/attach_audio"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_audio"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_location_holder"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_location"
+                    android:src="@*com.whatsapp:drawable/attach_location"
+                    android:contentDescription="@*com.whatsapp:string/attach_location"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_location"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_contact_holder"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_contact"
+                    android:src="@*com.whatsapp:drawable/attach_contact"
+                    android:contentDescription="@*com.whatsapp:string/attach_contact"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:text="@*com.whatsapp:string/attach_contact"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@*com.whatsapp:id/pickfiletype_reminder_holder"
+                android:visibility="gone"
+                style="@*com.whatsapp:style/AttachPickerItem">
+
+                <com.whatsapp.ThumbnailButton
+                    android:id="@*com.whatsapp:id/pickfiletype_reminder"
+                    whatsapp:tbtnForegroundOnly="true"
+                    whatsapp:tbtnRadius="-1.0dip"
+                    style="@*com.whatsapp:style/AttachPickerIcon" />
+
+                <com.whatsapp.CondensedTextView
+                    android:id="@*com.whatsapp:id/attach_appointment_reminder_text"
+                    style="@*com.whatsapp:style/AttachPickerLabel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.CircularRevealView>

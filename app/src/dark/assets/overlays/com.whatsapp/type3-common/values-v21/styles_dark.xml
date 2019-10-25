@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Attachement Picker: Label Text -->
+    <style name="AttachPickerLabel">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <!-- Welcome Screen - EULA -->
+    <style name="Theme.App.White" parent="@*com.whatsapp:style/Theme.App">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:statusBarColor">@*android:color/background_material_dark</item>
+        <item name="android:colorPrimary">@*android:color/background_material_dark</item>
+        <item name="*com.whatsapp:homeAsUpIndicator">@*com.whatsapp:drawable/ic_back_teal</item>
+    </style>
+
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large.Inverse">
         <item name="*com.whatsapp:pstsIndicatorColor">@*com.whatsapp:color/tab_indicator</item>
         <item name="*com.whatsapp:pstsDividerColor">@android:color/transparent</item>

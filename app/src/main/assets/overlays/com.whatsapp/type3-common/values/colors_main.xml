@@ -30,7 +30,6 @@
     <color name="radio_button_checked">@*com.whatsapp:color/accent</color>
     <color name="conversations_row_unread_date">@android:color/holo_green_light</color>
     <color name="conversations_row_unread_date_v2">@android:color/holo_green_light</color>
-    <color name="primaryButtonColor">@android:color/holo_green_light</color>
     <!-- Action Mode -->
     <color name="action_mode_dark">@android:color/holo_green_light</color>
     <color name="action_mode">@android:color/holo_green_light</color>
