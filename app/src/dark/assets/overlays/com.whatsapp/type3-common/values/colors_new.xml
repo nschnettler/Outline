@@ -7,15 +7,28 @@
     <color name="neutral_primary_dark">@*android:color/background_floating_material_dark</color>
 
     <!-- Background -->
-    <color name="primary_background">@*android:color/background_material_dark</color>               <!-- Main -->
+    <color name="primary_surface">@*android:color/background_material_dark</color>               <!-- Main -->
     <color name="settings_background">@*android:color/background_material_dark</color>              <!-- Settings -->
     <color name="list_section_background">@*android:color/background_material_dark</color>
     <color name="chat_info_activity">@*android:color/background_material_dark</color>
     <color name="dimmed_background">@*android:color/background_material_dark</color>
+    <color name="emoji_popup_body">@*android:color/background_material_dark</color>
+    <color name="emoji_popup_border">@*android:color/background_material_dark</color>
+    <color name="gif_search_trending_background">@*android:color/background_material_dark</color>
+    <color name="web_session_row_panel_tint">@*android:color/background_material_dark</color>
+    <color name="emoji_popup_elevated">@*android:color/background_floating_material_dark</color>
+    <color name="attachmentPickerBackgroundTint">@*android:color/background_floating_material_dark</color>
+    <color name="shortcut_layout_background">@*android:color/background_floating_material_dark</color>
+    <color name="conversationEntryBackground">@*android:color/background_floating_material_dark</color>
+    <color name="searchBackground">@*android:color/background_floating_material_dark</color>
+    <color name="searchBackground_dark">@*android:color/background_floating_material_dark</color>
+    <color name="paletteSurface_dark">@*android:color/background_material_dark</color>
 
     <!-- Bubble -->
-    <color name="bubble_color_incoming">@*android:color/background_floating_material_dark</color>
-    <color name="bubble_color_incoming_pressed">@*android:color/background_floating_material_dark</color>
+    <color name="bubbleIncomingTint">@*android:color/background_floating_material_dark</color>
+    <color name="bubbleIncomingPressedTint">@*android:color/background_floating_material_dark</color>
+    <color name="bubbleOutgoingTint">@*com.whatsapp:color/bubble_color_outgoing</color>
+    <color name="bubbleOutgoingPressedTint">@*com.whatsapp:color/bubble_color_outgoing_pressed</color>
 
     <!-- Text & Icons -->
     <color name="list_item_title">#FFF</color>                                                      <!-- Chat List - Name -->
@@ -34,6 +47,10 @@
     <color name="conversation_row_date">#deFFFFFF</color>
     <color name="primary_text">#FFF</color>
     <color name="conversation_divider_text">#FFF</color>
+    <color name="conversationRowRevokedText">#b3FFFFFF</color>
+    <color name="attachmentPickerText">#b3FFFFFF</color>
+    <color name="secondary_text">#b3FFFFFF</color>
+    <color name="hint_text">#b3FFFFFF</color>
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>
