@@ -9,10 +9,12 @@
     <!-- Background -->
     <color name="primary_surface">@*android:color/background_material_dark</color>               <!-- Main -->
     <color name="settings_background">@*android:color/background_material_dark</color>              <!-- Settings -->
+    <color name="splash_background">@*android:color/background_material_dark</color>
     <color name="list_section_background">@*android:color/background_material_dark</color>
     <color name="chat_info_activity">@*android:color/background_material_dark</color>
     <color name="dimmed_background">@*android:color/background_material_dark</color>
     <color name="emoji_popup_body">@*android:color/background_material_dark</color>
+    <color name="emoji_popup_header">@*android:color/background_material_dark</color>
     <color name="emoji_popup_border">@*android:color/background_material_dark</color>
     <color name="gif_search_trending_background">@*android:color/background_material_dark</color>
     <color name="web_session_row_panel_tint">@*android:color/background_material_dark</color>
@@ -23,6 +25,11 @@
     <color name="searchBackground">@*android:color/background_floating_material_dark</color>
     <color name="searchBackground_dark">@*android:color/background_floating_material_dark</color>
     <color name="paletteSurface_dark">@*android:color/background_material_dark</color>
+    <color name="unreadConversationDividerBackgroundTint">@*android:color/background_floating_material_dark</color>
+    <color name="panelPopupBotTint">@*android:color/background_floating_material_dark</color>
+    <color name="panelPopupTopTint">@*android:color/background_floating_material_dark</color>
+    <color name="conversationPanelBorder">@*android:color/background_floating_material_dark</color>
+    <color name="conversationPanelBackground">@*android:color/background_material_dark</color>
 
     <!-- Bubble -->
     <color name="bubbleIncomingTint">@*android:color/background_floating_material_dark</color>
@@ -51,6 +58,7 @@
     <color name="attachmentPickerText">#b3FFFFFF</color>
     <color name="secondary_text">#b3FFFFFF</color>
     <color name="hint_text">#b3FFFFFF</color>
+    <color name="unreadConversationDividerText">#b3FFFFFF</color>
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>

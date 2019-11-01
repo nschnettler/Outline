@@ -2,7 +2,6 @@
 <resources>
     <!-- Background -->
     <color name="conversation_background">@*android:color/background_material_dark</color>          <!-- Chat Bg -->
-    <color name="emoji_popup_header">@*android:color/background_material_dark</color>
     <color name="starred_list_background">@*android:color/background_material_dark</color>
     <color name="gray_activity">@*android:color/background_material_dark</color>
     <color name="background_material_dark">@*android:color/background_floating_material_dark</color><!--Messages Selected Overflow -->
