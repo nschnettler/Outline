@@ -4,17 +4,4 @@
         <item name="android:background">@null</item>
         <item name="android:backgroundTint">@android:color/transparent</item>
     </style>
-
-    <style name="BugleToolbarThemeDark" parent="@*com.google.android.apps.messaging:style/BugleBaseThemeDark.NoActionBar">
-        <item name="android:colorControlNormal">#FFF</item>
-        <item name="android:dialogTheme">@*com.google.android.apps.messaging:style/AlertDialog</item>
-        <item name="android:alertDialogTheme">@*com.google.android.apps.messaging:style/AlertDialog</item>
-        <item name="android:actionBarWidgetTheme">@*com.google.android.apps.messaging:style/BuglePlacePickerSearchViewStyle</item>
-        <item name="*com.google.android.apps.messaging:actionBarStyle">@*com.google.android.apps.messaging:style/BugleToolbarDark</item>
-
-        <item name="*com.google.android.apps.messaging:statusBarBackgroundColorM2">@*android:color/background_material_dark</item>
-        <item name="*com.google.android.apps.messaging:actionBarBackgroundColorM2">@*android:color/background_material_dark</item>
-        <item name="*com.google.android.apps.messaging:bannerBackgroundM2">@*android:color/background_floating_material_dark</item>
-        <item name="*com.google.android.apps.messaging:zeroStateSearchBoxBackground">@*android:color/background_floating_material_dark</item>
-    </style>
 </resources>

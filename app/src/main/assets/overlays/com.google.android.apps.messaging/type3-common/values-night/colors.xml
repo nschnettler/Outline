@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="status_bar_background_color_m2">@*android:color/background_floating_material_dark</color>              <!-- StatusBar -->
+    <color name="status_bar_background_color_solid">@*android:color/background_floating_material_dark</color>           <!-- StatusBar -->
+    <color name="navigation_bar_color">@*android:color/background_material_dark</color>                                 <!-- NavBar -->
+    <color name="action_bar_background_color_m2">@*android:color/background_floating_material_dark</color>              <!-- ActionBar -->
+    <color name="banner_background">@*android:color/background_material_dark</color>                                    <!-- Banner -->
+    <color name="alert_dialog_background_color">@*android:color/background_floating_material_dark</color>               <!-- Dialog -->
+    <color name="zero_state_search_box_background">@*android:color/background_floating_material_dark</color>            <!-- Search -->
+    <color name="contextual_action_bar_background_color">@*android:color /background_floating_material_dark</color>     <!-- ActionMode -->
+
+    <color name="google_grey900">@*android:color/background_material_dark</color>                                       <!-- Main -->
+    <color name="background_material_dark">@*android:color/background_floating_material_dark</color>                    <!-- Overflow -->
+    <color name="google_grey700">@*android:color/background_floating_material_dark</color>                              <!-- Compose, Stroke -->
+    <color name="google_grey800">@*android:color/background_floating_material_dark</color>                              <!-- Card -->
+    <color name="google_grey850">@*android:color/background_floating_material_dark</color>                              <!-- Incoming Message -->
+</resources>
