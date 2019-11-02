@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
-    <color name="glue_gray_7">@*android:color/background_material_dark</color>                      <!-- Main -->
-    <color name="cat_grayscale_15">@*android:color/background_floating_material_dark</color>        <!-- Elevated -->
+    <color name="gray_7">@*android:color/background_material_dark</color>                           <!-- Main -->
+    <color name="glue_gray_7">@*android:color/background_material_dark</color>
+    <color name="gray_15">@*android:color/background_floating_material_dark</color>
+    <color name="cat_grayscale_15">@*android:color/background_floating_material_dark</color>
     <color name="glue_black">@*android:color/background_floating_material_dark</color>              <!-- Bottomsheet -->
     <color name="glue_gray_15">@*android:color/background_floating_material_dark</color>            <!-- Card -->
     <color name="glue_gray_background">@*android:color/background_floating_material_dark</color>    <!-- Devices -->
-    <color name="black">@*android:color/background_material_dark</color>                            <!-- Get Premium -->
+    <color name="black">@*android:color/background_floating_material_dark</color>                   <!-- Get Premium -->
     <color name="cat_grayscale_8">@*android:color/background_material_dark</color>
     <color name="bg_filter">@*android:color/background_material_dark</color>
     <color name="cat_grayscale_12">@*android:color/background_material_dark</color>
 
     <!-- Accent -->
-    <color name="glue_green">@android:color/holo_green_light</color>                                <!-- Main -->
+    <color name="green">@android:color/holo_green_light</color>                                     <!-- Main -->
     <color name="glue_green_light">@android:color/holo_green_light</color>                          <!-- Settings -->
     <color name="cat_light_green">@android:color/holo_green_light</color>
     <color name="cat_medium_green">@android:color/holo_green_light</color>
