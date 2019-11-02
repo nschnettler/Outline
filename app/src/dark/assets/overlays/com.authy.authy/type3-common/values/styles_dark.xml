@@ -6,7 +6,6 @@
         <item name="android:windowBackground">@*android:color/background_material_dark</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:editTextStyle">@*com.authy.authy:style/EditTextStyle</item>
-        <item name="*com.authy.authy:floatingActionButtonStyle">@*com.authy.authy:style/Fab</item>
         <item name="*com.authy.authy:colorPrimary">@*com.authy.authy:color/primary</item>
         <item name="*com.authy.authy:colorPrimaryDark">@*com.authy.authy:color/primary_dark</item>
         <item name="*com.authy.authy:colorAccent">@*com.authy.authy:color/accent</item>

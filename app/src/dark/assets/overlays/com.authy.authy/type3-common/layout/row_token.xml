@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical"
-    android:background="@*android:color/background_material_dark"
-    android:backgroundTint="@*android:color/background_material_dark"
-    android:orientation="horizontal"
-    android:padding="15.0dip"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_gravity="center_vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="15.0dip">
 
     <ImageView
-        android:layout_gravity="center"
         android:id="@*com.authy.authy:id/imgTokenIcon"
-        android:padding="0.5dip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginLeft="5.0dip"
+        android:padding="0.5dip"
         android:src="@*com.authy.authy:drawable/authy_sidebar_v2" />
 
     <TextView
-        android:gravity="center_vertical"
-        android:layout_gravity="center_vertical"
         android:id="@*com.authy.authy:id/txtTokenName"
+        style="@*com.authy.authy:style/settings.title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="14.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:maxLines="2"
         android:paddingLeft="5.0dip"
         android:paddingTop="5.0dip"
         android:paddingRight="8.0dip"
         android:paddingBottom="5.0dip"
-        android:layout_width="0.0dip"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="14.0dip"
-        android:text="@*com.authy.authy:string/app_name"
-        android:maxLines="2"
-        android:lines="2"
         android:singleLine="false"
-        android:layout_weight="1.0"
-        style="@*com.authy.authy:style/settings.title" />
+        android:text="@*com.authy.authy:string/app_name" />
 
     <ImageView
-        android:layout_gravity="center"
         android:id="@*com.authy.authy:id/btnDecryptToken"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginRight="15.0dip"
+        android:scaleType="fitCenter"
         android:src="@*com.authy.authy:drawable/encryption_icon" />
 </LinearLayout>
