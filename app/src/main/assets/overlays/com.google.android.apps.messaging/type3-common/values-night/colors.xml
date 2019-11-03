@@ -8,7 +8,7 @@
     <color name="banner_background">@*android:color/background_material_dark</color>                                    <!-- Banner -->
     <color name="alert_dialog_background_color">@*android:color/background_floating_material_dark</color>               <!-- Dialog -->
     <color name="zero_state_search_box_background">@*android:color/background_floating_material_dark</color>            <!-- Search -->
-    <color name="contextual_action_bar_background_color">@*android:color /background_floating_material_dark</color>     <!-- ActionMode -->
+    <color name="contextual_action_bar_background_color">@*android:color/background_floating_material_dark</color>      <!-- ActionMode -->
 
     <color name="google_grey900">@*android:color/background_material_dark</color>                                       <!-- Main -->
     <color name="background_material_dark">@*android:color/background_floating_material_dark</color>                    <!-- Overflow -->
