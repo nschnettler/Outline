@@ -1,5 +1,11 @@
-Release 35.4
-
+Release 35.7
+ 
 Updates
-• WhatsApp 2.19.258
-• Magisk 7.3.4
+• WhatsApp 2.19.308
+• Messages 5.0.62
+• Authy 24.0
+• Spotify 8.5.308
+• Twitter 3.19
+
+Improvements
+• Settings
