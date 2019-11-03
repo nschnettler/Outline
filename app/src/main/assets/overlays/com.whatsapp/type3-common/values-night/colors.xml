@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="splash_background">@*android:color/background_material_dark</color>        <!-- Splash -->
+</resources>

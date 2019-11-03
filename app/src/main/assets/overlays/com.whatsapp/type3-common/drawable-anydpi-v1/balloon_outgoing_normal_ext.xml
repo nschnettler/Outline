@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="4dp"
+        android:top="4dp">
+        <shape
+            android:shape="rectangle"
+            android:tint="@*com.whatsapp:color/bubbleOutgoingTint">
+            <corners
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="8dp"
+                android:topLeftRadius="8dp"
+                android:topRightRadius="4dp" />
+            <solid android:color="#99FFFFFF" />
+            <padding
+                android:bottom="4.0dip"
+                android:end="8dp"
+                android:start="8dp"
+                android:top="4.0dip" />
+        </shape>
+    </item>
+</layer-list>

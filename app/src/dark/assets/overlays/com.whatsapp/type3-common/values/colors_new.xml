@@ -33,9 +33,7 @@
 
     <!-- Bubble -->
     <color name="bubbleIncomingTint">@*android:color/background_floating_material_dark</color>
-    <color name="bubbleIncomingPressedTint">@*android:color/background_floating_material_dark</color>
-    <color name="bubbleOutgoingTint">@*com.whatsapp:color/bubble_color_outgoing</color>
-    <color name="bubbleOutgoingPressedTint">@*com.whatsapp:color/bubble_color_outgoing_pressed</color>
+    <color name="bubbleOutgoingTint">@android:color/holo_green_light</color>
 
     <!-- Text & Icons -->
     <color name="list_item_title">#FFF</color>                                                      <!-- Chat List - Name -->

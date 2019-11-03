@@ -7,9 +7,7 @@
     <!-- Background -->
     <color name="conversation_background">#FFF</color>
     <color name="bubbleOutgoingTint">#F2F3F4</color>
-    <color name="bubbleSystemPressedTint">#F2F3F4</color>
     <color name="bubbleIncomingTint">#F2F3F4</color>
-    <color name="bubbleIncomingPressedTint">#F2F3F4</color>
 
     <!-- Other -->
     <color name="voice_note_scrubber_grey">#757575</color>
