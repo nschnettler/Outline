@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="ag_abs_white">@*android:color/background_material_dark</color>                             <!-- Main -->
+    <color name="google_white">@*android:color/background_material_dark</color>                             <!-- Settings -->
+    <color name="ag_status_nav_bars_translucent">@*android:color/background_material_dark</color>
+    <color name="google_default_color_surface">@*android:color/background_floating_material_dark</color>    <!-- Search -->
+    <color name="ag_abs_grey200">@*android:color/background_floating_material_dark</color>                  <!-- Card -->
+    <color name="ag_abs_grey300">#0dFFFFFF</color>                                                          <!-- Divider -->
+    <color name="snack_bar_background_color">#FFF</color>                                                   <!-- Snackbar -->
+
+    <!-- Drawer Selection -->
+    <color name="google_grey300">#0dFFFFFF</color>
+    <color name="google_blue50">#0dFFFFFF</color>
+    <color name="google_red50">#0dFFFFFF</color>
+    <color name="google_green50">#0dFFFFFF</color>
+    <color name="google_orange50">#0dFFFFFF</color>
+    <color name="google_purple50">#0dFFFFFF</color>
+
+    <!-- Text -->
+    <color name="google_grey700">#FFF</color><!-- Primary -->
+    <color name="google_grey900">#FFF</color>
+    <color name="google_grey800">#FFF</color>
+    <color name="quantum_black_text">#FFF</color>
+    <color name="snooze_dark_text">#FFF</color>
+    <color name="snooze_faint_text">#89FFFFFF</color>
+    <color name="quantum_black_secondary_text">#89FFFFFF</color>
+    <color name="quantum_black_hint_text">#b3FFFFFF</color>
+    <color name="chips_dropdown_text_default">#b3FFFFFF</color>
+    <color name="chips_dropdown_text_highlighted">@android:color/holo_red_light</color>
+</resources>

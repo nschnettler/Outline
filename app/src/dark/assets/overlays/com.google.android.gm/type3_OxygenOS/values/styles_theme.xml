@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mail Content -->
+    <style name="ComposeWebView"  parent="@*com.google.android.gm:style/ComposeBodyView">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@*com.google.android.gm:drawable/sud_card_bg_light</item>
+        <item name="android:backgroundTint">?android:colorAccent</item>
+    </style>
+</resources>
