@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary -->
-    <color name="toolbar_bg_color">@*android:color/background_material_dark</color>
-
-    <!-- Background -->
-    <color name="app_background">@*android:color/background_material_dark</color>
-    <color name="faded_gray">@*android:color/background_material_dark</color>
-
-    <!-- Icons -->
-    <color name="deep_gray">#80FFFFFF</color>
-
-    <!-- Background -->
-    <color name="pressed">#1a000000</color>
-    <color name="speech_bubble">#4D000000</color>
+    <!-- SystemBar Overlay -->
+    <color name="black_opacity_8">#00000000</color>
 </resources>

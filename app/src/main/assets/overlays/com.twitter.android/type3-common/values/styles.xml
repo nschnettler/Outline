@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TwitterBase.LightsOut" parent="@*com.twitter.android:style/PaletteLightsOut">
+        <item name="*com.twitter.android:twitterColorBadgeVerified">#FFF</item>
+        <item name="*com.twitter.android:twitterColorComposerOverflowTextHighlight">@android:color/holo_red_light</item>
+        <item name="*com.twitter.android:twitterColorDeepGray30">#4d6e767d</item>
+        <item name="*com.twitter.android:twitterColorDeepGray50">#806e767d</item>
+        <item name="*com.twitter.android:twitterColorDrawerBackground">@*android:color/background_material_dark</item>
+        <item name="*com.twitter.android:twitterColorFocusedBg">@*android:color/background_material_dark</item>
+        <item name="*com.twitter.android:twitterColorGlobalRippleSelector">#6dffffff</item>
+        <item name="*com.twitter.android:twitterColorMediumGray30">#4d3d4145</item>
+        <item name="*com.twitter.android:twitterColorMediumGray50">#803d4145</item>
+        <item name="*com.twitter.android:twitterColorPlaceholderBg">@*android:color/background_floating_material_dark</item>                 <!-- Placeholder -->
+        <item name="*com.twitter.android:twitterColorPressed">#0dFFFFFF</item>
+        <item name="*com.twitter.android:twitterColorPressedOverlay">#38000000</item>
+        <item name="*com.twitter.android:twitterColorSpeechBubble">@*android:color/background_floating_material_dark</item>                  <!-- Chat Bubble -->
+        <item name="*com.twitter.android:twitterColorTextBlue">@android:color/holo_blue_light</item>
+        <item name="*com.twitter.android:twitterColorTextDisabled">#b3FFFFFF</item>
+
+        <!-- Base -->
+        <item name="*com.twitter.android:abstractColorCellBackground">@*android:color/background_material_dark</item>       <!-- Background - Main -->
+        <item name="*com.twitter.android:abstractColorDeepGray">#b3FFFFFF</item>                                            <!-- Text - Secondary -->
+        <item name="*com.twitter.android:abstractColorDivider">#0dFFFFFF</item>                                             <!-- Divider -->
+        <item name="*com.twitter.android:abstractColorFadedGray">@*android:color/background_floating_material_dark</item>   <!-- Background - Secondary -->
+        <item name="*com.twitter.android:abstractColorFaintGray">#00f</item>
+        <item name="*com.twitter.android:abstractColorHighlightBackground">#ff0</item>
+        <item name="*com.twitter.android:abstractColorLightGray">#0dFFFFFF</item>                                           <!-- Divider 2 -->
+        <item name="*com.twitter.android:abstractColorLink">@*com.twitter.android:color/twitter_blue</item>
+        <item name="*com.twitter.android:abstractColorMediumGray">#b3FFFFFF</item>
+        <item name="*com.twitter.android:abstractColorText">#FFF</item>                                                     <!-- Text - Primary -->
+        <item name="*com.twitter.android:abstractColorUnread">@*android:color/background_floating_material_dark</item>
+    </style>
+</resources>

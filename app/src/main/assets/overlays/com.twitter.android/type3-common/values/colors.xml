@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Colors - Accent -->
+    <!-- Accent -->
     <color name="twitter_blue">@*android:color/holo_blue_light</color>
     <color name="text_blue">@*android:color/holo_blue_light</color>
-
-    <!-- Icons -->
-    <color name="deep_gray">#80000000</color>
-
-    <!-- Backgrounds -->
-    <color name="faded_gray">#FFFFFF</color>
-    <color name="speech_bubble">#ECEFF1</color>
+    <color name="twitter_blue_fill_pressed">@*android:color/holo_blue_light</color>
 </resources>
