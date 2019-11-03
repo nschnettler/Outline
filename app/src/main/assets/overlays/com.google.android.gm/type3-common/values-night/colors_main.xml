@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="ag_abs_grey900">@*android:color/background_material_dark</color>
+
+
+    <color name="ag_status_nav_bars_translucent">#00000000</color>
+
+    <color name="ag_abs_purple200">@android:color/holo_purple</color>
+    <color name="ag_abs_red200">@android:color/holo_red_light</color>
+    <color name="ag_abs_green200">@android:color/holo_green_light</color>
+    <color name="ag_abs_blue200">@android:color/holo_blue_light</color>
+    <color name="ag_abs_orange200">@android:color/holo_orange_light</color>
+</resources>
