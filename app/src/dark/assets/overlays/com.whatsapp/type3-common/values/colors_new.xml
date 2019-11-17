@@ -57,6 +57,7 @@
     <color name="secondary_text">#b3FFFFFF</color>
     <color name="hint_text">#b3FFFFFF</color>
     <color name="unreadConversationDividerText">#b3FFFFFF</color>
+    <color name="unsupportedMessageText">#b3FFFFFF</color>
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>
