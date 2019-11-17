@@ -1,11 +1,16 @@
-Release 35.7
+Release 35.8
  
 Updates
-• WhatsApp 2.19.308
-• Messages 5.0.62
-• Authy 24.0
-• Spotify 8.5.308
-• Twitter 3.19
+• WhatsApp 2.19.330
+• Twitter 8.21
+• Clock 6.2
 
 Improvements
-• Settings
+• Framework (Q)
+• StatusBar (Q)
+• Settings (Havoc, Ion)
+• WhatsApp (SplashScreen Icon)
+• Instagram
+
+Remove
+• Magisk
