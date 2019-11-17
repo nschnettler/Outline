@@ -30,6 +30,7 @@
     <color name="panelPopupTopTint">@*android:color/background_floating_material_dark</color>
     <color name="conversationPanelBorder">@*android:color/background_floating_material_dark</color>
     <color name="conversationPanelBackground">@*android:color/background_material_dark</color>
+    <color name="group_call_log_background">@*android:color/background_material_dark</color>
 
     <!-- Bubble -->
     <color name="bubbleIncomingTint">@*android:color/background_floating_material_dark</color>
@@ -58,10 +59,12 @@
     <color name="hint_text">#b3FFFFFF</color>
     <color name="unreadConversationDividerText">#b3FFFFFF</color>
     <color name="unsupportedMessageText">#b3FFFFFF</color>
+    <color name="emojiPickerIconsFocusedTint">#b3FFFFFF</color>
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>
     <color name="list_section_divider">#0dFFFFFF</color>
+    <color name="divider_gray">#0dFFFFFF</color>
 
     <!-- Other -->
     <color name="settings_profile_photo_outline">#0dFFFFFF</color>
