@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.google.android.deskclock"
+    android:id="@*com.google.android.deskclock:id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    app:statusBarBackground="@null">
+
+    <android.support.design.appbar.AppBarLayout
+        android:id="@*com.google.android.deskclock:id/app_bar_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:elevation="0.0dip">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@*com.google.android.deskclock:id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetStart="0.0dip"
+            app:theme="@*com.google.android.deskclock:style/Theme.DeskClock.OverflowButton">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@*com.google.android.deskclock:id/tabs"
+                style="@*com.google.android.deskclock:style/Widget.GoogleMaterial.TabLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@*android:color/background_floating_material_dark"
+                app:tabBackground="?android:selectableItemBackground"
+                app:tabGravity="fill"
+                app:tabMaxWidth="0.0dip"
+                app:tabMode="fixed"
+                app:tabPaddingEnd="0.0dip"
+                app:tabPaddingStart="0.0dip"
+                app:tabSelectedTextColor="?android:colorAccent"
+                app:tabTextColor="@*com.google.android.deskclock:color/google_grey400" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@*com.google.android.deskclock:string/appbar_scrolling_view_behavior">
+
+        <com.android.deskclock.widget.DeskClockViewPager
+            android:id="@*com.google.android.deskclock:id/desk_clock_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:importantForAccessibility="no"
+            android:saveEnabled="false" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_behavior="com.android.deskclock.widget.toast.SnackbarSlidingBehavior">
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start|center"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@*com.google.android.deskclock:id/left_button"
+                style="@*com.google.android.deskclock:style/Widget.GoogleMaterial.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:textAllCaps="false"
+                android:textAppearance="@*com.google.android.deskclock:style/TextAppearance.LabelGoogleMed" />
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@*com.google.android.deskclock:id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@*com.google.android.deskclock:dimen/fab_margin"
+            app:borderWidth="0.0dip"
+            app:elevation="@*com.google.android.deskclock:dimen/fab_elevation"
+            app:tint="@*com.google.android.deskclock:color/google_grey900" />
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="end|center"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@*com.google.android.deskclock:id/right_button"
+                style="@*com.google.android.deskclock:style/Widget.GoogleMaterial.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:textAllCaps="false"
+                android:textAppearance="@*com.google.android.deskclock:style/TextAppearance.LabelGoogleMed" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
