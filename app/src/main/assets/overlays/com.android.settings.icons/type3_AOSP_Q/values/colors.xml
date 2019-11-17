@@ -49,5 +49,6 @@
     <color name="homepage_xenonhd_background">#0d000000</color>
     <color name="homepage_extra_background">#0d000000</color>
     <color name="homepage_derp_background">#0d000000</color>
+    <color name="ion_icon_tint_color">#0d000000</color>
     <color name="omni_logo_color">#0d000000</color>
 </resources>
