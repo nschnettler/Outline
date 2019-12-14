@@ -33,8 +33,8 @@
     <color name="group_call_log_background">@*android:color/background_material_dark</color>
 
     <!-- Bubble -->
-    <color name="bubbleIncomingTint">@*android:color/background_floating_material_dark</color>
-    <color name="bubbleOutgoingTint">@android:color/holo_green_light</color>
+    <color name="bubble_color_incoming">@*android:color/background_floating_material_dark</color>
+    <color name="bubble_color_outgoing">@android:color/holo_green_light</color>
 
     <!-- Text & Icons -->
     <color name="list_item_title">#FFF</color>                                                      <!-- Chat List - Name -->
@@ -60,6 +60,8 @@
     <color name="unreadConversationDividerText">#b3FFFFFF</color>
     <color name="unsupportedMessageText">#b3FFFFFF</color>
     <color name="emojiPickerIconsFocusedTint">#b3FFFFFF</color>
+    <color name="msgStatusReadTint">#FFF</color>
+    <color name="msgStatusTint">#b3FFFFFF</color>
 
     <!-- Divider -->
     <color name="settings_divider">#0dFFFFFF</color>

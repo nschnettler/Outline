@@ -5,7 +5,7 @@
         android:top="4dp">
         <shape
             android:shape="rectangle"
-            android:tint="@*com.whatsapp:color/bubbleIncomingTint">
+            android:tint="@*com.whatsapp:color/bubble_color_incoming">
             <corners
                 android:bottomLeftRadius="12dp"
                 android:bottomRightRadius="12dp"

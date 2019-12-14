@@ -6,10 +6,12 @@
 
     <!-- Background -->
     <color name="conversation_background">#FFF</color>
-    <color name="bubbleOutgoingTint">#F2F3F4</color>
-    <color name="bubbleIncomingTint">#F2F3F4</color>
+    <color name="bubble_color_outgoing">#F2F3F4</color>
+    <color name="bubble_color_incoming">#F2F3F4</color>
 
     <!-- Other -->
     <color name="voice_note_scrubber_grey">#757575</color>
     <color name="link_color_outgoing">@android:color/holo_green_light</color>
+    <color name="msgStatusReadTint">@android:color/holo_green_light</color>
+    <color name="msgStatusTint">#80000000</color>
 </resources>
