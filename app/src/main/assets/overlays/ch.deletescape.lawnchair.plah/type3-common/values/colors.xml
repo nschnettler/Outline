@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent -->
+    <color name="colorAccent">@android:color/holo_blue_light</color>
+    <color name="colorAccentDark">@android:color/holo_blue_light</color>
+
+    <!-- Dark -->
+    <color name="settings_background_dark">@*android:color/background_material_dark</color>
+    <color name="settings_background_dark_2dp">@*android:color/background_floating_material_dark</color>
+    <color name="settings_background_dark_8dp">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="qsb_background_hotseat_dark">@*android:color/background_floating_material_dark</color>
+    <color name="qsb_background_drawer_dark_bar">@*android:color/background_floating_material_dark</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <!-- Dark -->
+    <style name="AppTheme.Dark" parent="@*ch.deletescape.lawnchair.plah:style/LauncherTheme.Dark">
+        <item name="android:colorPrimary">@*android:color/background_material_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:popupColorPrimary">@*android:color/background_material_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:popupColorSecondary">@*android:color/background_floating_material_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:popupColorTertiary">@*android:color/background_floating_material_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:allAppsScrimColor">@*android:color/background_material_dark</item>
+        <item name="*ch.deletescape.lawnchair.plah:allAppsNavBarScrimColor">#00FFFFFF</item>
+    </style>
+</resources>

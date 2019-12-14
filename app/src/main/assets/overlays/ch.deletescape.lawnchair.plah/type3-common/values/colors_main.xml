@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- App Colors -->
-    <color name="color_primary_settings">#FFFFFFFF</color>
-    <color name="color_primary_dark_settings_v23">#FFFFFFFF</color>
-    <color name="accent_material_light">@*android:color/accent_material_light</color>
-</resources>
