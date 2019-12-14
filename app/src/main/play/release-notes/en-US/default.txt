@@ -1,5 +1,16 @@
-Release 35.4
-
+Release 35.8
+ 
 Updates
-• WhatsApp 2.19.258
-• Magisk 7.3.4
+• WhatsApp 2.19.330
+• Twitter 8.21
+• Clock 6.2
+
+Improvements
+• Framework (Q)
+• StatusBar (Q)
+• Settings (Havoc, Ion)
+• WhatsApp (SplashScreen Icon)
+• Instagram
+
+Remove
+• Magisk

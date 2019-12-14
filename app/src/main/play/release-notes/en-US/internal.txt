@@ -1,4 +1,6 @@
-35.4 - Release Candidate
+Test Release 35.8 (1)
  
-Updates
-• WhatsApp 2.19.258
+OxygenOS 10 Experiments
+• Use "OxygenOS" option, not "AOSP Q"
+• Might break "OxygenOS" option on Oreo/Pie
+• Includes Experimental Changes to improve OxygenOS 10 support
