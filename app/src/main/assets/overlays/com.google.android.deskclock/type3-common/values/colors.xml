@@ -10,4 +10,5 @@
     <color name="material_grey_800">@android:color/background_dark</color>                          <!-- Dialog -->
     <color name="button_material_dark">@*android:color/background_material_dark</color>             <!-- Button -->
     <color name="design_snackbar_background_color">@android:color/background_dark</color>
+    <color name="navigation_bar_color">@*android:color/background_material_dark</color>
 </resources>

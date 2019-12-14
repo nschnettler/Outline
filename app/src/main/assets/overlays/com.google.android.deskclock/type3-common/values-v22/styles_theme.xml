@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.DeskClock" parent="@*com.google.android.deskclock:style/Theme.GoogleMaterial.Dark.NoActionBar.Bridge">
-        <item name="android:navigationBarColor">?android:colorBackground</item>
-        <item name="*com.google.android.deskclock:colorPrimaryDark">@*android:color/background_floating_material_dark</item>
-        <item name="*com.google.android.deskclock:colorPrimary">@*android:color/background_floating_material_dark</item>
-        <item name="*com.google.android.deskclock:colorAccent">@android:color/holo_blue_light</item>
-    </style>
-</resources>
