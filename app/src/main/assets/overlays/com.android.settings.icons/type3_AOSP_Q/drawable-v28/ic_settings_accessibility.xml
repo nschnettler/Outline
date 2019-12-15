@@ -7,7 +7,7 @@
             android:viewportHeight="24.0"
             android:tint="?android:colorControlNormal">
             <path
-                android:strokeColor="@android:color/holo_blue_dark"
+                android:strokeColor="@android:color/holo_green_dark"
                 android:strokeWidth="1.5"
                 android:strokeLineCap="round"
                 android:strokeLineJoin="round"
