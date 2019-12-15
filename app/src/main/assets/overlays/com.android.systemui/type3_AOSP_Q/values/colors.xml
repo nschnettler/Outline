@@ -3,4 +3,6 @@
     <!-- Notification Types -->
     <color name="notification_alert_color">@android:color/holo_orange_light</color>
     <color name="notification_silence_color">@android:color/holo_blue_light</color>
+
+    <color name="reloaded_tuner_background_icon_color">#F3F3F4</color>
 </resources> 

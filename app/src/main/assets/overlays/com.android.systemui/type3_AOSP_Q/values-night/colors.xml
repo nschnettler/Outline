@@ -18,4 +18,6 @@
     <!-- PowerMenu -->
     <color name="global_actions_grid_background">@*android:color/background_floating_material_dark</color>
     <color name="global_actions_separated_background">@*android:color/background_floating_material_dark</color>
+
+    <color name="reloaded_tuner_background_icon_color">@*android:color/background_floating_material_dark</color>
 </resources> 
