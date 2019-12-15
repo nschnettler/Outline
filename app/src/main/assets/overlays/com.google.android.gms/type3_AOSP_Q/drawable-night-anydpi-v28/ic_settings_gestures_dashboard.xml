@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="oval">
-            <size android:height="42dp" android:width="42dp" />
-            <solid android:color="#F3F3F4" />
+            <size
+                android:width="42dp"
+                android:height="42dp" />
+            <solid android:color="@*android:color/background_floating_material_dark" />
         </shape>
     </item>
     <item
@@ -24,5 +25,4 @@
   16S2.5 12.975 2.5 9.25 5.525 2.5 9.25 2.5" />
         </vector>
     </item>
-
 </layer-list>
