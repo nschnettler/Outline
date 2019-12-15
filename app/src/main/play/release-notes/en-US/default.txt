@@ -1,16 +1,8 @@
-Release 35.8
+Release 35.9
  
 Updates
-• WhatsApp 2.19.330
-• Twitter 8.21
-• Clock 6.2
+• WhatsApp 2.19.360
+• Clock 6.2.1
 
 Improvements
-• Framework (Q)
-• StatusBar (Q)
-• Settings (Havoc, Ion)
-• WhatsApp (SplashScreen Icon)
-• Instagram
-
-Remove
-• Magisk
+• Telegram X

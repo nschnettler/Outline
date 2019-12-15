@@ -95,5 +95,5 @@ app/.externalNativeBuild
 #Keystores, Changelogs & API Keys
 #############################################################################
 *.jks
-app/src/main/play/release-notes
+app/src/main/play/release-notes/de-DE
 PlayAPI.json
