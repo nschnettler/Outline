@@ -5,7 +5,7 @@
     android:viewportHeight="24.0">
     <path
         android:strokeColor="@*com.android.vending:color/play_icon_default"
-        android:strokeWidth="1.5"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
         android:pathData="M12 13c1.257 0 2.273-1.015 2.273-2.273V5.273C14.273

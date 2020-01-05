@@ -4,10 +4,10 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
     <path
-        android:strokeColor="@*com.android.vending:color/play_icon_default"
-        android:strokeWidth="1.5"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"
         android:pathData="M3.482 6.985H20.5 3.482M3.491
-  11.985h11M3.491 16.985h5"/>
+  11.985h11M3.491 16.985h5"
+        android:strokeWidth="2"
+        android:strokeColor="@*com.android.vending:color/play_icon_default"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
 </vector>

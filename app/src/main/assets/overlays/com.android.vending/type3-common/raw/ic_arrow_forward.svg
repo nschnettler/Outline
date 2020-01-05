@@ -3,7 +3,7 @@
     viewBox="0 0 24 24">
     <path fill="none"
         stroke="#757575"
-        stroke-width="1.5"
+        stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M5.25 12h14.5m0 0l-7.024 7.024M19.75 12L12.7 5"/>
