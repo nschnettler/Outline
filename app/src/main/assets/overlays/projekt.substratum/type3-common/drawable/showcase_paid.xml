@@ -8,7 +8,7 @@
             android:strokeColor="@android:color/holo_red_light"
             android:fillColor="@android:color/holo_red_light"
             android:fillAlpha="0.6"
-            android:strokeWidth="1.5"
+            android:strokeWidth="2"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"
             android:pathData="M16.5,3H7C5.9,3,5,3.9,5,5l0,15.2c0,0.4,0.4,0.6,0.7,0.5l6.1-2.6c0.1-0.1,0.3-0.1,0.4,0l6.1,2.6
