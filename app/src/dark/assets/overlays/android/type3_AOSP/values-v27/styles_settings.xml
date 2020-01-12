@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material.Settings">
-        <item name="android:navigationBarDividerColor">#1a000000</item>
+        <item name="android:navigationBarDividerColor">#0dFFFFFF</item>
     </style>
 </resources>

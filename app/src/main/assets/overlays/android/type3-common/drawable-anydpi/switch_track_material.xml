@@ -4,7 +4,7 @@
         android:end="10dp"
         android:start="10dp">
         <shape android:shape="rectangle">
-            <size android:height="1.5dp" />
+            <size android:height="2dp" />
             <solid android:color="@*android:color/switch_track_material" />
             <corners android:radius="10dp" />
         </shape>
