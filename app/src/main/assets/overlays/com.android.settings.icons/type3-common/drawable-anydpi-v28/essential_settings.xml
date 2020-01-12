@@ -15,7 +15,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
         android:viewportHeight="24.0" android:tint="?android:colorControlNormal">
         <path
             android:strokeColor="@android:color/holo_blue_dark"
-            android:strokeWidth="1.5"
+            android:strokeWidth="2"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"
             android:pathData="M11.304 6.152H23v11.696H11.304V6.152zM4.342 8.658c1.846 0 3.342 1.496 3.342 3.342s-1.496 3.342-3.342 3.342S1 13.846 1 12s1.496-3.342 3.342-3.342zm12.81 0c1.846 0 3.342 1.496 3.342 3.342s-1.496 3.342-3.342 3.342S13.81 13.846 13.81 12s1.496-3.342 3.342-3.342z" />

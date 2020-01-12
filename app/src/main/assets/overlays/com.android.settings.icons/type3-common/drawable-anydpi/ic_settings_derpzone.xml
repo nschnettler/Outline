@@ -15,7 +15,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
         android:viewportHeight="24.0">
         <path
             android:strokeColor="?android:colorControlNormal"
-            android:strokeWidth="1.5"
+            android:strokeWidth="2"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"
             android:pathData="M10.479 11.01h3m-3 4h3M4 9h2.925M4 17h2.925M4 13h1.925M17.1

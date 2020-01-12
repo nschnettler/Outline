@@ -6,9 +6,9 @@
     android:tint="?android:colorControlNormal">
     <path
         android:strokeColor="#FFF"
-        android:strokeWidth="1.5"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M4.2 12c0-4.3 3.5-7.8 7.8-7.8m0 15.6c4.3 0 7.8-3.5 7.8-7.8M12
- 22v-4.4l-3.3 2.2L12 22zm0-20v4.4l3.3-2.2L12 2z" />
+        android:pathData="M4.2 12c0-4.3 3.5-7.8 7.8-7.8m0 15.6c4.3 0 7.8-3.5 7.8-7.8
+M12 2.5V6l3-1.75-3-1.75zM12 18v3.5l-3-1.75L12 18z" />
 </vector>
