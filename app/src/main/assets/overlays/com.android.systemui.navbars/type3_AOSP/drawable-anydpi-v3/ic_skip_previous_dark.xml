@@ -9,7 +9,7 @@
         android:scaleX="-1">
         <path
             android:strokeColor="#000000"
-            android:strokeWidth="1.75"
+            android:strokeWidth="2"
             android:strokeAlpha="0.6"
             android:strokeLineCap="round"
             android:strokeLineJoin="round"

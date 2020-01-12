@@ -7,7 +7,7 @@
     android:tint="?android:colorControlNormal">
     <path
         android:strokeColor="#FFFFFF"
-        android:strokeWidth="1.5"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
         android:pathData="M6.607 7.995c-2.972 2.972-2.972 7.803 0 10.776C8.094 20.257 10.047 21 12

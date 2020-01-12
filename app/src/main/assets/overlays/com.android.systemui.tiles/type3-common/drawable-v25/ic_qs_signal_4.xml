@@ -5,13 +5,37 @@
     android:viewportHeight="24"
     android:tint="?android:colorControlNormal">
     <path
-        android:name="Base"
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="1.5"
+        android:strokeColor="#FFF"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M20.463 8.895c-.004-3.41-.018-1.871-.023-4.966
-  0-.194-.117-.369-.296-.443-.18-.074-.387-.032-.524.104C16.674 6.536 6.627
-  16.581 3.678 19.53c-.138.137-.179.343-.105.523.075.18.25.297.444.297h12.995
-  M20.487 20.394l-.001-.678v.677zm.027-7.987v4.975" />
+        android:pathData="M5.25 19.75v1.5" />
+
+    <path
+        android:strokeColor="#FFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M9.925 14.75v6.5" />
+
+    <path
+        android:strokeColor="#FFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M14.58 9.75v11.5" />
+
+    <path
+        android:strokeColor="#FFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M19.25 4.75v16.5" />
+
+    <path
+        android:strokeColor="#FFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M4 4l5 5M4 9l5-5" />
 </vector>

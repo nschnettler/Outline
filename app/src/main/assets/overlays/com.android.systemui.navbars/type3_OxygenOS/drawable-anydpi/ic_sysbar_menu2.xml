@@ -11,7 +11,7 @@
   1.5-1.5zm0 6c.82842712 0 1.5.67157288 1.5 1.5s-.67157288
   1.5-1.5 1.5-1.5-.67157288-1.5-1.5.67157288-1.5 1.5-1.5z"
         android:strokeColor="#000000"
-        android:strokeWidth="1.75"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
 </vector>

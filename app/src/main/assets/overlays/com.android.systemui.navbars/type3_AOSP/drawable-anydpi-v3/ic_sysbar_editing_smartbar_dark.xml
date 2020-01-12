@@ -6,7 +6,7 @@
     <path
         android:strokeColor="#000000"
         android:strokeAlpha="0.6"
-        android:strokeWidth="1.75"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
         android:pathData="M18.207 4.207c-.187-.187-.442-.293-.707-.293-.265 0-.52.106-.707.293C13.95

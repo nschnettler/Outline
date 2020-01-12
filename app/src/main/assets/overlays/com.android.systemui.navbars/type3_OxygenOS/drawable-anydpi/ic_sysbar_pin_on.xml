@@ -8,7 +8,7 @@
         12,18C15.312,18 18,15.312 18,12C18,8.688 15.312,6 12,6Z
         M12,12m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
         android:strokeColor="#ff000000"
-        android:strokeWidth="1.75"
+        android:strokeWidth="2"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
 </vector>
