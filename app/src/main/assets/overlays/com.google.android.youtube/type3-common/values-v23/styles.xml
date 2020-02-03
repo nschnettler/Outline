@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.V23.Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.V21.Theme.YouTube.Light">
+    <style name="Base.V23.Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.Theme.YouTube.Light">
         <item name="android:windowLightStatusBar">true</item>
         <item name="*com.google.android.youtube:ytStatusBarBackground">#FFF</item>
     </style>
-    <style name="Base.V23.Theme.YouTube.Dark" parent="@*com.google.android.youtube:style/Base.V21.Theme.YouTube.Dark">
+    <style name="Base.V23.Theme.YouTube.Dark" parent="@*com.google.android.youtube:style/Base.Theme.YouTube.Dark">
         <item name="*com.google.android.youtube:ytIcon1">#b3FFFFFF</item>
         <item name="*com.google.android.youtube:ytTextDisabled">#b3FFFFFF</item>
         <item name="*com.google.android.youtube:ytIconInactive">#b3FFFFFF</item>
