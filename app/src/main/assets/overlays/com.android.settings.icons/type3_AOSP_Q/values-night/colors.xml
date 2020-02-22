@@ -53,6 +53,7 @@
     <color name="homepage_extra_background">#0dFFFFFF</color>
     <color name="homepage_derp_background">#0dFFFFFF</color>
     <color name="homepage_validus_background">#0dFFFFFF</color>
+    <color name="homepage_du_themes_background">#0dFFFFFF</color>
     <color name="ion_icon_tint_color">#0dFFFFFF</color>
     <color name="omni_logo_color">#0dFFFFFF</color>
 </resources>
