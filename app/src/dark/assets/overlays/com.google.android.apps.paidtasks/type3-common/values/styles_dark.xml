@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme" parent="@*com.google.android.apps.paidtasks:style/Theme.AppCompat">
-        <item name="*com.google.android.apps.paidtasks:colorPrimary">@*com.google.android.apps.paidtasks:color/primary</item>
-        <item name="*com.google.android.apps.paidtasks:colorPrimaryDark">@*com.google.android.apps.paidtasks:color/primary_dark</item>
-        <item name="*com.google.android.apps.paidtasks:colorAccent">@*com.google.android.apps.paidtasks:color/accent</item>
-    </style>
-</resources>
