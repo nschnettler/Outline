@@ -11,4 +11,10 @@
     <color name="ag_abs_green200">@android:color/holo_green_light</color>
     <color name="ag_abs_blue200">@android:color/holo_blue_light</color>
     <color name="ag_abs_orange200">@android:color/holo_orange_light</color>
+
+    <!-- Dark -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>
+    <color name="google_grey800">@*android:color/background_floating_material_dark</color>
+    <color name="google_grey700">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
 </resources>
