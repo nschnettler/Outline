@@ -1,8 +1,12 @@
-Release 35.9
+Release 35.10
  
 Updates
-• WhatsApp 2.19.360
-• Clock 6.2.1
+• Boost for Reddit 1.10.1
+• YouTube 15.07.52
+• GMail 2020.02.02
 
 Improvements
+• Settings
+• Messages
+• GMail
 • Telegram X
