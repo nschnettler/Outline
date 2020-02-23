@@ -12,7 +12,7 @@ import com.schnettler.common.AdvancedConstants.OTHER_THEME_SYSTEMS
 @Suppress("ConstantConditionIf")
 object ThemeFunctions {
 
-    fun isCallingPackageAllowed(packageId: String): Boolean {
+    fun isCallingPackageAllowed(packageId: String?): Boolean {
         if (BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
             OTHER_THEME_SYSTEMS.contains(packageId)
         }

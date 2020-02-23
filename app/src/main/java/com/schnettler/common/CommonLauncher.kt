@@ -3,11 +3,10 @@
 package com.schnettler.common
 
 import android.app.Activity
-import android.content.Context
 import android.content.Intent
-import android.support.v7.app.AlertDialog
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import com.github.javiersantos.piracychecker.*
 import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.utils.apkSignature
@@ -19,11 +18,11 @@ import com.schnettler.common.ThemeFunctions.isCallingPackageAllowed
 
 object CommonLauncher {
 
-    private val debug = false
-    private val tag = "SubstratumThemeReport"
-    private val substratumIntentData = "projekt.substratum.THEME"
-    private val getKeysIntent = "projekt.substratum.GET_KEYS"
-    private val receiveKeysIntent = "projekt.substratum.RECEIVE_KEYS"
+    private const val debug = false
+    private const val tag = "SubstratumThemeReport"
+    private const val substratumIntentData = "projekt.substratum.THEME"
+    private const val getKeysIntent = "projekt.substratum.GET_KEYS"
+    private const val receiveKeysIntent = "projekt.substratum.RECEIVE_KEYS"
     private const val themePiracyCheck = false
 
     fun start(ctx : Activity) {
@@ -56,7 +55,7 @@ object CommonLauncher {
         } else {
             OTHER_THEME_SYSTEMS
                     .filter { action?.startsWith(prefix = it, ignoreCase = true) ?: false }
-                    .forEach { verified = true }
+                    .forEach { _ -> verified = true }
         }
         if (!verified) {
             Log.e(tag, "This theme does not support the launching theme system. ($action)")
@@ -119,6 +118,7 @@ object CommonLauncher {
                         } else {
                             returnIntent.`package` = callingPackage
                         }
+
 
                         if (ctx.intent.action == substratumIntentData) {
                             ctx.setResult(getSelfSignature(ctx.applicationContext), returnIntent)

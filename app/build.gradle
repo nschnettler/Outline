@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'com.github.triplet.play' version '2.6.1'
+    id 'com.github.triplet.play' version '2.7.1'
 }
 apply from: 'ThemerConstants.gradle'
 
@@ -81,7 +81,10 @@ play {
 }
 
 dependencies {
+    def appcompat_version = "1.1.0"
+
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.javiersantos:PiracyChecker:1.2.4'
+    implementation 'com.github.javiersantos:PiracyChecker:1.2.6'
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
