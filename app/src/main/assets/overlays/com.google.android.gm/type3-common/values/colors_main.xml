@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="primary_color_red">@android:color/holo_red_light</color>
+    <color name="google_red600">@android:color/holo_red_light</color>
     <color name="google_blue600">@android:color/holo_red_light</color>
     <color name="google_yellow500">@android:color/holo_red_light</color>
     <color name="quantum_googblue500">@android:color/holo_red_light</color>
@@ -9,8 +9,10 @@
 
     <!-- Colors -->
     <color name="google_green600">@android:color/holo_green_light</color>
+    <color name="google_green700">@android:color/holo_green_light</color>
     <color name="google_orange500">@android:color/holo_orange_light</color>
     <color name="google_yellow800">@android:color/holo_orange_light</color>
+    <color name="google_yellow900">@android:color/holo_orange_light</color>
     <color name="google_purple500">@android:color/holo_purple</color>
 
     <!-- Refresh -->
@@ -18,11 +20,4 @@
     <color name="swipe_refresh_color2">@android:color/holo_red_light</color>
     <color name="swipe_refresh_color3">@android:color/holo_red_light</color>
     <color name="swipe_refresh_color4">@android:color/holo_red_light</color>
-
-    <!-- Swipe Actions -->
-    <color name="swipe_bg_archive">@android:color/holo_green_light</color>
-    <color name="swipe_bg_delete">@android:color/holo_red_light</color>
-    <color name="swipe_bg_mark_as_read_or_unread">@android:color/holo_blue_light</color>
-    <color name="swipe_bg_moveTo">@android:color/holo_blue_light</color>
-    <color name="swipe_bg_snooze">@android:color/holo_orange_light</color>
 </resources>

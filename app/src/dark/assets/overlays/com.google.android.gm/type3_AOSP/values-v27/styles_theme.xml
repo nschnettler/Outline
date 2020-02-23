@@ -4,4 +4,7 @@
     <style name="ColoredNavBarGeneralTheme" parent="@*com.google.android.gm:style/BaseGeneralTheme">
         <item name="android:windowLightNavigationBar">false</item>
     </style>
+    <style name="Theme.GoogleMaterial.Light" parent="@*com.google.android.gm:style/Base.Theme.GoogleMaterial.Light">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
 </resources>
