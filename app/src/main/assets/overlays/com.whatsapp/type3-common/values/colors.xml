@@ -14,7 +14,6 @@
     <color name="settings_icon">#80000000</color>
     <color name="msgStatusTint">#80000000</color>
     <color name="voice_note_scrubber_grey">#757575</color>
-    <color name="bubble_color_outgoing">@android:color/holo_green_light</color>
 
     <!-- Dark -->
     <color name="paletteSurface">@*android:color/background_material_dark</color>                                       <!-- Background -->

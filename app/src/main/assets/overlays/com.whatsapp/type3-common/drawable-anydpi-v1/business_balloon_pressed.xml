@@ -1,7 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
- xmlns:android="http://schemas.android.com/apk/res/android" android:tint="@*com.whatsapp:color/bubble_color_outgoing">
-   <solid android:color="#66FFFFFF"/>
-   <corners android:radius="8dp"/>
-   <padding  android:left="8dp" android:right="8dp" android:top="8dp" android:bottom="8dp" />
-</shape>
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:bottom="8dp"
+       android:top="8dp">
+      <shape
+          android:shape="rectangle"
+          android:tint="@*com.whatsapp:color/conversation_background">
+         <corners
+             android:bottomLeftRadius="12dp"
+             android:bottomRightRadius="12dp"
+             android:topLeftRadius="12dp"
+             android:topRightRadius="6dp" />
+         <solid android:color="#FFF" />
+         <padding
+             android:bottom="4.0dip"
+             android:end="8dp"
+             android:start="8dp"
+             android:top="4.0dip" />
+      </shape>
+   </item>
+   <item
+       android:bottom="4dp"
+       android:top="4dp">
+      <shape
+          android:shape="rectangle"
+          android:tint="@*com.whatsapp:color/bubble_color_outgoing_pressed">
+         <corners
+             android:bottomLeftRadius="12dp"
+             android:bottomRightRadius="12dp"
+             android:topLeftRadius="12dp"
+             android:topRightRadius="6dp" />
+         <solid android:color="#FFF" />
+         <padding
+             android:bottom="4.0dip"
+             android:end="8dp"
+             android:start="8dp"
+             android:top="4.0dip" />
+      </shape>
+   </item>
+</layer-list>

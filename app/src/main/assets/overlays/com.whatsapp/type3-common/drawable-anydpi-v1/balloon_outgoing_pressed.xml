@@ -24,13 +24,13 @@
         android:top="4dp">
         <shape
             android:shape="rectangle"
-            android:tint="@*com.whatsapp:color/bubble_color_outgoing">
+            android:tint="@*com.whatsapp:color/bubble_color_outgoing_pressed">
             <corners
                 android:bottomLeftRadius="12dp"
                 android:bottomRightRadius="12dp"
                 android:topLeftRadius="12dp"
                 android:topRightRadius="6dp" />
-            <solid android:color="#99FFFFFF" />
+            <solid android:color="#FFF" />
             <padding
                 android:bottom="4.0dip"
                 android:end="8dp"
