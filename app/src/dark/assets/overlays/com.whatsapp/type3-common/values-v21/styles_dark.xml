@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large.Inverse">
-        <item name="*com.whatsapp:pstsIndicatorColor">@*com.whatsapp:color/tab_indicator</item>
-        <item name="*com.whatsapp:pstsDividerColor">@android:color/transparent</item>
-    </style>
-</resources>
