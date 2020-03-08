@@ -2,5 +2,6 @@
 <resources>
     <!-- Backgrounds -->
     <color name="splash_background">@*android:color/background_material_dark</color>        <!-- Splash -->
+    <color name="navigationBar">@*android:color/background_material_dark</color>
     <color name="voice_note_scrubber_grey">#FFF</color>
 </resources>
