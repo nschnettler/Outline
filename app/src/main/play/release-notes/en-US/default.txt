@@ -1,12 +1,5 @@
-Release 35.10
+Release 35.11
  
 Updates
-• Boost for Reddit 1.10.1
-• YouTube 15.07.52
-• GMail 2020.02.02
-
-Improvements
-• Settings
-• Messages
-• GMail
-• Telegram X
+• WhatsApp 2.20.64
+• Play Games 2020.02
