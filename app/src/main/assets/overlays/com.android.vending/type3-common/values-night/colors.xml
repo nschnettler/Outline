@@ -19,6 +19,7 @@
     <color name="grey_850">@*android:color/background_floating_material_dark</color>                            <!-- Elevated -->
     <color name="google_grey800">@*android:color/background_floating_material_dark</color>                      <!-- Placeholder -->
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>   <!-- Dialog -->
+    <color name="navigation_bar_color_night">@*android:color/background_material_dark</color>
     <color name="google_grey700">#0dFFFFFF</color>                                                              <!-- Divider, Button Disabled Text -->
 
     <!-- Text -->
