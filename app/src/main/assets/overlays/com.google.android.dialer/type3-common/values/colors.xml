@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="dialer_light_theme_color">@android:color/holo_blue_light</color>                   <!-- Light -->
-    <color name="dialer_dark_theme_color">@android:color/holo_blue_light</color>                    <!-- Dark -->
-    <color name="google_blue_800">@android:color/holo_blue_light</color>                            <!-- Dark - FAB -->
+    <color name="dialer_light_theme_color">@android:color/holo_blue_light</color>                                       <!-- Light -->
+    <color name="dialer_dark_theme_color">@android:color/holo_blue_light</color>                                        <!-- Dark -->
+    <color name="google_blue800">@android:color/holo_blue_light</color>                                                 <!-- Dark - FAB -->
     <color name="dialer_snackbar_action_text_color">@android:color/holo_blue_light</color>
 
     <!-- Dark Theme -->
-    <color name="google_grey_900">@*android:color/background_material_dark</color>                              <!-- Background - Main -->
-    <color name="google_grey_900_elevated">@*android:color/background_floating_material_dark</color>            <!-- Background - Elevated -->
-    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>    <!-- Background - Elevated -->
+    <color name="google_grey900">@*android:color/background_material_dark</color>                                       <!-- Background - Main -->
+    <color name="google_grey900_elevated">@*android:color/background_floating_material_dark</color>                     <!-- Background - Elevated -->
+    <color name="google_grey700">@*android:color/background_floating_material_dark</color>                              <!-- Divider -->
+    <color name="design_snackbar_background_color">@*android:color/background_floating_material_dark</color>            <!-- Snackbar -->
 
     <!-- Call -->
     <color name="dialer_call_green">@android:color/holo_blue_light</color>                          <!-- Start -->

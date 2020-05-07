@@ -12,7 +12,7 @@ android {
         targetSdkVersion 29
         minSdkVersion 25
         versionCode 290080
-        versionName "35.11"
+        versionName "35.12"
 
         buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "true"
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "false"
