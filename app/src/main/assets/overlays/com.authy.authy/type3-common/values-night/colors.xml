@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">@*android:color/background_material_dark</color>
+    <color name="darker_layout_background">@*android:color/background_floating_material_dark</color>
+    <color name="default_layout_background">@*android:color/background_material_dark</color>
+    <color name="grayish_layout_background">@*android:color/background_floating_material_dark</color>
+    <color name="primary">@*android:color/background_floating_material_dark</color>
+    <color name="primary_dark">@*android:color/background_floating_material_dark</color>
+    <color name="black">@*android:color/background_material_dark</color>
+    <color name="design_dark_default_color_background">@*android:color/background_material_dark</color>
+    <color name="design_dark_default_color_surface">@*android:color/background_floating_material_dark</color>
+</resources>
