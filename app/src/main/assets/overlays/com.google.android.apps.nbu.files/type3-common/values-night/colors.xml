@@ -7,9 +7,9 @@
     <color name="more_files_thumbnail_overlay">@*android:color/background_floating_material_dark</color>
     <color name="square_item_default_background">@*android:color/background_floating_material_dark</color>
     <color name="dialog_background">@*android:color/background_floating_material_dark</color>
-    <color name="google_dark_default_color_surface">@*android:color/background_floating_material_dark</color>       <!-- Elevated -->
-    <color name="google_dark_default_color_primary_dark">@*android:color/background_floating_material_dark</color>  <!-- Primary Dark -->
-    <color name="item_border_color">#0dFFFFFF</color>                                                               <!-- Divider -->
+    <color name="google_grey900">@*android:color/background_floating_material_dark</color>                              <!-- Elevated -->
+    <color name="item_border_color">#0dFFFFFF</color>                                                                   <!-- Divider -->
+    <color name="google_dark_default_color_hairline">#0dFFFFFF</color>
 
     <!-- Other -->
     <color name="color_apps">@android:color/holo_red_light</color>
