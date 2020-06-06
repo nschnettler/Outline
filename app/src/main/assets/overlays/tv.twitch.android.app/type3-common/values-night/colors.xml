@@ -3,6 +3,8 @@
     <!-- Background -->
     <color name="background_body">@*android:color/background_material_dark</color>                  <!-- Main -->
     <color name="background_base">@*android:color/background_floating_material_dark</color>         <!-- Elevated -->
+    <color name="hinted_grey_4">@*android:color/background_floating_material_dark</color>         <!-- Elevated -->
+    <color name="button_background_secondary">#0dFFFFFF</color>
 
     <!-- Other -->
     <color name="opac_w_3">#0dFFFFFF</color>
