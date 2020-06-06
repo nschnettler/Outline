@@ -1,5 +1,18 @@
-Release 35.11
+Release 35.12
  
 Updates
-• WhatsApp 2.20.64
-• Play Games 2020.02
+• Phone 48
+• PlayStore 20
+• Authy 24.3.3
+• Files 1.0.313504734
+• Clock 6.3
+• Hangouts 33
+• Instagram 144
+• Patreon 5.6.1
+• Photos 4.51
+• Movies 4.19.19
+• Twitch 9.1.1
+
+Improvements
+• Settings
+• YouTube
