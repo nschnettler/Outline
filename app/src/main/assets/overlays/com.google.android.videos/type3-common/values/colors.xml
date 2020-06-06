@@ -2,6 +2,7 @@
 <resources>
     <!-- Accent -->
     <color name="play_movies_primary">@android:color/holo_red_light</color>
+    <color name="replay__pal_movies_dark_300">@android:color/holo_red_light</color>
     <color name="replay__pal_movies_dark_600">@android:color/holo_red_light</color>
     <color name="replay__pal_movies_dark_400">@android:color/holo_red_light</color>
     <color name="replay__pal_movies_dark_800">@android:color/holo_red_light</color>
@@ -16,4 +17,6 @@
     <!-- Text -->
     <color name="replay__pal_gray_600">#b3FFFFFF</color>
     <color name="google_dark_default_color_on_surface_variant">#b3FFFFFF</color>
+
+    <color name="play_movies_action_bar_background">@*android:color/background_material_dark</color>
 </resources>
