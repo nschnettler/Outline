@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Accent -->
-    <color name="ag_abs_grey900">@*android:color/background_material_dark</color>
-
-
+    <color name="google_blue300">@android:color/holo_blue_light</color>
     <color name="ag_status_nav_bars_translucent">#00000000</color>
 
     <color name="ag_abs_purple200">@android:color/holo_purple</color>
@@ -15,6 +13,8 @@
     <!-- Dark -->
     <color name="google_grey900">@*android:color/background_material_dark</color>
     <color name="google_grey800">@*android:color/background_floating_material_dark</color>
-    <color name="google_grey700">@*android:color/background_floating_material_dark</color>
+    <color name="google_grey700">#0dFFFFFF</color>
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="ag_abs_grey900_grey200_11">@*android:color/background_floating_material_dark</color><!-- FAB-->
+    <color name="og_elevation_dark_2">@*android:color/background_floating_material_dark</color><!-- Account -->
 </resources>
