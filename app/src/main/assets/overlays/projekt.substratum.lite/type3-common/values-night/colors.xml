@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Theme -->
-    <color name="colorPrimary">@*android:color/background_material_dark</color>
-    <color name="colorPrimaryDark">@*android:color/background_material_dark</color>
-    <color name="colorPrimaryVariant">@*android:color/background_material_dark</color>
-    <color name="window_bg">@*android:color/background_material_dark</color>
-    <color name="popupColor">@android:color/background_dark</color>
-    <color name="splash_bg">@*android:color/background_material_dark</color>
+    <!-- Background -->
+    <color name="background">@*android:color/background_material_dark</color>
+    <color name="surface">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+
+    <!-- Divider -->
+    <color name="divider_color">#0dFFFFFF</color>
+    <color name="glide_placeholder">#0dFFFFFF</color>
+
+    <!-- Accent -->
+    <color name="primary">@android:color/holo_blue_light</color>
+    <color name="secondary">@android:color/holo_blue_light</color>
+    <color name="secondary_variant">#00f</color>
+
+    <!-- Overlays -->
+    <color name="overlay_installed_invalid">#EC979A</color>     <!--Red -->
+    <color name="overlay_installed_list_entry">#96C4A8</color>  <!-- Green -->
+    <color name="overlay_installed_not_active">#B99BCA</color>  <!-- Pink -> Purple -->
+    <color name="overlay_not_enabled_list_entry">#F4B68B</color><!-- Orange -->
 </resources>
