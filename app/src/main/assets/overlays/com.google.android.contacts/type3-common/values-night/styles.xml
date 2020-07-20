@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContactsTheme" parent="@*com.google.android.contacts:style/BaseContactsTheme">
+        <item name="*com.google.android.contacts:elevationOverlayEnabled">false</item>
+    </style>
+</resources>
