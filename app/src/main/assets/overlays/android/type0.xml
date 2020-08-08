@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<type0>
+    <!-- ABOUT RESOURCE ATTRIBUTES
+         lighten [0..1] adds the lightness component from the selected color that converted to HSL components
+         darken [0..1] subtracts the lightness component from the selected color that converted to HSL components
+         saturate [0..1] adds the saturation component from the selected color that converted to HSL components
+         desaturate [0..1] subtracts the saturation component from the selected color that converted to HSL components
+         alpha [0..1] controls the transparency of the generated color
+    -->
+    <type0a name="Dark Backgrounds" color="#202030">
+        <preset>#202030</preset>
+        <preset>#202124</preset>
+        <preset>#000000</preset>
+        <preset>#0E0E0F</preset>
+        <preset>#212121</preset>
+        <preset>#2a2b32</preset>
+        <preset>#202028</preset>
+        <preset>#2e3441</preset>
+        <preset>#111010</preset>
+        <preset>#151515</preset>
+        <preset>#221F28</preset>
+        <preset>#1e2748</preset>
+        <preset>#28243A</preset>
+        <preset>#16171D</preset>
+        <resource name="background_material_dark" alpha="1.0"/>
+        <resource name="background_dark" alpha="1.0" lighten="0.05"/>
+    </type0a>
+</type0>

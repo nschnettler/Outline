@@ -8,5 +8,7 @@
     <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
 
     <!-- Background -->
-    <color name="background_dark">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_dark</color>
+    <color name="background_material_dark">#202030</color>
+    <color name="background_dark">#2B2B3B</color>
 </resources>
