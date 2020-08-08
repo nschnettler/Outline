@@ -2,15 +2,13 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24.0"
-    android:viewportHeight="24.0">
+    android:viewportHeight="24.0"
+    android:tint="?android:colorControlNormal">
     <path
         android:strokeColor="#FFFFFF"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:pathData="M5.459 5.459c3.61-3.61 9.472-3.61 13.082 0 3.61
-3.61 3.61 9.472 0 13.082-3.61 3.61-9.472
-3.61-13.082 0-3.61-3.61-3.61-9.472
-0-13.082z M12 8.225v-.45.45zM12
- 16.25v-4.5 4.5z" />
+        android:pathData="M8 18.5c1.1 0 2-.9 2-2v-9c0-1.1-.9-2-2-2s-2 .9-2 2v9c0 1.1.9 2 2
+  2zm6-11v9c0 1.1.9 2 2 2s2-.9 2-2v-9c0-1.1-.9-2-2-2s-2 .9-2 2z" />
 </vector>
