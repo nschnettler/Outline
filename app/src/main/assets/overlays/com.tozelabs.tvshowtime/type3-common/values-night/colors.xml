@@ -14,6 +14,7 @@
     <color name="vote_background_color">@*android:color/background_floating_material_dark</color>           <!-- Episode Vote Button -->
     <color name="background_material_dark">@*android:color/background_material_dark</color>
     <color name="dark_fragment_background">@*android:color/background_material_dark</color>
+    <color name="design_dark_default_color_background">@*android:color/background_material_dark</color>
     <color name="input_background_color">#0dFFFFFF</color>
     <color name="highlighted_background_color">#0dFFFFFF</color>
     <color name="progress_selected_background_color">#0dFFFFFF</color>
