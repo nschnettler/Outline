@@ -1,9 +1,9 @@
 Release 35.13
  
 New
-Add Colorpicker support for backgrounds in Substratum Lite (type0). 
-If you are using the old Substratum app you can't change the background color anymore. 
-Either use substratum lite or Outline X.
+Colorpicker support for backgrounds in Substratum Lite (type0).
+You can't change backgrounds using old Substratum, 
+either use substratum lite or Outline X.
  
 Updates
 • Substratum Lite 0.5.15
@@ -16,6 +16,6 @@ Updates
 • Viper4Android 2.7.1.6
 
 Improvements & Bugfixes
-• Navbar: Android 10 gesture handle
+• Navbar: Android Q gesture handle
 • Settings: EvolutionX Icons
 • TV Time: Splashscreen
