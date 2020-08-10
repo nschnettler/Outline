@@ -73,6 +73,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 play {
@@ -81,10 +85,11 @@ play {
 }
 
 dependencies {
-    def appcompat_version = "1.1.0"
+    def appcompat_version = "1.2.0"
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.github.javiersantos:PiracyChecker:1.2.6'
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.cardview:cardview:1.0.0"
 }
