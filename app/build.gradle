@@ -3,7 +3,6 @@ plugins {
     id 'kotlin-android'
     id 'com.github.triplet.play' version '2.7.5'
 }
-apply from: 'ThemerConstants.gradle'
 
 android {
     compileSdkVersion 29
@@ -11,13 +10,8 @@ android {
     defaultConfig {
         targetSdkVersion 29
         minSdkVersion 25
-        versionCode 290083
-        versionName "35.13"
-
-        buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "true"
-        buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "false"
-        buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "false"
-        buildConfigField "boolean", "ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS", "true"
+        versionCode 290084
+        versionName "35.13.2"
     }
 
     signingConfigs {
@@ -44,17 +38,11 @@ android {
             dimension "theme"
             applicationId "com.schnettler.ethereal"
             signingConfig signingConfigs.etherealRelease
-
-            buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + ETHEREAL_BASE_64_LICENSE_KEY + "\""
-            buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + ETHEREAL_APK_SIGNATURE_PRODUCTION + "\""
         }
         light {
             dimension "theme"
             applicationId "com.schnettler.outline"
             signingConfig signingConfigs.outlineRelease
-
-            buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + OUTLINE_BASE_64_LICENSE_KEY + "\""
-            buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + OUTLINE_APK_SIGNATURE_PRODUCTION + "\""
         }
     }
 
@@ -63,10 +51,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
-
-            buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "false"
-            buildConfigField "String", "BASE_64_LICENSE_KEY", "\"\""
-            buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"\""
         }
         release {
             minifyEnabled true
@@ -88,7 +72,6 @@ dependencies {
     def appcompat_version = "1.2.0"
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.javiersantos:PiracyChecker:1.2.6'
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "androidx.cardview:cardview:1.0.0"
