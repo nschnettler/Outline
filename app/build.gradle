@@ -10,8 +10,8 @@ android {
     defaultConfig {
         targetSdkVersion 29
         minSdkVersion 25
-        versionCode 290084
-        versionName "35.13.2"
+        versionCode 290085
+        versionName "35.13.2-FINAL"
     }
 
     signingConfigs {
@@ -61,7 +61,7 @@ android {
 
 play {
     serviceAccountCredentials = file("PlayAPI.json")
-    track = "production"
+    track = "internal"
 }
 
 dependencies {

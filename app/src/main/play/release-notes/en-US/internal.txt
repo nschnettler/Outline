@@ -1,6 +1,7 @@
-Test Release 35.8 (1)
- 
-OxygenOS 10 Experiments
-• Use "OxygenOS" option, not "AOSP Q"
-• Might break "OxygenOS" option on Oreo/Pie
-• Includes Experimental Changes to improve OxygenOS 10 support
+Thank you for using and supporting Ethereal & Outline for the last four years. This is unfortunately the last update. It removes all anti-piracy protections.
+
+Ethereal and Outline will be available for free on the PlayStore going forward, but won't receive any new updates. I decided to keep it published because many overlays are still working. I hope you can still enjoy them.
+
+You can find more information here: bit.ly/outlineDiscontinuation
+
+I am sorry for discontinuing the support and hope you can understand.
