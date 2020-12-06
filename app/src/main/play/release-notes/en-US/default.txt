@@ -1,21 +1,7 @@
-Release 35.13
- 
-New
-Colorpicker support for backgrounds in Substratum Lite (type0).
-You can't change backgrounds using old Substratum, 
-either use substratum lite or Outline X.
- 
-Updates
-• Substratum Lite 0.5.15
-• Chrome 83
-• Ex Kernel Manager 5.50
-• GMail 2020.06.28
-• Google Contacts 3.27
-• Phone 52
-• YouTube Music 3.77.52
-• Viper4Android 2.7.1.6
+Thank you for using and supporting Outline & Ethereal. Unfortunately they aren't actively maintained anymore and won't receive regular updates.
 
-Improvements & Bugfixes
-• Navbar: Android Q gesture handle
-• Settings: EvolutionX Icons
-• TV Time: Splashscreen
+They will stay available for free going forward because they still work and look great. You can find more information here: bit.ly/outlineDiscontinuation
+
+This update removes all anti-piracy protections and fixes the Google Icon in Settings.
+
+I am sorry hope you can understand.
