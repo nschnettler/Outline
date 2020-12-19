@@ -12,9 +12,20 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/ThemeName"
         android:supportsRtl="true"
-        android:theme="@style/DialogStyle"
+        android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         android:extractNativeLibs="false">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/ThemeName"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <meta-data
             android:name="Substratum_Legacy"
             android:value="@bool/ThemeSupportLegacy"/>

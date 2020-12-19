@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="8.dp"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingHorizontal="8.dp"
+    android:paddingVertical="16.dp">
+
+
+    <include
+        android:id="@+id/rate_card"
+        layout="@layout/card" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16.dp" />
+
+    <include
+        android:id="@+id/subs_card"
+        layout="@layout/card" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16.dp" />
+
+    <include
+        android:id="@+id/open_card"
+        layout="@layout/card" />
+</LinearLayout>
